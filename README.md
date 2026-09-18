@@ -102,17 +102,14 @@ msgfmt -v /var/www/html/admin/modules/<模組>/i18n/zh_TW/LC_MESSAGES/<模組>.p
 
 ### 重啟 Web server（PHP 程序會快取已載入的 catalog）
 ```bash
-```
 systemctl restart apache2   # 或對應的 php-fpm；勿用 fwconsole restart（會連 Asterisk 一起重啟）
 ```
 
 ### 驗證 — amp 範例（其他模組換 domain 與路徑即可）
-```
-``` 
+```bash 
 php -r 'setlocale(LC_ALL,"zh_TW.utf8"); bindtextdomain("amp","/var/www/html/admin/i18n");
         bind_textdomain_codeset("amp","utf8"); textdomain("amp");
         echo gettext("Extensions"), PHP_EOL;'
-```
 
 # 預期輸出「分機」；接著重新登入 Web UI 確認整體繁中生效
 ```
