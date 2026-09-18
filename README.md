@@ -99,15 +99,21 @@ msgfmt -v /var/www/html/admin/modules/<模組>/i18n/zh_TW/LC_MESSAGES/<模組>.p
 2. **個別使用者**：Admin → User Management → 該使用者 → locale settings → Language（優先序最高）。
 3. **快速試用（不改任何設定）**：瀏覽器執行 `document.cookie = "lang=zh_TW.utf8"; location.reload();` — 框架每筆請求都會讀取 cookie 覆寫語系。
 
+
+### 重啟 Web server（PHP 程序會快取已載入的 catalog）
 ```bash
-# 3. 重啟 Web server（PHP 程序會快取已載入的 catalog）
+```
 systemctl restart apache2   # 或對應的 php-fpm；勿用 fwconsole restart（會連 Asterisk 一起重啟）
 ```
 
-# 4. 驗證 — amp 範例（其他模組換 domain 與路徑即可）
+### 驗證 — amp 範例（其他模組換 domain 與路徑即可）
+```
+``` 
 php -r 'setlocale(LC_ALL,"zh_TW.utf8"); bindtextdomain("amp","/var/www/html/admin/i18n");
         bind_textdomain_codeset("amp","utf8"); textdomain("amp");
         echo gettext("Extensions"), PHP_EOL;'
+```
+
 # 預期輸出「分機」；接著重新登入 Web UI 確認整體繁中生效
 ```
 
