@@ -1,0 +1,175 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for languages
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-27 04:36-0500\n"
+"PO-Revision-Date: 2026-09-15 16:32+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/languages.js:18
+#, perl-format
+msgid "%s already used, please use a different description."
+msgstr "%s 已使用，請使用其他描述。"
+
+#: views/grid.php:25
+msgid "Actions"
+msgstr "動作"
+
+#: views/bootnav.php:3
+#: views/grid.php:20
+msgid "Add Language"
+msgstr "新增語言"
+
+#: page.languages.php:13
+msgid "Add Language Instance"
+msgstr "新增語言實例"
+
+#: languages.i18n.php:8
+msgid ""
+"Adds the ability to changes the language within a call flow and add language "
+"attribute to users."
+msgstr "新增在通話流程中變更語言的能力，並為使用者加入語言屬性。"
+
+#: functions.inc.php:282
+msgid "Allows you to set the language for this DID."
+msgstr "讓您可以為此 DID 設定語言。"
+
+#: languages.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: functions.inc.php:165
+#: functions.inc.php:265
+msgid "Default"
+msgstr "預設"
+
+#: Languages.class.php:69
+msgid "Delete"
+msgstr "刪除"
+
+#: views/form.php:69
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:136
+msgid "Destination"
+msgstr "目的地"
+
+#: page.languages.php:11
+msgid "Edit Language Instance"
+msgstr "編輯語言實例"
+
+#: views/form.php:13
+msgid "Edit: "
+msgstr "編輯："
+
+#: functions.inc.php:159
+msgid "General"
+msgstr "一般"
+
+#: assets/js/languages.js:2
+msgid "Invalid description specified"
+msgstr "指定的描述無效"
+
+#: Languages.class.php:222
+#: functions.inc.php:158
+#: functions.inc.php:255
+#: views/bootnav.php:8
+#: views/grid.php:24
+msgid "Language"
+msgstr "語言"
+
+#: functions.inc.php:328
+#, php-format
+msgid "Language Change: %s"
+msgstr "語言變更：%s"
+
+#: functions.inc.php:177
+#: functions.inc.php:179
+#: views/form.php:93
+msgid "Language Code"
+msgstr "語言代碼"
+
+#: functions.inc.php:36
+#, php-format
+msgid "Language: %s"
+msgstr "語言：%s"
+
+#: languages.i18n.php:4
+#: languages.i18n.php:10
+#: page.languages.php:5
+msgid "Languages"
+msgstr "語言"
+
+#: page.languages.php:4
+msgid ""
+"Languages allow you to change the language of the call flow and then "
+"continue on to the desired destination. For example, you may have an IVR "
+"option that says \"For French Press 5 now\". You would then create a French "
+"language instance and point it's destination at a French IVR. The language "
+"of the call's channel will now be in French. This will result in French "
+"sounds being chosen if installed."
+msgstr ""
+"語言讓您可以變更通話流程的語言，然後繼續前往想要的目的地。例如，您可能有一個 IVR 選項顯示「For French Press 5 now」（法語請按 5）。接著您可以建立一個法語語言實例，並將它的目的地指向法語 IVR。通話通道的語言現在將變為法語。若已安裝法語語音，這將導致系統選用法語語音。"
+
+#: views/bootnav.php:2
+msgid "List Languages"
+msgstr "列出語言"
+
+#: functions.inc.php:160
+msgid "Please enter a valid Language Code"
+msgstr "請輸入有效的語言代碼"
+
+#: Languages.class.php:64
+msgid "Reset"
+msgstr "重置"
+
+#: Languages.class.php:59
+msgid "Submit"
+msgstr "提交"
+
+#: views/form.php:124
+msgid ""
+"The Asterisk language code you want to change to. For example \"fr\" for "
+"French, \"de\" for German"
+msgstr "您想要切換到的 Asterisk 語言代碼。例如「fr」代表法語，「de」代表德語"
+
+#: views/form.php:81
+msgid ""
+"The descriptive name of this language instance. For example \"French Main "
+"IVR\""
+msgstr "此語言實例的描述名稱。例如「French Main IVR」"
+
+#: functions.inc.php:179
+msgid ""
+"This will cause all messages and voice prompts to use the selected language "
+"if installed."
+msgstr "這將使所有訊息與語音提示使用所選語言（若已安裝）。"
+
+#: functions.inc.php:177
+msgid ""
+"This will cause all messages and voice prompts to use the selected language "
+"if installed.  Languages can be added or removed in the Sound Languages "
+"module"
+msgstr "這將使所有訊息與語音提示使用所選語言（若已安裝）。語言可以在 Sound Languages 模組中新增或移除"
+
+#: Languages.class.php:223
+msgid "Valid language string"
+msgstr "有效的語言字串"
+
+#: views/form.php:148
+msgid "Where to send the caller after setting the language."
+msgstr "設定語言後要將來電者送往何處。"

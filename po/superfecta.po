@@ -1,0 +1,793 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for superfecta
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-11 01:12-0400\n"
+"PO-Revision-Date: 2026-09-15 17:10+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Superfecta.class.php:225
+#: Superfecta.class.php:227
+#: Superfecta.class.php:231
+#: Superfecta.class.php:233
+#: Superfecta.class.php:237
+#: Superfecta.class.php:239
+#: Superfecta.class.php:255
+#: Superfecta.class.php:257
+#: Superfecta.class.php:267
+#: Superfecta.class.php:269
+#: Superfecta.class.php:288
+#: Superfecta.class.php:290
+#, php-format
+msgid ", mb_strlen: %s"
+msgstr "，mb_strlen：%s"
+
+#: functions.inc.php:50
+#: views/scheme.php:204
+msgid "ALL"
+msgstr "全部"
+
+#: includes/oauth-google/oauth2callback.php:55
+#: views/main.php:25
+msgid "Actions"
+msgstr "動作"
+
+#: views/header.php:3
+msgid "Add Caller ID Scheme"
+msgstr "新增來電顯示方案"
+
+#: page.superfecta.php:198
+msgid "Add Scheme"
+msgstr "新增方案"
+
+#: views/scheme.php:7
+msgid ""
+"Add, Remove, Enable, Disable, Sort and Configure data sources as appropriate "
+"for your situation."
+msgstr "依您的需求新增、移除、啟用、停用、排序並設定資料來源。"
+
+#: superfecta.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: views/add_scheme.php:348
+#: views/scheme.php:137
+msgid "Available Encodings"
+msgstr "可用的編碼"
+
+#: Superfecta.class.php:246
+msgid "Bypassing character conversion."
+msgstr "略過字元轉換。"
+
+#: views/add_scheme.php:149
+#: views/scheme.php:89
+msgid "CID Prefix URL"
+msgstr "CID 前置網址"
+
+#: views/add_scheme.php:53
+#: views/scheme.php:50
+msgid "CID Rules"
+msgstr "CID 規則"
+
+#: superfecta.i18n.php:4
+#: superfecta.i18n.php:10
+msgid "CID Superfecta"
+msgstr "CID Superfecta"
+
+#: Superfecta.class.php:304
+#, php-format
+msgid "Call detected as spam, would send call to: %s"
+msgstr "來電被偵測為垃圾來電，會將來電轉送至：%s"
+
+#: views/header.php:16
+msgid "Caller ID Superfecta"
+msgstr "來電顯示 Superfecta"
+
+#: Superfecta.class.php:269
+#: Superfecta.class.php:290
+#, php-format
+msgid "Caller ID after %s: %s, length: %s"
+msgstr "來電顯示經 %s 處理後：%s，長度：%s"
+
+#: Superfecta.class.php:257
+#, php-format
+msgid "Caller ID after mb_convert_encoding: %s, length: %s"
+msgstr "來電顯示經 mb_convert_encoding 轉換後：%s，長度：%s"
+
+#: Superfecta.class.php:239
+#, php-format
+msgid "Caller ID after preg_replace: %s, length: %s"
+msgstr "來電顯示經 preg_replace 處理後：%s，長度：%s"
+
+#: Superfecta.class.php:233
+#, php-format
+msgid "Caller ID after stripAccents: %s, length: %s"
+msgstr "來電顯示經 stripAccents 處理後：%s，長度：%s"
+
+#: Superfecta.class.php:227
+#, php-format
+msgid "Caller ID after strip_tags: %s, length: %s"
+msgstr "來電顯示經 strip_tags 處理後：%s，長度：%s"
+
+#: Superfecta.class.php:267
+#: Superfecta.class.php:288
+#, php-format
+msgid "Caller ID before %s: %s, length: %s"
+msgstr "來電顯示在 %s 之前：%s，長度：%s"
+
+#: Superfecta.class.php:255
+#, php-format
+msgid "Caller ID before mb_convert_encoding: %s, length: %s"
+msgstr "來電顯示在 mb_convert_encoding 轉換前：%s，長度：%s"
+
+#: Superfecta.class.php:237
+#, php-format
+msgid "Caller ID before preg_replace: %s, length: %s"
+msgstr "來電顯示在 preg_replace 處理前：%s，長度：%s"
+
+#: Superfecta.class.php:231
+#, php-format
+msgid "Caller ID before stripAccents: %s, length: %s"
+msgstr "來電顯示在 stripAccents 處理前：%s，長度：%s"
+
+#: Superfecta.class.php:225
+#, php-format
+msgid "Caller ID before strip_tags: %s, length: %s"
+msgstr "來電顯示在 strip_tags 處理前：%s，長度：%s"
+
+#: Superfecta.class.php:272
+#, php-format
+msgid "Caller ID string length is not limited"
+msgstr "來電顯示字串長度不受限制"
+
+#: views/add_scheme.php:421
+#: views/scheme.php:184
+msgid "Caller Id Max Length"
+msgstr "來電顯示名稱最大長度"
+
+#: views/main.php:8
+msgid ""
+"CallerID Superfecta for FreePBX is a utility program which adds incoming "
+"CallerID name lookups to your Asterisk system using multiple data sources"
+msgstr ""
+"CallerID Superfecta for FreePBX 是一套公用程式，可運用多個資料來源，為您的 Asterisk 系統加入來電 CallerID 名稱查詢功能"
+
+#: Superfecta.class.php:265
+#, php-format
+msgid "Caller_Id_Max_Length: '%s'"
+msgstr "Caller_Id_Max_Length：『%s』"
+
+#: Superfecta.class.php:260
+#, php-format
+msgid "Caught exception calling mb_convert_encoding: %s"
+msgstr "呼叫 mb_convert_encoding 時發生例外狀況：%s"
+
+#: Superfecta.class.php:319
+#, php-format
+msgid "Caught exception: %s<br>Skipping scheme %s<br>"
+msgstr "發生例外狀況：%s<br>略過方案 %s<br>"
+
+#: Superfecta.class.php:183
+#, php-format
+msgid "Changed CNUM to: %s"
+msgstr "已將 CNUM 變更為：%s"
+
+#: views/add_scheme.php:289
+#: views/add_scheme.php:320
+#: views/scheme.php:129
+msgid "Character Encodings"
+msgstr "字元編碼"
+
+#: Superfecta.class.php:244
+#, php-format
+msgid "Character Encodings: '%s'"
+msgstr "字元編碼：『%s』"
+
+#: includes/oauth-google/oauth2callback.php:63
+msgid "Close"
+msgstr "關閉"
+
+#: Superfecta.class.php:252
+msgid "Converting result to UTF-8"
+msgstr "正在將結果轉換為 UTF-8"
+
+#: includes/oauth-google/oauth2callback.php:57
+msgid "Copy"
+msgstr "複製"
+
+#: includes/oauth-google/oauth2callback.php:58
+msgid "Copy the Google Code."
+msgstr "複製 Google 授權碼。"
+
+#: views/scheme.php:191
+msgid "DID Number"
+msgstr "DID 號碼"
+
+#: views/add_scheme.php:33
+#: views/scheme.php:46
+msgid "DID Rules"
+msgstr "DID 規則"
+
+#: views/scheme.php:16
+msgid "Data Source Name"
+msgstr "資料來源名稱"
+
+#: views/scheme.php:199
+msgid "Debug Level"
+msgstr "偵錯層級"
+
+#: views/scheme.php:199
+msgid "Debug Level to display"
+msgstr "要顯示的偵錯層級"
+
+#: Superfecta.class.php:395
+msgid "Debug is on and set at level:"
+msgstr "已開啟偵錯，層級設為："
+
+#: views/scheme.php:5
+#: views/scheme.php:189
+msgid "Debug/Test Run Scheme"
+msgstr "偵錯／測試執行方案"
+
+#: Superfecta.class.php:400
+msgid "Debugging Enabled, will not stop after first result"
+msgstr "已啟用偵錯，取得第一個結果後不會停止"
+
+#: views/add_scheme.php:1
+msgid "Define Settings for a new Scheme"
+msgstr "定義新方案的設定"
+
+#: views/add_scheme.php:23
+msgid "Define a new name for this scheme"
+msgstr "為此方案定義新名稱"
+
+#: views/add_scheme.php:43
+#: views/scheme.php:46
+msgid ""
+"Define the expected DID Number if your trunk passes DID on incoming calls. "
+"<br><br>Leave this blank to match calls with any or no DID info.<br><br>This "
+"rule trys both absolute and pattern matching (eg \"_2[345]X\", to match a "
+"range of numbers). (The \"_\" underscore is optional.)"
+msgstr ""
+"如果您的中繼會在來電時傳遞 DID，請定義預期的 DID 號碼。<br><br>若留空白，將比對任何有或沒有 DID 資訊的來電。<br><br>此規則會同時嘗試絕對比對與模式比對（例如「_2[345]X」以比對一段號碼範圍）。（「_」底線為選用。）"
+
+#: views/scheme.php:17
+msgid "Description"
+msgstr "說明"
+
+#: views/scheme.php:38
+msgid "Edit Scheme"
+msgstr "編輯方案"
+
+#: views/add_scheme.php:216
+#: views/scheme.php:107
+msgid "Enable SPAM Interception"
+msgstr "啟用垃圾來電攔截"
+
+#: functions.inc.php:22
+msgid "Enable Superfecta Lookup"
+msgstr "啟用 Superfecta 查詢"
+
+#: views/scheme.php:18
+msgid "Enabled"
+msgstr "已啟用"
+
+#: includes/processors/superfecta_single.php:56
+#: includes/processors/superfecta_single.php:120
+msgid "Executing"
+msgstr "執行中"
+
+#: Superfecta.class.php:249
+msgid "Function mb_convert_encoding does not exist."
+msgstr "mb_convert_encoding 函式不存在。"
+
+#: includes/oauth-google/oauth2callback.php:59
+msgid "Go back to configure Google Contacts Caller-ID Lookup in FreePBX."
+msgstr "返回 FreePBX 設定 Google 聯絡人來電顯示查詢。"
+
+#: includes/oauth-google/oauth2callback.php:54
+msgid "Google Code"
+msgstr "Google 授權碼"
+
+#: includes/oauth-google/oauth2callback.php:65
+msgid "Google Code copied: "
+msgstr "已複製 Google 授權碼："
+
+#: includes/oauth-google/oauth2callback.php:61
+msgid "Hit <b>Save</b>."
+msgstr "請按一下<b>存檔</b>。"
+
+#: views/scheme.php:202
+msgid "INFO"
+msgstr "資訊"
+
+#: views/add_scheme.php:159
+#: views/scheme.php:89
+msgid ""
+"If you wish to prefix information on the caller id you can specify a url "
+"here where that prefix can be retrieved.<br>The data will not be parsed in "
+"any way, and will be truncated to the first 10 characters.<br>Example URL: "
+"http://www.example.com/GetCID.php?phone_number=[thenumber]<br>[thenumber] "
+"will be replaced with the full 10 digit phone number when the URL is called"
+msgstr ""
+"如果您想在來電顯示前面加上資訊，可以在這裡指定可擷取該前置資訊的網址。<br>該資料不會以任何方式剖析，並會截斷為前 10 個字元。<br>範例網址：http://www.example.com/GetCID.php?phone_number=[thenumber]<br>呼叫此網址時，[thenumber] 會取代為完整的 10 位電話號碼"
+
+#: views/add_scheme.php:63
+msgid ""
+"Incoming calls with CID matching the patterns specified here will use this "
+"CID Scheme. If this is left blank, this scheme will be used for any CID. It "
+"can be used to add or remove prefixes.<br>\n"
+"\t\t\t\t\t\t\t<strong>Many sources require a specific number of digits in "
+"the phone number. It is recommended that you use the patterns to remove "
+"excess country code data from incoming CID to increase the effectiveness of "
+"this module.</strong><br>\n"
+"\t\t\t\t\t\t\tNote that a pattern without a + or | (to add or remove a "
+"prefix) will not make any changes but will create a match. Only the first "
+"matched pattern will be executed and the remaining rules will not be acted "
+"on.<br /><br /><b>Rules:</b><br />\n"
+"\t\t\t\t\t\t\t<strong>X</strong>&nbsp;&nbsp;&nbsp; matches any digit from "
+"0-9<br />\n"
+"\t\t\t\t\t\t\t<strong>Z</strong>&nbsp;&nbsp;&nbsp; matches any digit from "
+"1-9<br />\n"
+"\t\t\t\t\t\t\t<strong>N</strong>&nbsp;&nbsp;&nbsp; matches any digit from "
+"2-9<br />\n"
+"\t\t\t\t\t\t\t<strong>[1237-9]</strong>&nbsp;   matches any digit or letter "
+"in the brackets (in this example, 1,2,3,7,8,9)<br />\n"
+"\t\t\t\t\t\t\t<strong>.</strong>&nbsp;&nbsp;&nbsp; wildcard, matches one or "
+"more characters (not allowed before a | or +)<br />\n"
+"\t\t\t\t\t\t\t<strong>|</strong>&nbsp;&nbsp;&nbsp; removes a dialing prefix "
+"from the number (for example, 613|NXXXXXX would match when some one dialed "
+"\"6135551234\" but would only pass \"5551234\" to the Superfecta look "
+"up.)<br><strong>+</strong>&nbsp;&nbsp;&nbsp; adds a dialing prefix to the "
+"number (for example, 1613+NXXXXXX would match when someone dialed "
+"\"5551234\" and would pass \"16135551234\" to the Superfecta look up.)<br /"
+"><br />\n"
+"\t\t\t\t\t\t\tYou can also use both + and |, for example: 01+0|1ZXXXXXXXXX "
+"would match \"016065551234\" and dial it as \"0116065551234\" Note that the "
+"order does not matter, eg. 0|01+1ZXXXXXXXXX does the same thing."
+msgstr ""
+"來電顯示比對到這裡指定的模式時，將使用此 CID 方案。若留空白，此方案將用於任何 CID。此功能可用來新增或移除前置碼。<br>\n"
+"\t\t\t\t\t\t\t<strong>許多來源要求電話號碼有特定位數。建議您使用模式移除來電顯示中多餘的國碼，以提高此模組的效用。</strong><br>\n"
+"\t\t\t\t\t\t\t請注意，沒有 + 或 |（用於新增或移除前置碼）的模式不會做任何變更，但會建立比對。只有第一個比對到的模式會被執行，其餘規則不會被套用。<br /><br /><b>規則：</b><br />\n"
+"\t\t\t\t\t\t\t<strong>X</strong>&nbsp;&nbsp;&nbsp;比對 0-9 的任何數字<br />\n"
+"\t\t\t\t\t\t\t<strong>Z</strong>&nbsp;&nbsp;&nbsp;比對 1-9 的任何數字<br />\n"
+"\t\t\t\t\t\t\t<strong>N</strong>&nbsp;&nbsp;&nbsp;比對 2-9 的任何數字<br />\n"
+"\t\t\t\t\t\t\t<strong>[1237-9]</strong>&nbsp;   比對括號中的任何數字或字母（在此範例中為 1、2、3、7、8、9）<br />\n"
+"\t\t\t\t\t\t\t<strong>.</strong>&nbsp;&nbsp;&nbsp;萬用字元，比對一個或多個字元（不允許在 | 或 + 之前）<br />\n"
+"\t\t\t\t\t\t\t<strong>|</strong>&nbsp;&nbsp;&nbsp;從號碼中移除撥號前置碼（例如，613|NXXXXXX 會在有人撥打「6135551234」時比對，但只將「5551234」傳給 Superfecta 查詢。）<br><strong>+</strong>&nbsp;&nbsp;&nbsp;在號碼中加入撥號前置碼（例如，1613+NXXXXXX 會在有人撥打「5551234」時比對，並將「16135551234」傳給 Superfecta 查詢。）<br /><br />\n"
+"\t\t\t\t\t\t\t您也可以同時使用 + 和 |，例如：01+0|1ZXXXXXXXXX 會比對「016065551234」，並以「0116065551234」撥出。請注意順序無關緊要，例如 0|01+1ZXXXXXXXXX 的效果相同。"
+
+#: views/scheme.php:50
+msgid ""
+"Incoming calls with CID matching the patterns specified here will use this "
+"CID Scheme. If this is left blank, this scheme will be used for any CID. It "
+"can be used to add or remove prefixes.<br>\n"
+"\t\t\t\t<strong>Many sources require a specific number of digits in the "
+"phone number. It is recommended that you use the patterns to remove excess "
+"country code data from incoming CID to increase the effectiveness of this "
+"module.</strong><br>\n"
+"\t\t\t\tNote that a pattern without a + or | (to add or remove a prefix) "
+"will not make any changes but will create a match. Only the first matched "
+"pattern will be executed and the remaining rules will not be acted on.<br /"
+"><br /><b>Rules:</b><br />\n"
+"\t\t\t\t<strong>X</strong>&nbsp;&nbsp;&nbsp; matches any digit from 0-9<br /"
+">\n"
+"\t\t\t\t<strong>Z</strong>&nbsp;&nbsp;&nbsp; matches any digit from 1-9<br /"
+">\n"
+"\t\t\t\t<strong>N</strong>&nbsp;&nbsp;&nbsp; matches any digit from 2-9<br /"
+">\n"
+"\t\t\t\t<strong>[1237-9]</strong>&nbsp;   matches any digit or letter in the "
+"brackets (in this example, 1,2,3,7,8,9)<br />\n"
+"\t\t\t\t<strong>.</strong>&nbsp;&nbsp;&nbsp; wildcard, matches one or more "
+"characters (not allowed before a | or +)<br />\n"
+"\t\t\t\t<strong>|</strong>&nbsp;&nbsp;&nbsp; removes a dialing prefix from "
+"the number (for example, 613|NXXXXXX would match when some one dialed "
+"\"6135551234\" but would only pass \"5551234\" to the Superfecta look "
+"up.)<br><strong>+</strong>&nbsp;&nbsp;&nbsp; adds a dialing prefix to the "
+"number (for example, 1613+NXXXXXX would match when someone dialed "
+"\"5551234\" and would pass \"16135551234\" to the Superfecta look up.)<br /"
+"><br />\n"
+"\t\t\t\tYou can also use both + and |, for example: 01+0|1ZXXXXXXXXX would "
+"match \"016065551234\" and dial it as \"0116065551234\" Note that the order "
+"does not matter, eg. 0|01+1ZXXXXXXXXX does the same thing."
+msgstr ""
+"來電顯示比對到這裡指定的模式時，將使用此 CID 方案。若留空白，此方案將用於任何 CID。此功能可用來新增或移除前置碼。<br>\n"
+"\t\t\t\t<strong>許多來源要求電話號碼有特定位數。建議您使用模式移除來電顯示中多餘的國碼，以提高此模組的效用。</strong><br>\n"
+"\t\t\t\t請注意，沒有 + 或 |（用於新增或移除前置碼）的模式不會做任何變更，但會建立比對。只有第一個比對到的模式會被執行，其餘規則不會被套用。<br /><br /><b>規則：</b><br />\n"
+"\t\t\t\t<strong>X</strong>&nbsp;&nbsp;&nbsp;比對 0-9 的任何數字<br />\n"
+"\t\t\t\t<strong>Z</strong>&nbsp;&nbsp;&nbsp;比對 1-9 的任何數字<br />\n"
+"\t\t\t\t<strong>N</strong>&nbsp;&nbsp;&nbsp;比對 2-9 的任何數字<br />\n"
+"\t\t\t\t<strong>[1237-9]</strong>&nbsp;   比對括號中的任何數字或字母（在此範例中為 1、2、3、7、8、9）<br />\n"
+"\t\t\t\t<strong>.</strong>&nbsp;&nbsp;&nbsp;萬用字元，比對一個或多個字元（不允許在 | 或 + 之前）<br />\n"
+"\t\t\t\t<strong>|</strong>&nbsp;&nbsp;&nbsp;從號碼中移除撥號前置碼（例如，613|NXXXXXX 會在有人撥打「6135551234」時比對，但只將「5551234」傳給 Superfecta 查詢。）<br><strong>+</strong>&nbsp;&nbsp;&nbsp;在號碼中加入撥號前置碼（例如，1613+NXXXXXX 會在有人撥打「5551234」時比對，並將「16135551234」傳給 Superfecta 查詢。）<br /><br />\n"
+"\t\t\t\t您也可以同時使用 + 和 |，例如：01+0|1ZXXXXXXXXX 會比對「016065551234」，並以「0116065551234」撥出。請注意順序無關緊要，例如 0|01+1ZXXXXXXXXX 的效果相同。"
+
+#: page.superfecta.php:199
+msgid "List Schemes"
+msgstr "方案清單"
+
+#: views/add_scheme.php:82
+#: views/scheme.php:65
+msgid "Lookup Timeout"
+msgstr "查詢逾時"
+
+#: Superfecta.class.php:181
+#, php-format
+msgid "Matched CID Rule: %s with %s"
+msgstr "符合的 CID 規則：%s 與 %s"
+
+#: Superfecta.class.php:172
+#, php-format
+msgid "Matched DID Rule: %s with %s"
+msgstr "符合的 DID 規則：%s 與 %s"
+
+#: views/add_scheme.php:431
+msgid ""
+"Maximum Length for Caller Id Name.  Should be at least 10 characters long. "
+"-1 for no limit."
+msgstr "來電顯示名稱的最大長度。應至少為 10 個字元。設為 -1 表示不限制。"
+
+#: views/scheme.php:184
+msgid ""
+"Maximum Length for Caller Id Name. Should be at least 10 characters long. -1 "
+"for no limit."
+msgstr "來電顯示名稱的最大長度。應至少為 10 個字元。設為 -1 表示不限制。"
+
+#: views/add_scheme.php:129
+#: views/scheme.php:85
+msgid "Multifecta Timeout"
+msgstr "Multifecta 逾時"
+
+#: views/scheme.php:201
+msgid "NONE"
+msgstr "無"
+
+#: views/main.php:24
+msgid "Name"
+msgstr "名稱"
+
+#: views/add_scheme.php:13
+msgid "New Scheme Name"
+msgstr "新方案名稱"
+
+#: Superfecta.class.php:618
+#: functions.inc.php:29
+#: views/add_scheme.php:197
+#: views/add_scheme.php:224
+#: views/add_scheme.php:402
+#: views/scheme.php:32
+msgid "No"
+msgstr "否"
+
+#: Superfecta.class.php:315
+msgid "No callerid found"
+msgstr "找不到來電顯示"
+
+#: Superfecta.class.php:185
+msgid "No matching CID rules. Skipping scheme"
+msgstr "沒有符合的 CID 規則。略過方案"
+
+#: Superfecta.class.php:174
+msgid "No matching DID rules. Skipping scheme"
+msgstr "沒有符合的 DID 規則。略過方案"
+
+#: includes/oauth-google/oauth2callback.php:62
+msgid "Now run debug again and it should work."
+msgstr "現在再次執行偵錯，應該就能正常運作了。"
+
+#: views/main.php:23
+msgid "Order"
+msgstr "順序"
+
+#: includes/oauth-google/oauth2callback.php:60
+msgid ""
+"Paste this Google Code into the <b>Google Code</b> box replacing the <b>XXX</"
+"b>."
+msgstr "將此 Google 授權碼貼到 <b>Google 授權碼</b> 欄位中，取代 <b>XXX</b>。"
+
+#: views/scheme.php:195
+msgid "Phone Number"
+msgstr "電話號碼"
+
+#: views/scheme.php:195
+msgid "Phone number to test this scheme against"
+msgstr "要用來測試此方案的電話號碼"
+
+#: Superfecta.class.php:200
+#, php-format
+msgid "Prefix Url defined as: %s"
+msgstr "已定義前置網址：%s"
+
+#: Superfecta.class.php:202
+msgid "Prefix Url defined but result was empty"
+msgstr "已定義前置網址，但結果為空白"
+
+#: Superfecta.class.php:204
+#, php-format
+msgid "Prefix Url result took %s seconds."
+msgstr "取得前置網址結果花了 %s 秒。"
+
+#: superfecta.i18n.php:8
+msgid ""
+"Provides simultaneous use of, and complete control over multiple caller id "
+"data sources."
+msgstr "可同時使用並完整控制多個來電顯示資料來源。"
+
+#: Superfecta.class.php:859
+msgid "Reset"
+msgstr "重設"
+
+#: Superfecta.class.php:411
+msgid "Returned Result would be:"
+msgstr "回傳結果會是："
+
+#: views/add_scheme.php:244
+#: views/scheme.php:118
+msgid "SPAM Send Threshold"
+msgstr "垃圾來電轉送門檻值"
+
+#: views/add_scheme.php:169
+#: views/scheme.php:93
+msgid "SPAM Text"
+msgstr "垃圾來電文字"
+
+#: views/add_scheme.php:189
+#: views/scheme.php:97
+msgid "SPAM Text Substituted"
+msgstr "垃圾來電文字替換"
+
+#: Superfecta.class.php:111
+#, php-format
+msgid "Scheme Asked is: %s"
+msgstr "要求的方案是：%s"
+
+#: views/scheme.php:42
+msgid "Scheme Name"
+msgstr "方案名稱"
+
+#: assets/js/superfecta.js:205
+msgid "Scheme Name can not be blank!"
+msgstr "方案名稱不可空白！"
+
+#: views/scheme.php:4
+#, php-format
+msgid "Scheme Name: %s"
+msgstr "方案名稱：%s"
+
+#: Superfecta.class.php:399
+msgid "Scheme Type:"
+msgstr "方案類型："
+
+#: Superfecta.class.php:703
+msgid "Scheme can not be empty!"
+msgstr "方案不可空白！"
+
+#: Superfecta.class.php:482
+msgid "Scheme names cannot be blank"
+msgstr "方案名稱不可空白"
+
+#: views/scheme.php:9
+msgid ""
+"Select which data source(s) to use for your lookups, and the order in which "
+"you want them used:"
+msgstr "選擇要用於查詢的資料來源，以及您希望使用的順序："
+
+#: views/add_scheme.php:353
+#: views/scheme.php:142
+msgid "Selected Encodings"
+msgstr "已選取的編碼"
+
+#: views/add_scheme.php:266
+#: views/scheme.php:122
+msgid "Send Spam Call To"
+msgstr "將垃圾來電轉送至"
+
+#: Superfecta.class.php:309
+#, php-format
+msgid "Setting caller id to: %s"
+msgstr "將來電顯示設為：%s"
+
+#: functions.inc.php:88
+msgid "Setup Schemes in CID Superfecta section"
+msgstr "在 CID Superfecta 區段設定方案"
+
+#: functions.inc.php:37
+msgid "Sources can be added/removed in CID Superfecta section"
+msgstr "可在 CID Superfecta 區段新增／移除來源"
+
+#: Superfecta.class.php:301
+#, php-format
+msgid "Spam Call, Sending call to: %s"
+msgstr "垃圾來電，將轉送來電至：%s"
+
+#: views/add_scheme.php:139
+#: views/scheme.php:85
+msgid ""
+"Specify a timeout in seconds defining how long multifecta will obey the "
+"source priority. After this timeout, the first source to respond with a CNAM "
+"will be taken, until \"Lookup Timeout\" is reached"
+msgstr ""
+"以秒為單位指定逾時時間，定義 multifecta 遵循來源優先順序的期間。超過此逾時後，將採用第一個回傳 CNAM 的來源，直到達到「Lookup Timeout」為止"
+
+#: views/add_scheme.php:92
+#: views/scheme.php:65
+msgid ""
+"Specify a timeout in seconds for each source. If the source fails to return "
+"a result within the alloted time, the script will move on."
+msgstr "以秒為單位指定每個來源的逾時時間。如果來源未能在指定的時間內回傳結果，指令碼將繼續執行。"
+
+#: Superfecta.class.php:140
+#, php-format
+msgid "Starting scheme %s"
+msgstr "開始執行方案 %s"
+
+#: views/add_scheme.php:394
+#: views/scheme.php:173
+msgid "Strip Accent Characters"
+msgstr "移除重音符號字元"
+
+#: Superfecta.class.php:864
+msgid "Submit"
+msgstr "送出"
+
+#: views/add_scheme.php:102
+#: views/scheme.php:70
+msgid "Superfecta Processor"
+msgstr "Superfecta 處理器"
+
+#: functions.inc.php:74
+msgid "Superfecta Scheme"
+msgstr "Superfecta 方案"
+
+#: Superfecta.class.php:114
+#, php-format
+msgid "The CNAME is: %s"
+msgstr "CNAME 為：%s"
+
+#: Superfecta.class.php:113
+#, php-format
+msgid "The CNUM is: %s"
+msgstr "CNUM 為：%s"
+
+#: Superfecta.class.php:112
+#, php-format
+msgid "The DID is: %s"
+msgstr "DID 為：%s"
+
+#: views/scheme.php:191
+msgid "The DID to test this scheme against"
+msgstr "要用來測試此方案的 DID"
+
+#: Superfecta.class.php:396
+msgid "The DID:"
+msgstr "DID："
+
+#: Superfecta.class.php:397
+msgid "The Original Number:"
+msgstr "原始號碼："
+
+#: Superfecta.class.php:398
+msgid "The Scheme:"
+msgstr "方案："
+
+#: views/add_scheme.php:116
+#: views/scheme.php:71
+msgid "These are the types of Superfecta Processors"
+msgstr "這些是 Superfecta 處理器的類型"
+
+#: views/footer.php:4
+msgid "This Module's wiki pages can be found here."
+msgstr "此模組的 wiki 頁面可在這裡找到。"
+
+#: views/footer.php:2
+#, php-format
+msgid ""
+"This Project is hosted/maintained at %s Feel free to fork/help/complain."
+msgstr "此專案託管／維護於 %s。歡迎自由 fork、提供協助或提出意見。"
+
+#: views/scheme.php:129
+msgid "This is a list of Character Encodings to use for Caller ID"
+msgstr "這是用於來電顯示的字元編碼清單"
+
+#: views/add_scheme.php:308
+#: views/add_scheme.php:331
+msgid "This is the Character Encoding to use for Caller ID."
+msgstr "這是用於來電顯示的字元編碼。"
+
+#: views/add_scheme.php:256
+#: views/scheme.php:118
+msgid ""
+"This is the threshold to send the call to the specified destination below"
+msgstr "這是將來電轉送至下方指定目的地的門檻值"
+
+#: Superfecta.class.php:312
+#, php-format
+msgid "This scheme would set the caller id to: %s"
+msgstr "此方案將來電顯示設為：%s"
+
+#: views/add_scheme.php:179
+#: views/scheme.php:93
+msgid ""
+"This text will be prepended to Caller ID information to help you identify "
+"calls as SPAM calls"
+msgstr "此文字會加在來電顯示資訊前面，協助您將來電辨識為垃圾來電"
+
+#: page.superfecta.php:157
+msgid "Unknown Scheme"
+msgstr "未知的方案"
+
+#: views/scheme.php:203
+msgid "WARN"
+msgstr "警告"
+
+#: views/main.php:4
+msgid "What is CallerID Superfecta?"
+msgstr "什麼是 CallerID Superfecta？"
+
+#: views/add_scheme.php:411
+#: views/scheme.php:173
+msgid "When enabled, Accents will be removed from characters"
+msgstr "啟用後，將從字元中移除重音符號"
+
+#: views/add_scheme.php:233
+#: views/scheme.php:107
+msgid "When enabled, Spam calls can be diverted or terminated"
+msgstr "啟用後，垃圾來電可以轉接或終止"
+
+#: views/add_scheme.php:206
+#: views/scheme.php:97
+msgid ""
+"When enabled, the text entered in \"SPAM Text\" (above) will replace the CID "
+"completely rather than pre-pending the CID value"
+msgstr "啟用後，「SPAM Text」（上方）中輸入的文字將完全取代 CID，而不是附加在 CID 值前面"
+
+#: views/add_scheme.php:276
+msgid "Where to send the call when it is detected as spam"
+msgstr "當來電被偵測為垃圾來電時，要將它轉送至何處"
+
+#: Superfecta.class.php:616
+#: functions.inc.php:27
+#: views/add_scheme.php:195
+#: views/add_scheme.php:222
+#: views/add_scheme.php:400
+#: views/scheme.php:30
+msgid "Yes"
+msgstr "是"
+
+#: Superfecta.class.php:707
+msgid "You cannot create a scheme the same name as an existing scheme"
+msgstr "您不能建立與現有方案同名的方案"
+
+#: Superfecta.class.php:718
+msgid "You cannot rename a scheme the same thing as an existing scheme"
+msgstr "您不能將方案重新命名為與現有方案相同的名稱"
+
+#: views/scheme.php:103
+#: views/scheme.php:113
+#: views/scheme.php:179
+msgid "no"
+msgstr "否"
+
+#: Superfecta.class.php:412
+#, php-format
+msgid "result took %s seconds"
+msgstr "取得結果花了 %s 秒"
+
+#: views/scheme.php:101
+#: views/scheme.php:111
+#: views/scheme.php:177
+msgid "yes"
+msgstr "是"

@@ -1,0 +1,514 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for parking
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-19 05:02-0400\n"
+"PO-Revision-Date: 2026-09-15 17:08+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/park.js:100
+#, perl-format
+msgid "%s already in use by: %s"
+msgstr "%s 已被 %s 使用中"
+
+#: assets/js/park.js:32
+#, perl-format
+msgid "%s already used, please use a different name."
+msgstr "%s 已使用，請使用其他名稱。"
+
+#: views/lot.php:384
+msgid ""
+"Alert-Info to add to the call prior to sending back to the Originator or to "
+"the Alternate Destination."
+msgstr "在通話傳回給原始發話者或替代目的地之前，要新增至通話的 Alert-Info。"
+
+#: views/lot.php:474
+msgid "Alternate Destination"
+msgstr "替代目的地"
+
+#: views/lot.php:35
+msgid "Announcement"
+msgstr "播報"
+
+#: parking.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/lot.php:360
+msgid ""
+"Asterisk: parkedcallreparking. Enables or disables DTMF based parking when "
+"picking up a parked call."
+msgstr "Asterisk：parkedcallreparking。啟用或停用以 DTMF 為基礎的駐留，以便代接已駐留的通話。"
+
+#: views/lot.php:329
+msgid ""
+"Asterisk: parkedcalltransfers. Enables or disables DTMF based transfers when "
+"picking up a parked call."
+msgstr "Asterisk：parkedcalltransfers。啟用或停用以 DTMF 為基礎的轉接，以便代接已駐留的通話。"
+
+#: views/overview.php:18
+msgid "Attended Transfer call into Park lot nn"
+msgstr "諮詢轉接通話至駐留區 nn"
+
+#: views/overview.php:10
+msgid ""
+"Attended Transfer call to the Parking Lot Extension. The lot number will be "
+"announced to the parker"
+msgstr "諮詢轉接通話至駐留區分機。系統會向駐留者宣告駐留區編號"
+
+#: views/overview.php:14
+#, php-format
+msgid "Attended transfer to lot %d"
+msgstr "諮詢轉接至駐留區 %d"
+
+#: views/lot.php:447
+msgid "Auto CallerID Prepend"
+msgstr "自動來電顯示前置"
+
+#: views/lot.php:288
+#: views/lot.php:319
+#: views/lot.php:350
+msgid "Both"
+msgstr "兩者"
+
+#: views/lot.php:284
+#: views/lot.php:315
+#: views/lot.php:346
+msgid "Caller"
+msgstr "來電者"
+
+#: views/lot.php:423
+msgid "CallerID Prepend"
+msgstr "來電顯示前置"
+
+#: views/lot.php:484
+msgid "Come Back to Origin"
+msgstr "返回原始來源"
+
+#: Parking.class.php:310
+#, php-format
+msgid "Database error: %s"
+msgstr "資料庫錯誤：%s"
+
+#: Parking.class.php:305
+msgid "Default Lot"
+msgstr "預設駐留區"
+
+#: Parking.class.php:23
+#: parking.i18n.php:14
+msgid ""
+"Defines the Feature Code to use to force pickup a call that is parked in a "
+"private lot that the extension picking up the call does not have permissions "
+"for.  Example if a caller is parked in slot 81 and extension 8001 does not "
+"have permission to that private lot they could dial *8581 to pickup the "
+"parked call."
+msgstr ""
+"定義用來強制代接已駐留通話的功能碼；該通話駐留在代接分機沒有權限的私人駐留區中。  例如，來電者駐留在駐留位置 81，而分機 8001 沒有該私人駐留區的權限時，可以撥打 *8581 來代接已駐留的通話。"
+
+#: Parking.class.php:211
+msgid "Delete"
+msgstr "刪除"
+
+#: views/lot.php:511
+msgid "Destination"
+msgstr "目的地"
+
+#: Parking.class.php:285
+msgid "ERROR: too many default lots detected, deleting and reinitializing"
+msgstr "錯誤：偵測到過多預設駐留區，正在刪除並重新初始化"
+
+#: views/lot.php:64
+msgid "Edit: "
+msgstr "編輯："
+
+#: views/overview.php:33
+msgid "Example Usage"
+msgstr "使用範例"
+
+#: views/lot.php:456
+msgid "Extension"
+msgstr "分機"
+
+#: views/lot.php:523
+msgid "Failover Destination."
+msgstr "容錯移轉目的地。"
+
+#: views/lot.php:247
+msgid "Find Slot"
+msgstr "尋找駐留位置"
+
+#: views/lot.php:254
+msgid "First"
+msgstr "第一個"
+
+#: views/lot.php:66
+msgid "General Settings"
+msgstr "一般設定"
+
+#: functions.inc/registries.php:23
+#: functions.inc/registries.php:32
+msgid "INUSE"
+msgstr "使用中"
+
+#: Parking.class.php:299
+msgid "Initializing default parkinglot.."
+msgstr "正在初始化預設駐留區.."
+
+#: parking.i18n.php:8
+msgid ""
+"Manages parking lot extensions and other options. Parking is a way of "
+"putting calls "
+msgstr "管理駐留區分機與其他選項。駐留是將通話 "
+
+#: views/lot.php:458
+msgid "Name"
+msgstr "名稱"
+
+#: views/lot.php:321
+#: views/lot.php:352
+msgid "Neither"
+msgstr "兩者皆非"
+
+#: views/lot.php:252
+msgid "Next"
+msgstr "下一個"
+
+#: views/lot.php:262
+msgid ""
+"Next: If you want the parking lot to seek the next sequential parking slot "
+"relative to the the last parked call instead of seeking the first available "
+"slot. First: Use the first parking lot slot available"
+msgstr "下一個：如果您希望駐留區尋找最後一次駐留通話之後的下一個依序駐留位置，而不是尋找第一個可用位置。第一個：使用第一個可用的駐留區位置"
+
+#: views/lot.php:491
+msgid "No"
+msgstr "否"
+
+#: views/lot.php:21
+#: views/lot.php:290
+#: views/lot.php:400
+#: views/lot.php:452
+msgid "None"
+msgstr "無"
+
+#: views/lot.php:148
+msgid "Number of Slots"
+msgstr "駐留位置數量"
+
+#: views/lot.php:49
+msgid ""
+"Optional message to be played to the call prior to sending back to the "
+"Originator or the Alternate Destination."
+msgstr "在通話傳回給原始發話者或替代目的地之前，要播放給通話的選用訊息。"
+
+#: views/lot.php:412
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr "覆寫鈴聲音量。注意：目前僅適用於 %s 電話"
+
+#: views/bootnav.php:2
+msgid "Overview"
+msgstr "總覽"
+
+#: views/overview.php:26
+#, php-format
+msgid "Park Yourself into lot %d"
+msgstr "將自己駐留至駐留區 %d"
+
+#: views/overview.php:30
+msgid "Park Yourself into lot nn"
+msgstr "將自己駐留至駐留區 nn"
+
+#: views/overview.php:22
+msgid "Park Yourself. The lot number will be announced to you"
+msgstr "將自己駐留。系統會向您宣告駐留區編號"
+
+#: Parking.class.php:30
+#: parking.i18n.php:16
+msgid "Park to your Assigned Lot"
+msgstr "駐留至您指派的駐留區"
+
+#: functions.inc/registries.php:22
+#, php-format
+msgid "ParkPlus: ParkCall %s"
+msgstr "ParkPlus：ParkCall %s"
+
+#: functions.inc/registries.php:31
+#, php-format
+msgid "ParkPlus: PickupSlot %s"
+msgstr "ParkPlus：PickupSlot %s"
+
+#: views/lot.php:286
+#: views/lot.php:317
+#: views/lot.php:348
+msgid "Parked"
+msgstr "已駐留"
+
+#: views/lot.php:221
+msgid "Parked Music Class"
+msgstr "駐留音樂類別"
+
+#: parking.i18n.php:10
+msgid "Parking"
+msgstr "駐留"
+
+#: views/lot.php:372
+msgid "Parking Alert-Info"
+msgstr "駐留 Alert-Info"
+
+#: views/overview.php:37
+msgid "Parking Help"
+msgstr "駐留說明"
+
+#: parking.i18n.php:4
+#: views/header.php:7
+msgid "Parking Lot"
+msgstr "駐留區"
+
+#: views/lot.php:76
+msgid "Parking Lot Extension"
+msgstr "駐留區分機"
+
+#: assets/js/park.js:83
+msgid "Parking Lot Extension and Starting Position can not be the same!"
+msgstr "駐留區分機與起始位置不能相同！"
+
+#: assets/js/park.js:16
+msgid "Parking Lot Extension can not be blank!"
+msgstr "駐留區分機不能為空白！"
+
+#: assets/js/park.js:20
+msgid "Parking Lot Extension can not be larger than 2147483647!"
+msgstr "駐留區分機不能大於 2147483647！"
+
+#: assets/js/park.js:24
+msgid "Parking Lot Extension can not start with a leading 0!"
+msgstr "駐留區分機不能以 0 開頭！"
+
+#: assets/js/park.js:94
+#, perl-format
+msgid "Parking Lot Extension: %s"
+msgstr "駐留區分機：%s"
+
+#: views/lot.php:100
+msgid "Parking Lot Name"
+msgstr "駐留區名稱"
+
+#: assets/js/park.js:28
+msgid "Parking Lot Name can not be blank!"
+msgstr "駐留區名稱不能為空白！"
+
+#: views/lot.php:124
+msgid "Parking Lot Starting Position"
+msgstr "駐留區起始位置"
+
+#: assets/js/park.js:36
+msgid "Parking Lot Starting Position can not be blank!"
+msgstr "駐留區起始位置不能為空白！"
+
+#: assets/js/park.js:44
+msgid "Parking Lot Starting Position can not start with a leading 0!"
+msgstr "駐留區起始位置不能以 0 開頭！"
+
+#: functions.inc/registries.php:58
+#: functions.inc/registries.php:90
+#, php-format
+msgid "Parking Lot: %s (%s)"
+msgstr "駐留區：%s（%s）"
+
+#: views/overview.php:36
+msgid "Parking Settings"
+msgstr "駐留設定"
+
+#: assets/js/park.js:94
+#, perl-format
+msgid "Parking Slot: %s"
+msgstr "駐留位置：%s"
+
+#: assets/js/park.js:40
+msgid "Parking Starting Position can not be larger than 2147483647!"
+msgstr "駐留起始位置不能大於 2147483647！"
+
+#: assets/js/park.js:105
+msgid "Parking Starting Position/Slots can not be larger than 2147483647!"
+msgstr "駐留起始位置/駐留位置數量不能大於 2147483647！"
+
+#: views/lot.php:197
+msgid "Parking Timeout (seconds)"
+msgstr "駐留逾時（秒）"
+
+#: Parking.class.php:98
+msgid "ParkingLot"
+msgstr "ParkingLot"
+
+#: Parking.class.php:31
+#: parking.i18n.php:18
+msgid ""
+"Parks to your Assigned Lot if using Park Pro. If using standard parking this "
+"parks to the default lot"
+msgstr "若使用 Park Pro，則駐留至您指派的駐留區。若使用標準駐留，則駐留至預設駐留區"
+
+#: views/lot.php:279
+msgid "Pickup Courtesy Tone"
+msgstr "代接禮貌提示音"
+
+#: parking.i18n.php:12
+msgid "Pickup ParkedCall Prefix"
+msgstr "代接已駐留通話前置碼"
+
+#: views/lot.php:112
+msgid "Provide a Descriptive Title for this Parking Lot"
+msgstr "為此駐留區提供描述性標題"
+
+#: views/lot.php:341
+msgid "Re-Parking Capability"
+msgstr "重新駐留功能"
+
+#: Parking.class.php:211
+msgid "Reset"
+msgstr "重設"
+
+#: views/lot.php:269
+msgid "Returned Call Behavior"
+msgstr "返回通話行為"
+
+#: views/lot.php:395
+msgid "Ringer Volume Override"
+msgstr "鈴聲音量覆寫"
+
+#: views/lot.php:454
+msgid "Slot"
+msgstr "駐留位置"
+
+#: views/lot.php:174
+msgid "Slot Range"
+msgstr "駐留位置範圍"
+
+#: views/lot.php:435
+msgid ""
+"String to prepend to the current Caller ID associated with the parked call "
+"prior to sending back to the Originator or the Alternate Destination."
+msgstr "在通話傳回給原始發話者或替代目的地之前，要前置至與已駐留通話相關之目前來電顯示的字串。"
+
+#: Parking.class.php:211
+msgid "Submit"
+msgstr "送出"
+
+#: views/lot.php:186
+msgid "The generated slot range"
+msgstr "產生的駐留位置範圍"
+
+#: views/lot.php:209
+msgid ""
+"The timeout period in seconds that a parked call will attempt to ring back "
+"the original parker if not answered"
+msgstr "已駐留的通話若未被接聽，將嘗試回撥原始駐留者的逾時時間（秒）"
+
+#: views/lot.php:163
+msgid ""
+"The total number of parking lot spaces to configure. Example, if 70 is the "
+"extension and 8 slots are configured, the parking slots will be 71-78. Users "
+"can transfer a call directly into a parking slot."
+msgstr "要設定的駐留區空間總數。例如，若分機為 70 且設定了 8 個駐留位置，則駐留位置將為 71-78。使用者可以直接將通話轉接至駐留位置。"
+
+#: views/lot.php:466
+msgid ""
+"These options will be appended after CallerID Prepend if set. Otherwise they "
+"will appear first. The automatic options are as follows:<ul><li><strong>None:"
+"</strong> No Automatic Prepend</li><li><strong>Slot:</strong> Parking lot "
+"they were parked on</li><li><strong>Extension:</strong> The extension number "
+"that parked the call</li><li><strong>Name:</strong> The user who parked the "
+"call</li></ul>"
+msgstr ""
+"若有設定來電顯示前置，這些選項會附加在其後；否則會出現在前面。自動選項如下：<ul><li><strong>無：</strong>無自動前置</li><li><strong>駐留位置：</strong>通話駐留所在的駐留區</li><li><strong>分機：</strong>駐留通話的分機號碼</li><li><strong>名稱：</strong>駐留通話的使用者</li></ul>"
+
+#: views/lot.php:88
+msgid "This is the extension where you will transfer a call to park it"
+msgstr "這是您要轉接通話以進行駐留的分機"
+
+#: views/lot.php:235
+msgid ""
+"This is the music class that will be played to a parked call while in the "
+"parking lot UNLESS the call flow prior to parking the call explicitly set a "
+"different music class, such as if the call came in through a queue or ring "
+"group."
+msgstr "這是已駐留通話在駐留區內時會播放的音樂類別；除非在駐留通話之前，通話流程已明確設定不同的音樂類別，例如通話是透過佇列或響鈴群組進來的。"
+
+#: views/lot.php:136
+msgid "This is the starting postion of the parking lot"
+msgstr "這是駐留區的起始位置"
+
+#: views/header.php:14
+msgid "This module is used to configure Parking Lot(s)"
+msgstr "此模組用於設定駐留區"
+
+#: views/lot.php:310
+msgid "Transfer Capability"
+msgstr "轉接功能"
+
+#: views/lot.php:499
+msgid ""
+"Where to send a parked call that has timed out. If set to yes then the "
+"parked call will be sent back to the originating device that sent the call "
+"to this parking lot. If the origin is busy then we will send the call to the "
+"Destination selected below. If set to no then we will send the call directly "
+"to the destination selected below"
+msgstr ""
+"已逾時的駐留通話要送往何處。若設定為是，則已駐留的通話會傳回給將通話送至該駐留區的原始裝置；若原始端忙碌，則會將通話傳送至下方選取的目的地。若設定為否，則會將通話直接傳送至下方選取的目的地"
+
+#: views/lot.php:298
+msgid "Whom to play the courtesy tone to when a parked call is retrieved."
+msgstr "代接已駐留通話時，要向誰播放禮貌提示音。"
+
+#: views/lot.php:489
+msgid "Yes"
+msgstr "是"
+
+#: views/header.php:16
+msgid ""
+"You can also transfer directly to a lot number (71 through 78) and if that "
+"lot is empty, your call will be parked there"
+msgstr "您也可以直接轉接至駐留區編號（71 至 78）；若該駐留區是空的，您的通話就會駐留在那裡"
+
+#: views/header.php:15
+msgid ""
+"You can transfer a call to the Parking Lot Extension (70 by default), the "
+"call will then be placed into a lot (71-78 by default) and the lot number "
+"will be announced to you."
+msgstr "您可以將通話轉接至駐留區分機（預設為 70），通話接著會放入駐留區（預設為 71-78），系統會向您宣告駐留區編號。"
+
+#: assets/js/park.js:53
+msgid "You have errors on the form. Please correct them before continuing"
+msgstr "表單上有錯誤。請先修正後再繼續"
+
+#: assets/js/park.js:48
+msgid "You must select a valid destination"
+msgstr "您必須選取有效的目的地"
+
+#: views/lot.php:15
+msgid "default"
+msgstr "預設"
+
+#: Parking.class.php:306
+msgid "done"
+msgstr "完成"
+
+#: views/overview.php:17
+#: views/overview.php:29
+msgid "nn"
+msgstr "nn"

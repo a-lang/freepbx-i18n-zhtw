@@ -1,0 +1,490 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for conferences
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-23 03:07-0400\n"
+"PO-Revision-Date: 2026-09-15 15:39+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/grid.php:35
+msgid "Actions"
+msgstr "動作"
+
+#: page.conferences.php:20
+#: views/grid.php:28
+#: views/rnav.php:21
+msgid "Add"
+msgstr "新增"
+
+#: Conferences.class.php:96
+#: views/form.php:212
+msgid "Admin PIN"
+msgstr "管理員 PIN"
+
+#: views/form.php:489
+msgid "Allow Menu"
+msgstr "允許選單"
+
+#: conferences.i18n.php:8
+msgid ""
+"Allow creation of conference rooms where multiple people can talk together"
+msgstr "允許建立多人可以一起交談的會議室"
+
+#: views/form.php:449
+msgid ""
+"Announce user join/leave. If enabled this will require the user to record "
+"their name before joining the conference"
+msgstr "播報使用者加入/離開。若啟用，這將要求使用者在加入會議前錄製自己的姓名"
+
+#: views/form.php:422
+msgid "Announce user(s) count on joining conference"
+msgstr "加入會議時播報使用者人數"
+
+#: conferences.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: Conferences.class.php:93
+msgid "Conf Number"
+msgstr "會議號碼"
+
+#: Conferences.class.php:199
+#: Conferences.class.php:441
+#: views/grid.php:33
+#: views/rnav.php:26
+msgid "Conference"
+msgstr "會議"
+
+#: views/form.php:164
+msgid "Conference Name"
+msgstr "會議名稱"
+
+#: views/form.php:140
+msgid "Conference Number"
+msgstr "會議號碼"
+
+#: Conferences.class.php:121
+msgid "Conference Number is missing."
+msgstr "會議號碼遺失。"
+
+#: functions.inc.php:182
+#, php-format
+msgid "Conference Room %s : %s"
+msgstr "會議室 %s：%s"
+
+#: Conferences.class.php:93
+msgid "Conference number used."
+msgstr "會議號碼已使用。"
+
+#: functions.inc.php:435
+msgid "Conference: "
+msgstr "會議："
+
+#: functions.inc.php:201
+#, php-format
+msgid "Conference: %s"
+msgstr "會議：%s"
+
+#: Conferences.class.php:110
+#: Conferences.class.php:439
+#: conferences.i18n.php:4
+#: conferences.i18n.php:10
+#: page.conferences.php:10
+msgid "Conferences"
+msgstr "會議"
+
+#: views/form.php:122
+msgid "Conflicting Extensions"
+msgstr "分機衝突"
+
+#: Conferences.class.php:425
+msgid "Delete"
+msgstr "刪除"
+
+#: views/grid.php:34
+#: views/rnav.php:27
+msgid "Description"
+msgstr "描述"
+
+#: Conferences.class.php:97
+msgid "Desctiption"
+msgstr "描述"
+
+#: Conferences.class.php:97
+msgid "Desctiption of the conference."
+msgstr "會議的描述。"
+
+#: page.conferences.php:18
+msgid "Edit"
+msgstr "編輯"
+
+#: views/form.php:476
+msgid "Enable Music On Hold when the conference has a single caller"
+msgstr "當會議只有一位來電者時啟用等候音樂"
+
+#: views/form.php:224
+msgid ""
+"Enter a PIN number for the admin user.<br><br>This setting is optional "
+"unless the 'leader wait' option is in use, then this PIN will identify the "
+"leader.<br>This pin should be different than the user pin."
+msgstr ""
+"輸入管理員使用者的 PIN 號碼。<br><br>此設定為選填，除非使用「領導人等候」選項，則此 PIN 將識別領導人。<br>此 PIN 應與使用者 PIN 不同。"
+
+#: Conferences.class.php:442
+msgid "Extension"
+msgstr "分機"
+
+#: views/form.php:176
+msgid "Give this conference a brief name to help you identify it."
+msgstr "給這個會議一個簡短名稱以協助您識別。"
+
+#: Conferences.class.php:111
+msgid "Import/Export Conferences"
+msgstr "匯入/匯出會議"
+
+#: views/form.php:242
+msgid "Inherit"
+msgstr "繼承"
+
+#: views/form.php:55
+msgid "Join Message"
+msgstr "加入訊息"
+
+#: Conferences.class.php:98
+msgid "Join message id."
+msgstr "加入訊息 ID。"
+
+#: Conferences.class.php:101
+#: views/form.php:236
+msgid "Language"
+msgstr "語言"
+
+#: Conferences.class.php:101
+msgid "Language."
+msgstr "語言。"
+
+#: views/form.php:299
+msgid "Leader Leave"
+msgstr "領導人離開"
+
+#: views/form.php:272
+msgid "Leader Wait"
+msgstr "領導人等候"
+
+#: views/rnav.php:20
+msgid "List Conferences"
+msgstr "列出會議"
+
+#: views/form.php:555
+msgid "Maximum Number of users allowed to join this conference."
+msgstr "允許加入此會議的最大使用者人數。"
+
+#: views/form.php:543
+msgid "Maximum Participants"
+msgstr "最大參與者人數"
+
+#: views/form.php:594
+msgid "Member Timeout"
+msgstr "成員逾時"
+
+#: views/form.php:69
+msgid ""
+"Message to be played to the caller before joining the conference.<br><br>To "
+"add additional recordings please use the \"System Recordings\" MENU above"
+msgstr "加入會議前播放給來電者的訊息。<br><br>要新增其他錄音，請使用上方的「系統錄音」選單"
+
+#: Conferences.class.php:99
+msgid "Music"
+msgstr "音樂"
+
+#: views/form.php:112
+msgid ""
+"Music (or Commercial) played to the caller while they wait in line for the "
+"conference to start. Choose \"inherit\" if you want the MoH class to be what "
+"is currently selected, such as by the inbound route.<br><br>  This music is "
+"defined in the \"Music on Hold\" above."
+msgstr ""
+"來電者等待會議開始時播放的音樂（或廣告）。如果您希望 MoH 類別為目前選取的類別（如由來電路由選取的），請選擇「繼承」。<br><br>  此音樂定義在上方的「等候音樂」中。"
+
+#: views/form.php:461
+msgid "Music on Hold"
+msgstr "等候音樂"
+
+#: views/form.php:98
+msgid "Music on Hold Class"
+msgstr "等候音樂類別"
+
+#: Conferences.class.php:99
+msgid "Music."
+msgstr "音樂。"
+
+#: views/form.php:582
+msgid ""
+"Mute everyone when they initially join the conference. Please note that if "
+"you do not have 'Leader Wait' set to yes you must have 'Allow Menu' set to "
+"Yes to unmute yourself"
+msgstr "所有人最初加入會議時靜音。請注意，若您沒有將「領導人等候」設為是，您必須將「允許選單」設為是才能取消靜音自己"
+
+#: views/form.php:567
+msgid "Mute on Join"
+msgstr "加入時靜音"
+
+#: views/form.php:279
+#: views/form.php:306
+#: views/form.php:333
+#: views/form.php:360
+#: views/form.php:387
+#: views/form.php:414
+#: views/form.php:441
+#: views/form.php:468
+#: views/form.php:496
+#: views/form.php:523
+#: views/form.php:574
+msgid "No"
+msgstr "否"
+
+#: views/form.php:547
+msgid "No Limit"
+msgstr "無限制"
+
+#: views/form.php:41
+msgid "None"
+msgstr "無"
+
+#: Conferences.class.php:124
+msgid "Option of the Conference is missing."
+msgstr "會議的選項遺失。"
+
+#: Conferences.class.php:94
+msgid "Option of the Conference."
+msgstr "會議的選項。"
+
+#: Conferences.class.php:94
+msgid "Options"
+msgstr "選項"
+
+#: Conferences.class.php:96
+msgid "PIN code for admin."
+msgstr "管理員的 PIN 碼。"
+
+#: Conferences.class.php:95
+msgid "PIN code for user."
+msgstr "使用者的 PIN 碼。"
+
+#: assets/js/conferences.js:20
+msgid "Please enter a valid Conference Name"
+msgstr "請輸入有效的會議名稱"
+
+#: assets/js/conferences.js:19
+msgid "Please enter a valid Conference Number"
+msgstr "請輸入有效的會議號碼"
+
+#: views/form.php:555
+msgid ""
+"Please note depending on hardware and settings a higher limit may cause call "
+"quality issues."
+msgstr "請注意，根據硬體和設定，較高的限制可能會導致通話品質問題。"
+
+#: views/form.php:504
+msgid "Present Menu (user or admin) when '*' is received ('send' to menu)"
+msgstr "收到 '*' 時顯示選單（使用者或管理員）（「傳送」至選單）"
+
+#: views/form.php:380
+msgid "Quiet Mode"
+msgstr "靜音模式"
+
+#: views/form.php:395
+msgid "Quiet mode (do not play enter/leave sounds)"
+msgstr "靜音模式（不播放進入/離開音效）"
+
+#: views/form.php:516
+msgid "Record Conference"
+msgstr "錄製會議"
+
+#: views/form.php:531
+msgid "Record the conference call"
+msgstr "錄製會議通話"
+
+#: views/form.php:531
+#, php-format
+msgid ""
+"Record the conference call. Note: This is broken when using %s or lower, and "
+"is therefore disabled. Enable \"Force allow conference recording\" under "
+"Advanced settings to override this. The Recording will not be available in "
+"either the CDR nor in Call Recordings and has to be downloaded by logging "
+"into the backend."
+msgstr ""
+"錄製會議通話。注意：使用 %s 或更低版本時會損壞，因此已停用。在進階設定下啟用「強制允許會議錄製」以覆寫此設定。錄製內容將無法在 CDR 或通話錄製中使用，必須透過登入後端下載。"
+
+#: Conferences.class.php:425
+msgid "Reset"
+msgstr "重設"
+
+#: views/form.php:368
+msgid ""
+"Sets talker detection. Asterisk will send events on the manager interface "
+"identifying the channel that is talking. The talker will also be identified "
+"on the output of the conference list CLI command. Note: If Conferences Pro "
+"is installed and licensed this will always be enabled"
+msgstr ""
+"設定發言者偵測。Asterisk 將在管理員介面上傳送事件識別正在交談的通道。發言者也將透過會議清單 CLI 命令的輸出識別。注意：若已安裝並授權 Conferences Pro，這將一律啟用"
+
+#: Conferences.class.php:425
+msgid "Submit"
+msgstr "送出"
+
+#: views/form.php:353
+msgid "Talker Detection"
+msgstr "發言者偵測"
+
+#: views/form.php:326
+msgid "Talker Optimization"
+msgstr "發言者最佳化"
+
+#: views/form.php:259
+msgid ""
+"The language for the conference. If set to inherit or blank the language "
+"will be inherited from the first person who joins the conference esentially "
+"making the language of this conference dynamic. After the first person has "
+"joined the language can not be changed until all users have left the "
+"conference. If you set a value here the langauge will be forced irregardless "
+"of what language users have set"
+msgstr ""
+"會議的語言。若設定為繼承或空白，語言將從第一位加入會議的人繼承，基本上使此會議的語言成為動態。第一位人員加入後，直到所有使用者離開會議前都無法更改語言。若您在此設定值，將強制使用語言，無論使用者設定什麼語言"
+
+#: assets/js/conferences.js:23
+msgid "The user and admin can not have the same pin code."
+msgstr "使用者和管理員不可有相同的 PIN 碼。"
+
+#: views/form.php:606
+msgid ""
+"This specifies the number of seconds that the participant may stay in the "
+"conference before being automatically ejected. 0 = disabled, default is "
+"21600 (6 hours)"
+msgstr "這指定參與者在被自動退出前可以留在會議中的秒數。0 = 停用，預設為 21600（6 小時）"
+
+#: Conferences.class.php:102
+msgid "Timeout"
+msgstr "逾時"
+
+#: Conferences.class.php:102
+msgid "Timeout of the conference."
+msgstr "會議的逾時。"
+
+#: views/form.php:341
+msgid ""
+"Turns on talker optimization. With talker optimization, Asterisk treats "
+"talkers who are not speaking as being muted, meaning that no encoding is "
+"done on transmission and that received audio that is not registered as "
+"talking is omitted, causing no buildup in background noise."
+msgstr ""
+"開啟發言者最佳化。透過發言者最佳化，Asterisk 將未交談的發言者視為靜音，表示傳輸時不會進行編碼，且會省略未註冊為交談的音訊，不會造成背景噪音累積。"
+
+#: views/form.php:152
+msgid "Use this number to dial into the conference."
+msgstr "使用此號碼撥入會議。"
+
+#: views/form.php:407
+msgid "User Count"
+msgstr "使用者人數"
+
+#: Conferences.class.php:95
+#: views/form.php:188
+msgid "User PIN"
+msgstr "使用者 PIN"
+
+#: views/form.php:434
+msgid "User join/leave"
+msgstr "使用者加入/離開"
+
+#: Conferences.class.php:100
+msgid "Users"
+msgstr "使用者"
+
+#: Conferences.class.php:100
+msgid "Users."
+msgstr "使用者。"
+
+#: views/form.php:287
+msgid ""
+"Wait until the conference leader (admin user) arrives before starting the "
+"conference"
+msgstr "等待會議領導人（管理員使用者）到達後再開始會議"
+
+#: Conferences.class.php:36
+msgid "Warning! Extension"
+msgstr "警告！分機"
+
+#: views/form.php:314
+msgid ""
+"When the conference leader (admin user) leaves all users will be kicked from "
+"the conference"
+msgstr "當會議領導人（管理員使用者）離開時，所有使用者將被踢出會議"
+
+#: views/form.php:277
+#: views/form.php:304
+#: views/form.php:331
+#: views/form.php:358
+#: views/form.php:385
+#: views/form.php:412
+#: views/form.php:439
+#: views/form.php:466
+#: views/form.php:494
+#: views/form.php:521
+#: views/form.php:572
+msgid "Yes"
+msgstr "是"
+
+#: views/form.php:200
+msgid ""
+"You can require callers to enter a password before they can enter this "
+"conference.<br><br>This setting is optional.<br><br>If either PIN is "
+"entered, the user will be prompted to enter a PIN.<br> This pin should be "
+"different than the Admin pin"
+msgstr ""
+"您可以要求來電者在進入此會議前輸入密碼。<br><br>此設定為選填。<br><br>若輸入了任何 PIN，使用者將被提示輸入 PIN。<br>此 PIN 應與管理員 PIN 不同"
+
+#: assets/js/conferences.js:22
+msgid ""
+"You must set Allow Menu to Yes when not using a Leader or Admin in your "
+"conference, otherwise you will be unable to unmute yourself"
+msgstr "當會議中未使用領導人或管理員時，您必須將允許選單設為是，否則您將無法取消靜音自己"
+
+#: assets/js/conferences.js:21
+msgid ""
+"You must set an admin PIN for the Conference Leader when selecting the "
+"leader wait option"
+msgstr "選取領導人等候選項時，您必須為會議領導人設定管理員 PIN"
+
+#: views/form.php:86
+msgid "default"
+msgstr "預設值"
+
+#: Conferences.class.php:127
+msgid "description is blank."
+msgstr "描述為空白。"
+
+#: views/form.php:85
+msgid "inherit"
+msgstr "繼承"
+
+#: Conferences.class.php:36
+msgid "is not allowed for your account."
+msgstr "不允許用於您的帳戶。"
+
+#: Conferences.class.php:98
+msgid "join message id"
+msgstr "加入訊息 ID"

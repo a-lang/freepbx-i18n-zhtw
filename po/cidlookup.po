@@ -1,0 +1,420 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cidlookup
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-07 08:37-0500\n"
+"PO-Revision-Date: 2026-09-15 16:34+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/form.php:26
+msgid ""
+" It executes an HTTP GET passing the caller number as argument to retrieve "
+"the correct name"
+msgstr " 它會執行 HTTP GET，將呼叫者號碼作為引數傳遞，以取得正確的名稱"
+
+#: views/form.php:27
+msgid ""
+" It executes an HTTPS GET passing the caller number as argument to retrieve "
+"the correct name"
+msgstr " 它會執行 HTTPS GET，將呼叫者號碼作為引數傳遞，以取得正確的名稱"
+
+#: views/form.php:25
+msgid ""
+" Use DNS to lookup caller names, it uses ENUM lookup zones as configured in "
+"enum.conf"
+msgstr " 使用 DNS 查詢呼叫者名稱，它使用 enum.conf 中設定的 ENUM 查詢區"
+
+#: views/form.php:23
+msgid " Use OpenCNAM [https://www.opencnam.com/]"
+msgstr " 使用 OpenCNAM [https://www.opencnam.com/]"
+
+#: views/form.php:24
+msgid " use astdb as lookup source, use phonebook module to populate it"
+msgstr " 使用 astdb 作為查詢來源，並使用電話簿模組來填入資料"
+
+#: views/form.php:209
+msgid ""
+"<p>If you need to create an OpenCNAM account, you can visit their website: "
+"<a href=\"https://www.opencnam.com/register\" target=\"_blank\">https://www."
+"opencnam.com/register</a></p>"
+msgstr ""
+"<p>如果您需要建立 OpenCNAM 帳戶，可以造訪其網站：<a href=\"https://www.opencnam.com/register\" target=\"_blank\">https://www.opencnam.com/register</a></p>"
+
+#: page.cidlookup.php:8
+msgid ""
+"A Lookup Source let you specify a source for resolving numeric CallerIDs of "
+"incoming calls, you can then link an Inbound route to a specific CID source. "
+"This way you will have more detailed CDR reports with information taken "
+"directly from your CRM. You can also install the phonebook module to have a "
+"small number <-> name association. Pay attention, name lookup may slow down "
+"your PBX"
+msgstr ""
+"查詢來源可讓您指定一個來源，用來解析來電的數字來電顯示。接著您可以將傳入路由連結到特定的 CID 來源。如此一來，您的 CDR 報表將包含直接取自 CRM 的更詳細資訊。您也可以安裝電話簿模組，建立簡易的號碼 <-> 名稱對應。請注意，名稱查詢可能會拖慢您的 PBX"
+
+#: views/form.php:218
+msgid "Account SID:"
+msgstr "帳戶 SID："
+
+#: views/grid.php:40
+msgid "Actions"
+msgstr "動作"
+
+#: views/grid.php:26
+msgid "Add CIDLookup Source"
+msgstr "新增 CIDLookup 來源"
+
+#: cidlookup.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: cidlookup.i18n.php:8
+msgid ""
+"Allows CallerID Lookup of incoming calls against different sources "
+"(OpenCNAM, MySQL, HTTP, ENUM, Phonebook Module)"
+msgstr "允許對來電進行來電顯示查詢，並比對不同的來源（OpenCNAM、MySQL、HTTP、ENUM、電話簿模組）"
+
+#: views/form.php:242
+msgid "Auth Token"
+msgstr "驗證權杖"
+
+#: views/coreDIDHook.php:9
+msgid "CID Lookup Source"
+msgstr "CID 查詢來源"
+
+#: page.cidlookup.php:7
+msgid "CIDLookup"
+msgstr "CIDLookup"
+
+#: views/form.php:127
+msgid "Cache Results"
+msgstr "快取結果"
+
+#: views/form.php:183
+msgid "Caller ID Format"
+msgstr "來電顯示格式"
+
+#: cidlookup.i18n.php:4
+msgid "CallerID Lookup"
+msgstr "來電顯示查詢"
+
+#: cidlookup.i18n.php:10
+msgid "CallerID Lookup Sources"
+msgstr "來電顯示查詢來源"
+
+#: views/form.php:562
+msgid "Character Set"
+msgstr "字元集"
+
+#: views/form.php:190
+msgid "Company"
+msgstr "公司"
+
+#: views/form.php:102
+msgid "Contact Manager"
+msgstr "聯絡人管理"
+
+#: views/form.php:156
+msgid "Contact Manager Group(s)"
+msgstr "聯絡人管理群組"
+
+#: views/form.php:46
+msgid "Contact Manager Not Installed"
+msgstr "未安裝聯絡人管理"
+
+#: views/form.php:29
+msgid "Contact Manager:"
+msgstr "聯絡人管理："
+
+#: views/form.php:442
+msgid "Database"
+msgstr "資料庫"
+
+#: views/form.php:454
+msgid "Database Name"
+msgstr "資料庫名稱"
+
+#: views/form.php:142
+msgid ""
+"Decide whether or not cache the results to astDB; it will overwrite present "
+"values. It does not affect Internal source behavior"
+msgstr "決定是否將結果快取到 astDB；這會覆寫目前的值。它不會影響「內部」來源的行為"
+
+#: Cidlookup.class.php:42
+msgid "Delete"
+msgstr "刪除"
+
+#: views/grid.php:38
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:191
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: views/form.php:25
+msgid "ENUM:"
+msgstr "ENUM："
+
+#: views/form.php:83
+msgid "Enter a description for this source."
+msgstr "輸入此來源的描述。"
+
+#: views/form.php:170
+msgid "Filter results to these contact manager groups"
+msgstr "將結果篩選為這些聯絡人管理群組"
+
+#: views/form.php:188
+msgid "First Last"
+msgstr "名 姓"
+
+#: views/form.php:26
+msgid "HTTP:"
+msgstr "HTTP："
+
+#: views/form.php:27
+msgid "HTTPS:"
+msgstr "HTTPS："
+
+#: views/form.php:270
+#: views/form.php:418
+msgid "Host"
+msgstr "主機"
+
+#: views/form.php:282
+msgid "Host name or IP address"
+msgstr "主機名稱或 IP 位址"
+
+#: views/form.php:200
+msgid "How to format the returned data"
+msgstr "如何格式化傳回的資料"
+
+#: views/form.php:101
+msgid "Internal"
+msgstr "內部"
+
+#: views/form.php:24
+msgid "Internal:"
+msgstr "內部："
+
+#: views/form.php:28
+msgid "It queries a MySQL database to retrieve caller name"
+msgstr "它會查詢 MySQL 資料庫以取得呼叫者名稱"
+
+#: views/form.php:189
+msgid "Last First"
+msgstr "姓 名"
+
+#: views/bootnav.php:6
+msgid "List Sources"
+msgstr "列出來源"
+
+#: views/form.php:574
+msgid "MySQL Character Set. Leave blank for MySQL default latin1"
+msgstr "MySQL 字元集。留空則使用 MySQL 預設的 latin1"
+
+#: views/form.php:430
+msgid "MySQL Host"
+msgstr "MySQL 主機"
+
+#: views/form.php:550
+msgid "MySQL Password"
+msgstr "MySQL 密碼"
+
+#: views/form.php:478
+msgid "MySQL Port"
+msgstr "MySQL 連接埠"
+
+#: views/form.php:526
+msgid "MySQL Username"
+msgstr "MySQL 使用者名稱"
+
+#: views/form.php:28
+msgid "MySQL:"
+msgstr "MySQL："
+
+#: views/form.php:134
+msgid "No"
+msgstr "否"
+
+#: Cidlookup.class.php:128
+msgid "None"
+msgstr "無"
+
+#: views/form.php:583
+#: views/form.php:588
+msgid "Not yet implemented"
+msgstr "尚未實作"
+
+#: views/form.php:14
+#: views/form.php:19
+msgid "OpenCNAM"
+msgstr "OpenCNAM"
+
+#: functions.inc.php:97
+msgid "OpenCNAM Requires Authentication"
+msgstr "OpenCNAM 需要驗證"
+
+#: bin/opencnam-alert.php:22
+msgid "OpenCNAM Throttle Reached!"
+msgstr "已達到 OpenCNAM 節流上限！"
+
+#: views/form.php:23
+msgid "OpenCNAM:"
+msgstr "OpenCNAM："
+
+#: views/form.php:342
+#: views/form.php:538
+msgid "Password"
+msgstr "密碼"
+
+#: views/form.php:354
+msgid "Password to use in HTTP authentication"
+msgstr "HTTP 驗證要使用的密碼"
+
+#: views/form.php:366
+msgid "Path"
+msgstr "路徑"
+
+#: views/form.php:378
+msgid ""
+"Path of the file to GET<br/>e.g.: /cidlookup.php<br>Special token '[NUMBER]' "
+"will be replaced with caller number<br/>e.g.: /cidlookup/[NUMBER]/<br/"
+">'[NAME]' will be replaced with existing caller id name<br/>'[LANGUAGE]' "
+"will be replaced with channel language"
+msgstr ""
+"要 GET 的檔案路徑<br/>例如：/cidlookup.php<br>特殊權杖「[NUMBER]」會取代為呼叫者號碼<br/>例如：/cidlookup/[NUMBER]/<br/>「[NAME]」會取代為現有的來電顯示名稱<br/>「[LANGUAGE]」會取代為通道語言"
+
+#: views/form.php:294
+#: views/form.php:466
+msgid "Port"
+msgstr "連接埠"
+
+#: views/form.php:306
+msgid "Port HTTP(s) server is listening at (default http 80, https 443)"
+msgstr "HTTP(S) 伺服器接聽的連接埠（預設 http 80、https 443）"
+
+#: views/form.php:390
+#: views/form.php:490
+msgid "Query"
+msgstr "查詢"
+
+#: views/form.php:402
+msgid ""
+"Query string, special token '[NUMBER]' will be replaced with caller "
+"number<br/>e.g.: number=[NUMBER]&source=crm<br/>'[NAME]' will be replaced "
+"with existing caller id name<br/>'[LANGUAGE]' will be replaced with channel "
+"language<br/>'[UNIQUEID]' will be replaced with unique Asterisk callID"
+msgstr ""
+"查詢字串，特殊權杖「[NUMBER]」會取代為呼叫者號碼<br/>例如：number=[NUMBER]&source=crm<br/>「[NAME]」會取代為現有的來電顯示名稱<br/>「[LANGUAGE]」會取代為通道語言<br/>「[UNIQUEID]」會取代為唯一的 Asterisk 通話 ID"
+
+#: views/form.php:502
+msgid ""
+"Query, special token '[NUMBER]' will be replaced with caller number<br/>e."
+"g.: SELECT name FROM phonebook WHERE number LIKE '%[NUMBER]%'"
+msgstr ""
+"查詢，特殊權杖「[NUMBER]」會取代為呼叫者號碼<br/>例如：SELECT name FROM phonebook WHERE number LIKE '%[NUMBER]%'"
+
+#: Cidlookup.class.php:52
+msgid "Reset"
+msgstr "重置"
+
+#: views/form.php:29
+msgid "Searches a contact manager group"
+msgstr "搜尋聯絡人管理群組"
+
+#: views/form.php:21
+msgid "Select the source type, you can choose between:"
+msgstr "選取來源類型，您可以從下列選項中選擇："
+
+#: views/bootnav.php:16
+msgid "Source"
+msgstr "來源"
+
+#: views/form.php:71
+msgid "Source Description"
+msgstr "來源描述"
+
+#: assets/js/sources.js:23
+msgid "Source Description Already Exist"
+msgstr "來源描述已存在"
+
+#: views/form.php:95
+msgid "Source type"
+msgstr "來源類型"
+
+#: views/coreDIDHook.php:23
+msgid "Sources can be added in Caller Name Lookup Sources section"
+msgstr "可以在「呼叫者名稱查詢來源」區段中新增來源"
+
+#: Cidlookup.class.php:47
+msgid "Submit"
+msgstr "提交"
+
+#: views/form.php:53
+#, php-format
+msgid ""
+"There are %s DIDs using this source that will no longer have lookups if "
+"deleted."
+msgstr "有 %s 個 DID 正在使用此來源，若刪除此來源，這些 DID 將不再進行查詢。"
+
+#: views/grid.php:39
+msgid "Type"
+msgstr "類型"
+
+#: functions.inc.php:97
+msgid ""
+"Unauthenticated calls to the OpenCNAM API will soon fail. You will need an "
+"OpenCNAM account to continue using their API"
+msgstr "對 OpenCNAM API 的未驗證呼叫即將失效。您將需要 OpenCNAM 帳戶才能繼續使用其 API"
+
+#: views/form.php:318
+#: views/form.php:514
+msgid "Username"
+msgstr "使用者名稱"
+
+#: views/form.php:330
+msgid "Username to use in HTTP authentication"
+msgstr "HTTP 驗證要使用的使用者名稱"
+
+#: views/form.php:132
+msgid "Yes"
+msgstr "是"
+
+#: bin/opencnam-alert.php:22
+msgid ""
+"You have gone past the free OpenCNAM usage limits.<br/><br/>To continue "
+"getting caller ID name information, you need to create an OpenCNAM "
+"Professional Account.<br/><br/>You can create an OpenCNAM account at: <a "
+"href=\"https://www.opencnam.com/register\">https://www.opencnam.com/"
+"register</a>.<br/><br/>Once you have created an account, visit the CallerID "
+"Lookup Sources menu and enter your OpenCNAM Professional Tier credentials."
+"<br/>"
+msgstr ""
+"您已超出 OpenCNAM 的免費使用限制。<br/><br/>若要繼續取得來電顯示名稱資訊，您需要建立 OpenCNAM 專業版帳戶。<br/><br/>您可以在下列網址建立 OpenCNAM 帳戶：<a href=\"https://www.opencnam.com/register\">https://www.opencnam.com/register</a>。<br/><br/>建立帳戶後，請前往「來電顯示查詢來源」選單，並輸入您的 OpenCNAM 專業版層級憑證。<br/>"
+
+#: views/form.php:230
+msgid ""
+"Your OpenCNAM Account SID. This can be found on your OpenCNAM dashboard "
+"page: https://www.opencnam.com/dashboard"
+msgstr ""
+"您的 OpenCNAM 帳戶 SID。您可以在 OpenCNAM 儀表板頁面找到它：https://www.opencnam.com/dashboard"
+
+#: views/form.php:254
+msgid ""
+"Your OpenCNAM Auth Token. This can be found on your OpenCNAM dashboard page: "
+"https://www.opencnam.com/dashboard"
+msgstr ""
+"您的 OpenCNAM 驗證權杖。您可以在 OpenCNAM 儀表板頁面找到它：https://www.opencnam.com/dashboard"

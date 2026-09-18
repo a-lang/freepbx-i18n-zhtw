@@ -1,0 +1,1452 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ucp
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 02:29-0400\n"
+"PO-Revision-Date: 2026-09-15 17:52+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: htdocs/assets/js/lodash-4.17.2.js:8787
+msgid "  abc  "
+msgstr "  abc  "
+
+#: htdocs/views/dashfootercontent.php:37
+#, php-format
+msgid "%s %s is licensed under the %s"
+msgstr "%s %s 採用 %s 授權"
+
+#: htdocs/views/dashfootercontent.php:36
+#, php-format
+msgid "%s is a registered trademark of"
+msgstr "%s 是以下公司的註冊商標："
+
+#: htdocs/assets/js/emojionearea-3.4.2.min.js:9
+msgid ").replace(/"
+msgstr ").replace(/"
+
+#: htdocs/assets/js/lodash-4.17.2.js:15199
+msgid ""
+");\n"
+"     *\n"
+"     * if (_.isError(elements)) {\n"
+"     *   elements = [];\n"
+"     * }\n"
+"     */\n"
+"    var attempt = baseRest(function(func, args) {\n"
+"      try {\n"
+"        return apply(func, undefined, args);\n"
+"      } catch (e) {\n"
+"        return isError(e) ? e : new Error(e);\n"
+"      }\n"
+"    });\n"
+"\n"
+"    /**\n"
+"     * Binds methods of an object to the object itself, overwriting the "
+"existing\n"
+"     * method.\n"
+"     *\n"
+"     * **Note:** This method doesn"
+msgstr ""
+");\n"
+"     *\n"
+"     * if (_.isError(elements)) {\n"
+"     *   elements = [];\n"
+"     * }\n"
+"     */\n"
+"    var attempt = baseRest(function(func, args) {\n"
+"      try {\n"
+"        return apply(func, undefined, args);\n"
+"      } catch (e) {\n"
+"        return isError(e) ? e : new Error(e);\n"
+"      }\n"
+"    });\n"
+"\n"
+"    /**\n"
+"     * Binds methods of an object to the object itself, overwriting the existing\n"
+"     * method.\n"
+"     *\n"
+"     * **Note:** This method doesn"
+
+#: htdocs/assets/js/lodash-4.17.2.js:14398
+msgid ""
+");\n"
+"     * // => "
+msgstr ""
+");\n"
+"     * // => "
+
+#: htdocs/assets/js/jquery-ui-1.13.2.min.js:6
+msgid "+t,e.props.alpha={idx:3,type:"
+msgstr "+t,e.props.alpha={idx:3,type:"
+
+#: htdocs/index.php:93
+msgid ".htaccess files are disabled on this webserver. Please enable them"
+msgstr ".htaccess files are disabled on this webserver. Please enable them"
+
+#: htdocs/index.php:106
+msgid ".htaccess files are not supported on this webserver."
+msgstr ".htaccess files are not supported on this webserver."
+
+#: htdocs/assets/js/socket.io-4.7.4.min.js:6
+msgid ".split("
+msgstr ".split("
+
+#: htdocs/assets/js/moment-with-locales-2.20.1.min.js:1
+msgid ": "
+msgstr ": "
+
+#: htdocs/modules/Ucptour/assets/js/global.js:123
+#, perl-format
+msgid "A dashboard can be deleted by clicking the '%s'"
+msgstr "您可以點擊「%s」來刪除儀表板"
+
+#: htdocs/views/templates/phone.php:41
+msgid "ABC"
+msgstr "ABC"
+
+#: htdocs/views/dashboard-footer.php:219
+msgid "Accept"
+msgstr "接受"
+
+#: htdocs/modules/Settings/views/settings.php:5
+msgid "Account Settings"
+msgstr "帳戶設定"
+
+#: views/users_hook.php:164
+msgid "Active Sessions"
+msgstr "使用中工作階段"
+
+#: htdocs/views/dashboard-footer.php:12
+msgid "Add Dashboard"
+msgstr "新增儀表板"
+
+#: htdocs/views/dashboard-footer.php:54
+msgid "Add Widget"
+msgstr "新增小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:250
+msgid "Adding Side Bar Widgets"
+msgstr "新增側邊欄小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:299
+msgid "Adding Small Widgets"
+msgstr "新增小型小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:139
+#: htdocs/modules/Ucptour/assets/js/global.js:188
+msgid "Adding Widgets"
+msgstr "新增小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:32
+msgid "Adding a dashboard"
+msgstr "新增儀表板"
+
+#: ucp.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: htdocs/views/dashboard-footer.php:230
+msgid "Alert"
+msgstr "警示"
+
+#: htdocs/modules/Settings/views/settings.php:3
+msgid ""
+"All fields update when unfocused (selecting another field) except password"
+msgstr "所有欄位都會在失去焦點時更新（選擇另一個欄位），密碼除外"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:239
+#, perl-format
+msgid ""
+"All widgets in a dashboard can also be locked globally by clicking the '%s' "
+"symbol on the dashboard tab"
+msgstr "儀表板中的所有小工具也可以透過點擊儀表板分頁上的「%s」符號來全域鎖定"
+
+#: htdocs/modules/Settings/views/settings.php:144
+msgid "Allow Desktop Notifications"
+msgstr "允許桌面通知"
+
+#: views/users_hook.php:46
+msgid "Allow Login"
+msgstr "允許登入"
+
+#: htdocs/modules/Settings/views/settings.php:146
+msgid "Allow browser desktop notifications from UCP modules."
+msgstr "允許來自 UCP 模組的瀏覽器桌面通知。"
+
+#: views/users_hook.php:249
+msgid ""
+"Allow this user to originate calls from within UCP. This is not the same as "
+"WebRTC"
+msgstr "允許此使用者從 UCP 內發起通話。這與 WebRTC 不同"
+
+#: views/users_hook.php:204
+msgid "Allowed Extension Settings"
+msgstr "允許的分機設定"
+
+#: htdocs/modules/Widgets/assets/js/global.js:897
+msgid "Are you sure you want to delete this dashboard?"
+msgstr "您確定要刪除此儀表板嗎？"
+
+#: views/users_hook.php:106
+msgid "Assign UCP Template"
+msgstr "指派 UCP 範本"
+
+#: Ucp.class.php:1217
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr "Asterisk 主目錄 (%s) 不存在，且 ASTSPOOLDIR 不存在。正在中止"
+
+#: htdocs/modules/Settings/views/settings.php:102
+msgid "Browse"
+msgstr "瀏覽"
+
+#: htdocs/views/templates/phone.php:7
+#: htdocs/views/templates/phone.php:95
+msgid "Call"
+msgstr "通話"
+
+#: htdocs/views/dashboard-footer.php:22
+#: htdocs/views/dashboard-footer.php:43
+#: htdocs/views/dashboard-footer.php:168
+#: htdocs/views/dashboard-footer.php:218
+msgid "Cancel"
+msgstr "取消"
+
+#: htdocs/modules/Settings/views/settings.php:72
+msgid "Cell Phone"
+msgstr "手機"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:313
+msgid "Click the widget's icon to continue"
+msgstr "點擊小工具圖示以繼續"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:33
+#: htdocs/modules/Ucptour/assets/js/global.js:140
+#: htdocs/modules/Ucptour/assets/js/global.js:189
+#: htdocs/modules/Ucptour/assets/js/global.js:251
+#: htdocs/modules/Ucptour/assets/js/global.js:300
+#: htdocs/modules/Ucptour/assets/js/global.js:335
+msgid "Click this symbol to continue"
+msgstr "點擊此符號以繼續"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:300
+#, perl-format
+msgid ""
+"Clicking the '%s' symbol will add this small widget to the display. It will "
+"be visible on all dashboards"
+msgstr "點擊「%s」符號會將此小型小工具新增到顯示畫面。它將顯示在所有儀表板上"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:189
+#, perl-format
+msgid ""
+"Clicking the '%s' symbol will add this widget to the currently active "
+"dashboard."
+msgstr "點擊「%s」符號會將此小工具新增到目前作用中的儀表板。"
+
+#: htdocs/views/dashboard-footer.php:243
+#: htdocs/views/forgot.php:15
+msgid "Close"
+msgstr "關閉"
+
+#: htdocs/modules/Settings/views/settings.php:67
+msgid "Company"
+msgstr "公司"
+
+#: htdocs/views/dashboard-footer.php:209
+msgid "Confirm Action"
+msgstr "確認動作"
+
+#: htdocs/modules/Settings/views/settings.php:32
+msgid "Confirm Password"
+msgstr "確認密碼"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:25
+msgid "Congratulations!"
+msgstr "恭喜！"
+
+#: htdocs/views/dashboard-footer.php:23
+msgid "Create Dashboard"
+msgstr "建立儀表板"
+
+#: htdocs/views/dashfootercontent.php:44
+#, php-format
+msgid "Current module licensed under %s"
+msgstr "目前模組採用 %s 授權"
+
+#: htdocs/views/templates/phone.php:45
+msgid "DEF"
+msgstr "DEF"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:238
+msgid "Dashboard Locking"
+msgstr "儀表板鎖定"
+
+#: htdocs/views/dashboard-footer.php:17
+#: htdocs/views/dashboard-footer.php:38
+msgid "Dashboard Name"
+msgstr "儀表板名稱"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:202
+msgid "Dashboard Widget"
+msgstr "儀表板小工具"
+
+#: htdocs/views/dashboard-footer.php:59
+#: htdocs/modules/Ucptour/assets/js/global.js:101
+msgid "Dashboard Widgets"
+msgstr "儀表板小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:167
+msgid ""
+"Dashboard Widgets are sorted into categories on the left. These widgets will "
+"appear directly on your dashboard. You can click on any category to get a "
+"listing of the widgets available"
+msgstr "儀表板小工具會依類別分類在左側。這些小工具會直接顯示在您的儀表板上。您可以點擊任何類別以取得可用小工具的列表"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:102
+msgid "Dashboard widgets will be displayed here"
+msgstr "儀表板小工具將顯示在此"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:93
+msgid "Dashboards"
+msgstr "儀表板"
+
+#: htdocs/modules/Settings/views/settings.php:162
+msgid "Date Format"
+msgstr "日期格式"
+
+#: htdocs/modules/Settings/views/settings.php:154
+msgid "Date and Time Format"
+msgstr "日期與時間格式"
+
+#: htdocs/modules/Settings/views/settings.php:120
+#: htdocs/modules/Settings/views/settings.php:133
+msgid "Default"
+msgstr "預設"
+
+#: htdocs/modules/Settings/views/settings.php:97
+msgid "Delete Image"
+msgstr "刪除圖片"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:122
+msgid "Delete a Dashboard"
+msgstr "刪除儀表板"
+
+#: Ucp.class.php:1077
+msgid "Deleted Session"
+msgstr "已刪除的工作階段"
+
+#: Ucp.class.php:389
+#: Ucp.class.php:919
+msgid "Deleted User Session"
+msgstr "已刪除的使用者工作階段"
+
+#: htdocs/assets/js/ucp.js:80
+msgid "Disable"
+msgstr "停用"
+
+#: htdocs/modules/Settings/views/settings.php:42
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: Ucp.class.php:1378
+#, php-format
+msgid "Don't know what %s is"
+msgstr "不知道 %s 是什麼"
+
+#: Ucp.class.php:298
+#: Ucp.class.php:326
+#: Ucp.class.php:1172
+#: Ucp.class.php:1176
+#: Ucp.class.php:1180
+#: Ucp.class.php:1184
+msgid "Done"
+msgstr "完成"
+
+#: htdocs/modules/Settings/views/settings.php:94
+msgid "Drop a new image here"
+msgstr "將新圖片拖放到這裡"
+
+#: htdocs/views/dashboard-footer.php:33
+#: htdocs/views/dashboard-footer.php:44
+msgid "Edit Dashboard"
+msgstr "編輯儀表板"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:115
+msgid "Editing a Dashboard"
+msgstr "編輯儀表板"
+
+#: htdocs/modules/Settings/views/settings.php:47
+#: htdocs/views/login.php:39
+msgid "Email"
+msgstr "電子郵件"
+
+#: htdocs/assets/js/ucp.js:77
+msgid "Enable"
+msgstr "啟用"
+
+#: views/users_hook.php:230
+msgid "Enable Originating Calls"
+msgstr "啟用發起通話"
+
+#: views/users_hook.php:76
+msgid "Enable Tour Mode"
+msgstr "啟用導覽模式"
+
+#: views/users_hook.php:95
+msgid ""
+"Enable tour mode in UCP upon first login. If disabled the tour will not "
+"automatically start upon first login"
+msgstr "在首次登入時啟用 UCP 導覽模式。若停用，導覽將不會在首次登入時自動開始"
+
+#: htdocs/modules/Settings/assets/js/global.js:140
+msgid "Enabling notifications was denied"
+msgstr "啟用通知被拒絕"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:355
+msgid "End of tour"
+msgstr "導覽結束"
+
+#: htdocs/modules/Settings/Settings.class.php:132
+msgid "English"
+msgstr "英文"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:51
+msgid "Enter a name for your dashboard in this input box"
+msgstr "在此輸入框中輸入您的儀表板名稱"
+
+#: install.inc.php:20
+#, php-format
+msgid "Failed to install %s due to the following conflicting module(s): %s"
+msgstr "因以下衝突模組而無法安裝 %s：%s"
+
+#: Ucp.class.php:1294
+#, php-format
+msgid "Failed to run: '%s'"
+msgstr "執行失敗：'%s'"
+
+#: Ucp.class.php:173
+msgid "Failed updating libraries!"
+msgstr "更新程式庫失敗！"
+
+#: Ucp.class.php:306
+msgid "Failed!"
+msgstr "失敗！"
+
+#: htdocs/modules/Settings/views/settings.php:87
+msgid "Fax"
+msgstr "傳真"
+
+#: Ucp.class.php:176
+msgid "Finished updating libraries!"
+msgstr "完成更新程式庫！"
+
+#: htdocs/views/templates/pagnation.php:4
+msgid "First"
+msgstr "第一頁"
+
+#: htdocs/modules/Settings/views/settings.php:52
+msgid "First Name"
+msgstr "名字"
+
+#: htdocs/views/login.php:47
+msgid "Forgot Password"
+msgstr "忘記密碼"
+
+#: htdocs/views/templates/phone.php:51
+msgid "GHI"
+msgstr "GHI"
+
+#: views/users_hook.php:19
+msgid "General"
+msgstr "一般"
+
+#: Ucp.class.php:1182
+msgid "Generating Main CSS..."
+msgstr "正在產生主要 CSS..."
+
+#: Ucp.class.php:1178
+msgid "Generating Main Scripts..."
+msgstr "正在產生主要指令..."
+
+#: Ucp.class.php:1174
+msgid "Generating Module CSS..."
+msgstr "正在產生模組 CSS..."
+
+#: Ucp.class.php:1170
+msgid "Generating Module Scripts..."
+msgstr "正在產生模組指令..."
+
+#: htdocs/views/templates/phone.php:98
+msgid "Hold"
+msgstr "保留"
+
+#: htdocs/modules/Home/Home.class.php:216
+msgid "Home"
+msgstr "首頁"
+
+#: htdocs/modules/Settings/views/settings.php:82
+msgid "Home Phone"
+msgstr "住家電話"
+
+#: Ucp.class.php:151
+#: Ucp.class.php:158
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr "主目錄 [%s] 不可寫入"
+
+#: htdocs/modules/Settings/views/settings.php:44
+msgid ""
+"How you would like your name displayed throughout UCP and Contact Manager"
+msgstr "您希望您的名稱在 UCP 和聯絡人管理器中的顯示方式"
+
+#: Ucp.class.php:143
+#, php-format
+msgid "ICU version is: %s requirement is %s"
+msgstr "ICU 版本為：%s，需求為 %s"
+
+#: views/users_hook.php:56
+#: views/users_hook.php:86
+#: views/users_hook.php:116
+#: views/users_hook.php:240
+msgid "Inherit"
+msgstr "繼承"
+
+#: Ucp.class.php:163
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr "正在安裝/更新必要的程式庫。這可能需要一些時間..."
+
+#: htdocs/modules/Settings/views/settings.php:7
+msgid "Interface Settings"
+msgstr "介面設定"
+
+#: htdocs/index.php:247
+#, php-format
+msgid ""
+"Internet Explorer %s is not supported. Functionality will be deteriorated "
+"until you upgrade to %s or higher"
+msgstr "不支援 Internet Explorer %s。在您升級到 %s 或更高版本之前，功能將會降低"
+
+#: htdocs/includes/User.class.php:111
+msgid "Invalid"
+msgstr "無效"
+
+#: htdocs/modules/Home/Home.class.php:152
+msgid "Invalid Destination"
+msgstr "無效的目的地"
+
+#: htdocs/modules/Home/Home.class.php:156
+#: htdocs/modules/Home/Home.class.php:172
+#: htdocs/modules/Home/Home.class.php:177
+msgid "Invalid Device"
+msgstr "無效的裝置"
+
+#: htdocs/includes/User.class.php:129
+msgid "Invalid Login Credentials"
+msgstr "無效的登入憑證"
+
+#: htdocs/index.php:236
+msgid "Invalid Token"
+msgstr "無效的權杖"
+
+#: htdocs/modules/Widgets/Widgets.class.php:47
+msgid "Invalid dashboard id"
+msgstr "無效的儀表板 ID"
+
+#: htdocs/views/templates/phone.php:55
+msgid "JKL"
+msgstr "JKL"
+
+#: htdocs/modules/Settings/views/settings.php:118
+msgid "Language"
+msgstr "語言"
+
+#: htdocs/views/templates/pagnation.php:20
+msgid "Last"
+msgstr "最後一頁"
+
+#: htdocs/modules/Settings/views/settings.php:57
+msgid "Last Name"
+msgstr "姓氏"
+
+#: htdocs/views/forgot.php:85
+#: htdocs/views/login.php:69
+msgid "Loading..."
+msgstr "載入中..."
+
+#: htdocs/views/forgot.php:67
+#: htdocs/views/login.php:49
+#: htdocs/views/login.php:86
+#: htdocs/assets/js/ucp.js:357
+#: htdocs/assets/js/ucp.js:378
+#: htdocs/assets/js/ucp.js:388
+msgid "Login"
+msgstr "登入"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:351
+msgid "Logout"
+msgstr "登出"
+
+#: htdocs/views/templates/phone.php:59
+msgid "MNO"
+msgstr "MNO"
+
+#: views/users_hook.php:65
+msgid "May this user log in to UCP"
+msgstr "是否允許此使用者登入 UCP"
+
+#: views/users_hook.php:24
+msgid "Miscellaneous"
+msgstr "其他"
+
+#: htdocs/includes/Ajax.class.php:37
+msgid "Module or Command requested invalid"
+msgstr "模組或指令請求無效"
+
+#: htdocs/includes/Ajax.class.php:81
+msgid "Module or Command were null. Check your code."
+msgstr "模組或指令為空。請檢查您的程式碼。"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:130
+msgid ""
+"Multiple dashboard can be re-ordered by hovering with your mouse until the "
+"move cursor is shown. Then clicking and dragging the dashboard in the order "
+"you want"
+msgstr "您可以將滑鼠停留在多個儀表板上，直到顯示移動游標，然後點擊並拖曳儀表板以您想要的順序重新排列"
+
+#: Ucp.class.php:116
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr "NPM 版本為：%s，需求為 %s。請以 root 身份從 CLI 執行 'yum upgrade nodejs'"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:50
+msgid "Name your dashboard"
+msgstr "為您的儀表板命名"
+
+#: views/users_hook.php:53
+#: views/users_hook.php:83
+#: views/users_hook.php:113
+#: views/users_hook.php:237
+msgid "No"
+msgstr "否"
+
+#: Ucp.class.php:112
+msgid "Node Package Manager is not installed"
+msgstr "未安裝 Node Package Manager"
+
+#: Ucp.class.php:100
+msgid "Node is not installed"
+msgstr "未安裝 Node"
+
+#: Ucp.class.php:104
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr "Node 版本為：%s，需求為 %s。請以 root 身份從 CLI 執行 'yum upgrade nodejs'"
+
+#: views/users_hook.php:141
+msgid "None"
+msgstr "無"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:216
+msgid "Note: some widgets have size restrictions!"
+msgstr "注意：某些小工具有限制尺寸！"
+
+#: htdocs/modules/Home/assets/js/global.js:73
+msgid "Nothing Entered"
+msgstr "未輸入任何內容"
+
+#: htdocs/includes/User.class.php:81
+msgid "Nothing was Provided!"
+msgstr "未提供任何內容！"
+
+#: htdocs/views/header.php:59
+msgid "OFF"
+msgstr "關閉"
+
+#: htdocs/views/header.php:55
+msgid "ON"
+msgstr "開啟"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:313
+msgid "Once a small widget has been added it will show up in the left sidebar"
+msgstr "一旦新增小型小工具，它將顯示在左側邊欄"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:129
+msgid "Ordering dashboards"
+msgstr "排列儀表板"
+
+#: htdocs/modules/Home/assets/js/global.js:47
+#: htdocs/modules/Home/assets/js/global.js:126
+msgid "Originate"
+msgstr "發起"
+
+#: htdocs/modules/Home/assets/js/global.js:22
+#: htdocs/modules/Home/assets/js/global.js:45
+#: htdocs/modules/Home/assets/js/global.js:125
+msgid "Originate Call"
+msgstr "發起通話"
+
+#: htdocs/views/templates/phone.php:65
+msgid "PQRS"
+msgstr "PQRS"
+
+#: htdocs/modules/Settings/views/settings.php:25
+#: htdocs/modules/Settings/views/settings.php:27
+#: htdocs/views/login.php:29
+msgid "Password"
+msgstr "密碼"
+
+#: Ucp.class.php:440
+#, php-format
+msgid "Password Reset Link (Valid Until: %s): %s"
+msgstr "密碼重設連結（有效期限：%s）：%s"
+
+#: htdocs/views/forgot.php:49
+#, php-format
+msgid "Password Reset for: %s"
+msgstr "密碼重設：%s"
+
+#: htdocs/modules/Settings/views/pwd_alert.php:1
+#: htdocs/views/forgot.php:6
+msgid "Password does not match security policy."
+msgstr "密碼不符合安全性原則。"
+
+#: htdocs/assets/js/ucp.js:280
+msgid "Password has been changed!"
+msgstr "密碼已變更！"
+
+#: htdocs/assets/js/ucp.js:319
+#: htdocs/assets/js/ucp.js:372
+msgid "Processing..."
+msgstr "處理中..."
+
+#: htdocs/modules/Home/Home.class.php:44
+msgid "RSS Feeds"
+msgstr "RSS 摘要"
+
+#: htdocs/modules/Home/Home.class.php:75
+msgid "RSS Feeds are not set."
+msgstr "未設定 RSS 摘要。"
+
+#: Api/Rest/Dashboard.php:12
+msgid "Read UCP Dashboard Information"
+msgstr "讀取 UCP 儀表板資訊"
+
+#: Ucp.class.php:312
+msgid "Refreshing all UCP Assets, this could take a while..."
+msgstr "正在重新整理所有 UCP 資源，這可能需要一些時間..."
+
+#: htdocs/views/forgot.php:71
+#: htdocs/views/login.php:53
+msgid "Remember Me"
+msgstr "記住我"
+
+#: htdocs/views/dashboard-header.php:108
+#: htdocs/modules/Widgets/assets/js/global.js:446
+msgid "Remove Widget"
+msgstr "移除小工具"
+
+#: htdocs/views/forgot.php:86
+msgid "Reset Password"
+msgstr "重設密碼"
+
+#: htdocs/modules/Settings/views/settings.php:149
+msgid "Restart Tour"
+msgstr "重新開始導覽"
+
+#: Ucp.class.php:1233
+#, php-format
+msgid "Running (Uptime: %s)"
+msgstr "執行中（運作時間：%s）"
+
+#: htdocs/includes/User.class.php:123
+msgid ""
+"SAML Single Sign-On is enabled for your account. Please sign in using SSO."
+msgstr "您的帳戶已啟用 SAML 單一登入。請使用 SSO 登入。"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:69
+msgid "Save your dashboard"
+msgstr "儲存您的儀表板"
+
+#: htdocs/modules/Settings/assets/js/global.js:256
+msgid "Saved!"
+msgstr "已儲存！"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:166
+msgid "Selecting Dashboard Widgets"
+msgstr "選擇儀表板小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:266
+msgid "Selecting Side Bar Widgets"
+msgstr "選擇側邊欄小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:277
+msgid "Selecting Small Widgets"
+msgstr "選擇小型小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:155
+#: htdocs/modules/Ucptour/assets/js/global.js:174
+#: htdocs/modules/Ucptour/assets/js/global.js:284
+msgid "Selecting Widgets"
+msgstr "選擇小工具"
+
+#: htdocs/views/login.php:71
+msgid "Send Me A Password Reset Link"
+msgstr "寄送密碼重設連結給我"
+
+#: htdocs/views/templates/chat.php:23
+#, php-format
+msgid "Sent at %s"
+msgstr "寄送於 %s"
+
+#: htdocs/modules/Widgets/assets/js/global.js:100
+#: htdocs/modules/Widgets/assets/js/global.js:385
+msgid "Settings"
+msgstr "設定"
+
+#: htdocs/views/dashboard-footer.php:60
+#: htdocs/modules/Ucptour/assets/js/global.js:243
+msgid "Side Bar Widgets"
+msgstr "側邊欄小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:267
+msgid ""
+"Side Bar widgets are grouped in a single category called 'Side Bar Widgets'"
+msgstr "側邊欄小工具分組在名為「側邊欄小工具」的單一類別中"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:251
+#, perl-format
+msgid ""
+"Side bar Widgets can also be added by clicking the '%s' symbol. These appear "
+"under the '%s' symbol in this side bar"
+msgstr "側邊欄小工具也可以透過點擊「%s」符號新增。這些會顯示在此側邊欄的「%s」符號下方"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:312
+#: htdocs/modules/Ucptour/assets/js/global.js:324
+#: htdocs/modules/Ucptour/assets/js/global.js:329
+#: htdocs/modules/Ucptour/assets/js/global.js:334
+msgid "Small Widget Display"
+msgstr "小型小工具顯示"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:278
+msgid ""
+"Small Widgets are listed on the right. The titles and descriptions will be "
+"shown for each widget"
+msgstr "小型小工具列在右側。每個小工具會顯示標題和描述"
+
+#: htdocs/modules/Widgets/assets/js/global.js:1252
+#: htdocs/modules/Widgets/assets/js/global.js:1290
+msgid "Something went wrong getting the settings from the widget"
+msgstr "從小工具取得設定時發生錯誤"
+
+#: htdocs/modules/Widgets/assets/js/global.js:871
+#: htdocs/modules/Widgets/assets/js/global.js:925
+msgid "Something went wrong removing the dashboard"
+msgstr "移除儀表板時發生錯誤"
+
+#: Ucp.class.php:1289
+#, php-format
+msgid "Started UCP Node Server. PID is %s"
+msgstr "已啟動 UCP Node 伺服器。PID 為 %s"
+
+#: Ucp.class.php:308
+#, php-format
+msgid "Started with PID %s!"
+msgstr "已以 PID %s 啟動！"
+
+#: Ucp.class.php:1260
+msgid "Starting UCP Node Server..."
+msgstr "正在啟動 UCP Node 伺服器..."
+
+#: Ucp.class.php:303
+msgid "Starting new UCP Node Process..."
+msgstr "正在啟動新的 UCP Node 程序..."
+
+#: Ucp.class.php:1362
+msgid "Stopped UCP Node Server"
+msgstr "已停止 UCP Node 伺服器"
+
+#: Ucp.class.php:1331
+msgid "Stopping UCP Node Server"
+msgstr "正在停止 UCP Node 伺服器"
+
+#: Ucp.class.php:296
+#: Ucp.class.php:324
+msgid "Stopping old running processes..."
+msgstr "正在停止舊的執行程序..."
+
+#: htdocs/includes/User.class.php:89
+msgid "Submitted"
+msgstr "已送出"
+
+#: htdocs/modules/Settings/assets/js/global.js:106
+#: htdocs/modules/Settings/assets/js/global.js:119
+msgid "Success!"
+msgstr "成功！"
+
+#: Ucp.class.php:121
+msgid "System"
+msgstr "系統"
+
+#: htdocs/views/templates/phone.php:69
+msgid "TUV"
+msgstr "TUV"
+
+#: views/users_hook.php:136
+#: views/users_hook.php:153
+msgid "Template List"
+msgstr "範本列表"
+
+#: htdocs/modules/Settings/assets/js/global.js:61
+msgid "The Browser Language could not be determined"
+msgstr "無法判定瀏覽器語言"
+
+#: htdocs/modules/Settings/assets/js/global.js:83
+msgid "The Browser Timezone could not be determined"
+msgstr "無法判定瀏覽器時區"
+
+#: htdocs/modules/Settings/assets/js/global.js:72
+msgid "The PBX Language is not set"
+msgstr "未設定 PBX 語言"
+
+#: htdocs/modules/Settings/assets/js/global.js:94
+msgid "The PBX Timezone is not set"
+msgstr "未設定 PBX 時區"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:33
+msgid ""
+"The User Control Panel is now separated by 'Dashboards'. You can add a new "
+"dashboard by clicking this symbol"
+msgstr "使用者控制面板現在以「儀表板」分隔。您可以點擊此符號新增儀表板"
+
+#: htdocs/includes/Ajax.class.php:86
+#, php-format
+msgid "The class %s already existed. Ajax MUST load it, for security reasons"
+msgstr "類別 %s 已存在。基於安全性理由，Ajax 必須載入它"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:116
+msgid "The dashboard's name can be changed by clicking the pencil"
+msgstr "您可以點擊鉛筆來更改儀表板名稱"
+
+#: htdocs/modules/Settings/views/settings.php:159
+#, php-format
+msgid ""
+"The format dates and times should display in. The default of \"llll\" is "
+"locale aware. If left blank this will use the group/system format. For more "
+"formats please see: %s"
+msgstr "日期和時間的顯示格式。預設值「llll」會依地區設定。若留空將使用群組/系統格式。更多格式請見：%s"
+
+#: htdocs/modules/Settings/views/settings.php:167
+#, php-format
+msgid ""
+"The format dates should display in. The default of \"l\" is locale aware. If "
+"left blank this will use the group/system format. For more formats please "
+"see: %s"
+msgstr "日期的顯示格式。預設值「l」會依地區設定。若留空將使用群組/系統格式。更多格式請見：%s"
+
+#: htdocs/modules/Settings/views/settings.php:175
+#, php-format
+msgid ""
+"The format times should display in. The default of \"LT\" is locale aware. "
+"If left blank this will use the group/system format. For more formats please "
+"see: %s"
+msgstr "時間的顯示格式。預設值「LT」會依地區設定。若留空將使用群組/系統格式。更多格式請見：%s"
+
+#: htdocs/modules/Settings/views/settings.php:29
+#: htdocs/modules/Settings/views/settings.php:34
+msgid "The password used to login to User Control Panel and other services"
+msgstr "用於登入使用者控制面板和其他服務的密碼"
+
+#: htdocs/assets/js/ucp.js:601
+msgid "The session has expired and you are being forcibly logged out"
+msgstr "工作階段已過期，您已被強制登出"
+
+#: ucp.i18n.php:8
+msgid ""
+"The user control panel is a way for users to control call handling and "
+"personal settings from a web browser."
+msgstr "使用者控制面板讓使用者可以從網頁瀏覽器控制通話處理和個人設定。"
+
+#: htdocs/modules/Settings/views/settings.php:20
+msgid "The username used to login to User Control Panel and other services"
+msgstr "用於登入使用者控制面板和其他服務的使用者名稱"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:325
+msgid "The widget's content is displayed here"
+msgstr "小工具的內容顯示在此"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:156
+msgid ""
+"There are two different types of widgets. Dashboard Widgets and Side Bar "
+"widgets. Let's start with dashboard widgets"
+msgstr "有兩種不同類型的小工具：儀表板小工具與側邊欄小工具。讓我們從儀表板小工具開始"
+
+#: htdocs/modules/Widgets/assets/js/global.js:988
+msgid "There is no active dashboard to add widgets to"
+msgstr "沒有作用中的儀表板可新增小工具"
+
+#: htdocs/modules/Widgets/assets/js/global.js:1066
+#: htdocs/modules/Widgets/assets/js/global.js:1151
+msgid "There was an error getting the widget information, try again later"
+msgstr "取得小工具資訊時發生錯誤，請稍後再試"
+
+#: htdocs/assets/js/ucp.js:33
+#: htdocs/assets/js/ucp.js:48
+msgid "There was an error. See the console log for more details"
+msgstr "發生錯誤。請查看主控台日誌以取得更多詳細資訊"
+
+#: views/users_hook.php:220
+msgid ""
+"These are the assigned and active extensions which will be allowed to edit "
+"extension settings such as Call Waiting, Call Forwarding, Find Me/Follow Me "
+"and others"
+msgstr "這些是已指派且作用中的分機，將允許編輯分機設定，如通話等待、通話轉接、Find Me/Follow Me 等"
+
+#: htdocs/modules/Home/Home.class.php:80
+msgid "This feed is not found in RSS Feed list."
+msgstr "在 RSS 摘要列表中找不到此摘要。"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:244
+msgid ""
+"This is where side bar widgets live. Side bar widgets do not change when you "
+"change dashboards. They are global throughout UCP"
+msgstr "這是側邊欄小工具所在。側邊欄小工具在您更改儀表板時不會變更。它們在 UCP 中是全域的"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:25
+msgid ""
+"This tour will take you on a brief walkthrough of the new User Control Panel "
+"in a few simple steps."
+msgstr "此導覽將透過幾個簡單步驟帶您快速瀏覽新的使用者控制面板。"
+
+#: htdocs/modules/Settings/views/settings.php:170
+msgid "Time Format"
+msgstr "時間格式"
+
+#: htdocs/modules/Settings/views/settings.php:131
+msgid "Timezone"
+msgstr "時區"
+
+#: htdocs/modules/Settings/views/settings.php:62
+msgid "Title"
+msgstr "標題"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:25
+msgid "To continue just click Next"
+msgstr "要繼續請點擊「下一步」"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:335
+#, perl-format
+msgid "To just close/hide the widget's content click the '%s' symbol"
+msgstr "要關閉/隱藏小工具的內容，請點擊「%s」符號"
+
+#: htdocs/index.php:94
+#, php-format
+msgid ""
+"To protect the integrity of your server, you must allow overrides in your "
+"webserver's configuration file for the User Control Panel. For more "
+"information see: %s"
+msgstr "為了保護您伺服器的完整性，您必須在網頁伺服器的設定檔中允許使用者控制面板的覆寫。更多資訊請見：%s"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:330
+msgid "To remove this widget from the side bar click 'Remove Widget'"
+msgstr "要從側邊欄移除此小工具，請點擊「移除小工具」"
+
+#: ucp.i18n.php:10
+msgid "UCP"
+msgstr "UCP"
+
+#: views/header.php:1
+msgid "UCP Admin"
+msgstr "UCP 管理員"
+
+#: Ucp.class.php:1224
+msgid "UCP Daemon"
+msgstr "UCP 守護程序"
+
+#: Ucp.class.php:1227
+msgid "UCP Node Disabled in Advanced Settings."
+msgstr "UCP Node 在進階設定中已停用。"
+
+#: Ucp.class.php:1366
+#, php-format
+msgid "UCP Node Server Failed: %s"
+msgstr "UCP Node 伺服器失敗：%s"
+
+#: Ucp.class.php:1254
+#, php-format
+msgid "UCP Node Server has already been running on PID %s for %s"
+msgstr "UCP Node 伺服器已以 PID %s 執行 %s"
+
+#: Ucp.class.php:1324
+msgid "UCP Node Server is not running"
+msgstr "UCP Node 伺服器未執行"
+
+#: Ucp.class.php:1235
+msgid "UCP Node is not running"
+msgstr "UCP Node 未執行"
+
+#: htdocs/index.php:23
+msgid "UCP is currently disabled. Please talk to your system Administrator"
+msgstr "UCP 目前已停用。請洽詢您的系統管理員"
+
+#: htdocs/assets/js/ucp.js:405
+msgid "UCP is not supported in your browser"
+msgstr "您的瀏覽器不支援 UCP"
+
+#: htdocs/modules/Settings/assets/js/global.js:107
+#: htdocs/modules/Settings/assets/js/global.js:122
+msgid "UCP needs to reload, ok?"
+msgstr "UCP 需要重新載入，好嗎？"
+
+#: views/users_hook.php:9
+msgid ""
+"UCP, otherwise known as the User Control Panel, is a user interface for "
+"FreePBX."
+msgstr "UCP，又稱為使用者控制面板，是 FreePBX 的使用者介面。"
+
+#: htdocs/assets/js/ucp.js:514
+#, perl-format
+msgid "Unable to connect to the UCP Node Server.<br>%s"
+msgstr "無法連線到 UCP Node 伺服器。<br>%s"
+
+#: htdocs/includes/User.class.php:95
+msgid "Unable to send Password Reset Email"
+msgstr "無法寄送密碼重設電子郵件"
+
+#: Ucp.class.php:1224
+msgid "Unknown"
+msgstr "未知"
+
+#: htdocs/modules/Settings/assets/js/global.js:289
+msgid "Unsupported file type"
+msgstr "不支援的檔案類型"
+
+#: htdocs/modules/Settings/views/settings.php:36
+msgid "Update Password"
+msgstr "更新密碼"
+
+#: htdocs/modules/Settings/views/settings.php:122
+msgid "Use Browser Language"
+msgstr "使用瀏覽器語言"
+
+#: htdocs/modules/Settings/views/settings.php:135
+msgid "Use Browser Timezone"
+msgstr "使用瀏覽器時區"
+
+#: htdocs/modules/Settings/views/settings.php:111
+msgid "Use Gravatar"
+msgstr "使用 Gravatar"
+
+#: htdocs/modules/Settings/views/settings.php:125
+msgid "Use PBX Language"
+msgstr "使用 PBX 語言"
+
+#: htdocs/modules/Settings/views/settings.php:138
+msgid "Use PBX Timezone"
+msgstr "使用 PBX 時區"
+
+#: htdocs/modules/Settings/Settings.class.php:163
+msgid "User"
+msgstr "使用者"
+
+#: htdocs/views/forgot.php:27
+#: htdocs/views/header.php:6
+#: htdocs/views/login.php:5
+#: ucp.i18n.php:4
+#: htdocs/modules/Widgets/assets/js/global.js:47
+msgid "User Control Panel"
+msgstr "使用者控制面板"
+
+#: htdocs/modules/Settings/views/settings.php:2
+msgid "User Control Panel Settings"
+msgstr "使用者控制面板設定"
+
+#: Ucp.class.php:437
+#, php-format
+msgid "User Control Panel: %s"
+msgstr "使用者控制面板：%s"
+
+#: htdocs/modules/Settings/views/settings.php:6
+msgid "User Details"
+msgstr "使用者詳細資料"
+
+#: Ucp.class.php:360
+#: Ucp.class.php:374
+msgid "User Primary Extension"
+msgstr "使用者主要分機"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:346
+msgid "User Settings"
+msgstr "使用者設定"
+
+#: htdocs/modules/Settings/views/settings.php:18
+#: htdocs/views/login.php:16
+msgid "Username"
+msgstr "使用者名稱"
+
+#: htdocs/views/templates/phone.php:73
+msgid "WXYZ"
+msgstr "WXYZ"
+
+#: htdocs/views/header.php:78
+#, php-format
+msgid "Welcome %s"
+msgstr "歡迎 %s"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:24
+#, perl-format
+msgid "Welcome to %s!"
+msgstr "歡迎使用 %s！"
+
+#: views/users_hook.php:4
+msgid "What is UCP"
+msgstr "UCP 是什麼"
+
+#: htdocs/modules/Settings/views/settings.php:151
+msgid "When set to yes the tour will restart when this window closes"
+msgstr "若設定為是，當此視窗關閉時導覽將重新開始"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:70
+msgid ""
+"When you are finished simply hit 'Create Dashboard' to create your dashboard"
+msgstr "當您完成時，只需點擊「建立儀表板」來建立您的儀表板"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:223
+msgid "Widget Locking"
+msgstr "小工具鎖定"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:207
+msgid "Widget Placement"
+msgstr "小工具放置"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:233
+msgid "Widget Removal"
+msgstr "小工具移除"
+
+#: htdocs/views/dashboard-footer.php:178
+#: htdocs/modules/Ucptour/assets/js/global.js:228
+msgid "Widget Settings"
+msgstr "小工具設定"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:215
+msgid "Widget Size"
+msgstr "小工具尺寸"
+
+#: htdocs/modules/Widgets/Widgets.class.php:192
+msgid "Widgets"
+msgstr "小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:175
+#: htdocs/modules/Ucptour/assets/js/global.js:285
+msgid ""
+"Widgets are listed on the right. The titles and descriptions will be shown "
+"for each widget"
+msgstr "小工具列在右側。每個小工具會顯示標題和描述"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:203
+msgid ""
+"Widgets are placed automatically on the dashboard after they have been added"
+msgstr "小工具新增後會自動放置在儀表板上"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:234
+#, perl-format
+msgid "Widgets can also be removed by clicking the '%s' symbol"
+msgstr "小工具也可以透過點擊「%s」符號移除"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:140
+#, perl-format
+msgid "Widgets can be added by clicking the '%s' symbol"
+msgstr "小工具可以透過點擊「%s」符號新增"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:224
+msgid "Widgets can be locked into place to prevent their movement"
+msgstr "小工具可以鎖定位置以防止移動"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:208
+msgid "Widgets can be moved around by clicking and dragging on the title bar"
+msgstr "小工具可以透過點擊標題列並拖曳來移動"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:216
+msgid ""
+"Widgets can be resized by placing your mouse near the corner of the widget. "
+"Click and drag to resize the widget."
+msgstr "您可以將滑鼠靠近小工具角落來調整大小。點擊並拖曳以調整小工具尺寸。"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:229
+msgid "Widgets settings can be changed by clicking this icon"
+msgstr "小工具設定可以點擊此圖示更改"
+
+#: htdocs/modules/Settings/views/settings.php:77
+msgid "Work Phone"
+msgstr "工作電話"
+
+#: Api/Rest/Dashboard.php:15
+msgid "Write UCP Dashboard Information"
+msgstr "寫入 UCP 儀表板資訊"
+
+#: views/users_hook.php:51
+#: views/users_hook.php:81
+#: views/users_hook.php:111
+#: views/users_hook.php:235
+msgid "Yes"
+msgstr "是"
+
+#: htdocs/modules/Widgets/assets/js/global.js:1159
+msgid "You already have this widget on the side bar"
+msgstr "您已經在側邊欄有此小工具"
+
+#: htdocs/modules/Widgets/assets/js/global.js:1074
+msgid "You already have this widget on this dashboard"
+msgstr "您已經在此儀表板有此小工具"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:25
+msgid ""
+"You can always exit the tour if you'd like, and you can restart the tour at "
+"anytime by clicking your User Settings and then 'Restart Tour'"
+msgstr "您可以隨時退出導覽，也可以隨時點擊「使用者設定」然後「重新開始導覽」來重新啟動導覽"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:356
+#, perl-format
+msgid ""
+"You have finished the tour of User Control Panel for %s 14. You can restart "
+"this tour at any time in your User Settings"
+msgstr "您已完成 %s 14 的使用者控制面板導覽。您可以隨時在「使用者設定」中重新啟動此導覽"
+
+#: htdocs/modules/Widgets/Widgets.class.php:42
+#: htdocs/modules/Widgets/assets/js/global.js:916
+msgid "You have no dashboards. Click here to add one"
+msgstr "您沒有儀表板。點擊這裡新增一個"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:25
+msgid "You just successfully logged in for the first time!"
+msgstr "您剛成功首次登入！"
+
+#: htdocs/modules/Widgets/assets/js/global.js:1400
+msgid "You must set a dashboard name!"
+msgstr "您必須設定儀表板名稱！"
+
+#: htdocs/assets/js/ucp.js:393
+msgid "Your Browser is unsupported at this time."
+msgstr "目前不支援您的瀏覽器。"
+
+#: htdocs/modules/Settings/views/settings.php:74
+msgid "Your Cell Phone Number"
+msgstr "您的手機號碼"
+
+#: htdocs/modules/Settings/views/settings.php:69
+msgid "Your Company"
+msgstr "您的公司"
+
+#: htdocs/modules/Settings/views/settings.php:49
+msgid "Your Email Address"
+msgstr "您的電子郵件地址"
+
+#: htdocs/modules/Settings/views/settings.php:89
+msgid "Your Fax Number"
+msgstr "您的傳真號碼"
+
+#: htdocs/modules/Settings/views/settings.php:54
+msgid "Your First Name"
+msgstr "您的名字"
+
+#: htdocs/modules/Settings/views/settings.php:84
+msgid "Your Home Number"
+msgstr "您的住家電話"
+
+#: htdocs/modules/Settings/views/settings.php:128
+msgid "Your Language"
+msgstr "您的語言"
+
+#: htdocs/modules/Settings/views/settings.php:59
+msgid "Your Last Name"
+msgstr "您的姓氏"
+
+#: htdocs/modules/Settings/views/settings.php:141
+msgid "Your Timezone"
+msgstr "您的時區"
+
+#: htdocs/modules/Settings/views/settings.php:64
+msgid "Your Title"
+msgstr "您的稱謂"
+
+#: htdocs/modules/Settings/views/settings.php:79
+msgid "Your Work Number"
+msgstr "您的工作電話"
+
+#: htdocs/assets/js/ucp.js:395
+msgid ""
+"Your browser is unsupported at this time. Please upgrade or talk to your "
+"system administrator"
+msgstr "目前不支援您的瀏覽器。請升級或洽詢您的系統管理員"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:352
+msgid "Your can logout of UCP by clicking this logout button"
+msgstr "您可以點擊此登出按鈕登出 UCP"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:94
+msgid "Your dashboard has been added here"
+msgstr "您的儀表板已新增至此"
+
+#: htdocs/modules/Ucptour/assets/js/global.js:347
+msgid ""
+"Your specific settings are defined when clicking the 'gear' icon in the side "
+"bar"
+msgstr "您的特定設定可以點擊側邊欄中的「齒輪」圖示來定義"
+
+#: htdocs/assets/js/lodash-4.17.2.js:15638
+#: htdocs/assets/js/lodash-4.17.2.js:15642
+msgid "fred"
+msgstr "fred"
+
+#: Ucp.class.php:93
+msgid "gcc-c++ is not installed"
+msgstr "未安裝 gcc-c++"
+
+#: htdocs/index.php:107
+#, php-format
+msgid ""
+"htaccess files help protect the integrity of your server. Please make sure "
+"file paths and directories are locked down properly. For more information "
+"see: %s"
+msgstr "htaccess 檔案有助於保護您伺服器的完整性。請確保檔案路徑和目錄已正確鎖定。更多資訊請見：%s"
+
+#: Ucp.class.php:137
+msgid "icu is not installed. You need to run: yum install icu libicu-devel"
+msgstr "未安裝 icu。您需要執行：yum install icu libicu-devel"
+
+#: Ucp.class.php:129
+msgid ""
+"icu, pkg-config or pkgconf is not installed. You need to run: apt-get "
+"install icu libicu-devel pkg-config pkgconf"
+msgstr ""
+"未安裝 icu、pkg-config 或 pkgconf。您需要執行：apt-get install icu libicu-devel pkg-config pkgconf"
+
+#: htdocs/views/login.php:34
+msgid "or"
+msgstr "或"
+
+#: views/users_hook.php:125
+msgid "select template"
+msgstr "選擇範本"
+
+#: htdocs/assets/js/jquery-ui-1.13.2.min.js:6
+msgid "string"
+msgstr "string"

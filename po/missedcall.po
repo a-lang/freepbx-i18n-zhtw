@@ -1,0 +1,537 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for missedcall
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-18 07:46-0400\n"
+"PO-Revision-Date: 2026-09-15 12:52+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: page.missedcall.php:51
+#, php-format
+msgid ""
+"A missed call notification feature that alerts the user when a call has been "
+"made to their device / extension but was not answered. This feature "
+"typically sends an alert to the user via email, indicating that a call was "
+"missed and providing the caller's phone number or contact information. This "
+"feature is designed to help users quickly and easily return calls they may "
+"have missed."
+msgstr ""
+"未接來電通知功能，當撥叫至使用者的裝置 / 分機但未接通時，會向使用者發出警示。此功能通常透過電子郵件向使用者傳送警示，表示有未接來電，並提供撥叫者的電話號碼或聯絡資訊。此設計旨在協助使用者快速輕鬆地回撥可能漏接的來電。"
+
+#: views/ucp_config.php:28
+msgid "Allow user to configure Missed Call Notifications in UCP"
+msgstr "允許使用者在 UCP 中設定未接來電通知"
+
+#: missedcall.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: assets/js/missedcall.js:158
+#, perl-format
+msgid "Are you sure you wish to %s missed call notification for this users?"
+msgstr "確定要對此使用者的未接來電通知執行 %s 嗎？"
+
+#: assets/js/missedcall.js:66
+#, perl-format
+msgid "Are you sure you wish to disable missed call notification for %s users?"
+msgstr "確定要停用 %s 位使用者的未接來電通知嗎？"
+
+#: assets/js/missedcall.js:43
+#, perl-format
+msgid "Are you sure you wish to enable missed call notification for %s users?"
+msgstr "確定要啟用 %s 位使用者的未接來電通知嗎？"
+
+#: views/form.php:162
+msgid "Back"
+msgstr "返回"
+
+#: ucp/Missedcall.class.php:255
+#, php-format
+msgid "Bad extension: '%s'!"
+msgstr "無效分機：'%s'！"
+
+#: views/missedcall.php:130
+msgid "Call from External"
+msgstr "外部來電"
+
+#: views/missedcall.php:101
+msgid "Call from Internal"
+msgstr "內部來電"
+
+#: views/missedcall.php:72
+msgid "Call from Queue"
+msgstr "佇列來電"
+
+#: views/missedcall.php:42
+msgid "Call from Ring Group"
+msgstr "響鈴群組來電"
+
+#: ucp/views/widget.php:20
+msgid "Calls from Queues"
+msgstr "來自佇列的來電"
+
+#: ucp/views/widget.php:16
+msgid "Calls from Ring Groups"
+msgstr "來自響鈴群組的來電"
+
+#: Missedcall.class.php:195
+msgid "Delete"
+msgstr "刪除"
+
+#: views/grid.php:15
+msgid "Disable"
+msgstr "停用"
+
+#: ucp/views/widget.php:9
+#: ucp/views/widget.php:13
+#: ucp/views/widget.php:17
+#: ucp/views/widget.php:21
+msgid "Disabled"
+msgstr "已停用"
+
+#: views/grid.php:33
+msgid "Email"
+msgstr "電子郵件"
+
+#: page.missedcall.php:71
+msgid "Email Settings"
+msgstr "電子郵件設定"
+
+#: Missedcall.class.php:1226
+msgid "Email body is required"
+msgstr "電子郵件內文為必填"
+
+#: Missedcall.class.php:1238
+msgid "Email settings saved successfully"
+msgstr "電子郵件設定儲存成功"
+
+#: Missedcall.class.php:1222
+msgid "Email subject is required"
+msgstr "電子郵件主旨為必填"
+
+#: Missedcall.class.php:1216
+msgid "Email type is required"
+msgstr "電子郵件類型為必填"
+
+#: ucp/views/widget.php:4
+#: views/grid.php:12
+msgid "Enable"
+msgstr "啟用"
+
+#: views/ucp_config.php:7
+msgid "Enable Missed Call"
+msgstr "啟用未接來電通知"
+
+#: views/form.php:131
+msgid "Enable missed call notifications for missed calls from queues"
+msgstr "啟用來自佇列的未接來電通知"
+
+#: views/form.php:156
+msgid "Enable missed call notifications for missed calls from ring groups"
+msgstr "啟用來自響鈴群組的未接來電通知"
+
+#: views/form.php:106
+msgid "Enable missed call notifications for missed external calls"
+msgstr "啟用未接外部來電通知"
+
+#: views/form.php:81
+msgid "Enable missed call notifications for missed internal calls"
+msgstr "啟用未接內部來電通知"
+
+#: views/missedcall.php:31
+msgid "Enable the Missed Call Notifications."
+msgstr "啟用未接來電通知。"
+
+#: ucp/views/widget.php:9
+#: ucp/views/widget.php:13
+#: ucp/views/widget.php:17
+#: ucp/views/widget.php:21
+#: views/grid.php:34
+#: views/missedcall.php:12
+#: views/rnav.php:25
+msgid "Enabled"
+msgstr "已啟用"
+
+#: assets/js/missedcall.js:50
+#: assets/js/missedcall.js:73
+#: assets/js/missedcall.js:267
+#: assets/js/missedcall.js:271
+msgid "Error"
+msgstr "錯誤"
+
+#: views/grid.php:32
+#: views/rnav.php:24
+msgid "Extension"
+msgstr "分機"
+
+#: page.missedcall.php:65
+msgid "Extensions"
+msgstr "分機"
+
+#: views/grid.php:38
+msgid "External"
+msgstr "外部"
+
+#: ucp/views/widget.php:12
+#: views/form.php:94
+msgid "External Calls"
+msgstr "外部來電"
+
+#: views/missedcall.php:149
+msgid "External call notification"
+msgstr "外部來電通知"
+
+#: page.missedcall.php:52
+msgid "For more information see: "
+msgstr "更多資訊請見："
+
+#: Missedcall.class.php:1289
+msgid "Import/Export missedcall"
+msgstr "匯入/匯出未接來電通知"
+
+#: views/missedcall.php:21
+#: views/missedcall.php:51
+#: views/missedcall.php:81
+#: views/missedcall.php:110
+#: views/missedcall.php:139
+#: views/ucp_config.php:18
+msgid "Inherit"
+msgstr "繼承"
+
+#: views/grid.php:37
+msgid "Internal"
+msgstr "內部"
+
+#: ucp/views/widget.php:8
+#: views/form.php:69
+msgid "Internal Calls"
+msgstr "內部來電"
+
+#: views/missedcall.php:120
+msgid "Internal call notification"
+msgstr "內部來電通知"
+
+#: assets/js/missedcall.js:176
+msgid ""
+"Invalid CID Number. Must be in a format of digits only with an option of "
+"E164 format using a leading \"+\""
+msgstr "無效的 CID 號碼。格式必須僅為數字，可選擇使用 E164 格式，並以前導「+」開頭"
+
+#: assets/js/missedcall.js:173
+msgid "Invalid time specified"
+msgstr "指定的時間無效"
+
+#: views/rnav.php:18
+msgid "List Notifications"
+msgstr "通知清單"
+
+#: Missedcall.class.php:1278
+msgid "Mail Body"
+msgstr "郵件內文"
+
+#: Missedcall.class.php:1264
+msgid "Mail Subject"
+msgstr "郵件主旨"
+
+#: Missedcall.class.php:1253
+#: Missedcall.class.php:1254
+msgid "Mail Type"
+msgstr "郵件類型"
+
+#: Missedcall.class.php:322
+#: Missedcall.class.php:334
+#: Missedcall.class.php:652
+#: ucp/Missedcall.class.php:56
+#: ucp/Missedcall.class.php:143
+msgid "Missed Call"
+msgstr "未接來電"
+
+#: Missedcall.class.php:136
+#: Missedcall.class.php:138
+#: missedcall.i18n.php:4
+#: missedcall.i18n.php:10
+#: page.missedcall.php:18
+#: views/default.php:2
+msgid "Missed Call Notification"
+msgstr "未接來電通知"
+
+#: missedcall.i18n.php:14
+msgid "Missed Call Notification Activate"
+msgstr "啟用未接來電通知"
+
+#: missedcall.i18n.php:12
+msgid "Missed Call Notification Deactivate"
+msgstr "停用未接來電通知"
+
+#: missedcall.i18n.php:16
+msgid "Missed Call Notification Toggle"
+msgstr "切換未接來電通知"
+
+#: ucp/Missedcall.class.php:107
+msgid "Missed Call is not enabled for this user."
+msgstr "此使用者未啟用未接來電通知。"
+
+#: ucp/Missedcall.class.php:69
+msgid "Missed call"
+msgstr "未接來電"
+
+#: assets/js/missedcall.js:73
+msgid "Missed call notification is already disabled"
+msgstr "未接來電通知已停用"
+
+#: assets/js/missedcall.js:50
+msgid "Missed call notification is already enabled"
+msgstr "未接來電通知已啟用"
+
+#: views/form.php:32
+#: views/form.php:39
+#: views/form.php:46
+#: views/form.php:53
+#: views/missedcall.php:18
+#: views/missedcall.php:48
+#: views/missedcall.php:78
+#: views/missedcall.php:107
+#: views/missedcall.php:136
+#: views/rnav.php:13
+#: views/ucp_config.php:15
+#: assets/js/missedcall.js:44
+#: assets/js/missedcall.js:67
+#: assets/js/missedcall.js:159
+#: assets/js/missedcall.js:232
+msgid "No"
+msgstr "否"
+
+#: page.missedcall.php:80
+#, php-format
+msgid ""
+"Note : Email address is mandatory to enable the missed call notification. If "
+"extension is not listed here then please edit extension settings in %s and "
+"update the email address"
+msgstr "注意：電子郵件地址為啟用未接來電通知的必要條件。若此處未列出分機，請在 %s 中編輯分機設定並更新電子郵件地址"
+
+#: Missedcall.class.php:1303
+msgid "Notify external missedcall"
+msgstr "通知外部未接來電"
+
+#: Missedcall.class.php:1302
+msgid "Notify internal  missedcall"
+msgstr "通知內部未接來電"
+
+#: Missedcall.class.php:1300
+msgid "Notify queue missedcall"
+msgstr "通知佇列未接來電"
+
+#: Missedcall.class.php:1301
+msgid "Notify ringgroup missedcall"
+msgstr "通知響鈴群組未接來電"
+
+#: ucp/views/widget.php:5
+msgid "Off"
+msgstr "關閉"
+
+#: ucp/views/widget.php:5
+msgid "On"
+msgstr "開啟"
+
+#: assets/js/missedcall.js:175
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr "勾選確認時，僅支援 ringall、ringallv2、hunt 及其對應的 -prim 版本"
+
+#: assets/js/missedcall.js:172
+msgid "Please enter an extension list."
+msgstr "請輸入分機清單。"
+
+#: views/grid.php:36
+msgid "Queue"
+msgstr "佇列"
+
+#: views/form.php:119
+msgid "Queue Calls"
+msgstr "佇列來電"
+
+#: views/missedcall.php:91
+msgid "Queue call notification"
+msgstr "佇列來電通知"
+
+#: ucp/Missedcall.class.php:71
+msgid "Receive an email for any missed call."
+msgstr "接收任何未接來電的電子郵件通知。"
+
+#: Missedcall.class.php:86
+msgid "Removing missedcall keys from the asterisk database"
+msgstr "從 Asterisk 資料庫移除未接來電通知金鑰"
+
+#: Missedcall.class.php:77
+msgid "Removing the database table"
+msgstr "移除資料庫表格"
+
+#: Missedcall.class.php:195
+msgid "Reset"
+msgstr "重置"
+
+#: views/grid.php:35
+msgid "Ring Group"
+msgstr "響鈴群組"
+
+#: views/form.php:144
+msgid "Ring Group Calls"
+msgstr "響鈴群組來電"
+
+#: views/missedcall.php:61
+msgid "Ringgroup call notification"
+msgstr "響鈴群組來電通知"
+
+#: page.missedcall.php:92
+msgid "Save Email Settings"
+msgstr "儲存電子郵件設定"
+
+#: ucp/Missedcall.class.php:253
+msgid "Saved"
+msgstr "已儲存"
+
+#: missedcall.i18n.php:8
+msgid "Send email notifications to users when a call is missed"
+msgstr "當有未接來電時，向使用者傳送電子郵件通知"
+
+#: Missedcall.class.php:82
+msgid "Something went wrong"
+msgstr "發生錯誤"
+
+#: Missedcall.class.php:195
+msgid "Submit"
+msgstr "提交"
+
+#: Missedcall.class.php:246
+#: Missedcall.class.php:251
+msgid "Success."
+msgstr "成功。"
+
+#: Missedcall.class.php:80
+msgid "Table Deleted"
+msgstr "表格已刪除"
+
+#: Missedcall.class.php:1269
+msgid ""
+"Text to be used for the body of the Missed call notification email. Pre-"
+"defined variables are:"
+msgstr "用於未接來電通知郵件內文的文字。預先定義的變數為："
+
+#: Missedcall.class.php:1259
+msgid ""
+"Text to be used for the subject of the Missed call notification email. Pre-"
+"defined variables are:"
+msgstr "用於未接來電通知郵件主旨的文字。預先定義的變數為："
+
+#: Missedcall.class.php:1297
+msgid "The user name of missedcall"
+msgstr "未接來電的使用者名稱"
+
+#: Missedcall.class.php:217
+msgid ""
+"The user's email address is required. Because missed call notification is "
+"enabled. Please disable it and try again."
+msgstr "需要使用者的電子郵件地址。因為已啟用未接來電通知。請停用後再試一次。"
+
+#: views/grid.php:4
+msgid ""
+"There is no default email address is set. Please, go to: Advanced Settings - "
+"User Management Module section and enter an email address."
+msgstr "未設定預設電子郵件地址。請前往：進階設定 — 使用者管理模組區段，並輸入電子郵件地址。"
+
+#: assets/js/missedcall.js:271
+msgid "There was an error updating setting"
+msgstr "更新設定時發生錯誤"
+
+#: ucp/Missedcall.class.php:114
+msgid "This user doesn't have a valid email address."
+msgstr "此使用者沒有有效的電子郵件地址。"
+
+#: assets/js/missedcall.js:174
+msgid "Time must be between 1 and 60 seconds"
+msgstr "時間必須介於 1 到 60 秒之間"
+
+#: Missedcall.class.php:253
+msgid "Unknown Status."
+msgstr "未知狀態。"
+
+#: views/grid.php:31
+msgid "Username"
+msgstr "使用者名稱"
+
+#: page.missedcall.php:53
+#, php-format
+msgid "What is Missed Call Notification ?"
+msgstr "什麼是未接來電通知？"
+
+#: views/form.php:30
+#: views/form.php:37
+#: views/form.php:44
+#: views/form.php:51
+#: views/missedcall.php:17
+#: views/missedcall.php:47
+#: views/missedcall.php:77
+#: views/missedcall.php:106
+#: views/missedcall.php:135
+#: views/rnav.php:11
+#: views/ucp_config.php:13
+#: assets/js/missedcall.js:44
+#: assets/js/missedcall.js:67
+#: assets/js/missedcall.js:159
+#: assets/js/missedcall.js:230
+msgid "Yes"
+msgstr "是"
+
+#: Missedcall.class.php:1299
+msgid "enabled"
+msgstr "已啟用"
+
+#: Missedcall.class.php:1298
+msgid "extension"
+msgstr "分機"
+
+#: Missedcall.class.php:1298
+msgid "extension of user ,user will be identified using this extension"
+msgstr "使用者的分機，將使用此分機識別使用者"
+
+#: Missedcall.class.php:1303
+msgid "external"
+msgstr "外部"
+
+#: Missedcall.class.php:1302
+msgid "internal"
+msgstr "內部"
+
+#: Missedcall.class.php:1289
+msgid "missedcall"
+msgstr "未接來電通知"
+
+#: Missedcall.class.php:1299
+msgid "notification of missedcall"
+msgstr "未接來電通知"
+
+#: Missedcall.class.php:1300
+msgid "queue"
+msgstr "佇列"
+
+#: Missedcall.class.php:1301
+msgid "ringgroup"
+msgstr "響鈴群組"
+
+#: Missedcall.class.php:1297
+msgid "username"
+msgstr "使用者名稱"

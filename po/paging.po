@@ -1,0 +1,482 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for paging
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-10 08:08-0400\n"
+"PO-Revision-Date: 2026-09-15 17:58+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/paging.js:39
+msgid " Please set the event days."
+msgstr " 請設定事件日期。"
+
+#: assets/js/paging.js:42
+msgid " Please set the event time."
+msgstr " 請設定事件時間。"
+
+#: Paging.class.php:254
+msgid ""
+"<strong>Force</strong><br> Send the headers telling the phone to go into "
+"auto answer mode. This may not work, and is dependant on the phone."
+msgstr "<strong>強制</strong><br> 傳送標頭告知電話進入自動應答模式。這可能無效，且取決於電話。"
+
+#: Paging.class.php:252
+msgid "<strong>Reject</strong><br> Return a BUSY signal to the caller"
+msgstr "<strong>拒絕</strong><br> 傳送忙碌訊號給來電者"
+
+#: Paging.class.php:253
+msgid ""
+"<strong>Ring</strong><br> Treat the page as a normal call, and ring the "
+"extension (if Call Waiting is disabled, this will return BUSY"
+msgstr "<strong>響鈴</strong><br> 將頁面視為一般來電，並響鈴分機（若關閉來電等候，則傳回忙碌"
+
+#: views/form.php:237
+msgid ""
+"<ul>\n"
+"<li><b>\"Skip\"</b> will not page any busy extension. All other extensions "
+"will be paged as normal</li>\n"
+"<li><b>\"Force\"</b> will not check if the device is in use before paging "
+"it. This means conversations can be interrupted by a page (depending on how "
+"the device handles it). This is useful for \"emergency\" paging groups.</"
+"li>\n"
+"<li><b>\"Whisper\"</b> will attempt to use the ChanSpy capability on SIP "
+"channels, resulting in the page being sent to the device's earpiece "
+"\"whispered\" to the user but not heard by the remote party. If ChanSpy is "
+"not supported on the device or otherwise fails, no page will get through. It "
+"probably does not make too much sense to choose duplex if using Whisper mode."
+"</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>\"略過\"</b> 不會對任何忙碌的分機進行頁面播報。所有其他分機將正常進行頁面播報</li>\n"
+"<li><b>\"強制\"</b> 在頁面播報前不會檢查裝置是否在使用中。這表示頁面播報可能中斷對話（取決於裝置的處理方式）。這在「緊急」頁面群組中相當實用。</li>\n"
+"<li><b>\"耳語\"</b> 將嘗試使用 SIP 通道的 ChanSpy 功能，將頁面傳送到裝置的聽筒「輕聲」播放給使用者聽，但遠端對方聽不到。若裝置不支援 ChanSpy 或功能失敗，頁面將無法通過。若使用耳語模式，選擇全雙工可能不太合適。</li>\n"
+"</ul>"
+
+#: views/grid.php:14
+msgid "Actions"
+msgstr "動作"
+
+#: views/bootnav.php:8
+#: views/grid.php:6
+msgid "Add Page Group"
+msgstr "新增頁面群組"
+
+#: Paging.class.php:61
+msgid "Alert Info for D/P Phones"
+msgstr "D/P 電話的警示資訊"
+
+#: views/form.php:165
+msgid "Alert Tone"
+msgstr "警示音"
+
+#: paging.i18n.php:8
+msgid ""
+"Allows creation of paging groups to make announcements using the speaker "
+"built into most SIP phones. Also creates an        Intercom feature code "
+"that can be used as a prefix to talk directly to one person, as well as "
+"optional feature codes        to block/allow intercom calls to all users as "
+"well as blocking specific users or only allowing specific users."
+msgstr ""
+"允許建立頁面群組，使用大多數 SIP 電話內建的揚聲器進行播報。同時建立對講機功能碼，可作為字首直接與特定人員對講，以及可選的功能碼來封鎖/允許對所有使用者的對講來電，以及封鎖特定使用者或僅允許特定使用者。"
+
+#: views/settings.php:68
+msgid "Annoucement to be played to remote party. Default is a beep"
+msgstr "將播放給遠端對方的播報。預設為嗶聲"
+
+#: views/form.php:179
+msgid ""
+"Announcement to be played to remote party. If set to Default it will use the "
+"global setting from Page Groups. If Page Groups is not defined then it will "
+"default to beep. This Announcement file duration should not exceed Default "
+"ringtime(Advanced Settings)"
+msgstr ""
+"將播放給遠端對方的播報。若設為預設，將使用頁面群組的全域設定。若未定義頁面群組，則預設為嗶聲。此播報檔案持續時間不應超過預設響鈴時間（進階設定）"
+
+#: paging.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/settings.php:54
+msgid "Auto-answer defaults"
+msgstr "自動應答預設值"
+
+#: views/form.php:59
+msgid "Beep"
+msgstr "嗶聲"
+
+#: views/form.php:220
+msgid "Busy Extensions"
+msgstr "忙碌分機"
+
+#: views/form.php:58
+#: views/grid.php:13
+#: views/settings.php:4
+msgid "Default"
+msgstr "預設"
+
+#: functions.inc.php:1070
+msgid "Default Group Inclusion"
+msgstr "預設群組包含"
+
+#: functions.inc.php:1073
+#: views/form.php:283
+msgid "Default Page Group"
+msgstr "預設頁面群組"
+
+#: Paging.class.php:144
+#: Paging.class.php:305
+msgid "Delete"
+msgstr "刪除"
+
+#: views/bootnav.php:14
+#: views/form.php:123
+#: views/grid.php:12
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:135
+msgid "Device List"
+msgstr "裝置清單"
+
+#: views/form.php:150
+msgid ""
+"Devices to page. Please note, paging calls the actual device (and not the "
+"user). Amount of pagable devices is restricted by the advanced setting key "
+"PAGINGMAXPARTICIPANTS and is currently set to "
+msgstr ""
+"要進行頁面播報的裝置。請注意，頁面播報會呼叫實際裝置（而非使用者）。可進行頁面播報的數量受限於進階設定鍵 PAGINGMAXPARTICIPANTS，目前設定為 "
+
+#: functions.inc.php:1049
+msgid "Disable"
+msgstr "停用"
+
+#: functions.inc.php:1046
+msgid "Disabled"
+msgstr "已停用"
+
+#: views/settings.php:80
+msgid "Drop Silence"
+msgstr "丟棄靜音"
+
+#: views/form.php:253
+msgid "Duplex"
+msgstr "全雙工"
+
+#: functions.inc.php:1045
+msgid "Enabled"
+msgstr "已啟用"
+
+#: functions.inc.php:1041
+msgid "Exclude"
+msgstr "排除"
+
+#: functions.inc.php:1075
+msgid "Extension Options"
+msgstr "分機選項"
+
+#: Paging.class.php:246
+#: views/form.php:227
+msgid "Force"
+msgstr "強制"
+
+#: views/form.php:111
+msgid "Group Description"
+msgstr "群組描述"
+
+#: views/form.php:298
+msgid ""
+"If you choose to make a Page Group the \"default\" page group, a checkbox "
+"will appear in the Extensions Module that will allow you to include or "
+"exclude that Extension in the default Page Group when editing said extension"
+msgstr "如果您選擇將頁面群組設為「預設」頁面群組，分機模組中將會出現一個核取方塊，讓您在編輯該分機時，可將該分機包含或排除在預設頁面群組之外"
+
+#: functions.inc.php:1042
+msgid "Include"
+msgstr "包含"
+
+#: functions.inc.php:1050
+msgid "Intercom"
+msgstr "對講機"
+
+#: functions.inc.php:1084
+msgid "Intercom Mode"
+msgstr "對講機模式"
+
+#: Paging.class.php:250
+msgid "Intercom Override"
+msgstr "對講機覆寫"
+
+#: functions.inc.php:383
+#, php-format
+msgid "Intercom from %s: Disabled"
+msgstr "來自 %s 的對講機：已停用"
+
+#: functions.inc.php:321
+#, php-format
+msgid "Intercom from %s: Enabled"
+msgstr "來自 %s 的對講機：已啟用"
+
+#: Paging.class.php:31
+msgid "Intercom prefix"
+msgstr "對講機字首"
+
+#: functions.inc.php:371
+msgid "Intercom: Disabled"
+msgstr "對講機：已停用"
+
+#: functions.inc.php:309
+msgid "Intercom: Enabled"
+msgstr "對講機：已啟用"
+
+#: functions.inc.php:1080
+msgid "Internal Auto Answer"
+msgstr "內部自動應答"
+
+#: views/bootnav.php:7
+msgid "List Page Groups"
+msgstr "列出頁面群組"
+
+#: views/form.php:260
+#: views/form.php:290
+#: views/settings.php:87
+#: views/settings.php:114
+msgid "No"
+msgstr "否"
+
+#: functions.inc.php:1128
+#: views/form.php:57
+#: views/form.php:196
+#: views/settings.php:3
+msgid "None"
+msgstr "無"
+
+#: views/form.php:55
+msgid "Not Selected"
+msgstr "未選取"
+
+#: views/form.php:208
+msgid ""
+"Override the speaker volume for this page. Note: This is only valid for "
+"Sangoma phones at this time"
+msgstr "覆寫此頁面的揚聲器音量。注意：目前僅適用於 Sangoma 電話"
+
+#: functions.inc.php:831
+#: functions.inc.php:1133
+#: views/bootnav.php:13
+#: views/formwrap.php:9
+#: views/grid.php:11
+msgid "Page Group"
+msgstr "頁面群組"
+
+#: functions.inc.php:920
+msgid "Page Group: "
+msgstr "頁面群組："
+
+#: Paging.class.php:449
+#, php-format
+msgid "Page Group: %s (%s)"
+msgstr "頁面群組：%s (%s)"
+
+#: assets/js/paging.js:107
+msgid "Page Groups"
+msgstr "頁面群組"
+
+#: Paging.class.php:58
+msgid "Paging"
+msgstr "頁面播報"
+
+#: views/form.php:87
+msgid "Paging Extension"
+msgstr "頁面播報分機"
+
+#: functions.inc.php:848
+#, php-format
+msgid "Paging Group %s : %s"
+msgstr "頁面播報群組 %s：%s"
+
+#: views/overview.php:22
+msgid "Paging Groups"
+msgstr "頁面播報群組"
+
+#: views/routing_hook.php:15
+msgid "Paging Notification"
+msgstr "頁面播報通知"
+
+#: Paging.class.php:249
+#: paging.i18n.php:4
+#: paging.i18n.php:10
+#: views/overview.php:7
+msgid "Paging and Intercom"
+msgstr "頁面播報與對講機"
+
+#: views/settings.php:42
+msgid "Paging and Intercom settings"
+msgstr "頁面播報與對講機設定"
+
+#: views/form.php:268
+msgid ""
+"Paging is typically one way for announcements only. Checking this will make "
+"the paging duplex, allowing all phones in the paging group to be able to "
+"talk and be heard by all. This makes it like an \"instant conference\""
+msgstr "頁面播報通常僅用於單向播報。勾選此項目將使頁面播報成為全雙工，讓頁面群組中的所有電話能夠交談並被所有人聽到。這會讓它像是「即時會議」"
+
+#: assets/js/paging.js:11
+msgid "Please enter a valid end Date."
+msgstr "請輸入有效的結束日期。"
+
+#: assets/js/paging.js:6
+msgid "Please enter a valid start Date."
+msgstr "請輸入有效的開始日期。"
+
+#: views/settings.php:107
+msgid "Quiet"
+msgstr "靜音"
+
+#: Paging.class.php:244
+msgid "Reject"
+msgstr "拒絕"
+
+#: Paging.class.php:310
+msgid "Reset"
+msgstr "重設"
+
+#: Paging.class.php:245
+msgid "Ring"
+msgstr "響鈴"
+
+#: views/form.php:54
+msgid "Selected"
+msgstr "已選取"
+
+#: Paging.class.php:62
+msgid ""
+"Set whether to use intercom or ring-answer for all paging/intercom calls to "
+"D/P phones"
+msgstr "設定是否使用對講機或響鈴應答來處理所有對 D/P 電話的頁面/對講機來電"
+
+#: views/overview.php:27
+msgid "Settings"
+msgstr "設定"
+
+#: views/form.php:225
+msgid "Skip"
+msgstr "略過"
+
+#: views/form.php:191
+msgid "Speaker Volume Override"
+msgstr "揚聲器音量覆寫"
+
+#: Paging.class.php:315
+#: views/settings.php:128
+msgid "Submit"
+msgstr "送出"
+
+#: assets/js/paging.js:16
+msgid "The end date must biger greater the start date."
+msgstr "結束日期必須大於開始日期。"
+
+#: views/form.php:99
+msgid "The number users will dial to page this group"
+msgstr "使用者要撥打此群組的號碼"
+
+#: views/overview.php:6
+msgid ""
+"This module is for specific phones that are capable of Paging or Intercom. "
+"This section is for configuring group paging, intercom is configured through "
+"<strong>Feature Codes</strong>. Intercom must be enabled on a handset before "
+"it will allow incoming calls. It is possible to restrict incoming intercom "
+"calls to specific extensions only, or to allow intercom calls from all "
+"extensions but explicitly deny from specific extensions.<br /><br />This "
+"module should work with Aastra, Grandstream, Linksys/Sipura, Mitel, Polycom, "
+"SNOM , and possibly other SIP phones (not ATAs). Any phone that is always "
+"set to auto-answer should also work (such as the console extension if "
+"configured)."
+msgstr ""
+"此模組適用於支援頁面播報或對講機的特定電話。此區段用於設定群組頁面播報，對講機則透過<strong>功能碼</strong>設定。必須先在手機上啟用對講機功能，才能允許對講來電。可以將對講來電限制為僅限特定分機，或允許來自所有分機的對講來電，但明確拒絕特定分機。<br /><br />此模組應可搭配 Aastra、Grandstream、Linksys/Sipura、Mitel、Polycom、SNOM 及其他 SIP 電話（非 ATA）使用。任何設定為自動應答的電話也應可運作（例如主控台分機，若有設定的話）。"
+
+#: views/settings.php:95
+msgid ""
+"This option drops what Asterisk detects as silence from entering into the "
+"bridge. Enabling this option will drastically improve performance and help "
+"remove the buildup of background noise from the conference. Highly "
+"recommended for large conferences due to its performance enhancements."
+msgstr ""
+"此選項會將 Asterisk 偵測到的靜音從橋接中移除。啟用此選項將大幅提升效能，並有助於消除會議中背景噪音的累積。由於其效能提升，強烈建議用於大型會議。"
+
+#: views/settings.php:122
+msgid "This option removes the beep from caller."
+msgstr "此選項會移除來電者的嗶聲。"
+
+#: Paging.class.php:232
+msgid "Unknown Request"
+msgstr "不明的請求"
+
+#: Paging.class.php:38
+msgid "User Intercom Allow"
+msgstr "使用者對講機允許"
+
+#: Paging.class.php:45
+msgid "User Intercom Disallow"
+msgstr "使用者對講機不允許"
+
+#: functions.inc.php:1084
+msgid ""
+"When Enabled users can use *80<ext> to force intercom. When Disabled this "
+"user will reject intercom calls"
+msgstr "啟用時，使用者可以使用 *80<ext> 強制對講機。停用時，此使用者將拒絕對講來電"
+
+#: functions.inc.php:1080
+msgid ""
+"When set to Intercom, calls to this extension/user from other internal users "
+"act as if they were intercom calls meaning they will be auto-answered if the "
+"endpoint supports this feature and the system is configured to operate in "
+"this mode. All the normal white list and black list settings will be honored "
+"if they are set. External calls will still ring as normal, as will certain "
+"other circumstances such as blind transfers and when a Follow Me is "
+"configured and enabled. If Disabled, the phone rings as a normal phone."
+msgstr ""
+"當設為對講機時，其他內部使用者對此分機/使用者的來電會像是對講來電一樣，表示若端點支援此功能且系統設定為此模式運作，來電將自動被接聽。所有正常的黑名單和白名單設定都會被遵循（若有設定的話）。外部來電仍會正常響鈴，某些其他情況也是，例如盲目轉接以及當「跟上我」已設定並啟用時。若停用，電話會像一般電話一樣響鈴。"
+
+#: Paging.class.php:251
+msgid ""
+"When using Intercom to page an extension, if the extension is in use, you "
+"have three options."
+msgstr "使用對講機對分機進行頁面播報時，若分機正在使用，您有三個選項。"
+
+#: views/form.php:229
+msgid "Whisper"
+msgstr "耳語"
+
+#: views/routing_hook.php:29
+msgid ""
+"Will cause the selected Page Group to paged and connected to any call that "
+"is served by this route. It is recommended not to use a Page Group that uses "
+"(Force) Valet Paging"
+msgstr "將使所選的頁面群組進行頁面播報並連線至此路由服務的任何來電。建議不要使用使用（強制）代客頁面播報的頁面群組"
+
+#: views/form.php:258
+#: views/form.php:288
+#: views/settings.php:85
+#: views/settings.php:112
+msgid "Yes"
+msgstr "是"
+
+#: functions.inc.php:1073
+msgid ""
+"You can include or exclude this extension/device from being part of the "
+"default page group when creating or editing."
+msgstr "您可以在建立或編輯時，將此分機/裝置包含或排除在預設頁面群組之外。"

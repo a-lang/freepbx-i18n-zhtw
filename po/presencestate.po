@@ -1,0 +1,183 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for presencestate
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-06 05:43-0400\n"
+"PO-Revision-Date: 2026-09-15 14:29+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/grid.php:17
+msgid "Actions"
+msgstr "操作"
+
+#: views/bootnav.php:2
+#: views/grid.php:2
+msgid "Add State"
+msgstr "新增狀態"
+
+#: presencestate.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: functions.inc.php:6
+msgid "Available"
+msgstr "有空"
+
+#: functions.inc.php:6
+msgid "Away"
+msgstr "離開"
+
+#: functions.inc.php:6
+msgid "Chat"
+msgstr "可聊天"
+
+#: functions.inc.php:6
+msgid "DND"
+msgstr "勿擾"
+
+#: ucp/views/settings.php:23
+msgid "Define Actions on A Status Change"
+msgstr "定義狀態變更時的動作"
+
+#: Presencestate.class.php:205
+msgid "Delete"
+msgstr "刪除"
+
+#: ucp/views/settings.php:7
+#: ucp/views/settings.php:16
+msgid "Do Not Change"
+msgstr "不變更"
+
+#: ucp/Presencestate.class.php:256
+msgid "Do Not Disturb"
+msgstr "請勿打擾"
+
+#: ucp/Presencestate.class.php:255
+msgid "Do Nothing"
+msgstr "不執行動作"
+
+#: views/ucp_config.php:7
+msgid "Enable Presence"
+msgstr "啟用狀態顯示"
+
+#: functions.inc.php:6
+msgid "Extended Away"
+msgstr "長時間離開"
+
+#: ucp/Presencestate.class.php:257
+msgid "Findme/Follow Me"
+msgstr "尋找我 / 跟隨我"
+
+#: views/ucp_config.php:18
+msgid "Inherit"
+msgstr "繼承"
+
+#: Presencestate.class.php:195
+msgid "Invalid Request"
+msgstr "無效要求"
+
+#: views/bootnav.php:3
+msgid "List States"
+msgstr "列出狀態"
+
+#: presencestate.i18n.php:8
+msgid "Manage list of presence states."
+msgstr "管理狀態顯示清單。"
+
+#: views/bootnav.php:16
+#: views/grid.php:16
+msgid "Message"
+msgstr "訊息"
+
+#: views/ucp_config.php:15
+msgid "No"
+msgstr "否"
+
+#: ucp/views/settings.php:14
+msgid "On Browser Close or UCP Logout Set Status to"
+msgstr "關閉瀏覽器或登出 UCP 時將狀態設為"
+
+#: ucp/views/settings.php:5
+msgid "On UCP Login Set Status to"
+msgstr "登入 UCP 時將狀態設為"
+
+#: views/form.php:50
+msgid "Optional Message"
+msgstr "可選訊息"
+
+#: views/form.php:62
+msgid "Optional message, example: Lunch"
+msgstr "可選訊息，例如：午餐"
+
+#: ucp/Presencestate.class.php:180
+#: ucp/Presencestate.class.php:190
+#: ucp/Presencestate.class.php:229
+msgid "Presence"
+msgstr "狀態"
+
+#: ucp/Presencestate.class.php:263
+msgid "Presence Settings"
+msgstr "狀態設定"
+
+#: Presencestate.class.php:121
+#: presencestate.i18n.php:4
+#: presencestate.i18n.php:10
+msgid "Presence State"
+msgstr "狀態顯示"
+
+#: ucp/Presencestate.class.php:211
+msgid "Presence State is not enabled for this user."
+msgstr "此使用者未啟用狀態顯示。"
+
+#: page.presencestate.php:6
+msgid "Presence States"
+msgstr "狀態顯示"
+
+#: Presencestate.class.php:205
+msgid "Reset"
+msgstr "重置"
+
+#: views/form.php:38
+msgid "State type"
+msgstr "狀態類型"
+
+#: Presencestate.class.php:205
+msgid "Submit"
+msgstr "提交"
+
+#: ucp/Presencestate.class.php:215
+msgid "This user doesn't have a default extension."
+msgstr "此使用者沒有預設分機。"
+
+#: views/bootnav.php:15
+#: views/form.php:24
+#: views/grid.php:15
+msgid "Type"
+msgstr "類型"
+
+#: functions.inc.php:6
+msgid "Unavailable"
+msgstr "無空"
+
+#: views/ucp_config.php:28
+msgid ""
+"Whether to allow this user to be able to change their presence state/status "
+"in UCP"
+msgstr "是否允許此使用者在 UCP 中變更其狀態顯示 / 狀態"
+
+#: views/ucp_config.php:13
+msgid "Yes"
+msgstr "是"

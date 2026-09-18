@@ -1,0 +1,432 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cel
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 02:38-0400\n"
+"PO-Revision-Date: 2026-09-15 17:54+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ucp/assets/js/global.js:47
+#, perl-format
+msgid "%s seconds"
+msgstr "%s 秒"
+
+#: views/ucp_config.php:7
+msgid "Allow CEL"
+msgstr "允許 CEL"
+
+#: views/ucp_config.php:64
+msgid "Allow CEL Downloads"
+msgstr "允許 CEL 下載"
+
+#: views/ucp_config.php:95
+msgid "Allow CEL Playback"
+msgstr "允許 CEL 播放"
+
+#: views/ucp_config.php:116
+msgid "Allow this user to playback recordings in UCP"
+msgstr "允許此使用者在 UCP 中播放錄音"
+
+#: views/ucp_config.php:85
+msgid "Allow users to download recordings in UCP"
+msgstr "允許使用者在 UCP 中下載錄音"
+
+#: views/ucp_config.php:38
+msgid "Allowed CEL"
+msgstr "允許的 CEL"
+
+#: views/page.cel_view.php:161
+msgid "Application"
+msgstr "應用程式"
+
+#: views/page.cel_view.php:175
+msgid "Application executed by a call participant"
+msgstr "由呼叫參與者執行的應用程式"
+
+#: views/backupSettings.php:7
+msgid "Backup Days"
+msgstr "備份天數"
+
+#: ucp/Cel.class.php:81
+msgid "CEL (Call Event Logging) is not enabled for this user."
+msgstr "此使用者未啟用 CEL（呼叫事件記錄）。"
+
+#: cel.i18n.php:14
+msgid "CEL Report Module"
+msgstr "CEL 報告模組"
+
+#: views/page.cel_view.php:22
+msgid "CEL Reports"
+msgstr "CEL 報告"
+
+#: views/page.cel_view.php:32
+msgid "Call Detail"
+msgstr "通話詳細資料"
+
+#: Cel.class.php:343 /usr/src/freepbx/cel/cel.i18n.php:4
+#: cel.i18n.php:10 /usr/src/freepbx/cel/page.cel.php:10
+msgid "Call Event Logging"
+msgstr "呼叫事件記錄"
+
+#: ucp/Cel.class.php:33
+#: ucp/Cel.class.php:128
+#: ucp/assets/js/global.js:29
+msgid "Call Events"
+msgstr "呼叫事件"
+
+#: ucp/Cel.class.php:58
+#, php-format
+msgid "Call Events for %s"
+msgstr "%s 的呼叫事件"
+
+#: ucp/views/widget.php:25
+#: views/page.cel_view.php:202
+msgid "Caller"
+msgstr "來電者"
+
+#: views/page.cel_view.php:56
+msgid "Channel Name"
+msgstr "通道名稱"
+
+#: ucp/views/eventModal.php:21
+msgid "Channle Name"
+msgstr "通道名稱"
+
+#: install.php:85
+#, php-format
+msgid "Checking for %s field to remove.."
+msgstr "正在檢查要移除的 %s 欄位.."
+
+#: install.php:94
+msgid "Checking for context index.."
+msgstr "正在檢查上下文索引.."
+
+#: ucp/views/eventModal.php:18
+#: views/page.cel_view.php:53
+msgid "Cid num"
+msgstr "來電顯示號碼"
+
+#: views/page.cel_view.php:61
+#: ucp/assets/js/global.js:31
+msgid "Close"
+msgstr "關閉"
+
+#: views/page.cel_view.php:9
+msgid "Conference"
+msgstr "會議"
+
+#: ucp/views/eventModal.php:20
+#: views/page.cel_view.php:55
+msgid "Context"
+msgstr "上下文"
+
+#: ucp/views/widget.php:31
+msgid "Controls"
+msgstr "控制項"
+
+#: cel.i18n.php:20
+msgid ""
+"DO NOT set this unless you know what you are doing. Only used if you do not "
+"use the default values provided by FreePBX. Name of database used for where "
+"the cel is stored. asteriskcdrdb is default."
+msgstr ""
+"除非您知道自己在做什麼，否則請勿設定此項目。僅在未使用 FreePBX 提供的預設值時使用。用來儲存 cel 的資料庫名稱。預設值為 asteriskcdrdb。"
+
+#: cel.i18n.php:24
+msgid ""
+"DO NOT set this unless you know what you are doing. Only used if you do not "
+"use the default values provided by FreePBX. Name of the table in the db "
+"where the cel is stored. cel is default."
+msgstr ""
+"除非您知道自己在做什麼，否則請勿設定此項目。僅在未使用 FreePBX 提供的預設值時使用。cel 儲存所在資料庫中的資料表名稱。預設值為 cel。"
+
+#: ucp/views/widget.php:24
+#: views/page.cel_view.php:201
+msgid "Date"
+msgstr "日期"
+
+#: views/page.cel_view.php:74
+msgid "Date Range"
+msgstr "日期範圍"
+
+#: views/page.cel_view.php:138
+msgid "Destination"
+msgstr "目的地"
+
+#: views/page.cel_view.php:185
+msgid "Detailed Report"
+msgstr "詳細報告"
+
+#: views/page.cel_view.php:206
+msgid "Details"
+msgstr "詳細資料"
+
+#: ucp/views/widget.php:26
+#: views/page.cel_view.php:203
+msgid "Dialed"
+msgstr "已撥號"
+
+#: ucp/assets/js/global.js:58
+msgid "Download"
+msgstr "下載"
+
+#: ucp/views/widget.php:27
+#: views/page.cel_view.php:204
+msgid "Duration"
+msgstr "持續時間"
+
+#: install.php:112
+msgid "ERROR failed to update database"
+msgstr "錯誤：更新資料庫失敗"
+
+#: views/ucp_config.php:28
+msgid "Enable CEL (Call Event Logging) in UCP for this user"
+msgstr "在此使用者的 UCP 中啟用 CEL（呼叫事件記錄）"
+
+#: cel.i18n.php:12
+msgid "Enable CEL Reporting"
+msgstr "啟用 CEL 報告"
+
+#: ucp/assets/js/global.js:38
+#: ucp/assets/js/global.js:42
+msgid "Error getting form"
+msgstr "取得表單時發生錯誤"
+
+#: ucp/views/eventModal.php:15
+#: views/page.cel_view.php:50
+msgid "Event Type"
+msgstr "事件類型"
+
+#: ucp/views/eventModal.php:19
+#: views/page.cel_view.php:54
+msgid "Extension"
+msgstr "分機"
+
+#: Cel.class.php:214
+#: ucp/Cel.class.php:180
+#: ucp/Cel.class.php:183
+msgid "File does not exist"
+msgstr "檔案不存在"
+
+#: views/page.cel_view.php:126
+msgid "Filter by Source"
+msgstr "依來源篩選"
+
+#: views/page.cel_view.php:150
+msgid "Filter by destination"
+msgstr "依目的地篩選"
+
+#: ucp/Cel.class.php:252
+#: ucp/Cel.class.php:263
+msgid "Forbidden"
+msgstr "禁止存取"
+
+#: views/page.cel_view.php:78
+#: views/page.cel_view.php:82
+msgid "From"
+msgstr "從"
+
+#: views/ucp_config.php:18
+#: views/ucp_config.php:75
+#: views/ucp_config.php:106
+msgid "Inherit"
+msgstr "繼承"
+
+#: Cel.class.php:218
+msgid "Invalid Command"
+msgstr "無效指令"
+
+#: ucp/views/eventModal.php:17
+#: views/page.cel_view.php:52
+msgid "LinkedID"
+msgstr "LinkedID"
+
+#: views/backupSettings.php:30
+#: views/ucp_config.php:15
+#: views/ucp_config.php:72
+#: views/ucp_config.php:103
+msgid "No"
+msgstr "否"
+
+#: ucp/Cel.class.php:257
+msgid "Not Found"
+msgstr "找不到"
+
+#: install.php:67
+msgid "OK"
+msgstr "確定"
+
+#: views/page.cel_view.php:205
+msgid "Play"
+msgstr "播放"
+
+#: ucp/views/widget.php:29
+msgid "Playback"
+msgstr "播放"
+
+#: views/page.cel_view.php:10
+msgid "Queue"
+msgstr "佇列"
+
+#: views/page.cel_view.php:182
+msgid "Refresh"
+msgstr "重新整理"
+
+#: cel.i18n.php:18
+msgid "Remote CEL DB Name"
+msgstr "遠端 CEL 資料庫名稱"
+
+#: cel.i18n.php:22
+msgid "Remote CEL DB Table"
+msgstr "遠端 CEL 資料表"
+
+#: install.php:114
+msgid "Removed"
+msgstr "已移除"
+
+#: install.php:107
+msgid "Removing outdated fields (this might take a long time)"
+msgstr "正在移除過時的欄位（這可能需要很長時間）"
+
+#: cel.i18n.php:6
+msgid "Reports"
+msgstr "報告"
+
+#: views/backupSettings.php:22
+msgid "Restore Advanced Settings"
+msgstr "還原進階設定"
+
+#: views/page.cel_view.php:102
+msgid "Select the date range for the report"
+msgstr "選取報告的日期範圍"
+
+#: cel.i18n.php:16
+msgid ""
+"Setting this true will enable the CEL module to create call reports from CEL "
+"data. Although the CEL module will assure there is a CEL table available, "
+"the reporting functionality in Asterisk and associated ODBC database and CEL "
+"configuration must be done outside of FreePBX either by the user or at the "
+"Distro level."
+msgstr ""
+"將此設為 true 將使 CEL 模組能從 CEL 資料建立通話報告。雖然 CEL 模組將確保有可用的 CEL 資料表，但 Asterisk 中的報告功能及相關 ODBC 資料庫與 CEL 設定必須在 FreePBX 之外由使用者或在 Distro 層級完成。"
+
+#: views/page.cel_view.php:114
+msgid "Source"
+msgstr "來源"
+
+#: Cel.class.php:386
+msgid "The CEL module requires an Asterisk version of 12.0 or higher."
+msgstr "CEL 模組需要 Asterisk 版本 12.0 或更新版本。"
+
+#: cel.i18n.php:8
+msgid ""
+"The Call Event Logging module allows you to see all inbound and outbound "
+"calls for your user and listen to any call recordings that are associated "
+"with that call."
+msgstr "呼叫事件記錄模組可讓您查看使用者的所有來電與外撥通話，以及聆聽與該通話相關的任何錄音。"
+
+#: ucp/Cel.class.php:91
+msgid "The given extension is empty."
+msgstr "提供的分機為空白。"
+
+#: ucp/Cel.class.php:86
+msgid "There are no assigned extensions."
+msgstr "沒有指派的任何分機。"
+
+#: views/ucp_config.php:54
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr "這些是已指派且作用中的分機，將顯示給此使用者在 UCP 中控制與編輯"
+
+#: ucp/Cel.class.php:95
+msgid "This extension is not assigned to this user."
+msgstr "此分機並未指派給此使用者。"
+
+#: ucp/views/eventModal.php:14
+#: views/page.cel_view.php:49
+msgid "Time"
+msgstr "時間"
+
+#: views/page.cel_view.php:87
+#: views/page.cel_view.php:91
+msgid "To"
+msgstr "至"
+
+#: ucp/views/eventModal.php:16
+#: views/page.cel_view.php:51
+msgid "UniqueID"
+msgstr "UniqueID"
+
+#: Cel.class.php:334
+msgid "User Primary Extension"
+msgstr "使用者主要分機"
+
+#: views/page.cel_view.php:11
+msgid "Voicemail"
+msgstr "語音信箱"
+
+#: views/page.cel_view.php:12
+msgid "Voicemail Main"
+msgstr "語音信箱主功能"
+
+#: views/backupSettings.php:28
+#: views/ucp_config.php:13
+#: views/ucp_config.php:70
+#: views/ucp_config.php:101
+msgid "Yes"
+msgstr "是"
+
+#: assets/js/cel.js:58
+#: ucp/assets/js/global.js:103
+#, perl-format
+msgid ""
+"You are missing support for playback in this browser. To fully support HTML5 "
+"browser playback you will need to install programs that can not be "
+"distributed with the PBX. If you'd like to install the binaries needed for "
+"these conversions click <a href='%s'>here</a>"
+msgstr ""
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法隨 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點擊 <a href='%s'>此處</a>"
+
+#: page.cel.php:12
+msgid ""
+"You may search by any or all of the fields below. The more fields you fill "
+"in the more refined the report."
+msgstr "您可以使用以下任何或所有欄位進行搜尋。您填入的欄位越多，報告就越精確。"
+
+#: install.php:79
+msgid "already exists"
+msgstr "已存在"
+
+#: install.php:101
+msgid "already indexed"
+msgstr "已建立索引"
+
+#: install.php:90
+msgid "already removed"
+msgstr "已移除"
+
+#: install.php:74
+msgid "checking for extra field.."
+msgstr "正在檢查額外欄位.."
+
+#: install.php:88 /usr/src/freepbx/cel/install.php:99
+msgid "found"
+msgstr "找到"
+
+#: install.php:77
+msgid "not found"
+msgstr "找不到"

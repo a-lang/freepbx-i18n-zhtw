@@ -1,0 +1,2851 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for userman
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 08:02-0400\n"
+"PO-Revision-Date: 2026-09-15 11:16+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/userman.js:5
+msgid " users."
+msgstr " 使用者。"
+
+#: views/groups.php:36
+#: views/users.php:33
+#, php-format
+msgid "%s Administration GUI"
+msgstr "%s 管理 GUI"
+
+#: functions.inc/auth/modules/Freepbx.php:25
+#, php-format
+msgid "%s Internal Directory"
+msgstr "%s 內部目錄"
+
+#: views/welcome.php:9
+#, php-format
+msgid ""
+"%s User Manager is taking the place of several modules which have attempted "
+"to create and manage users separate from Extensions. Modules such as "
+"iSymphony and RestAPI are examples of these type of modules. For %s systems, "
+"the new User Control Panel also uses User Manager."
+msgstr ""
+"%s User Manager 取代了若干試圖建立與管理獨立於分機以外使用者的模組。iSymphony 和 RestAPI 是這類模組的例子。對 %s 系統而言，新的 User Control Panel 也使用了 User Manager。"
+
+#: Userman.class.php:4292
+#, php-format
+msgid "%s User(s)  dashboard widgets reconfigured"
+msgstr "%s 個使用者 儀表板 widget 已重新設定"
+
+#: Userman.class.php:3607
+#, php-format
+msgid "%s records failed validation"
+msgstr "%s 筆記錄驗證失敗"
+
+#: Userman.class.php:307
+msgid "(0 - being Really Weak, 4 - being Strong)"
+msgstr "（0 = 非常弱，4 = 非常強）"
+
+#: views/directories.php:337
+msgid "1 Day"
+msgstr "1 天"
+
+#: views/directories.php:335
+msgid "1 Hour"
+msgstr "1 小時"
+
+#: views/directories.php:334
+msgid "30 Minutes"
+msgstr "30 分鐘"
+
+#: views/directories.php:336
+msgid "6 Hours"
+msgstr "6 小時"
+
+#: views/users.php:99
+msgid "A brief description for this user."
+msgstr "此使用者的簡短描述。"
+
+#: views/welcome.php:163
+msgid ""
+"A group designed for call-related tasks. Use it to efficiently organize "
+"users for specific call operations, such as streamlining call monitoring "
+"assignments. <br/> Note: This feature is not actively used but offers "
+"potential for future applications."
+msgstr ""
+"專為通話相關工作設計的群組。用它來有效率地為特定通話作業組織使用者，例如簡化通話監控指派。<br/> 注意：此功能目前未積極使用，但提供未來應用的潛力。"
+
+#: views/welcome.php:60
+#: views/welcome.php:91
+#: views/welcome.php:116
+#: views/welcome.php:154
+#: views/welcome.php:178
+msgid "Action"
+msgstr "動作"
+
+#: views/welcome.php:113
+msgid "Active"
+msgstr "啟用中"
+
+#: views/welcome.php:34
+#: views/welcome.php:71
+#: views/welcome.php:102
+#: views/welcome.php:131
+#: views/welcome.php:166
+msgid "Add"
+msgstr "新增"
+
+#: install.php:63
+msgid "Add Account Code"
+msgstr "新增帳號代碼"
+
+#: views/call_activity_group.php:6
+#: views/rnav.php:59
+msgid "Add Call Activity Group"
+msgstr "新增通話活動群組"
+
+#: Userman.class.php:1099
+msgid "Add Device"
+msgstr "新增裝置"
+
+#: views/directories.php:219
+#: views/rnav.php:44
+msgid "Add Directory"
+msgstr "新增目錄"
+
+#: Userman.class.php:1099
+msgid "Add Extension"
+msgstr "新增分機"
+
+#: views/groups.php:6
+#: views/rnav.php:28
+msgid "Add Group"
+msgstr "新增群組"
+
+#: functions.inc/auth/Auth.php:80
+msgid "Add Group is not defined"
+msgstr "未定義 Add Group"
+
+#: views/ucptemplates.php:5
+msgid "Add Template"
+msgstr "新增樣板"
+
+#: views/rnav.php:11
+#: views/users.php:5
+msgid "Add User"
+msgstr "新增使用者"
+
+#: functions.inc/auth/Auth.php:72
+msgid "Add User is not defined"
+msgstr "未定義 Add User"
+
+#: functions.inc/auth/modules/Voicemail.php:81
+#, php-format
+msgid "Added Voicemail User %s"
+msgstr "已新增語音信箱使用者 %s"
+
+#: userman.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: views/groups.php:346
+#: views/users.php:729
+msgid "Administration Access"
+msgstr "管理存取權限"
+
+#: views/groups.php:34
+#: views/users.php:31
+msgid "Advanced"
+msgstr "進階"
+
+#: views/welcome.php:43
+#: views/welcome.php:77
+msgid "All Directories"
+msgstr "所有目錄"
+
+#: Userman.class.php:1793
+msgid "All Users"
+msgstr "所有使用者"
+
+#: views/groups.php:274
+#: views/users.php:653
+#, php-format
+msgid "Allow %s Administration Login"
+msgstr "允許 %s 管理登入"
+
+#: functions.inc/auth/modules/Freepbx.php:188
+#: functions.inc/auth/modules/Freepbx.php:214
+msgid "An Unknown error occured while trying to update user data"
+msgstr "嘗試更新使用者資料時發生未知的錯誤"
+
+#: Userman.class.php:1100
+msgid "Apply Changes Bar"
+msgstr "套用變更列"
+
+#: assets/js/userman.js:739
+msgid "Are you sure rebuild all Users widgets associated with this Template?"
+msgstr "您確定要重建與此站板相關的所有使用者 widget？"
+
+#: functions.inc/auth/modules/Voicemail.php:33
+msgid "Asterisk Voicemail"
+msgstr "Asterisk 語音信箱"
+
+#: views/general.php:10
+msgid "Authentication Settings"
+msgstr "驗證設定"
+
+#: Userman.class.php:4137
+msgid "Autogenerated user For Template Creation"
+msgstr "自動產生的使用者（供樣板建立用）"
+
+#: Userman.class.php:372
+#: functions.inc/guihooks.php:268
+#: functions.inc/guihooks.php:345
+msgid "Autogenerated user on new device creation"
+msgstr "建立新裝置時自動產生的使用者"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:132
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:278
+msgid "Base DN"
+msgstr "Base DN"
+
+#: functions.inc/auth/modules/Openldap2.php:254
+msgid "Bind DN or Username"
+msgstr "Bind DN 或使用者名稱"
+
+#: views/rnav.php:64
+#: views/welcome.php:176
+msgid "Call Activity Group Name"
+msgstr "通話活動群組名稱"
+
+#: views/welcome.php:26
+msgid "Call Activity Groups"
+msgstr "通話活動群組"
+
+#: install.php:77
+msgid "Call Activity Groups Max User Limit"
+msgstr "通話活動群組最大使用者限制"
+
+#: Userman.class.php:730
+msgid "Cancel"
+msgstr "取消"
+
+#: Userman.class.php:321
+#, php-format
+msgid "Cannot manage this rule: %s."
+msgstr "無法管理此規則：%s。"
+
+#: views/users.php:475
+msgid "Cell Phone Number"
+msgstr "手機號碼"
+
+#: views/passwordmodal.php:34
+msgid "Close"
+msgstr "關閉"
+
+#: functions.inc/auth/modules/Msad2.php:137
+#: functions.inc/auth/modules/Openldap2.php:327
+#: functions.inc/auth/modules/Scim.php:148
+msgid "Common Name attribute"
+msgstr "Common Name 屬性"
+
+#: views/users.php:331
+msgid "Company"
+msgstr "公司"
+
+#: PasswordExpReminder.php:625
+#: assets/js/adminPwdExpReminder.js:75
+#: assets/js/adminPwdExpReminder.js:88
+msgid "Confirm password does not match"
+msgstr "確認密碼不相符"
+
+#: PasswordExpReminder.php:621
+msgid "Confirm password is required"
+msgstr "確認密碼為必填"
+
+#: functions.inc/auth/modules/Msad.php:139
+#: functions.inc/auth/modules/Msad2.php:113
+#: functions.inc/auth/modules/Openldap.php:152
+#: functions.inc/auth/modules/Openldap2.php:180
+msgid "Connected"
+msgstr "已連線"
+
+#: functions.inc/auth/modules/Voicemail.php:47
+msgid "Context"
+msgstr "Context"
+
+#: functions.inc/auth/modules/Scim.php:102
+msgid "Copy Token"
+msgstr "複製 Token"
+
+#: functions.inc/auth/modules/Voicemail.php:99
+msgid "Could not find the voicemail context"
+msgstr "找不到語音信箱 context"
+
+#: views/welcome.php:139
+msgid "Create Generic User"
+msgstr "建立一般使用者"
+
+#: functions.inc/auth/modules/Msad2.php:135
+#: functions.inc/auth/modules/Openldap2.php:302
+#: functions.inc/auth/modules/Scim.php:111
+msgid "Create Missing Extensions"
+msgstr "建立遺失的分機"
+
+#: functions.inc/guihooks.php:188
+#: functions.inc/guihooks.php:227
+msgid "Create New User"
+msgstr "建立新使用者"
+
+#: views/ucptemplates.php:70
+msgid "Create Template Via"
+msgstr "透過…建立樣板"
+
+#: views/quickCreate.php:8
+msgid "Create User Manager User"
+msgstr "建立 User Manager 使用者"
+
+#: views/ucptemplates.php:82
+msgid "Create Using Template Creator"
+msgstr "使用樣板建立器建立"
+
+#: Userman.class.php:4171
+#, php-format
+msgid "Created the Generic User '%s'. This user is listed in the users table."
+msgstr "已建立一般使用者「%s」。此使用者列在使用者表格中。"
+
+#: views/groups.php:249
+#: views/users.php:626
+msgid "Date Format"
+msgstr "日期格式"
+
+#: views/groups.php:205
+#: views/users.php:576
+msgid "Date and Time Format"
+msgstr "日期與時間格式"
+
+#: views/welcome.php:115
+msgid "Default"
+msgstr "預設"
+
+#: functions.inc/auth/modules/Freepbx.php:46
+msgid "Default Groups"
+msgstr "預設群組"
+
+#: views/groups.php:376
+#: views/users.php:758
+msgid "Default Landing Page"
+msgstr "預設到達頁面"
+
+#: Userman.class.php:730
+#: views/welcome.php:37
+#: views/welcome.php:74
+#: views/welcome.php:105
+#: views/welcome.php:134
+#: views/welcome.php:169
+msgid "Delete"
+msgstr "刪除"
+
+#: views/welcome.php:143
+msgid "Delete Generic User"
+msgstr "刪除一般使用者"
+
+#: functions.inc/auth/modules/Scim.php:124
+msgid "Delete extension after deprovisioning"
+msgstr "解除佈建後刪除分機"
+
+#: Console/Userman.class.php:23
+msgid "Delete generic templates user"
+msgstr "刪除一般樣板使用者"
+
+#: views/users.php:355
+msgid "Department"
+msgstr "部門"
+
+#: Userman.class.php:3578
+#: Userman.class.php:3582
+#: Userman.class.php:3586
+#: views/rnav.php:18
+#: views/rnav.php:35
+#: views/rnav.php:65
+#: views/users.php:87
+#: views/welcome.php:59
+#: views/welcome.php:89
+#: views/welcome.php:152
+#: views/welcome.php:177
+msgid "Description"
+msgstr "描述"
+
+#: functions.inc/auth/modules/Msad2.php:138
+#: functions.inc/auth/modules/Openldap2.php:339
+#: functions.inc/auth/modules/Scim.php:160
+msgid "Description attribute"
+msgstr "Description 屬性"
+
+#: views/welcome.php:22
+msgid "Directories"
+msgstr "目錄"
+
+#: views/welcome.php:53
+#: views/welcome.php:87
+msgid "Directory"
+msgstr "目錄"
+
+#: views/directories.php:281
+#: views/rnav.php:49
+msgid "Directory Name"
+msgstr "目錄名稱"
+
+#: views/directories.php:351
+msgid "Directory Settings"
+msgstr "目錄設定"
+
+#: views/directories.php:247
+msgid "Directory Type"
+msgstr "目錄類型"
+
+#: Userman.class.php:2319
+#: Userman.class.php:2349
+msgid "Directory is locked. Can not add group"
+msgstr "目錄已鎖定。無法新增群組"
+
+#: Userman.class.php:2027
+#: Userman.class.php:2076
+msgid "Directory is locked. Can not add user"
+msgstr "目錄已鎖定。無法新增使用者"
+
+#: Userman.class.php:2537
+msgid "Directory is locked. Can not update group"
+msgstr "目錄已鎖定。無法更新群組"
+
+#: Userman.class.php:2449
+msgid "Directory is locked. Can not update user"
+msgstr "目錄已鎖定。無法更新使用者"
+
+#: views/welcome.php:99
+msgid ""
+"Directory order can be changed by clicking and dragging directories around "
+"in the order you'd like. User logins will match based on the first directory "
+"then if no match was found waterfall down the list in the order chosen below"
+msgstr "目錄順序可以透過點選並拖曳目錄來按照您想要的順序變更。使用者登入時會依照第一個目錄比對，如果找不到符合項目，則按照以下選擇的順序逐步往下比對"
+
+#: Userman.class.php:1213
+msgid "Directory update successful"
+msgstr "目錄更新成功"
+
+#: Userman.class.php:3578
+#: functions.inc/auth/modules/Openldap.php:161
+#: views/users.php:283
+#: views/welcome.php:55
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: views/users.php:295
+msgid ""
+"Display Name. Used in User Control Panel and Contact Manager to display a "
+"customized user name"
+msgstr "顯示名稱。在 User Control Panel 和 Contact Manager 中用來顯示自訂化的使用者名稱"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:131
+msgid "Domain"
+msgstr "網域"
+
+#: functions.inc/auth/modules/Msad2.php:122
+#: functions.inc/auth/modules/Openldap2.php:189
+#: functions.inc/auth/modules/Scim.php:75
+msgid "Don't Create"
+msgstr "不要建立"
+
+#: views/call_activity_group.php:4
+msgid "Edit Call Activity Group"
+msgstr "編輯通話活動群組"
+
+#: views/directories.php:217
+msgid "Edit Directory"
+msgstr "編輯目錄"
+
+#: views/groups.php:3
+msgid "Edit Group"
+msgstr "編輯群組"
+
+#: views/ucptemplates.php:3
+msgid "Edit Template"
+msgstr "編輯樣板"
+
+#: views/users.php:3
+msgid "Edit User"
+msgstr "編輯使用者"
+
+#: userman.i18n.php:12
+msgid "Email "
+msgstr "電子郵件 "
+
+#: views/users.php:451
+msgid "Email Address"
+msgstr "電子郵件地址"
+
+#: views/general.php:129
+msgid "Email Body"
+msgstr "郵件內文"
+
+#: Userman.class.php:1304
+#, php-format
+msgid "Email Sent to users: %s"
+msgstr "郵件已傳送給使用者：%s"
+
+#: views/general.php:9
+#: views/general.php:17
+msgid "Email Settings"
+msgstr "郵件設定"
+
+#: views/general.php:105
+msgid "Email Subject"
+msgstr "郵件主旨"
+
+#: Userman.class.php:3680
+msgid "Empty data array."
+msgstr "空的資料陣列。"
+
+#: install.php:49
+msgid "Enable Call Activity Groups"
+msgstr "啟用通話活動群組"
+
+#: views/directories.php:303
+msgid "Enable Directory"
+msgstr "啟用目錄"
+
+#: views/quickCreate.php:25
+msgid "Enable User Manager for this extension"
+msgstr "啟用此分機的 User Manager"
+
+#: views/general.php:188
+#: views/general.php:229
+#: views/general.php:270
+#: views/general.php:311
+#: views/general.php:352
+#: views/general.php:393
+#: views/general.php:434
+msgid "Enable or disable this rule Yes or No."
+msgstr "啟用或停用此規則 Yes 或 No。"
+
+#: views/general.php:480
+msgid ""
+"Enabling / Disabling below settings will be applied for all users. You can "
+"manage these settings for each users from"
+msgstr "啟用 / 停用以下設定將套用到所有使用者。您可以從以下位置管理每位使用者的這些設定："
+
+#: views/general.php:434
+msgid ""
+"Enter a password complexity threshold from 0 to 4, 0 being 'Really weak', "
+"and 4 being 'Strong'."
+msgstr "輸入 0 到 4 的密碼複雜度閾值，0 為「非常弱」，4 為「非常強」。"
+
+#: views/general.php:462
+msgid "Enter a password to test."
+msgstr "輸入密碼來測試。"
+
+#: views/general.php:270
+msgid "Enter the minimum number of lowercase characters."
+msgstr "輸入最小的小寫字元數。"
+
+#: views/general.php:311
+msgid "Enter the minimum number of numeric characters."
+msgstr "輸入最小的數字字元數。"
+
+#: views/general.php:393
+msgid "Enter the minimum number of punctuation characters."
+msgstr "輸入最小的標點符號字元數。"
+
+#: views/general.php:352
+msgid "Enter the minimum number of special characters."
+msgstr "輸入最小的特殊字元數。"
+
+#: views/general.php:229
+msgid "Enter the minimum number of uppercase characters."
+msgstr "輸入最小的大寫字元數。"
+
+#: views/general.php:188
+msgid "Enter the minimum password length."
+msgstr "輸入最小密碼長度。"
+
+#: assets/js/adminPwdExpReminder.js:27
+#: assets/js/adminPwdExpReminder.js:67
+#: assets/js/adminPwdExpReminder.js:75
+#: assets/js/adminPwdExpReminder.js:84
+#: assets/js/adminPwdExpReminder.js:88
+#: assets/js/adminPwdExpReminder.js:101
+#: assets/js/adminPwdExpReminder.js:107
+msgid "Error"
+msgstr "錯誤"
+
+#: Userman.class.php:1311
+msgid "Error: No id provided"
+msgstr "錯誤：未提供 id"
+
+#: Userman.class.php:1372
+msgid "Error: You should never see this"
+msgstr "錯誤：您不應該看到這個"
+
+#: Backup.php:12
+msgid "Exporting Module XML userman"
+msgstr "正在匯出 Module XML userman"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "Extension Link Attribute"
+msgstr "分機連結屬性"
+
+#: views/directories.php:506
+#: views/directories.php:514
+msgid "Failed to copy SCIM token. Please copy it manually."
+msgstr "無法複製 SCIM token。請手動複製。"
+
+#: views/directories.php:427
+#: views/directories.php:431
+msgid "Failed to load SCIM token."
+msgstr "無法載入 SCIM token。"
+
+#: views/directories.php:454
+#: views/directories.php:458
+msgid "Failed to refresh SCIM token."
+msgstr "無法重新整理 SCIM token。"
+
+#: assets/js/userman.js:612
+msgid "False"
+msgstr "False"
+
+#: views/users.php:547
+msgid "Fax Phone Number"
+msgstr "傳真號碼"
+
+#: Userman.class.php:3578
+#: views/users.php:235
+#: views/welcome.php:56
+msgid "First Name"
+msgstr "名字"
+
+#: views/password_exp_reminder_hook.php:48
+msgid "Force Password Reset"
+msgstr "強制密碼重設"
+
+#: views/templatemembers.php:47
+msgid "Force Rebuild Templates For Users"
+msgstr "強制為使用者重建樣板"
+
+#: views/general.php:488
+msgid "Force reset the password on first time login"
+msgstr "強制在首次登入時重設密碼"
+
+#: Console/Userman.class.php:23
+msgid "Force syncronization"
+msgstr "強制同步"
+
+#: Userman.class.php:1724
+#: Userman.class.php:2513
+msgid "GID was not numeric"
+msgstr "GID 不是數字"
+
+#: views/groups.php:95
+msgid "Give the group a description"
+msgstr "給群組一個描述"
+
+#: views/groups.php:73
+msgid "Give the group a name"
+msgstr "給群組一個名稱"
+
+#: views/groups.php:299
+#: views/users.php:680
+msgid "Grant Full Administration Rights"
+msgstr "授與完整管理權限"
+
+#: views/groups.php:314
+#: views/users.php:697
+msgid ""
+"Grant full administration rights regardless of extension range or module "
+"access."
+msgstr "授與完整管理權限，不考慮分機範圍或模組存取權限。"
+
+#: functions.inc/auth/modules/Freepbx.php:204
+#: functions.inc/auth/modules/Voicemail.php:207
+#, php-format
+msgid "Group '%s' Does Not Exist"
+msgstr "群組「%s」不存在"
+
+#: functions.inc/auth/modules/Msad2.php:173
+#: functions.inc/auth/modules/Openldap2.php:587
+msgid "Group DN"
+msgstr "Group DN"
+
+#: views/call_activity_group.php:50
+#: views/groups.php:83
+msgid "Group Description"
+msgstr "群組描述"
+
+#: functions.inc/auth/modules/Scim.php:368
+msgid "Group Description attribute"
+msgstr "Group Description 屬性"
+
+#: views/groups.php:33
+msgid "Group Details"
+msgstr "群組詳細資料"
+
+#: Userman.class.php:4067
+#: functions.inc/auth/Auth.php:488
+msgid "Group Does Not Exist"
+msgstr "群組不存在"
+
+#: functions.inc/auth/modules/Scim.php:392
+msgid "Group ID attribute"
+msgstr "Group ID 屬性"
+
+#: functions.inc/auth/modules/Openldap2.php:635
+msgid "Group Member Identifier Attribute"
+msgstr "Group Member Identifier 屬性"
+
+#: functions.inc/auth/modules/Scim.php:380
+msgid "Group Member attribute"
+msgstr "Group Member 屬性"
+
+#: Userman.class.php:3582
+#: views/call_activity_group.php:28
+#: views/groups.php:61
+#: views/rnav.php:34
+#: views/welcome.php:88
+msgid "Group Name"
+msgstr "群組名稱"
+
+#: functions.inc/auth/modules/Scim.php:356
+msgid "Group Name attribute"
+msgstr "Group Name 屬性"
+
+#: assets/js/userman.js:73
+msgid "Group Name can not be blank!"
+msgstr "群組名稱不能空白！"
+
+#: views/welcome.php:68
+msgid ""
+"Group Priorities can be changed by clicking and dragging groups around in "
+"the order you'd like. Groups with a lower number for priority take priority "
+"(EG 0 is higher than 1)"
+msgstr "群組優先順序可以透過點選並拖曳群組來按照您想要的順序變更。優先順序數字較小的群組優先（例如 0 優於 1）"
+
+#: functions.inc/auth/modules/Freepbx.php:138
+#: functions.inc/auth/modules/Msad2.php:376
+#: functions.inc/auth/modules/Openldap2.php:858
+#: functions.inc/auth/modules/Voicemail.php:169
+msgid "Group Successfully Added"
+msgstr "已成功新增群組"
+
+#: Userman.class.php:4076
+#: functions.inc/auth/Auth.php:500
+msgid "Group Successfully Deleted"
+msgstr "已成功刪除群組"
+
+#: functions.inc/auth/Auth.php:624
+msgid "Group Successfully Updated"
+msgstr "已成功更新群組"
+
+#: Userman.class.php:3713
+msgid "Group already exists"
+msgstr "群組已存在"
+
+#: functions.inc/auth/modules/Msad2.php:172
+#: functions.inc/auth/modules/Openldap2.php:584
+#: functions.inc/auth/modules/Scim.php:353
+msgid "Group configuration"
+msgstr "群組設定"
+
+#: functions.inc/auth/modules/Msad2.php:176
+#: functions.inc/auth/modules/Openldap2.php:623
+msgid "Group members attribute"
+msgstr "Group members 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:174
+#: functions.inc/auth/modules/Openldap2.php:599
+msgid "Group object class"
+msgstr "Group object class"
+
+#: functions.inc/auth/modules/Msad2.php:175
+#: functions.inc/auth/modules/Openldap2.php:611
+msgid "Group object filter"
+msgstr "Group object filter"
+
+#: functions.inc/auth/modules/Msad.php:355
+#: functions.inc/auth/modules/Msad2.php:427
+#: functions.inc/auth/modules/Openldap.php:366
+#: functions.inc/auth/modules/Openldap2.php:909
+msgid "Group updated"
+msgstr "已更新群組"
+
+#: functions.inc/auth/Auth.php:595
+msgid "Groupname Can Not Be Blank!"
+msgstr "群組名稱不能空白！"
+
+#: Userman.class.php:2314
+#: Userman.class.php:2344
+msgid "Groupname can not be blank"
+msgstr "群組名稱不能空白"
+
+#: functions.inc/guihooks.php:216
+#: functions.inc/guihooks.php:246
+#: views/users.php:167
+#: views/welcome.php:21
+msgid "Groups"
+msgstr "群組"
+
+#: functions.inc/guihooks.php:216
+#: functions.inc/guihooks.php:246
+msgid ""
+"Groups that this user is a part of. You can add and remove this user from "
+"groups in this view as well"
+msgstr "此使用者所屬的群組。您也可以在此檢視中將此使用者新增至群組或從群組移除"
+
+#: functions.inc/auth/modules/Openldap2.php:567
+msgid ""
+"Hashed password in form MD5(extension:realm:password) where default realm is "
+"'asterisk'"
+msgstr "MD5(extension:realm:password) 格式的雜湊密碼，預設 realm 為「asterisk」"
+
+#: functions.inc/auth/modules/Scim.php:104
+msgid "Hide Token"
+msgstr "隱藏 Token"
+
+#: views/users.php:523
+msgid "Home Phone Number"
+msgstr "住家電話號碼"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "Host"
+msgstr "主機"
+
+#: views/general.php:82
+msgid "Host Name"
+msgstr "主機名稱"
+
+#: functions.inc/auth/modules/Msad2.php:127
+#: functions.inc/auth/modules/Openldap2.php:195
+msgid "Host(s)"
+msgstr "主機"
+
+#: Console/Userman.class.php:32
+msgid "ID"
+msgstr "ID"
+
+#: Userman.class.php:1669
+msgid "ID was not numeric"
+msgstr "ID 不是數字"
+
+#: functions.inc/guihooks.php:215
+#: functions.inc/guihooks.php:245
+msgid ""
+"If Create New User is selected this will be the autogenerated users new "
+"password"
+msgstr "如果選擇「建立新使用者」，這將成為自動產生的使用者密碼"
+
+#: functions.inc/guihooks.php:214
+#: functions.inc/guihooks.php:244
+msgid ""
+"If Create New User is selected this will be the username. If blank the "
+"username will be the same number as this device"
+msgstr "如果選擇「建立新使用者」，這將成為使用者名稱。如果空白，使用者名稱將為此裝置的號碼"
+
+#: functions.inc/auth/modules/Msad2.php:135
+#: functions.inc/auth/modules/Openldap2.php:311
+#: functions.inc/auth/modules/Scim.php:120
+msgid ""
+"If enabled and the 'User extension Link attribute' is set, a new extension "
+"will be created and linked to this user if one does not exist previously"
+msgstr "如果啟用並設定了「User extension Link attribute」，若先前不存在，將建立一個新分機並連結到此使用者"
+
+#: views/password_exp_reminder_hook.php:34
+msgid ""
+"If enabled, user will be notified to reset their password after password "
+"expiration days"
+msgstr "如果啟用，使用者會在密碼過期天數後被通知重設密碼"
+
+#: views/general.php:491
+#: views/password_exp_reminder_hook.php:72
+msgid ""
+"If the option is set to yes, the user will be forced to reset the password "
+"on first time login."
+msgstr "如果選項設為 yes，使用者將被迫在首次登入時重設密碼。"
+
+#: Userman.class.php:550
+msgid ""
+"If the user settings have changed, please rebuild the phone configuration if "
+"the user uses Sangoma's S, D & P series phones configured through Endpoint "
+"Manager."
+msgstr "如果使用者設定已變更，且使用者透過 Endpoint Manager 使用 Sangoma 的 S、D 和 P 系列電話，請重建電話設定。"
+
+#: functions.inc/auth/modules/Msad.php:148
+msgid ""
+"If this is set then User Manager will use the defined attribute of the user "
+"from the Active Directory server as the extension link. NOTE: If this field "
+"is set it will overwrite any manually linked extensions where this attribute "
+"extists!!"
+msgstr ""
+"如果設定此項，User Manager 將使用 Active Directory 伺服器中定義的使用者屬性作為分機連結。注意：如果此欄位已設定，將覆寫任何手動連結且此屬性存在的分機！！"
+
+#: functions.inc/auth/modules/Msad2.php:170
+msgid ""
+"If this is set then User Manager will use the defined attribute of the user "
+"from the Active Directory server as the extension link. NOTE: If this field "
+"is set it will overwrite any manually linked extensions where this attribute "
+"extists!! (Try lowercase if it is not working.)"
+msgstr ""
+"如果設定此項，User Manager 將使用 Active Directory 伺服器中定義的使用者屬性作為分機連結。注意：如果此欄位已設定，將覆寫任何手動連結且此屬性存在的分機！！（如果無法運作，請試用小寫。）"
+
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:579
+msgid ""
+"If this is set then User Manager will use the defined attribute of the user "
+"from the OpenLDAP server as the extension link. NOTE: If this field is set "
+"it will overwrite any manually linked extensions where this attribute "
+"extists!! (Try lowercase if it is not working.)"
+msgstr ""
+"如果設定此項，User Manager 將使用 OpenLDAP 伺服器中定義的使用者屬性作為分機連結。注意：如果此欄位已設定，將覆寫任何手動連結且此屬性存在的分機！！（如果無法運作，請試用小寫。）"
+
+#: views/general.php:513
+msgid ""
+"If this option is enabled user has to change their passwords every 60, 90 or "
+"XX number of days. In other words, the password has been in use for too long "
+"and user must choose a new password at this time"
+msgstr "如果啟用此選項，使用者必須每 60、90 或 XX 天更換密碼。換句話說，密碼使用時間過長，使用者此時必須選擇一個新密碼"
+
+#: views/ucptemplates.php:78
+#: views/ucptemplates.php:102
+msgid "Import from a User"
+msgstr "從使用者匯入"
+
+#: views/ucptemplates.php:119
+#: views/ucptemplates.php:138
+msgid "Import this user's  current dashbord setting from UCP"
+msgstr "從 UCP 匯入此使用者目前的儀表板設定"
+
+#: Userman.class.php:135
+#, php-format
+msgid "Imported %s directory"
+msgstr "已匯入 %s 目錄"
+
+#: views/welcome.php:153
+msgid "Imported from "
+msgstr "已匯入自 "
+
+#: Restore.php:15
+msgid "Importing Module XML userman"
+msgstr "正在匯入 Module XML userman"
+
+#: views/welcome.php:10
+#, php-format
+msgid ""
+"In %s User Manager you can create users that have access to Extensions or "
+"Device/User Mode Users and the settings associated with those Devices. For "
+"example, a new user can be created that can log into User Control Panel and "
+"access the voicemail of 3 other accounts."
+msgstr ""
+"在 %s User Manager 中，您可以建立能存取分機或「裝置/模式」使用者以及那些裝置相關設定的使用者。例如，可以建立一個能登入 User Control Panel 並存取其他 3 個帳號語音信箱的新使用者。"
+
+#: views/password_exp_reminder_hook.php:24
+#: views/password_exp_reminder_hook.php:62
+#: views/users.php:385
+#: views/users.php:421
+#: views/users.php:662
+#: views/users.php:689
+msgid "Inherit"
+msgstr "繼承"
+
+#: PasswordExpReminder.php:267
+msgid "Invalid Credentials"
+msgstr "無效的憑證"
+
+#: PasswordExpReminder.php:374
+msgid "Invalid Login Credentials"
+msgstr "無效的登入憑證"
+
+#: assets/js/adminPwdExpReminder.js:84
+msgid "Invalid Password"
+msgstr "無效的密碼"
+
+#: PasswordExpReminder.php:613
+msgid "Invalid Token"
+msgstr "無效的 Token"
+
+#: Userman.class.php:1306
+msgid "Invalid User"
+msgstr "無效的使用者"
+
+#: Userman.class.php:3586
+msgid "Key"
+msgstr "金鑰"
+
+#: functions.inc/auth/modules/Msad.php:303
+#: functions.inc/auth/modules/Msad.php:316
+#: functions.inc/auth/modules/Msad2.php:352
+#: functions.inc/auth/modules/Msad2.php:378
+#: functions.inc/auth/modules/Openldap.php:314
+#: functions.inc/auth/modules/Openldap.php:327
+#: functions.inc/auth/modules/Openldap2.php:834
+#: functions.inc/auth/modules/Openldap2.php:860
+msgid "LDAP is in Read Only Mode. Addition denied"
+msgstr "LDAP 處於唯讀模式。拒絕新增"
+
+#: views/groups.php:106
+#: views/users.php:379
+msgid "Language"
+msgstr "語言"
+
+#: views/groups.php:130
+#: views/users.php:403
+msgid "Language for this user"
+msgstr "此使用者的語言"
+
+#: Userman.class.php:3578
+#: views/users.php:259
+#: views/welcome.php:57
+msgid "Last Name"
+msgstr "姓氏"
+
+#: views/quickCreate.php:74
+msgid "Link to User Manager User"
+msgstr "連結到 User Manager 使用者"
+
+#: functions.inc/guihooks.php:210
+#: functions.inc/guihooks.php:243
+msgid "Link to a Default User"
+msgstr "連結到預設使用者"
+
+#: functions.inc/guihooks.php:205
+msgid "Link to a Different Default User:"
+msgstr "連結到不同的預設使用者："
+
+#: functions.inc/guihooks.php:170
+msgid "Linked"
+msgstr "已連結"
+
+#: views/welcome.php:58
+msgid "Linked Extension"
+msgstr "已連結分機"
+
+#: functions.inc/guihooks.php:203
+#, php-format
+msgid "Linked to User %s"
+msgstr "已連結到使用者 %s"
+
+#: views/rnav.php:58
+msgid "List Call Activity Groups"
+msgstr "列出通話活動群組"
+
+#: views/rnav.php:43
+msgid "List Directories"
+msgstr "列出目錄"
+
+#: views/rnav.php:26
+msgid "List Groups"
+msgstr "列出群組"
+
+#: views/rnav.php:9
+msgid "List Templates"
+msgstr "列出樣板"
+
+#: views/rnav.php:8
+#: views/rnav.php:57
+msgid "List Users"
+msgstr "列出使用者"
+
+#: Console/Userman.class.php:23
+msgid "List directories"
+msgstr "列出目錄"
+
+#: views/users.php:29
+msgid "Login Details"
+msgstr "登入詳細資料"
+
+#: Userman.class.php:3578
+#: views/users.php:63
+msgid "Login Name"
+msgstr "登入名稱"
+
+#: views/general.php:242
+msgid "Lowercase"
+msgstr "小寫"
+
+#: functions.inc/auth/modules/Openldap2.php:559
+msgid "MD5 hashed credentials"
+msgstr "MD5 雜湊憑證"
+
+#: functions.inc/auth/modules/Msad2.php:136
+#: functions.inc/auth/modules/Openldap2.php:315
+#: functions.inc/auth/modules/Scim.php:136
+msgid "Manage groups locally"
+msgstr "本機管理群組"
+
+#: views/groups.php:289
+#, php-format
+msgid "May this group log in to the %s Administration Pages?"
+msgstr "此群組可以登入 %s 管理頁面嗎？"
+
+#: views/directories.php:318
+#: views/users.php:670
+#, php-format
+msgid "May this user log in to the %s Administration Pages?"
+msgstr "此使用者可以登入 %s 管理頁面嗎？"
+
+#: views/templatemembers.php:33
+msgid "Members"
+msgstr "成員"
+
+#: Userman.class.php:4317
+#: Userman.class.php:4334
+msgid "Members Not found"
+msgstr "找不到成員"
+
+#: Userman.class.php:730
+msgid "Merge With Existing Widgets"
+msgstr "與現有 Widget 合併"
+
+#: functions.inc/auth/modules/Msad2.php:97
+msgid "Microsoft Active Directory"
+msgstr "Microsoft Active Directory"
+
+#: functions.inc/auth/modules/Msad.php:123
+msgid "Microsoft Active Directory (Legacy)"
+msgstr "Microsoft Active Directory（舊版）"
+
+#: Userman.class.php:3375
+msgid "Migrated user from voicemail"
+msgstr "從語音信箱遷移的使用者"
+
+#: Userman.class.php:779
+msgid "Module Core is disabled. Please enable it"
+msgstr "Module Core 已停用。請啟用它"
+
+#: Console/Userman.class.php:32
+#: views/welcome.php:112
+msgid "Name"
+msgstr "名稱"
+
+#: assets/js/userman.js:24
+msgid "Name can not be blank!"
+msgstr "名稱不能空白！"
+
+#: views/directories.php:333
+msgid "Never"
+msgstr "永不"
+
+#: functions.inc/auth/modules/Msad2.php:136
+msgid ""
+"New groups created in this directory will be local and not saved to the "
+"Active Directory. Groups synchronised from the remote directory will be read-"
+"only."
+msgstr "此目錄中建立的新群組將為本機端，不會儲存到 Active Directory。從遠端目錄同步的群組將為唯讀。"
+
+#: functions.inc/auth/modules/Openldap2.php:323
+msgid ""
+"New groups created in this directory will be local and not saved to the LDAP "
+"directory. Groups synchronised from the remote directory will be read-only."
+msgstr "此目錄中建立的新群組將為本機端，不會儲存到 LDAP 目錄。從遠端目錄同步的群組將為唯讀。"
+
+#: functions.inc/auth/modules/Scim.php:144
+msgid ""
+"New groups created in this directory will be local and not saved to the SCIM "
+"provider. Groups synchronised from the remote directory will be read-only."
+msgstr "此目錄中建立的新群組將為本機端，不會儲存到 SCIM 提供者。從遠端目錄同步的群組將為唯讀。"
+
+#: views/directories.php:35
+#: views/directories.php:310
+#: views/general.php:33
+#: views/general.php:62
+#: views/general.php:171
+#: views/general.php:212
+#: views/general.php:253
+#: views/general.php:294
+#: views/general.php:335
+#: views/general.php:376
+#: views/general.php:417
+#: views/groups.php:281
+#: views/groups.php:306
+#: views/password_exp_reminder_hook.php:21
+#: views/password_exp_reminder_hook.php:59
+#: views/quickCreate.php:16
+#: views/users.php:660
+#: views/users.php:687
+#: assets/js/userman.js:740
+msgid "No"
+msgstr "否"
+
+#: Userman.class.php:4411
+msgid "No Dashboards created"
+msgstr "未建立儀表板"
+
+#: views/directories.php:496
+msgid "No SCIM token available to copy."
+msgstr "沒有可複製的 SCIM token。"
+
+#: Userman.class.php:2197
+msgid "No_Dashboards_created"
+msgstr "未建立儀表板"
+
+#: Userman.class.php:348
+#: functions.inc/auth/modules/Msad2.php:126
+#: functions.inc/auth/modules/Openldap2.php:241
+#: functions.inc/guihooks.php:168
+#: functions.inc/guihooks.php:219
+msgid "None"
+msgstr "無"
+
+#: functions.inc/auth/modules/Msad.php:134
+#: functions.inc/auth/modules/Msad2.php:108
+#: functions.inc/auth/modules/Openldap.php:147
+#: functions.inc/auth/modules/Openldap2.php:175
+msgid "Not Connected"
+msgstr "未連線"
+
+#: PasswordExpReminder.php:642
+#: PasswordExpReminder.php:645
+msgid "Not able to reset password"
+msgstr "無法重設密碼"
+
+#: functions.inc/auth/modules/Msad.php:144
+#: functions.inc/auth/modules/Msad2.php:118
+#: functions.inc/auth/modules/Openldap.php:157
+#: functions.inc/auth/modules/Openldap2.php:185
+msgid "Not all of the connection parameters have been filled out"
+msgstr "並非所有的連線參數都已填寫"
+
+#: views/general.php:283
+msgid "Numeric"
+msgstr "數字"
+
+#: Userman.class.php:3423
+msgid "Obfuscated. To reset use the reset link in this email"
+msgstr "已混淆。若要重設，請使用此郵件中的重設連結"
+
+#: functions.inc/auth/modules/Openldap2.php:164
+msgid "OpenLDAP Directory"
+msgstr "OpenLDAP 目錄"
+
+#: functions.inc/auth/modules/Openldap.php:136
+msgid "OpenLDAP Directory (Legacy)"
+msgstr "OpenLDAP 目錄（舊版）"
+
+#: functions.inc/auth/modules/Msad2.php:134
+#: functions.inc/auth/modules/Openldap2.php:299
+#: functions.inc/auth/modules/Scim.php:108
+msgid "Operational Settings"
+msgstr "作業設定"
+
+#: views/users.php:38
+msgid "Other Settings"
+msgstr "其他設定"
+
+#: Userman.class.php:156
+#: Userman.class.php:1774
+msgid "PBX Internal Directory"
+msgstr "PBX 內部目錄"
+
+#: Userman.class.php:3578
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:130
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:266
+#: views/passwordmodal.php:16
+#: views/users.php:112
+msgid "Password"
+msgstr "密碼"
+
+#: Userman.class.php:3578
+msgid "Password - plaintext"
+msgstr "密碼 - 純文字"
+
+#: views/general.php:532
+msgid "Password Expiration Days"
+msgstr "密碼過期天數"
+
+#: views/general.php:510
+#: views/password_exp_reminder_hook.php:13
+msgid "Password Expiry Reminder"
+msgstr "密碼到期提醒"
+
+#: views/general.php:551
+msgid "Password Expiry Reminder Days"
+msgstr "密碼到期提醒天數"
+
+#: functions.inc/guihooks.php:215
+#: functions.inc/guihooks.php:245
+msgid "Password For New User"
+msgstr "新使用者的密碼"
+
+#: views/general.php:160
+msgid "Password Length"
+msgstr "密碼長度"
+
+#: PasswordExpReminder.php:56
+#: PasswordExpReminder.php:62
+#: PasswordExpReminder.php:68
+#: views/general.php:11
+#: views/general.php:477
+msgid "Password Management"
+msgstr "密碼管理"
+
+#: views/general.php:152
+msgid "Password Policies"
+msgstr "密碼原則"
+
+#: Userman.class.php:2022
+#: Userman.class.php:2058
+msgid "Password can not be blank"
+msgstr "密碼不能空白"
+
+#: views/general.php:535
+msgid ""
+"Password expiration days is when an user requires to change their passwords. "
+"Example 60, 90 or XX number of days. User will be notified every time when "
+"they login, 5 days prior to the password expiry"
+msgstr "密碼過期天數是指使用者需要變更密碼的時間。例如 60、90 或 XX 天。使用者每次登入時都會在密碼到期前 5 天收到通知"
+
+#: PasswordExpReminder.php:518
+msgid "Password expiry reminder Settings updated successfully"
+msgstr "密碼到期提醒設定已成功更新"
+
+#: PasswordExpReminder.php:617
+msgid "Password is required"
+msgstr "密碼為必填"
+
+#: install.php:23
+msgid "Password regenerated for the generic user."
+msgstr "已重新產生一般使用者的密碼。"
+
+#: Userman.class.php:207
+#, php-format
+msgid "Password should contain minimum %d %s character(s), detected = %d"
+msgstr "密碼應至少包含 %d 個 %s 字元，偵測到 = %d"
+
+#: Userman.class.php:226
+#, php-format
+msgid "Password should have minimum %d characters, detected = %d"
+msgstr "密碼應至少 %d 個字元，偵測到 = %d"
+
+#: Userman.class.php:308
+#, php-format
+msgid "Password should have minimum %s value of %d, detected = %d"
+msgstr "密碼應至少 %s 值為 %d，偵測到 = %d"
+
+#: Userman.class.php:1236
+msgid "Please Create Generic Template to View /Edit Template"
+msgstr "請建立一般樣板以檢視 / 編輯樣板"
+
+#: Userman.class.php:1226
+msgid "Please Generate Generic Template to View /Edit Template"
+msgstr "請產生一般樣板以檢視 / 編輯樣板"
+
+#: assets/js/userman.js:5
+msgid "Please remove some users before adding more."
+msgstr "請先移除部分使用者再繼續新增。"
+
+#: assets/js/userman.js:80
+msgid "Please select a user to add to the group!"
+msgstr "請選擇要加入群組的使用者！"
+
+#: assets/js/userman.js:64
+msgid "Please select a user to import the settings !"
+msgstr "請選擇要匯入設定的使用者！"
+
+#: functions.inc/guihooks.php:214
+#: functions.inc/guihooks.php:244
+msgid "Please select a valid username for New User Creation"
+msgstr "請為建立新使用者選擇一個有效的使用者名稱"
+
+#: Userman.class.php:3627
+#: Userman.class.php:3689
+msgid "Please set a default directory in User Manager"
+msgstr "請在 User Manager 中設定預設目錄"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:128
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:207
+msgid "Port"
+msgstr "連接埠"
+
+#: Userman.class.php:2516
+msgid "Previous Groupname can not be blank"
+msgstr "先前的群組名稱不能空白"
+
+#: Userman.class.php:2423
+msgid "Previous Username can not be blank"
+msgstr "先前的使用者名稱不能空白"
+
+#: Userman.class.php:3578
+msgid "Primary Extension"
+msgstr "主要分機"
+
+#: views/users.php:140
+msgid "Primary Group"
+msgstr "主要群組"
+
+#: Userman.class.php:3578
+#: views/users.php:202
+msgid "Primary Linked Extension"
+msgstr "主要連結分機"
+
+#: views/welcome.php:90
+msgid "Priority"
+msgstr "優先順序"
+
+#: Restore.php:38
+msgid "Processing Legacy Userman tables"
+msgstr "正在處理舊版 Userman 表格"
+
+#: functions.inc/auth/modules/Openldap2.php:221
+msgid "Protocol Version"
+msgstr "協定版本"
+
+#: views/general.php:365
+msgid "Punctuation"
+msgstr "標點符號"
+
+#: Userman.class.php:730
+msgid "Rebuild Widgets"
+msgstr "重建 Widget"
+
+#: functions.inc/auth/modules/Scim.php:101
+msgid "Refresh Token"
+msgstr "重新整理 Token"
+
+#: functions.inc/auth/modules/Voicemail.php:94
+#, php-format
+msgid "Removed Voicemail User %s"
+msgstr "已移除語音信箱使用者 %s"
+
+#: Userman.class.php:730
+msgid "Reset"
+msgstr "重設"
+
+#: views/groups.php:336
+msgid ""
+"Restrict this groups's view to only Extensions, Ring Groups, and Queues "
+"within this range."
+msgstr "將此群組的限制範圍限定在僅此範圍內的分機、響鈴群組和佇列。"
+
+#: views/users.php:719
+msgid ""
+"Restrict this user's view to only Extensions, Ring Groups, and Queues within "
+"this range."
+msgstr "將此使用者的限制範圍限定在僅此範圍內的分機、響鈴群組和佇列。"
+
+#: PasswordExpReminder.php:289
+msgid ""
+"SAML Single Sign-On is enabled for your account. Please sign in using SSO."
+msgstr "您的帳號已啟用 SAML 單一登入。請使用 SSO 登入。"
+
+#: functions.inc/auth/modules/Scim.php:79
+msgid "SCIM Base URL"
+msgstr "SCIM Base URL"
+
+#: functions.inc/auth/modules/Scim.php:90
+msgid "SCIM Token"
+msgstr "SCIM Token"
+
+#: functions.inc/auth/modules/Scim.php:60
+msgid "SCIM User Provisioning"
+msgstr "SCIM 使用者佈建"
+
+#: functions.inc/auth/modules/Scim.php:156
+msgid "SCIM attribute path for common name (Okta default: displayName)."
+msgstr "SCIM common name 的屬性路徑（Okta 預設：displayName）。"
+
+#: functions.inc/auth/modules/Scim.php:254
+msgid "SCIM attribute path for company (Okta default: organization)."
+msgstr "SCIM company 的屬性路徑（Okta 預設：organization）。"
+
+#: functions.inc/auth/modules/Scim.php:266
+msgid "SCIM attribute path for department (Okta default: department)."
+msgstr "SCIM department 的屬性路徑（Okta 預設：department）。"
+
+#: functions.inc/auth/modules/Scim.php:168
+msgid "SCIM attribute path for description (Okta default: title)."
+msgstr "SCIM description 的屬性路徑（Okta 預設：title）。"
+
+#: functions.inc/auth/modules/Scim.php:230
+msgid "SCIM attribute path for display name (Okta default: displayName)."
+msgstr "SCIM display name 的屬性路徑（Okta 預設：displayName）。"
+
+#: functions.inc/auth/modules/Scim.php:326
+msgid ""
+"SCIM attribute path for email (Okta default: emails[type eq \"work\"].value)."
+msgstr "SCIM email 的屬性路徑（Okta 預設：emails[type eq \"work\"].value）。"
+
+#: functions.inc/auth/modules/Scim.php:350
+msgid ""
+"SCIM attribute path for extension (Okta default: pbxsaml extension schema)."
+msgstr "SCIM extension 的屬性路徑（Okta 預設：pbxsaml extension schema）。"
+
+#: functions.inc/auth/modules/Scim.php:314
+msgid ""
+"SCIM attribute path for fax (Okta default: phoneNumbers[type eq \"fax\"]."
+"value)."
+msgstr "SCIM fax 的屬性路徑（Okta 預設：phoneNumbers[type eq \"fax\"].value）。"
+
+#: functions.inc/auth/modules/Scim.php:206
+msgid "SCIM attribute path for first name (Okta default: name.givenName)."
+msgstr "SCIM first name 的屬性路徑（Okta 預設：name.givenName）。"
+
+#: functions.inc/auth/modules/Scim.php:400
+msgid "SCIM attribute path for group ID (Okta default: id)."
+msgstr "SCIM group ID 的屬性路徑（Okta 預設：id）。"
+
+#: functions.inc/auth/modules/Scim.php:376
+msgid "SCIM attribute path for group description (Okta default: description)."
+msgstr "SCIM group description 的屬性路徑（Okta 預設：description）。"
+
+#: functions.inc/auth/modules/Scim.php:388
+msgid "SCIM attribute path for group members (Okta default: members)."
+msgstr "SCIM group members 的屬性路徑（Okta 預設：members）。"
+
+#: functions.inc/auth/modules/Scim.php:364
+msgid "SCIM attribute path for group name (Okta default: displayName)."
+msgstr "SCIM group name 的屬性路徑（Okta 預設：displayName）。"
+
+#: functions.inc/auth/modules/Scim.php:338
+msgid "SCIM attribute path for groups (Okta default: groups)."
+msgstr "SCIM groups 的屬性路徑（Okta 預設：groups）。"
+
+#: functions.inc/auth/modules/Scim.php:302
+msgid ""
+"SCIM attribute path for home phone (Okta default: phoneNumbers[type eq "
+"\"home\"].value)."
+msgstr "SCIM home phone 的屬性路徑（Okta 預設：phoneNumbers[type eq \"home\"].value）。"
+
+#: functions.inc/auth/modules/Scim.php:218
+msgid "SCIM attribute path for last name (Okta default: name.familyName)."
+msgstr "SCIM last name 的屬性路徑（Okta 預設：name.familyName）。"
+
+#: functions.inc/auth/modules/Scim.php:290
+msgid ""
+"SCIM attribute path for mobile phone (Okta default: phoneNumbers[type eq "
+"\"mobile\"].value)."
+msgstr "SCIM mobile phone 的屬性路徑（Okta 預設：phoneNumbers[type eq \"mobile\"].value）。"
+
+#: functions.inc/auth/modules/Scim.php:242
+msgid "SCIM attribute path for title (Okta default: title)."
+msgstr "SCIM title 的屬性路徑（Okta 預設：title）。"
+
+#: functions.inc/auth/modules/Scim.php:180
+msgid "SCIM attribute path for unique identifier (Okta default: externalId)."
+msgstr "SCIM unique identifier 的屬性路徑（Okta 預設：externalId）。"
+
+#: functions.inc/auth/modules/Scim.php:194
+msgid "SCIM attribute path for username (Okta default: userName)."
+msgstr "SCIM username 的屬性路徑（Okta 預設：userName）。"
+
+#: functions.inc/auth/modules/Scim.php:278
+msgid ""
+"SCIM attribute path for work phone (Okta default: phoneNumbers[type eq "
+"\"work\"].value)."
+msgstr "SCIM work phone 的屬性路徑（Okta 預設：phoneNumbers[type eq \"work\"].value）。"
+
+#: functions.inc/auth/modules/Scim.php:86
+msgid "SCIM provisioning base URL"
+msgstr "SCIM 佈建 base URL"
+
+#: views/directories.php:501
+#: views/directories.php:504
+#: views/directories.php:512
+msgid "SCIM token copied to clipboard."
+msgstr "SCIM token 已複製到剪貼簿。"
+
+#: views/directories.php:452
+msgid "SCIM token refreshed."
+msgstr "SCIM token 已重新整理。"
+
+#: Userman.class.php:643
+msgid "Saved"
+msgstr "已儲存"
+
+#: functions.inc/auth/modules/Msad2.php:126
+#: functions.inc/auth/modules/Openldap2.php:237
+msgid "Secure Connection Type"
+msgstr "安全連線類型"
+
+#: views/welcome.php:33
+#: views/welcome.php:70
+msgid "Select Directory to enable 'Add' Button"
+msgstr "選擇目錄以啟用「新增」按鈕"
+
+#: functions.inc/guihooks.php:204
+#: functions.inc/guihooks.php:209
+#: functions.inc/guihooks.php:242
+msgid "Select User Directory:"
+msgstr "選擇使用者目錄："
+
+#: views/call_activity_group.php:72
+msgid "Select Users"
+msgstr "選擇使用者"
+
+#: views/ucptemplates.php:107
+msgid "Select a User"
+msgstr "選擇使用者"
+
+#: views/groups.php:395
+msgid "Select a landing page that will be used by default."
+msgstr "選擇預設要使用的到達頁面。"
+
+#: views/users.php:777
+msgid ""
+"Select a landing page that will be used by default.This settings will be "
+"overridden by Group setting if Allow PBXact Administration Login set to "
+"Inherit."
+msgstr "選擇預設要使用的到達頁面。如果「允許 PBXact 管理登入」設定為「繼承」，此設定將被群組設定覆寫。"
+
+#: functions.inc/guihooks.php:204
+#: functions.inc/guihooks.php:209
+#: functions.inc/guihooks.php:242
+msgid "Select a user directory"
+msgstr "選擇使用者目錄"
+
+#: functions.inc/guihooks.php:205
+#: functions.inc/guihooks.php:210
+msgid ""
+"Select a user that this extension should be linked to in User Manager, else "
+"select Create New User to have User Manager autogenerate a new user that "
+"will be linked to this extension"
+msgstr ""
+"選擇此分機應在 User Manager 中連結到的使用者，否則選擇「建立新使用者」讓 User Manager 自動產生一個連結到此分機的新使用者"
+
+#: functions.inc/guihooks.php:243
+msgid ""
+"Select a user that this extension should be linked to in User Manager, else "
+"select None to have no association to a user"
+msgstr "選擇此分機應在 User Manager 中連結到的使用者，否則選擇「無」不關聯任何使用者"
+
+#: views/groups.php:366
+msgid "Select the Admin Sections this group should have access to."
+msgstr "選擇此群組應有存取權的管理區段。"
+
+#: views/users.php:748
+msgid ""
+"Select the Admin Sections this user should have access to,This settings will "
+"be overridden by Group setting if Allow PBXact Administration Login set to "
+"Inherit."
+msgstr "選擇此使用者應有存取權的管理區段。如果「允許 PBXact 管理登入」設定為「繼承」，此設定將被群組設定覆寫。"
+
+#: views/call_activity_group.php:88
+msgid ""
+"Select users from User Management to add to the Call Activity Group. </"
+"br>User names and their default extensions are displayed in this format: <i> "
+"username  < default_extension >. </i> <br/>Note: The number of users in a "
+"group is limited to "
+msgstr ""
+"從使用者管理中選擇要加入通話活動群組的使用者。</br>使用者名稱和其預設分機會以此格式顯示：<i> 使用者名稱  < 預設分機 >。</i> <br/>注意：群組中的使用者數量限制為 "
+
+#: functions.inc/auth/modules/Freepbx.php:46
+msgid "Select which groups new users are added to when they are created"
+msgstr "選擇新使用者建立時要加入哪些群組"
+
+#: views/welcome.php:40
+msgid "Send Email"
+msgstr "傳送郵件"
+
+#: views/general.php:54
+msgid "Send Email as HTML"
+msgstr "以 HTML 格式傳送郵件"
+
+#: views/general.php:25
+msgid "Send Email on External New User Creation"
+msgstr "在外部建立新使用者時傳送郵件"
+
+#: views/passwordmodal.php:6
+msgid "Set Password"
+msgstr "設定密碼"
+
+#: Userman.class.php:3421
+msgid "Set by your administrator"
+msgstr "由您的管理員設定"
+
+#: views/welcome.php:23
+msgid "Settings"
+msgstr "設定"
+
+#: functions.inc/auth/modules/Scim.php:103
+msgid "Show Token"
+msgstr "顯示 Token"
+
+#: views/general.php:324
+msgid "Special"
+msgstr "特殊字元"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:133
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:290
+msgid "Status"
+msgstr "狀態"
+
+#: Userman.class.php:730
+msgid "Submit"
+msgstr "送出"
+
+#: Userman.class.php:730
+msgid "Submit & Send Email to User"
+msgstr "送出並傳送郵件給使用者"
+
+#: views/directories.php:328
+msgid "Synchronize"
+msgstr "同步"
+
+#: Console/Userman.class.php:23
+msgid "Syncronize a single directory by id (obtained from --list)"
+msgstr "依 id 同步單一目錄（從 --list 取得）"
+
+#: Console/Userman.class.php:23
+msgid "Syncronize all directories"
+msgstr "同步所有目錄"
+
+#: Userman.class.php:2254
+msgid "Template Created"
+msgstr "已建立樣板"
+
+#: views/ucptemplates.php:47
+msgid "Template Description"
+msgstr "樣板描述"
+
+#: Userman.class.php:4097
+msgid "Template Does Not Exist"
+msgstr "樣板不存在"
+
+#: Userman.class.php:3586
+#: views/ucptemplates.php:25
+#: views/welcome.php:151
+msgid "Template Name"
+msgstr "樣板名稱"
+
+#: assets/js/userman.js:60
+msgid "Template Name can not be blank!"
+msgstr "樣板名稱不能空白！"
+
+#: Userman.class.php:4266
+#: Userman.class.php:4271
+#: Userman.class.php:4328
+msgid "Template Not assigned"
+msgstr "樣板未指派"
+
+#: Userman.class.php:2257
+msgid "Template Not updated"
+msgstr "樣板未更新"
+
+#: Userman.class.php:4105
+msgid "Template Successfully Deleted"
+msgstr "已成功刪除樣板"
+
+#: Userman.class.php:3749
+msgid "Template already exists"
+msgstr "樣板已存在"
+
+#: views/welcome.php:126
+msgid ""
+"Template rows highlighted yellow have not been rebuilt since changes were "
+"made to the template."
+msgstr "黃色亮顯的樣板列自從樣板有更動後尚未重建。"
+
+#: Userman.class.php:2250
+msgid "Template updated"
+msgstr "已更新樣板"
+
+#: Userman.class.php:1243
+msgid "TemplateID not valid"
+msgstr "TemplateID 無效"
+
+#: views/general.php:447
+msgid "Test"
+msgstr "測試"
+
+#: views/general.php:141
+#, php-format
+msgid ""
+"Text to be used for the body of the welcome email. Useable variables are:"
+"<ul><li>fname: First name</li><li>lname: Last name</li><li>brand: %s</"
+"li><li>title: title</li><li>username: Username</li><li>password: Password</"
+"li></ul>"
+msgstr ""
+"用來當作歡迎郵件內文的使用文字。可用的變數為：<ul><li>fname: 名字</li><li>lname: 姓氏</li><li>brand: %s</li><li>title: 標題</li><li>username: 使用者名稱</li><li>password: 密碼</li></ul>"
+
+#: views/general.php:117
+#, php-format
+msgid ""
+"Text to be used for the subject of the welcome email. Useable variables are:"
+"<ul><li>fname: First name</li><li>lname: Last name</li><li>brand: %s</"
+"li><li>title: title</li><li>username: Username</li><li>password: Password</"
+"li></ul>"
+msgstr ""
+"用來當作歡迎郵件主旨的使用文字。可用的變數為：<ul><li>fname: 名字</li><li>lname: 姓氏</li><li>brand: %s</li><li>title: 標題</li><li>username: 使用者名稱</li><li>password: 密碼</li></ul>"
+
+#: functions.inc/auth/modules/Msad2.php:126
+msgid "The Active Directory secure connection type"
+msgstr "Active Directory 安全連線類型"
+
+#: functions.inc/auth/modules/Msad2.php:174
+msgid "The Active Directoy user object class type to use when loading groups."
+msgstr "載入群組時要使用的 Active Directory 使用者物件類別類型。"
+
+#: functions.inc/auth/modules/Msad2.php:143
+msgid "The Active Directoy user object class type to use when loading users."
+msgstr "載入使用者時要使用的 Active Directory 使用者物件類別類型。"
+
+#: assets/js/userman.js:684
+msgid "The Browser Language could not be determined"
+msgstr "無法判斷瀏覽器語言"
+
+#: assets/js/userman.js:704
+msgid "The Browser Timezone could not be determined"
+msgstr "無法判斷瀏覽器時區"
+
+#: views/call_activity_group.php:40
+msgid "The Call Activity group name"
+msgstr "通話活動群組名稱"
+
+#: Userman.class.php:1215
+msgid "The Directory ID is not valid!"
+msgstr "目錄 ID 無效！"
+
+#: userman.i18n.php:16
+msgid ""
+"The From: field for emails when using the user management email feature."
+msgstr "使用使用者管理郵件功能時的 From: 欄位。"
+
+#: views/call_activity_group.php:62
+msgid "The Group description"
+msgstr "群組描述"
+
+#: functions.inc/auth/modules/Openldap2.php:607
+msgid "The LDAP user object class type to use when loading groups."
+msgstr "載入群組時要使用的 LDAP 使用者物件類別類型。"
+
+#: functions.inc/auth/modules/Openldap2.php:387
+msgid "The LDAP user object class type to use when loading users."
+msgstr "載入使用者時要使用的 LDAP 使用者物件類別類型。"
+
+#: functions.inc/auth/modules/Openldap2.php:286
+msgid "The OpenLDAP Base-DN. Usually in the format of DC=domain,DC=com"
+msgstr "OpenLDAP Base-DN。通常格式為 DC=domain,DC=com"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "The OpenLDAP Base-DN. Usually in the format of DC=domain,DC=local"
+msgstr "OpenLDAP Base-DN。通常格式為 DC=domain,DC=local"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "The OpenLDAP Display Name. Usually is displayname"
+msgstr "OpenLDAP Display Name。通常為 displayname"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "The OpenLDAP User Identity. Usually is uid"
+msgstr "OpenLDAP User Identity。通常為 uid"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid ""
+"The OpenLDAP User-DN. Usually in the format of OU=people,DC=example,DC=com)"
+msgstr "OpenLDAP User-DN。通常格式為 OU=people,DC=example,DC=com）"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "The OpenLDAP host"
+msgstr "OpenLDAP 主機"
+
+#: functions.inc/auth/modules/Openldap2.php:203
+msgid "The OpenLDAP host(s), comma/space separated"
+msgstr "OpenLDAP 主機，以逗號/空格分隔"
+
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:274
+msgid ""
+"The OpenLDAP password. Only write the password if we want to modify it. If "
+"none is defined, the current password will be kept."
+msgstr "OpenLDAP 密碼。只有在想要修改時才寫入密碼。如果未定義，將保留目前的密碼。"
+
+#: functions.inc/auth/modules/Openldap2.php:250
+msgid "The OpenLDAP secure connection type"
+msgstr "OpenLDAP 安全連線類型"
+
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:262
+msgid "The OpenLDAP username"
+msgstr "OpenLDAP 使用者名稱"
+
+#: assets/js/userman.js:694
+msgid "The PBX Language is not set"
+msgstr "未設定 PBX 語言"
+
+#: assets/js/userman.js:714
+msgid "The PBX Timezone is not set"
+msgstr "未設定 PBX 時區"
+
+#: views/ucptemplates.php:59
+msgid "The Template description"
+msgstr "樣板描述"
+
+#: views/ucptemplates.php:37
+msgid "The Template name"
+msgstr "樣板名稱"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:131
+msgid "The active directory domain"
+msgstr "Active Directory 網域"
+
+#: functions.inc/auth/modules/Msad.php:148
+msgid "The active directory host"
+msgstr "Active Directory 主機"
+
+#: functions.inc/auth/modules/Msad2.php:127
+msgid "The active directory host(s), comma/space separated"
+msgstr "Active Directory 主機，以逗號/空格分隔"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:130
+msgid ""
+"The active directory password. Only write the password if we want to modify "
+"it. If none is defined, the current password will be kept."
+msgstr "Active Directory 密碼。只有在想要修改時才寫入密碼。如果未定義，將保留目前的密碼。"
+
+#: functions.inc/auth/modules/Msad2.php:128
+#, php-format
+msgid "The active directory port, default %s"
+msgstr "Active Directory 連接埠，預設為 %s"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:129
+msgid "The active directory username"
+msgstr "Active Directory 使用者名稱"
+
+#: functions.inc/auth/modules/Openldap2.php:643
+msgid ""
+"The attribute field that is used to find the users who are members of a "
+"group. "
+msgstr "用來找出群組成員的使用者屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:139
+#: functions.inc/auth/modules/Openldap2.php:359
+msgid ""
+"The attribute field to use for tracking user identity across object renames."
+msgstr "用來跨物件重新命名追蹤使用者識別的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:145
+msgid "The attribute field to use on the user object (eg. cn, sAMAccountName)"
+msgstr "使用者物件上要使用的屬性欄位（例如 cn、sAMAccountName）"
+
+#: functions.inc/auth/modules/Openldap2.php:411
+msgid "The attribute field to use on the user object (eg. uid)"
+msgstr "使用者物件上要使用的屬性欄位（例如 uid）"
+
+#: functions.inc/auth/modules/Msad2.php:176
+#: functions.inc/auth/modules/Openldap2.php:631
+msgid "The attribute field to use when loading the group members."
+msgstr "載入群組成員時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:138
+#: functions.inc/auth/modules/Openldap2.php:347
+msgid "The attribute field to use when loading the object description."
+msgstr "載入物件描述時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:137
+#: functions.inc/auth/modules/Openldap2.php:335
+msgid "The attribute field to use when loading the object's common name."
+msgstr "載入物件的 common name 時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:168
+#: functions.inc/auth/modules/Openldap2.php:543
+msgid "The attribute field to use when loading the user cell phone."
+msgstr "載入使用者手機時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:164
+#: functions.inc/auth/modules/Openldap2.php:495
+msgid "The attribute field to use when loading the user company."
+msgstr "載入使用者公司時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:165
+#: functions.inc/auth/modules/Openldap2.php:507
+msgid "The attribute field to use when loading the user department."
+msgstr "載入使用者部門時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:162
+#: functions.inc/auth/modules/Openldap2.php:471
+msgid "The attribute field to use when loading the user email."
+msgstr "載入使用者電子郵件時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:169
+#: functions.inc/auth/modules/Openldap2.php:555
+msgid "The attribute field to use when loading the user fax."
+msgstr "載入使用者傳真時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:158
+#: functions.inc/auth/modules/Openldap2.php:423
+msgid "The attribute field to use when loading the user first name."
+msgstr "載入使用者名字時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:160
+#: functions.inc/auth/modules/Openldap2.php:447
+msgid "The attribute field to use when loading the user full name."
+msgstr "載入使用者全名時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:166
+#: functions.inc/auth/modules/Openldap2.php:519
+msgid "The attribute field to use when loading the user home phone."
+msgstr "載入使用者住家電話時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:159
+#: functions.inc/auth/modules/Openldap2.php:435
+msgid "The attribute field to use when loading the user last name."
+msgstr "載入使用者姓氏時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:163
+#: functions.inc/auth/modules/Openldap2.php:483
+msgid "The attribute field to use when loading the user title."
+msgstr "載入使用者標題時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:167
+#: functions.inc/auth/modules/Openldap2.php:531
+msgid "The attribute field to use when loading the user work phone."
+msgstr "載入使用者工作電話時要使用的屬性欄位。"
+
+#: functions.inc/auth/modules/Msad2.php:161
+#: functions.inc/auth/modules/Openldap2.php:459
+msgid "The attribute field to use when loading the users groups."
+msgstr "載入使用者群組時要使用的屬性欄位。"
+
+#: views/directories.php:271
+#, php-format
+msgid "The authentication engine to use"
+msgstr "要使用的驗證引擎"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:132
+msgid "The base DN. Usually in the format of CN=Users,DC=domain,DC=local"
+msgstr "Base DN。通常格式為 CN=Users,DC=domain,DC=local"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:133
+msgid "The connection status of the Active Directory Server"
+msgstr "Active Directory 伺服器的連線狀態"
+
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:295
+msgid "The connection status of the OpenLDAP Server"
+msgstr "OpenLDAP 伺服器的連線狀態"
+
+#: views/groups.php:24
+msgid ""
+"The directory for this group is currently locked while updates are being run"
+msgstr "此群組的目錄目前因正在執行更新而鎖定"
+
+#: views/users.php:20
+msgid ""
+"The directory for this user is currently locked while updates are being run"
+msgstr "此使用者的目錄目前因正在執行更新而鎖定"
+
+#: views/directories.php:293
+msgid "The directory name"
+msgstr "目錄名稱"
+
+#: views/users.php:463
+msgid ""
+"The email address to associate with this user. Multiple email address need "
+"to be separated with a comma."
+msgstr "要關聯到此使用者的電子郵件地址。多個電子郵件地址需以逗號分隔。"
+
+#: functions.inc/auth/modules/Msad2.php:175
+#: functions.inc/auth/modules/Openldap2.php:619
+msgid "The filter to use when searching group objects."
+msgstr "搜尋群組物件時要使用的過濾器。"
+
+#: functions.inc/auth/modules/Msad2.php:144
+#: functions.inc/auth/modules/Openldap2.php:399
+msgid "The filter to use when searching user objects."
+msgstr "搜尋使用者物件時要使用的過濾器。"
+
+#: views/users.php:591
+msgid ""
+"The format dates and times should display in. The default of \"llll\" is "
+"locale aware. If left blank this will use the group/system format. For more "
+"formats please see: http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"日期與時間應顯示的格式。預設值「llll」會自動感知語系。如果空白將使用群組/系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/groups.php:217
+msgid ""
+"The format dates and times should display in. The default of \"llll\" is "
+"locale aware. If left blank this will use the system format. For more "
+"formats please see: http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"日期與時間應顯示的格式。預設值「llll」會自動感知語系。如果空白將使用系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/users.php:641
+msgid ""
+"The format dates should display in. The default of \"l\" is locale aware. If "
+"left blank this will use the group/system format. For more formats please "
+"see: http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"日期應顯示的格式。預設值「l」會自動感知語系。如果空白將使用群組/系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/groups.php:261
+msgid ""
+"The format dates should display in. The default of \"l\" is locale aware. If "
+"left blank this will use the system format. For more formats please see: "
+"http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"日期應顯示的格式。預設值「l」會自動感知語系。如果空白將使用系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/users.php:616
+msgid ""
+"The format times should display in. The default of \"LT\" is locale aware. "
+"If left blank this will use the group/system format. For more formats please "
+"see: http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"時間應顯示的格式。預設值「LT」會自動感知語系。如果空白將使用群組/系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/groups.php:239
+msgid ""
+"The format times should display in. The default of \"LT\" is locale aware. "
+"If left blank this will use the system format. For more formats please see: "
+"http://momentjs.com/docs/#/displaying/format/"
+msgstr ""
+"時間應顯示的格式。預設值「LT」會自動感知語系。如果空白將使用系統格式。更多格式請見：http://momentjs.com/docs/#/displaying/format/"
+
+#: views/general.php:94
+#, php-format
+msgid ""
+"The hostname used for email. If left blank the default value of '%s' will be "
+"used"
+msgstr "用於郵件的主機名稱。如果空白將使用預設值「%s」"
+
+#: views/users.php:487
+msgid "The user's cell (mobile) phone number."
+msgstr "使用者的手機號碼。"
+
+#: views/users.php:343
+msgid "The user's company."
+msgstr "使用者的公司。"
+
+#: views/users.php:367
+msgid "The user's department."
+msgstr "使用者的部門。"
+
+#: views/users.php:559
+msgid "The user's fax phone number."
+msgstr "使用者的傳真號碼。"
+
+#: views/users.php:247
+msgid "The user's first name."
+msgstr "使用者的名字。"
+
+#: views/users.php:535
+msgid "The user's home phone number."
+msgstr "使用者的住家電話號碼。"
+
+#: views/users.php:271
+msgid "The user's last name."
+msgstr "使用者的姓氏。"
+
+#: views/users.php:126
+msgid "The user's password."
+msgstr "使用者的密碼。"
+
+#: views/users.php:319
+msgid "The user's title."
+msgstr "使用者的標題。"
+
+#: views/users.php:511
+msgid "The user's work phone number."
+msgstr "使用者的工作電話號碼。"
+
+#: functions.inc/auth/modules/Voicemail.php:47
+msgid "The voicemail context to get users from"
+msgstr "要從中取得使用者的語音信箱 context"
+
+#: views/templatemembers.php:17
+msgid ""
+"There are NO members associated with this template. Please use Groups->UCP-"
+">General or User->UCP->General To associate this template to Users ."
+msgstr "沒有與此站板關聯的成員。請使用「群組→UCP→一般」或「使用者→UCP→一般」將此站板關聯到使用者。"
+
+#: Userman.class.php:456
+msgid "There was an error saving the configuration"
+msgstr "儲存設定時發生錯誤"
+
+#: Userman.class.php:316
+#, php-format
+msgid ""
+"These requirements can be adjusted in the Authentication Settings tab, found "
+"in User Manager's Settings."
+msgstr "這些需求可以在 User Manager 設定中的「驗證設定」頁籤調整。"
+
+#: userman.i18n.php:8
+msgid ""
+"This Module manages all PBX users. It allows an Administrator to create a "
+"User Account that can be used by other applications for login or API "
+"purposes."
+msgstr "此模組管理所有 PBX 使用者。它允許管理員建立可供其他應用程式用於登入或 API 用途的使用者帳號。"
+
+#: Userman.class.php:3683
+#: Userman.class.php:3738
+msgid "This authentication driver does not allow importing"
+msgstr "此驗證驅動程式不允許匯入"
+
+#: Userman.class.php:1793
+msgid ""
+"This group was created on install and is automatically assigned to new "
+"users. This can be disabled in User Manager Settings"
+msgstr "此群組在安裝時建立並自動指派給新使用者。可以在 User Manager 設定中停用"
+
+#: views/users.php:218
+msgid ""
+"This is the extension this user is linked to from the Extensions page. A "
+"single user can only be linked to one extension, and one extension can only "
+"be linked to a single user."
+msgstr "這是此使用者從分機頁面連結到的分機。一個使用者只能連結到一個分機，一個分機也只能連結到一個使用者。"
+
+#: install.php:78
+msgid ""
+"This is the limit for the number of users that can be added to a Call "
+"Activity Group."
+msgstr "這是可以加入通話活動群組的使用者數量限制。"
+
+#: views/users.php:75
+msgid "This is the name that the user will use when logging in."
+msgstr "這是使用者登入時要使用的名稱。"
+
+#: views/directories.php:346
+#, php-format
+msgid ""
+"This setting only applies to authentication engines other than the %s "
+"Internal Directory. For the %s Internal Directory this setting will be "
+"ignored."
+msgstr "此設定只適用於 %s 內部目錄以外的驗證引擎。對 %s 內部目錄此設定將被忽略。"
+
+#: functions.inc/auth/modules/Msad2.php:173
+#: functions.inc/auth/modules/Openldap2.php:595
+msgid ""
+"This value is used in addition to the base DN when searching and loading "
+"groups. An example is ou=Groups. If no value is supplied, the subtree search "
+"will start from the base DN."
+msgstr "此值在搜尋和載入群組時與 base DN 一起使用。例如 ou=Groups。如果未提供值，子樹搜尋將從 base DN 開始。"
+
+#: functions.inc/auth/modules/Msad2.php:142
+#: functions.inc/auth/modules/Openldap2.php:375
+msgid ""
+"This value is used in addition to the base DN when searching and loading "
+"users. An example is ou=Users. If no value is supplied, the subtree search "
+"will start from the base DN."
+msgstr "此值在搜尋和載入使用者時與 base DN 一起使用。例如 ou=Users。如果未提供值，子樹搜尋將從 base DN 開始。"
+
+#: views/ucptemplates.php:130
+msgid ""
+"This will create a empty template now , you need to click on `eye` button "
+"once you submit this page, That will take you to UCP login where you can add "
+"template widgets "
+msgstr "這將會建立一個空的樣板，送出此頁面後您需要點選「眼睛」按鈕，這將帶您到 UCP 登入，您可以在那裡新增樣板 widget "
+
+#: views/general.php:406
+msgid "Threshold Weak Password"
+msgstr "弱密碼閾值"
+
+#: views/groups.php:227
+#: views/users.php:601
+msgid "Time Format"
+msgstr "時間格式"
+
+#: views/groups.php:142
+#: views/users.php:415
+msgid "Timezone"
+msgstr "時區"
+
+#: views/groups.php:166
+#: views/users.php:439
+msgid "Timezone for this user"
+msgstr "此使用者的時區"
+
+#: views/users.php:307
+msgid "Title"
+msgstr "標題"
+
+#: assets/js/userman.js:612
+msgid "True"
+msgstr "True"
+
+#: Userman.class.php:3586
+#: views/welcome.php:114
+msgid "Type"
+msgstr "類型"
+
+#: views/welcome.php:124
+msgid ""
+"UCP Template association with users are done through Groups->UCP->General Or "
+"users->UCP->General. For More details "
+msgstr "UCP 樣板與使用者的關聯是透過「群組→UCP→一般」或「使用者→UCP→一般」完成。如需更多詳細資料 "
+
+#: Userman.class.php:3566
+#: views/welcome.php:24
+msgid "UCP Templates"
+msgstr "UCP 樣板"
+
+#: Userman.class.php:2420
+msgid "UID was not numeric"
+msgstr "UID 不是數字"
+
+#: Userman.class.php:1795
+msgid "Unable to create default group"
+msgstr "無法建立預設群組"
+
+#: functions.inc/auth/Auth.php:589
+msgid "Unable to link group to an invalid directory"
+msgstr "無法將群組連結到無效的目錄"
+
+#: functions.inc/auth/Auth.php:543
+msgid "Unable to link user to an invalid directory"
+msgstr "無法將使用者連結到無效的目錄"
+
+#: functions.inc/auth/modules/Msad2.php:139
+#: functions.inc/auth/modules/Openldap2.php:351
+#: functions.inc/auth/modules/Scim.php:172
+msgid "Unique identifier attribute"
+msgstr "唯一識別碼屬性"
+
+#: functions.inc/auth/Auth.php:84
+msgid "Update Group is not defined"
+msgstr "未定義 Update Group"
+
+#: views/passwordmodal.php:35
+#: assets/js/userman.js:498
+#: assets/js/userman.js:520
+msgid "Update Password"
+msgstr "更新密碼"
+
+#: functions.inc/auth/Auth.php:76
+msgid "Update User is not defined"
+msgstr "未定義 Update User"
+
+#: functions.inc/auth/modules/Freepbx.php:216
+#: functions.inc/auth/modules/Voicemail.php:216
+msgid "Updated Group"
+msgstr "已更新群組"
+
+#: functions.inc/auth/modules/Freepbx.php:185
+msgid "Updated User"
+msgstr "已更新使用者"
+
+#: functions.inc/auth/modules/Voicemail.php:84
+#, php-format
+msgid "Updated Voicemail User %s"
+msgstr "已更新語音信箱使用者 %s"
+
+#: assets/js/userman.js:502
+msgid "Updating"
+msgstr "正在更新"
+
+#: views/general.php:201
+msgid "Uppercase"
+msgstr "大寫"
+
+#: views/groups.php:116
+#: views/users.php:389
+msgid "Use Browser Language"
+msgstr "使用瀏覽器語言"
+
+#: views/groups.php:152
+#: views/users.php:425
+msgid "Use Browser Timezone"
+msgstr "使用瀏覽器時區"
+
+#: functions.inc/guihooks.php:214
+#: functions.inc/guihooks.php:244
+msgid "Use Custom Username"
+msgstr "使用自訂使用者名稱"
+
+#: views/groups.php:119
+#: views/users.php:392
+msgid "Use PBX Language"
+msgstr "使用 PBX 語言"
+
+#: views/groups.php:155
+#: views/users.php:428
+msgid "Use PBX Timezone"
+msgstr "使用 PBX 時區"
+
+#: views/groups.php:112
+msgid "Use System Language"
+msgstr "使用系統語言"
+
+#: views/groups.php:148
+msgid "Use System Timezone"
+msgstr "使用系統時區"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "Use TLS"
+msgstr "使用 TLS"
+
+#: functions.inc/auth/modules/Scim.php:106
+msgid ""
+"Use this token for SCIM provisioning. The value is masked by default; use "
+"the Show/Hide and Copy buttons to view or copy it."
+msgstr "使用此 token 進行 SCIM 佈建。該值預設為遮罩；使用顯示/隱藏和複製按鈕來檢視或複製它。"
+
+#: functions.inc/auth/modules/Freepbx.php:104
+#: functions.inc/auth/modules/Freepbx.php:175
+#, php-format
+msgid "User '%s' Already Exists"
+msgstr "使用者「%s」已存在"
+
+#: functions.inc/auth/modules/Freepbx.php:161
+#, php-format
+msgid "User '%s' Does Not Exist"
+msgstr "使用者「%s」不存在"
+
+#: functions.inc/auth/modules/Msad2.php:168
+#: functions.inc/auth/modules/Openldap2.php:535
+#: functions.inc/auth/modules/Scim.php:282
+msgid "User Cell Phone attribute"
+msgstr "User Cell Phone 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:164
+#: functions.inc/auth/modules/Openldap2.php:487
+#: functions.inc/auth/modules/Scim.php:246
+msgid "User Company attribute"
+msgstr "User Company 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:142
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/auth/modules/Openldap2.php:367
+msgid "User DN"
+msgstr "User DN"
+
+#: functions.inc/auth/modules/Msad2.php:165
+#: functions.inc/auth/modules/Openldap2.php:499
+#: functions.inc/auth/modules/Scim.php:258
+msgid "User Department attribute"
+msgstr "User Department 屬性"
+
+#: views/users.php:30
+msgid "User Details"
+msgstr "使用者詳細資料"
+
+#: functions.inc/auth/modules/Scim.php:222
+msgid "User Display Name attribute"
+msgstr "User Display Name 屬性"
+
+#: functions.inc/auth/Auth.php:465
+msgid "User Does Not Exist"
+msgstr "使用者不存在"
+
+#: functions.inc/auth/modules/Scim.php:318
+msgid "User Email attribute"
+msgstr "User Email 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:169
+#: functions.inc/auth/modules/Openldap2.php:547
+#: functions.inc/auth/modules/Scim.php:306
+msgid "User Fax attribute"
+msgstr "User Fax 屬性"
+
+#: functions.inc/auth/modules/Scim.php:198
+msgid "User First Name attribute"
+msgstr "User First Name 屬性"
+
+#: functions.inc/auth/modules/Scim.php:330
+msgid "User Group attribute"
+msgstr "User Group 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:166
+#: functions.inc/auth/modules/Openldap2.php:511
+#: functions.inc/auth/modules/Scim.php:294
+msgid "User Home Phone attribute"
+msgstr "User Home Phone 屬性"
+
+#: functions.inc/auth/modules/Openldap.php:161
+msgid "User Identity"
+msgstr "使用者識別"
+
+#: functions.inc/auth/modules/Scim.php:210
+msgid "User Last Name attribute"
+msgstr "User Last Name 屬性"
+
+#: userman.i18n.php:4
+#: userman.i18n.php:10
+msgid "User Management"
+msgstr "使用者管理"
+
+#: userman.i18n.php:14
+msgid "User Management Module"
+msgstr "使用者管理模組"
+
+#: Console/Userman.class.php:22
+#: views/welcome.php:6
+msgid "User Manager"
+msgstr "User Manager"
+
+#: Userman.class.php:3564
+#: views/quickCreate.php:36
+msgid "User Manager Groups"
+msgstr "User Manager 群組"
+
+#: functions.inc/guihooks.php:62
+msgid "User Manager Settings"
+msgstr "User Manager 設定"
+
+#: Userman.class.php:3561
+msgid "User Manager Users"
+msgstr "User Manager 使用者"
+
+#: functions.inc/auth/Auth.php:569
+#: functions.inc/auth/modules/Freepbx.php:123
+msgid "User Successfully Added"
+msgstr "已成功新增使用者"
+
+#: functions.inc/auth/Auth.php:477
+msgid "User Successfully Deleted"
+msgstr "已成功刪除使用者"
+
+#: functions.inc/auth/Auth.php:578
+msgid "User Successfully Updated"
+msgstr "已成功更新使用者"
+
+#: functions.inc/auth/modules/Msad2.php:163
+#: functions.inc/auth/modules/Openldap2.php:475
+#: functions.inc/auth/modules/Scim.php:234
+msgid "User Title attribute"
+msgstr "User Title 屬性"
+
+#: Userman.class.php:2195
+#: Userman.class.php:4409
+msgid "User UCP updated"
+msgstr "已更新使用者 UCP"
+
+#: functions.inc/auth/modules/Msad2.php:167
+#: functions.inc/auth/modules/Openldap2.php:523
+#: functions.inc/auth/modules/Scim.php:270
+msgid "User Work Phone attribute"
+msgstr "User Work Phone 屬性"
+
+#: Userman.class.php:3647
+msgid "User already exists"
+msgstr "使用者已存在"
+
+#: functions.inc/auth/modules/Msad2.php:141
+#: functions.inc/auth/modules/Openldap2.php:364
+#: functions.inc/auth/modules/Scim.php:183
+msgid "User configuration"
+msgstr "使用者設定"
+
+#: functions.inc/auth/modules/Msad2.php:160
+#: functions.inc/auth/modules/Openldap2.php:439
+msgid "User display name attribute"
+msgstr "User display name 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:162
+#: functions.inc/auth/modules/Openldap2.php:463
+msgid "User email attribute"
+msgstr "User email 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:170
+#: functions.inc/auth/modules/Openldap2.php:571
+#: functions.inc/auth/modules/Scim.php:342
+msgid "User extension Link attribute"
+msgstr "User extension Link 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:158
+#: functions.inc/auth/modules/Openldap2.php:415
+msgid "User first name attribute"
+msgstr "User first name 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:161
+#: functions.inc/auth/modules/Openldap2.php:451
+msgid "User group attribute"
+msgstr "User group 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:159
+#: functions.inc/auth/modules/Openldap2.php:427
+msgid "User last name attribute"
+msgstr "User last name 屬性"
+
+#: assets/js/userman.js:3
+msgid "User limit reached. The Call Activity Group can only have up to "
+msgstr "已達使用者限制。通話活動群組最多只能有 "
+
+#: functions.inc/auth/modules/Msad2.php:145
+#: functions.inc/auth/modules/Openldap2.php:403
+#: functions.inc/auth/modules/Scim.php:186
+msgid "User name attribute"
+msgstr "User name 屬性"
+
+#: functions.inc/auth/modules/Msad2.php:143
+#: functions.inc/auth/modules/Openldap2.php:379
+msgid "User object class"
+msgstr "User object class"
+
+#: functions.inc/auth/modules/Msad2.php:144
+#: functions.inc/auth/modules/Openldap2.php:391
+msgid "User object filter"
+msgstr "User object filter"
+
+#: functions.inc/auth/modules/Msad.php:341
+#: functions.inc/auth/modules/Msad2.php:404
+#: functions.inc/auth/modules/Openldap.php:352
+#: functions.inc/auth/modules/Openldap2.php:886
+#: functions.inc/auth/modules/Voicemail.php:194
+msgid "User updated"
+msgstr "已更新使用者"
+
+#: functions.inc/auth/modules/Msad.php:148
+#: functions.inc/auth/modules/Msad2.php:129
+#: functions.inc/auth/modules/Openldap.php:161
+#: functions.inc/guihooks.php:214
+#: functions.inc/guihooks.php:244
+#: views/rnav.php:17
+#: views/welcome.php:54
+msgid "Username"
+msgstr "使用者名稱"
+
+#: functions.inc/auth/Auth.php:549
+msgid "Username Can Not Be Blank!"
+msgstr "使用者名稱不能空白！"
+
+#: Userman.class.php:2019
+#: Userman.class.php:2055
+msgid "Username can not be blank"
+msgstr "使用者名稱不能空白"
+
+#: functions.inc/auth/modules/Freepbx.php:101
+msgid "Username/Password Can Not Be Blank!"
+msgstr "使用者名稱/密碼不能空白！"
+
+#: views/groups.php:177
+#: views/welcome.php:20
+msgid "Users"
+msgstr "使用者"
+
+#: Userman.class.php:3586
+msgid "Value"
+msgstr "值"
+
+#: functions.inc/auth/modules/Openldap2.php:233
+msgid "Version of the connection protocol with the LDAP server"
+msgstr "與 LDAP 伺服器的連線協定版本"
+
+#: views/groups.php:324
+#: views/users.php:707
+msgid "Visible Extension Range"
+msgstr "可視分機範圍"
+
+#: functions.inc/auth/modules/Voicemail.php:146
+msgid "Voicemail is in Read Only Mode. Addition denied"
+msgstr "語音信箱處於唯讀模式。拒絕新增"
+
+#: Userman.class.php:1003
+msgid "Warning"
+msgstr "警告"
+
+#: Userman.class.php:497
+msgid ""
+"We recommend that any users in this group using Sangoma's S, D & P series "
+"phones configured through Endpoint Manager, please rebuild their phone "
+"configuration, and apply any changes made to the Phone Apps Settings."
+msgstr ""
+"我們建議此群組中任何透過 Endpoint Manager 使用 Sangoma S、D 和 P 系列電話的使用者，請重建他們的電話設定，並套用對 Phone Apps 設定所做的任何變更。"
+
+#: views/welcome.php:11
+#, php-format
+msgid "What is User Manager"
+msgstr "什麼是 User Manager"
+
+#: install.php:64
+msgid ""
+"When set to 'Yes', the account code of the linked extension will be updated "
+"with the first part of the respective user's email address during the user "
+"directory sync."
+msgstr "當設為「Yes」時，在使用者目錄同步期間，已連結分機的帳號代碼將更新為各自使用者電子郵件地址的第一部分。"
+
+#: install.php:50
+msgid ""
+"When set to 'Yes',The User Management UI will be having a new tab 'Call "
+"Activity Groups'. This group is designed for call-related tasks. Use it to "
+"efficiently organize users for specific call operations, such as "
+"streamlining call monitoring assignments."
+msgstr ""
+"當設為「Yes」時，使用者管理 UI 將有一個新的「通話活動群組」頁籤。此群組專為通話相關工作設計。用它來有效率地為特定通話作業組織使用者，例如簡化通話監控指派。"
+
+#: functions.inc/auth/modules/Scim.php:132
+msgid ""
+"When set to Yes, the linked extension will be deleted from the PBX when a "
+"user is removed from this directory (deprovisioned)."
+msgstr "當設為 Yes 時，當使用者從此目錄移除（解除佈建）時，已連結分機將從 PBX 刪除。"
+
+#: views/general.php:71
+msgid "Whether Email Body will send as HTML or plain text to the user."
+msgstr "郵件內文是否要以 HTML 或純文字傳送給使用者。"
+
+#: views/general.php:42
+msgid ""
+"Whether to send an email (using the template below) to new users when they "
+"are created externally (not directly through User Manager)"
+msgstr "當新使用者在外部建立時（非直接透過 User Manager），是否要傳送郵件（使用以下樣板）給他們"
+
+#: views/quickCreate.php:90
+msgid "Which User Manager user this extension will link to"
+msgstr "此分機將連結到哪個 User Manager 使用者"
+
+#: views/quickCreate.php:52
+#: views/users.php:156
+#: views/users.php:191
+msgid "Which groups this user is in"
+msgstr "此使用者在哪個群組"
+
+#: views/groups.php:193
+msgid "Which users are in this group"
+msgstr "哪些使用者在此群組中"
+
+#: views/users.php:499
+msgid "Work Phone Number"
+msgstr "工作電話號碼"
+
+#: views/general.php:554
+msgid "X days from when user will get password expiry reminder"
+msgstr "從天數起，使用者會收到密碼到期提醒"
+
+#: views/directories.php:33
+#: views/directories.php:308
+#: views/general.php:31
+#: views/general.php:60
+#: views/general.php:169
+#: views/general.php:210
+#: views/general.php:251
+#: views/general.php:292
+#: views/general.php:333
+#: views/general.php:374
+#: views/general.php:415
+#: views/groups.php:279
+#: views/groups.php:304
+#: views/password_exp_reminder_hook.php:19
+#: views/password_exp_reminder_hook.php:57
+#: views/quickCreate.php:14
+#: views/users.php:658
+#: views/users.php:685
+#: assets/js/userman.js:740
+msgid "Yes"
+msgstr "是"
+
+#: views/ucptemplates.php:89
+msgid ""
+"You can create a template via copy existing settings from a user Or You can "
+"create the template via help of template creator"
+msgstr "您可以透過複製現有使用者設定來建立樣板，或者您可以透過樣板建立器的協助來建立樣板"
+
+#: Userman.class.php:1003
+msgid ""
+"You have no directories enabled. This will affect users ability to use "
+"features that require a login"
+msgstr "您沒有啟用任何目錄。這會影響使用者使用需要登入的功能的能力"
+
+#: PasswordExpReminder.php:312
+#: PasswordExpReminder.php:345
+msgid "You must reset your password before continuing"
+msgstr "您必須先重設密碼才能繼續"
+
+#: Userman.class.php:3470
+#: views/general.php:109
+msgid "Your %brand% Account"
+msgstr "您的 %brand% 帳號"
+
+#: PasswordExpReminder.php:640
+msgid "Your password has been reset successfully"
+msgstr "您的密碼已成功重設"
+
+#: PasswordExpReminder.php:357
+#: PasswordExpReminder.php:366
+#, php-format
+msgid ""
+"Your password will expire in %s day(s). So, please change your password as "
+"soon as possible."
+msgstr "您的密碼將在 %s 天後到期。請儘快變更您的密碼。"
+
+#: PasswordExpReminder.php:364
+#, php-format
+msgid ""
+"Your password will expire today. So, please change your password as soon as "
+"possible."
+msgstr "您的密碼今天到期。請儘快變更您的密碼。"
+
+#: Userman.class.php:3636
+msgid "default_extension is required."
+msgstr "default_extension 為必填。"
+
+#: assets/js/userman.js:19
+msgid "directories"
+msgstr "目錄"
+
+#: assets/js/userman.js:18
+msgid "directory"
+msgstr "目錄"
+
+#: assets/js/userman.js:16
+msgid "group"
+msgstr "群組"
+
+#: functions.inc/auth/Auth.php:615
+msgid "group Successfully Added"
+msgstr "已成功新增群組"
+
+#: Userman.class.php:3694
+msgid "groupname is required."
+msgstr "groupname 為必填。"
+
+#: assets/js/userman.js:17
+msgid "groups"
+msgstr "群組"
+
+#: Userman.class.php:3661
+msgid "password is required."
+msgstr "密碼為必填。"
+
+#: Userman.class.php:3586
+msgid "template_1_key"
+msgstr "template_1_key"
+
+#: Userman.class.php:3586
+msgid "template_1_type"
+msgstr "template_1_type"
+
+#: Userman.class.php:3586
+msgid "template_1_val"
+msgstr "template_1_val"
+
+#: Userman.class.php:3744
+msgid "templatename is required."
+msgstr "templatename 為必填。"
+
+#: assets/js/userman.js:14
+msgid "user"
+msgstr "使用者"
+
+#: Userman.class.php:3633
+msgid "username is required."
+msgstr "username 為必填。"
+
+#: assets/js/userman.js:15
+msgid "users"
+msgstr "使用者"
+
+#: Userman.class.php:4294
+msgid "widgets not reconfigured"
+msgstr "widget 未重新設定"

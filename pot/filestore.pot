@@ -1,0 +1,815 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for filestore
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-21 01:18-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Api/Gql/Filestore.php:534
+msgid " Instance is created successfully"
+msgstr ""
+
+#: drivers/Local/views/form.php:10
+msgid "AGI directory"
+msgstr ""
+
+#: drivers/S3/views/form.php:124
+msgid "AWS Access Key"
+msgstr ""
+
+#: drivers/S3/views/form.php:97
+msgid "AWS Region"
+msgstr ""
+
+#: drivers/S3/views/form.php:141
+msgid "AWS Secret"
+msgstr ""
+
+#: Api/Gql/Filestore.php:308
+msgid "AWS bucket name"
+msgstr ""
+
+#: Api/Gql/Filestore.php:316
+msgid "AWS hosting Region"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:9
+msgid "Access Token Information"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:52
+msgid "Account Name"
+msgstr ""
+
+#: drivers/Dropbox/views/grid.php:23
+#: drivers/Email/views/grid.php:23
+#: drivers/FTP/views/grid.php:23
+#: drivers/Local/views/grid.php:23
+#: drivers/S3/views/grid.php:23
+#: drivers/SSH/views/grid.php:23
+msgid "Actions"
+msgstr ""
+
+#: drivers/FTP/views/form.php:237
+msgid "Active"
+msgstr ""
+
+#: drivers/Dropbox/views/grid.php:2
+msgid "Add Dropbox Account"
+msgstr ""
+
+#: drivers/Email/views/grid.php:2
+msgid "Add Email Instance"
+msgstr ""
+
+#: drivers/FTP/views/grid.php:2
+msgid "Add FTP Instance"
+msgstr ""
+
+#: drivers/Local/views/grid.php:2
+msgid "Add Local Path"
+msgstr ""
+
+#: drivers/S3/views/grid.php:2
+msgid "Add S3 Bucket"
+msgstr ""
+
+#: drivers/SSH/views/grid.php:2
+msgid "Add SSH Server"
+msgstr ""
+
+#: Api/Gql/Filestore.php:34
+msgid "Add a new AWS S3 Bucket"
+msgstr ""
+
+#: Api/Gql/Filestore.php:24
+msgid "Add a new FTP instance"
+msgstr ""
+
+#: drivers/S3/views/form.php:19
+msgid "Advanced"
+msgstr ""
+
+#: drivers/FTP/views/form.php:192
+msgid "Auto"
+msgstr ""
+
+#: drivers/Email/views/form.php:153
+msgid "B"
+msgstr ""
+
+#: drivers/S3/views/form.php:70
+msgid "Bucket Name"
+msgstr ""
+
+#: drivers/Dropbox/views/modal.testconnection.php:37
+#: drivers/FTP/views/modal.testconnection.php:44
+#: drivers/S3/views/modal.testconnection.php:37
+#: drivers/SSH/views/modal.testconnection.php:44
+msgid "Close"
+msgstr ""
+
+#: drivers/S3/views/form.php:220
+msgid "Custom Endpoint"
+msgstr ""
+
+#: drivers/S3/views/form.php:240
+#: drivers/S3/views/form.php:250
+msgid "Custom Region"
+msgstr ""
+
+#: drivers/S3/views/form.php:230
+msgid "Custom S3 compatable endpoint"
+msgstr ""
+
+#: drivers/S3/views/form.php:209
+msgid "Danger"
+msgstr ""
+
+#: drivers/DriverBase.php:89
+msgid "Delete"
+msgstr ""
+
+#: Api/Gql/Filestore.php:54
+msgid "Delete a existing FTP instance"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:76
+#: drivers/Dropbox/views/grid.php:21
+#: drivers/Email/views/form.php:75
+#: drivers/Email/views/grid.php:21
+#: drivers/FTP/views/form.php:61
+#: drivers/FTP/views/grid.php:21
+#: drivers/Local/views/form.php:84
+#: drivers/Local/views/grid.php:21
+#: drivers/S3/views/form.php:83
+#: drivers/S3/views/grid.php:21
+#: drivers/SSH/views/form.php:79
+#: drivers/SSH/views/grid.php:21
+msgid "Description"
+msgstr ""
+
+#: Api/Gql/Filestore.php:468
+msgid "Description for this conncetion."
+msgstr ""
+
+#: Api/Gql/Filestore.php:312
+msgid "Description of the AWS S3"
+msgstr ""
+
+#: drivers/Local/views/form.php:96
+msgid "Description or notes for this File Store"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:88
+#: drivers/SSH/views/form.php:93
+msgid "Description or notes for this server"
+msgstr ""
+
+#: drivers/Email/views/form.php:87
+msgid ""
+"Description or notes for this server. This will be used as the email subject."
+msgstr ""
+
+#: drivers/FTP/views/form.php:124
+msgid "Does this connection use tls? Make sure the port is set correctly."
+msgstr ""
+
+#: Filestore.class.php:92
+#, php-format
+msgid "Driver (%s) not found!"
+msgstr ""
+
+#: drivers/Dropbox/views/grid.php:20
+msgid "Dropbox Account"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:7
+msgid "Dropbox Directory"
+msgstr ""
+
+#: drivers/Email/views/form.php:119
+msgid "Email Address"
+msgstr ""
+
+#: drivers/Email/views/form.php:9
+msgid "Email List"
+msgstr ""
+
+#: drivers/Email/views/form.php:51
+msgid "Email List Name"
+msgstr ""
+
+#: drivers/Email/views/form.php:131
+msgid "Email address where backups should be emailed to"
+msgstr ""
+
+#: drivers/FTP/views/form.php:149
+msgid ""
+"Enable this option to use SFTP (Secure File Transfer Protocol), a secure "
+"method for transferring files that encrypts both commands and data. Ensure "
+"that the server supports SFTP for this connection."
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:25
+#: drivers/Dropbox/views/grid.php:22
+#: drivers/Email/views/form.php:24
+#: drivers/Email/views/grid.php:22
+#: drivers/FTP/views/form.php:22
+#: drivers/FTP/views/grid.php:22
+#: drivers/Local/views/form.php:33
+#: drivers/Local/views/grid.php:22
+#: drivers/S3/views/form.php:32
+#: drivers/S3/views/grid.php:22
+#: drivers/SSH/views/form.php:24
+#: drivers/SSH/views/grid.php:22
+msgid "Enabled"
+msgstr ""
+
+#: Api/Gql/Filestore.php:250
+msgid "Enabled FTP."
+msgstr ""
+
+#: Api/Gql/Filestore.php:192
+msgid "Enabled FTP. Defaults to true if not provided."
+msgstr ""
+
+#: Api/Gql/Filestore.php:204
+#: Api/Gql/Filestore.php:262
+msgid "Enter a description for this conncetion."
+msgstr ""
+
+#: Api/Gql/Filestore.php:246
+msgid "Enter the ID for FTP"
+msgstr ""
+
+#: Api/Gql/Filestore.php:200
+#: Api/Gql/Filestore.php:258
+msgid "Enter the name for FTP Host"
+msgstr ""
+
+#: Api/Gql/Filestore.php:196
+#: Api/Gql/Filestore.php:254
+msgid "Enter the name for FTP connection"
+msgstr ""
+
+#: drivers/FTP/views/form.php:7
+msgid "FTP Instance"
+msgstr ""
+
+#: Api/Gql/Filestore.php:475
+msgid "FTP Port"
+msgstr ""
+
+#: Api/Gql/Filestore.php:208
+#: Api/Gql/Filestore.php:266
+msgid "FTP Port default is \"22\""
+msgstr ""
+
+#: Api/Gql/Filestore.php:174
+msgid "FTP instance does not exists"
+msgstr ""
+
+#: Api/Gql/Filestore.php:172
+msgid "FTP instance found successfully"
+msgstr ""
+
+#: views/main.php:20
+msgid "File Store"
+msgstr ""
+
+#: drivers/Email/Email.php:70
+#, php-format
+msgid "File from %s, Identifier: %s"
+msgstr ""
+
+#: filestore.i18n.php:4
+#: filestore.i18n.php:10
+#: views/rnav.php:1
+msgid "Filestore"
+msgstr ""
+
+#: views/main.php:23
+msgid ""
+"Filestore is a filesystem abstraction module for your PBX. You can use it to "
+"setup file system destinations that can be used in other modules"
+msgstr ""
+
+#: drivers/FTP/views/form.php:187
+msgid "Filesystem Type"
+msgstr ""
+
+#: filestore.i18n.php:8
+msgid "Filesystem abstraction for your PBX"
+msgstr ""
+
+#: drivers/S3/views/form.php:11
+msgid "For Use With AWS S3"
+msgstr ""
+
+#: drivers/Email/views/form.php:97
+msgid "From Email"
+msgstr ""
+
+#: drivers/Email/views/form.php:107
+msgid ""
+"From Email. If this is blank the system will try and determine an "
+"appropriate from address"
+msgstr ""
+
+#: drivers/S3/views/form.php:18
+msgid "General"
+msgstr ""
+
+#: drivers/FTP/views/form.php:75
+#: drivers/SSH/views/form.php:106
+msgid "Hostname"
+msgstr ""
+
+#: Api/Gql/Filestore.php:461
+msgid "Hostname for FTP Host"
+msgstr ""
+
+#: drivers/SSH/views/form.php:120
+msgid "IP address or FQDN of remote SSH server"
+msgstr ""
+
+#: drivers/FTP/views/form.php:85
+msgid "IP address or FQDN of remote ftp host"
+msgstr ""
+
+#: Filestore.class.php:106
+msgid "Invalid name"
+msgstr ""
+
+#: drivers/Email/views/form.php:155
+msgid "KB"
+msgstr ""
+
+#: drivers/SSH/views/form.php:187
+msgid "Key"
+msgstr ""
+
+#: Api/Gql/Filestore.php:134
+msgid "List of AWS Storage"
+msgstr ""
+
+#: Api/Gql/Filestore.php:154
+msgid "List of all filestores"
+msgstr ""
+
+#: Api/Gql/Filestore.php:101
+#: Api/Gql/Filestore.php:427
+msgid "List of filestore locations"
+msgstr ""
+
+#: Api/Gql/Filestore.php:90
+msgid "List of filestore types"
+msgstr ""
+
+#: Api/Gql/Filestore.php:444
+msgid "List of filestores"
+msgstr ""
+
+#: Api/Gql/Filestore.php:423
+msgid "List of regions"
+msgstr ""
+
+#: Api/Gql/Filestore.php:396
+msgid "List the filestore type"
+msgstr ""
+
+#: drivers/Local/views/form.php:6
+msgid "Local Directory"
+msgstr ""
+
+#: Api/Gql/Filestore.php:304
+#: drivers/S3/views/form.php:57
+msgid "Local Display Name"
+msgstr ""
+
+#: drivers/SSH/views/form.php:201
+msgid "Location of ssh private key to be used when connecting to a host."
+msgstr ""
+
+#: drivers/Email/views/form.php:157
+msgid "MB"
+msgstr ""
+
+#: drivers/Email/views/form.php:143
+msgid "Max Email Size"
+msgstr ""
+
+#: Api/Gql/Filestore.php:384
+#: Api/Gql/Filestore.php:405
+msgid "Message for the request"
+msgstr ""
+
+#: drivers/Email/views/grid.php:20
+#: drivers/FTP/views/grid.php:20
+#: drivers/Local/views/grid.php:20
+#: drivers/S3/views/grid.php:20
+msgid "Name"
+msgstr ""
+
+#: Api/Gql/Filestore.php:454
+msgid "Name for FTP connection"
+msgstr ""
+
+#: drivers/Email/views/form.php:63
+msgid "Name this email list"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:33
+#: drivers/Email/views/form.php:32
+#: drivers/FTP/views/form.php:30
+#: drivers/FTP/views/form.php:117
+#: drivers/FTP/views/form.php:142
+#: drivers/Local/views/form.php:41
+#: drivers/S3/views/form.php:40
+#: drivers/SSH/views/form.php:32
+msgid "No"
+msgstr ""
+
+#: Filestore.class.php:114
+#: Filestore.class.php:120
+msgid "No id supplied"
+msgstr ""
+
+#: drivers/FTP/views/form.php:239
+msgid "Passive"
+msgstr ""
+
+#: drivers/FTP/views/form.php:173
+msgid "Password"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:122
+#: drivers/FTP/views/form.php:212
+#: drivers/Local/views/form.php:108
+#: drivers/S3/views/form.php:182
+#: drivers/SSH/views/form.php:214
+msgid "Path"
+msgstr ""
+
+#: drivers/Local/views/form.php:60
+msgid "Path Name"
+msgstr ""
+
+#: Api/Gql/Filestore.php:328
+#: drivers/Dropbox/views/form.php:132
+#: drivers/S3/views/form.php:192
+#: drivers/SSH/views/form.php:228
+msgid "Path on remote server"
+msgstr ""
+
+#: Api/Gql/Filestore.php:224
+#: Api/Gql/Filestore.php:282
+#: Api/Gql/Filestore.php:503
+msgid ""
+"Path on remote server. This must be a COMPLETE PATH, starting with a / - for "
+"example, /home/backups/freepbx. A path without a leading slash will not "
+"work, and will behave in unexpected ways."
+msgstr ""
+
+#: drivers/FTP/views/form.php:222
+msgid ""
+"Path on remote server. This must be a COMPLETE PATH, starting with a / - for "
+"example, <tt>/home/backups/freepbx</tt>. A path without a leading slash will "
+"not work, and will behave in unexpected ways."
+msgstr ""
+
+#: drivers/Local/views/form.php:120
+msgid "Path on this local system"
+msgstr ""
+
+#: drivers/Local/views/form.php:8
+msgid "Paths supports parameter substitution such as the examples below"
+msgstr ""
+
+#: drivers/FTP/views/form.php:95
+#: drivers/SSH/views/form.php:133
+msgid "Port"
+msgstr ""
+
+#: drivers/Local/views/form.php:72
+msgid "Provide the name for this File Store"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:64
+#: drivers/SSH/views/form.php:66
+msgid "Provide the name for this server"
+msgstr ""
+
+#: drivers/S3/views/form.php:114
+msgid "Region provided in AWS"
+msgstr ""
+
+#: drivers/SSH/views/form.php:147
+msgid "Remote SSH Port"
+msgstr ""
+
+#: drivers/DriverBase.php:94
+msgid "Reset"
+msgstr ""
+
+#: Api/Gql/Filestore.php:376
+msgid "Returns filestore id"
+msgstr ""
+
+#: Api/Gql/Filestore.php:392
+msgid "Returns the filestore description"
+msgstr ""
+
+#: Api/Gql/Filestore.php:388
+msgid "Returns the filestore name"
+msgstr ""
+
+#: drivers/SSH/views/form.php:8
+msgid "SSH Server"
+msgstr ""
+
+#: drivers/SSH/views/form.php:174
+msgid "SSH Username"
+msgstr ""
+
+#: drivers/SSH/views/grid.php:20
+msgid "Server"
+msgstr ""
+
+#: drivers/FTP/views/form.php:47
+#: drivers/SSH/views/form.php:52
+msgid "Server Name"
+msgstr ""
+
+#: Api/Gql/Filestore.php:320
+msgid "Set aws access key"
+msgstr ""
+
+#: Api/Gql/Filestore.php:216
+#: Api/Gql/Filestore.php:274
+#: Api/Gql/Filestore.php:324
+#: Api/Gql/Filestore.php:489
+msgid "Set the password"
+msgstr ""
+
+#: Api/Gql/Filestore.php:212
+#: Api/Gql/Filestore.php:270
+#: Api/Gql/Filestore.php:482
+msgid "Set user name"
+msgstr ""
+
+#: filestore.i18n.php:6
+msgid "Settings"
+msgstr ""
+
+#: drivers/S3/views/form.php:212
+msgid ""
+"Settings here will override settings in the general tab. Only make changes "
+"here if you know what you are doing. These settings are not validated and "
+"may break functionality!"
+msgstr ""
+
+#: Api/Gql/Filestore.php:536
+msgid "Sorry unable to create "
+msgstr ""
+
+#: Api/Gql/Filestore.php:103
+msgid "Sorry unable to find the filestore locations"
+msgstr ""
+
+#: Api/Gql/Filestore.php:92
+msgid "Sorry unable to find the filestore types"
+msgstr ""
+
+#: Api/Gql/Filestore.php:613
+msgid "Sorry unable to update "
+msgstr ""
+
+#: Api/Gql/Filestore.php:156
+msgid "Sorry, unable to find any filestore"
+msgstr ""
+
+#: Api/Gql/Filestore.php:67
+msgid "Sorry, unable to process your delete request"
+msgstr ""
+
+#: Api/Gql/Filestore.php:409
+msgid "Status for the request"
+msgstr ""
+
+#: Api/Gql/Filestore.php:380
+msgid "Status of the request"
+msgstr ""
+
+#: drivers/S3/views/form.php:158
+msgid "Storage Class"
+msgstr ""
+
+#: drivers/DriverBase.php:99
+msgid "Submit"
+msgstr ""
+
+#: Api/Gql/Filestore.php:65
+msgid "Successfully deleted FTP instance"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:141
+#: drivers/FTP/views/form.php:274
+#: drivers/S3/views/form.php:201
+#: drivers/SSH/views/form.php:237
+msgid "Test Connection Settings"
+msgstr ""
+
+#: drivers/FTP/views/form.php:202
+msgid "The FTP Server's file system type. If you are unsure set this to Auto"
+msgstr ""
+
+#: Api/Gql/Filestore.php:220
+#: Api/Gql/Filestore.php:278
+#: Api/Gql/Filestore.php:496
+msgid "The FTP Servers file system type. If you are unsure set this to Auto"
+msgstr ""
+
+#: Api/Gql/Filestore.php:165
+msgid "The id to fetch a particualr filestore details"
+msgstr ""
+
+#: drivers/Email/views/form.php:167
+msgid ""
+"The maximum size a backup can be and still be emailed. Some email servers "
+"limit the size of email attachments, this will make sure that files larger "
+"than the max size are not sent."
+msgstr ""
+
+#: Filestore.class.php:384
+#, php-format
+msgid "The requested driver %s is disabled"
+msgstr ""
+
+#: Filestore.class.php:380
+#, php-format
+msgid "The requested driver %s seems invalid"
+msgstr ""
+
+#: Filestore.class.php:376
+msgid "The requested driver seems invalid"
+msgstr ""
+
+#: Api/Gql/Filestore.php:228
+#: Api/Gql/Filestore.php:286
+#: Api/Gql/Filestore.php:510
+msgid ""
+"This defaults to \"Passive\". If your FTP server is behind a seperate NAT or "
+"Firewall to this VoIP server, you should select \"Active\". In \"Active\" "
+"mode, the FTP server establishes a connection back to the VoIP server to "
+"receive the data. In \"Passive\" mode, the VoIP server connects to the FTP "
+"Server to send data."
+msgstr ""
+
+#: drivers/FTP/views/form.php:245
+msgid ""
+"This defaults to 'Passive'. If your FTP server is behind a seperate NAT or "
+"Firewall to this VoIP server, you should select 'Active'. In 'Active' mode, "
+"the FTP server establishes a connection back to the VoIP server to receive "
+"the data. In 'Passive' mode, the VoIP server connects to the FTP Server to "
+"send data."
+msgstr ""
+
+#: drivers/Email/views/form.php:172
+msgid "This has a maximum size of 25MB."
+msgstr ""
+
+#: drivers/FTP/views/form.php:255
+msgid "Timeout"
+msgstr ""
+
+#: drivers/FTP/views/form.php:265
+msgid "Timeout on remote server"
+msgstr ""
+
+#: Api/Gql/Filestore.php:232
+#: Api/Gql/Filestore.php:290
+#: Api/Gql/Filestore.php:517
+msgid "Timeout on remote server, default is 30"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:100
+msgid "Token"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:112
+msgid "Token on remote server"
+msgstr ""
+
+#: drivers/FTP/views/form.php:232
+msgid "Transfer Mode"
+msgstr ""
+
+#: Api/Gql/Filestore.php:413
+msgid "Types of filestore"
+msgstr ""
+
+#: Api/Gql/Filestore.php:354
+msgid "UUid for the instance"
+msgstr ""
+
+#: drivers/FTP/views/form.php:194
+msgid "Unix/Linux"
+msgstr ""
+
+#: Filestore.class.php:123
+msgid "Unknown action provided"
+msgstr ""
+
+#: drivers/FTP/views/form.php:134
+msgid "Use SFTP"
+msgstr ""
+
+#: drivers/FTP/views/form.php:109
+msgid "Use TLS"
+msgstr ""
+
+#: drivers/FTP/views/form.php:159
+#: drivers/SSH/views/form.php:160
+msgid "Username"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:40
+#: drivers/Email/views/form.php:39
+#: drivers/FTP/views/form.php:37
+#: drivers/Local/views/form.php:48
+#: drivers/S3/views/form.php:47
+#: drivers/SSH/views/form.php:39
+msgid "We define if this storage is enabled or disabled."
+msgstr ""
+
+#: drivers/Local/views/form.php:15
+msgid "Webroot"
+msgstr ""
+
+#: views/main.php:23
+msgid "What is File Store?"
+msgstr ""
+
+#: drivers/S3/views/form.php:129
+#: drivers/S3/views/form.php:146
+#: drivers/S3/views/form.php:170
+msgid "What's this?"
+msgstr ""
+
+#: drivers/FTP/views/form.php:196
+msgid "Windows"
+msgstr ""
+
+#: drivers/Dropbox/views/form.php:31
+#: drivers/Email/views/form.php:30
+#: drivers/FTP/views/form.php:28
+#: drivers/FTP/views/form.php:115
+#: drivers/FTP/views/form.php:140
+#: drivers/Local/views/form.php:39
+#: drivers/S3/views/form.php:38
+#: drivers/SSH/views/form.php:30
+msgid "Yes"
+msgstr ""
+
+#: drivers/Email/views/form.php:131
+msgid "You may enter 1 address per line."
+msgstr ""
+
+#: Api/Gql/Filestore.php:611
+msgid "_"
+msgstr ""
+
+#: drivers/Local/views/form.php:12
+msgid "etc directory"
+msgstr ""
+
+#: drivers/Local/views/form.php:11
+msgid "lib directory"
+msgstr ""
+
+#: drivers/Local/views/form.php:13
+msgid "log direcrory"
+msgstr ""
+
+#: drivers/Local/views/form.php:14
+msgid "spool directory"
+msgstr ""
+
+#: Api/Gql/Filestore.php:44
+msgid "update a existing FTP instance"
+msgstr ""

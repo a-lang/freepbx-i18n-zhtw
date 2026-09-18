@@ -1,0 +1,91 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dundicheck
+# Copyright (C) 2008-2022 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-23 07:43+0000\n"
+"PO-Revision-Date: 2026-09-16 16:05+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: dundicheck.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: page.dundicheck.php:11
+#, php-format
+msgid "DUNDi Information: %s"
+msgstr "DUNDi 資訊：%s"
+
+#: dundicheck.i18n.php:10
+#: page.dundicheck.php:35
+msgid "DUNDi Lookup"
+msgstr "DUNDi 查詢"
+
+#: dundicheck.i18n.php:4
+msgid "DUNDi Lookup Registry"
+msgstr "DUNDi 查詢登錄"
+
+#: functions.inc.php:57
+msgid "DUNDi: "
+msgstr "DUNDi："
+
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr "輸入要對已設定的 DUNDi 來源查詢的號碼"
+
+#: page.dundicheck.php:74
+msgid "Lookup"
+msgstr "查詢"
+
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr "查詢其他號碼"
+
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr "查詢號碼"
+
+#: page.dundicheck.php:20
+msgid "No matches found"
+msgstr "找不到符合項目"
+
+#: page.dundicheck.php:25
+#, php-format
+msgid "Results from DUNDi trunk: %s"
+msgstr "來自 DUNDi 中繼的結果：%s"
+
+#: page.dundicheck.php:14
+#, php-format
+msgid ""
+"The number you are trying to use, %s, is currently available from one of the "
+"DUNDi routes you have configured on your system. As a result you cannot use "
+"this number on this system. Even if the route configuration does not pass "
+"this number you will still be blocked from creating it. If this is not an "
+"error, then you will have to un-publish this number on your remote DUNDi "
+"setup, disable the DUNDi trunk in question, or disable this module to avoid "
+"the checks. Otherwise, remove %s from the remote system before creating this "
+"one."
+msgstr ""
+"您嘗試使用的號碼 %s 目前在您系統上設定的其中一個 DUNDi 路由中可用。因此，您無法在此系統上使用此號碼。即使路由組態不會通過此號碼，您仍將無法建立它。如果這不是錯誤，您必須在遠端 DUNDi 設定中取消發佈此號碼、停用有問題的 DUNDi 中繼，或停用此模組以避免檢查。否則，請在建立此號碼之前從遠端系統中移除 %s。"
+
+#: dundicheck.i18n.php:8
+msgid ""
+"This module will check all configured and enabled DUNDi trunks as part of "
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
+msgstr ""
+"此模組會將所有已設定並啟用的 DUNDi 中繼作為分機登錄功能的一部分進行檢查，並在其他站點有相同時回報衝突。這不會依照路由模式進行過濾——它會取用任何正在建立的號碼，並在該中繼可用於撥打該號碼時回報衝突。"

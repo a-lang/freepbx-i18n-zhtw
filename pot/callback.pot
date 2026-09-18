@@ -1,0 +1,142 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callback
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-09 11:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: page.callback.php:11
+msgid " Add"
+msgstr ""
+
+#: page.callback.php:11
+msgid " Edit"
+msgstr ""
+
+#: assets/js/callback.js:18
+msgid " already used, please use a different description."
+msgstr ""
+
+#: views/grid.php:17
+msgid "Actions"
+msgstr ""
+
+#: views/bootnav.php:4
+#: views/grid.php:2
+msgid "Add Callback"
+msgstr ""
+
+#: page.callback.php:6
+#: views/bootnav.php:16
+msgid "Callback"
+msgstr ""
+
+#: views/form.php:42
+msgid "Callback Description"
+msgstr ""
+
+#: views/form.php:66
+#: views/grid.php:16
+msgid "Callback Number"
+msgstr ""
+
+#: functions.inc.php:36
+#: functions.inc.php:61
+#, php-format
+msgid "Callback: %s"
+msgstr ""
+
+#: views/form.php:117
+msgid "Caller Id"
+msgstr ""
+
+#: views/form.php:90
+msgid "Delay Before Callback"
+msgstr ""
+
+#: Callback.class.php:49
+msgid "Delete"
+msgstr ""
+
+#: views/form.php:168
+msgid "Destination after Callback"
+msgstr ""
+
+#: views/form.php:54
+msgid "Enter a description for this callback."
+msgstr ""
+
+#: views/grid.php:15
+msgid "Item"
+msgstr ""
+
+#: views/bootnav.php:3
+msgid "List Callbacks"
+msgstr ""
+
+#: views/form.php:147
+msgid "Milliseconds"
+msgstr ""
+
+#: views/form.php:129
+msgid ""
+"Optional: Enter the callerid for the callback.<br>Format: <b>\"caller name\" "
+"&lt;#######&gt;</b><br>Default: Callback"
+msgstr ""
+
+#: views/form.php:105
+msgid ""
+"Optional: Enter the number of seconds the system should wait before calling "
+"back."
+msgstr ""
+
+#: views/form.php:78
+msgid ""
+"Optional: Enter the number to dial for the callback.  Leave this blank to "
+"just dial the incoming CallerID Number"
+msgstr ""
+
+#: views/form.php:156
+msgid "Optional: Timeout in Milliseconds.</br>Default: 15000"
+msgstr ""
+
+#: assets/js/callback.js:15
+msgid "Please enter a valid Description"
+msgstr ""
+
+#: Callback.class.php:49
+msgid "Reset"
+msgstr ""
+
+#: views/form.php:96
+msgid "Seconds"
+msgstr ""
+
+#: Callback.class.php:49
+msgid "Submit"
+msgstr ""
+
+#: assets/js/callback.js:13
+msgid "The callback description provided is too long."
+msgstr ""
+
+#: views/form.php:141
+msgid "Timeout"
+msgstr ""
+
+#: views/form.php:187
+msgid "Where to send the caller once they are called back"
+msgstr ""

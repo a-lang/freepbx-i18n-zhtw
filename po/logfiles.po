@@ -1,0 +1,546 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for logfiles
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-04 00:41-0500\n"
+"PO-Revision-Date: 2026-09-15 15:39+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Logfiles.class.php:366
+msgid "?"
+msgstr "?"
+
+#: views/view.settings.logfiles.php:78
+msgid "Actions"
+msgstr "動作"
+
+#: views/view.log.header.php:69
+msgid "Activate full screen mode. Press ESC to exit full screen mode."
+msgstr "啟用全螢幕模式。按 ESC 離開全螢幕模式。"
+
+#: views/view.settings.logfiles.php:90
+msgid "Activate remote log"
+msgstr "啟用遠端記錄"
+
+#: views/view.settings.general.php:30
+msgid "Append Hostname"
+msgstr "附加主機名稱"
+
+#: views/view.settings.general.php:31
+msgid "Appends the hostname to the name of the log files"
+msgstr "將主機名稱附加到記錄檔的名稱"
+
+#: views/view.log.header.php:87
+msgid "Apply Filter"
+msgstr "套用篩選"
+
+#: views/view.log.header.php:105
+msgid "Apply Highlight"
+msgstr "套用醒目顯示"
+
+#: Logfiles.class.php:377
+#: Logfiles.class.php:384
+#, php-format
+msgid "Are you confirming that you want to remove this file (%s)?"
+msgstr "您確認要移除此檔案 (%s) 嗎？"
+
+#: logfiles.i18n.php:12
+msgid "Asterisk Logfile Settings"
+msgstr "Asterisk 記錄檔設定"
+
+#: logfiles.i18n.php:4
+msgid "Asterisk Logfiles"
+msgstr "Asterisk 記錄檔"
+
+#: views/view.log.header.php:119
+msgid "Auto-Scroll"
+msgstr "自動捲動"
+
+#: views/view.log.header.php:197
+msgid "Buffer Size"
+msgstr "緩衝區大小"
+
+#: Logfiles.class.php:383
+msgid "Cancel"
+msgstr "取消"
+
+#: views/view.log.header.php:90
+msgid "Clean Filter"
+msgstr "清除篩選"
+
+#: views/view.log.header.php:108
+msgid "Clean Highlight"
+msgstr "清除醒目顯示"
+
+#: Logfiles.class.php:407
+msgid "Command not found!"
+msgstr "找不到指令！"
+
+#: Logfiles.class.php:374
+msgid "Copy to clipboard successful."
+msgstr "複製到剪貼簿成功。"
+
+#: Logfiles.class.php:385
+msgid "Create"
+msgstr "建立"
+
+#: views/view.settings.logfiles.php:35
+msgid "Critical errors and issues"
+msgstr "嚴重錯誤和問題"
+
+#: views/view.settings.general.php:6
+msgid ""
+"Customize the display of debug message time stamps. See strftime(3) Linux "
+"manual for format specifiers. Note that there is also a fractional second "
+"parameter which may be used in this field.  Use %1q for tenths, %2q for "
+"hundredths, etc."
+msgstr ""
+"自訂除錯訊息時間戳記的顯示。請參閱 strftime(3) Linux 手冊了解格式指定詞。請注意，此欄位也可使用小數秒參數。使用 %1q 表示十分之一秒，%2q 表示百分之一秒，以此類推。"
+
+#: views/view.settings.logfiles.php:27
+msgid "DTMF"
+msgstr "DTMF"
+
+#: views/view.settings.general.php:5
+msgid "Date Format"
+msgstr "日期格式"
+
+#: views/view.settings.logfiles.php:18
+msgid "Debug"
+msgstr "除錯"
+
+#: views/view.log.header.php:19
+msgid "Delete File"
+msgstr "刪除檔案"
+
+#: Logfiles.class.php:367
+#: Logfiles.class.php:386
+#: views/view.log.header.php:47
+#: views/view.log.header.php:52
+msgid "Disabled"
+msgstr "停用"
+
+#: Logfiles.class.php:387
+msgid "Enabled"
+msgstr "啟用"
+
+#: views/view.settings.logfiles.php:34
+msgid "Error"
+msgstr "錯誤"
+
+#: views/view.log.header.php:22
+msgid "Export File"
+msgstr "匯出檔案"
+
+#: Logfiles.class.php:354
+msgid "Failure Removal Process!"
+msgstr "移除程序失敗！"
+
+#: views/view.settings.logfiles.php:41
+msgid "Fax"
+msgstr "傳真"
+
+#: views/view.settings.logfiles.php:4
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: Logfiles.class.php:229
+msgid "File clean successfully."
+msgstr "檔案清除成功。"
+
+#: Logfiles.class.php:402
+msgid "File not found!"
+msgstr "找不到檔案！"
+
+#: Logfiles.class.php:225
+msgid "File removed successfully."
+msgstr "檔案移除成功。"
+
+#: views/view.log.header.php:9
+msgid "Files"
+msgstr "檔案"
+
+#: views/view.log.header.php:83
+msgid "Filter"
+msgstr "篩選"
+
+#: views/page.settings.php:10
+msgid "General Settings"
+msgstr "一般設定"
+
+#: views/view.log.header.php:101
+msgid "Highlight"
+msgstr "醒目顯示"
+
+#: views/view.settings.logfiles.php:12
+msgid ""
+"If the file status is disabled it will be skipped during the asterisk "
+"configuration files creation process."
+msgstr "若檔案狀態為停用，將在 asterisk 設定檔建立程序中跳過。"
+
+#: Logfiles.class.php:849
+msgid "Invalid pattern to filter!"
+msgstr "無效的篩選模式！"
+
+#: views/view.settings.logfiles.php:28
+msgid ""
+"Keypresses as understood by asterisk. Usefull for debuging IVR and VM issues."
+msgstr "按鍵（由 asterisk 理解）。對除錯 IVR 和語音信箱問題很有用。"
+
+#: views/view.settings.general.php:9
+msgid ""
+"Leave blank for default: ISO 8601 date format yyyy-mm-dd HH:MM:SS (%F %T)"
+msgstr "留空使用預設值：ISO 8601 日期格式 yyyy-mm-dd HH:MM:SS (%F %T)"
+
+#: views/view.log.header.php:33
+msgid "Lines"
+msgstr "行數"
+
+#: views/view.settings.general.php:132
+msgid "Loading..."
+msgstr "載入中…"
+
+#: views/page.settings.php:2
+msgid "Log File Settings"
+msgstr "記錄檔設定"
+
+#: views/page.settings.php:13
+msgid "Log Files"
+msgstr "記錄檔案"
+
+#: views/view.settings.general.php:40
+msgid "Log Queues"
+msgstr "記錄佇列"
+
+#: views/view.settings.general.php:15
+msgid "Log Rotation"
+msgstr "記錄輪替"
+
+#: Logfiles.class.php:376
+msgid "Log loading completed successfully."
+msgstr "記錄載入完成成功。"
+
+#: views/view.settings.general.php:41
+msgid "Log queue events to a file"
+msgstr "將佇列事件記錄到檔案"
+
+#: views/view.settings.logfiles.php:49
+msgid ""
+"Messages of specific actions, such as a phone registration or call completion"
+msgstr "特定動作的訊息，如電話註冊或通話完成"
+
+#: views/view.settings.logfiles.php:19
+msgid ""
+"Messages used for debuging. Do not report these as error's unless you have a "
+"specific issue that you are attempting to debug. Also note that Debug "
+"messages are also very verbose and can and do fill up logfiles (and disk "
+"storage) quickly."
+msgstr "用於除錯的訊息。除非您有特定問題要除錯，否則不要回報這些為錯誤。另請注意，除錯訊息也非常詳盡，可以快速填滿記錄檔（和磁碟儲存空間）。"
+
+#: Logfiles.class.php:243
+#: Logfiles.class.php:262
+#: Logfiles.class.php:307
+msgid "Missing data!"
+msgstr "缺少資料！"
+
+#: Logfiles.class.php:181
+#: Logfiles.class.php:218
+msgid "Missing file name!"
+msgstr "缺少檔案名稱！"
+
+#: Logfiles.class.php:290
+#: Logfiles.class.php:303
+#: Logfiles.class.php:333
+msgid "Missing name!"
+msgstr "缺少名稱！"
+
+#: Logfiles.class.php:389
+msgid "Missing the name of the file!"
+msgstr "缺少檔案的名稱！"
+
+#: views/view.log.header.php:135
+msgid "More Options"
+msgstr "更多選項"
+
+#: Logfiles.class.php:391
+msgid "Name is not defined!"
+msgstr "名稱未定義！"
+
+#: views/view.settings.logfiles.php:5
+msgid ""
+"Name of file, relative to Asterisk logpath. Use absolute path for a "
+"different location"
+msgstr "檔案名稱，相對於 Asterisk 記錄路徑。使用絕對路徑表示不同位置"
+
+#: views/view.settings.logfiles.php:98
+msgid "New Log"
+msgstr "新增記錄"
+
+#: Logfiles.class.php:368
+#: Logfiles.class.php:392
+#: views/view.settings.general.php:34
+#: views/view.settings.general.php:44
+msgid "No"
+msgstr "否"
+
+#: Logfiles.class.php:369
+#: views/view.settings.general.php:21
+msgid "None"
+msgstr "無"
+
+#: views/view.settings.general.php:16
+msgid ""
+"None: Do not perform any log rotation at all.  You should make very sure to "
+"set up some external log rotate mechanism as the asterisk logs can get very "
+"large, very quickly."
+msgstr "無：完全不執行任何記錄輪替。您應該非常確定已設定一些外部記錄輪替機制，因為 asterisk 記錄可以變得非常大、非常快。"
+
+#: views/view.settings.logfiles.php:48
+msgid "Notice"
+msgstr "通知"
+
+#: Logfiles.class.php:393
+msgid "Off"
+msgstr "關閉"
+
+#: Logfiles.class.php:394
+msgid "On"
+msgstr "開啟"
+
+#: Logfiles.class.php:315
+#: Logfiles.class.php:345
+msgid "Operation not allowed!"
+msgstr "不允許的操作！"
+
+#: views/view.settings.logfiles.php:64
+msgid "Possible issues with dialplan syntaxt or call flow, but not critical."
+msgstr "撥號計畫語法或通話流程可能有問題，但不嚴重。"
+
+#: views/view.log.header.php:43
+msgid "Refresh Interval"
+msgstr "重新整理間隔"
+
+#: views/view.settings.general.php:110
+msgid "Reload"
+msgstr "重新載入"
+
+#: views/view.log.header.php:16
+msgid "Reload File"
+msgstr "重新載入檔案"
+
+#: views/view.log.header.php:10
+msgid "Reload List"
+msgstr "重新載入清單"
+
+#: Logfiles.class.php:395
+msgid "Remove"
+msgstr "移除"
+
+#: Logfiles.class.php:349
+msgid "Remove Successful"
+msgstr "移除成功"
+
+#: logfiles.i18n.php:6
+msgid "Reports"
+msgstr "報告"
+
+#: views/view.settings.general.php:23
+msgid "Rotate"
+msgstr "輪替"
+
+#: views/view.settings.general.php:18
+msgid ""
+"Rotate: Rotate all the old files, such that the oldest has the highest "
+"sequence number (expected behavior for Unix administrators)."
+msgstr "輪替：輪替所有舊檔案，讓最舊的檔案有最高的序號（Unix 管理員的預期行為）。"
+
+#: Logfiles.class.php:396
+msgid "Save"
+msgstr "儲存"
+
+#: Logfiles.class.php:324
+msgid "Save Failed!"
+msgstr "儲存失敗！"
+
+#: Logfiles.class.php:319
+msgid "Save Successful"
+msgstr "儲存成功"
+
+#: Logfiles.class.php:370
+msgid "Searching..."
+msgstr "搜尋中…"
+
+#: Logfiles.class.php:371
+#: views/view.log.header.php:59
+msgid "Seconds"
+msgstr "秒"
+
+#: views/view.settings.logfiles.php:71
+msgid "Security"
+msgstr "安全性"
+
+#: views/view.settings.general.php:22
+msgid "Sequential"
+msgstr "循序"
+
+#: views/view.settings.general.php:17
+msgid ""
+"Sequential: Rename archived logs in order, such that the newest has the "
+"highest sequence number"
+msgstr "循序：按順序重新命名封存的記錄，讓最新的有最高的序號"
+
+#: Logfiles.class.php:247
+#: Logfiles.class.php:266
+msgid "Setting not allowed!"
+msgstr "不允許的設定！"
+
+#: views/view.settings.general.php:31
+msgid ""
+"Setting this to yes will interfere with log rotation and Intrusion "
+"Detection.  It is strongly recommended that this setting be set to 'no'."
+msgstr "將此設定為 yes 會干擾記錄輪入侵偵測。強烈建議將此設定設為 'no'。"
+
+#: Logfiles.class.php:1052
+msgid ""
+"Setting this to yes will interfere with log rotation and Intrusion "
+"Detection. It is strongly recommended that this setting be set to: no."
+msgstr "將此設定為 yes 會干擾記錄輪入侵偵測。強烈建議將此設定設為：no。"
+
+#: views/view.log.header.php:163
+msgid "Show Line Spacing"
+msgstr "顯示行距"
+
+#: views/view.log.header.php:180
+msgid "Show Only Row's Highlight"
+msgstr "僅顯示列的醒目顯示"
+
+#: views/view.log.header.php:146
+msgid "Show Row Numbers"
+msgstr "顯示列號"
+
+#: views/view.settings.logfiles.php:11
+msgid "Status"
+msgstr "狀態"
+
+#: views/view.settings.logfiles.php:56
+msgid ""
+"Step-by-step messages of every step of a call flow. Always enable and review "
+"if calls dont flow as expected"
+msgstr "通話流程每個步驟的逐步訊息。若通話不如預期流程，請務必啟用並檢閱"
+
+#: Logfiles.class.php:272
+msgid "Successful Update"
+msgstr "更新成功"
+
+#: views/page.logs.php:2
+msgid "System Log Files"
+msgstr "系統記錄檔案"
+
+#: logfiles.i18n.php:10
+msgid "System Logfiles"
+msgstr "系統記錄檔"
+
+#: logfiles.i18n.php:8
+msgid ""
+"The Asterisk Logfiles Module is an easy way to view portions of the Asterisk "
+"Log."
+msgstr "Asterisk 記錄檔模組是檢視部分 Asterisk 記錄的簡便方式。"
+
+#: Logfiles.class.php:761
+#: Logfiles.class.php:816
+msgid "The file was not found!"
+msgstr "找不到檔案！"
+
+#: Logfiles.class.php:339
+msgid "The filename not exist!"
+msgstr "檔案名稱不存在！"
+
+#: Logfiles.class.php:769
+#: Logfiles.class.php:824
+msgid "The log file does not exist!"
+msgstr "記錄檔案不存在！"
+
+#: Logfiles.class.php:375
+msgid "The log file has fewer lines, the reload was successful."
+msgstr "記錄檔案的行數較少，重新載入成功。"
+
+#: Logfiles.class.php:388
+msgid "The name of the file is already in use!"
+msgstr "檔案名稱已在使用中！"
+
+#: Logfiles.class.php:839
+msgid "The specified lines value is not a numeric value!"
+msgstr "指定的行數值不是數值！"
+
+#: Logfiles.class.php:774
+#: Logfiles.class.php:829
+msgid "The specified name is not from a file!"
+msgstr "指定的名稱不是來自檔案！"
+
+#: Logfiles.class.php:834
+msgid "There is no permission to read this log file!"
+msgstr "沒有權限讀取此記錄檔案！"
+
+#: Logfiles.class.php:779
+msgid "There is no permission to write this log file!"
+msgstr "沒有權限寫入此記錄檔案！"
+
+#: views/view.settings.general.php:24
+msgid "Timestamp"
+msgstr "時間戳記"
+
+#: views/view.settings.general.php:19
+msgid ""
+"Timestamp: Rename the logfiles using a timestamp instead of a sequence "
+"number when \"logger rotate\" is executed."
+msgstr "時間戳記：執行 \"logger rotate\" 時使用時間戳記而非序號重新命名記錄檔。"
+
+#: views/view.settings.logfiles.php:91
+msgid ""
+"To activate the remote log, you must enable the file \"syslog.local0\" and "
+"add the following line in syslog."
+msgstr "若要啟用遠端記錄，您必須啟用檔案 \"syslog.local0\" 並在 syslog 中新增下列一行。"
+
+#: views/view.settings.logfiles.php:42
+msgid "Transmition and receiving of faxes"
+msgstr "傳真的傳送和接收"
+
+#: Logfiles.class.php:390
+msgid "Unknow error!"
+msgstr "未知的錯誤！"
+
+#: Logfiles.class.php:277
+msgid "Update process failed!"
+msgstr "更新程序失敗！"
+
+#: views/view.settings.logfiles.php:55
+msgid "Verbose"
+msgstr "詳細"
+
+#: views/view.settings.logfiles.php:63
+msgid "Warning"
+msgstr "警告"
+
+#: Logfiles.class.php:372
+#: Logfiles.class.php:397
+#: views/view.settings.general.php:33
+#: views/view.settings.general.php:43
+msgid "Yes"
+msgstr "是"
+
+#: Logfiles.class.php:1052
+msgid "appendhostname is set to: Yes."
+msgstr "appendhostname 設定為：是。"

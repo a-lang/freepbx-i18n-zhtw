@@ -1,0 +1,86 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for donotdisturb
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 09:52-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: donotdisturb.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: donotdisturb.i18n.php:12
+#: install.php:6
+msgid "DND Activate"
+msgstr ""
+
+#: donotdisturb.i18n.php:10
+#: install.php:7
+msgid "DND Deactivate"
+msgstr ""
+
+#: donotdisturb.i18n.php:14
+#: install.php:8
+msgid "DND Toggle"
+msgstr ""
+
+#: ucp/views/widget.php:2
+msgid "Disabled"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:88
+msgid "Do Not Disturb"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:185
+msgid "Do Not Disturb Has Been Updated!"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:113
+#, php-format
+msgid "Do Not Disturb for %s"
+msgstr ""
+
+#: donotdisturb.i18n.php:8
+msgid ""
+"Do not disturb (DND) allows calls to be rejected at the user's request via a "
+"feature code, UCP setting, or REST App."
+msgstr ""
+
+#: donotdisturb.i18n.php:4
+#: install.php:5
+msgid "Do-Not-Disturb (DND)"
+msgstr ""
+
+#: ucp/views/widget.php:2
+msgid "Enabled"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:136
+msgid "Follow Me"
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:74
+msgid "The given extension is empty."
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:69
+msgid "There are no assigned extensions."
+msgstr ""
+
+#: ucp/Donotdisturb.class.php:78
+msgid "This extension is not assigned to this user."
+msgstr ""

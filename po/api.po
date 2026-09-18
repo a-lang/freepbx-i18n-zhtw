@@ -1,0 +1,467 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for api
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-15 08:30-0400\n"
+"PO-Revision-Date: 2026-09-15 17:12+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/system/modals.php:192
+#: views/system/modals.php:201
+#: views/system/modals.php:208
+#, php-format
+msgid "%s URLs"
+msgstr "%s 的 URL"
+
+#: views/system/modals.php:137
+msgid "(Copy your secret as you will not be able to retrieve it later)."
+msgstr "（請複製您的密鑰，之後將無法再取得）。"
+
+#: Console/Api.class.php:24
+#: api.i18n.php:10
+#: views/system/overview.php:6
+msgid "API"
+msgstr "API"
+
+#: views/system/modals.php:73
+#: views/system/modals.php:181
+msgid "API Ports"
+msgstr "API 連接埠"
+
+#: views/system/scopeVisualizer.php:40
+msgid "API Type"
+msgstr "API 類型"
+
+#: views/system/applicationGrid.php:6
+msgid "API URL List"
+msgstr "API URL 清單"
+
+#: views/system/modals.php:167
+msgid "API URLs"
+msgstr "API URL"
+
+#: views/system/overview.php:10
+msgid "Access Tokens"
+msgstr "存取權杖"
+
+#: views/system/accessTokenGrid.php:20
+#: views/system/applicationGrid.php:33
+#: views/system/refreshTokenGrid.php:20
+#: views/user/grid.php:27
+msgid "Actions"
+msgstr "動作"
+
+#: views/system/applicationGrid.php:4
+#: views/system/modals.php:48
+#: views/user/grid.php:4
+#: views/user/modals.php:42
+msgid "Add Application"
+msgstr "新增應用程式"
+
+#: views/system/modals.php:72
+#: views/system/modals.php:180
+msgid "Admin Ports"
+msgstr "管理員連接埠"
+
+#: Api.class.php:301
+#: Api.class.php:316
+#, php-format
+msgid "All %s for %s"
+msgstr "所有 %s 的 %s"
+
+#: views/system/modals.php:40
+msgid "Allowed Scopes"
+msgstr "允許的範圍"
+
+#: views/system/applicationGrid.php:31
+#: views/user/grid.php:26
+msgid "Application Description"
+msgstr "應用程式說明"
+
+#: views/system/accessTokenGrid.php:16
+#: views/system/refreshTokenGrid.php:16
+msgid "Application Name"
+msgstr "應用程式名稱"
+
+#: views/system/applicationGrid.php:30
+msgid "Application Owner"
+msgstr "應用程式擁有者"
+
+#: views/system/applicationGrid.php:32
+msgid "Application Type"
+msgstr "應用程式類型"
+
+#: views/system/applicationGrid.php:29
+#: views/user/grid.php:25
+msgid "Application name"
+msgstr "應用程式名稱"
+
+#: views/system/overview.php:9
+msgid "Applications"
+msgstr "應用程式"
+
+#: assets/js/api.js:426
+msgid "Are you sure you wish to delete this access token?"
+msgstr "您確定要刪除這個存取權杖嗎？"
+
+#: assets/js/api.js:374
+msgid "Are you sure you wish to delete this application?"
+msgstr "您確定要刪除這個應用程式嗎？"
+
+#: assets/js/api.js:448
+msgid "Are you sure you wish to delete this refresh token?"
+msgstr "您確定要刪除這個重新整理權杖嗎？"
+
+#: assets/js/api.js:468
+msgid ""
+"Are you sure you wish to regenerate this application? This will break any "
+"clients using the old credentials"
+msgstr "您確定要重新產生此應用程式嗎？這將中斷所有使用舊憑證的使用者端"
+
+#: views/authorize.php:12
+#, php-format
+msgid "Authorize %s to use your %s account?"
+msgstr "授權 %s 使用您的 %s 帳戶？"
+
+#: views/authorize.php:4
+msgid "Authorize your account"
+msgstr "授權您的帳戶"
+
+#: views/system/applicationGrid.php:9
+#: views/user/grid.php:8
+#: assets/js/api.js:332
+#: assets/js/api.js:500
+msgid "Browser-based/Single Page app"
+msgstr "瀏覽器型／單頁式應用程式"
+
+#: views/authorize.php:25
+msgid "Cancel"
+msgstr "取消"
+
+#: views/system/modals.php:59
+#: views/user/modals.php:52
+msgid "Client Credentials"
+msgstr "使用者端憑證"
+
+#: views/system/modals.php:137
+msgid "Client Secret"
+msgstr "使用者端密鑰"
+
+#: views/system/modals.php:47
+#: views/system/modals.php:148
+#: views/user/modals.php:41
+#: views/user/modals.php:63
+msgid "Close"
+msgstr "關閉"
+
+#: api.i18n.php:6
+msgid "Connectivity"
+msgstr "連線能力"
+
+#: views/system/modals.php:94
+#: views/system/modals.php:102
+#: views/system/modals.php:110
+#: views/system/modals.php:118
+#: views/system/modals.php:130
+#: views/system/modals.php:134
+#: views/system/modals.php:139
+#: views/system/modals.php:194
+#: views/system/modals.php:195
+#: views/system/modals.php:196
+#: views/system/modals.php:203
+#: views/system/modals.php:210
+msgid "Copy to clipboard"
+msgstr "複製到剪貼簿"
+
+#: views/system/modals.php:26
+#: views/system/scopeVisualizer.php:42
+#: views/user/modals.php:26
+msgid "Description"
+msgstr "說明"
+
+#: Console/Api.class.php:25
+msgid "Execute Gql command"
+msgstr "執行 GQL 指令"
+
+#: views/system/accessTokenGrid.php:18
+#: views/system/refreshTokenGrid.php:18
+msgid "Expiry Time"
+msgstr "到期時間"
+
+#: views/system/graphiql.php:5
+msgid "Explore GraphQL based on scopes"
+msgstr "依範圍探索 GraphQL"
+
+#: views/system/gqldocVisualizer.php:4
+msgid "Generate Documentation"
+msgstr "產生文件"
+
+#: Console/Api.class.php:25
+msgid "Generate GQL from a database table"
+msgstr "從資料庫資料表產生 GQL"
+
+#: Console/Api.class.php:25
+msgid "Generate GQL from a modules xml database definition"
+msgstr "從模組的 XML 資料庫定義產生 GQL"
+
+#: views/system/gqldocVisualizer.php:1
+msgid "Generate GraphQL Documentation based on scopes"
+msgstr "依範圍產生 GraphQL 文件"
+
+#: views/system/overview.php:13
+msgid "GraphQL Documentation"
+msgstr "GraphQL 文件"
+
+#: views/system/overview.php:14
+msgid "GraphQL Explorer"
+msgstr "GraphQL 瀏覽器"
+
+#: views/system/accessTokenGrid.php:17
+#: views/system/refreshTokenGrid.php:17
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: assets/js/api.js:333
+msgid ""
+"It is intended to be used for user-agent-based clients (e.g. single page web "
+"apps) that can’t keep a client secret because all of the application code "
+"and storage is easily accessible"
+msgstr ""
+"此類型適用於以使用者代理程式為基礎的使用者端（例如單頁式網頁應用程式），這類使用者端無法保留使用者端密鑰，因為其所有應用程式程式碼與儲存空間都容易被存取"
+
+#: views/system/accessTokenGrid.php:19
+#: views/system/refreshTokenGrid.php:19
+msgid "Last Accessed Time"
+msgstr "上次存取時間"
+
+#: views/system/modals.php:13
+#: views/user/modals.php:13
+msgid "Learn more about this API type"
+msgstr "進一步了解此 API 類型"
+
+#: views/system/applicationGrid.php:11
+#: views/user/grid.php:10
+#: assets/js/api.js:344
+#: assets/js/api.js:509
+msgid "Machine-to-Machine app"
+msgstr "機器對機器應用程式"
+
+#: views/system/scopeVisualizer.php:41
+msgid "Module"
+msgstr "模組"
+
+#: Console/Api.class.php:25
+msgid "Module location path"
+msgstr "模組位置路徑"
+
+#: Console/Api.class.php:25
+msgid "Module to place the API file if using generatefromtable"
+msgstr "使用 generatefromtable 時放置 API 檔案的模組"
+
+#: views/system/applicationGrid.php:10
+#: views/user/grid.php:9
+#: assets/js/api.js:340
+#: assets/js/api.js:506
+msgid "Native app"
+msgstr "原生應用程式"
+
+#: Console/Api.class.php:57
+msgid "Only GQL type is supported at this time"
+msgstr "目前僅支援 GQL 類型"
+
+#: api.i18n.php:4
+msgid "PBX API"
+msgstr "PBX API"
+
+#: views/system/gqldocVisualizer.php:2
+#: views/system/graphiql.php:6
+msgid ""
+"Paste Scope(s) Here (You can generate scopes in the Scope Visualizer Tab)"
+msgstr "在此貼上範圍（您可以在「範圍視覺化工具」分頁中產生範圍）"
+
+#: views/user/modals.php:57
+msgid "Please copy your secret as you will not be able to retrieve it later"
+msgstr "請複製您的密鑰，之後將無法再取得"
+
+#: assets/js/api.js:260
+msgid "Please enter a valid application description"
+msgstr "請輸入有效的應用程式說明"
+
+#: assets/js/api.js:256
+msgid "Please enter a valid application name"
+msgstr "請輸入有效的應用程式名稱"
+
+#: views/system/modals.php:123
+#: views/system/modals.php:197
+#: views/system/modals.php:204
+#: views/system/modals.php:211
+msgid "Protocol Disabled"
+msgstr "協定已停用"
+
+#: Api.class.php:291
+#, php-format
+msgid "Read/Write for %s"
+msgstr "%s 的讀取/寫入"
+
+#: Api.class.php:270
+#: Api.class.php:277
+#, php-format
+msgid "Read/Write for all modules [%s]"
+msgstr "所有模組 [%s] 的讀取/寫入"
+
+#: views/system/modals.php:34
+#: views/user/modals.php:34
+msgid "Redirect URI"
+msgstr "重新導向 URI"
+
+#: views/system/overview.php:11
+msgid "Refresh Tokens"
+msgstr "重新整理權杖"
+
+#: views/system/modals.php:147
+#: views/user/modals.php:62
+msgid "Regenerate Credentials"
+msgstr "重新產生憑證"
+
+#: views/system/graphiql.php:8
+msgid "Reload Explorer (If scope was changed)"
+msgstr "重新載入瀏覽器（若範圍已變更）"
+
+#: views/system/scopeVisualizer.php:39
+msgid "Scope"
+msgstr "範圍"
+
+#: views/system/scopeVisualizer.php:14
+msgid "Scope List"
+msgstr "範圍清單"
+
+#: views/system/scopeVisualizer.php:10
+msgid "Scope Tree"
+msgstr "範圍樹"
+
+#: views/system/overview.php:12
+msgid "Scope Visualizer"
+msgstr "範圍視覺化工具"
+
+#: assets/js/api.js:333
+msgid ""
+"Secondly instead of the authorization server returning an authorization code "
+"which is exchanged for an access token, the authorization server returns an "
+"access token"
+msgstr "其次，授權伺服器不是回傳授權碼以換取存取權杖，而是直接回傳存取權杖"
+
+#: views/system/scopeVisualizer.php:3
+msgid "Selected Scopes"
+msgstr "已選取的範圍"
+
+#: views/system/scopeVisualizer.php:17
+msgid "Show API types"
+msgstr "顯示 API 類型"
+
+#: views/authorize.php:24
+msgid "Submit"
+msgstr "送出"
+
+#: assets/js/api.js:333
+msgid ""
+"The 'Browser-based/Single Page app', also known as 'Implicit Code Grant', is "
+"similar to the 'Web-server App' with two distinct differences"
+msgstr ""
+"「Browser-based/Single Page app」（又稱「Implicit Code Grant」）與「Web-server App」類似，但有兩個明顯差異"
+
+#: assets/js/api.js:337
+msgid ""
+"The 'Web-server App', also known as 'Authorization Code Grant', should be "
+"very familiar if you’ve ever signed into a web app using your Facebook or "
+"Google account"
+msgstr ""
+"「Web-server App」（又稱「Authorization Code Grant」）對您來說應該相當熟悉，只要您曾使用 Facebook 或 Google 帳戶登入過網頁應用程式"
+
+#: Api.class.php:136
+msgid "The API Key Regeneration Notification."
+msgstr "API 金鑰重新產生通知"
+
+#: api.i18n.php:8
+msgid ""
+"The API module allows administrators to configure and manage FreePBX "
+"remotely through automated. As an administrator you can use other languages "
+"to control your PBX systems."
+msgstr "API 模組可讓管理員透過自動化方式遠端設定與管理 FreePBX。身為管理員，您可以使用其他程式語言來控制您的 PBX 系統。"
+
+#: Api.class.php:136
+msgid ""
+"The API private key has been regenerated due to a detected security risk "
+"involving encryption keys. Please ensure your API integration operates as "
+"expected and regenerate your tokens if necessary."
+msgstr "由於偵測到涉及加密金鑰的安全性風險， API 私密金鑰已重新產生。請確認您的 API 整合運作如常，並在必要時重新產生您的權杖。"
+
+#: views/system/modals.php:37
+#: views/user/modals.php:37
+msgid ""
+"The redirect uri specifies where we redirect users after they have chosen "
+"whether or not to authenticate your application"
+msgstr "重新導向 URI 會指定我們在使用者選擇是否授權您的應用程式後，將使用者重新導向至何處"
+
+#: views/system/accessTokenGrid.php:1
+#: views/system/refreshTokenGrid.php:1
+msgid ""
+"The tokens listed below are encrypted and therefore you can not copy them "
+"below and expect to use them in your application. You can only use the "
+"token(s) that are presented to you in your application. This is a security "
+"mechanisim so that someone can't steal your credentials by just looking at "
+"this page"
+msgstr ""
+"下方列出的權杖已加密，因此您無法將它們複製到應用程式中使用。您只能使用應用程式呈現給您的權杖。這是一種安全機制，防止他人僅靠檢視此頁面即可竊取您的憑證"
+
+#: views/authorize.php:35
+msgid "This application is requesting being able to:"
+msgstr "此應用程式要求取得下列權限："
+
+#: views/system/accessTokenGrid.php:15
+#: views/system/refreshTokenGrid.php:15
+msgid "Token"
+msgstr "權杖"
+
+#: views/system/modals.php:86
+msgid "URLs"
+msgstr "URL"
+
+#: views/system/modals.php:43
+msgid ""
+"Use the Scope Visualizer to paste valid scopes into this text box to "
+"restrict this application to be only able to use these scopes. Leave blank "
+"to not have any scope restrictions"
+msgstr "使用「範圍視覺化工具」將有效的範圍貼入此文字方塊，將此應用程式限制為僅能使用這些範圍。若留空，則不設任何範圍限制"
+
+#: assets/js/api.js:336
+#: assets/js/api.js:503
+msgid "Web-server App"
+msgstr "Web 伺服器應用程式"
+
+#: views/system/applicationGrid.php:8
+#: views/user/grid.php:7
+msgid "Web-server app"
+msgstr "Web 伺服器應用程式"
+
+#: views/system/modals.php:30
+#: views/user/modals.php:30
+msgid "Website"
+msgstr "網站"
+
+#: views/system/modals.php:22
+#: views/user/modals.php:22
+msgid "Your App Name"
+msgstr "您的應用程式名稱"

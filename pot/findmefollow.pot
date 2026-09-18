@@ -1,0 +1,1120 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for findmefollow
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-02 01:13-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.inc.php:550
+#: ucp/views/settings.php:10
+#: views/form.php:48
+msgid "*-prim"
+msgstr ""
+
+#: functions.inc.php:503
+#: views/form.php:324
+msgid "--Not Calendar Controlled--"
+msgstr ""
+
+#: functions.inc.php:511
+#: views/form.php:353
+msgid "--Not Calendar Group Controlled--"
+msgstr ""
+
+#: functions.inc.php:586
+#: views/form.php:548
+msgid ""
+"ALERT_INFO can be used for distinctive ring with SIP devices.<br>If you are "
+"having issues, see the \"Enforce RFC7462\" option found in Settings-"
+">Advanced Settings."
+msgstr ""
+
+#: functions.inc.php:586
+#: views/form.php:536
+msgid "Alert Info"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:228
+#: Api/Gql/Findmefollow.php:413
+msgid ""
+"Alert Info can be used for distinctive ring with SIP devices. If you are "
+"having issues, see the \"Enforce RFC7462\" option found in Settings > "
+"Advanced Settings."
+msgstr ""
+
+#: views/ucp_config.php:39
+msgid "Allowed Extensions"
+msgstr ""
+
+#: functions.inc.php:657
+#: views/form.php:614
+msgid "Always transmit the Fixed CID Value below."
+msgstr ""
+
+#: functions.inc.php:570
+#: views/form.php:78
+msgid "Announcement"
+msgstr ""
+
+#: findmefollow.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: functions.inc.php:495
+msgid ""
+"By default (Yes) any call to this extension will go to this Follow-Me "
+"instead, including directory calls by name from IVRs. If set to \"No\", "
+"calls will go only to the extension. Destinations that directly specify "
+"FollowMe will come here regardless. Setting this to \"No\" is often used in "
+"conjunction with VmX Locater, where you want a call to ring the extension, "
+"and then only if the caller chooses to find you do you want the call to go "
+"through FollowMe."
+msgstr ""
+
+#: views/form.php:282
+msgid ""
+"By default (yes) any call to this extension will go to this Follow-Me "
+"instead, including directory calls by name from IVRs. If no, calls will go "
+"only to the extension.<BR>However, destinations that specify FollowMe will "
+"come here.<BR>This setting is often used in conjunction with VmX Locater, "
+"where you want a call to ring the extension, and then only if the caller "
+"chooses to find you do you want it to come here."
+msgstr ""
+
+#: functions.inc.php:583
+#: views/form.php:512
+msgid "CID Name Prefix"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:208
+#: Api/Gql/Findmefollow.php:397
+msgid "CID Name Prefix like `Sales:`"
+msgstr ""
+
+#: functions.inc.php:507
+#: views/form.php:319
+msgid "Calendar"
+msgstr ""
+
+#: functions.inc.php:515
+#: views/form.php:348
+msgid "Calendar Group"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:278
+#: Api/Gql/Findmefollow.php:449
+msgid "Calendar Group Id"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:273
+#: Api/Gql/Findmefollow.php:445
+msgid "Calendar Id"
+msgstr ""
+
+#: functions.inc.php:518
+#: views/form.php:377
+msgid "Calendar Match Inverse"
+msgstr ""
+
+#: functions.inc.php:146
+#: functions.inc.php:157
+msgid "Calendar Not found"
+msgstr ""
+
+#: functions.inc.php:610
+msgid "Call Confirmation Configuration"
+msgstr ""
+
+#: install.php:34
+#: uninstall.php:32
+msgid "Cannot connect to Asterisk Manager with "
+msgstr ""
+
+#: functions.inc.php:653
+#: views/form.php:630
+msgid "Change External CID Configuration"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:288
+#: Api/Gql/Findmefollow.php:456
+msgid ""
+"Choose the CID Mode from the `externalcidmode` enum. Default is `default`."
+msgstr ""
+
+#: functions.inc.php:612
+#: views/form.php:587
+msgid "Confirm Calls"
+msgstr ""
+
+#: functions.inc.php:615
+#: functions.inc.php:656
+#: functions.inc.php:661
+#: views/form.php:120
+#: views/form.php:155
+#: views/form.php:220
+#: views/form.php:612
+msgid "Default"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:248
+#: Api/Gql/Findmefollow.php:429
+msgid ""
+"Default `Ring`. Custom values will be the category name of \"On Hold Music\"."
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:223
+#: Api/Gql/Findmefollow.php:409
+msgid "Destination after `followMeList` is rung and there was no answer"
+msgstr ""
+
+#: views/form.php:680
+msgid "Destination if no answer"
+msgstr ""
+
+#: functions.inc.php:673
+msgid "Destinations"
+msgstr ""
+
+#: views/ucp_config.php:74
+msgid "Disable"
+msgstr ""
+
+#: ucp/views/widget.php:2
+msgid "Disabled"
+msgstr ""
+
+#: views/ucp_config.php:72
+msgid "Enable"
+msgstr ""
+
+#: functions.inc.php:499
+#: views/form.php:293
+msgid "Enable Calendar Matching"
+msgstr ""
+
+#: views/quickCreate.php:5
+msgid "Enable Find Me/Follow Me"
+msgstr ""
+
+#: views/ucp_config.php:7
+msgid "Enable Findme Follow"
+msgstr ""
+
+#: views/form.php:267
+msgid "Enable Followme"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:263
+#: Api/Gql/Findmefollow.php:437
+msgid "Enable calendar for follow me (either group or single calendar)"
+msgstr ""
+
+#: views/ucp_config.php:28
+msgid "Enable the Findmefollow access in UCP for this user"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:233
+#: Api/Gql/Findmefollow.php:417
+msgid ""
+"Enable this if you are calling external numbers that need confirmation. "
+"Enabling this requires the remote side push 1 on their phone before the call "
+"is put through. This feature only works with the ringall ring strategy"
+msgstr ""
+
+#: ucp/views/settings.php:62
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through."
+msgstr ""
+
+#: views/form.php:602
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through. This feature only works with the ringall ring strategy"
+msgstr ""
+
+#: functions.inc.php:612
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through. This feature only works with the ringall/ringall-prim  ring strategy"
+msgstr ""
+
+#: functions.inc.php:495
+#: ucp/views/widget.php:2
+#: views/fmgrid.php:27
+msgid "Enabled"
+msgstr ""
+
+#: assets/js/findmefollow.js:74
+msgid "Error"
+msgstr ""
+
+#: views/bootnav.php:7
+#: views/bootnav.php:18
+msgid "Extension"
+msgstr ""
+
+#: functions.inc.php:458
+msgid "Find Me/Follow Me"
+msgstr ""
+
+#: ucp/Findmefollow.class.php:68
+msgid "Find Me/Follow Me Has Been Updated!"
+msgstr ""
+
+#: ucp/Findmefollow.class.php:147
+#, php-format
+msgid "Find Me/Follow Me for %s"
+msgstr ""
+
+#: ucp/Findmefollow.class.php:100
+msgid "Find Me/Follow Me is not enabled for this user."
+msgstr ""
+
+#: install.php:5
+msgid "Findme Follow Toggle"
+msgstr ""
+
+#: Findmefollow.class.php:1373
+msgid "FindmeFollow"
+msgstr ""
+
+#: functions.inc.php:657
+#: functions.inc.php:661
+#: functions.inc.php:664
+#: views/form.php:221
+#: views/form.php:614
+#: views/form.php:656
+msgid "Fixed CID Value"
+msgstr ""
+
+#: functions.inc.php:664
+msgid ""
+"Fixed CID Value should be in a format of digits only with an option of E164 "
+"format using a leading \"+\""
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:293
+#: Api/Gql/Findmefollow.php:462
+msgid ""
+"Fixed CID Value. Fixed value to replace the CID with used with "
+"`externalCallerIdMode` fixed modes. Should be in a format of digits only "
+"with an option of E164 format using a leading `+`."
+msgstr ""
+
+#: functions.inc.php:664
+msgid ""
+"Fixed value to replace the CID with used with some of the modes above. "
+"Should be in a format of digits only with an option of E164 format using a "
+"leading \"+\"."
+msgstr ""
+
+#: views/form.php:668
+msgid ""
+"Fixed value to replace the CID with used with some of the modes above. "
+"Should be in a format of digits only with an option of E164 format using a "
+"leading '+'."
+msgstr ""
+
+#: findmefollow.i18n.php:4
+#: findmefollow.i18n.php:10
+#: page.findmefollow.php:11
+#: ucp/Findmefollow.class.php:124
+#: ucp/Findmefollow.class.php:153
+#: ucp/Findmefollow.class.php:165
+#: ucp/Findmefollow.class.php:191
+msgid "Follow Me"
+msgstr ""
+
+#: Findmefollow.class.php:897
+msgid ""
+"Follow Me Calendar Group Id [Mapped only if group exists; cannot set with "
+"calendar id]"
+msgstr ""
+
+#: Findmefollow.class.php:894
+msgid "Follow Me Calendar Id [Mapped only if calendar exists]"
+msgstr ""
+
+#: Findmefollow.class.php:900
+msgid "Follow Me Calendar Match Inverse [yes/no]"
+msgstr ""
+
+#: Findmefollow.class.php:891
+msgid "Follow Me Enable Calendar Matching [0/1]"
+msgstr ""
+
+#: Findmefollow.class.php:880
+msgid "Follow Me Enabled [Blank to disable]"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:194
+#: Api/Gql/Findmefollow.php:380
+msgid "Follow Me Extension Number"
+msgstr ""
+
+#: Findmefollow.class.php:883
+#: ucp/views/settings.php:27
+msgid "Follow Me List"
+msgstr ""
+
+#: Findmefollow.class.php:886
+msgid "Follow Me No Answer Destination"
+msgstr ""
+
+#: functions.inc.php:840
+#, php-format
+msgid "Follow Me: %s"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:531
+#, php-format
+msgid ""
+"Follow me allows only Same extension Behavior, Example: please provide this "
+"format `ext-local,%s,dest`"
+msgstr ""
+
+#: views/form.php:454
+msgid "Follow-Me"
+msgstr ""
+
+#: functions.inc.php:564
+#: views/form.php:478
+msgid "Follow-Me List"
+msgstr ""
+
+#: functions.inc.php:564
+msgid "Follow-Me List can not be empty if Follow-Me is enabled"
+msgstr ""
+
+#: functions.inc.php:885
+#, php-format
+msgid "Follow-Me User: %s"
+msgstr ""
+
+#: functions.inc.php:865
+#, php-format
+msgid "Follow-Me: %s (%s)"
+msgstr ""
+
+#: views/fmgrid.php:26
+msgid "Followme Extension"
+msgstr ""
+
+#: views/nogo.php:2
+msgid "Followme List"
+msgstr ""
+
+#: views/ucp_config.php:67
+msgid "Followme Ring Strategy Settings"
+msgstr ""
+
+#: functions.inc.php:660
+#: functions.inc.php:661
+#: views/form.php:224
+#: views/form.php:620
+msgid "Force Dialed Number"
+msgstr ""
+
+#: functions.inc.php:42
+msgid "Force Follow Me"
+msgstr ""
+
+#: functions.inc.php:492
+msgid "General Settings"
+msgstr ""
+
+#: views/form.php:243
+msgid "Group Number"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:189
+#: Api/Gql/Findmefollow.php:384
+msgid ""
+"If enabled, any call to this extension will go to this follow me instead, "
+"including directory calls by name from IVRs. If disabled, calls will go only "
+"to the extension. However, destinations that specify FollowMe will come "
+"here. This setting is often used in conjunction with VmX Locater, where you "
+"want a call to ring the extension, and then only if the caller chooses to "
+"find you do you want it to come here."
+msgstr ""
+
+#: functions.inc.php:515
+#: views/form.php:365
+msgid ""
+"If set the followme will only be active when the calendar group has an event."
+msgstr ""
+
+#: functions.inc.php:507
+#: views/form.php:336
+msgid "If set the followme will only be active when the calendar has an event."
+msgstr ""
+
+#: functions.inc.php:580
+#: views/form.php:212
+msgid ""
+"If you select a Music on Hold class to play, instead of 'Ring', they will "
+"hear that instead of Ringing while they are waiting for someone to pick up."
+msgstr ""
+
+#: views/ucp_config.php:18
+#: views/ucp_config.php:77
+msgid "Inherit"
+msgstr ""
+
+#: functions.inc.php:543
+#: views/form.php:404
+msgid "Initial Ring Time"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:253
+#: Api/Gql/Findmefollow.php:433
+msgid ""
+"Initial Ring Time. This is the number of seconds to ring the primary "
+"extension prior to proceeding to the `followMeList`. The extension can also "
+"be included in the `followMeList`. A 0 setting will bypass this."
+msgstr ""
+
+#: assets/js/findmefollow.js:114
+msgid ""
+"Invalid CID Number. Must be in a format of digits only with an option of "
+"E164 format using a leading \"+\""
+msgstr ""
+
+#: assets/js/findmefollow.js:111
+msgid "Invalid time specified"
+msgstr ""
+
+#: functions.inc.php:499
+#: views/form.php:308
+msgid ""
+"Link this Follow Me to a Calendar or Calendar group to automatically Enable/"
+"Disable based on a schedule"
+msgstr ""
+
+#: views/bootnav.php:12
+msgid "List Followme Groups"
+msgstr ""
+
+#: functions.inc.php:564
+#: views/form.php:498
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Pick below."
+"<br><br>You can include an extension on a remote system, or an external "
+"number by suffixing a number with a pound (#).  ex:  2448089# would dial "
+"2448089 on the appropriate trunk (see Outbound Routing).<br><br>Note: Any "
+"local extension added will skip that local extension's FindMe/FollowMe, if "
+"you wish the system to use another extension's FindMe/FollowMe append a # "
+"onto that extension, eg 105#"
+msgstr ""
+
+#: ucp/views/settings.php:29
+msgid ""
+"List extensions to ring, one per line. You can include an extension on a "
+"remote system, or an external number by suffixing a number with a pound "
+"(#).  ex:  2448089# would dial 2448089."
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:185
+#: Api/Gql/Findmefollow.php:669
+msgid "Message for the request"
+msgstr ""
+
+#: views/form.php:99
+msgid ""
+"Message to be played to the caller before dialing this group.<br><br>To add "
+"additional recordings please use the \"System Recordings\" MENU above"
+msgstr ""
+
+#: functions.inc.php:570
+msgid ""
+"Message to be played to the caller before dialing this group.<br><br>To add "
+"additional recordings please use the \"System Recordings\" MENU to the left"
+msgstr ""
+
+#: views/form.php:134
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled.<br><br>To add additional recordings use the \"System Recordings\" "
+"MENU above"
+msgstr ""
+
+#: functions.inc.php:616
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled.<br><br>To add additional recordings use the \"System Recordings\" "
+"MENU to the left"
+msgstr ""
+
+#: views/form.php:169
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1.<br><br>To add additional "
+"recordings use the \"System Recordings\" MENU above"
+msgstr ""
+
+#: functions.inc.php:619
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1.<br><br>To add additional "
+"recordings use the \"System Recordings\" MENU to the left"
+msgstr ""
+
+#: views/nogo.php:1
+msgid "Method not supported"
+msgstr ""
+
+#: functions.inc.php:661
+#: views/form.php:610
+msgid "Mode"
+msgstr ""
+
+#: findmefollow.i18n.php:8
+msgid ""
+"Much like a ring group, but works on individual extensions. When someone "
+"calls the extension, it can be setup to ring for a number of seconds before "
+"trying to ring other extensions and/or external numbers, or to ring all at "
+"once, or in other various 'hunt' configurations. Most commonly used to ring "
+"someone's cell phone if they don't answer their extension."
+msgstr ""
+
+#: functions.inc.php:495
+#: functions.inc.php:499
+#: functions.inc.php:518
+#: functions.inc.php:612
+#: views/fmgrid.php:18
+#: views/form.php:274
+#: views/form.php:300
+#: views/form.php:384
+#: views/form.php:594
+#: views/quickCreate.php:12
+#: views/ucp_config.php:15
+msgid "No"
+msgstr ""
+
+#: functions.inc.php:676
+msgid "No Answer"
+msgstr ""
+
+#: functions.inc.php:448
+#: functions.inc.php:589
+#: views/form.php:85
+#: views/form.php:564
+msgid "None"
+msgstr ""
+
+#: functions.inc.php:22
+#: functions.inc.php:26
+msgid "Normal Extension Behavior"
+msgstr ""
+
+#: ucp/views/settings.php:29
+msgid ""
+"Note: Any local extension added will skip that local extension's FindMe/"
+"FollowMe, if you wish the system to use another extension's FindMe/FollowMe "
+"append a # onto that extension, eg 105#"
+msgstr ""
+
+#: assets/js/findmefollow.js:113
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr ""
+
+#: functions.inc.php:676
+msgid ""
+"Optional destination call is routed to when the call is not answered on an "
+"otherwise idle phone. If the phone is in use and the call is simply ignored, "
+"then the busy destination will be used."
+msgstr ""
+
+#: functions.inc.php:658
+#: functions.inc.php:661
+#: views/form.php:222
+#: views/form.php:616
+msgid "Outside Calls Fixed CID Value"
+msgstr ""
+
+#: views/form.php:576
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr ""
+
+#: functions.inc.php:595
+msgid ""
+"Override the ringer volume. Note: This is only valid for Sangoma phones at "
+"this time"
+msgstr ""
+
+#: functions.inc.php:580
+#: views/form.php:188
+msgid "Play Music On Hold"
+msgstr ""
+
+#: functions.inc.php:470
+#, php-format
+msgid "Please enter a valid %s number"
+msgstr ""
+
+#: assets/js/findmefollow.js:110
+msgid "Please enter an extension list."
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:258
+msgid ""
+"READONLY. If the value is `novm`, then there is no voicemail box for this "
+"extension."
+msgstr ""
+
+#: functions.inc.php:616
+#: views/form.php:113
+msgid "Remote Announce"
+msgstr ""
+
+#: assets/js/findmefollow.js:74
+msgid "Request not received"
+msgstr ""
+
+#: Findmefollow.class.php:610
+msgid "Reset"
+msgstr ""
+
+#: functions.inc.php:574
+#: views/form.php:195
+msgid "Ring"
+msgstr ""
+
+#: ucp/views/settings.php:42
+#, php-format
+msgid "Ring %s First For"
+msgstr ""
+
+#: ucp/views/settings.php:51
+msgid "Ring Followme List For"
+msgstr ""
+
+#: functions.inc.php:558
+#: ucp/views/settings.php:34
+#: views/form.php:428
+msgid "Ring Strategy"
+msgstr ""
+
+#: functions.inc.php:561
+msgid "Ring Time"
+msgstr ""
+
+#: views/form.php:454
+msgid "Ring Time (max 60 sec)"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:198
+#: Api/Gql/Findmefollow.php:387
+msgid "Ring strategy for `followMeList`"
+msgstr ""
+
+#: functions.inc.php:595
+#: views/form.php:559
+msgid "Ringer Volume Override"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:283
+#: Api/Gql/Findmefollow.php:453
+msgid ""
+"Ringer Volume Override. Note: This is only valid for Sangoma phones at this "
+"time"
+msgstr ""
+
+#: ucp/views/settings.php:45
+#: ucp/views/settings.php:54
+msgid "Seconds"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:181
+#: Api/Gql/Findmefollow.php:665
+msgid "Status of the request"
+msgstr ""
+
+#: Findmefollow.class.php:610
+msgid "Submit"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:218
+#: Api/Gql/Findmefollow.php:405
+msgid "System Recording ID. Announcement played to caller"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:238
+#: Api/Gql/Findmefollow.php:421
+msgid ""
+"System Recording ID. Message to be played to the person RECEIVING the call, "
+"if `confirmCalls` is enabled."
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:243
+#: Api/Gql/Findmefollow.php:425
+msgid ""
+"System Recording ID. Message to be played to the person RECEIVING the call, "
+"if the call has already been accepted before they push 1."
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:474
+#: Api/Gql/Findmefollow.php:486
+msgid "The Follow Me Extension Number"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:130
+msgid "The extension number"
+msgstr ""
+
+#: ucp/Findmefollow.class.php:110
+msgid "The given extension is empty."
+msgstr ""
+
+#: views/form.php:255
+msgid "The number users will dial to ring extensions in this Followme group"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:213
+#: Api/Gql/Findmefollow.php:401
+msgid ""
+"The numbers that will be dialed. Numbers are `-` separated. External numbers "
+"should have a `#` suffix."
+msgstr ""
+
+#: ucp/Findmefollow.class.php:105
+msgid "There are no assigned extensions."
+msgstr ""
+
+#: views/ucp_config.php:55
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:268
+#: Api/Gql/Findmefollow.php:441
+msgid ""
+"This determines how matching an event is handled (`enableCalendar` must be "
+"true to activate). If true, then follow me will match whenever there is an "
+"event. If false, follow me will match whenever no event is present"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:522
+msgid "This extension does not exist"
+msgstr ""
+
+#: ucp/Findmefollow.class.php:114
+msgid "This extension is not assigned to this user."
+msgstr ""
+
+#: views/form.php:466
+msgid "This is in addition to the Initial Ring Time"
+msgstr ""
+
+#: functions.inc.php:543
+#: ucp/views/settings.php:48
+#: views/form.php:416
+msgid ""
+"This is the number of seconds to ring the primary extension prior to "
+"proceeding to the follow-me list. The extension can also be included in the "
+"follow-me list. A 0 setting will bypass this."
+msgstr ""
+
+#: ucp/views/settings.php:57
+msgid "Time in seconds that the phones will ring"
+msgstr ""
+
+#: functions.inc.php:561
+#: views/form.php:466
+msgid ""
+"Time in seconds that the phones will ring. For all hunt style ring "
+"strategies, this is the time for each iteration of phone(s) that are rung"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:203
+#: Api/Gql/Findmefollow.php:393
+msgid "Time in seconds that the phones will ring. Max 60 seconds"
+msgstr ""
+
+#: assets/js/findmefollow.js:112
+msgid "Time must be between 1 and 60 seconds"
+msgstr ""
+
+#: functions.inc.php:619
+#: views/form.php:148
+msgid "Too-Late Announce"
+msgstr ""
+
+#: functions.inc.php:658
+#: views/form.php:616
+msgid ""
+"Transmit the Fixed CID Value below on calls that come in from outside only. "
+"Internal extension to extension calls will continue to operate in default "
+"mode."
+msgstr ""
+
+#: functions.inc.php:660
+#: views/form.php:620
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This WILL "
+"be transmitted on trunks that block foreign CallerID"
+msgstr ""
+
+#: functions.inc.php:659
+#: views/form.php:618
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This will "
+"be BLOCKED on trunks that block foreign CallerID"
+msgstr ""
+
+#: functions.inc.php:656
+#: views/form.php:612
+msgid "Transmits the Callers CID if allowed by the trunk."
+msgstr ""
+
+#: ucp/views/settings.php:60
+msgid "Use Confirmation"
+msgstr ""
+
+#: functions.inc.php:659
+#: functions.inc.php:661
+#: views/form.php:223
+#: views/form.php:618
+msgid "Use Dialed Number"
+msgstr ""
+
+#: Api/Gql/Findmefollow.php:173
+msgid "Used to manage Follow Me"
+msgstr ""
+
+#: views/bootnav.php:4
+msgid "User"
+msgstr ""
+
+#: Findmefollow.class.php:1360
+msgid "User Primary Extension"
+msgstr ""
+
+#: views/ucp_config.php:87
+msgid "User will have the Option to select followme ring Strategy in UCP"
+msgstr ""
+
+#: Findmefollow.class.php:76
+msgid "Warning! Extension"
+msgstr ""
+
+#: assets/js/findmefollow.js:71
+msgid "We received and sent your request but something failed"
+msgstr ""
+
+#: functions.inc.php:518
+#: views/form.php:392
+msgid ""
+"When set to yes follow me will match (be enabled) whenever there is an "
+"event. When set to no followme will match (be enabled) whenever no event is "
+"present"
+msgstr ""
+
+#: views/form.php:692
+msgid "Where to send callers if there is no answer."
+msgstr ""
+
+#: functions.inc.php:495
+#: functions.inc.php:499
+#: functions.inc.php:518
+#: functions.inc.php:612
+#: views/fmgrid.php:16
+#: views/form.php:272
+#: views/form.php:298
+#: views/form.php:382
+#: views/form.php:592
+#: views/quickCreate.php:10
+#: views/ucp_config.php:13
+msgid "Yes"
+msgstr ""
+
+#: functions.inc.php:524
+msgid "You can not set both a group and a calendar"
+msgstr ""
+
+#: functions.inc.php:583
+msgid ""
+"You can optionally prefix the Caller ID name when ringing extensions in this "
+"group. ie: If you prefix with \"Sales:\", a call from John Doe would display "
+"as \"Sales:John Doe\" on the extensions that ring."
+msgstr ""
+
+#: views/form.php:524
+msgid ""
+"You can optionally prefix the CallerID name when ringing extensions in this "
+"group. ie: If you prefix with \"Sales:\", a call from John Doe would display "
+"as \"Sales:John Doe\" on the extensions that ring."
+msgstr ""
+
+#: assets/js/findmefollow.js:88
+msgid "You cant set both a group and a calendar"
+msgstr ""
+
+#: functions.inc.php:157
+msgid "Your followme is linked to a non-existant calendar"
+msgstr ""
+
+#: functions.inc.php:146
+msgid "Your followme is linked to a non-existant calendar group"
+msgstr ""
+
+#: views/form.php:199
+msgid "default"
+msgstr ""
+
+#: functions.inc.php:470
+msgid "device"
+msgstr ""
+
+#: functions.inc.php:470
+msgid "extension"
+msgstr ""
+
+#: functions.inc.php:551
+#: ucp/views/settings.php:12
+#: views/form.php:50
+msgid "firstavailable"
+msgstr ""
+
+#: functions.inc.php:552
+#: ucp/views/settings.php:14
+#: views/form.php:52
+msgid "firstnotonphone"
+msgstr ""
+
+#: functions.inc.php:548
+#: ucp/views/settings.php:6
+#: views/form.php:44
+msgid "hunt"
+msgstr ""
+
+#: Findmefollow.class.php:76
+msgid "is not allowed for your account"
+msgstr ""
+
+#: functions.inc.php:549
+#: ucp/views/settings.php:8
+#: views/form.php:46
+msgid "memoryhunt"
+msgstr ""
+
+#: views/form.php:198
+msgid "none"
+msgstr ""
+
+#: functions.inc.php:547
+#: ucp/views/settings.php:4
+#: views/form.php:42
+msgid ""
+"ring Extension for duration set in Initial Ring Time, and then terminate "
+"call to Extension and ring Follow-Me List for duration set in Ring Time."
+msgstr ""
+
+#: ucp/views/settings.php:2
+#: views/form.php:40
+msgid ""
+"ring Extension for duration set in Initial Ring Time, and then, while "
+"continuing call to extension (only if extension is in the Group List), ring "
+"Follow-Me List for duration set in Ring Time."
+msgstr ""
+
+#: functions.inc.php:546
+msgid ""
+"ring Extension for duration set in Initial Ring Time, and then, while "
+"continuing call to extension, ring Follow-Me List for duration set in Ring "
+"Time."
+msgstr ""
+
+#: functions.inc.php:549
+#: ucp/views/settings.php:8
+msgid ""
+"ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc."
+msgstr ""
+
+#: views/form.php:46
+msgid ""
+"ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
+"only when Confirm Calls is disabled."
+msgstr ""
+
+#: functions.inc.php:551
+#: ucp/views/settings.php:12
+msgid "ring only the first available channel"
+msgstr ""
+
+#: views/form.php:50
+msgid ""
+"ring only the first available channel. This strategy will work only when "
+"Confirm Calls is disabled."
+msgstr ""
+
+#: functions.inc.php:552
+#: ucp/views/settings.php:14
+msgid "ring only the first channel which is not off hook - ignore CW"
+msgstr ""
+
+#: views/form.php:52
+msgid ""
+"ring only the first channel which is not off hook - ignore CW. This strategy "
+"will work only when Confirm Calls is disabled."
+msgstr ""
+
+#: functions.inc.php:547
+#: ucp/views/settings.php:4
+#: views/form.php:42
+msgid "ringall"
+msgstr ""
+
+#: functions.inc.php:546
+#: ucp/views/settings.php:2
+#: views/form.php:40
+msgid "ringallv2"
+msgstr ""
+
+#: functions.inc.php:548
+#: ucp/views/settings.php:6
+#: views/form.php:44
+msgid "take turns ringing each available extension"
+msgstr ""
+
+#: functions.inc.php:550
+#: ucp/views/settings.php:10
+#: views/form.php:48
+msgid ""
+"these modes act as described above. However, if the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""

@@ -1,0 +1,51 @@
+msgid "Test"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+#. this is a test
+msgid "install"
+msgstr ""
+
+msgid "install test also"
+msgstr ""
+
+#. test of the uninstall comments
+msgid "uninstall"
+msgstr ""
+
+#. comment for chown
+msgid "ownership"
+msgstr ""
+
+#. comment for configure page
+msgid "configure page"
+msgstr ""
+
+msgid "configure page test more"
+msgstr ""
+
+msgid "one two three"
+msgstr ""
+
+msgid "show page"
+msgstr ""
+
+msgid "Testing FreePBX repo GitHub Actions and more"
+msgstr ""
+
+msgid "Hello"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "World"
+msgstr ""
+
+msgid "Thank you for visiting."
+msgstr ""

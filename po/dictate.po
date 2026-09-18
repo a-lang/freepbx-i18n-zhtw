@@ -1,0 +1,91 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dictate
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-03 07:35-0400\n"
+"PO-Revision-Date: 2026-09-15 16:32+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: dictate.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: dictate.i18n.php:4
+#: install.php:5
+msgid "Dictation"
+msgstr "口述錄音"
+
+#: functions.inc.php:137
+msgid "Dictation Format"
+msgstr "口述錄音格式"
+
+#: functions.inc.php:136
+msgid "Dictation Service"
+msgstr "口述錄音服務"
+
+#: functions.inc.php:133
+msgid "Dictation Services"
+msgstr "口述錄音服務"
+
+#: functions.inc.php:103
+msgid "Disabled"
+msgstr "已停用"
+
+#: functions.inc.php:138
+msgid "Email Address"
+msgstr "電子郵件地址"
+
+#: dictate.i18n.php:12
+#: install.php:7
+msgid "Email completed dictation"
+msgstr "以電子郵件傳送完成的口述錄音"
+
+#: functions.inc.php:102
+msgid "Enabled"
+msgstr "已啟用"
+
+#: functions.inc.php:139
+msgid "From Address"
+msgstr "寄件者地址"
+
+#: dictate.i18n.php:10
+#: install.php:6
+msgid "Perform dictation"
+msgstr "執行口述錄音"
+
+#: functions.inc.php:134
+msgid "Please enter a valid Email Address"
+msgstr "請輸入有效的電子郵件地址"
+
+#: functions.inc.php:139
+msgid ""
+"The email address that completed dictations are sent FROM. Format is \"A "
+"Persons Name &lt;email@address.com&gt;\", without quotes, or just a plain "
+"email address."
+msgstr ""
+"完成的口述錄音由這個電子郵件地址寄出。格式為「A Persons Name &lt;email@address.com&gt;」，不加引號，或直接使用一般的電子郵件地址。"
+
+#: functions.inc.php:138
+msgid "The email address that completed dictations are sent to."
+msgstr "完成的口述錄音要寄到的電子郵件地址。"
+
+#: dictate.i18n.php:8
+msgid ""
+"This uses the app_dictate module of Asterisk to let users record dictate "
+"into their phones. When complete, the dictations can be emailed to an email "
+"address specified in the extension page."
+msgstr ""
+"這使用 Asterisk 的 app_dictate 模組，讓使用者可以對著電話錄製口述內容。完成後，口述內容可以透過電子郵件寄到分機頁面中指定的電子郵件地址。"

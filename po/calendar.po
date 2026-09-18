@@ -1,0 +1,1107 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for calendar
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-30 02:48-0400\n"
+"PO-Revision-Date: 2026-09-15 17:10+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/remote_caldav_settings.php:4
+#, php-format
+msgid "%s CalDAV Calendar"
+msgstr "%s CalDAV 行事曆"
+
+#: views/calendargroups.php:3
+#, php-format
+msgid "%s Group"
+msgstr "%s 群組"
+
+#: views/local_settings.php:4
+#, php-format
+msgid "%s Local Calendar"
+msgstr "%s 本機行事曆"
+
+#: views/oauth_calendar_form.php:7
+#, php-format
+msgid "%s Outlook Calendar"
+msgstr "%s Outlook 行事曆"
+
+#: views/remote_ical_settings.php:4
+#, php-format
+msgid "%s iCal Calendar"
+msgstr "%s iCal 行事曆"
+
+#: views/calendar.php:24
+msgid "(Re)Generate Link"
+msgstr "（重新）產生連結"
+
+#: assets/js/calendar/fullcalendar-3.8.2.min.js:8
+msgid "+t]&&this["
+msgstr "+t]&&this["
+
+#: assets/js/calendar/fullcalendar-3.8.2.min.js:8
+msgid ""
+"+t].apply(this,e)},t.prototype.initAutoScroll=function(){var t=this.scrollEl;"
+"this.isAutoScroll=this.options.scroll&&t&&!t.is(window)&&!t.is(document),"
+"this.isAutoScroll&&this.listenTo(t,"
+msgstr ""
+"+t].apply(this,e)},t.prototype.initAutoScroll=function(){var t=this.scrollEl;this.isAutoScroll=this.options.scroll&&t&&!t.is(window)&&!t.is(document),this.isAutoScroll&&this.listenTo(t,"
+
+#: views/oauth_calendar_form.php:128
+#: views/remote_caldav_settings.php:184
+#: views/remote_ical_settings.php:102
+msgid "1 Day"
+msgstr "1 天"
+
+#: views/oauth_calendar_form.php:124
+#: views/remote_caldav_settings.php:180
+#: views/remote_ical_settings.php:98
+msgid "1 Hour"
+msgstr "1 小時"
+
+#: views/oauth_calendar_form.php:120
+#: views/remote_caldav_settings.php:176
+#: views/remote_ical_settings.php:94
+msgid "1 Minute"
+msgstr "1 分鐘"
+
+#: views/oauth_calendar_form.php:129
+#: views/remote_caldav_settings.php:185
+#: views/remote_ical_settings.php:103
+msgid "1 Week"
+msgstr "1 週"
+
+#: views/oauth_calendar_form.php:122
+#: views/remote_caldav_settings.php:178
+#: views/remote_ical_settings.php:96
+msgid "10 Minutes"
+msgstr "10 分鐘"
+
+#: views/oauth_calendar_form.php:127
+#: views/remote_caldav_settings.php:183
+#: views/remote_ical_settings.php:101
+msgid "12 Hours"
+msgstr "12 小時"
+
+#: views/oauth_calendar_form.php:125
+#: views/remote_caldav_settings.php:181
+#: views/remote_ical_settings.php:99
+msgid "2 Hours"
+msgstr "2 小時"
+
+#: views/oauth_calendar_form.php:123
+#: views/remote_caldav_settings.php:179
+#: views/remote_ical_settings.php:97
+msgid "30 Minutes"
+msgstr "30 分鐘"
+
+#: views/oauth_calendar_form.php:121
+#: views/remote_caldav_settings.php:177
+#: views/remote_ical_settings.php:95
+msgid "5 Minutes"
+msgstr "5 分鐘"
+
+#: views/oauth_calendar_form.php:126
+#: views/remote_caldav_settings.php:182
+#: views/remote_ical_settings.php:100
+msgid "6 Hours"
+msgstr "6 小時"
+
+#: IcalParser/IcalRangedParser.php:347
+#: IcalParser/IcalRangedParser.php:430
+#, php-format
+msgid ""
+"A calendar you have added has an event called \"%event\" that has a "
+"RECURRENCE-ID rule. Because there is no full support yet they are ignored, "
+"please consider changing this to Exceptions/Additions."
+msgstr ""
+"您新增的行事曆中有一個名為「%event」的事件帶有 RECURRENCE-ID 規則。由於尚未完整支援，這些規則會被忽略，請考慮將其改為 Exceptions/Additions。"
+
+#: IcalParser/IcalRangedParser.php:195
+msgid ""
+"A calendar you have added has an event that has a reoccuring rule of COUNT. "
+"When COUNT is used this slows down Calendar drastically. Please change your "
+"rule to another format"
+msgstr "您新增的行事曆中有一個事件使用 COUNT 重複規則。使用 COUNT 會大幅拖慢行事曆的速度。請將規則改為其他格式"
+
+#: views/calendargroupgrid.php:38
+#: views/grid.php:34
+#: views/outlook_configs_grid.php:20
+msgid "Actions"
+msgstr "動作"
+
+#: Calendar.class.php:496
+msgid "Add"
+msgstr "新增"
+
+#: views/grid.php:18
+#, php-format
+msgid "Add %s"
+msgstr "新增 %s"
+
+#: views/grid.php:14
+#: views/rnav.php:6
+msgid "Add Calendar"
+msgstr "新增行事曆"
+
+#: views/outlook_configs_grid.php:10
+msgid "Add Config"
+msgstr "新增組態"
+
+#: assets/js/calendar/calendar.js:109
+msgid "Add Event"
+msgstr "新增事件"
+
+#: views/calendargroupgrid.php:20
+msgid "Add Group"
+msgstr "新增群組"
+
+#: views/rnav.php:9
+msgid "Add New Local Calendar"
+msgstr "新增本機行事曆"
+
+#: views/rnav.php:11
+msgid "Add Remote CalDAV Calendar"
+msgstr "新增遠端 CalDAV 行事曆"
+
+#: views/rnav.php:14
+msgid "Add Remote Google Calendar"
+msgstr "新增遠端 Google 行事曆"
+
+#: views/rnav.php:12
+msgid "Add Remote Outlook Calendar using Oauth2"
+msgstr "新增使用 OAuth2 的遠端 Outlook 行事曆"
+
+#: views/rnav.php:10
+msgid "Add Remote iCal Calendar"
+msgstr "新增遠端 iCal 行事曆"
+
+#: views/calendar.php:476
+#: views/calendar.php:521
+msgid "After"
+msgstr "之後"
+
+#: Console/Calendar.class.php:102
+#: views/calendar.php:187
+#: views/calendar.php:192
+msgid "All Day"
+msgstr "全天"
+
+#: views/calendar.php:200
+msgid "All Day Event"
+msgstr "全天事件"
+
+#: views/ucp_config.php:65
+msgid "Allowed Calendar Groups"
+msgstr "允許的行事曆群組"
+
+#: views/ucp_config.php:39
+msgid "Allowed Calendars"
+msgstr "允許的行事曆"
+
+#: views/outlook_config_form.php:107
+msgid "Application (client) ID"
+msgstr "應用程式（使用者端）識別碼"
+
+#: calendar.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/remote_caldav_settings.php:220
+msgid "Attempting to load..."
+msgstr "正在載入…"
+
+#: views/outlook_config_form.php:3
+msgid "Authorize access"
+msgstr "授權存取"
+
+#: views/oauth_calendar_form.php:115
+#: views/remote_caldav_settings.php:171
+#: views/remote_ical_settings.php:89
+msgid "Auto Refresh"
+msgstr "自動重新整理"
+
+#: views/outlook_config_form.php:98
+msgid ""
+"Azzure Active Directory Id or Tenant Id, which you will get on azure portal "
+"while registering your application"
+msgstr "Azure Active Directory 識別碼或租使用者識別碼，您註冊應用程式時可在 Azure 入口網站取得"
+
+#: Calendar.class.php:998
+#: Console/Calendar.class.php:26
+#: calendar.i18n.php:4
+#: calendar.i18n.php:10
+#: views/oauth_calendar_form.php:175
+#: views/remote_caldav_settings.php:133
+msgid "Calendar"
+msgstr "行事曆"
+
+#: calendar.i18n.php:12
+msgid "Calendar Event Groups"
+msgstr "行事曆事件群組"
+
+#: functions.inc.php:13
+#: functions.inc.php:23
+#, php-format
+msgid "Calendar Group: %s"
+msgstr "行事曆群組：%s"
+
+#: functions.inc.php:13
+msgid "Calendar Groups"
+msgstr "行事曆群組"
+
+#: views/calendargroupgrid.php:12
+msgid ""
+"Calendar event groups are a collection of calendars, events or categories "
+"from the Calendar Module."
+msgstr "行事曆事件群組是行事曆模組中行事曆、事件或類別的集合。"
+
+#: views/ucp_config.php:79
+msgid "Calendar groups the user may utilize."
+msgstr "使用者可使用的行事曆群組。"
+
+#: assets/js/calendar/calendar.js:138
+msgid "Calendar name cannot be empty."
+msgstr "行事曆名稱不能為空白。"
+
+#: assets/js/calendar/calendar.js:133
+msgid "Calendar names should be unique."
+msgstr "行事曆名稱必須是唯一的。"
+
+#: drivers/Ical.php:57
+msgid "Calendar processed successfully"
+msgstr "行事曆已成功處理"
+
+#: IcalParser/IcalRangedParser.php:195
+msgid "Calendar using COUNT"
+msgstr "使用 COUNT 的行事曆"
+
+#: IcalParser/IcalRangedParser.php:347
+#: IcalParser/IcalRangedParser.php:430
+msgid "Calendar using RECURRENCE-ID"
+msgstr "使用 RECURRENCE-ID 的行事曆"
+
+#: views/calendargroups.php:43
+msgid "Calendars"
+msgstr "行事曆"
+
+#: views/ucp_config.php:53
+msgid "Calendars the user may utilize"
+msgstr "使用者可使用的行事曆"
+
+#: views/calendar.php:121
+msgid "Categories this event belongs to, separated by comma"
+msgstr "此事件所屬的類別，以逗號分隔"
+
+#: Console/Calendar.class.php:27
+msgid "Check if match, value can be any timestamp"
+msgstr "檢查是否相符，值可以是任何時間戳記"
+
+#: views/outlook_config_form.php:127
+msgid "Client Secret Value"
+msgstr "使用者端祕密值"
+
+#: views/calendar.php:544
+msgid "Close"
+msgstr "關閉"
+
+#: Console/Calendar.class.php:83
+msgid "Commands"
+msgstr "指令"
+
+#: Calendar.class.php:438
+msgid "Config name already exists."
+msgstr "組態名稱已存在。"
+
+#: views/outlook_config_form.php:117
+msgid "Consumer Key For Outlook"
+msgstr "Outlook 的 Consumer Key"
+
+#: views/calendar.php:313
+msgid "Daily"
+msgstr "每日"
+
+#: Calendar.class.php:443
+msgid "Data saved"
+msgstr "資料已儲存"
+
+#: views/calendar.php:424
+msgid "Date of the month (E.g. 16th)"
+msgstr "每月日期（例如 16 日）"
+
+#: views/calendar.php:449
+msgid "Date of the year (E.g. May 16th)"
+msgstr "每年日期（例如 5 月 16 日）"
+
+#: views/calendar.php:426
+msgid "Day of the month (E.g. 2nd Monday)"
+msgstr "每月星期幾（例如第 2 個星期一）"
+
+#: views/calendar.php:451
+msgid "Day of the year (E.g. 2nd Monday in May)"
+msgstr "每年星期幾（例如 5 月第 2 個星期一）"
+
+#: assets/js/calendar/calendar.js:400
+msgid "Days"
+msgstr "天"
+
+#: views/calendar.php:486
+msgid "Define when to stop the reoccurrance"
+msgstr "定義何時停止重複"
+
+#: Calendar.class.php:926
+#: Calendar.class.php:937
+msgid "Delete"
+msgstr "刪除"
+
+#: views/calendar.php:543
+msgid "Delete Event"
+msgstr "刪除事件"
+
+#: Console/Calendar.class.php:73
+#: Console/Calendar.class.php:102
+#: views/grid.php:32
+#: views/local_settings.php:44
+#: views/oauth_calendar_form.php:49
+#: views/outlook_config_form.php:46
+#: views/outlook_configs_grid.php:18
+#: views/remote_caldav_settings.php:44
+#: views/remote_ical_settings.php:45
+msgid "Description"
+msgstr "描述"
+
+#: views/calendar.php:97
+msgid "Description for the event"
+msgstr "事件的描述"
+
+#: views/outlook_config_form.php:58
+msgid "Description for the settings."
+msgstr "此設定的描述。"
+
+#: views/outlook_config_form.php:88
+msgid "Directory (tenant) ID"
+msgstr "目錄（租使用者）識別碼"
+
+#: assets/js/calendar/calendar.js:455
+msgid "Duplicate calendar name."
+msgstr "行事曆名稱重複。"
+
+#: Calendar.class.php:501
+msgid "Edit"
+msgstr "編輯"
+
+#: Calendar.class.php:917
+msgid "Edit Settings"
+msgstr "編輯設定"
+
+#: views/oauth_calendar_form.php:71
+msgid "Email"
+msgstr "電子郵件"
+
+#: views/ucp_config.php:7
+msgid "Enable Calendar"
+msgstr "啟用行事曆"
+
+#: Console/Calendar.class.php:102
+msgid "End"
+msgstr "結束"
+
+#: views/calendar.php:160
+msgid "End Date"
+msgstr "結束日期"
+
+#: views/calendar.php:236
+msgid "End Time"
+msgstr "結束時間"
+
+#: views/calendar.php:469
+msgid "Ends"
+msgstr "結束"
+
+#: views/calendar.php:43
+msgid "Event"
+msgstr "事件"
+
+#: views/calendar.php:109
+msgid "Event Categories"
+msgstr "事件類別"
+
+#: views/calendar.php:85
+msgid "Event Description"
+msgstr "事件描述"
+
+#: views/calendar.php:61
+msgid "Event Title"
+msgstr "事件標題"
+
+#: assets/js/calendar/calendar.js:74
+msgid "Event must have a title"
+msgstr "事件必須有標題"
+
+#: views/calendargroups.php:59
+msgid "Events to include in to this group"
+msgstr "要納入此群組的事件"
+
+#: views/calendar.php:315
+msgid "Every Monday, Wednesday, and Friday"
+msgstr "每個星期一、星期三和星期五"
+
+#: views/calendar.php:316
+msgid "Every Tuesday and Thursday"
+msgstr "每個星期二和星期四"
+
+#: views/calendar.php:314
+msgid "Every weekday (Monday to Friday"
+msgstr "每個工作日（週一至週五"
+
+#: drivers/Caldav.php:47
+msgid ""
+"Exception occured while retrieving the list of calendars. Are connection "
+"parameters correct?"
+msgstr "擷取行事曆清單時發生例外狀況。連線參數是否正確？"
+
+#: assets/js/calendargroups/calendargroups.js:11
+msgid "Expand Recurring Dates"
+msgstr "展開重複日期"
+
+#: Console/Calendar.class.php:27
+msgid "Export Calendar by ID"
+msgstr "依 ID 匯出行事曆"
+
+#: Console/Calendar.class.php:243
+msgid "File does not exist"
+msgstr "檔案不存在"
+
+#: Console/Calendar.class.php:27
+msgid "File location of the ics to import"
+msgstr "要匯入的 ics 檔案位置"
+
+#: Console/Calendar.class.php:214
+msgid "Finished"
+msgstr "已完成"
+
+#: Console/Calendar.class.php:27
+msgid "Force command"
+msgstr "強制指令"
+
+#: views/calendar.php:73
+msgid "Friendly name for the event"
+msgstr "事件的易記名稱"
+
+#: assets/js/calendar/calendar.js:14
+msgid "Generating..."
+msgstr "正在產生…"
+
+#: views/outlook_config_form.php:177
+msgid "Get OAUTH2 Token for the Outlook API"
+msgstr "取得 Outlook API 的 OAuth2 Token"
+
+#: Console/Calendar.class.php:82
+msgid "Get more details about calendars, please run the commands below:"
+msgstr "如需行事曆的更多詳細資料，請執行下列指令："
+
+#: views/calendargroupgrid.php:37
+msgid "Group"
+msgstr "群組"
+
+#: views/oauth_calendar_form.php:138
+#: views/remote_caldav_settings.php:194
+#: views/remote_ical_settings.php:112
+msgid "How often this calendar will synchronize with the remote server"
+msgstr "此行事曆多久與遠端伺服器同步一次"
+
+#: Console/Calendar.class.php:73
+msgid "ID"
+msgstr "ID"
+
+#: views/calendar.php:8
+msgid ""
+"If calendar is not syncing properly please check for the outlook config "
+"which is selected for this calendar."
+msgstr "如果行事曆未正常同步，請檢查為此行事曆選取的 Outlook 組態。"
+
+#: Console/Calendar.class.php:27
+msgid "Import Calendar by ID"
+msgstr "依 ID 匯入行事曆"
+
+#: Calendar.class.php:981
+#: Calendar.class.php:989
+#: views/ucp_config.php:18
+msgid "Inherit"
+msgstr "繼承"
+
+#: drivers/Ical.php:54
+msgid "Invalid ical remote URL"
+msgstr "無效的 iCal 遠端 URL"
+
+#: Console/Calendar.class.php:205
+msgid "Invalid type"
+msgstr "無效的類型"
+
+#: Calendar.class.php:471
+msgid "Invalid user name/config"
+msgstr "無效的使用者名稱/組態"
+
+#: views/rnav.php:2
+msgid "List Calendars"
+msgstr "列出行事曆"
+
+#: Console/Calendar.class.php:27
+msgid "List Events"
+msgstr "列出事件"
+
+#: drivers/Local.php:13
+msgid "Local Calendar"
+msgstr "本機行事曆"
+
+#: views/outlook_config_form.php:157
+msgid "Login URL for Outlook"
+msgstr "Outlook 的登入 URL"
+
+#: Console/Calendar.class.php:161
+msgid "Match Found"
+msgstr "找到相符項目"
+
+#: Console/Calendar.class.php:187
+#: Console/Calendar.class.php:198
+msgid "Matched"
+msgstr "相符"
+
+#: views/calendar.php:318
+msgid "Monthly"
+msgstr "每月"
+
+#: assets/js/calendar/calendar.js:415
+msgid "Months"
+msgstr "月"
+
+#: views/calendargroupgrid.php:12
+msgid ""
+"Multiple calendars, events and/or categories can be placed into separate "
+"groups. Even multiple events from different calendars can be placed into a "
+"single group!"
+msgstr "多個行事曆、事件及/或類別可以放入不同的群組。即使是來自不同行事曆的多個事件，也可以放入單一群組！"
+
+#: views/calendar.php:8
+msgid "NOTE:"
+msgstr "注意："
+
+#: Console/Calendar.class.php:73
+#: Console/Calendar.class.php:102
+#: views/calendargroups.php:19
+#: views/grid.php:31
+#: views/local_settings.php:22
+#: views/oauth_calendar_form.php:27
+#: views/outlook_config_form.php:24
+#: views/outlook_configs_grid.php:17
+#: views/remote_caldav_settings.php:22
+#: views/remote_ical_settings.php:23
+#: views/rnav.php:31
+msgid "Name"
+msgstr "名稱"
+
+#: views/outlook_config_form.php:36
+msgid "Name for the settings."
+msgstr "此設定的名稱。"
+
+#: views/calendargroups.php:31
+msgid "Name of this group"
+msgstr "此群組的名稱"
+
+#: views/calendar.php:474
+msgid "Never"
+msgstr "永不"
+
+#: Console/Calendar.class.php:105
+#: views/ucp_config.php:15
+msgid "No"
+msgstr "否"
+
+#: Calendar.class.php:319
+#, php-format
+msgid "No Categories for %s"
+msgstr "%s 沒有類別"
+
+#: Calendar.class.php:333
+#, php-format
+msgid "No Events for %s"
+msgstr "%s 沒有事件"
+
+#: Console/Calendar.class.php:164
+#: Console/Calendar.class.php:190
+#: Console/Calendar.class.php:201
+msgid "No Match Found"
+msgstr "找不到相符項目"
+
+#: Console/Calendar.class.php:102
+msgid "Now Match"
+msgstr "目前相符"
+
+#: views/oauth_calendar_form.php:148
+msgid "Oauth Config"
+msgstr "OAuth 組態"
+
+#: views/calendar.php:496
+msgid "Occurrences"
+msgstr "發生次數"
+
+#: views/calendar.php:478
+msgid "On"
+msgstr "於"
+
+#: Console/Calendar.class.php:27
+msgid "One of: calendar id | event id | group id"
+msgstr "其中之一：calendar id | event id | group id"
+
+#: Console/Calendar.class.php:27
+msgid "One of: calendar | event | group"
+msgstr "其中之一：calendar | event | group"
+
+#: views/outlook_config_form.php:147
+msgid "Outlook Auth URL"
+msgstr "Outlook 的驗證 URL"
+
+#: views/outlook_config_form.php:9
+msgid "Outlook Config"
+msgstr "Outlook 組態"
+
+#: views/grid.php:24
+#: views/rnav.php:3
+msgid "Outlook Oauth2 Config"
+msgstr "Outlook OAuth2 組態"
+
+#: views/outlook_config_form.php:68
+msgid "PBX URL"
+msgstr "PBX URL"
+
+#: views/remote_caldav_settings.php:110
+msgid "Password"
+msgstr "密碼"
+
+#: assets/js/calendar/calendar.js:463
+msgid "Please define a valid url"
+msgstr "請定義有效的 URL"
+
+#: views/oauth_calendar_form.php:192
+#: views/remote_caldav_settings.php:153
+msgid "Please enter valid credentials above"
+msgstr "請在上方輸入有效的憑證"
+
+#: Calendar.class.php:471
+#: Calendar.class.php:484
+msgid "Please generated the auth token to list the user calendars."
+msgstr "請產生驗證 Token 以列出使用者行事曆。"
+
+#: views/oauth_calendar_form.php:153
+msgid "Please select a Config"
+msgstr "請選取組態"
+
+#: views/remote_caldav_settings.php:66
+msgid "Principal URL"
+msgstr "Principal URL"
+
+#: views/calendar.php:24
+msgid "Private address in iCal format"
+msgstr "iCal 格式的私人位址"
+
+#: views/calendar.php:26
+msgid "Private iCal Link"
+msgstr "私人 iCal 連結"
+
+#: Console/Calendar.class.php:102
+msgid "Recurring"
+msgstr "重複"
+
+#: drivers/Caldav.php:17
+msgid "Remote CalDAV Calendar"
+msgstr "遠端 CalDAV 行事曆"
+
+#: drivers/Oauth.php:15
+msgid "Remote Outlook Calendar using Oauth2"
+msgstr "使用 OAuth2 的遠端 Outlook 行事曆"
+
+#: views/remote_ical_settings.php:67
+msgid "Remote URL"
+msgstr "遠端 URL"
+
+#: drivers/Ical.php:14
+msgid "Remote iCal Calendar"
+msgstr "遠端 iCal 行事曆"
+
+#: views/calendar.php:284
+#: views/calendar.php:289
+msgid "Reoccurring"
+msgstr "重複"
+
+#: views/calendar.php:297
+msgid "Reoccurring Event"
+msgstr "重複事件"
+
+#: views/calendar.php:338
+msgid "Repeat Every"
+msgstr "每隔"
+
+#: views/calendar.php:394
+msgid "Repeat On"
+msgstr "重複於"
+
+#: views/calendar.php:419
+#: views/calendar.php:444
+msgid "Repeat by"
+msgstr "重複依據"
+
+#: views/calendar.php:384
+msgid "Repeat every X interval"
+msgstr "每隔 X 個間隔重複"
+
+#: views/calendar.php:308
+msgid "Repeats"
+msgstr "重複"
+
+#: Calendar.class.php:923
+#: Calendar.class.php:926
+#: Calendar.class.php:934
+#: Calendar.class.php:937
+msgid "Reset"
+msgstr "重設"
+
+#: Console/Calendar.class.php:27
+msgid "Reset Calendar by ID"
+msgstr "依 ID 重設行事曆"
+
+#: Console/Calendar.class.php:227
+#: Console/Calendar.class.php:238
+msgid "Reset is only supported on local calendars!"
+msgstr "重設僅支援本機行事曆！"
+
+#: views/outlook_config_form.php:170
+msgid "Save"
+msgstr "儲存"
+
+#: views/calendar.php:409
+msgid "Select day of week to repeat on"
+msgstr "選取要重複的星期幾"
+
+#: views/calendar.php:328
+msgid "Select how often this event repeats"
+msgstr "選取此事件的重複頻率"
+
+#: views/calendar.php:434
+#: views/calendar.php:459
+msgid "Select how to repeat"
+msgstr "選取重複方式"
+
+#: views/oauth_calendar_form.php:200
+#: views/remote_caldav_settings.php:161
+msgid "Select specific calendar"
+msgstr "選取特定的行事曆"
+
+#: views/calendargroups.php:84
+msgid ""
+"Select specific cateogories for this group. If no events are selected but "
+"categories are selected then all events in said categories will match. "
+"Changing categories will change events below"
+msgstr "為此群組選取特定類別。若未選取事件但已選取類別，則所選類別中的所有事件都會相符。變更類別將變更下方的事件"
+
+#: views/calendargroups.php:109
+msgid ""
+"Select specific events for this group. If no events are selected but "
+"categories are selected then all events in said categories will match"
+msgstr "為此群組選取特定事件。若未選取事件但已選取類別，則所選類別中的所有事件都會相符"
+
+#: views/oauth_calendar_form.php:165
+msgid "Select the Oauth Config or credentials for this calendar"
+msgstr "選取此行事曆的 OAuth 組態或憑證"
+
+#: drivers/Oauth.php:88
+msgid ""
+"Something went wrong while generating token. Please regenerate the auth "
+"token by checking the respective outlook config and try again"
+msgstr "產生 Token 時發生錯誤。請檢查對應的 Outlook 組態並重新產生驗證 Token，然後再試一次"
+
+#: views/calendargroups.php:71
+msgid "Specific Categories"
+msgstr "特定類別"
+
+#: views/calendargroups.php:96
+msgid "Specific Events"
+msgstr "特定事件"
+
+#: Console/Calendar.class.php:102
+msgid "Start"
+msgstr "開始"
+
+#: views/calendar.php:133
+msgid "Start Date"
+msgstr "開始日期"
+
+#: views/calendar.php:212
+msgid "Start Time"
+msgstr "開始時間"
+
+#: Console/Calendar.class.php:212
+msgid "Starting Sync..."
+msgstr "正在開始同步…"
+
+#: Calendar.class.php:923
+#: Calendar.class.php:926
+#: Calendar.class.php:934
+#: Calendar.class.php:937
+#: views/calendar.php:545
+msgid "Submit"
+msgstr "提交"
+
+#: Console/Calendar.class.php:247
+msgid "Successfully imported calendar"
+msgstr "已成功匯入行事曆"
+
+#: Console/Calendar.class.php:231
+msgid "Successfully reset the calendar"
+msgstr "已成功重設行事曆"
+
+#: Calendar.class.php:414
+msgid "Successfully updated event"
+msgstr "已成功更新事件"
+
+#: Console/Calendar.class.php:27
+msgid "Syncronize all Calendars"
+msgstr "同步所有行事曆"
+
+#: views/outlook_configs_grid.php:19
+msgid "Tenant Id"
+msgstr "租使用者識別碼"
+
+#: views/outlook_config_form.php:80
+msgid "The PBX URL to get on which you will get auth responses."
+msgstr "用於接收驗證回應的 PBX URL。"
+
+#: views/remote_caldav_settings.php:100
+msgid "The Userman for this calendar"
+msgstr "此行事曆的 Userman 使用者"
+
+#: views/local_settings.php:56
+#: views/oauth_calendar_form.php:61
+#: views/remote_caldav_settings.php:56
+#: views/remote_ical_settings.php:57
+msgid "The description of this calendar"
+msgstr "此行事曆的描述"
+
+#: views/oauth_calendar_form.php:83
+msgid "The email address of this calendar's user [Optional]"
+msgstr "此行事曆使用者的電子郵件位址（選用）"
+
+#: views/local_settings.php:34
+#: views/oauth_calendar_form.php:39
+#: views/remote_caldav_settings.php:34
+#: views/remote_ical_settings.php:35
+msgid "The name of this calendar"
+msgstr "此行事曆的名稱"
+
+#: views/remote_caldav_settings.php:122
+msgid "The password for this calendar"
+msgstr "此行事曆的密碼"
+
+#: views/remote_caldav_settings.php:78
+msgid "The principal url for this calendar"
+msgstr "此行事曆的 Principal URL"
+
+#: views/remote_ical_settings.php:79
+msgid "The remote url for this calendar"
+msgstr "此行事曆的遠端 URL"
+
+#: views/calendar.php:148
+msgid "The time to start the event"
+msgstr "事件開始的時間"
+
+#: views/oauth_calendar_form.php:105
+msgid ""
+"The username of this calendar's user. Please make sure username must be the "
+"micrsoft outlook's username"
+msgstr "此行事曆使用者的使用者名稱。請確認使用者名稱必須是 Microsoft Outlook 的使用者名稱"
+
+#: assets/js/calendar/calendar.js:196
+msgid "There was an error fetching the events"
+msgstr "擷取事件時發生錯誤"
+
+#: views/calendargroupgrid.php:12
+msgid "These groups can then be linked to various applications or utilities"
+msgstr "這些群組接著可連結至各種應用程式或工具"
+
+#: calendar.i18n.php:8
+msgid ""
+"This module is used to manage calendar and time based events for FreePBX"
+msgstr "此模組用於管理 FreePBX 的行事曆與時間型事件"
+
+#: views/calendar.php:224
+msgid "Time event starts"
+msgstr "事件開始的時間"
+
+#: views/calendar.php:248
+msgid "Time the event ends"
+msgstr "事件結束的時間"
+
+#: views/calendar.php:175
+msgid "Time this event ends"
+msgstr "此事件結束的時間"
+
+#: Console/Calendar.class.php:73
+#: Console/Calendar.class.php:102
+#: views/calendar.php:260
+#: views/local_settings.php:67
+#: views/oauth_calendar_form.php:211
+msgid "Timezone"
+msgstr "時區"
+
+#: views/local_settings.php:79
+#: views/oauth_calendar_form.php:223
+msgid "Timezone for this Calendar"
+msgstr "此行事曆的時區"
+
+#: views/calendar.php:272
+msgid "Timezone for this event"
+msgstr "此事件的時區"
+
+#: Console/Calendar.class.php:73
+#: views/grid.php:33
+#: views/rnav.php:32
+msgid "Type"
+msgstr "類型"
+
+#: Console/Calendar.class.php:102
+msgid "UID"
+msgstr "UID"
+
+#: drivers/Base.php:42
+msgid "Unknown Calendar"
+msgstr "未知的行事曆"
+
+#: Calendar.class.php:919
+#: assets/js/calendar/calendar.js:351
+msgid "Update from Source"
+msgstr "從來源更新"
+
+#: assets/js/calendar/calendar.js:334
+msgid "Updating..."
+msgstr "正在更新…"
+
+#: assets/js/calendargroups/calendargroups.js:27
+msgid "Use All Categories"
+msgstr "使用所有類別"
+
+#: assets/js/calendargroups/calendargroups.js:10
+msgid "Use All Events"
+msgstr "使用所有事件"
+
+#: views/calendar.php:264
+msgid "Use Calendar Timezone"
+msgstr "使用行事曆時區"
+
+#: views/oauth_calendar_form.php:93
+#: views/remote_caldav_settings.php:88
+msgid "Username"
+msgstr "使用者名稱"
+
+#: views/calendar.php:18
+msgid "Utilizing the calendar timezone (You can change this in Edit Settings)"
+msgstr "使用行事曆時區（您可以在「編輯設定」中變更）"
+
+#: views/calendar.php:20
+msgid ""
+"Utilizing your timezone (You can change this in Advanced Settings or User "
+"Manager)"
+msgstr "使用您的時區（您可以在「進階設定」或「使用者管理員」中變更）"
+
+#: views/calendargroupgrid.php:18
+msgid "View Calendars"
+msgstr "檢視行事曆"
+
+#: views/calendar.php:11
+#, php-format
+msgid "Viewing Calendar '%s'"
+msgstr "正在檢視行事曆「%s」"
+
+#: views/calendar.php:14
+#, php-format
+msgid "Viewing from timezone '%s'"
+msgstr "正在從「%s」時區檢視"
+
+#: assets/js/calendar/calendar.js:138
+#: assets/js/calendar/calendar.js:455
+msgid "Warning"
+msgstr "警告"
+
+#: views/calendar.php:317
+msgid "Weekly"
+msgstr "每週"
+
+#: assets/js/calendar/calendar.js:397
+msgid "Weeks"
+msgstr "週"
+
+#: views/calendargroupgrid.php:8
+msgid "What are Calendar Event Groups?"
+msgstr "什麼是行事曆事件群組？"
+
+#: views/ucp_config.php:28
+msgid "Whether to allow this user to be able to access the calendar in UCP"
+msgstr "是否允許此使用者在 UCP 中存取行事曆"
+
+#: views/calendar.php:536
+msgid "X number of occurances"
+msgstr "發生 X 次"
+
+#: views/calendar.php:319
+msgid "Yearly"
+msgstr "每年"
+
+#: assets/js/calendar/calendar.js:422
+msgid "Years"
+msgstr "年"
+
+#: Console/Calendar.class.php:105
+#: views/ucp_config.php:13
+msgid "Yes"
+msgstr "是"
+
+#: Calendar.class.php:367
+#: Calendar.class.php:411
+msgid "You can only edit local calendars"
+msgstr "您只能編輯本機行事曆"
+
+#: Calendar.class.php:481
+msgid "found user calendars"
+msgstr "找到使用者行事曆"
+
+#: views/outlook_config_form.php:137
+msgid "helptext"
+msgstr "說明文字"
+
+#: views/calendar.php:502
+#: views/calendar.php:511
+msgid "occurrences"
+msgstr "發生次數"
+
+#: Calendar.class.php:1223
+msgid "saved access token"
+msgstr "已儲存存取 Token"
+
+#: Calendar.class.php:449
+msgid "saved auth code"
+msgstr "已儲存授權碼"
+
+#: Calendar.class.php:355
+msgid "to"
+msgstr "至"

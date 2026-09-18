@@ -1,0 +1,242 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for disa
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 00:04-0400\n"
+"PO-Revision-Date: 2026-09-15 16:38+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/form.php:245
+msgid ""
+"(Experts Only) Sets the context that calls will originate from. Leave this "
+"as from-internal unless you know what you're doing."
+msgstr "（僅限專家）設定通話所源自的 context。除非您知道自己在做什麼，否則請保留 from-internal。"
+
+#: views/form.php:221
+msgid ""
+"(Optional) When using this DISA, the users CallerID will be set to this. "
+"Format is \"User Name\" <5551234>"
+msgstr "（可選）使用此 DISA 時，使用者的來電顯示將設為此值。格式為「使用者名稱」<5551234>"
+
+#: views/grid.php:11
+msgid "Actions"
+msgstr "動作"
+
+#: views/bootnav.php:5
+#: views/form.php:17
+#: views/grid.php:5
+msgid "Add DISA"
+msgstr "新增 DISA"
+
+#: views/form.php:257
+msgid "Allow Hangup"
+msgstr "允許掛斷"
+
+#: views/form.php:272
+#, php-format
+msgid ""
+"Allow the current call to be disconnected and dial tone presented for a new "
+"call by pressing the Hangup feature code: %s while in a call"
+msgstr "通話中按下掛斷功能碼 %s，即可中斷目前通話並呈現撥號音以供撥打新通話"
+
+#: disa.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/form.php:158
+msgid "Call Recording"
+msgstr "通話錄音"
+
+#: views/form.php:209
+msgid "Caller ID"
+msgstr "來電顯示"
+
+#: views/form.php:284
+msgid "Caller ID Override"
+msgstr "來電顯示覆寫"
+
+#: views/form.php:233
+msgid "Context"
+msgstr "Context"
+
+#: views/form.php:315
+msgid "Context cannot be blank"
+msgstr "Context 不能為空白"
+
+#: disa.i18n.php:4 /usr/src/freepbx/disa/disa.i18n.php:10
+#: page.disa.php:21
+#: views/bootnav.php:17
+#: views/form.php:6
+#: views/grid.php:10
+msgid "DISA"
+msgstr "DISA"
+
+#: disa.i18n.php:8
+msgid ""
+"DISA Allows you 'Direct Inward System Access'. This gives you the ability to "
+"have an option on an IVR that gives you a dial tone, and you're able to dial "
+"out from the FreePBX machine as if you were connected to a standard "
+"extension. It appears as a Destination."
+msgstr ""
+"DISA 讓您擁有「直接內線系統存取（Direct Inward System Access）」。這使您可以在 IVR 上設定一個選項，提供撥號音，讓您能如同連接到一般分機一樣，從 FreePBX 主機向外撥號。它會顯示為一個目的地。"
+
+#: views/bootnav.php:6
+msgid "DISA List"
+msgstr "DISA 清單"
+
+#: views/form.php:56
+msgid "DISA Name"
+msgstr "DISA 名稱"
+
+#: views/form.php:316
+msgid "DISA Name Duplicate"
+msgstr "DISA 名稱重複"
+
+#: page.disa.php:18
+msgid ""
+"DISA is used to allow people from the outside world to call into your PBX "
+"and then be able to dial out of the PBX so it appears that their call is "
+"coming from the office which can be handy when traveling. You can set a "
+"destination in an IVR that points to the DISA or set a DID. Make sure you "
+"password protect this to keep people from dialing in and using your PBX to "
+"make calls out."
+msgstr ""
+"DISA 用於允許外部人士撥入您的 PBX，然後得以從 PBX 向外撥號，讓他們的來電看起來像是從辦公室撥出，這在出差旅行時很方便。您可以在 IVR 中設定指向 DISA 的目的地，或設定 DID。請務必為此設定密碼保護，以免他人撥入並利用您的 PBX 向外打電話。"
+
+#: Disa.class.php:218
+#: functions.inc.php:40
+#, php-format
+msgid "DISA: %s"
+msgstr "DISA：%s"
+
+#: Disa.class.php:62
+msgid "Delete"
+msgstr "刪除"
+
+#: views/form.php:299
+msgid ""
+"Determine if we keep the Caller ID being presented or if we override it. "
+"Default is No"
+msgstr "決定是要保留呈現的來電顯示，還是覆寫它。預設為否"
+
+#: views/form.php:131
+msgid "Digit Timeout"
+msgstr "按鍵逾時"
+
+#: views/form.php:31
+msgid "Don't Care"
+msgstr "不在意"
+
+#: views/form.php:31
+msgid "Force"
+msgstr "強制"
+
+#: views/form.php:68
+msgid "Give this DISA a brief name to help you identify it."
+msgstr "為此 DISA 取一個簡短名稱，以便您辨識。"
+
+#: views/form.php:299
+msgid "If you choose Yes the disa will pass the caller id set above."
+msgstr "若選擇「是」，DISA 將傳送上方設定的來電顯示。"
+
+#: views/form.php:92
+msgid "If you wish to have multiple PIN's, separate them with commas"
+msgstr "若您想要多組 PIN，請以逗號分隔"
+
+#: views/form.php:31
+msgid "Never"
+msgstr "永不"
+
+#: views/form.php:31
+#: views/form.php:189
+#: views/form.php:264
+#: views/form.php:291
+msgid "No"
+msgstr "否"
+
+#: views/form.php:80
+msgid "PIN"
+msgstr "PIN"
+
+#: views/form.php:314
+msgid "Please enter a valid Caller ID or leave it blank"
+msgstr "請輸入有效的來電顯示，或留空白"
+
+#: views/form.php:312
+msgid "Please enter a valid DISA Name"
+msgstr "請輸入有效的 DISA 名稱"
+
+#: views/form.php:313
+msgid "Please enter a valid DISA PIN"
+msgstr "請輸入有效的 DISA PIN"
+
+#: views/form.php:170
+msgid "Record calls that use this DISA"
+msgstr "錄製使用此 DISA 的通話"
+
+#: views/form.php:182
+msgid "Require Confirmation"
+msgstr "需要確認"
+
+#: views/form.php:197
+msgid ""
+"Require Confirmation before prompting for password. Used when your PSTN "
+"connection appears to answer the call immediately"
+msgstr "在提示輸入密碼之前需要確認。當您的 PSTN 連線似乎會立即接聽通話時使用"
+
+#: Disa.class.php:62
+msgid "Reset"
+msgstr "重置"
+
+#: views/form.php:104
+msgid "Response Timeout"
+msgstr "回應逾時"
+
+#: views/form.php:110
+#: views/form.php:137
+msgid "Seconds"
+msgstr "秒"
+
+#: Disa.class.php:62
+msgid "Submit"
+msgstr "提交"
+
+#: views/form.php:331
+msgid "The DISA Name provided is too long."
+msgstr "提供的 DISA 名稱太長。"
+
+#: views/form.php:119
+msgid ""
+"The maximum amount of time it will wait before hanging up if the user has "
+"dialed an incomplete or invalid number. Default of 10 seconds"
+msgstr "若使用者撥打了不完整或無效的號碼，在掛斷前會等待的最長時間。預設為 10 秒"
+
+#: views/form.php:146
+msgid ""
+"The maximum amount of time permitted between digits when the user is typing "
+"in an extension. Default of 5 seconds"
+msgstr "使用者輸入分機時，兩個按鍵之間允許的最長時間。預設為 5 秒"
+
+#: views/form.php:92
+msgid "The user will be prompted for this number."
+msgstr "系統會提示使用者輸入此號碼。"
+
+#: views/form.php:31
+#: views/form.php:187
+#: views/form.php:262
+#: views/form.php:289
+msgid "Yes"
+msgstr "是"

@@ -1,0 +1,313 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for daynight
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 23:40-0500\n"
+"PO-Revision-Date: 2026-09-15 16:32+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: functions.inc.php:541
+msgid " - Force Time Condition False Destination"
+msgstr " - 強制時間條件為假的目的地"
+
+#: functions.inc.php:539
+msgid " - Force Time Condition True Destination"
+msgstr " - 強制時間條件為真的目的地"
+
+#: page.daynight.php:19
+msgid ": Add"
+msgstr "：新增"
+
+#: page.daynight.php:16
+msgid ": Edit"
+msgstr "：編輯"
+
+#: views/grid.php:26
+msgid "Actions"
+msgstr "動作"
+
+#: views/grid.php:9
+msgid "Add"
+msgstr "新增"
+
+#: views/bootnav.php:6
+msgid "Add Callflow"
+msgstr "新增通話流程"
+
+#: daynight.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: assets/js/daynight.js:23
+msgid "Are you sure you want to delete this flow?"
+msgstr "您確定要刪除此流程嗎？"
+
+#: Daynight.class.php:194
+#: Daynight.class.php:199
+#: Daynight.class.php:222
+#: Daynight.class.php:233
+msgid "Astersik manager is not running or we cannot access it."
+msgstr "Asterisk 管理程式未執行，或我們無法存取它。"
+
+#: daynight.i18n.php:16
+msgid ""
+"By default, the Call Flow Control module will not hook Time Conditions "
+"allowing one to associate a call flow toggle feauture code with a time "
+"condition since time conditions have their own feature code as of version "
+"2.9. If there is already an associaiton configured (on an upgraded system), "
+"this will have no affect for the Time Conditions that are effected. Setting "
+"this to true reverts the 2.8 and prior behavior by allowing for the use of a "
+"call flow toggle to be associated with a time conditon. This can be useful "
+"for two scenarios. First, to override a Time Condition without the automatic "
+"resetting that occurs with the built in Time Condition overrides. The second "
+"use is the ability to associate a single call flow toggle with multiple time "
+"conditions thus creating a <b>master switch</b> that can be used to override "
+"several possible call flows through different time conditions."
+msgstr ""
+"依預設，通話流程控制模組不會掛接時間條件，讓您可以將通話流程切換功能碼與時間條件建立關聯，因為自 2.9 版起時間條件已有自己的功能碼。若（在升級後的系統上）已設定關聯，這對於受影響的時間條件將不會有任何作用。將此設為 true 會還原 2.8 及更早版本的行為，允許將通話流程切換與時間條件建立關聯。這在兩種情況下很有用。第一，覆寫時間條件時不會發生內建時間條件覆寫的自動重設。第二種用途是能夠將單一通話流程切換與多個時間條件建立關聯，因而建立一個 <b>主控開關</b>，可用來透過不同的時間條件覆寫數個可能的通話流程。"
+
+#: views/bootnav.php:19
+msgid "Call Flow"
+msgstr "通話流程"
+
+#: daynight.i18n.php:4
+#: daynight.i18n.php:10
+msgid "Call Flow Control"
+msgstr "通話流程控制"
+
+#: daynight.i18n.php:14
+msgid "Call Flow Control Module"
+msgstr "通話流程控制模組"
+
+#: functions.inc.php:163
+#, php-format
+msgid "Call Flow Toggle (%s) : %s"
+msgstr "通話流程切換（%s）：%s"
+
+#: functions.inc.php:552
+msgid "Call Flow Toggle Associate with"
+msgstr "要關聯的通話流程切換"
+
+#: page.daynight.php:9
+msgid "Call Flow Toggle Control"
+msgstr "通話流程切換控制"
+
+#: views/form.php:132
+msgid "Call Flow Toggle Feature Code Index"
+msgstr "通話流程切換功能碼索引"
+
+#: functions.inc.php:418
+#, php-format
+msgid "Call Flow Toggle: %s (%s)"
+msgstr "通話流程切換：%s（%s）"
+
+#: daynight.i18n.php:8
+msgid ""
+"Call Flow manual toggle control - allows for two destinations to be chosen "
+"and provides a feature code that toggles between the two destinations."
+msgstr "通話流程手動切換控制：可選擇兩個目的地，並提供在兩個目的地之間切換的功能碼。"
+
+#: views/form.php:189
+msgid "Current Mode"
+msgstr "目前模式"
+
+#: views/form.php:37
+#: views/form.php:38
+msgid "Default"
+msgstr "預設"
+
+#: Daynight.class.php:57
+msgid "Delete"
+msgstr "刪除"
+
+#: views/form.php:160
+#: views/grid.php:20
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:175
+msgid "Description for this Call Flow Toggle Control"
+msgstr "此通話流程切換控制的描述"
+
+#: views/form.php:272
+msgid "Destination to use when set to Normal Flow (Green/BLF off) mode"
+msgstr "設為正常流程（綠燈／BLF 關閉）模式時要使用的目的地"
+
+#: views/form.php:300
+msgid "Destination to use when set to Override Flow (Red/BLF on) mode"
+msgstr "設為覆寫流程（紅燈／BLF 開啟）模式時要使用的目的地"
+
+#: views/grid.php:17
+msgid "Feature Code"
+msgstr "功能碼"
+
+#: views/form.php:105
+msgid "Forces to Normal Mode (Green/BLF off)"
+msgstr "強制為正常模式（綠燈／BLF 關閉）"
+
+#: views/form.php:105
+msgid "Forces to Override Mode (Red/BLF on)"
+msgstr "強制為覆寫模式（紅燈／BLF 開啟）"
+
+#: daynight.i18n.php:12
+msgid "Hook Time Conditions Module"
+msgstr "掛接時間條件模組"
+
+#: functions.inc.php:566
+msgid ""
+"If a selection is made, this timecondition will be associated with the "
+"specified call flow toggle  featurecode. This means that if the Call Flow "
+"Feature code is set to override (Red/BLF on) then this time condition will "
+"always go to its True destination if the chosen association is to 'Force "
+"Time Condition True Destination' and it will always go to its False "
+"destination if the association is with the 'Force Time Condition False "
+"Destination'. When the associated Call Flow Control Feature code is in its "
+"Normal mode (Green/BLF off), then then this Time Condition will operate as "
+"normal based on the current time. The Destinations that are part of any "
+"Associated Call Flow Control Feature Code will have no affect on where a "
+"call will go if passing through this time condition. The only thing that is "
+"done when making an association is allowing the override state of a Call "
+"Flow Toggle to force this time condition to always follow one of its two "
+"destinations when that associated Call Flow Toggle is in its override (Red/"
+"BLF on) state."
+msgstr ""
+"若做出選擇，此時間條件將與指定的通話流程切換功能碼建立關聯。這表示若通話流程功能碼設為覆寫（紅燈／BLF 開啟），則當所選關聯是「強制時間條件為真的目的地」時，此時間條件將一律前往其為真的目的地；若關聯是「強制時間條件為假的目的地」，則一律前往其為假的目的地。當關聯的通話流程控制功能碼處於正常模式（綠燈／BLF 關閉）時，此時間條件將依目前時間正常運作。任何關聯的通話流程控制功能碼所包含的目的地，都不會影響通過此時間條件的電話會前往何處。建立關聯時唯一會做的事，是允許通話流程切換的覆寫狀態在該關聯的通話流程切換處於覆寫（紅燈／BLF 開啟）狀態時，強制此時間條件一律遵循其兩個目的地之一。"
+
+#: Daynight.class.php:205
+#: Daynight.class.php:219
+#, php-format
+msgid "Invalid State %s"
+msgstr "無效的狀態 %s"
+
+#: views/form.php:108
+#, php-format
+msgid "Linked to Time Condition %s - %s"
+msgstr "已連結至時間條件 %s - %s"
+
+#: views/bootnav.php:7
+msgid "List Callflows"
+msgstr "列出通話流程"
+
+#: views/form.php:67
+msgid ""
+"Message to be played in normal mode (Green/BLF off).<br>To add additional "
+"recordings use the \"System Recordings\" MENU above"
+msgstr "在正常模式（綠燈／BLF 關閉）下播放的訊息。<br>若要新增其他錄音，請使用上方「System Recordings」功能表"
+
+#: views/form.php:93
+msgid ""
+"Message to be played in override mode (Red/BLF on).<br>To add additional "
+"recordings use the \"System Recordings\" MENU to the above"
+msgstr "在覆寫模式（紅燈／BLF 開啟）下播放的訊息。<br>若要新增其他錄音，請使用上方「System Recordings」功能表"
+
+#: functions.inc.php:537
+msgid "No Association"
+msgstr "無關聯"
+
+#: views/form.php:196
+msgid "Normal (Green/BLF off)"
+msgstr "正常（綠燈／BLF 關閉）"
+
+#: views/form.php:258
+msgid "Normal Flow (Green/BLF off)"
+msgstr "正常流程（綠燈／BLF 關閉）"
+
+#: Daynight.class.php:216
+#, php-format
+msgid "Object already exists and is in state: %s, you must delete it first"
+msgstr "物件已存在且狀態為：%s，您必須先刪除它"
+
+#: views/form.php:225
+msgid "Optional Password"
+msgstr "可選密碼"
+
+#: views/form.php:200
+msgid "Override (Red/BLF on)"
+msgstr "覆寫（紅燈／BLF 開啟）"
+
+#: views/form.php:286
+msgid "Override Flow (Red/BLF on)"
+msgstr "覆寫流程（紅燈／BLF 開啟）"
+
+#: assets/js/daynight.js:4
+msgid "Please enter a valid numeric password, only numbers are allowed"
+msgstr "請輸入有效的數字密碼，只能使用數字"
+
+#: assets/js/daynight.js:7
+msgid "Please set the Current Mode"
+msgstr "請設定目前模式"
+
+#: assets/js/daynight.js:5
+msgid "Please set the Normal Flow destination"
+msgstr "請設定正常流程的目的地"
+
+#: assets/js/daynight.js:6
+msgid "Please set the Override Flow destination"
+msgstr "請設定覆寫流程的目的地"
+
+#: views/form.php:53
+msgid "Recording for Normal Mode"
+msgstr "正常模式的錄音"
+
+#: views/form.php:79
+msgid "Recording for Override Mode"
+msgstr "覆寫模式的錄音"
+
+#: Daynight.class.php:63
+msgid "Reset"
+msgstr "重置"
+
+#: views/grid.php:23
+msgid "State"
+msgstr "狀態"
+
+#: Daynight.class.php:68
+msgid "Submit"
+msgstr "提交"
+
+#: views/form.php:146
+#, php-format
+msgid ""
+"There are a total of %s Feature code objects, %s, each can control a call "
+"flow and be toggled using the call flow toggle feature code plus the index."
+msgstr "共有 %s 個功能碼物件，%s，每個物件都可控制一個通話流程，並可使用通話流程切換功能碼加上索引來切換。"
+
+#: views/form.php:210
+msgid ""
+"This will change the current state for this Call Flow Toggle Control, or set "
+"the initial state when creating a new one."
+msgstr "這會變更此通話流程切換控制的目前狀態，或是在建立新的控制時設定初始狀態。"
+
+#: views/form.php:112
+msgid "Time Condition Reference"
+msgstr "時間條件參考"
+
+#: views/form.php:244
+msgid ""
+"You can optionally include a password to authenticate before toggling the "
+"call flow. If left blank anyone can use the feature code and it will be un-"
+"protected"
+msgstr "您可以選擇加入密碼，以便在切換通話流程前進行驗證。若留空白，任何人都可以使用此功能碼，且不受保護"
+
+#: views/form.php:14
+msgid ""
+"You have reached the maximum limit for flow controls. Delete one to add a "
+"new one"
+msgstr "您已達到流程控制的上限。請刪除一個再新增新的"
+
+#: Daynight.class.php:202
+msgid "You must create the object before setting the state."
+msgstr "您必須先建立物件，才能設定狀態。"

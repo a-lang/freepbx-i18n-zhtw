@@ -1,0 +1,668 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for timeconditions
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-19 07:46-0400\n"
+"PO-Revision-Date: 2026-09-15 17:08+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Timeconditions.class.php:257
+msgid " Time for this time condition"
+msgstr " 此時間條件的時間"
+
+#: Timeconditions.class.php:256
+msgid " Timee for this time condition"
+msgstr " 此時間條件的時間"
+
+#: views/timeconditions/advanced_form.php:224
+msgid "--Select a Calendar--"
+msgstr "--選擇行事曆--"
+
+#: functions.inc.php:542
+#: views/timeconditions/advanced_form.php:251
+msgid "--Select a Group--"
+msgstr "--選擇群組--"
+
+#: Timeconditions.class.php:568
+#: Timeconditions.class.php:605
+msgid ": Time Condition Override"
+msgstr "：時間條件覆寫"
+
+#: views/timeconditions/bootnav.php:9
+#: views/timeconditions/grid.php:29
+#: views/timegroups/bootnav.php:9
+#: views/timegroups/grid.php:28
+msgid "Actions"
+msgstr "動作"
+
+#: functions.inc.php:554
+#: assets/js/timeconditions/timeconditions.js:165
+msgid "Add New Time Group..."
+msgstr "新增時間群組…"
+
+#: views/timegroups/form.php:79
+#: assets/js/timegroups/timegroups.js:81
+msgid "Add Time"
+msgstr "新增時間"
+
+#: views/timeconditions/advanced_form.php:6
+#: views/timeconditions/basic_form.php:6
+#: views/timeconditions/bootnav.php:14
+#: views/timeconditions/grid.php:9
+msgid "Add Time Condition"
+msgstr "新增時間條件"
+
+#: views/timegroups/bootnav.php:14
+#: views/timegroups/grid.php:10
+msgid "Add Time Group"
+msgstr "新增時間群組"
+
+#: views/timegroups/form.php:87
+msgid "Add a time for this time condition"
+msgstr "為此時間條件新增時間"
+
+#: assets/js/timeconditions/timeconditions.js:33
+msgid "Already exists Time Conditions Name:"
+msgstr "時間條件名稱已存在："
+
+#: timeconditions.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: functions.inc.php:625
+msgid "April"
+msgstr "四月"
+
+#: functions.inc.php:625
+msgid "August"
+msgstr "八月"
+
+#: views/timeconditions/advanced_form.php:219
+#: assets/js/timeconditions/timeconditions.js:64
+msgid "Calendar"
+msgstr "行事曆"
+
+#: views/timeconditions/advanced_form.php:246
+#: assets/js/timeconditions/timeconditions.js:66
+msgid "Calendar Group"
+msgstr "行事曆群組"
+
+#: views/timeconditions/advanced_form.php:263
+msgid "Calendar Group to check for timeconditions"
+msgstr "要檢查時間條件的行事曆群組"
+
+#: views/timeconditions/advanced_form.php:200
+msgid "Calendar Mode"
+msgstr "行事曆模式"
+
+#: functions.inc.php:98
+#: functions.inc.php:109
+msgid "Calendar Not found"
+msgstr "找不到行事曆"
+
+#: views/timeconditions/advanced_form.php:236
+msgid "Calendar to check for time condition"
+msgstr "要檢查時間條件的行事曆"
+
+#: assets/js/timegroups/timegroups.js:90
+msgid "Cannot remove the only rule. At least 1 rule is required."
+msgstr "無法移除唯一的規則。至少需要 1 條規則。"
+
+#: views/timeconditions/advanced_form.php:131
+#: views/timeconditions/basic_form.php:240
+msgid "Change Override"
+msgstr "變更覆寫"
+
+#: Timeconditions.class.php:75
+msgid "Could not delete time group as it is in use"
+msgstr "無法刪除時間群組，因為它正在使用中"
+
+#: timeconditions.i18n.php:8
+msgid ""
+"Creates a condition where calls will go to one of two destinations (eg, an "
+"extension, IVR, ring group..) based on the time and/or date. This can be "
+"used for example to ring a receptionist during the day, or go directly to an "
+"IVR at night."
+msgstr ""
+"建立一個條件，讓來電依據時間和／或日期前往兩個目的地之一（例如分機、IVR、響鈴群組等）。例如，可在白天響鈴給接待人員，或在夜間直接前往 IVR。"
+
+#: views/timeconditions/basic_form.php:253
+msgid "Current"
+msgstr "目前"
+
+#: views/timeconditions/advanced_form.php:144
+msgid "Current override state"
+msgstr "目前的覆寫狀態"
+
+#: functions.inc.php:625
+msgid "December"
+msgstr "十二月"
+
+#: Timeconditions.class.php:160
+msgid "Delete"
+msgstr "刪除"
+
+#: views/timegroups/form.php:50
+msgid "Description"
+msgstr "說明"
+
+#: Timeconditions.class.php:268
+msgid "Description is required."
+msgstr "必須填寫說明。"
+
+#: views/timeconditions/advanced_form.php:351
+#: views/timeconditions/basic_form.php:174
+msgid "Destination if time does not matche"
+msgstr "時間不符時的目的地"
+
+#: views/timeconditions/advanced_form.php:321
+#: views/timeconditions/basic_form.php:144
+msgid "Destination if time matches"
+msgstr "時間相符時的目的地"
+
+#: views/timeconditions/advanced_form.php:303
+#: views/timeconditions/basic_form.php:126
+msgid "Destination matches"
+msgstr "相符的目的地"
+
+#: views/timeconditions/advanced_form.php:333
+#: views/timeconditions/basic_form.php:156
+msgid "Destination non-matches"
+msgstr "不符的目的地"
+
+#: Timeconditions.class.php:170
+msgid "Duplicate"
+msgstr "複製"
+
+#: assets/js/timeconditions/timeconditions.js:29
+msgid "Duplicate Time Conditions Name"
+msgstr "時間條件名稱重複"
+
+#: views/timeconditions/advanced_form.php:18
+#: views/timeconditions/basic_form.php:18
+#, php-format
+msgid "Edit Time Condition: %s (%s)"
+msgstr "編輯時間條件：%s（%s）"
+
+#: timeconditions.i18n.php:14
+msgid "Enable Maintenance Polling"
+msgstr "啟用維護輪詢"
+
+#: functions.inc.php:625
+msgid "February"
+msgstr "二月"
+
+#: functions.inc.php:607
+msgid "Friday"
+msgstr "星期五"
+
+#: views/timeconditions/advanced_form.php:66
+#: views/timeconditions/basic_form.php:61
+msgid "Give this Time Condition a brief name to help you identify it."
+msgstr "為此時間條件取一個簡短名稱，以協助您識別。"
+
+#: views/timeconditions/advanced_form.php:90
+#: views/timeconditions/basic_form.php:199
+msgid ""
+"If set dialing the feature code will require a pin to change the override "
+"state"
+msgstr "若設定此選項，撥打功能碼時將需要 PIN 才能變更覆寫狀態"
+
+#: views/timeconditions/advanced_form.php:119
+#: views/timeconditions/basic_form.php:228
+#, php-format
+msgid ""
+"If set the hint will be INUSE if the time condition is matched, and "
+"NOT_INUSE if it fails"
+msgstr "若設定此選項，當時間條件相符時提示會是 INUSE，不符時則是 NOT_INUSE"
+
+#: timeconditions.i18n.php:18
+msgid ""
+"If set to false, this will override the execution of the Time Conditions "
+"maintenance task launched by call files. If all the feature codes for time "
+"conditions are disabled, the maintenance task will not be launched anyhow. "
+"Setting this to false would be fairly un-common. You may want to set this "
+"temporarily if debugging a system to avoid the periodic dialplan running "
+"through the CLI that the maintenance task launches and can be distracting."
+msgstr ""
+"若設為 false，將覆寫由 call files 啟動之「時間條件」維護工作的執行。若時間條件的所有功能碼都已停用，維護工作無論如何都不會啟動。將此設為 false 相當少見。若您在偵錯系統，可能會想要暫時設定此選項，以避免維護工作啟動、透過 CLI 定期執行的撥號規則造成干擾。"
+
+#: views/timeconditions/advanced_form.php:102
+#: views/timeconditions/basic_form.php:211
+msgid "Invert BLF Hint"
+msgstr "反轉 BLF 提示"
+
+#: functions.inc.php:625
+msgid "January"
+msgstr "一月"
+
+#: functions.inc.php:625
+msgid "July"
+msgstr "七月"
+
+#: functions.inc.php:625
+msgid "June"
+msgstr "六月"
+
+#: views/timeconditions/grid.php:28
+msgid "Linked Item"
+msgstr "連結的項目"
+
+#: views/timeconditions/bootnav.php:12
+#: views/timegroups/bootnav.php:13
+#: views/timegroups/grid.php:9
+msgid "List Time Conditions"
+msgstr "時間條件清單"
+
+#: views/timeconditions/bootnav.php:13
+#: views/timeconditions/grid.php:8
+#: views/timegroups/bootnav.php:12
+msgid "List Time Groups"
+msgstr "時間群組清單"
+
+#: timeconditions.i18n.php:20
+msgid "Maintenance Polling Interval"
+msgstr "維護輪詢間隔"
+
+#: functions.inc.php:625
+msgid "March"
+msgstr "三月"
+
+#: functions.inc.php:625
+msgid "May"
+msgstr "五月"
+
+#: views/timeconditions/advanced_form.php:192
+msgid "Mode"
+msgstr "模式"
+
+#: functions.inc.php:607
+msgid "Monday"
+msgstr "星期一"
+
+#: functions.inc.php:807
+msgid "Month Day finish"
+msgstr "結束月日"
+
+#: functions.inc.php:798
+msgid "Month Day start"
+msgstr "開始月日"
+
+#: functions.inc.php:825
+msgid "Month finish"
+msgstr "結束月份"
+
+#: functions.inc.php:816
+msgid "Month start"
+msgstr "開始月份"
+
+#: views/timeconditions/advanced_form.php:110
+#: views/timeconditions/basic_form.php:219
+msgid "No"
+msgstr "否"
+
+#: views/timeconditions/basic_form.php:23
+#: assets/js/timeconditions/timeconditions.js:99
+msgid "No Override"
+msgstr "無覆寫"
+
+#: views/timeconditions/advanced_form.php:25
+#: views/timeconditions/advanced_form.php:30
+#: views/timeconditions/advanced_form.php:33
+msgid "No Override State"
+msgstr "無覆寫狀態"
+
+#: views/timeconditions/advanced_form.php:136
+msgid "No override"
+msgstr "無覆寫"
+
+#: assets/js/timeconditions/timeconditions.js:68
+#: assets/js/timeconditions/timeconditions.js:73
+msgid "Not Set"
+msgstr "未設定"
+
+#: views/timeconditions/bootnav.php:18
+#: views/timeconditions/grid.php:11
+#: views/timegroups/bootnav.php:18
+#: views/timegroups/grid.php:12
+msgid "Not received"
+msgstr "未收到"
+
+#: functions.inc.php:625
+msgid "November"
+msgstr "十一月"
+
+#: functions.inc.php:625
+msgid "October"
+msgstr "十月"
+
+#: views/timeconditions/advanced_form.php:78
+#: views/timeconditions/basic_form.php:187
+msgid "Override Code Pin"
+msgstr "覆寫碼 PIN"
+
+#: views/timeconditions/grid.php:27
+msgid "Override State"
+msgstr "覆寫狀態"
+
+#: views/timeconditions/advanced_form.php:27
+#: views/timeconditions/basic_form.php:25
+msgid "Permanent Override matching state"
+msgstr "永久覆寫（相符狀態）"
+
+#: views/timeconditions/advanced_form.php:29
+#: views/timeconditions/basic_form.php:27
+msgid "Permanent Override unmatching state"
+msgstr "永久覆寫（不符狀態）"
+
+#: views/timeconditions/advanced_form.php:139
+#: views/timeconditions/basic_form.php:248
+#: assets/js/timeconditions/timeconditions.js:87
+msgid "Permanently matched"
+msgstr "永久相符"
+
+#: views/timeconditions/advanced_form.php:141
+#: views/timeconditions/basic_form.php:250
+#: assets/js/timeconditions/timeconditions.js:90
+msgid "Permanently unmatched"
+msgstr "永久不符"
+
+#: assets/js/timeconditions/timeconditions.js:39
+msgid "Please enter a valid Override Code Pin"
+msgstr "請輸入有效的覆寫碼 PIN"
+
+#: assets/js/timeconditions/timeconditions.js:23
+msgid "Please enter a valid Time Conditions Name"
+msgstr "請輸入有效的時間條件名稱"
+
+#: assets/js/timeconditions/timeconditions.js:47
+msgid ""
+"Please select a calendar or calendar group to associate with this "
+"timecondition."
+msgstr "請選取要與此時間條件關聯的行事曆或行事曆群組。"
+
+#: assets/js/timeconditions/timeconditions.js:43
+msgid "Please select a time group to associate with this timecondition."
+msgstr "請選取要與此時間條件關聯的時間群組。"
+
+#: Timeconditions.class.php:165
+msgid "Reset"
+msgstr "重設"
+
+#: views/timeconditions/advanced_form.php:137
+#: views/timeconditions/basic_form.php:246
+msgid "Reset Override"
+msgstr "重設覆寫"
+
+#: functions.inc.php:607
+msgid "Saturday"
+msgstr "星期六"
+
+#: assets/js/timeconditions/timeconditions.js:161
+msgid "Select a Group"
+msgstr "選取群組"
+
+#: views/timeconditions/advanced_form.php:286
+#: views/timeconditions/basic_form.php:114
+msgid ""
+"Select a Time Group created under Time Groups. Matching times will be sent "
+"to matching destination. If no group is selected, call will always go to no-"
+"match destination."
+msgstr "選取在「時間群組」下建立的時間群組。相符的時間將送往相符的目的地。若未選取群組，來電一律會前往不符的目的地。"
+
+#: views/timeconditions/advanced_form.php:209
+msgid "Select the Mode for checking time conditions"
+msgstr "選取檢查時間條件的模式"
+
+#: functions.inc.php:625
+msgid "September"
+msgstr "九月"
+
+#: views/timeconditions/bootnav.php:18
+#: views/timeconditions/grid.php:11
+#: views/timegroups/bootnav.php:18
+#: views/timegroups/grid.php:12
+msgid "Server time:"
+msgstr "伺服器時間："
+
+#: views/timeconditions/advanced_form.php:181
+#: views/timeconditions/basic_form.php:90
+msgid ""
+"Specify the time zone by name if the destinations are in a different time "
+"zone than the server. Type two characters to start an auto-complete pick-"
+"list. <br/><strong>Important</strong>: Your selection here <strong>MUST</"
+"strong> appear in the pick-list or in the /usr/share/zoneinfo/ directory."
+msgstr ""
+"如果目的地與伺服器所在時區不同，請以名稱指定時區。輸入兩個字元即可開始自動完成的挑選清單。<br/><strong>重要</strong>：您在此處的選取<strong>必須</strong>出現在挑選清單或 /usr/share/zoneinfo/ 目錄中。"
+
+#: Timeconditions.class.php:175
+msgid "Submit"
+msgstr "送出"
+
+#: functions.inc.php:607
+msgid "Sunday"
+msgstr "星期日"
+
+#: views/timeconditions/advanced_form.php:26
+#: views/timeconditions/basic_form.php:24
+msgid "Temporary Override matching state"
+msgstr "暫時覆寫（相符狀態）"
+
+#: views/timeconditions/advanced_form.php:28
+#: views/timeconditions/basic_form.php:26
+msgid "Temporary Override unmatching state"
+msgstr "暫時覆寫（不符狀態）"
+
+#: views/timeconditions/advanced_form.php:138
+#: views/timeconditions/basic_form.php:247
+#: assets/js/timeconditions/timeconditions.js:96
+msgid "Temporary matched"
+msgstr "暫時相符"
+
+#: views/timeconditions/advanced_form.php:140
+#: views/timeconditions/basic_form.php:249
+#: assets/js/timeconditions/timeconditions.js:93
+msgid "Temporary unmatched"
+msgstr "暫時不符"
+
+#: timeconditions.i18n.php:22
+msgid ""
+"The polling interval in seconds used by the Time Conditions maintenance "
+"task, launched by an Asterisk call file used to update Time Conditions "
+"override states as well as keep custom device state hint values up-to-date "
+"when being used with BLF. A shorter interval will assure that BLF keys "
+"states are accurate. The interval should be less than the shortest "
+"configured span between two time condition states, so that a manual override "
+"during such a period is properly reset when the new period starts."
+msgstr ""
+"「時間條件」維護工作所使用的輪詢間隔（秒），由 Asterisk call file 啟動，用於更新時間條件的覆寫狀態，並在搭配 BLF 使用時讓自訂裝置狀態提示值保持最新。較短的間隔可確保 BLF 按鍵狀態準確。間隔應小於兩個時間條件狀態之間最短的設定時距，如此一來，此期間的手動覆寫便會在新時段開始時正確重設。"
+
+#: views/timeconditions/advanced_form.php:152
+#: views/timeconditions/basic_form.php:261
+#, php-format
+msgid ""
+"This Time Condition can be set to Temporarily go to the 'matched' or "
+"'unmatched' destination in which case the override will automatically reset "
+"once the current time span has elapsed. If set to Permanent it will stay "
+"overridden until manually reset. All overrides can be removed with the Reset "
+"Override option. Temporary Overrides can also be toggled with the %s feature "
+"code, which will also remove a Permanent Override if set but can not set a "
+"Permanent Override which must be done here or with other applications such "
+"as an XML based phone options."
+msgstr ""
+"此時間條件可以設定為暫時前往「相符」或「不符」的目的地，此時覆寫會在目前時間區段結束後自動重設。若設為「永久」，則會維持覆寫狀態，直到手動重設。所有覆寫都可以使用「重設覆寫」選項移除。暫時覆寫也可以使用 %s 功能碼切換，此功能碼也會移除已設定的永久覆寫，但無法設定永久覆寫——這必須在此處或透過其他應用程式（例如 XML 型電話選項）進行。"
+
+#: assets/js/timegroups/timegroups.js:22
+msgid ""
+"This section will be removed from this time group and all current settings "
+"including changes will be updated. OK to proceed?"
+msgstr "此區段將從此時間群組中移除，所有目前的設定（包括變更）都會更新。確定要繼續嗎？"
+
+#: views/timegroups/form.php:25
+msgid "This time group is currently in use and cannot be deleted"
+msgstr "此時間群組目前正在使用中，無法刪除"
+
+#: views/timegroups/form.php:62
+msgid "This will display as the name of this Time Group"
+msgstr "這將顯示為此時間群組的名稱"
+
+#: functions.inc.php:607
+msgid "Thursday"
+msgstr "星期四"
+
+#: views/timeconditions/bootnav.php:30
+#: views/timeconditions/grid.php:26
+msgid "Time Condition"
+msgstr "時間條件"
+
+#: timeconditions.i18n.php:16
+msgid "Time Condition Module"
+msgstr "時間條件模組"
+
+#: views/timeconditions/advanced_form.php:54
+#: views/timeconditions/basic_form.php:49
+msgid "Time Condition name"
+msgstr "時間條件名稱"
+
+#: functions.inc.php:20
+#: functions.inc.php:248
+#, php-format
+msgid "Time Condition: %s"
+msgstr "時間條件：%s"
+
+#: page.timeconditions.php:11
+#: timeconditions.i18n.php:4
+#: timeconditions.i18n.php:10
+msgid "Time Conditions"
+msgstr "時間條件"
+
+#: views/timeconditions/advanced_form.php:274
+#: views/timeconditions/basic_form.php:102
+#: views/timegroups/bootnav.php:30
+#: views/timegroups/grid.php:27
+#: assets/js/timeconditions/timeconditions.js:71
+msgid "Time Group"
+msgstr "時間群組"
+
+#: views/timeconditions/advanced_form.php:198
+msgid "Time Group Mode"
+msgstr "時間群組模式"
+
+#: page.timegroups.php:8
+#: timeconditions.i18n.php:12
+msgid "Time Groups"
+msgstr "時間群組"
+
+#: views/timeconditions/advanced_form.php:164
+#: views/timeconditions/basic_form.php:73
+msgid "Time Zone:"
+msgstr "時區："
+
+#: functions.inc.php:749
+msgid "Time to Start"
+msgstr "開始時間"
+
+#: functions.inc.php:767
+msgid "Time to finish"
+msgstr "結束時間"
+
+#: views/timegroups/form.php:74
+msgid "Time(s)"
+msgstr "時間"
+
+#: Timeconditions.class.php:279
+msgid "TimeGroup already exists"
+msgstr "時間群組已存在"
+
+#: Timeconditions.class.php:255
+msgid "TimeGroup description"
+msgstr "時間群組說明"
+
+#: Timeconditions.class.php:246
+msgid "TimeGroups"
+msgstr "時間群組"
+
+#: Timeconditions.class.php:255
+msgid "Timegroup Description"
+msgstr "時間群組說明"
+
+#: functions.inc.php:607
+msgid "Tuesday"
+msgstr "星期二"
+
+#: views/timeconditions/basic_form.php:245
+msgid "Unchanged"
+msgstr "不變"
+
+#: views/timeconditions/basic_form.php:28
+#: views/timeconditions/basic_form.php:31
+msgid "Unknown State"
+msgstr "未知狀態"
+
+#: views/timeconditions/advanced_form.php:169
+#: views/timeconditions/basic_form.php:78
+msgid "Use System Timezone"
+msgstr "使用系統時區"
+
+#: functions.inc.php:607
+msgid "Wednesday"
+msgstr "星期三"
+
+#: functions.inc.php:780
+msgid "Week Day Start"
+msgstr "開始星期"
+
+#: functions.inc.php:789
+msgid "Week Day finish"
+msgstr "結束星期"
+
+#: views/timeconditions/advanced_form.php:108
+#: views/timeconditions/basic_form.php:217
+msgid "Yes"
+msgstr "是"
+
+#: assets/js/timeconditions/timeconditions.js:186
+msgid "You cant set both a group and a calendar"
+msgstr "您不能同時設定群組和行事曆"
+
+#: functions.inc.php:98
+msgid "Your timecondition is linked to a non-existant calendar"
+msgstr "您的時間條件連結到不存在的行事曆"
+
+#: functions.inc.php:109
+msgid "Your timecondition is linked to a non-existant calendar group"
+msgstr "您的時間條件連結到不存在的行事曆群組"
+
+#: functions.inc.php:255
+msgid "false goto"
+msgstr "false 前往"
+
+#: Timeconditions.class.php:256
+msgid "time1"
+msgstr "時間 1"
+
+#: Timeconditions.class.php:257
+msgid "time2"
+msgstr "時間 2"
+
+#: functions.inc.php:251
+msgid "true goto"
+msgstr "true 前往"
+
+#: Timeconditions.class.php:528
+#: Timeconditions.class.php:545
+msgid "unnamed"
+msgstr "未命名"

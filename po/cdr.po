@@ -1,0 +1,1170 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cdr
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 06:25-0400\n"
+"PO-Revision-Date: 2026-09-15 14:33+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Cdr.class.php:550
+#, php-format
+msgid "%s hour, %s min, %s sec"
+msgstr "%s 小時 %s 分 %s 秒"
+
+#: Cdr.class.php:552
+#, php-format
+msgid "%s min, %s sec"
+msgstr "%s 分 %s 秒"
+
+#: Cdr.class.php:555
+#, php-format
+msgid "%s sec"
+msgstr "%s 秒"
+
+#: page.cdr.php:359 /usr/src/freepbx/cdr/page.cdr.php:937
+msgid "10 Minutes"
+msgstr "10 分鐘"
+
+#: page.cdr.php:207 /usr/src/freepbx/cdr/page.cdr.php:239
+#: page.cdr.php:270
+msgid "<b>.</b> = wildcard, matches one or more characters<br>"
+msgstr "<b>.</b> = 萬用字元，符合一個或多個字元<br>"
+
+#: page.cdr.php:205 /usr/src/freepbx/cdr/page.cdr.php:237
+#: page.cdr.php:268
+msgid "<b>N</b> = matches any digit from 2-9<br>"
+msgstr "<b>N</b> = 符合 2-9 中任一位數字<br>"
+
+#: page.cdr.php:203 /usr/src/freepbx/cdr/page.cdr.php:235
+#: page.cdr.php:266
+msgid "<b>X</b> = matches any digit from 0-9<br>"
+msgstr "<b>X</b> = 符合 0-9 中任一位數字<br>"
+
+#: page.cdr.php:204 /usr/src/freepbx/cdr/page.cdr.php:236
+#: page.cdr.php:267
+msgid "<b>Z</b> = matches any digit from 1-9<br>"
+msgstr "<b>Z</b> = 符合 1-9 中任一位數字<br>"
+
+#: page.cdr.php:206 /usr/src/freepbx/cdr/page.cdr.php:238
+#: page.cdr.php:269
+msgid ""
+"<b>[1237-9]</b> = matches any digit or letter in the brackets<br>(in this "
+"example, 1,2,3,7,8,9)<br>"
+msgstr "<b>[1237-9]</b> = 符合括號中的任一數字或字母<br>（本例為 1,2,3,7,8,9）<br>"
+
+#: page.cdr.php:201 /usr/src/freepbx/cdr/page.cdr.php:233
+#: page.cdr.php:264
+msgid ""
+"<b>_!2XXN, _562., _.0075</b> = Search for any match <b>except</b> for these "
+"numbers"
+msgstr "<b>_!2XXN, _562., _.0075</b> = 搜尋<b>除了</b>這些號碼以外的任何符合項"
+
+#: page.cdr.php:200 /usr/src/freepbx/cdr/page.cdr.php:232
+#: page.cdr.php:263
+msgid "<b>_2XXN, _562., _.0075</b> = search for any match of these numbers<br>"
+msgstr "<b>_2XXN, _562., _.0075</b> = 搜尋這些號碼的任何符合項<br>"
+
+#: page.cdr.php:202 /usr/src/freepbx/cdr/page.cdr.php:234
+#: page.cdr.php:265
+msgid "<br>Asterisk pattern matching<br>"
+msgstr "<br>Asterisk 模式比對<br>"
+
+#: Api/Gql/Cdr.php:490
+msgid ""
+"A count of the total number of objects in this connection, ignoring "
+"pagination. This allows a client to fetch the first five objects by passing "
+"\"5\" as the argument to \"first\", then fetch the total count so it could "
+"display \"5 of 83\", for example."
+msgstr ""
+"此連線中物件總數的計數，忽略分頁。使用者端可以先傳遞 \"5\" 作為 \"first\" 引數以取得前五筆物件，再取得總計以顯示 \"5 / 83\"（舉例）。"
+
+#: Api/Gql/Cdr.php:326
+msgid ""
+"A flag specified on the Party A channel. AMA Flags are set on a channel and "
+"are conveyed in the CDR. They inform billing systems how to treat the "
+"particular CDR. Asterisk provides no additional semantics regarding these "
+"flags - they are present simply to help external systems classify CDRs"
+msgstr ""
+"在 A 方通道上指定的旗標。AMA 旗標設定於通道上並記錄於通話詳單中，用以告知計費系統如何處理該通話詳單。Asterisk 並未為這些旗標提供其他語義——它們僅為協助外部系統分類通話詳單而存在。"
+
+#: Api/Gql/Cdr.php:495
+msgid ""
+"A list of all of the objects returned in the connection. This is a "
+"convenience field provided for quickly exploring the API; rather than "
+"querying for \"{ edges { node } }\" when no edge data is needed, this field "
+"can be be used instead. Note that when clients like Relay need to fetch the "
+"\"cursor\" field on the edge to enable efficient pagination, this shortcut "
+"cannot be used, and the full \"{ edges { node } }\" version should be used "
+"instead."
+msgstr ""
+"此連線中所有傳回物件的清單。此為便於快速探索 API 所提供的便利欄位；當不需要邊緣資料時，可使用此欄位取代查詢 \"{ edges { node } }\"。請注意，當 Relay 等使用者端需要取得邊緣上的 \"cursor\" 欄位以實現有效分頁時，無法使用此簡寫，而應使用完整的 \"{ edges { node } }\" 版本。"
+
+#: Api/Gql/Cdr.php:465
+msgid ""
+"A numeric value that, combined with uniqueid and linkedid, can be used to "
+"uniquely identify a single CDR record"
+msgstr "一個數值，與 uniqueid 和 linkedid 結合使用時，可用於唯一識別單筆通話詳單記錄"
+
+#: Api/Gql/Cdr.php:149
+msgid "A unique identifier for the Party A channel"
+msgstr "A 方通道的唯一識別符"
+
+#: Api/Gql/Cdr.php:357
+msgid ""
+"A user defined field set on the channels. If set on both the Party A and "
+"Party B channel, the userfields of both are concatenated and separated by a ;"
+msgstr "在通道上設定的使用者定義欄位。若同時設定於 A 方與 B 方通道，則雙方的 userfields 將以 ; 分隔串接。"
+
+#: page.cdr.php:434
+msgid "AMA"
+msgstr "AMA"
+
+#: page.cdr.php:1192
+#: page.cdr.php:1272
+msgid "AMA Flag"
+msgstr "AMA 旗標"
+
+#: page.cdr.php:432 /usr/src/freepbx/cdr/page.cdr.php:1164
+msgid "ANI"
+msgstr "ANI"
+
+#: page.cdr.php:752
+msgid "Account"
+msgstr "帳號"
+
+#: page.cdr.php:308 /usr/src/freepbx/cdr/page.cdr.php:354
+#: page.cdr.php:878
+msgid "Account Code"
+msgstr "帳號代碼"
+
+#: page.cdr.php:353
+msgid "Account Information"
+msgstr "帳號資訊"
+
+#: install.php:52
+msgid "Adding index to did field in the cdr table"
+msgstr "正在將索引加入 cdr 表格的 did 欄位"
+
+#: install.php:45
+msgid "Adding index to did field..."
+msgstr "正在將索引加入 did 欄位..."
+
+#: install.php:97
+msgid "Adding index to dstchannel field in the cdr table"
+msgstr "正在將索引加入 cdr 表格的 dstchannel 欄位"
+
+#: install.php:90
+msgid "Adding index to dstchannel field..."
+msgstr "正在將索引加入 dstchannel 欄位..."
+
+#: install.php:82
+msgid "Adding index to linkedid field in the cdr table"
+msgstr "正在將索引加入 cdr 表格的 linkedid 欄位"
+
+#: install.php:75
+msgid "Adding index to linkedid field..."
+msgstr "正在將索引加入 linkedid 欄位..."
+
+#: install.php:67
+msgid "Adding index to recordingfile field in the cdr table"
+msgstr "正在將索引加入 cdr 表格的 recordingfile 欄位"
+
+#: install.php:60
+msgid "Adding index to recordingfile field..."
+msgstr "正在將索引加入 recordingfile 欄位..."
+
+#: install.php:135 /usr/src/freepbx/cdr/install.php:152
+msgid "Adding!"
+msgstr "新增中！"
+
+#: page.cdr.php:333
+msgid "All Dispositions"
+msgstr "所有接通狀態"
+
+#: views/ucp_config.php:7
+msgid "Allow CDR"
+msgstr "允許通話詳單"
+
+#: views/ucp_config.php:64
+msgid "Allow CDR Downloads"
+msgstr "允許下載通話詳單"
+
+#: views/ucp_config.php:95
+msgid "Allow CDR Playback"
+msgstr "允許播放通話詳單"
+
+#: views/ucp_config.php:116
+msgid "Allow this user to playback recordings in UCP"
+msgstr "允許此使用者在 UCP 中播放錄音"
+
+#: views/ucp_config.php:85
+msgid "Allow users to download recordings in UCP"
+msgstr "允許使用者在 UCP 中下載錄音"
+
+#: Api/Gql/Cdr.php:345
+msgid "An account code associated with the Party A channel"
+msgstr "與 A 方通道關聯的帳號代碼"
+
+#: page.cdr.php:322
+msgid "And"
+msgstr "到"
+
+#: page.cdr.php:334
+msgid "Answered"
+msgstr "已接通"
+
+#: page.cdr.php:437 /usr/src/freepbx/cdr/page.cdr.php:747
+msgid "App"
+msgstr "應用程式"
+
+#: page.cdr.php:1170
+msgid "Application"
+msgstr "應用程式"
+
+#: page.cdr.php:119
+msgid "April"
+msgstr "四月"
+
+#: page.cdr.php:119
+msgid "August"
+msgstr "八月"
+
+#: page.cdr.php:974
+msgid "Average Call Time"
+msgstr "平均通話時間"
+
+#: page.cdr.php:211 /usr/src/freepbx/cdr/page.cdr.php:223
+#: page.cdr.php:243 /usr/src/freepbx/cdr/page.cdr.php:255
+#: page.cdr.php:274 /usr/src/freepbx/cdr/page.cdr.php:288
+#: page.cdr.php:300 /usr/src/freepbx/cdr/page.cdr.php:311
+msgid "Begins With"
+msgstr "開頭為"
+
+#: page.cdr.php:320
+msgid "Between"
+msgstr "介於"
+
+#: page.cdr.php:1199
+msgid "Billing Duration"
+msgstr "計費時間"
+
+#: page.cdr.php:335
+msgid "Busy"
+msgstr "忙線"
+
+#: ucp/Cdr.class.php:92
+msgid "CDR (Call History) is not enabled for this user."
+msgstr "此使用者未啟用通話詳單（通話記錄）。"
+
+#: views/ucp_config.php:38
+msgid "CDR Access"
+msgstr "通話詳單存取"
+
+#: cdr.i18n.php:18
+msgid "CDR Batch"
+msgstr "通話詳單批次"
+
+#: cdr.i18n.php:34
+msgid "CDR Batch Safe ShutDown"
+msgstr "通話詳單批次安全關機"
+
+#: cdr.i18n.php:22
+msgid "CDR Batch Size"
+msgstr "通話詳單批次大小"
+
+#: cdr.i18n.php:26
+msgid "CDR Batch Time"
+msgstr "通話詳單批次時間"
+
+#: Api/Gql/Cdr.php:18 /usr/src/freepbx/cdr/cdr.i18n.php:4
+#: cdr.i18n.php:10 /usr/src/freepbx/cdr/page.cdr.php:99
+msgid "CDR Reports"
+msgstr "通話詳單報告"
+
+#: cdr.i18n.php:30
+msgid "CDR Schedule Only"
+msgstr "僅通話詳單排程"
+
+#: Api/Gql/Cdr.php:119
+msgid "CDR data does not exists"
+msgstr "通話詳單資料不存在"
+
+#: Api/Gql/Cdr.php:98
+#: Api/Gql/Cdr.php:117
+msgid "CDR data found successfully"
+msgstr "成功找到通話詳單資料"
+
+#: page.cdr.php:175
+msgid "CDR search"
+msgstr "通話詳單搜尋"
+
+#: page.cdr.php:430
+msgid "CNAM"
+msgstr "CNAM"
+
+#: page.cdr.php:431
+msgid "CNUM"
+msgstr "CNUM"
+
+#: page.cdr.php:176
+msgid "CSV File"
+msgstr "CSV 檔案"
+
+#: cdr.i18n.php:8
+msgid "Call Data Record report tools for viewing reports of your calls"
+msgstr "通話資料記錄報告工具，用於檢視您的通話報告"
+
+#: page.cdr.php:114 /usr/src/freepbx/cdr/page.cdr.php:741
+msgid "Call Date"
+msgstr "通話日期"
+
+#: page.cdr.php:971
+msgid "Call Detail Record - Call Graph by"
+msgstr "通話詳單 - 通話圖表依"
+
+#: page.cdr.php:1084
+msgid "Call Detail Record - Concurrent Calls by"
+msgstr "通話詳單 - 並行通話依"
+
+#: page.cdr.php:727
+msgid "Call Detail Record - Search Returned"
+msgstr "通話詳單 - 搜尋傳回"
+
+#: page.cdr.php:105
+msgid "Call Detail Record Search"
+msgstr "通話詳單搜尋"
+
+#: page.cdr.php:413
+msgid "Call Event Log - Search Returned"
+msgstr "通話事件記錄 - 搜尋傳回"
+
+#: page.cdr.php:177
+msgid "Call Graph"
+msgstr "通話圖表"
+
+#: Cdr.class.php:308
+#: ucp/Cdr.class.php:49
+#: ucp/Cdr.class.php:143
+msgid "Call History"
+msgstr "通話記錄"
+
+#: ucp/Cdr.class.php:72
+#, php-format
+msgid "Call History for %s"
+msgstr "%s 的通話記錄"
+
+#: page.cdr.php:371 /usr/src/freepbx/cdr/page.cdr.php:890
+#: page.cdr.php:1247
+msgid "Caller ID Name"
+msgstr "來電顯示名稱"
+
+#: page.cdr.php:370 /usr/src/freepbx/cdr/page.cdr.php:887
+#: page.cdr.php:1252
+msgid "Caller ID Number"
+msgstr "來電顯示號碼"
+
+#: page.cdr.php:744 /usr/src/freepbx/cdr/page.cdr.php:1137
+msgid "CallerID"
+msgstr "來電顯示"
+
+#: page.cdr.php:220
+msgid "CallerID Name"
+msgstr "來電顯示名稱"
+
+#: page.cdr.php:208
+msgid "CallerID Number"
+msgstr "來電顯示號碼"
+
+#: page.cdr.php:727
+msgid "Calls"
+msgstr "通話"
+
+#: page.cdr.php:338
+msgid "Cancel"
+msgstr "取消"
+
+#: install.php:345
+msgid "Cancel disposition enabled"
+msgstr "取消接通狀態已啟用"
+
+#: Console/Cdr.class.php:16
+msgid "Cdr module "
+msgstr "Cdr 模組 "
+
+#: page.cdr.php:1129
+#: page.cdr.php:1148
+#: page.cdr.php:1153
+#: page.cdr.php:1181
+#: page.cdr.php:1300
+msgid "Channel"
+msgstr "通道"
+
+#: page.cdr.php:179
+msgid "Concurrent Calls"
+msgstr "並行通話"
+
+#: ucp/Cdr.class.php:358
+#: ucp/Cdr.class.php:362
+msgid "Conference"
+msgstr "會議"
+
+#: page.cdr.php:212 /usr/src/freepbx/cdr/page.cdr.php:224
+#: page.cdr.php:244 /usr/src/freepbx/cdr/page.cdr.php:256
+#: page.cdr.php:275 /usr/src/freepbx/cdr/page.cdr.php:289
+#: page.cdr.php:301 /usr/src/freepbx/cdr/page.cdr.php:312
+msgid "Contains"
+msgstr "包含"
+
+#: ucp/views/widget.php:33
+msgid "Controls"
+msgstr "控制項"
+
+#: page.cdr.php:252 /usr/src/freepbx/cdr/page.cdr.php:369
+#: page.cdr.php:433 /usr/src/freepbx/cdr/page.cdr.php:746
+#: page.cdr.php:884 /usr/src/freepbx/cdr/page.cdr.php:1159
+msgid "DID"
+msgstr "DID"
+
+#: ucp/views/widget.php:27
+msgid "Date"
+msgstr "日期"
+
+#: page.cdr.php:357
+msgid "Date/Time"
+msgstr "日期/時間"
+
+#: page.cdr.php:363 /usr/src/freepbx/cdr/page.cdr.php:943
+msgid "Day"
+msgstr "日"
+
+#: page.cdr.php:362
+msgid "Day of Week"
+msgstr "星期"
+
+#: page.cdr.php:927
+msgid "Day of week"
+msgstr "星期"
+
+#: page.cdr.php:119
+msgid "December"
+msgstr "十二月"
+
+#: cdr.i18n.php:24
+msgid ""
+"Define the maximum number of CDRs to accumulate in the buffer before posting "
+"them to the backend engines.  'batch' must be set to 'yes'.  Default is 200."
+msgstr "定義在傳送至背景引擎之前，要在緩衝區中累積的最大通話詳單數量。'batch' 必須設為 'yes'。預設值為 200。"
+
+#: cdr.i18n.php:28
+msgid ""
+"Define the maximum time to accumulate CDRs in the buffer before posting them "
+"to the backend engines. If this time limit is reached, then it will post the "
+"records, regardless of the value defined for 'size'. 'batch' must be set to "
+"'yes'.  Note that time is in seconds. Default is 300 (5 minutes)."
+msgstr ""
+"定義在傳送至背景引擎之前，要在緩衝區中累積通話詳單的最長時間。若達此時間限制，則無論 'size' 設定值為何，都會傳送記錄。'batch' 必須設為 'yes'。請注意時間單位為秒。預設值為 300（5 分鐘）。"
+
+#: cdr.i18n.php:16
+msgid "Define whether or not to use CDR logging.  Setting this to "
+msgstr "定義是否使用通話詳單記錄。將此設為 "
+
+#: ucp/views/widget.php:28
+msgid "Description"
+msgstr "描述"
+
+#: Api/Gql/Cdr.php:441
+msgid "Description of the blocked number"
+msgstr "被封鎖號碼的描述"
+
+#: page.cdr.php:271 /usr/src/freepbx/cdr/page.cdr.php:748
+msgid "Destination"
+msgstr "目的地"
+
+#: page.cdr.php:374 /usr/src/freepbx/cdr/page.cdr.php:899
+msgid "Destination Caller ID Name"
+msgstr "目的地來電顯示名稱"
+
+#: page.cdr.php:285
+msgid "Destination CallerID Name"
+msgstr "目的地來電顯示名稱"
+
+#: page.cdr.php:1181
+msgid "Destination Context"
+msgstr "目的地內文"
+
+#: page.cdr.php:368 /usr/src/freepbx/cdr/page.cdr.php:881
+msgid "Destination Number"
+msgstr "目的地號碼"
+
+#: page.cdr.php:1262
+msgid "Dialplan context"
+msgstr "撥號計畫內文"
+
+#: page.cdr.php:1257
+msgid "Dialplan exten"
+msgstr "撥號計畫分機"
+
+#: page.cdr.php:329 /usr/src/freepbx/cdr/page.cdr.php:749
+msgid "Disposition"
+msgstr "接通狀態"
+
+#: Api/Gql/Cdr.php:33
+msgid ""
+"Dispositions represent the final state of the call from the perspective of "
+"Party A"
+msgstr "接通狀態代表從 A 方視角看通話的最終狀態"
+
+#: install.php:54 /usr/src/freepbx/cdr/install.php:69
+#: install.php:84 /usr/src/freepbx/cdr/install.php:99
+msgid "Done"
+msgstr "完成"
+
+#: ucp/assets/js/global.js:45
+msgid "Download"
+msgstr "下載"
+
+#: page.cdr.php:319 /usr/src/freepbx/cdr/page.cdr.php:750
+#: ucp/views/widget.php:29
+msgid "Duration"
+msgstr "時間長度"
+
+#: install.php:163
+msgid "ERROR failed to update database"
+msgstr "錯誤：無法更新資料庫"
+
+#: views/ucp_config.php:28
+msgid "Enable CDR (Call History) in UCP for this user"
+msgstr "為此使用者在 UCP 中啟用通話詳單（通話記錄）"
+
+#: cdr.i18n.php:12
+msgid "Enable CDR Logging"
+msgstr "啟用通話詳單記錄"
+
+#: Api/Gql/Cdr.php:54
+msgid "End Date"
+msgstr "結束日期"
+
+#: Api/Gql/Cdr.php:78
+msgid "End Date is required..!!"
+msgstr "必須填寫結束日期..！！"
+
+#: Api/Gql/Cdr.php:85
+msgid "End Date should be greater than Start Date..!!"
+msgstr "結束日期應大於開始日期..！！"
+
+#: page.cdr.php:213 /usr/src/freepbx/cdr/page.cdr.php:225
+#: page.cdr.php:245 /usr/src/freepbx/cdr/page.cdr.php:257
+#: page.cdr.php:276 /usr/src/freepbx/cdr/page.cdr.php:290
+#: page.cdr.php:302 /usr/src/freepbx/cdr/page.cdr.php:313
+msgid "Ends With"
+msgstr "結尾為"
+
+#: page.cdr.php:429
+msgid "Event"
+msgstr "事件"
+
+#: page.cdr.php:1292
+msgid "Event Extra"
+msgstr "事件額外資訊"
+
+#: page.cdr.php:440
+msgid "EventExtra"
+msgstr "事件額外資訊"
+
+#: page.cdr.php:413
+msgid "Events"
+msgstr "事件"
+
+#: page.cdr.php:214 /usr/src/freepbx/cdr/page.cdr.php:226
+#: page.cdr.php:246 /usr/src/freepbx/cdr/page.cdr.php:258
+#: page.cdr.php:277 /usr/src/freepbx/cdr/page.cdr.php:291
+#: page.cdr.php:303 /usr/src/freepbx/cdr/page.cdr.php:314
+msgid "Exactly"
+msgstr "完全符合"
+
+#: page.cdr.php:170
+msgid "Extra Options"
+msgstr "額外選項"
+
+#: page.cdr.php:336
+msgid "Failed"
+msgstr "失敗"
+
+#: page.cdr.php:119
+msgid "February"
+msgstr "二月"
+
+#: ucp/Cdr.class.php:221
+msgid "File does not exist"
+msgstr "檔案不存在"
+
+#: ucp/Cdr.class.php:460
+msgid "Forbidden"
+msgstr "禁止存取"
+
+#: page.cdr.php:115
+msgid "From"
+msgstr "從"
+
+#: page.cdr.php:976
+msgid "Go to the CDR Graph"
+msgstr "前往通話詳單圖表"
+
+#: page.cdr.php:975
+msgid "Go to the top of the CDR table"
+msgstr "前往通話詳單表格頂端"
+
+#: page.cdr.php:351
+msgid "Group By"
+msgstr "分組依據"
+
+#: page.cdr.php:360 /usr/src/freepbx/cdr/page.cdr.php:907
+msgid "Hour"
+msgstr "小時"
+
+#: page.cdr.php:361
+msgid "Hour of Day"
+msgstr "小時"
+
+#: page.cdr.php:912
+msgid "Hour of day"
+msgstr "小時"
+
+#: install.php:331
+msgid "How many days cdr need to keep in transient cdr "
+msgstr "通話詳單需在暫存通話詳單中保留多少天"
+
+#: install.php:316
+msgid ""
+"If this option set to no, than call log app may not work properly with "
+"Sangoma P & D series phones and Desktop phones."
+msgstr "若此選項設為 no，則通話記錄應用程式可能無法在 Sangoma P 和 D 系列電話及桌面電話上正常運作。"
+
+#: views/ucp_config.php:18
+#: views/ucp_config.php:75
+#: views/ucp_config.php:106
+msgid "Inherit"
+msgstr "繼承"
+
+#: Api/Gql/Cdr.php:74
+msgid "Invalid End Date Format(YYYY-MM-DD)"
+msgstr "結束日期格式無效 (YYYY-MM-DD)"
+
+#: Api/Gql/Cdr.php:69
+msgid "Invalid Start Date Format(YYYY-MM-DD)"
+msgstr "開始日期格式無效 (YYYY-MM-DD)"
+
+#: page.cdr.php:119
+msgid "January"
+msgstr "一月"
+
+#: page.cdr.php:119
+msgid "July"
+msgstr "七月"
+
+#: page.cdr.php:119
+msgid "June"
+msgstr "六月"
+
+#: Api/Gql/Cdr.php:24
+msgid "Limit value"
+msgstr "限制值"
+
+#: page.cdr.php:119
+msgid "March"
+msgstr "三月"
+
+#: page.cdr.php:973 /usr/src/freepbx/cdr/page.cdr.php:1086
+msgid "Max Calls"
+msgstr "最大通話數"
+
+#: page.cdr.php:119
+msgid "May"
+msgstr "五月"
+
+#: Api/Gql/Cdr.php:477
+#: Api/Gql/Cdr.php:507
+msgid "Message for the request"
+msgstr "請求的訊息"
+
+#: page.cdr.php:358 /usr/src/freepbx/cdr/page.cdr.php:932
+msgid "Minute"
+msgstr "分鐘"
+
+#: page.cdr.php:365 /usr/src/freepbx/cdr/page.cdr.php:922
+msgid "Month"
+msgstr "月"
+
+#: page.cdr.php:347
+msgid "Newest First"
+msgstr "最新優先"
+
+#: views/ucp_config.php:15
+#: views/ucp_config.php:72
+#: views/ucp_config.php:103
+msgid "No"
+msgstr "否"
+
+#: page.cdr.php:337
+msgid "No Answer"
+msgstr "未接通"
+
+#: Api/Gql/Cdr.php:100
+msgid "No Data Found"
+msgstr "找不到資料"
+
+#: page.cdr.php:210 /usr/src/freepbx/cdr/page.cdr.php:222
+#: page.cdr.php:242 /usr/src/freepbx/cdr/page.cdr.php:254
+#: page.cdr.php:273 /usr/src/freepbx/cdr/page.cdr.php:287
+#: page.cdr.php:299 /usr/src/freepbx/cdr/page.cdr.php:310
+#: page.cdr.php:340
+msgid "Not"
+msgstr "非"
+
+#: ucp/Cdr.class.php:466
+msgid "Not Found"
+msgstr "找不到"
+
+#: page.cdr.php:119
+msgid "November"
+msgstr "十一月"
+
+#: install.php:132 /usr/src/freepbx/cdr/install.php:149
+#: install.php:165
+msgid "OK!"
+msgstr "確定！"
+
+#: page.cdr.php:119
+msgid "October"
+msgstr "十月"
+
+#: Api/Gql/Cdr.php:28
+msgid "Offset value"
+msgstr "位移值"
+
+#: page.cdr.php:346
+msgid "Oldest First"
+msgstr "最舊優先"
+
+#: page.cdr.php:108
+msgid "Order By"
+msgstr "排序依據"
+
+#: page.cdr.php:373 /usr/src/freepbx/cdr/page.cdr.php:896
+msgid "Outbound Caller ID Name"
+msgstr "外撥來電顯示名稱"
+
+#: page.cdr.php:372 /usr/src/freepbx/cdr/page.cdr.php:893
+msgid "Outbound Caller ID Number"
+msgstr "外撥來電顯示號碼"
+
+#: page.cdr.php:745
+msgid "Outbound CallerID"
+msgstr "外撥來電顯示"
+
+#: page.cdr.php:240
+msgid "Outbound CallerID Number"
+msgstr "外撥來電顯示號碼"
+
+#: ucp/views/widget.php:31
+msgid "Playback"
+msgstr "播放"
+
+#: page.cdr.php:742
+msgid "Recording"
+msgstr "錄音"
+
+#: page.cdr.php:729
+msgid "Related Call Detail Records"
+msgstr "相關通話詳單記錄"
+
+#: Console/Cdr.class.php:18
+msgid "Remove Data older than retention days"
+msgstr "移除超過保留天數的歷史資料"
+
+#: page.cdr.php:173
+msgid "Report Type"
+msgstr "報告類型"
+
+#: cdr.i18n.php:6
+msgid "Reports"
+msgstr "報告"
+
+#: page.cdr.php:184
+msgid "Result Limit"
+msgstr "結果限制"
+
+#: page.cdr.php:383
+msgid "Search"
+msgstr "搜尋"
+
+#: page.cdr.php:109
+msgid "Search Conditions"
+msgstr "搜尋條件"
+
+#: page.cdr.php:251
+msgid "Search for a DID."
+msgstr "搜尋 DID。"
+
+#: page.cdr.php:307
+msgid "Search for accountcode."
+msgstr "搜尋帳號代碼。"
+
+#: page.cdr.php:199
+msgid ""
+"Search for calls based on CallerID Number. You can enter multiple numbers "
+"separated by a comma. This field support Asterisk regular expression. "
+"Example<br>"
+msgstr "根據來電顯示號碼搜尋通話。可輸入多個號碼，以逗號分隔。此欄位支援 Asterisk 規則式。範例<br>"
+
+#: page.cdr.php:231
+msgid ""
+"Search for calls based on outbound CID used. You can enter multiple numbers "
+"separated by a comma. This field support Asterisk regular expression. "
+"Example<br>"
+msgstr "根據使用的外撥 CID 搜尋通話。可輸入多個號碼，以逗號分隔。此欄位支援 Asterisk 規則式。範例<br>"
+
+#: page.cdr.php:328
+msgid ""
+"Search for calls that matches either ANSWERED, BUSY, FAILED or NO ANSWER."
+msgstr "搜尋符合已接通、忙線、失敗或未接通條件的通話。"
+
+#: page.cdr.php:318
+msgid "Search for calls that matches the call length specified."
+msgstr "搜尋符合指定通話時間長度的通話。"
+
+#: page.cdr.php:262
+msgid ""
+"Search for destination calls. You can enter multiple sources separated by a "
+"comma. This field support Asterisk regular expression. Example<br>"
+msgstr "搜尋目的地通話。可輸入多個來源，以逗號分隔。此欄位支援 Asterisk 規則式。範例<br>"
+
+#: page.cdr.php:296
+msgid "Search for userfield data (if enabled)."
+msgstr "搜尋使用者欄位資料（若已啟用）。"
+
+#: page.cdr.php:324
+msgid "Seconds"
+msgstr "秒"
+
+#: page.cdr.php:219
+msgid "Select CallerID Name to search for."
+msgstr "選取要搜尋的來電顯示名稱。"
+
+#: page.cdr.php:284
+msgid "Select Destination Caller Name to search for."
+msgstr "選取要搜尋的目的地來電名稱。"
+
+#: page.cdr.php:113
+msgid ""
+"Select time span for your report. You can select Date, Month, Year, Hour and "
+"Minute to narrow your search"
+msgstr "選取報告的時間範圍。可選取日期、月、年、小時和分鐘以縮小搜尋範圍"
+
+#: page.cdr.php:119
+msgid "September"
+msgstr "九月"
+
+#: Api/Gql/Cdr.php:50
+msgid "Start Date"
+msgstr "開始日期"
+
+#: Api/Gql/Cdr.php:81
+msgid "Start Date is required..!!"
+msgstr "必須填寫開始日期..！！"
+
+#: Api/Gql/Cdr.php:481
+#: Api/Gql/Cdr.php:511
+msgid "Status for the request"
+msgstr "請求的狀態"
+
+#: page.cdr.php:743
+msgid "System"
+msgstr "系統"
+
+#: page.cdr.php:376
+msgid "Tech info"
+msgstr "技術資訊"
+
+#: page.cdr.php:367
+msgid "Telephone Number"
+msgstr "電話號碼"
+
+#: install.php:346
+msgid ""
+"The \"canceldispositionenabled\" option in Asterisk configures Call Detail "
+"Records (CDR) to distinguish calls that were cancelled (abandoned by the "
+"caller before being answered) from other unanswered calls. When this option "
+"is enabled, calls ending due to the caller hanging up during ringing will "
+"have the disposition \"CANCEL\" instead of the default \"NO ANSWER\". This "
+"option is supported on Asterisk version 20 and above."
+msgstr ""
+"Asterisk 中的 \"canceldispositionenabled\" 選項可讓通話詳單（CDR）區分已取消（撥叫者在接聽前掛斷）與其他未接通的通話。啟用此選項後，因撥叫者在響鈴期間掛斷而結束的通話，其接通狀態將為 \"CANCEL\" 而非預設的 \"NO ANSWER\"。此選項支援 Asterisk 20 及以上版本。"
+
+#: cdr.i18n.php:32
+msgid ""
+"The CDR engine uses the internal asterisk scheduler to determine when to "
+"post records. Posting can either occur inside the scheduler thread, or a new "
+"thread can be spawned for the submission of every batch. For small batches, "
+"it might be acceptable to just use the scheduler thread, so set this to "
+msgstr ""
+"通話詳單引擎使用內部 Asterisk 排程器來決定何時傳送記錄。傳送可在排程器執行緒內完成，或可為每次批次提交產生新執行緒。對於小型批次，使用排程器執行緒可能已可接受，因此請將此設為 "
+
+#: Api/Gql/Cdr.php:197
+#: Api/Gql/Cdr.php:393
+msgid "The Caller ID Number"
+msgstr "來電顯示號碼"
+
+#: Api/Gql/Cdr.php:185
+msgid "The Caller ID with text"
+msgstr "帶有文字的來電顯示"
+
+#: Api/Gql/Cdr.php:369
+msgid "The DID that was used to reach this destination"
+msgstr "用於抵達此目的地的 DID"
+
+#: Api/Gql/Cdr.php:111
+msgid "The ID"
+msgstr "ID"
+
+#: Api/Gql/Cdr.php:417
+msgid "The Outbound Caller ID Name"
+msgstr "外撥來電顯示名稱"
+
+#: Api/Gql/Cdr.php:405
+msgid "The Outbound Caller ID Number"
+msgstr "外撥來電顯示號碼"
+
+#: Api/Gql/Cdr.php:453
+msgid "The account code of the Party B channel"
+msgstr "B 方通道的帳號代碼"
+
+#: Api/Gql/Cdr.php:269
+msgid ""
+"The application data for the last application the Party A channel executed"
+msgstr "A 方通道所執行的最後一個應用程式的資料"
+
+#: Api/Gql/Cdr.php:41
+msgid "The channel dialed something that was congested."
+msgstr "通道撥打的對象壅塞。"
+
+#: Api/Gql/Cdr.php:37
+msgid ""
+"The channel was never answered. This is the default disposition for an "
+"unanswered channel."
+msgstr "通道從未被接通。此為未接通通道的預設接通狀態。"
+
+#: Api/Gql/Cdr.php:429
+msgid "The destination Caller ID Name"
+msgstr "目的地來電顯示名稱"
+
+#: Api/Gql/Cdr.php:221
+msgid "The destination context"
+msgstr "目的地內文"
+
+#: Api/Gql/Cdr.php:209
+msgid "The destination extension"
+msgstr "目的地分機"
+
+#: ucp/Cdr.class.php:202
+#: ucp/Cdr.class.php:216
+msgid "The extension isn't associated with the user account"
+msgstr "該分機未與使用者帳號關聯"
+
+#: Api/Gql/Cdr.php:45
+#: Api/Gql/Cdr.php:305
+msgid "The final known disposition of the CDR record"
+msgstr "通話詳單記錄的最終已知接通狀態"
+
+#: ucp/Cdr.class.php:102
+msgid "The given extension is empty."
+msgstr "指定的分機為空。"
+
+#: Api/Gql/Cdr.php:257
+msgid "The last application the Party A channel executed"
+msgstr "A 方通道所執行的最後一個應用程式"
+
+#: Api/Gql/Cdr.php:233
+msgid "The name of the Party A channel"
+msgstr "A 方通道的名稱"
+
+#: Api/Gql/Cdr.php:245
+msgid "The name of the Party B channel"
+msgstr "B 方通道的名稱"
+
+#: Api/Gql/Cdr.php:381
+msgid "The recording file of this entry"
+msgstr "此項目的錄音檔案"
+
+#: Api/Gql/Cdr.php:293
+msgid "The time in seconds from answer until end"
+msgstr "從接聽至結束的時間（秒）"
+
+#: Api/Gql/Cdr.php:281
+msgid "The time in seconds from start until end"
+msgstr "從開始至結束的時間（秒）"
+
+#: Api/Gql/Cdr.php:161
+#: Api/Gql/Cdr.php:173
+msgid "The time the CDR was created"
+msgstr "建立通話詳單的時間"
+
+#: ucp/Cdr.class.php:97
+msgid "There are no assigned extensions."
+msgstr "沒有指定的分機。"
+
+#: views/ucp_config.php:54
+msgid ""
+"These are the assigned and active extensions which will show up for this "
+"user to control and edit in UCP"
+msgstr "這些是為此使用者指派且啟用的分機，將顯示於 UCP 中供其控制與編輯"
+
+#: ucp/Cdr.class.php:106
+msgid "This extension is not assigned to this user."
+msgstr "此分機未指派給此使用者。"
+
+#: page.cdr.php:428 /usr/src/freepbx/cdr/page.cdr.php:1087
+msgid "Time"
+msgstr "時間"
+
+#: page.cdr.php:141
+msgid "To"
+msgstr "到"
+
+#: page.cdr.php:973 /usr/src/freepbx/cdr/page.cdr.php:1086
+msgid "Total Calls"
+msgstr "總通話數"
+
+#: page.cdr.php:973
+msgid "Total Duration"
+msgstr "總計時間"
+
+#: install.php:315
+msgid "Transient CDR"
+msgstr "暫存通話詳單"
+
+#: install.php:330
+msgid "Transient CDR data retention"
+msgstr "暫存通話詳單資料保留"
+
+#: install.php:49
+msgid "Unable to add index to did field in the cdr table"
+msgstr "無法將索引加入 cdr 表格的 did 欄位"
+
+#: install.php:94
+msgid "Unable to add index to dstchannel field in the cdr table"
+msgstr "無法將索引加入 cdr 表格的 dstchannel 欄位"
+
+#: install.php:79
+msgid "Unable to add index to linkedid field in the cdr table"
+msgstr "無法將索引加入 cdr 表格的 linkedid 欄位"
+
+#: install.php:64
+msgid "Unable to add index to recordingfile field in the cdr table"
+msgstr "無法將索引加入 cdr 表格的 recordingfile 欄位"
+
+#: page.cdr.php:1120
+#: page.cdr.php:1123
+msgid "UniqueID"
+msgstr "UniqueID"
+
+#: ucp/Cdr.class.php:388
+#: ucp/Cdr.class.php:409
+#: ucp/Cdr.class.php:413
+msgid "Unknown"
+msgstr "未知"
+
+#: cdr.i18n.php:20
+msgid ""
+"Use of batch mode may result in data loss after unsafe asterisk termination "
+"ie. software crash, power failure, kill -9, etc. Default is "
+msgstr "使用批次模式可能導致 Asterisk 在下列不安全終止後遺失資料：軟體當機、斷電、kill -9 等。預設值為 "
+
+#: page.cdr.php:355 /usr/src/freepbx/cdr/page.cdr.php:902
+msgid "User Field"
+msgstr "使用者欄位"
+
+#: Cdr.class.php:300
+msgid "User Primary Extension"
+msgstr "使用者主要分機"
+
+#: page.cdr.php:439 /usr/src/freepbx/cdr/page.cdr.php:1286
+msgid "UserDefType"
+msgstr "UserDefType"
+
+#: page.cdr.php:297 /usr/src/freepbx/cdr/page.cdr.php:751
+msgid "Userfield"
+msgstr "使用者欄位"
+
+#: ucp/Cdr.class.php:344
+#: ucp/Cdr.class.php:349
+msgid "Voicemail"
+msgstr "語音信箱"
+
+#: page.cdr.php:364 /usr/src/freepbx/cdr/page.cdr.php:917
+msgid "Week ( Sun-Sat )"
+msgstr "週（日—六）"
+
+#: cdr.i18n.php:36
+msgid ""
+"When shutting down asterisk, you can block until the CDRs are submitted. If "
+"you don't, then data will likely be lost.  You can always check the size of "
+"the CDR batch buffer with the CLI 'cdr status command. To enable blocking on "
+"submission of CDR data during asterisk shutdown, set this to 'yes'. Default "
+"is 'no'."
+msgstr ""
+"關閉 Asterisk 時，您可以等待直到通話詳單提交完成。若不等待，資料很可能會遺失。您隨時可透過 CLI 的 'cdr status 命令' 檢查通話詳單批次緩衝區的大小。若要在 Asterisk 關機期間啟用通話詳單資料提交的阻擋功能，請將此設為 'yes'。預設值為 'no'。"
+
+#: views/ucp_config.php:13
+#: views/ucp_config.php:70
+#: views/ucp_config.php:101
+msgid "Yes"
+msgstr "是"
+
+#: page.cdr.php:841
+#: ucp/assets/js/global.js:85
+#, perl-format, php-format
+msgid ""
+"You are missing support for playback in this browser. To fully support HTML5 "
+"browser playback you will need to install programs that can not be "
+"distributed with the PBX. If you'd like to install the binaries needed for "
+"these conversions click <a href='%s'>here</a>"
+msgstr ""
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。如果您想安裝這些轉換所需的二進位檔，請點擊<a href='%s'>此處</a>"
+
+#: cdr.i18n.php:14
+msgid "cdr"
+msgstr "cdr"
+
+#: page.cdr.php:438
+msgid "channel"
+msgstr "通道"
+
+#: page.cdr.php:436
+msgid "context"
+msgstr "內文"
+
+#: ucp/Cdr.class.php:376
+msgid "denied by COS"
+msgstr "被 COS 拒絕"
+
+#: page.cdr.php:435
+msgid "exten"
+msgstr "分機"
+
+#: ucp/Cdr.class.php:372
+msgid "kicked from conference"
+msgstr "從會議中踢除"

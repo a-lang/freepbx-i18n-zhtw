@@ -1,0 +1,143 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for miscapps
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-22 23:20-0500\n"
+"PO-Revision-Date: 2026-09-15 15:39+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/grid.php:9
+msgid "Actions"
+msgstr "動作"
+
+#: views/rnav.php:3
+msgid "Add Misc App"
+msgstr "新增雜項應用程式"
+
+#: Miscapps.class.php:305
+#: views/grid.php:2
+msgid "Add Misc Application"
+msgstr "新增雜項應用程式"
+
+#: miscapps.i18n.php:8
+msgid ""
+"Adds the ability to create feature codes that can go to any FreePBX "
+"destination (such as an IVR or queue)"
+msgstr "新增建立可通往任何 FreePBX 目的地（如 IVR 或佇列）的功能碼的能力"
+
+#: miscapps.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/form.php:107
+msgid "Choose the destination for this app when people dial the feature code"
+msgstr "當使用者撥打功能碼時，選擇此應用程式的目的地"
+
+#: Miscapps.class.php:95
+msgid "Delete"
+msgstr "刪除"
+
+#: views/grid.php:7
+#: views/rnav.php:15
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:47
+msgid "Description:"
+msgstr "描述："
+
+#: views/form.php:95
+msgid "Destination"
+msgstr "目的地"
+
+#: Miscapps.class.php:313
+msgid "Edit Misc Application"
+msgstr "編輯雜項應用程式"
+
+#: views/form.php:26
+msgid "Enable"
+msgstr "啟用"
+
+#: views/grid.php:8
+#: views/rnav.php:14
+msgid "Extension"
+msgstr "分機"
+
+#: views/form.php:71
+msgid "Feature Code"
+msgstr "功能碼"
+
+#: assets/js/miscapps.js:6
+msgid "Invalid description specified"
+msgstr "指定的描述無效"
+
+#: views/rnav.php:2
+msgid "List Misc App"
+msgstr "列出雜項應用程式"
+
+#: Miscapps.class.php:326
+#: views/main.php:1
+msgid "Misc Application"
+msgstr "雜項應用程式"
+
+#: Miscapps.class.php:264
+#: functions.inc.php:150
+#, php-format
+msgid "Misc Application: %s"
+msgstr "雜項應用程式：%s"
+
+#: miscapps.i18n.php:4
+#: miscapps.i18n.php:10
+msgid "Misc Applications"
+msgstr "雜項應用程式"
+
+#: views/form.php:32
+msgid "No"
+msgstr "否"
+
+#: assets/js/miscapps.js:36
+msgid "Please enter a valid Feature Code."
+msgstr "請輸入有效的功能碼。"
+
+#: Miscapps.class.php:100
+msgid "Reset"
+msgstr "重設"
+
+#: Miscapps.class.php:105
+msgid "Submit"
+msgstr "送出"
+
+#: views/form.php:83
+msgid ""
+"The feature code/extension users can dial to access this application. This "
+"can also be modified on the Feature Codes page."
+msgstr "使用者可以撥打功能碼/分機來存取此應用程式。也可以在功能碼頁面修改。"
+
+#: views/form.php:59
+msgid "The name of this application"
+msgstr "此應用程式的名稱"
+
+#: assets/js/miscapps.js:44
+msgid "The number provided for the feature code is already in use by "
+msgstr "功能碼提供的號碼已被使用中，由"
+
+#: views/form.php:75
+msgid "This field is required."
+msgstr "此欄位為必填。"
+
+#: views/form.php:30
+msgid "Yes"
+msgstr "是"

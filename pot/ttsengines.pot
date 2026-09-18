@@ -1,0 +1,115 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ttsengines
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 23:59-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: assets/js/ttsengines.js:39
+msgid " already used, please use a different Engine Name."
+msgstr ""
+
+#: assets/js/ttsengines.js:31
+msgid " already used, please use a different Engine Path."
+msgstr ""
+
+#: views/grid.php:12
+msgid "Actions"
+msgstr ""
+
+#: views/grid.php:5
+#: views/rnav.php:3
+msgid "Add TTS Engine"
+msgstr ""
+
+#: ttsengines.i18n.php:8
+msgid "Allows you to configure text to speech engines"
+msgstr ""
+
+#: Ttsengines.class.php:30
+msgid "Delete"
+msgstr ""
+
+#: views/grid.php:11
+#: views/rnav.php:16
+msgid "Engine"
+msgstr ""
+
+#: views/form.php:50
+msgid "Engine Name"
+msgstr ""
+
+#: views/form.php:81
+msgid "Engine Path"
+msgstr ""
+
+#: views/rnav.php:2
+msgid "List TTS Engine"
+msgstr ""
+
+#: page.ttsengines.php:32
+msgid ""
+"On this page you can manage text to speech engines on your system. When you "
+"add an engine you give it a name, and the full path to the engine on your "
+"system. After doing this the engine will be available on the text to speech "
+"page."
+msgstr ""
+
+#: views/grid.php:10
+#: views/rnav.php:15
+msgid "Path"
+msgstr ""
+
+#: assets/js/ttsengines.js:36
+msgid "Please enter a valid Engine Name."
+msgstr ""
+
+#: assets/js/ttsengines.js:28
+msgid "Please enter a valid Engine Path."
+msgstr ""
+
+#: Ttsengines.class.php:35
+msgid "Reset"
+msgstr ""
+
+#: ttsengines.i18n.php:6
+msgid "Settings"
+msgstr ""
+
+#: Ttsengines.class.php:40
+msgid "Submit"
+msgstr ""
+
+#: ttsengines.i18n.php:4
+#: ttsengines.i18n.php:10
+msgid "Text To Speech Engines"
+msgstr ""
+
+#: page.ttsengines.php:33
+msgid "Text to Speech Engines"
+msgstr ""
+
+#: views/form.php:93
+msgid ""
+"The full path to the binary of your text to speech engine. For example: /usr/"
+"sbin/magic_speech_engine."
+msgstr ""
+
+#: views/form.php:69
+msgid ""
+"The name you enter will be shown in a drop down box on the Text to Speech "
+"page so you can select which engine you want to play your text."
+msgstr ""

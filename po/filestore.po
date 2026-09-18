@@ -1,0 +1,820 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for filestore
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-21 01:18-0400\n"
+"PO-Revision-Date: 2026-09-15 18:03+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Api/Gql/Filestore.php:534
+msgid " Instance is created successfully"
+msgstr " 執行個體已成功建立"
+
+#: drivers/Local/views/form.php:10
+msgid "AGI directory"
+msgstr "AGI 目錄"
+
+#: drivers/S3/views/form.php:124
+msgid "AWS Access Key"
+msgstr "AWS 存取金鑰"
+
+#: drivers/S3/views/form.php:97
+msgid "AWS Region"
+msgstr "AWS 區域"
+
+#: drivers/S3/views/form.php:141
+msgid "AWS Secret"
+msgstr "AWS 密碼"
+
+#: Api/Gql/Filestore.php:308
+msgid "AWS bucket name"
+msgstr "AWS bucket 名稱"
+
+#: Api/Gql/Filestore.php:316
+msgid "AWS hosting Region"
+msgstr "AWS 主機託管區域"
+
+#: drivers/Dropbox/views/form.php:9
+msgid "Access Token Information"
+msgstr "存取權杖資訊"
+
+#: drivers/Dropbox/views/form.php:52
+msgid "Account Name"
+msgstr "帳號名稱"
+
+#: drivers/Dropbox/views/grid.php:23
+#: drivers/Email/views/grid.php:23
+#: drivers/FTP/views/grid.php:23
+#: drivers/Local/views/grid.php:23
+#: drivers/S3/views/grid.php:23
+#: drivers/SSH/views/grid.php:23
+msgid "Actions"
+msgstr "動作"
+
+#: drivers/FTP/views/form.php:237
+msgid "Active"
+msgstr "啟用"
+
+#: drivers/Dropbox/views/grid.php:2
+msgid "Add Dropbox Account"
+msgstr "新增 Dropbox 帳號"
+
+#: drivers/Email/views/grid.php:2
+msgid "Add Email Instance"
+msgstr "新增電子郵件執行個體"
+
+#: drivers/FTP/views/grid.php:2
+msgid "Add FTP Instance"
+msgstr "新增 FTP 執行個體"
+
+#: drivers/Local/views/grid.php:2
+msgid "Add Local Path"
+msgstr "新增本機路徑"
+
+#: drivers/S3/views/grid.php:2
+msgid "Add S3 Bucket"
+msgstr "新增 S3 Bucket"
+
+#: drivers/SSH/views/grid.php:2
+msgid "Add SSH Server"
+msgstr "新增 SSH 伺服器"
+
+#: Api/Gql/Filestore.php:34
+msgid "Add a new AWS S3 Bucket"
+msgstr "新增 AWS S3 Bucket"
+
+#: Api/Gql/Filestore.php:24
+msgid "Add a new FTP instance"
+msgstr "新增 FTP 執行個體"
+
+#: drivers/S3/views/form.php:19
+msgid "Advanced"
+msgstr "進階"
+
+#: drivers/FTP/views/form.php:192
+msgid "Auto"
+msgstr "自動"
+
+#: drivers/Email/views/form.php:153
+msgid "B"
+msgstr "B"
+
+#: drivers/S3/views/form.php:70
+msgid "Bucket Name"
+msgstr "Bucket 名稱"
+
+#: drivers/Dropbox/views/modal.testconnection.php:37
+#: drivers/FTP/views/modal.testconnection.php:44
+#: drivers/S3/views/modal.testconnection.php:37
+#: drivers/SSH/views/modal.testconnection.php:44
+msgid "Close"
+msgstr "關閉"
+
+#: drivers/S3/views/form.php:220
+msgid "Custom Endpoint"
+msgstr "自訂端點"
+
+#: drivers/S3/views/form.php:240
+#: drivers/S3/views/form.php:250
+msgid "Custom Region"
+msgstr "自訂區域"
+
+#: drivers/S3/views/form.php:230
+msgid "Custom S3 compatable endpoint"
+msgstr "自訂 S3 相容端點"
+
+#: drivers/S3/views/form.php:209
+msgid "Danger"
+msgstr "危險"
+
+#: drivers/DriverBase.php:89
+msgid "Delete"
+msgstr "刪除"
+
+#: Api/Gql/Filestore.php:54
+msgid "Delete a existing FTP instance"
+msgstr "刪除現有的 FTP 執行個體"
+
+#: drivers/Dropbox/views/form.php:76
+#: drivers/Dropbox/views/grid.php:21
+#: drivers/Email/views/form.php:75
+#: drivers/Email/views/grid.php:21
+#: drivers/FTP/views/form.php:61
+#: drivers/FTP/views/grid.php:21
+#: drivers/Local/views/form.php:84
+#: drivers/Local/views/grid.php:21
+#: drivers/S3/views/form.php:83
+#: drivers/S3/views/grid.php:21
+#: drivers/SSH/views/form.php:79
+#: drivers/SSH/views/grid.php:21
+msgid "Description"
+msgstr "說明"
+
+#: Api/Gql/Filestore.php:468
+msgid "Description for this conncetion."
+msgstr "此連線的說明。"
+
+#: Api/Gql/Filestore.php:312
+msgid "Description of the AWS S3"
+msgstr "AWS S3 的說明。"
+
+#: drivers/Local/views/form.php:96
+msgid "Description or notes for this File Store"
+msgstr "此檔案儲存的說明或備註。"
+
+#: drivers/Dropbox/views/form.php:88
+#: drivers/SSH/views/form.php:93
+msgid "Description or notes for this server"
+msgstr "此伺服器的說明或備註。"
+
+#: drivers/Email/views/form.php:87
+msgid ""
+"Description or notes for this server. This will be used as the email subject."
+msgstr "此伺服器的說明或備註。將用作電子郵件主旨。"
+
+#: drivers/FTP/views/form.php:124
+msgid "Does this connection use tls? Make sure the port is set correctly."
+msgstr "此連線是否使用 TLS？請確定通訊埠設定正確。"
+
+#: Filestore.class.php:92
+#, php-format
+msgid "Driver (%s) not found!"
+msgstr "找不到驅動程式（%s）！"
+
+#: drivers/Dropbox/views/grid.php:20
+msgid "Dropbox Account"
+msgstr "Dropbox 帳號"
+
+#: drivers/Dropbox/views/form.php:7
+msgid "Dropbox Directory"
+msgstr "Dropbox 目錄"
+
+#: drivers/Email/views/form.php:119
+msgid "Email Address"
+msgstr "電子郵件地址"
+
+#: drivers/Email/views/form.php:9
+msgid "Email List"
+msgstr "電子郵件清單"
+
+#: drivers/Email/views/form.php:51
+msgid "Email List Name"
+msgstr "電子郵件清單名稱"
+
+#: drivers/Email/views/form.php:131
+msgid "Email address where backups should be emailed to"
+msgstr "備份應寄送的電子郵件地址"
+
+#: drivers/FTP/views/form.php:149
+msgid ""
+"Enable this option to use SFTP (Secure File Transfer Protocol), a secure "
+"method for transferring files that encrypts both commands and data. Ensure "
+"that the server supports SFTP for this connection."
+msgstr "啟用此選項可使用 SFTP（安全檔案傳輸協定），一種可加密命令與資料的安全檔案傳輸方法。請確認此連線的伺服器支援 SFTP。"
+
+#: drivers/Dropbox/views/form.php:25
+#: drivers/Dropbox/views/grid.php:22
+#: drivers/Email/views/form.php:24
+#: drivers/Email/views/grid.php:22
+#: drivers/FTP/views/form.php:22
+#: drivers/FTP/views/grid.php:22
+#: drivers/Local/views/form.php:33
+#: drivers/Local/views/grid.php:22
+#: drivers/S3/views/form.php:32
+#: drivers/S3/views/grid.php:22
+#: drivers/SSH/views/form.php:24
+#: drivers/SSH/views/grid.php:22
+msgid "Enabled"
+msgstr "已啟用"
+
+#: Api/Gql/Filestore.php:250
+msgid "Enabled FTP."
+msgstr "已啟用 FTP。"
+
+#: Api/Gql/Filestore.php:192
+msgid "Enabled FTP. Defaults to true if not provided."
+msgstr "已啟用 FTP。若未提供則預設為 true。"
+
+#: Api/Gql/Filestore.php:204
+#: Api/Gql/Filestore.php:262
+msgid "Enter a description for this conncetion."
+msgstr "輸入此連線的說明。"
+
+#: Api/Gql/Filestore.php:246
+msgid "Enter the ID for FTP"
+msgstr "輸入 FTP 的 ID"
+
+#: Api/Gql/Filestore.php:200
+#: Api/Gql/Filestore.php:258
+msgid "Enter the name for FTP Host"
+msgstr "輸入 FTP 主機名稱"
+
+#: Api/Gql/Filestore.php:196
+#: Api/Gql/Filestore.php:254
+msgid "Enter the name for FTP connection"
+msgstr "輸入 FTP 連線名稱"
+
+#: drivers/FTP/views/form.php:7
+msgid "FTP Instance"
+msgstr "FTP 執行個體"
+
+#: Api/Gql/Filestore.php:475
+msgid "FTP Port"
+msgstr "FTP 通訊埠"
+
+#: Api/Gql/Filestore.php:208
+#: Api/Gql/Filestore.php:266
+msgid "FTP Port default is \"22\""
+msgstr "FTP 通訊埠預設為「22」"
+
+#: Api/Gql/Filestore.php:174
+msgid "FTP instance does not exists"
+msgstr "FTP 執行個體不存在"
+
+#: Api/Gql/Filestore.php:172
+msgid "FTP instance found successfully"
+msgstr "成功找到 FTP 執行個體"
+
+#: views/main.php:20
+msgid "File Store"
+msgstr "檔案儲存"
+
+#: drivers/Email/Email.php:70
+#, php-format
+msgid "File from %s, Identifier: %s"
+msgstr "檔案來自 %s，識別碼：%s"
+
+#: filestore.i18n.php:4
+#: filestore.i18n.php:10
+#: views/rnav.php:1
+msgid "Filestore"
+msgstr "檔案儲存"
+
+#: views/main.php:23
+msgid ""
+"Filestore is a filesystem abstraction module for your PBX. You can use it to "
+"setup file system destinations that can be used in other modules"
+msgstr "Filestore 是您 PBX 的檔案系統抽象模組。可用來設定檔案系統目的地，供其他模組使用"
+
+#: drivers/FTP/views/form.php:187
+msgid "Filesystem Type"
+msgstr "檔案系統類型"
+
+#: filestore.i18n.php:8
+msgid "Filesystem abstraction for your PBX"
+msgstr "PBX 的檔案系統抽象"
+
+#: drivers/S3/views/form.php:11
+msgid "For Use With AWS S3"
+msgstr "與 AWS S3 搭配使用"
+
+#: drivers/Email/views/form.php:97
+msgid "From Email"
+msgstr "寄件者電子郵件"
+
+#: drivers/Email/views/form.php:107
+msgid ""
+"From Email. If this is blank the system will try and determine an "
+"appropriate from address"
+msgstr "寄件者電子郵件。若為空白，系統將嘗試判斷適當的寄件地址"
+
+#: drivers/S3/views/form.php:18
+msgid "General"
+msgstr "一般"
+
+#: drivers/FTP/views/form.php:75
+#: drivers/SSH/views/form.php:106
+msgid "Hostname"
+msgstr "主機名稱"
+
+#: Api/Gql/Filestore.php:461
+msgid "Hostname for FTP Host"
+msgstr "FTP 主機的主機名稱"
+
+#: drivers/SSH/views/form.php:120
+msgid "IP address or FQDN of remote SSH server"
+msgstr "遠端 SSH 伺服器的 IP 位址或 FQDN"
+
+#: drivers/FTP/views/form.php:85
+msgid "IP address or FQDN of remote ftp host"
+msgstr "遠端 FTP 主機的 IP 位址或 FQDN"
+
+#: Filestore.class.php:106
+msgid "Invalid name"
+msgstr "名稱無效"
+
+#: drivers/Email/views/form.php:155
+msgid "KB"
+msgstr "KB"
+
+#: drivers/SSH/views/form.php:187
+msgid "Key"
+msgstr "金鑰"
+
+#: Api/Gql/Filestore.php:134
+msgid "List of AWS Storage"
+msgstr "AWS 儲存空間清單"
+
+#: Api/Gql/Filestore.php:154
+msgid "List of all filestores"
+msgstr "所有檔案儲存清單"
+
+#: Api/Gql/Filestore.php:101
+#: Api/Gql/Filestore.php:427
+msgid "List of filestore locations"
+msgstr "檔案儲存位置清單"
+
+#: Api/Gql/Filestore.php:90
+msgid "List of filestore types"
+msgstr "檔案儲存類型清單"
+
+#: Api/Gql/Filestore.php:444
+msgid "List of filestores"
+msgstr "檔案儲存清單"
+
+#: Api/Gql/Filestore.php:423
+msgid "List of regions"
+msgstr "區域清單"
+
+#: Api/Gql/Filestore.php:396
+msgid "List the filestore type"
+msgstr "列出檔案儲存類型"
+
+#: drivers/Local/views/form.php:6
+msgid "Local Directory"
+msgstr "本機目錄"
+
+#: Api/Gql/Filestore.php:304
+#: drivers/S3/views/form.php:57
+msgid "Local Display Name"
+msgstr "本機顯示名稱"
+
+#: drivers/SSH/views/form.php:201
+msgid "Location of ssh private key to be used when connecting to a host."
+msgstr "用於連線至主機的 SSH 私密金鑰位置。"
+
+#: drivers/Email/views/form.php:157
+msgid "MB"
+msgstr "MB"
+
+#: drivers/Email/views/form.php:143
+msgid "Max Email Size"
+msgstr "最大電子郵件大小"
+
+#: Api/Gql/Filestore.php:384
+#: Api/Gql/Filestore.php:405
+msgid "Message for the request"
+msgstr "要求的訊息"
+
+#: drivers/Email/views/grid.php:20
+#: drivers/FTP/views/grid.php:20
+#: drivers/Local/views/grid.php:20
+#: drivers/S3/views/grid.php:20
+msgid "Name"
+msgstr "名稱"
+
+#: Api/Gql/Filestore.php:454
+msgid "Name for FTP connection"
+msgstr "FTP 連線名稱"
+
+#: drivers/Email/views/form.php:63
+msgid "Name this email list"
+msgstr "為此電子郵件清單命名"
+
+#: drivers/Dropbox/views/form.php:33
+#: drivers/Email/views/form.php:32
+#: drivers/FTP/views/form.php:30
+#: drivers/FTP/views/form.php:117
+#: drivers/FTP/views/form.php:142
+#: drivers/Local/views/form.php:41
+#: drivers/S3/views/form.php:40
+#: drivers/SSH/views/form.php:32
+msgid "No"
+msgstr "否"
+
+#: Filestore.class.php:114
+#: Filestore.class.php:120
+msgid "No id supplied"
+msgstr "未提供 ID"
+
+#: drivers/FTP/views/form.php:239
+msgid "Passive"
+msgstr "被動"
+
+#: drivers/FTP/views/form.php:173
+msgid "Password"
+msgstr "密碼"
+
+#: drivers/Dropbox/views/form.php:122
+#: drivers/FTP/views/form.php:212
+#: drivers/Local/views/form.php:108
+#: drivers/S3/views/form.php:182
+#: drivers/SSH/views/form.php:214
+msgid "Path"
+msgstr "路徑"
+
+#: drivers/Local/views/form.php:60
+msgid "Path Name"
+msgstr "路徑名稱"
+
+#: Api/Gql/Filestore.php:328
+#: drivers/Dropbox/views/form.php:132
+#: drivers/S3/views/form.php:192
+#: drivers/SSH/views/form.php:228
+msgid "Path on remote server"
+msgstr "遠端伺服器上的路徑"
+
+#: Api/Gql/Filestore.php:224
+#: Api/Gql/Filestore.php:282
+#: Api/Gql/Filestore.php:503
+msgid ""
+"Path on remote server. This must be a COMPLETE PATH, starting with a / - for "
+"example, /home/backups/freepbx. A path without a leading slash will not "
+"work, and will behave in unexpected ways."
+msgstr ""
+"遠端伺服器上的路徑。必須是完整路徑，以 / 開頭 — 例如 /home/backups/freepbx。沒有前導斜線的路徑將無法正常運作，且會出現非預期的行為。"
+
+#: drivers/FTP/views/form.php:222
+msgid ""
+"Path on remote server. This must be a COMPLETE PATH, starting with a / - for "
+"example, <tt>/home/backups/freepbx</tt>. A path without a leading slash will "
+"not work, and will behave in unexpected ways."
+msgstr ""
+"遠端伺服器上的路徑。必須是完整路徑，以 / 開頭 — 例如 <tt>/home/backups/freepbx</tt>。沒有前導斜線的路徑將無法正常運作，且會出現非預期的行為。"
+
+#: drivers/Local/views/form.php:120
+msgid "Path on this local system"
+msgstr "此本機系統上的路徑"
+
+#: drivers/Local/views/form.php:8
+msgid "Paths supports parameter substitution such as the examples below"
+msgstr "路徑支援參數替代，例如下列範例"
+
+#: drivers/FTP/views/form.php:95
+#: drivers/SSH/views/form.php:133
+msgid "Port"
+msgstr "通訊埠"
+
+#: drivers/Local/views/form.php:72
+msgid "Provide the name for this File Store"
+msgstr "提供此檔案儲存的名稱"
+
+#: drivers/Dropbox/views/form.php:64
+#: drivers/SSH/views/form.php:66
+msgid "Provide the name for this server"
+msgstr "提供此伺服器的名稱"
+
+#: drivers/S3/views/form.php:114
+msgid "Region provided in AWS"
+msgstr "AWS 提供的區域"
+
+#: drivers/SSH/views/form.php:147
+msgid "Remote SSH Port"
+msgstr "遠端 SSH 通訊埠"
+
+#: drivers/DriverBase.php:94
+msgid "Reset"
+msgstr "重設"
+
+#: Api/Gql/Filestore.php:376
+msgid "Returns filestore id"
+msgstr "傳回檔案儲存 ID"
+
+#: Api/Gql/Filestore.php:392
+msgid "Returns the filestore description"
+msgstr "傳回檔案儲存說明"
+
+#: Api/Gql/Filestore.php:388
+msgid "Returns the filestore name"
+msgstr "傳回檔案儲存名稱"
+
+#: drivers/SSH/views/form.php:8
+msgid "SSH Server"
+msgstr "SSH 伺服器"
+
+#: drivers/SSH/views/form.php:174
+msgid "SSH Username"
+msgstr "SSH 使用者名稱"
+
+#: drivers/SSH/views/grid.php:20
+msgid "Server"
+msgstr "伺服器"
+
+#: drivers/FTP/views/form.php:47
+#: drivers/SSH/views/form.php:52
+msgid "Server Name"
+msgstr "伺服器名稱"
+
+#: Api/Gql/Filestore.php:320
+msgid "Set aws access key"
+msgstr "設定 AWS 存取金鑰"
+
+#: Api/Gql/Filestore.php:216
+#: Api/Gql/Filestore.php:274
+#: Api/Gql/Filestore.php:324
+#: Api/Gql/Filestore.php:489
+msgid "Set the password"
+msgstr "設定密碼"
+
+#: Api/Gql/Filestore.php:212
+#: Api/Gql/Filestore.php:270
+#: Api/Gql/Filestore.php:482
+msgid "Set user name"
+msgstr "設定使用者名稱"
+
+#: filestore.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: drivers/S3/views/form.php:212
+msgid ""
+"Settings here will override settings in the general tab. Only make changes "
+"here if you know what you are doing. These settings are not validated and "
+"may break functionality!"
+msgstr "此處的設定將覆寫一般分頁的設定。只有在確定您瞭解所從事操作時，才進行此處修改。這些設定未經驗證，且可能破壞功能！"
+
+#: Api/Gql/Filestore.php:536
+msgid "Sorry unable to create "
+msgstr "無法建立"
+
+#: Api/Gql/Filestore.php:103
+msgid "Sorry unable to find the filestore locations"
+msgstr "無法找到檔案儲存位置"
+
+#: Api/Gql/Filestore.php:92
+msgid "Sorry unable to find the filestore types"
+msgstr "無法找到檔案儲存類型"
+
+#: Api/Gql/Filestore.php:613
+msgid "Sorry unable to update "
+msgstr "無法更新"
+
+#: Api/Gql/Filestore.php:156
+msgid "Sorry, unable to find any filestore"
+msgstr "很抱歉，找不到任何檔案儲存"
+
+#: Api/Gql/Filestore.php:67
+msgid "Sorry, unable to process your delete request"
+msgstr "很抱歉，無法處理您的刪除要求"
+
+#: Api/Gql/Filestore.php:409
+msgid "Status for the request"
+msgstr "要求的狀態"
+
+#: Api/Gql/Filestore.php:380
+msgid "Status of the request"
+msgstr "要求的狀態"
+
+#: drivers/S3/views/form.php:158
+msgid "Storage Class"
+msgstr "儲存空間類別"
+
+#: drivers/DriverBase.php:99
+msgid "Submit"
+msgstr "提交"
+
+#: Api/Gql/Filestore.php:65
+msgid "Successfully deleted FTP instance"
+msgstr "成功刪除 FTP 執行個體"
+
+#: drivers/Dropbox/views/form.php:141
+#: drivers/FTP/views/form.php:274
+#: drivers/S3/views/form.php:201
+#: drivers/SSH/views/form.php:237
+msgid "Test Connection Settings"
+msgstr "測試連線設定"
+
+#: drivers/FTP/views/form.php:202
+msgid "The FTP Server's file system type. If you are unsure set this to Auto"
+msgstr "FTP 伺服器的檔案系統類型。若不確定，請將此設定為自動"
+
+#: Api/Gql/Filestore.php:220
+#: Api/Gql/Filestore.php:278
+#: Api/Gql/Filestore.php:496
+msgid "The FTP Servers file system type. If you are unsure set this to Auto"
+msgstr "FTP 伺服器的檔案系統類型。若不確定，請將此設定為自動"
+
+#: Api/Gql/Filestore.php:165
+msgid "The id to fetch a particualr filestore details"
+msgstr "用於擷取特定檔案儲存詳細資料的 ID"
+
+#: drivers/Email/views/form.php:167
+msgid ""
+"The maximum size a backup can be and still be emailed. Some email servers "
+"limit the size of email attachments, this will make sure that files larger "
+"than the max size are not sent."
+msgstr "備份可以的大小上限，仍可透過電子郵件傳送。部分電子郵件伺服器限制附件大小，這將確保不會傳送大於上限的檔案。"
+
+#: Filestore.class.php:384
+#, php-format
+msgid "The requested driver %s is disabled"
+msgstr "要求的驅動程式 %s 已停用"
+
+#: Filestore.class.php:380
+#, php-format
+msgid "The requested driver %s seems invalid"
+msgstr "要求的驅動程式 %s 似乎無效"
+
+#: Filestore.class.php:376
+msgid "The requested driver seems invalid"
+msgstr "要求的驅動程式似乎無效"
+
+#: Api/Gql/Filestore.php:228
+#: Api/Gql/Filestore.php:286
+#: Api/Gql/Filestore.php:510
+msgid ""
+"This defaults to \"Passive\". If your FTP server is behind a seperate NAT or "
+"Firewall to this VoIP server, you should select \"Active\". In \"Active\" "
+"mode, the FTP server establishes a connection back to the VoIP server to "
+"receive the data. In \"Passive\" mode, the VoIP server connects to the FTP "
+"Server to send data."
+msgstr ""
+"此預設為「被動」。若您的 FTP 伺服器在此 VoIP 伺服器的個別 NAT 或防火牆之後，您應選取「主動」。在「主動」模式中，FTP 伺服器會建立連線回到 VoIP 伺服器以接收資料。在「被動」模式中，VoIP 伺服器會連線到 FTP 伺服器以傳送資料。"
+
+#: drivers/FTP/views/form.php:245
+msgid ""
+"This defaults to 'Passive'. If your FTP server is behind a seperate NAT or "
+"Firewall to this VoIP server, you should select 'Active'. In 'Active' mode, "
+"the FTP server establishes a connection back to the VoIP server to receive "
+"the data. In 'Passive' mode, the VoIP server connects to the FTP Server to "
+"send data."
+msgstr ""
+"此預設為「被動」。若您的 FTP 伺服器在此 VoIP 伺服器的個別 NAT 或防火牆之後，您應選取「主動」。在「主動」模式中，FTP 伺服器會建立連線回到 VoIP 伺服器以接收資料。在「被動」模式中，VoIP 伺服器會連線到 FTP 伺服器以傳送資料。"
+
+#: drivers/Email/views/form.php:172
+msgid "This has a maximum size of 25MB."
+msgstr "大小上限為 25MB。"
+
+#: drivers/FTP/views/form.php:255
+msgid "Timeout"
+msgstr "逾時"
+
+#: drivers/FTP/views/form.php:265
+msgid "Timeout on remote server"
+msgstr "遠端伺服器上的逾時"
+
+#: Api/Gql/Filestore.php:232
+#: Api/Gql/Filestore.php:290
+#: Api/Gql/Filestore.php:517
+msgid "Timeout on remote server, default is 30"
+msgstr "遠端伺服器上的逾時，預設為 30"
+
+#: drivers/Dropbox/views/form.php:100
+msgid "Token"
+msgstr "權杖"
+
+#: drivers/Dropbox/views/form.php:112
+msgid "Token on remote server"
+msgstr "遠端伺服器上的權杖"
+
+#: drivers/FTP/views/form.php:232
+msgid "Transfer Mode"
+msgstr "傳輸模式"
+
+#: Api/Gql/Filestore.php:413
+msgid "Types of filestore"
+msgstr "檔案儲存類型"
+
+#: Api/Gql/Filestore.php:354
+msgid "UUid for the instance"
+msgstr "執行個體的 UUID"
+
+#: drivers/FTP/views/form.php:194
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: Filestore.class.php:123
+msgid "Unknown action provided"
+msgstr "提供的動作未知"
+
+#: drivers/FTP/views/form.php:134
+msgid "Use SFTP"
+msgstr "使用 SFTP"
+
+#: drivers/FTP/views/form.php:109
+msgid "Use TLS"
+msgstr "使用 TLS"
+
+#: drivers/FTP/views/form.php:159
+#: drivers/SSH/views/form.php:160
+msgid "Username"
+msgstr "使用者名稱"
+
+#: drivers/Dropbox/views/form.php:40
+#: drivers/Email/views/form.php:39
+#: drivers/FTP/views/form.php:37
+#: drivers/Local/views/form.php:48
+#: drivers/S3/views/form.php:47
+#: drivers/SSH/views/form.php:39
+msgid "We define if this storage is enabled or disabled."
+msgstr "我們定義此儲存空間是啟用還是停用。"
+
+#: drivers/Local/views/form.php:15
+msgid "Webroot"
+msgstr "Webroot"
+
+#: views/main.php:23
+msgid "What is File Store?"
+msgstr "什麼是檔案儲存？"
+
+#: drivers/S3/views/form.php:129
+#: drivers/S3/views/form.php:146
+#: drivers/S3/views/form.php:170
+msgid "What's this?"
+msgstr "這是什麼？"
+
+#: drivers/FTP/views/form.php:196
+msgid "Windows"
+msgstr "Windows"
+
+#: drivers/Dropbox/views/form.php:31
+#: drivers/Email/views/form.php:30
+#: drivers/FTP/views/form.php:28
+#: drivers/FTP/views/form.php:115
+#: drivers/FTP/views/form.php:140
+#: drivers/Local/views/form.php:39
+#: drivers/S3/views/form.php:38
+#: drivers/SSH/views/form.php:30
+msgid "Yes"
+msgstr "是"
+
+#: drivers/Email/views/form.php:131
+msgid "You may enter 1 address per line."
+msgstr "每列可以輸入 1 個位址。"
+
+#: Api/Gql/Filestore.php:611
+msgid "_"
+msgstr "_"
+
+#: drivers/Local/views/form.php:12
+msgid "etc directory"
+msgstr "etc 目錄"
+
+#: drivers/Local/views/form.php:11
+msgid "lib directory"
+msgstr "lib 目錄"
+
+#: drivers/Local/views/form.php:13
+msgid "log direcrory"
+msgstr "記錄目錄"
+
+#: drivers/Local/views/form.php:14
+msgid "spool directory"
+msgstr "佇列目錄"
+
+#: Api/Gql/Filestore.php:44
+msgid "update a existing FTP instance"
+msgstr "更新現有的 FTP 執行個體"

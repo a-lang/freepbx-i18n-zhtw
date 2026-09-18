@@ -1,0 +1,143 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callback
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-09 11:11+0000\n"
+"PO-Revision-Date: 2026-09-15 17:58+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: page.callback.php:11
+msgid " Add"
+msgstr " 新增"
+
+#: page.callback.php:11
+msgid " Edit"
+msgstr " 編輯"
+
+#: assets/js/callback.js:18
+msgid " already used, please use a different description."
+msgstr "已使用，請使用不同的描述。"
+
+#: views/grid.php:17
+msgid "Actions"
+msgstr "動作"
+
+#: views/bootnav.php:4
+#: views/grid.php:2
+msgid "Add Callback"
+msgstr "新增回撥"
+
+#: page.callback.php:6
+#: views/bootnav.php:16
+msgid "Callback"
+msgstr "回撥"
+
+#: views/form.php:42
+msgid "Callback Description"
+msgstr "回撥描述"
+
+#: views/form.php:66
+#: views/grid.php:16
+msgid "Callback Number"
+msgstr "回撥號碼"
+
+#: functions.inc.php:36
+#: functions.inc.php:61
+#, php-format
+msgid "Callback: %s"
+msgstr "回撥：%s"
+
+#: views/form.php:117
+msgid "Caller Id"
+msgstr "來電顯示"
+
+#: views/form.php:90
+msgid "Delay Before Callback"
+msgstr "回撥前延遲"
+
+#: Callback.class.php:49
+msgid "Delete"
+msgstr "刪除"
+
+#: views/form.php:168
+msgid "Destination after Callback"
+msgstr "回撥後的目的地"
+
+#: views/form.php:54
+msgid "Enter a description for this callback."
+msgstr "輸入此回撥的描述。"
+
+#: views/grid.php:15
+msgid "Item"
+msgstr "項目"
+
+#: views/bootnav.php:3
+msgid "List Callbacks"
+msgstr "列出回撥"
+
+#: views/form.php:147
+msgid "Milliseconds"
+msgstr "毫秒"
+
+#: views/form.php:129
+msgid ""
+"Optional: Enter the callerid for the callback.<br>Format: <b>\"caller name\" "
+"&lt;#######&gt;</b><br>Default: Callback"
+msgstr "選用：輸入回撥的來電顯示。<br>格式：<b>\"來電名稱\" &lt;#######&gt;</b><br>預設：回撥"
+
+#: views/form.php:105
+msgid ""
+"Optional: Enter the number of seconds the system should wait before calling "
+"back."
+msgstr "選用：輸入系統在回撥前應等待的秒數。"
+
+#: views/form.php:78
+msgid ""
+"Optional: Enter the number to dial for the callback.  Leave this blank to "
+"just dial the incoming CallerID Number"
+msgstr "選用：輸入回撥要撥打的號碼。留空則直接撥打入來的來電顯示號碼"
+
+#: views/form.php:156
+msgid "Optional: Timeout in Milliseconds.</br>Default: 15000"
+msgstr "選用：逾時（毫秒）。</br>預設：15000"
+
+#: assets/js/callback.js:15
+msgid "Please enter a valid Description"
+msgstr "請輸入有效的描述"
+
+#: Callback.class.php:49
+msgid "Reset"
+msgstr "重設"
+
+#: views/form.php:96
+msgid "Seconds"
+msgstr "秒"
+
+#: Callback.class.php:49
+msgid "Submit"
+msgstr "送出"
+
+#: assets/js/callback.js:13
+msgid "The callback description provided is too long."
+msgstr "提供的回撥描述過長。"
+
+#: views/form.php:141
+msgid "Timeout"
+msgstr "逾時"
+
+#: views/form.php:187
+msgid "Where to send the caller once they are called back"
+msgstr "回撥後將來電者送往何處"

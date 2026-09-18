@@ -1,0 +1,1148 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for contactmanager
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-07 06:18-0400\n"
+"PO-Revision-Date: 2026-09-15 16:42+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Contactmanager.class.php:696
+#: ucp/Contactmanager.class.php:299
+msgid "A PHP extension stopped the file upload"
+msgstr "PHP 擴充套件停止了檔案上傳"
+
+#: views/entry.php:361
+msgid "A list of E-Mail addresses belonging to this entry"
+msgstr "此條目所屬的電子郵件地址清單"
+
+#: views/entry.php:329
+msgid "A list of XMPP addresses belonging to this entry"
+msgstr "此條目所屬的 XMPP 地址清單"
+
+#: views/entry.php:297
+msgid "A list of numbers belonging to this entry"
+msgstr "此條目所屬的號碼清單"
+
+#: views/entry.php:393
+msgid "A list of websites belonging to this entry"
+msgstr "此條目所屬的網站清單"
+
+#: views/entry.php:59
+msgid "A user from the User Management module"
+msgstr "來自使用者管理模組的使用者"
+
+#: views/speeddial-grid.php:16
+msgid "Action"
+msgstr "動作"
+
+#: Contactmanager.class.php:44
+#: Contactmanager.class.php:53
+#: Contactmanager.class.php:62
+msgid "Actions"
+msgstr "動作"
+
+#: ucp/views/contact.php:247
+#: ucp/views/widget.php:27
+#: views/grid.php:52
+#: views/group.php:166
+#: ucp/assets/js/global.js:225
+msgid "Add Contact"
+msgstr "新增聯絡人"
+
+#: ucp/views/contact.php:216
+#: ucp/views/contactEdit.php:153
+#: views/entry.php:353
+msgid "Add Email"
+msgstr "新增電子郵件"
+
+#: views/entry.php:34
+msgid "Add Entry"
+msgstr "新增條目"
+
+#: ucp/views/widget.php:17
+#: views/group.php:11
+#: ucp/assets/js/global.js:176
+msgid "Add Group"
+msgstr "新增群組"
+
+#: views/favorites.php:8
+msgid "Add List"
+msgstr "新增清單"
+
+#: views/grid.php:14
+msgid "Add New Group"
+msgstr "新增新群組"
+
+#: views/grid.php:80
+msgid "Add New List"
+msgstr "新增新清單"
+
+#: ucp/views/contact.php:162
+#: ucp/views/contactEdit.php:123
+msgid "Add Number"
+msgstr "新增號碼"
+
+#: ucp/views/contact.php:243
+#: ucp/views/contactEdit.php:168
+#: ucp/views/contactEdit.php:196
+#: views/entry.php:385
+msgid "Add Website"
+msgstr "新增網站"
+
+#: ucp/views/contact.php:189
+#: ucp/views/contactEdit.php:138
+#: views/entry.php:321
+msgid "Add XMPP"
+msgstr "新增 XMPP"
+
+#: Contactmanager.class.php:3309
+#: views/entry.php:213
+#: views/entry.php:225
+msgid "Address"
+msgstr "地址"
+
+#: contactmanager.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: Contactmanager.class.php:3170
+msgid "All Internal Groups"
+msgstr "所有內部群組"
+
+#: Contactmanager.class.php:3182
+msgid "All Public Groups"
+msgstr "所有公開群組"
+
+#: views/ucp_config.php:7
+msgid "Allow Speed Dial Modifications"
+msgstr "允許修改快速撥號"
+
+#: views/ucp_config.php:26
+msgid ""
+"Allow the user to modify and change speeddials for contacts they can edit"
+msgstr "允許使用者修改其可編輯聯絡人的快速撥號"
+
+#: assets/js/contactmanager.js:92
+msgid "An entry must have a user"
+msgstr "條目必須指定使用者"
+
+#: Contactmanager.class.php:956
+msgid "An entry must have numbers."
+msgstr "條目必須包含號碼。"
+
+#: ucp/assets/js/global.js:202
+msgid "Are you sure you want to delete this group and all of its contacts?"
+msgstr "確定要刪除此群組及其所有聯絡人嗎？"
+
+#: assets/js/contactmanager.js:31
+#, perl-format
+msgid "Are you sure you wish to delete these %s?"
+msgstr "確定要刪除這些 %s 嗎？"
+
+#: Contactmanager.class.php:3606
+msgid "Automatically Determine"
+msgstr "自動判斷"
+
+#: ucp/views/contact.php:36
+#: ucp/views/contactEdit.php:36
+#: views/entry.php:164
+#: views/user_details_hook.php:49
+msgid "Browse"
+msgstr "瀏覽"
+
+#: ucp/assets/js/global.js:258
+msgid "Call To"
+msgstr "撥打至"
+
+#: Contactmanager.class.php:699
+#: ucp/Contactmanager.class.php:303
+msgid "Can Not Find Uploaded Files"
+msgstr "找不到上傳的檔案"
+
+#: Contactmanager.class.php:1031
+#: Contactmanager.class.php:3321
+#: Contactmanager.class.php:3335
+#: Contactmanager.class.php:3349
+#: ucp/views/contact.php:62
+#: ucp/views/contact.php:115
+#: ucp/views/contactEdit.php:59
+#: ucp/views/contactEdit.php:96
+#: views/group.php:105
+msgid "Cell"
+msgstr "手機"
+
+#: ucp/Contactmanager.class.php:436
+#: ucp/Contactmanager.class.php:443
+#: ucp/assets/js/global.js:176
+#: ucp/assets/js/global.js:227
+msgid "Close"
+msgstr "關閉"
+
+#: Contactmanager.class.php:3326
+#: Contactmanager.class.php:3340
+#: Contactmanager.class.php:3354
+msgid ""
+"Comma-delimited list of flags.  (Example: sms,fax)  External contacts only."
+msgstr "以逗號分隔的旗標清單。（範例：sms,fax）僅限外部聯絡人。"
+
+#: Contactmanager.class.php:51
+#: Contactmanager.class.php:60
+#: Contactmanager.class.php:3308
+#: ucp/views/contact.php:22
+#: ucp/views/contactEdit.php:22
+#: ucp/views/widget.php:56
+#: views/entry.php:193
+#: views/group.php:92
+msgid "Company"
+msgstr "公司"
+
+#: views/entry.php:203
+msgid "Company (overrides Company from User Manager)"
+msgstr "公司（覆寫使用者管理員的公司）"
+
+#: views/entry.php:150
+#: views/user_details_hook.php:35
+msgid "Contact Image"
+msgstr "聯絡人圖片"
+
+#: views/entry.php:183
+msgid "Contact Image for this user"
+msgstr "此使用者的聯絡人圖片"
+
+#: views/user_details_hook.php:68
+msgid ""
+"Contact Image for this user. Image will be deleted if \"Show in Contact "
+"Manager\" is set to no or inherits no under the \"Contact Manager\" tab"
+msgstr "此使用者的聯絡人圖片。若「在聯絡人管理中顯示」在「聯絡人管理」分頁中設為否或繼承否，圖片將被刪除。"
+
+#: Console/Contactmanager.class.php:14
+#: Contactmanager.class.php:153
+#: Contactmanager.class.php:3206
+#: Contactmanager.class.php:3221
+#: Contactmanager.class.php:3236
+#: Contactmanager.class.php:3260
+#: contactmanager.i18n.php:4
+#: contactmanager.i18n.php:10
+#: views/grid.php:1
+msgid "Contact Manager"
+msgstr "聯絡人管理"
+
+#: contactmanager.i18n.php:14
+msgid "Contact Manager Module"
+msgstr "聯絡人管理模組"
+
+#: contactmanager.i18n.php:22
+msgid "Contact Manager Speed Dials"
+msgstr "聯絡人管理快速撥號"
+
+#: functions.inc.php:27
+#: functions.inc.php:30
+#, php-format
+msgid "Contact Manager: %s (Speed Dial: %s) [%s]"
+msgstr "聯絡人管理：%s（快速撥號：%s）[%s]"
+
+#: Contactmanager.class.php:3275
+#: ucp/Contactmanager.class.php:26
+#: ucp/Contactmanager.class.php:38
+#: ucp/Contactmanager.class.php:89
+#: ucp/Contactmanager.class.php:613
+msgid "Contacts"
+msgstr "聯絡人"
+
+#: Contactmanager.class.php:3276
+msgid "Contacts and internal/external groups from the Contact Manager module."
+msgstr "來自聯絡人管理模組的聯絡人及內部／外部群組。"
+
+#: Contactmanager.class.php:3328
+#: Contactmanager.class.php:3342
+#: Contactmanager.class.php:3356
+msgid ""
+"Country Code  Or you can put AUTO , which will fill the Country code "
+"automatically. External contacts only. "
+msgstr "國碼。或者您可以輸入 AUTO，系統會自動填入國碼。僅限外部聯絡人。"
+
+#: Contactmanager.class.php:1102
+#: Contactmanager.class.php:1121
+#: Contactmanager.class.php:1151
+#: views/grid.php:49
+#: assets/js/contactmanager.js:36
+#: assets/js/contactmanager.js:43
+msgid "Delete"
+msgstr "刪除"
+
+#: ucp/Contactmanager.class.php:443
+#: ucp/views/contact.php:250
+msgid "Delete Contact"
+msgstr "刪除聯絡人"
+
+#: ucp/views/widget.php:24
+#: views/grid.php:55
+msgid "Delete Group"
+msgstr "刪除群組"
+
+#: ucp/views/contact.php:31
+#: ucp/views/contactEdit.php:31
+#: views/entry.php:159
+#: views/user_details_hook.php:44
+msgid "Delete Image"
+msgstr "刪除圖片"
+
+#: assets/js/contactmanager.js:32
+msgid "Deleting..."
+msgstr "刪除中…"
+
+#: views/entry.php:261
+#: assets/js/contactmanager.js:202
+msgid "Dialing Country"
+msgstr "撥號國碼"
+
+#: views/user_details_hook.php:7
+msgid "Dialing Locale"
+msgstr "撥號地區設定"
+
+#: Contactmanager.class.php:40
+#: Contactmanager.class.php:50
+#: Contactmanager.class.php:59
+#: Contactmanager.class.php:3302
+#: Contactmanager.class.php:3303
+#: ucp/views/contact.php:6
+#: ucp/views/contactEdit.php:6
+#: ucp/views/widget.php:52
+#: views/entry.php:70
+#: views/speeddial-grid.php:13
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: views/entry.php:80
+msgid "Display Name (overrides Display Name from User Manager)"
+msgstr "顯示名稱（覆寫使用者管理員的顯示名稱）"
+
+#: ucp/views/contact.php:28
+#: ucp/views/contactEdit.php:28
+#: views/entry.php:156
+#: views/user_details_hook.php:41
+msgid "Drop a new image here"
+msgstr "將新圖片拖曳至此"
+
+#: assets/js/contactmanager.js:135
+msgid "E-Mail address cannot be blank."
+msgstr "電子郵件地址不可留空。"
+
+#: Contactmanager.class.php:3357
+#: Contactmanager.class.php:3358
+#: Contactmanager.class.php:3359
+msgid "E-mail address.  External contacts only."
+msgstr "電子郵件地址。僅限外部聯絡人。"
+
+#: ucp/Contactmanager.class.php:443
+msgid "Edit"
+msgstr "編輯"
+
+#: views/entry.php:31
+msgid "Edit Entry"
+msgstr "編輯條目"
+
+#: views/grid.php:54
+#: views/group.php:8
+msgid "Edit Group"
+msgstr "編輯群組"
+
+#: views/favorites.php:6
+msgid "Edit List"
+msgstr "編輯清單"
+
+#: ucp/views/contact.php:192
+#: ucp/views/contactEdit.php:141
+#: views/entry.php:339
+msgid "Email"
+msgstr "電子郵件"
+
+#: ucp/views/contact.php:80
+#: ucp/views/contact.php:135
+#: ucp/views/contactEdit.php:79
+#: ucp/views/contactEdit.php:114
+#: views/entry.php:277
+#: assets/js/contactmanager.js:217
+msgid "Enable"
+msgstr "啟用"
+
+#: contactmanager.i18n.php:12
+msgid "Enable Favorite Contacts"
+msgstr "啟用常用聯絡人"
+
+#: ucp/assets/js/global.js:176
+#: ucp/assets/js/global.js:233
+#: ucp/assets/js/global.js:238
+msgid "Error getting form"
+msgstr "取得表單時發生錯誤"
+
+#: views/favorite_view.php:28
+msgid "Exclude"
+msgstr "排除"
+
+#: views/entry.php:250
+#: assets/js/contactmanager.js:192
+msgid "Ext."
+msgstr "分機"
+
+#: Contactmanager.class.php:3325
+#: Contactmanager.class.php:3339
+#: Contactmanager.class.php:3353
+msgid "Extension.  External contacts only."
+msgstr "分機。僅限外部聯絡人。"
+
+#: Contactmanager.class.php:48
+#: Contactmanager.class.php:3296
+#: views/group.php:45
+msgid "External"
+msgstr "外部"
+
+#: assets/js/contactmanager.js:226
+msgid "FAX"
+msgstr "傳真"
+
+#: ucp/assets/js/global.js:260
+msgid "Facetime"
+msgstr "Facetime"
+
+#: Contactmanager.class.php:694
+#: ucp/Contactmanager.class.php:296
+msgid "Failed to write file to disk"
+msgstr "寫入檔案至磁碟失敗"
+
+#: views/userman_hook.php:60
+msgid "Favorite Contact List"
+msgstr "常用聯絡人清單"
+
+#: Contactmanager.class.php:4001
+msgid "Favorite Contact List successfully deleted"
+msgstr "常用聯絡人清單已成功刪除"
+
+#: ucp/Contactmanager.class.php:497
+msgid "Favorite Contact List successfully updated."
+msgstr "常用聯絡人清單已成功更新。"
+
+#: ucp/views/widget.php:6
+msgid "Favorites"
+msgstr "常用"
+
+#: ucp/views/contact.php:94
+#: ucp/views/contact.php:149
+#: ucp/views/contactEdit.php:85
+#: ucp/views/contactEdit.php:120
+msgid "Fax"
+msgstr "傳真"
+
+#: Contactmanager.class.php:663
+#: ucp/Contactmanager.class.php:249
+msgid "File upload failed"
+msgstr "檔案上傳失敗"
+
+#: Contactmanager.class.php:41
+#: Contactmanager.class.php:3305
+#: ucp/views/contact.php:10
+#: ucp/views/contactEdit.php:10
+#: ucp/views/widget.php:53
+#: views/entry.php:90
+#: views/speeddial-grid.php:14
+msgid "First Name"
+msgstr "名字"
+
+#: views/entry.php:100
+msgid "First Name (overrides First Name from User Manager)"
+msgstr "名字（覆寫使用者管理員的名字）"
+
+#: ucp/assets/js/global.js:325
+msgid "Function call does not exist!"
+msgstr "函式呼叫不存在！"
+
+#: views/grid.php:41
+msgid "Group"
+msgstr "群組"
+
+#: Contactmanager.class.php:1621
+#, php-format
+msgid "Group '%s' does not exist"
+msgstr "群組「%s」不存在"
+
+#: Contactmanager.class.php:3287
+#: ucp/views/groupCreate.php:4
+msgid "Group Name"
+msgstr "群組名稱"
+
+#: Contactmanager.class.php:3292
+msgid "Group Type"
+msgstr "群組類型"
+
+#: Contactmanager.class.php:1544
+#: Contactmanager.class.php:1979
+#: Contactmanager.class.php:2040
+#: Contactmanager.class.php:2101
+#: Contactmanager.class.php:2120
+msgid "Group does not exist"
+msgstr "群組不存在"
+
+#: Contactmanager.class.php:2108
+msgid "Group entries successfully added"
+msgstr "群組條目已成功新增"
+
+#: Contactmanager.class.php:1967
+msgid "Group entries successfully deleted"
+msgstr "群組條目已成功刪除"
+
+#: Contactmanager.class.php:2731
+msgid "Group entry E-Mail successfully added"
+msgstr "群組條目的電子郵件已成功新增"
+
+#: Contactmanager.class.php:2697
+msgid "Group entry E-Mail successfully deleted"
+msgstr "群組條目的電子郵件已成功刪除"
+
+#: Contactmanager.class.php:2755
+msgid "Group entry E-Mails successfully added"
+msgstr "群組條目的電子郵件已成功新增"
+
+#: Contactmanager.class.php:2705
+#: Contactmanager.class.php:2714
+msgid "Group entry E-Mails successfully deleted"
+msgstr "群組條目的電子郵件已成功刪除"
+
+#: Contactmanager.class.php:2826
+msgid "Group entry Website successfully added"
+msgstr "群組條目的網站已成功新增"
+
+#: Contactmanager.class.php:2792
+msgid "Group entry Website successfully deleted"
+msgstr "群組條目的網站已成功刪除"
+
+#: Contactmanager.class.php:2850
+msgid "Group entry Websites successfully added"
+msgstr "群組條目的網站已成功新增"
+
+#: Contactmanager.class.php:2800
+#: Contactmanager.class.php:2809
+msgid "Group entry Websites successfully deleted"
+msgstr "群組條目的網站已成功刪除"
+
+#: Contactmanager.class.php:2627
+msgid "Group entry XMPP successfully added"
+msgstr "群組條目的 XMPP 已成功新增"
+
+#: Contactmanager.class.php:2580
+msgid "Group entry XMPP successfully deleted"
+msgstr "群組條目的 XMPP 已成功刪除"
+
+#: Contactmanager.class.php:2656
+msgid "Group entry XMPPs successfully added"
+msgstr "群組條目的 XMPP 已成功新增"
+
+#: Contactmanager.class.php:2592
+#: Contactmanager.class.php:2605
+msgid "Group entry XMPPs successfully deleted"
+msgstr "群組條目的 XMPP 已成功刪除"
+
+#: Contactmanager.class.php:2131
+#: Contactmanager.class.php:2320
+#: Contactmanager.class.php:2381
+#: Contactmanager.class.php:2616
+#: Contactmanager.class.php:2641
+#: Contactmanager.class.php:2720
+#: Contactmanager.class.php:2740
+#: Contactmanager.class.php:2815
+#: Contactmanager.class.php:2835
+msgid "Group entry does not exist"
+msgstr "群組條目不存在"
+
+#: Contactmanager.class.php:2367
+msgid "Group entry image successfully added"
+msgstr "群組條目的圖片已成功新增"
+
+#: Contactmanager.class.php:2334
+msgid "Group entry number successfully added"
+msgstr "群組條目的號碼已成功新增"
+
+#: Contactmanager.class.php:2275
+msgid "Group entry number successfully deleted"
+msgstr "群組條目的號碼已成功刪除"
+
+#: Contactmanager.class.php:2445
+msgid "Group entry numbers successfully added"
+msgstr "群組條目的號碼已成功新增"
+
+#: Contactmanager.class.php:2289
+#: Contactmanager.class.php:2309
+msgid "Group entry numbers successfully deleted"
+msgstr "群組條目的號碼已成功刪除"
+
+#: Contactmanager.class.php:2090
+msgid "Group entry successfully added"
+msgstr "群組條目已成功新增"
+
+#: Contactmanager.class.php:1926
+msgid "Group entry successfully deleted"
+msgstr "群組條目已成功刪除"
+
+#: Contactmanager.class.php:2028
+#: Contactmanager.class.php:2171
+msgid "Group entry successfully updated"
+msgstr "群組條目已成功更新"
+
+#: Contactmanager.class.php:871
+#: Contactmanager.class.php:1624
+msgid "Group name can not be blank"
+msgstr "群組名稱不可留空"
+
+#: Contactmanager.class.php:1573
+#: ucp/Contactmanager.class.php:465
+msgid "Group name is required, must not contain special characters."
+msgstr "群組名稱為必填，且不得包含特殊字元。"
+
+#: Contactmanager.class.php:3376
+msgid "Group name is required."
+msgstr "群組名稱為必填。"
+
+#: Contactmanager.class.php:3410
+msgid "Group not found and could not be created."
+msgstr "找不到群組，無法建立。"
+
+#: Contactmanager.class.php:1609
+msgid "Group successfully added"
+msgstr "群組已成功新增"
+
+#: Contactmanager.class.php:1561
+msgid "Group successfully deleted"
+msgstr "群組已成功刪除"
+
+#: Contactmanager.class.php:1639
+msgid "Group successfully updated"
+msgstr "群組已成功更新"
+
+#: Contactmanager.class.php:3383
+msgid "Group type is required."
+msgstr "群組類型為必填。"
+
+#: Contactmanager.class.php:1030
+#: Contactmanager.class.php:3320
+#: Contactmanager.class.php:3334
+#: Contactmanager.class.php:3348
+#: ucp/views/contact.php:61
+#: ucp/views/contact.php:114
+#: ucp/views/contactEdit.php:58
+#: ucp/views/contactEdit.php:95
+#: views/group.php:104
+msgid "Home"
+msgstr "住家"
+
+#: contactmanager.i18n.php:20
+msgid ""
+"How many digits should a number be before a partial match is used when "
+"looking up a contact"
+msgstr "查詢聯絡人時，號碼需有多少位數才會使用部分比對"
+
+#: views/favorite_view.php:19
+msgid "Include"
+msgstr "包含"
+
+#: views/ucp_config.php:17
+#: views/userman_hook.php:66
+msgid "Inherit"
+msgstr "繼承"
+
+#: ucp/assets/js/global.js:315
+msgid "Initiate"
+msgstr "發起"
+
+#: Contactmanager.class.php:38
+#: Contactmanager.class.php:3295
+#: views/group.php:46
+msgid "Internal"
+msgstr "內部"
+
+#: Contactmanager.class.php:651
+#: ucp/Contactmanager.class.php:202
+#: ucp/Contactmanager.class.php:237
+msgid "Invalid"
+msgstr "無效"
+
+#: Contactmanager.class.php:42
+#: Contactmanager.class.php:3306
+#: ucp/views/contact.php:14
+#: ucp/views/contactEdit.php:14
+#: ucp/views/widget.php:54
+#: views/entry.php:110
+#: views/speeddial-grid.php:15
+msgid "Last Name"
+msgstr "姓氏"
+
+#: views/entry.php:120
+msgid "Last Name (overrides Last Name from User Manager)"
+msgstr "姓氏（覆寫使用者管理員的姓氏）"
+
+#: views/rnav.php:2
+msgid "List All Groups"
+msgstr "列出所有群組"
+
+#: views/rnav.php:3
+msgid "List All Speeddials"
+msgstr "列出所有快速撥號"
+
+#: views/favorites.php:19
+msgid "List Name is required."
+msgstr "清單名稱為必填。"
+
+#: Contactmanager.class.php:980
+msgid "List name can not be blank"
+msgstr "清單名稱不可留空"
+
+#: ucp/assets/js/global.js:587
+msgid "Loading..."
+msgstr "載入中…"
+
+#: Console/Contactmanager.class.php:17
+msgid "Lookup backed on User Manager Users View"
+msgstr "以使用者管理員的使用者檢視為依據進行查詢"
+
+#: Console/Contactmanager.class.php:16
+msgid "Lookup number and get a contact back as a result"
+msgstr "查詢號碼並傳回對應的聯絡人"
+
+#: Contactmanager.class.php:692
+#: ucp/Contactmanager.class.php:293
+msgid "Missing a temporary folder"
+msgstr "缺少暫存資料夾"
+
+#: views/favorite_view.php:5
+msgid "Move selected items to the left"
+msgstr "將選取項目向左移"
+
+#: views/favorite_view.php:7
+msgid "Move selected items to the right"
+msgstr "將選取項目向右移"
+
+#: ucp/views/widget.php:11
+msgid "My Contacts"
+msgstr "我的聯絡人"
+
+#: views/favorites.php:16
+#: views/group.php:19
+#: views/group.php:86
+#: views/group.php:91
+msgid "Name"
+msgstr "名稱"
+
+#: views/group.php:29
+msgid "Name of group"
+msgstr "群組名稱"
+
+#: Contactmanager.class.php:3288
+msgid ""
+"Name of group for contact.  If group does not exist, it will be created."
+msgstr "聯絡人所屬的群組名稱。若群組不存在，系統會自動建立。"
+
+#: views/favorites.php:26
+msgid "Name of the favorite contact list"
+msgstr "常用聯絡人清單的名稱"
+
+#: ucp/views/contactEdit.php:84
+#: ucp/views/contactEdit.php:85
+#: views/ucp_config.php:14
+msgid "No"
+msgstr "否"
+
+#: Contactmanager.class.php:2736
+msgid "No E-Mails to add"
+msgstr "沒有可新增的電子郵件"
+
+#: views/grid.php:71
+msgid "No Groups for this type"
+msgstr "此類型沒有群組"
+
+#: Contactmanager.class.php:2377
+msgid "No Numbers to add"
+msgstr "沒有可新增的號碼"
+
+#: Contactmanager.class.php:2831
+msgid "No Websites to add"
+msgstr "沒有可新增的網站"
+
+#: Contactmanager.class.php:2637
+msgid "No XMPPs to add"
+msgstr "沒有可新增的 XMPP"
+
+#: ucp/assets/js/global.js:582
+msgid "No email defined"
+msgstr "未定義電子郵件"
+
+#: Contactmanager.class.php:690
+#: ucp/Contactmanager.class.php:290
+msgid "No file was uploaded"
+msgstr "未上傳任何檔案"
+
+#: Contactmanager.class.php:3176
+#: Contactmanager.class.php:3188
+msgid "None"
+msgstr "無"
+
+#: ucp/Contactmanager.class.php:559
+#: ucp/Contactmanager.class.php:584
+msgid "Not Authorized"
+msgstr "未獲授權"
+
+#: views/speeddial-grid.php:12
+msgid "Number"
+msgstr "號碼"
+
+#: assets/js/contactmanager.js:103
+msgid "Number cannot be blank."
+msgstr "號碼不可留空。"
+
+#: Contactmanager.class.php:52
+#: Contactmanager.class.php:61
+#: ucp/views/contact.php:50
+#: ucp/views/contactEdit.php:49
+#: views/entry.php:238
+#: views/group.php:93
+msgid "Numbers"
+msgstr "號碼"
+
+#: Contactmanager.class.php:1032
+#: Contactmanager.class.php:3322
+#: Contactmanager.class.php:3336
+#: Contactmanager.class.php:3350
+#: ucp/views/contact.php:63
+#: ucp/views/contact.php:116
+#: ucp/views/contactEdit.php:60
+#: ucp/views/contactEdit.php:97
+#: views/group.php:106
+msgid "Other"
+msgstr "其他"
+
+#: views/grid.php:41
+msgid "Owner"
+msgstr "擁有者"
+
+#: ucp/Contactmanager.class.php:41
+msgid "PBX Contacts"
+msgstr "PBX 聯絡人"
+
+#: contactmanager.i18n.php:18
+msgid "Partial Match Length"
+msgstr "部分比對長度"
+
+#: Contactmanager.class.php:987
+msgid "Pelase include atleast one contact"
+msgstr "請至少包含一個聯絡人"
+
+#: Contactmanager.class.php:3313
+#: Contactmanager.class.php:3329
+#: Contactmanager.class.php:3343
+msgid "Phone number.  External contacts only."
+msgstr "電話號碼。僅限外部聯絡人。"
+
+#: Contactmanager.class.php:627
+#: ucp/Contactmanager.class.php:193
+msgid "Please enter a valid email address"
+msgstr "請輸入有效的電子郵件地址"
+
+#: Contactmanager.class.php:57
+#: Contactmanager.class.php:3297
+msgid "Private"
+msgstr "私人"
+
+#: Contactmanager.class.php:1109
+#: Contactmanager.class.php:1128
+#: Contactmanager.class.php:1141
+msgid "Reset"
+msgstr "重置"
+
+#: ucp/views/contact.php:86
+#: ucp/views/contact.php:141
+#: ucp/views/contactEdit.php:84
+#: ucp/views/contactEdit.php:119
+#: assets/js/contactmanager.js:224
+msgid "SMS"
+msgstr "SMS"
+
+#: ucp/assets/js/global.js:227
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: ucp/assets/js/global.js:313
+msgid "Select an Action"
+msgstr "選取動作"
+
+#: views/userman_hook.php:7
+msgid "Show In Contact Manager Groups"
+msgstr "在聯絡人管理群組中顯示"
+
+#: Contactmanager.class.php:3327
+#: Contactmanager.class.php:3341
+#: Contactmanager.class.php:3355
+#: ucp/views/contact.php:75
+#: ucp/views/contact.php:130
+#: ucp/views/contactEdit.php:74
+#: ucp/views/contactEdit.php:109
+#: views/entry.php:272
+#: assets/js/contactmanager.js:212
+msgid "Speed Dial"
+msgstr "快速撥號"
+
+#: views/speeddial-grid.php:11
+msgid "Speed Dial Feature Code"
+msgstr "快速撥號功能碼"
+
+#: views/speeddial-grid.php:3
+msgid "Speed Dial Feature code has been disabled in Feature Code Admin"
+msgstr "快速撥號功能碼已在功能碼管理中停用"
+
+#: views/speeddial-grid.php:1
+msgid "Speed Dials"
+msgstr "快速撥號"
+
+#: Contactmanager.class.php:1114
+#: Contactmanager.class.php:1133
+#: Contactmanager.class.php:1146
+msgid "Submit"
+msgstr "提交"
+
+#: views/favorite_view.php:6
+msgid "Swap items"
+msgstr "交換項目"
+
+#: contactmanager.i18n.php:8
+msgid "The Contact Manager module lets you add contacts to groups."
+msgstr "聯絡人管理模組可讓您將聯絡人新增至群組。"
+
+#: views/userman_hook.php:81
+msgid ""
+"The contacts in the selected Favorite Contact List is used as the default "
+"favorite list for the userman users. If the user don't have a favorite "
+"contact list, this list will be shown as the default favorite list under the "
+"'Favorites' tab of the 'Contacts' widget in UCP and under the 'My Favorites' "
+"drop down of the 'Contacts' tab in Sangoma Phone Desktop Client. If a "
+"contact is added or removed from the shown favorite list from UCP or Sangoma "
+"Phone Desktop Client, a new list will be created specific to the logged in "
+"user."
+msgstr ""
+"所選「常用聯絡人清單」中的聯絡人會用作 userman 使用者的預設常用清單。若使用者沒有常用聯絡人清單，此清單會在 UCP 的「聯絡人」小工具的「常用」分頁，以及 Sangoma Phone Desktop Client 的「聯絡人」分頁之「我的常用」下拉式選單中，顯示為預設的常用清單。若從 UCP 或 Sangoma Phone Desktop Client 所顯示的常用清單中新增或移除聯絡人，系統會為登入的使用者建立一份新的專屬清單。"
+
+#: Contactmanager.class.php:686
+#: ucp/Contactmanager.class.php:284
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
+
+#: Contactmanager.class.php:684
+#: ucp/Contactmanager.class.php:281
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
+
+#: Contactmanager.class.php:688
+#: ucp/Contactmanager.class.php:287
+msgid "The uploaded file was only partially uploaded"
+msgstr "上傳的檔案僅部分上傳"
+
+#: ucp/assets/js/global.js:307
+msgid "There are no actions for this type"
+msgstr "此類型沒有可用的動作"
+
+#: ucp/assets/js/global.js:451
+msgid "There was an error"
+msgstr "發生錯誤"
+
+#: ucp/assets/js/global.js:195
+msgid "There was an error loading favorite contacts"
+msgstr "載入常用聯絡人時發生錯誤"
+
+#: ucp/assets/js/global.js:211
+msgid "There was an error removing this group"
+msgstr "移除群組時發生錯誤"
+
+#: views/userman_hook.php:49
+msgid ""
+"These are the viewable contact manager groups which will show up for this "
+"user in UCP and Phone Apps."
+msgstr "這些是可檢視的聯絡人管理群組，會在此使用者的 UCP 和 Phone Apps 中顯示。"
+
+#: Contactmanager.class.php:1576
+msgid "This group name is reserved. Please choose a different name."
+msgstr "此群組名稱已被保留，請選擇其他名稱。"
+
+#: ucp/assets/js/global.js:362
+msgid "This speed dial id conflicts with another contact"
+msgstr "此快速撥號 ID 與其他聯絡人衝突"
+
+#: ucp/assets/js/global.js:350
+msgid "This speed dial id conflicts with another speed dial on this page"
+msgstr "此快速撥號 ID 與此頁面上的其他快速撥號衝突"
+
+#: Contactmanager.class.php:3307
+#: ucp/views/contact.php:18
+#: ucp/views/contactEdit.php:18
+#: ucp/views/widget.php:55
+#: views/entry.php:130
+msgid "Title"
+msgstr "標題"
+
+#: views/entry.php:140
+msgid "Title (overrides Title from User Manager)"
+msgstr "標題（覆寫使用者管理員的標題）"
+
+#: views/entry.php:251
+#: views/group.php:40
+#: assets/js/contactmanager.js:193
+msgid "Type"
+msgstr "類型"
+
+#: views/group.php:55
+msgid "Type of group"
+msgstr "群組類型"
+
+#: Contactmanager.class.php:3293
+msgid "Type of group for contact."
+msgstr "聯絡人所屬的群組類型。"
+
+#: Contactmanager.class.php:3317
+#: Contactmanager.class.php:3331
+#: Contactmanager.class.php:3345
+msgid "Type of phone number.  External contacts only."
+msgstr "電話號碼的類型。僅限外部聯絡人。"
+
+#: Contactmanager.class.php:635
+#: ucp/Contactmanager.class.php:215
+#, php-format
+msgid "Unable to find gravatar for %s"
+msgstr "找不到 %s 的 Gravatar"
+
+#: ucp/Contactmanager.class.php:226
+#: ucp/Contactmanager.class.php:348
+#: ucp/Contactmanager.class.php:361
+#: ucp/Contactmanager.class.php:365
+#: ucp/Contactmanager.class.php:375
+#: ucp/Contactmanager.class.php:385
+#: ucp/Contactmanager.class.php:427
+#: ucp/Contactmanager.class.php:454
+msgid "Unauthorized"
+msgstr "未經授權"
+
+#: Contactmanager.class.php:3607
+msgid "Unknown"
+msgstr "未知"
+
+#: Contactmanager.class.php:3464
+msgid "Unknown data type."
+msgstr "未知的資料類型。"
+
+#: Contactmanager.class.php:680
+#: ucp/Contactmanager.class.php:276
+msgid "Unsupported file format"
+msgstr "不支援的檔案格式"
+
+#: assets/js/contactmanager.js:335
+msgid "Unsupported file type"
+msgstr "不支援的檔案類型"
+
+#: ucp/views/contact.php:45
+#: ucp/views/contactEdit.php:45
+#: views/user_details_hook.php:58
+msgid "Use Gravatar"
+msgstr "使用 Gravatar"
+
+#: views/user_details_hook.php:25
+msgid ""
+"Used in Contact Manager to determine phone number representations. Select "
+"the region for the numbers you have entered above."
+msgstr "在聯絡人管理中用於判斷電話號碼的表示方式。請為上方輸入的號碼選取地區。"
+
+#: Contactmanager.class.php:43
+#: views/entry.php:43
+#: views/group.php:87
+#: views/group.php:97
+msgid "User"
+msgstr "使用者"
+
+#: Contactmanager.class.php:203
+msgid "User Manager Group"
+msgstr "使用者管理員群組"
+
+#: Contactmanager.class.php:3310
+msgid ""
+"User Manager username this contact should point to.  Internal contacts only."
+msgstr "此聯絡人應對應的使用者管理員使用者名稱。僅限內部聯絡人。"
+
+#: ucp/Contactmanager.class.php:434
+#: ucp/Contactmanager.class.php:441
+msgid "View Contact"
+msgstr "檢視聯絡人"
+
+#: views/userman_hook.php:33
+msgid "Viewable Contact Manager Groups"
+msgstr "可檢視的聯絡人管理群組"
+
+#: ucp/views/contact.php:219
+#: ucp/views/contactEdit.php:156
+#: ucp/views/contactEdit.php:172
+#: views/entry.php:371
+msgid "Website"
+msgstr "網站"
+
+#: assets/js/contactmanager.js:146
+msgid "Website cannot be blank."
+msgstr "網站不可留空。"
+
+#: views/userman_hook.php:23
+msgid "What internal groups to show this user in"
+msgstr "要在此使用者的哪些內部群組中顯示"
+
+#: contactmanager.i18n.php:16
+msgid ""
+"When Enabled, Admin can configure multiple Favorite Contact Lists under "
+"Favorites tab in Contact Manager and Sangoma Phone users can see a list of "
+"their favorite contacts when viewing the Contacts panel on the desktop "
+"client. Users will be able to manage their Favorites through UCP, based on "
+"the settings they have set in User Manager -> Contact Manager. When "
+"Disabled, the Favorites section will be hidden on Admin Panel, desktop "
+"clients and Contacts panel in UCP. In either case, the user will still be "
+"able to Search among the system contacts."
+msgstr ""
+"啟用時，管理員可以在聯絡人管理的「常用」分頁下設定多份常用聯絡人清單，Sangoma Phone 使用者在檢視桌面使用者端的「聯絡人」面板時可以看到他們的常用聯絡人清單。使用者可以依據其在使用者管理員 → 聯絡人管理中設定的設定，透過 UCP 管理常用項目。停用時，「常用」區段會在管理介面、桌面使用者端及 UCP 的「聯絡人」面板中隱藏。無論何種情況，使用者仍可搜尋系統中的聯絡人。"
+
+#: Contactmanager.class.php:1029
+#: Contactmanager.class.php:3319
+#: Contactmanager.class.php:3333
+#: Contactmanager.class.php:3347
+#: ucp/views/contact.php:60
+#: ucp/views/contact.php:113
+#: ucp/views/contactEdit.php:57
+#: ucp/views/contactEdit.php:94
+#: views/group.php:103
+msgid "Work"
+msgstr "工作"
+
+#: views/entry.php:307
+msgid "XMPP"
+msgstr "XMPP"
+
+#: assets/js/contactmanager.js:124
+msgid "XMPP address cannot be blank."
+msgstr "XMPP 地址不可留空。"
+
+#: ucp/views/contactEdit.php:84
+#: ucp/views/contactEdit.php:85
+#: views/ucp_config.php:12
+msgid "Yes"
+msgstr "是"

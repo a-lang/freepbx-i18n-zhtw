@@ -1,0 +1,177 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for callforward
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 06:23-0500\n"
+"PO-Revision-Date: 2026-09-15 16:32+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ucp/views/settings.php:5
+msgid "Always"
+msgstr "永遠"
+
+#: callforward.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: ucp/views/widget.php:13
+#: ucp/views/widget.php:15
+msgid "Busy"
+msgstr "忙線"
+
+#: callforward.i18n.php:4
+#: install.php:6
+#: ucp/Callforward.class.php:148
+msgid "Call Forward"
+msgstr "來電轉接"
+
+#: callforward.i18n.php:24
+#: install.php:7
+msgid "Call Forward All Activate"
+msgstr "啟動全部來電轉接"
+
+#: callforward.i18n.php:20
+#: install.php:8
+msgid "Call Forward All Deactivate"
+msgstr "停用全部來電轉接"
+
+#: callforward.i18n.php:26
+#: install.php:9
+msgid "Call Forward All Prompting Activate"
+msgstr "啟動提示式全部來電轉接"
+
+#: callforward.i18n.php:22
+#: install.php:10
+msgid "Call Forward All Prompting Deactivate"
+msgstr "停用提示式全部來電轉接"
+
+#: callforward.i18n.php:16
+#: install.php:11
+msgid "Call Forward Busy Activate"
+msgstr "啟動忙線來電轉接"
+
+#: callforward.i18n.php:12
+#: install.php:12
+msgid "Call Forward Busy Deactivate"
+msgstr "停用忙線來電轉接"
+
+#: callforward.i18n.php:18
+#: install.php:13
+msgid "Call Forward Busy Prompting Activate"
+msgstr "啟動提示式忙線來電轉接"
+
+#: callforward.i18n.php:14
+#: install.php:14
+msgid "Call Forward Busy Prompting Deactivate"
+msgstr "停用提示式忙線來電轉接"
+
+#: callforward.i18n.php:30
+#: install.php:15
+msgid "Call Forward No Answer/Unavailable Activate"
+msgstr "啟動無人接聽／不可用來電轉接"
+
+#: callforward.i18n.php:28
+#: install.php:16
+msgid "Call Forward No Answer/Unavailable Deactivate"
+msgstr "停用無人接聽／不可用來電轉接"
+
+#: callforward.i18n.php:32
+#: install.php:17
+msgid "Call Forward No Answer/Unavailable Prompting Activate"
+msgstr "啟動提示式無人接聽／不可用來電轉接"
+
+#: callforward.i18n.php:10
+#: install.php:18
+msgid "Call Forward Toggle"
+msgstr "切換來電轉接"
+
+#: ucp/Callforward.class.php:90
+#: ucp/Callforward.class.php:129
+msgid "Call Forwarding"
+msgstr "來電轉接"
+
+#: ucp/Callforward.class.php:195
+msgid "Call Forwarding Has Been Updated!"
+msgstr "來電轉接已更新！"
+
+#: ucp/Callforward.class.php:113
+#, php-format
+msgid "Call Forwarding for %s"
+msgstr "%s 的來電轉接"
+
+#: ucp/views/settings.php:2
+msgid "CallForward Ringtimer"
+msgstr "來電轉接響鈴計時器"
+
+#: ucp/views/settings.php:4
+msgid "Default"
+msgstr "預設"
+
+#: ucp/views/widget.php:5
+#: ucp/views/widget.php:10
+#: ucp/views/widget.php:15
+msgid "Disabled"
+msgstr "已停用"
+
+#: ucp/views/widget.php:5
+#: ucp/views/widget.php:10
+#: ucp/views/widget.php:15
+msgid "Enabled"
+msgstr "已啟用"
+
+#: ucp/views/settings.php:10
+msgid ""
+"Number of seconds to ring prior to going to voicemail or other fail over "
+"destinations that may be setup by an administrator on this account. The "
+"Always setting will ring the call forward destinaiton until answered or the "
+"caller hangs up. The Default setting will use the value set in Ring Time. "
+"Your setting here will be forced to Always if there is no Voicemail or "
+"alternartive fail over destination for a call to go to."
+msgstr ""
+"在轉往語音信箱或管理員可能在此帳號上設定的其他容錯移轉目的地之前，響鈴的秒數。「永遠」設定會讓來電轉接目的地持續響鈴，直到接聽或來電者掛斷。「預設」設定會使用「響鈴時間」中設定的值。若通話沒有可轉往的語音信箱或其他替代容錯移轉目的地，您在此的設定將被強制為「永遠」。"
+
+#: ucp/views/settings.php:7
+msgid "Seconds"
+msgstr "秒"
+
+#: callforward.i18n.php:8
+msgid ""
+"The Call Forwarding module provides feature codes for call forwarding. Call "
+"Forwarding is used to forward calls from one user to another based on "
+"conditions such as busy, unavailable, and no answer."
+msgstr "來電轉接模組提供來電轉接的功能碼。來電轉接用於根據忙線、不可用及無人接聽等條件，將來電從一位使用者轉接給另一位使用者。"
+
+#: ucp/Callforward.class.php:61
+msgid "The given extension is empty."
+msgstr "指定的分機為空白。"
+
+#: ucp/Callforward.class.php:56
+msgid "There are no assigned extensions."
+msgstr "沒有指派的分機。"
+
+#: ucp/Callforward.class.php:65
+msgid "This extension is not assigned to this user."
+msgstr "此分機未指派給此使用者。"
+
+#: ucp/views/widget.php:8
+#: ucp/views/widget.php:10
+msgid "Unavailable"
+msgstr "不可用"
+
+#: ucp/views/widget.php:3
+#: ucp/views/widget.php:5
+msgid "Unconditional"
+msgstr "無條件"

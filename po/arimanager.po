@@ -1,0 +1,460 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for arimanager
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-16 23:46-0400\n"
+"PO-Revision-Date: 2026-09-15 17:54+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:34
+msgid "ARI Password"
+msgstr "ARI 密碼"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:30
+msgid "ARI Username"
+msgstr "ARI 使用者名稱"
+
+#: Arimanager.class.php:166
+msgid "Action Required : Change ARI Username/Password"
+msgstr "需要動作：變更 ARI 使用者名稱/密碼"
+
+#: views/view.grid.php:22
+msgid "Actions"
+msgstr "動作"
+
+#: Arimanager.class.php:142
+msgid "Add Notification..."
+msgstr "新增通知..."
+
+#: views/view.grid.php:3
+msgid "Add User"
+msgstr "新增使用者"
+
+#: Api/Gql/AriManagerUser.php:31
+msgid "Add a new entry to Asterisk REST Interface Users"
+msgstr "新增一筆條目至 Asterisk REST 介面使用者"
+
+#: assets/js/arimanager.js:213
+msgid "Adding..."
+msgstr "正在新增..."
+
+#: Arimanager.class.php:490
+msgid "Alert about ARI Username/Password"
+msgstr "關於 ARI 使用者名稱/密碼的警示"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:12
+msgid "Allowed Origins"
+msgstr "允許的來源"
+
+#: views/page.apps.php:24
+msgid "Application Name"
+msgstr "應用程式名稱"
+
+#: assets/js/arimanager.js:39
+#, perl-format
+msgid "Are you sure you want to delete (%s)?"
+msgstr "確定要刪除 (%s) 嗎？"
+
+#: Api/Gql/AriManagerUser.php:125
+#: Api/Gql/AriManagerUser.php:143
+#: arimanager.i18n.php:8
+msgid ""
+"Asterisk 12 introduces the Asterisk REST Interface (ARI), a set of RESTful "
+"API's for building Asterisk based applications. This module provides the "
+"ability to add and remove ARI users."
+msgstr ""
+"Asterisk 12 引入了 Asterisk REST 介面（ARI），這是一組用於建置 Asterisk 應用程式的 RESTful API。此模組提供新增與移除 ARI 使用者的功能。"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:20
+msgid ""
+"Asterisk 12 introduces the Asterisk REST Interface, a set of RESTful API's "
+"for building Asterisk based applications. This will enable the ARI server as "
+"long as the HTTP server is enabled as well."
+msgstr ""
+"Asterisk 12 引入了 Asterisk REST 介面，這是一組用於建置 Asterisk 應用程式的 RESTful API。只要 HTTP 伺服器也啟用，這將啟用 ARI 伺服器。"
+
+#: Api/Gql/AriManagerUser.php:234
+#: views/view.grid.form.php:60
+msgid "Asterisk REST Inferface Password."
+msgstr "Asterisk REST 介面密碼。"
+
+#: Arimanager.class.php:130
+#: arimanager.i18n.php:14
+msgid "Asterisk REST Interface"
+msgstr "Asterisk REST 介面"
+
+#: views/page.apps.php:2
+msgid "Asterisk REST Interface Applications"
+msgstr "Asterisk REST 介面應用程式"
+
+#: Api/Gql/AriManagerUser.php:230
+#: views/view.grid.form.php:36
+msgid "Asterisk REST Interface User Name"
+msgstr "Asterisk REST 介面使用者名稱"
+
+#: arimanager.i18n.php:4
+#: arimanager.i18n.php:10
+msgid "Asterisk REST Interface Users"
+msgstr "Asterisk REST 介面使用者"
+
+#: views/page.main.php:19
+msgid "Asterisk Rest Interface Users"
+msgstr "Asterisk Rest 介面使用者"
+
+#: views/page.apps.php:26
+msgid "Bridge Count"
+msgstr "橋接計數"
+
+#: assets/js/arimanager.js:262
+msgid "Bridges:"
+msgstr "橋接："
+
+#: Arimanager.class.php:409
+msgid "Cannot be deleted as it does not exist!"
+msgstr "無法刪除，因為它不存在！"
+
+#: Arimanager.class.php:350
+msgid "Cannot be renamed as this user already exists!"
+msgstr "無法重新命名，因為此使用者已存在！"
+
+#: Arimanager.class.php:347
+msgid "Cannot be update as it does not exist!"
+msgstr "無法更新，因為它不存在！"
+
+#: views/page.apps.php:25
+msgid "Channel Count"
+msgstr "通道計數"
+
+#: assets/js/arimanager.js:260
+msgid "Channels:"
+msgstr "通道："
+
+#: Arimanager.class.php:102
+msgid "Checking if ARI is enabled and preparing settings..."
+msgstr "正在檢查 ARI 是否已啟用並準備設定..."
+
+#: views/view.grid.form.php:124
+msgid "Close"
+msgstr "關閉"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:16
+msgid ""
+"Comma separated list of allowed origins, for Cross-Origin Resource Sharing. "
+"May be set to * to allow all origins."
+msgstr "以逗號分隔的允許來源清單，用於跨來源資源分享。可設為 * 以允許所有來源。"
+
+#: Arimanager.class.php:304
+msgid "Command not found!"
+msgstr "找不到指令！"
+
+#: Arimanager.class.php:127
+msgid "Configuring advanced settings..."
+msgstr "正在設定進階設定..."
+
+#: assets/js/arimanager.js:250
+msgid "Create New"
+msgstr "建立新項目"
+
+#: Arimanager.class.php:258
+msgid "Create Successfully"
+msgstr "建立成功"
+
+#: views/view.grid.form.php:78
+msgid "Crypt"
+msgstr "Crypt"
+
+#: views/page.apps.php:28
+msgid "Device Count"
+msgstr "裝置計數"
+
+#: assets/js/arimanager.js:266
+msgid "Devices:"
+msgstr "裝置："
+
+#: Arimanager.class.php:125
+#: Arimanager.class.php:137
+#: Arimanager.class.php:144
+msgid "Done!"
+msgstr "完成！"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:24
+msgid "Enable pretty-printing of the JSON responses from Asterisk"
+msgstr "啟用 Asterisk 回應 JSON 的美化列印"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:18
+msgid "Enable the Asterisk REST Interface"
+msgstr "啟用 Asterisk REST 介面"
+
+#: views/page.apps.php:27
+msgid "Endpoint Count"
+msgstr "端點計數"
+
+#: assets/js/arimanager.js:264
+msgid "Endpoints:"
+msgstr "端點："
+
+#: Arimanager.class.php:571
+#, php-format
+msgid "Error (%s): %s"
+msgstr "錯誤 (%s)：%s"
+
+#: Arimanager.class.php:565
+msgid "Error 404!"
+msgstr "錯誤 404！"
+
+#: Arimanager.class.php:568
+#, php-format
+msgid "Error 422: %s"
+msgstr "錯誤 422：%s"
+
+#: Arimanager.class.php:490
+msgid ""
+"For security reasons, we have updated the Asterisk ARI username and password "
+"to random values for your PBXact Cloud system. In the unlikely case where "
+"these credentials are being used for some external application, you will "
+"need to update that application with the new ARI username and password.  If "
+"you have any questions please contact PBXact Cloud support."
+msgstr ""
+"基於安全因素，我們已將您的 PBXact Cloud 系統的 Asterisk ARI 使用者名稱與密碼更新為隨機值。在極少數情況下，如果這些憑證正供某個外部應用程式使用，您將需要使用新的 ARI 使用者名稱與密碼更新該應用程式。如有任何問題，請聯絡 PBXact Cloud 支援。"
+
+#: views/view.grid.form.php:88
+msgid ""
+"For the security concerns, you probably don't want to put plaintext "
+"passwords in the configuration file. ARI supports the use of crypt(3) for "
+"password storage."
+msgstr "基於安全考量，您可能不想在設定檔案中放置明文密碼。ARI 支援使用 crypt(3) 進行密碼儲存。"
+
+#: Api/Gql/AriManagerUser.php:238
+msgid ""
+"For the security consious, you probably don't want to put plaintext "
+"passwords in the configuration file. ARI supports the use of crypt(3) for "
+"password storage."
+msgstr "基於安全考量，您可能不想在設定檔案中放置明文密碼。ARI 支援使用 crypt(3) 進行密碼儲存。"
+
+#: assets/js/arimanager.js:34
+msgid "ID not detected!"
+msgstr "未偵測到 ID！"
+
+#: views/view.grid.form.php:11
+msgid "Loading..."
+msgstr "正在載入..."
+
+#: views/view.grid.form.php:107
+#: assets/js/arimanager.js:40
+msgid "No"
+msgstr "否"
+
+#: Arimanager.class.php:406
+msgid "No User has been selected to be removed!"
+msgstr "未選取要移除的使用者！"
+
+#: Arimanager.class.php:438
+msgid "No User specified!"
+msgstr "未指定使用者！"
+
+#: Arimanager.class.php:245
+msgid "No data received!"
+msgstr "未收到資料！"
+
+#: Arimanager.class.php:344
+msgid "No user has been selected to be update!"
+msgstr "未選取要更新的使用者！"
+
+#: Arimanager.class.php:508
+msgid "Non Supported character in ARI manager / password"
+msgstr "ARI 管理員/密碼中有不支援的字元"
+
+#: Arimanager.class.php:501
+msgid "Non Supported character in ARI manager/ password"
+msgstr "ARI 管理員/密碼中有不支援的字元"
+
+#: Arimanager.class.php:96
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面 (%s)!!!!"
+
+#: views/view.grid.form.php:72
+msgid "Password Type"
+msgstr "密碼類型"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:36
+msgid "Password for internal ARI calls"
+msgstr "供內部 ARI 呼叫的密碼"
+
+#: Arimanager.class.php:323
+#: Arimanager.class.php:356
+msgid "Password format is not supported!"
+msgstr "不支援的密碼格式！"
+
+#: views/view.grid.form.php:80
+msgid "Plain Text"
+msgstr "純文字"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:22
+msgid "Pretty Print JSON Responses"
+msgstr "美化列印 JSON 回應"
+
+#: views/view.grid.form.php:100
+#: views/view.grid.php:21
+msgid "Read Only"
+msgstr "唯讀"
+
+#: Api/Gql/AriManagerUser.php:89
+msgid "Remove an entry from Asterisk REST Interface Users"
+msgstr "從 Asterisk REST 介面使用者移除一筆條目"
+
+#: Arimanager.class.php:295
+msgid "Removed Failed!"
+msgstr "移除失敗！"
+
+#: Arimanager.class.php:292
+msgid "Removed Successfully"
+msgstr "移除成功"
+
+#: views/view.grid.form.php:125
+#: assets/js/arimanager.js:250
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: Api/Gql/AriManagerUser.php:242
+#: views/view.grid.form.php:115
+msgid "Set to Yes for read-only applications."
+msgstr "設定為「是」供唯讀應用程式使用。"
+
+#: arimanager.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: Arimanager.class.php:545
+msgid "The Asterisk REST Interface Module is not loaded in asterisk"
+msgstr "Asterisk 未載入 Asterisk REST 介面模組"
+
+#: views/page.main.php:15
+msgid "The Asterisk REST Interface is Currently Disabled in Advanced Settings"
+msgstr "Asterisk REST 介面目前在進階設定中已停用"
+
+#: Arimanager.class.php:550
+msgid "The Asterisk REST Interface is Currently Disabled."
+msgstr "Asterisk REST 介面目前已停用。"
+
+#: views/page.main.php:11
+msgid ""
+"The Asterisk mini-HTTP Server is Currently Disabled in Advanced Settings"
+msgstr "Asterisk mini-HTTP 伺服器目前在進階設定中已停用"
+
+#: Api/Gql/AriManagerUser.php:147
+msgid "The ID"
+msgstr "該 ID"
+
+#: Arimanager.class.php:445
+msgid "The User does not exist!"
+msgstr "使用者不存在！"
+
+#: assets/js/arimanager.js:204
+msgid "The Username Cannot be Blank or Contain Spaces!"
+msgstr "使用者名稱不能為空白或包含空格！"
+
+#: views/page.apps.php:9
+msgid "The following applications have registered with Asterisk."
+msgstr "以下應用程式已向 Asterisk 註冊。"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:28
+msgid "The timeout (in milliseconds) to set on WebSocket connections."
+msgstr "WebSocket 連線的逾時設定（毫秒）。"
+
+#: Arimanager.class.php:282
+msgid "Type not found!"
+msgstr "找不到類型！"
+
+#: Api/Gql/AriManagerUser.php:59
+msgid "Update an entry in Asterisk REST Interface Users"
+msgstr "更新 Asterisk REST 介面使用者中的一筆條目"
+
+#: Arimanager.class.php:275
+msgid "Updated Successfully"
+msgstr "更新成功"
+
+#: assets/js/arimanager.js:213
+msgid "Updating..."
+msgstr "正在更新..."
+
+#: Arimanager.class.php:320
+msgid "User Already Exists!"
+msgstr "使用者已存在！"
+
+#: views/view.grid.form.php:24
+msgid "User Name"
+msgstr "使用者名稱"
+
+#: views/view.grid.form.php:48
+msgid "User Password"
+msgstr "使用者密碼"
+
+#: Arimanager.class.php:353
+#: assets/js/arimanager.js:209
+msgid "User Password Can Not Be Blank!"
+msgstr "使用者密碼不能為空白！"
+
+#: views/view.grid.php:20
+msgid "Username"
+msgstr "使用者名稱"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:32
+msgid "Username for internal ARI calls"
+msgstr "供內部 ARI 呼叫的使用者名稱"
+
+#: Arimanager.class.php:508
+#, php-format
+msgid ""
+"We have found '+' sign in your ARI manager user/ password which is not "
+"supported so please remove the '+' sign from your ARI Manager(%s) / password"
+msgstr "我們發現您的 ARI 管理員使用者/密碼中含有 '+' 符號，這是不支援的，請從您的 ARI 管理員 (%s) / 密碼中移除 '+' 符號"
+
+#: Arimanager.class.php:501
+#, php-format
+msgid ""
+"We have found '+' sign in your ARI manager user/password which is not "
+"supported so please remove the '+' sign from your ARI Manager (%s) / password"
+msgstr "我們發現您的 ARI 管理員使用者/密碼中含有 '+' 符號，這是不支援的，請從您的 ARI 管理員 (%s) / 密碼中移除 '+' 符號"
+
+#: Arimanager.class.php:128
+#: arimanager.i18n.php:26
+msgid "Web Socket Write Timeout"
+msgstr "Web Socket 寫入逾時"
+
+#: views/view.grid.form.php:105
+#: assets/js/arimanager.js:40
+msgid "Yes"
+msgstr "是"
+
+#: Arimanager.class.php:166
+msgid ""
+"Your system is using default ARI username so recommend you to please change "
+"ARI username and password at the earliest (If ARI is not visible, Please "
+"enable 'Display Readonly Settings' And 'Override Readonly Settings"
+msgstr ""
+"您的系統正在使用預設的 ARI 使用者名稱，建議您儘早變更 ARI 使用者名稱與密碼（若 ARI 未顯示，請啟用「顯示唯讀設定」與「覆寫唯讀設定」"

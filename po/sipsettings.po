@@ -1,0 +1,1575 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for sipsettings
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-10 23:56-0400\n"
+"PO-Revision-Date: 2026-09-15 14:37+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: general.page.php:837
+msgid ""
+" If you clear each codec and then add them one at a time, submitting with "
+"each addition, they will be added in order which will effect the codec "
+"priority."
+msgstr "如果您先清除所有編解碼器，然後一次新增一個，每次新增後提交，它們將按照新增順序加入，這會影響編解碼器的優先順序。"
+
+#: chansip.page.php:963
+msgid " See current version of Asterisk for limitations on SRV functionality."
+msgstr "請參閱目前版本的 Asterisk 以了解 SRV 功能的限制。"
+
+#: Api/Gql/SipSettings.php:339
+msgid ""
+" settings for 'All' (0.0.0.0) must be disabled before enabling any other "
+"settings."
+msgstr "必須先停用「All」(0.0.0.0) 的設定，才能啟用任何其他設定。"
+
+#: functions.inc.php:364
+#, php-format
+msgid "%s must be a non-negative integer"
+msgstr "%s 必須是非負整數"
+
+#: functions.inc.php:408
+#, php-format
+msgid "%s must be alphanumeric"
+msgstr "%s 必須是英數字"
+
+#: Api/Gql/SipSettings.php:111
+msgid "API message response"
+msgstr "API 訊息回應"
+
+#: Api/Gql/SipSettings.php:107
+msgid "API status"
+msgstr "API 狀態"
+
+#: chansip.page.php:735
+msgid "Adaptive"
+msgstr "適應性"
+
+#: general.page.php:528
+#: general.page.php:570
+msgid "Add Address"
+msgstr "新增地址"
+
+#: chansip.page.php:35
+msgid "Add Field"
+msgstr "新增欄位"
+
+#: chansip.page.php:37
+#: general.page.php:19
+msgid "Add Local Network Field"
+msgstr "新增本地網路欄位"
+
+#: Api/Gql/SipSettings.php:37
+msgid "Adding a Local IP network and mask"
+msgstr "新增本機 IP 網路與遮罩"
+
+#: chansip.page.php:826
+msgid "Advanced General Settings"
+msgstr "進階一般設定"
+
+#: chanpj.page.php:485
+msgid ""
+"After you enable/disable a transport, asterisk needs to be "
+"<strong>restarted</strong>, not just reloaded."
+msgstr "在您啟用/停用傳輸後，Asterisk 需要<strong>重新啟動</strong>，而不只是重新載入。"
+
+#: general.page.php:55
+msgid "Allow Anonymous Inbound SIP Calls"
+msgstr "允許匿名來電 SIP 通話"
+
+#: general.page.php:80
+msgid "Allow SIP Guests"
+msgstr "允許 SIP 訪客"
+
+#: chanpj.page.php:173
+msgid "Allow Transports Reload"
+msgstr "允許傳輸重新載入"
+
+#: chanpj.page.php:186
+msgid ""
+"Allow transports to be reloaded when the PBX is reloaded.  Enabling this is "
+"not recommended, and may lead to issues."
+msgstr "允許在 PBX 重新載入時一併重新載入傳輸。不建議啟用此選項，可能會導致問題。"
+
+#: general.page.php:68
+msgid ""
+"Allowing Inbound Anonymous SIP calls means that you will allow any call "
+"coming in form an un-known IP source to be directed to the 'from-pstn' side "
+"of your dialplan. This is where inbound calls come in. Although FreePBX "
+"severely restricts access to the internal dialplan, allowing Anonymous SIP "
+"calls does introduced additional security risks. If you allow SIP URI "
+"dialing to your PBX or use services like ENUM, you will be required to set "
+"this to Yes for Inbound traffic to work. This is NOT an Asterisk sip.conf "
+"setting, it is used in the dialplan in conjuction with the Default Context. "
+"If that context is changed above to something custom this setting may be "
+"rendered useless as well as if 'Allow SIP Guests' is set to no."
+msgstr ""
+"允許來電匿名 SIP 通話代表您將允許任何來自未知 IP 來源的通話導向您的 dialplan 的「from-pstn」側。這是來電進入的地方。雖然 FreePBX 嚴格限制內部 dialplan 的存取，但允許匿名 SIP 通話確實會引入額外的安全風險。如果您允許 SIP URI 撥號至您的 PBX 或使用 ENUM 等服務，則需要將此設定為「是」才能讓來電流量正常運作。這不是 Asterisk sip.conf 設定，而是在 dialplan 中與預設情境搭配使用。如果上述情境已變更為自訂項目，此設定可能會變得無用，如同「允許 SIP 訪客」設定為「否」一樣。"
+
+#: assets/js/sipsettings.js:172
+msgid ""
+"An Error occurred trying fetch network configuration and external IP address"
+msgstr "嘗試擷取網路設定與外部 IP 地址時發生錯誤"
+
+#: Restore.php:48
+msgid ""
+"An error occurred fixing bindport. Please check Advanced SIP Settings "
+"modules."
+msgstr "修復 bindport 時發生錯誤。請檢查進階 SIP 設定模組。"
+
+#: Sipsettings.class.php:948
+msgid ""
+"An unknown port conflict has been detected in PJSIP. Please check and "
+"validate your PJSIP Ports to ensure they're not overlapping"
+msgstr "PJSIP 中偵測到不明的連接埠衝突。請檢查並驗證您的 PJSIP 連接埠，確保它們沒有重疊"
+
+#: chansip.page.php:175
+msgid ""
+"Asterisk NAT setting:<br /> yes = Always ignore info and assume NAT<br /> no "
+"= Use NAT mode only according to RFC3581 <br /> never = Never attempt NAT "
+"mode or RFC3581 <br /> route = Assume NAT, don't send rport"
+msgstr ""
+"Asterisk NAT 設定：<br /> yes = 永遠忽略資訊並假設為 NAT<br /> no = 僅根據 RFC3581 使用 NAT 模式<br /> never = 永遠不嘗試 NAT 模式或 RFC3581<br /> route = 假設為 NAT，不傳送 rport"
+
+#: sipsettings.i18n.php:4
+#: sipsettings.i18n.php:10
+msgid "Asterisk SIP Settings"
+msgstr "Asterisk SIP 設定"
+
+#: Sipsettings.class.php:204
+#, php-format
+msgid "Asterisk is currently using %s for SIP Traffic."
+msgstr "Asterisk 目前正在使用 %s 作為 SIP 流量。"
+
+#: chansip.page.php:854
+msgid ""
+"Asterisk: bindaddr. The IP address to bind to and listen for calls on the "
+"Bind Port. If set to 0.0.0.0 Asterisk will listen on all addresses. It is "
+"recommended to leave this blank."
+msgstr ""
+"Asterisk: bindaddr。要綁定並在 Bind Port 上接聽通話的 IP 地址。若設定為 0.0.0.0，Asterisk 將接聽所有地址。建議留空。"
+
+#: chansip.page.php:448
+msgid ""
+"Asterisk: canreinvite. yes: standard reinvites; no: never; nonat: An "
+"additional option is to allow media path redirection (reinvite) but only "
+"when the peer where the media is being sent is known to not be behind a NAT "
+"(as the RTP core can determine it based on the apparent IP address the media "
+"arrives from; update: use UPDATE for media path redirection, instead of "
+"INVITE. (yes = update + nonat)"
+msgstr ""
+"Asterisk: canreinvite。yes：標準重新邀請；no：永不；nonat：額外的選項是允許媒體路徑重新導向（reinvite），但僅在已知接收媒體的對端不在 NAT 後方時（因為 RTP 核心可根據媒體到達的表象 IP 地址來判斷）；update：使用 UPDATE 進行媒體路徑重新導向，而非 INVITE。（yes = update + nonat）"
+
+#: chansip.page.php:288
+msgid ""
+"Asterisk: externrefresh. How often to lookup and refresh the External Host "
+"FQDN, in seconds."
+msgstr "Asterisk: externrefresh。查詢與重新整理外部主機 FQDN 的頻率，以秒為單位。"
+
+#: chansip.page.php:417
+msgid ""
+"Asterisk: g726nonstandard. If the peer negotiates G726-32 audio, use AAL2 "
+"packing order instead of RFC3551 packing order (this is required for Sipura "
+"and Grandstream ATAs, among others). This is contrary to the RFC3551 "
+"specification, the peer _should_ be negotiating AAL2-G726-32 instead."
+msgstr ""
+"Asterisk: g726nonstandard。若對端協商 G726-32 音訊，使用 AAL2 封裝順序而非 RFC3551 封裝順序（Sipura 和 Grandstream ATA 等需要此設定）。這與 RFC3551 規格相反，對端_應該_協商 AAL2-G726-32。"
+
+#: general.page.php:709
+msgid ""
+"Asterisk: t38pt_udptl. Enables T38 passthrough which makes faxes go through "
+"Asterisk without being processed.<ul><li>No - No passthrough</li><li>Yes - "
+"Enables T.38 with FEC error correction and overrides the other endpoint's "
+"provided value to assume we can send 400 byte T.38 FAX packets to it.</"
+"li><li>Yes with FEC - Enables T.38 with FEC error correction</li><li>Yes "
+"with Redundancy - Enables T.38 with redundancy error correction</li><li>Yes "
+"with no error correction - Enables T.38 with no error correction.</li></ul>"
+msgstr ""
+"Asterisk: t38pt_udptl。啟用 T38 直通，讓傳真在 Asterisk 中傳輸而無須處理。<ul><li>否 - 無直通</li><li>是 - 啟用含 FEC 錯誤修正的 T.38，並覆蓋另一端提供的值，假設我們可以傳送 400 位元組的 T.38 FAX 封包給它。</li><li>含 FEC - 啟用含 FEC 錯誤修正的 T.38</li><li>含冗餘 - 啟用含冗餘錯誤修正的 T.38</li><li>無錯誤修正 - 啟用無錯誤修正的 T.38。</li></ul>"
+
+#: general.page.php:680
+msgid "Audio Codecs"
+msgstr "音訊編解碼器"
+
+#: chansip.page.php:36
+msgid "Auto Configure"
+msgstr "自動設定"
+
+#: chansip.page.php:864
+msgid "Bind Address"
+msgstr "Bind Address"
+
+#: functions.inc.php:368
+msgid "Bind Address (bindaddr) must be an IP address."
+msgstr "Bind Address (bindaddr) 必須是 IP 地址。"
+
+#: chansip.page.php:886
+msgid "Bind Port"
+msgstr "Bind Port"
+
+#: functions.inc.php:374
+msgid "Bind Port (bindport) must be between 1024 and 65535"
+msgstr "Bind Port (bindport) 必須介於 1024 和 65535 之間"
+
+#: Restore.php:69
+#, php-format
+msgid "Bindport set to %s."
+msgstr "Bindport 已設定為 %s。"
+
+#: chanpj.page.php:348
+msgid "CA Chain File"
+msgstr "CA 連鎖檔案"
+
+#: Sipsettings.class.php:962
+msgid "CHANSIP Port Moved"
+msgstr "CHANSIP 連接埠已移動"
+
+#: Sipsettings.class.php:972
+msgid "CHANSIP TCP Disabled"
+msgstr "CHANSIP TCP 已停用"
+
+#: Sipsettings.class.php:983
+msgid "CHANSIP TLS Port Moved"
+msgstr "CHANSIP TLS 連接埠已移動"
+
+#: chansip.page.php:1000
+msgid "Call Events"
+msgstr "通話事件"
+
+#: chanpj.page.php:240
+msgid "Caller ID into Contact Header"
+msgstr "來電顯示放入 Contact 標頭"
+
+#: general.page.php:561
+msgid "Candidates"
+msgstr "候選"
+
+#: chanpj.page.php:360
+msgid "Certificate File"
+msgstr "憑證檔案"
+
+#: chanpj.page.php:385
+#: chansip.page.php:325
+msgid "Certificate Manager"
+msgstr "憑證管理員"
+
+#: general.page.php:114
+msgid "Chan SIP"
+msgstr "Chan SIP"
+
+#: Restore.php:52
+msgid "Chan_sip must be selected only. No update."
+msgstr "只能選擇 chan_sip。不更新。"
+
+#: Sipsettings.class.php:983
+#, php-format
+msgid ""
+"Chansip was assigned a port that was already in use for TLS traffic. The "
+"Chansip TLS port has been changed to %s"
+msgstr "Chansip 被指派了已用於 TLS 流量的連接埠。Chansip TLS 連接埠已變更為 %s"
+
+#: Sipsettings.class.php:972
+msgid ""
+"Chansip was assigned the same port as pjsip for TCP traffic. Chansip has had "
+"the tcpenable setting removed, and is no longer listening for TCP "
+"connections."
+msgstr ""
+"Chansip 被指派了與 pjsip 相同的 TCP 流量連接埠。Chansip 已移除 tcpenable 設定，不再接聽 TCP 連線。"
+
+#: Sipsettings.class.php:962
+#, php-format
+msgid ""
+"Chansip was assigned the same port as pjsip for UDP traffic. The Chansip "
+"port has been changed to %s"
+msgstr "Chansip 被指派了與 pjsip 相同的 UDP 流量連接埠。Chansip 連接埠已變更為 %s"
+
+#: general.page.php:837
+msgid "Check to enable and then choose allowed codecs."
+msgstr "核取以啟用，然後選擇允許的編解碼器。"
+
+#: general.page.php:722
+msgid "Codecs"
+msgstr "編解碼器"
+
+#: chansip.page.php:531
+msgid ""
+"Control whether subscriptions INUSE get sent ONHOLD when call is placed on "
+"hold. Useful when using BLF."
+msgstr "控制當通話被置於保留時，INUSE 訂閱是否發送 ONHOLD。使用 BLF 時相當實用。"
+
+#: chansip.page.php:504
+msgid ""
+"Control whether subscriptions already INUSE get sent RINGING when another "
+"call is sent. Useful when using BLF."
+msgstr "控制當另一個通話送出時，已 INUSE 的訂閱是否發送 RINGING。使用 BLF 時相當實用。"
+
+#: chanpj.page.php:414
+msgid "Default"
+msgstr "預設"
+
+#: chansip.page.php:836
+msgid "Default Context"
+msgstr "預設情境"
+
+#: general.page.php:109
+msgid "Default TLS Port Assignment"
+msgstr "預設 TLS 連接埠指派"
+
+#: chansip.page.php:848
+msgid ""
+"Default context for incoming calls if not specified. FreePBX sets this to "
+"from-sip-external which is used in conjunction with the Allow Anonymous SIP "
+"calls. If you change this you will effect that behavior. It is recommended "
+"to leave this blank."
+msgstr ""
+"若未指定時，來電的預設情境。FreePBX 將此設定為 from-sip-external，與允許匿名 SIP 通話搭配使用。若您變更此項，將影響該行為。建議留空。"
+
+#: chansip.page.php:656
+msgid "Default length of incoming and outgoing registrations."
+msgstr "撥入與撥出註冊的預設長度。"
+
+#: general.page.php:175
+msgid "Detect Network Settings"
+msgstr "偵測網路設定"
+
+#: general.page.php:829
+msgid "Disabled"
+msgstr "已停用"
+
+#: chanpj.page.php:96
+msgid "Domain the transport comes from"
+msgstr "傳輸來源的網域"
+
+#: chansip.page.php:385
+msgid "Don't Require verification of server certificate (TLS ONLY)."
+msgstr "不需要伺服器憑證驗證（僅限 TLS）。"
+
+#: chansip.page.php:371
+msgid "Don't Verify Server"
+msgstr "不驗證伺服器"
+
+#: chansip.page.php:249
+msgid "Dynamic Host"
+msgstr "動態主機"
+
+#: chansip.page.php:273
+msgid "Dynamic Host Refresh"
+msgstr "動態主機重新整理"
+
+#: functions.inc.php:434
+msgid "Dynamic Host can not be blank"
+msgstr "動態主機不能為空"
+
+#: chansip.page.php:196
+msgid "Dynamic IP"
+msgstr "動態 IP"
+
+#: chansip.page.php:133
+msgid "ERRORS"
+msgstr "錯誤"
+
+#: chansip.page.php:118
+msgid "Edit Settings"
+msgstr "編輯設定"
+
+#: chanpj.page.php:196
+msgid "Enable Debug"
+msgstr "啟用除錯"
+
+#: chansip.page.php:673
+msgid "Enable Jitter Buffer"
+msgstr "啟用 Jitter Buffer"
+
+#: chansip.page.php:948
+msgid "Enable SRV Lookup"
+msgstr "啟用 SRV 查詢"
+
+#: chansip.page.php:974
+#: chansip.page.php:989
+msgid "Enable TCP"
+msgstr "啟用 TCP"
+
+#: chansip.page.php:304
+msgid "Enable TLS"
+msgstr "啟用 TLS"
+
+#: chansip.page.php:317
+msgid "Enable server for incoming TLS (secure) connections."
+msgstr "啟用伺服器以接受傳入 TLS（安全）連線。"
+
+#: chanpj.page.php:209
+msgid "Enable/Disable SIP debug logging."
+msgstr "啟用/停用 SIP 除錯記錄。"
+
+#: general.page.php:827
+msgid "Enabled"
+msgstr "已啟用"
+
+#: chansip.page.php:770
+msgid "Enables jitter buffer frame logging."
+msgstr "啟用 jitter buffer 框架記錄。"
+
+#: chansip.page.php:688
+msgid ""
+"Enables the use of a jitterbuffer on the receiving side of a SIP channel. An "
+"enabled jitterbuffer will be used only if the sending side can create and "
+"the receiving side can not accept jitter. The SIP channel can accept jitter, "
+"thus a jitterbuffer on the receive SIP side will be used only if it is "
+"forced and enabled. An example is if receiving from a jittery channel to "
+"voicemail, the jitter buffer will be used if enabled. However, it will not "
+"be used when sending to a SIP endpoint since they usually have their own "
+"jitter buffers. See jbforce to force its use always."
+msgstr ""
+"在 SIP 通道的接收端啟用 jitter buffer 的使用。已啟用的 jitter buffer 僅在發送端可以建立且接收端無法接受抖動時才會使用。SIP 通道可以接受抖動，因此接收端 SIP 側的抖動緩衝區僅在強制且啟用時才會使用。例如，從抖動通道接收至語音信箱時，若啟用則會使用抖動緩衝區。然而，當發送至 SIP 端點時通常不會使用，因為它們通常有自己的抖動緩衝區。請參閱 jbforce 以強制永遠使用。"
+
+#: general.page.php:257
+msgid "End"
+msgstr "結束"
+
+#: chanpj.page.php:315
+msgid "Endpoint Identifier Order "
+msgstr "端點識別子順序 "
+
+#: chanpj.page.php:332
+msgid ""
+"Endpoint Identifier Order . The Default order is as follows:<ul><li>ip</"
+"li><li>username</li><li>anonymous</li><li>header</li><li>auth_username</li></"
+"ul><ul>Note : Changing this to get affected  may require asterisk restart</"
+"ul>"
+msgstr ""
+"端點識別子順序。預設順序如下：<ul><li>ip</li><li>username</li><li>anonymous</li><li>header</li><li>auth_username</li></ul><ul>注意：變更此項目可能會影響，可能需要重新啟動 asterisk</ul>"
+
+#: assets/js/sipsettings.js:261
+#: assets/js/sipsettings.js:264
+#: assets/js/sipsettings.js:273
+msgid "Enter IP Address"
+msgstr "輸入 IP 地址"
+
+#: assets/js/sipsettings.js:269
+#: assets/js/sipsettings.js:272
+#, perl-format
+msgid "Error: %s"
+msgstr "錯誤：%s"
+
+#: general.page.php:170
+msgid "External Address"
+msgstr "外部地址"
+
+#: chansip.page.php:261
+msgid ""
+"External FQDN as seen on the WAN side of the router and updated dynamically, "
+"e.g. mydomain.example.com. (asterisk: externhost)"
+msgstr ""
+"從路由器的 WAN 端看到的外部 FQDN，並動態更新，例如 mydomain.example.com。（asterisk: externhost）"
+
+#: chanpj.page.php:96
+msgid "External IP Address"
+msgstr "外部 IP 地址"
+
+#: functions.inc.php:424
+#: assets/js/sipsettings.js:24
+msgid ""
+"External IP can not be blank when NAT Mode is set to Static and no default "
+"IP address provided on the main page"
+msgstr "當 NAT 模式設定為靜態且在主頁面未提供預設 IP 地址時，外部 IP 不能為空"
+
+#: Api/Gql/SipSettings.php:256
+msgid "External IP has been updated successfully"
+msgstr "外部 IP 已成功更新"
+
+#: chanpj.page.php:96
+msgid "External Signaling Port"
+msgstr "外部訊號連接埠"
+
+#: chansip.page.php:235
+msgid ""
+"External Static IP or FQDN as seen on the WAN side of the router. (asterisk: "
+"externip)"
+msgstr "從路由器的 WAN 端看到的外部靜態 IP 或 FQDN。（asterisk: externip）"
+
+#: chansip.page.php:733
+msgid "Fixed"
+msgstr "固定"
+
+#: chansip.page.php:701
+msgid "Force Jitter Buffer"
+msgstr "強制 Jitter Buffer"
+
+#: chansip.page.php:716
+msgid ""
+"Forces the use of a jitterbuffer on the receive side of a SIP channel. "
+"Normally the jitter buffer will not be used if receiving a jittery channel "
+"but sending it off to another channel such as another SIP channel to an "
+"endpoint, since there is typically a jitter buffer at the far end. This will "
+"force the use of the jitter buffer before sending the stream on. This is not "
+"typically desired as it adds additional latency into the stream."
+msgstr ""
+"強制在 SIP 通道的接收端使用抖動緩衝區。正常情況下，若接收抖動通道但將其發送至其他通道（如另一個 SIP 通道至端點），則不會使用抖動緩衝區，因為遠端通常已有抖動緩衝區。這將在串流發送前強制使用抖動緩衝區。這通常不是理想的，因為會為串流增加額外的延遲。"
+
+#: chansip.page.php:477
+msgid ""
+"Frequency in seconds to check if MWI state has changed and inform peers."
+msgstr "檢查 MWI 狀態是否已變更並通知對端的頻率，以秒為單位。"
+
+#: Sipsettings.class.php:219
+msgid "General SIP Settings"
+msgstr "一般 SIP 設定"
+
+#: chansip.page.php:1015
+msgid "Generate manager events when sip ua performs events (e.g. hold)."
+msgstr "當 sip ua 執行事件（例如保留）時產生管理器事件。"
+
+#: general.page.php:725
+msgid "Helpful Information"
+msgstr "實用資訊"
+
+#: general.page.php:417
+#: general.page.php:602
+msgid ""
+"Hostname or address for the STUN server used when determining the external "
+"IP address and port an RTP session can be reached at. The port number is "
+"optional. If omitted the default value of 3478 will be used. This option is "
+"blank by default. (A list of STUN servers: https://sangomakb.atlassian.net/"
+"wiki/spaces/PG/pages/25824149/PBX+GUI+-+STUN+Servers)"
+msgstr ""
+"用於判定外部 IP 地址與 RTP 連接埠位址的 STUN 伺服器主機名稱或地址。連接埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。（STUN 伺服器清單：https://sangomakb.atlassian.net/wiki/spaces/PG/pages/25824149/PBX+GUI+-+STUN+Servers）"
+
+#: general.page.php:441
+#: general.page.php:626
+msgid ""
+"Hostname or address for the TURN server to be used as a relay. The port "
+"number is optional. If omitted the default value of 3478 will be used. This "
+"option is blank by default."
+msgstr "用作中繼的 TURN 伺服器主機名稱或地址。連接埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。"
+
+#: general.page.php:496
+msgid "ICE Blacklist"
+msgstr "ICE 黑名單"
+
+#: general.page.php:539
+msgid "ICE Host Candidates"
+msgstr "ICE 主機候選"
+
+#: general.page.php:550
+msgid ""
+"IMPORTANT: Only use this functionality when your Asterisk server is behind a "
+"one-to-one NAT and you know what you're doing. If you do define anything "
+"here, you almost certainly will NOT want to specify 'stunaddr' or 'turnaddr' "
+"above."
+msgstr ""
+"重要：僅當您的 Asterisk 伺服器位於一對一 NAT 後方且您清楚自己在做什麼時，才使用此功能。若您在此定義了任何項目，幾乎可以確定您不會想要在上面指定 'stunaddr' 或 'turnaddr'。"
+
+#: general.page.php:517
+msgid "IP Addresses"
+msgstr "IP 地址"
+
+#: chansip.page.php:187
+msgid "IP Configuration"
+msgstr "IP 設定"
+
+#: chanpj.page.php:96
+msgid "If blank, will use the default settings"
+msgstr "若為空白，將使用預設設定"
+
+#: chansip.page.php:728
+msgid "Implementation"
+msgstr "實作"
+
+#: chansip.page.php:204
+msgid ""
+"Indicate whether the box has a public IP or requires NAT settings.<br/>If "
+"the public address is not correctly detected you can supply the external "
+"address manually.<br/>If your IP address is not static you can specify a "
+"dynamicDNS host name under Dynamic IP.<br/> Automatic configuration of what "
+"is often put in sip_nat.conf"
+msgstr ""
+"指示該主機是否有公用 IP 或需要 NAT 設定。<br/>若未正確偵測到公用地址，您可以手動提供外部地址。<br/>若您的 IP 地址不是靜態的，您可以在「動態 IP」下指定動態 DNS 主機名稱。<br/>通常會放入 sip_nat.conf 的自動設定"
+
+#: chanpj.page.php:418
+#: chanpj.page.php:419
+#: chanpj.page.php:420
+#: chansip.page.php:355
+#: chansip.page.php:356
+msgid "Insecure"
+msgstr "不安全"
+
+#: Api/Gql/SipSettings.php:328
+msgid "Invalid IP value '"
+msgstr "無效的 IP 值 '"
+
+#: Api/Gql/SipSettings.php:313
+msgid "Invalid key '"
+msgstr "無效的金鑰 '"
+
+#: Api/Gql/SipSettings.php:323
+msgid "Invalid mode '"
+msgstr "無效的模式 '"
+
+#: Sipsettings.class.php:1241
+msgid "It is recommended that this option remain set to no."
+msgstr "建議此選項保持設定為「否」。"
+
+#: chansip.page.php:755
+msgid "Jitter Buffer Logging"
+msgstr "Jitter Buffer 記錄"
+
+#: chansip.page.php:782
+msgid "Jitter Buffer Max Size"
+msgstr "Jitter Buffer 最大大小"
+
+#: chansip.page.php:806
+msgid "Jitter Buffer Resync Threshold"
+msgstr "Jitter Buffer 重新同步閾值"
+
+#: chansip.page.php:663
+msgid "Jitter Buffer Settings"
+msgstr "Jitter Buffer 設定"
+
+#: chansip.page.php:743
+msgid ""
+"Jitterbuffer implementation, used on the receiving side of a SIP channel. "
+"Two implementations are currently available:<br /> fixed: size always equals "
+"to jbmaxsize;<br /> adaptive: with variable size (the new jb of IAX2)."
+msgstr ""
+"Jitterbuffer 實作，用於 SIP 通道的接收端。目前有兩種實作可用：<br /> fixed：大小永遠等於 jbmaxsize；<br /> adaptive：可變大小（IAX2 的新 jb）。"
+
+#: chansip.page.php:818
+msgid ""
+"Jump in the frame timestamps over which the jitterbuffer is resynchronized. "
+"Useful to improve the quality of the voice, with big jumps in/broken "
+"timestamps, usually sent from exotic devices and programs. Can be set to -1 "
+"to disable."
+msgstr ""
+"框架時間戳記的跳躍幅度，超過此幅度時抖動緩衝區將重新同步。對於改善因時間戳記大幅跳動或中斷（通常來自特殊裝置和程式）導致的音訊品質相當實用。可設定為 -1 以停用。"
+
+#: chanpj.page.php:219
+msgid "Keep Alive Interval"
+msgstr "Keep Alive 間隔"
+
+#: Api/Gql/SipSettings.php:229
+msgid "List of External and Local IPs"
+msgstr "外部與本機 IP 清單"
+
+#: Api/Gql/SipSettings.php:186
+msgid "List the WS settings"
+msgstr "列出 WS 設定"
+
+#: Api/Gql/SipSettings.php:200
+msgid "List the WSS settings"
+msgstr "列出 WSS 設定"
+
+#: Api/Gql/SipSettings.php:182
+msgid "Lists the External IPs"
+msgstr "列出外部 IP"
+
+#: assets/js/sipsettings.js:254
+msgid "Loading"
+msgstr "載入中"
+
+#: Api/Gql/SipSettings.php:246
+msgid "Local IP has been added successfully"
+msgstr "本機 IP 已成功新增"
+
+#: general.page.php:209
+msgid "Local Networks"
+msgstr "本地網路"
+
+#: chansip.page.php:936
+msgid ""
+"Local incoming TCP Port that Asterisk will bind to and listen for TLS SIP "
+"messages."
+msgstr "Asterisk 將綁定並接聽 TLS SIP 訊息的本機傳入 TCP 連接埠。"
+
+#: chansip.page.php:896
+msgid ""
+"Local incoming UDP (and TCP if enabled) port that Asterisk will bind to and "
+"listen for chan_SIP messages. If left blank, it will default to 5060. Legacy "
+"installs (when only a single SIP driver was present) would set the chan_sip "
+"bind port to 5060, but new installs set it to 5160."
+msgstr ""
+"Asterisk 將綁定並接聽 chan_SIP 訊息的本機傳入 UDP（若啟用則含 TCP）連接埠。若留空，將預設為 5060。舊版安裝（僅存在單一 SIP 驅動程式時）會將 chan_sip 綁定連接埠設為 5060，但新安裝將其設為 5160。"
+
+#: chanpj.page.php:96
+msgid "Local network"
+msgstr "本地網路"
+
+#: general.page.php:226
+msgid ""
+"Local network settings in the form of ip/cidr or ip/netmask. For networks "
+"with more than 1 LAN subnets, use the Add Local Network Field button for "
+"more fields. Blank fields will be ignored."
+msgstr ""
+"以 ip/cidr 或 ip/網路遮罩 形式表示的本地網路設定。對於具有一個以上 LAN 子網路的網路，請使用「新增本地網路欄位」按鈕以新增更多欄位。空白欄位將被忽略。"
+
+#: functions.inc.php:485
+msgid "Localnet netmask must be formatted properly (e.g. 255.255.255.0 or 24)"
+msgstr "Localnet 網路遮罩必須格式正確（例如 255.255.255.0 或 24）"
+
+#: functions.inc.php:480
+msgid "Localnet setting must be an IP address"
+msgstr "Localnet 設定必須是 IP 地址"
+
+#: chansip.page.php:392
+msgid "MEDIA & RTP Settings"
+msgstr "媒體與 RTP 設定"
+
+#: chansip.page.php:465
+msgid "MWI Polling Freq"
+msgstr "MWI 輪詢頻率"
+
+#: general.page.php:897
+msgid "Max Bit Rate"
+msgstr "最大位元率"
+
+#: chansip.page.php:794
+msgid "Max length of the jitterbuffer in milliseconds."
+msgstr "抖動緩衝區的最大長度，以毫秒為單位。"
+
+#: chansip.page.php:632
+msgid "Maximum allowed time of incoming registrations"
+msgstr "撥入註冊的最大允許時間"
+
+#: general.page.php:912
+msgid "Maximum bitrate for video calls in kb/s"
+msgstr "視訊通話的最大位元率，單位為 kb/s"
+
+#: general.page.php:395
+msgid "Media Transport Settings"
+msgstr "媒體傳輸設定"
+
+#: Api/Gql/SipSettings.php:135
+#: Api/Gql/SipSettings.php:174
+msgid "Message for the request"
+msgstr "請求的訊息"
+
+#: chanpj.page.php:427
+msgid ""
+"Method of SSL transport (TLS ONLY). The default is currently TLSv1, but may "
+"change with future releases."
+msgstr "SSL 傳輸方式（僅限 TLS）。目前預設為 TLSv1，但可能會隨未來版本變更。"
+
+#: chansip.page.php:363
+msgid ""
+"Method of SSL transport (TLS ONLY). The default is currently tlsv1, but may "
+"change with future releases."
+msgstr "SSL 傳輸方式（僅限 TLS）。目前預設為 tlsv1，但可能會隨未來版本變更。"
+
+#: install.php:64
+msgid "Migrate rtp.conf values if needed and initialize"
+msgstr "如有需要則遷移 rtp.conf 值並初始化"
+
+#: install.php:161
+msgid "Migrating Audio Codecs"
+msgstr "正在遷移音訊編解碼器"
+
+#: install.php:115
+msgid "Migrating LocalNets and Netmasks"
+msgstr "正在遷移 LocalNets 與網路遮罩"
+
+#: install.php:181
+msgid "Migrating Video Codecs"
+msgstr "正在遷移視訊編解碼器"
+
+#: install.php:90
+msgid "Migrating rtpend Setting from Old Format to BMO Object"
+msgstr "正在從舊格式遷移 rtpend 設定至 BMO 物件"
+
+#: install.php:76
+msgid "Migrating rtpstart Setting from Old Format to BMO Object"
+msgstr "正在從舊格式遷移 rtpstart 設定至 BMO 物件"
+
+#: chansip.page.php:608
+msgid "Minimum length of registrations/subscriptions."
+msgstr "註冊/訂閱的最小長度。"
+
+#: chanpj.page.php:165
+msgid "Misc PJSip Settings"
+msgstr "其他 PJSip 設定"
+
+#: chansip.page.php:156
+msgid "NAT"
+msgstr "NAT"
+
+#: chansip.page.php:146
+#: general.page.php:160
+msgid "NAT Settings"
+msgstr "NAT 設定"
+
+#: install.php:22
+msgid "New SIPSettings installation detected. Initializing default settings"
+msgstr "偵測到新的 SIPSettings 安裝。正在初始化預設設定"
+
+#: chanpj.page.php:69
+#: chanpj.page.php:180
+#: chanpj.page.php:203
+#: chanpj.page.php:247
+#: chanpj.page.php:299
+#: chanpj.page.php:442
+#: chanpj.page.php:463
+#: chansip.page.php:311
+#: chansip.page.php:379
+#: chansip.page.php:409
+#: chansip.page.php:496
+#: chansip.page.php:523
+#: chansip.page.php:680
+#: chansip.page.php:708
+#: chansip.page.php:762
+#: chansip.page.php:955
+#: chansip.page.php:981
+#: chansip.page.php:1007
+#: general.page.php:62
+#: general.page.php:87
+#: general.page.php:287
+#: general.page.php:310
+#: general.page.php:696
+msgid "No"
+msgstr "否"
+
+#: chansip.page.php:402
+msgid "Non-Standard g726"
+msgstr "非標準 g726"
+
+#: chansip.page.php:855
+msgid ""
+"Note that chan_sip does not support IPv6 for UDP protocols. An address of "
+"'::' will listen on both IPv4 and IPv6, but is not recommended. If you want "
+"to use IPv6, it is recommended to use PJSip for those devices or trunks."
+msgstr ""
+"請注意，chan_sip 不支援 UDP 的 IPv6 協定。'::' 地址將同時接聽 IPv4 和 IPv6，但不建議。若您想使用 IPv6，建議對該裝置或中繼使用 PJSip。"
+
+#: chanpj.page.php:480
+msgid ""
+"Note that the interface is only displayed for your information, and is not "
+"referenced by asterisk."
+msgstr "請注意，此介面僅為提供您資訊而顯示，asterisk 並未參考它。"
+
+#: chansip.page.php:235
+msgid ""
+"Note that this will, by default, inherit the settings from the General page"
+msgstr "請注意，這將預設從「一般」頁面繼承設定"
+
+#: chansip.page.php:455
+msgid "Notification & MWI"
+msgstr "通知與 MWI"
+
+#: chansip.page.php:516
+msgid "Notify Hold"
+msgstr "通知保留"
+
+#: chansip.page.php:489
+msgid "Notify Ringing"
+msgstr "通知響鈴"
+
+#: chansip.page.php:584
+msgid ""
+"Number of times to try and register before giving up. A value of 0 means "
+"keep trying forever. Normally this should be set to 0 so that Asterisk will "
+"continue to register until successful in the case of network or gateway "
+"outages."
+msgstr "放棄前嘗試註冊的次數。值為 0 代表永遠持續嘗試。通常應將此設為 0，以便 Asterisk 在網路或閘道中斷的情況下繼續註冊直到成功。"
+
+#: Api/Gql/SipSettings.php:344
+msgid "Other "
+msgstr "其他 "
+
+#: chansip.page.php:1047
+msgid "Other SIP Settings"
+msgstr "其他 SIP 設定"
+
+#: chansip.page.php:217
+msgid "Override External IP"
+msgstr "覆寫外部 IP"
+
+#: Sipsettings.class.php:1241
+msgid "PJSIP 'Allow Transports Reload' option is set to yes."
+msgstr "PJSIP「允許傳輸重新載入」選項已設定為「是」。"
+
+#: assets/js/sipsettings.js:242
+msgid "PJSIP transport port conflicts with SIP port"
+msgstr "PJSIP 傳輸連接埠與 SIP 連接埠衝突"
+
+#: general.page.php:114
+msgid "PJSip"
+msgstr "PJSip"
+
+#: general.page.php:489
+#: general.page.php:674
+msgid ""
+"Password used to authenticate with TURN relay server. This option is "
+"disabled by default."
+msgstr "用於與 TURN 中繼伺服器進行驗證的密碼。此選項預設為停用。"
+
+#: chanpj.page.php:253
+msgid "Place caller-id information into Contact header. Default: no."
+msgstr "將 caller-id 資訊放入 Contact 標頭。預設值：否。"
+
+#: chanpj.page.php:96
+msgid "Port to Listen On"
+msgstr "接聽連接埠"
+
+#: assets/js/sipsettings.js:18
+msgid ""
+"Port/Bind Address has changed. This requires an Asterisk restart after Apply "
+"Config"
+msgstr "連接埠/Bind Address 已變更。這需要在套用設定後重新啟動 Asterisk"
+
+#: chanpj.page.php:372
+msgid "Private Key File"
+msgstr "私密金鑰檔案"
+
+#: chansip.page.php:192
+msgid "Public IP"
+msgstr "公用 IP"
+
+#: general.page.php:280
+msgid "RTP Checksums"
+msgstr "RTP 校驗和"
+
+#: general.page.php:352
+msgid "RTP Hold Timeout"
+msgstr "RTP 保留逾時"
+
+#: general.page.php:376
+msgid "RTP Keep Alive"
+msgstr "RTP Keep Alive"
+
+#: general.page.php:243
+msgid "RTP Port Ranges"
+msgstr "RTP 連接埠範圍"
+
+#: general.page.php:233
+msgid "RTP Settings"
+msgstr "RTP 設定"
+
+#: general.page.php:328
+msgid "RTP Timeout"
+msgstr "RTP 逾時"
+
+#: chansip.page.php:572
+msgid "Registration Attempts"
+msgstr "註冊嘗試次數"
+
+#: chansip.page.php:644
+msgid "Registration Default Expiry"
+msgstr "註冊預設到期時間"
+
+#: chansip.page.php:620
+msgid "Registration Maximum Expiry"
+msgstr "註冊最大到期時間"
+
+#: chansip.page.php:596
+msgid "Registration Minimum Expiry"
+msgstr "註冊最小到期時間"
+
+#: chansip.page.php:538
+msgid "Registration Settings"
+msgstr "註冊設定"
+
+#: chansip.page.php:548
+msgid "Registration Timeout"
+msgstr "註冊逾時"
+
+#: chansip.page.php:429
+msgid "Reinvite Behavior"
+msgstr "Reinvite 行為"
+
+#: chanpj.page.php:448
+msgid "Require verification of client certificate (TLS ONLY)."
+msgstr "需要使用者端憑證驗證（僅限 TLS）。"
+
+#: chanpj.page.php:469
+msgid "Require verification of server certificate (TLS ONLY)."
+msgstr "需要伺服器憑證驗證（僅限 TLS）。"
+
+#: Sipsettings.class.php:693
+msgid "Reset"
+msgstr "重置"
+
+#: chansip.page.php:560
+msgid ""
+"Retry registration attempts every registertimeout seconds until successful "
+"or until registrationattempts tries have been made."
+msgstr "每隔 registertimeout 秒重試註冊嘗試，直到成功或已嘗試 registrationattempts 次。"
+
+#: Api/Gql/SipSettings.php:151
+msgid "Returns the current state"
+msgstr "傳回目前狀態"
+
+#: Api/Gql/SipSettings.php:147
+msgid "Returns the interface"
+msgstr "傳回介面"
+
+#: Api/Gql/SipSettings.php:139
+msgid "Returns the network IP"
+msgstr "傳回網路 IP"
+
+#: Api/Gql/SipSettings.php:143
+msgid "Returns the network mask"
+msgstr "傳回網路遮罩"
+
+#: Sipsettings.class.php:226
+msgid "SIP Legacy Settings [chan_sip]"
+msgstr "SIP 舊版設定 [chan_sip]"
+
+#: page.sipsettings.php:15
+msgid "SIP Settings"
+msgstr "SIP 設定"
+
+#: Sipsettings.class.php:222
+msgid "SIP Settings [chan_pjsip]"
+msgstr "SIP 設定 [chan_pjsip]"
+
+#: page.sipsettings.php:21
+msgid "SIP driver informations"
+msgstr "SIP 驅動程式資訊"
+
+#: chanpj.page.php:409
+#: chansip.page.php:348
+msgid "SSL Method"
+msgstr "SSL 方法"
+
+#: general.page.php:405
+#: general.page.php:590
+msgid "STUN Server Address"
+msgstr "STUN 伺服器地址"
+
+#: chansip.page.php:279
+msgid "Seconds"
+msgstr "秒"
+
+#: general.page.php:47
+msgid "Security Settings"
+msgstr "安全性設定"
+
+#: chanpj.page.php:390
+#: chansip.page.php:330
+msgid "Select a Certificate"
+msgstr "選取憑證"
+
+#: chanpj.page.php:400
+#: chansip.page.php:340
+msgid ""
+"Select a certificate to use for the TLS transport. These are configured in "
+"the module Certificate Manager"
+msgstr "選取要用於 TLS 傳輸的憑證。這些在模組「憑證管理員」中設定"
+
+#: general.page.php:388
+msgid ""
+"Send keepalives in the RTP stream to keep NAT open during periods where no "
+"RTP stream may be flowing (like on hold)."
+msgstr "在 RTP 串流中發送 keepalive，以在沒有 RTP 串流流動期間（如保留時）保持 NAT 開啟。"
+
+#: Restore.php:41
+msgid "Setting up chan_sip only."
+msgstr "僅設定 chan_sip。"
+
+#: sipsettings.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: chansip.page.php:1110
+#, php-format
+msgid "Settings in %s may override these. Those settings should be removed."
+msgstr "%s 中的設定可能會覆寫這些。那些設定應該移除。"
+
+#: chanpj.page.php:292
+#: chanpj.page.php:305
+msgid "Show Advanced Settings"
+msgstr "顯示進階設定"
+
+#: Api/Gql/SipSettings.php:123
+msgid "Sipsettings management"
+msgstr "Sipsettings 管理"
+
+#: general.page.php:249
+msgid "Start"
+msgstr "開始"
+
+#: chansip.page.php:194
+msgid "Static IP"
+msgstr "靜態 IP"
+
+#: Api/Gql/SipSettings.php:178
+msgid "Status for the request"
+msgstr "請求的狀態"
+
+#: Api/Gql/SipSettings.php:131
+msgid "Status of the request"
+msgstr "請求的狀態"
+
+#: general.page.php:303
+msgid "Strict RTP"
+msgstr "嚴格 RTP"
+
+#: Sipsettings.class.php:693
+msgid "Submit"
+msgstr "提交"
+
+#: chansip.page.php:38
+#: general.page.php:20
+msgid "Submit Changes"
+msgstr "提交變更"
+
+#: general.page.php:506
+msgid ""
+"Subnets to exclude from ICE host, srflx and relay discovery. This is useful "
+"to optimize the ICE process where a system has multiple host address ranges "
+"and/or physical interfaces and certain of them are not expected to be used "
+"for RTP. For example, VPNs and local interconnections may not be suitable or "
+"necessary for ICE. Multiple subnets may be listed. If left unconfigured, all "
+"discovered host addresses are used."
+msgstr ""
+"從 ICE 主機、srflx 與中繼探索中排除的子網路。這在系統具有多個主機位址範圍和/或實體介面且其中某些不預期用於 RTP 時，對於最佳化 ICE 流程相當實用。例如，VPN 和本地互連可能不適合或沒有必要用於 ICE。可列出多個子網路。若未設定，將使用所有探索到的主機地址。"
+
+#: general.page.php:691
+msgid "T38 Pass-Through"
+msgstr "T38 直通"
+
+#: chansip.page.php:916
+msgid ""
+"TCP Port to listen on for TLS (Encrypted) connections. Defaults to '::', "
+"which listens on all interfaces for both IPv4 and IPv6 connections. Note "
+"that PJSip is preferable for all IPv6 communications."
+msgstr ""
+"用於接聽 TLS（加密）連線的 TCP 連接埠。預設為 '::'，這會接聽所有介面的 IPv4 和 IPv6 連線。請注意，PJSip 更適合所有 IPv6 通訊。"
+
+#: chansip.page.php:906
+msgid "TLS Bind Address"
+msgstr "TLS Bind Address"
+
+#: chansip.page.php:926
+msgid "TLS Bind Port"
+msgstr "TLS Bind Port"
+
+#: chanpj.page.php:340
+#: chansip.page.php:297
+msgid "TLS/SSL/SRTP Settings"
+msgstr "TLS/SSL/SRTP 設定"
+
+#: general.page.php:429
+#: general.page.php:614
+msgid "TURN Server Address"
+msgstr "TURN 伺服器地址"
+
+#: general.page.php:477
+#: general.page.php:662
+msgid "TURN Server Password"
+msgstr "TURN 伺服器密碼"
+
+#: general.page.php:453
+#: general.page.php:638
+msgid "TURN Server Username"
+msgstr "TURN 伺服器使用者名稱"
+
+#: chanpj.page.php:264
+msgid "Taskprocessor Overload Trigger"
+msgstr "Taskprocessor 過載觸發程序"
+
+#: general.page.php:364
+msgid ""
+"Terminate call if rtpholdtimeout seconds of no RTP or RTCP activity on the "
+"audio channel when we're on hold (must be > rtptimeout)."
+msgstr ""
+"當處於保留狀態時，若音訊通道上沒有 RTP 或 RTCP 活動達 rtpholdtimeout 秒則終止通話（必須 > rtptimeout）。"
+
+#: general.page.php:340
+msgid ""
+"Terminate call if rtptimeout seconds of no RTP or RTCP activity on the audio "
+"channel when we're not on hold. This is to be able to hangup a call in the "
+"case of a phone disappearing from the net, like a powerloss or someone "
+"tripping over a cable."
+msgstr ""
+"當未處於保留狀態時，若音訊通道上沒有 RTP 或 RTCP 活動達 rtptimeout 秒則終止通話。這是為了在電話從網路斷電的情況下（如電源故障或某人絆到纜線）能夠掛斷通話。"
+
+#: general.page.php:507
+msgid "The format for these overrides is: [address] / [subnet]"
+msgstr "這些覆寫項目的格式為：[address] / [subnet]"
+
+#: general.page.php:551
+msgid ""
+"The format for these overrides is: [local address] => [advertised address]>"
+msgstr "這些覆寫項目的格式為：[local address] => [advertised address]>"
+
+#: chanpj.page.php:229
+msgid ""
+"The interval (in seconds) to send keepalives to active connection-oriented "
+"transports. <br> Default is 90. </br>"
+msgstr "向使用中的連線導向傳輸發送 keepalive 的時間間隔（以秒為單位）。<br>預設值為 90。</br>"
+
+#: Api/Gql/SipSettings.php:75
+msgid "The network IP address"
+msgstr "網路 IP 地址"
+
+#: Api/Gql/SipSettings.php:79
+msgid "The network mask"
+msgstr "網路遮罩"
+
+#: chanpj.page.php:96
+msgid "The port that this transport should listen on"
+msgstr "此傳輸應該接聽的連接埠"
+
+#: general.page.php:270
+msgid "The starting and ending RTP port range"
+msgstr "起始與結束 RTP 連接埠範圍"
+
+#: chansip.page.php:116
+msgid "These settings apply only to SIP Legacy [chan_sip]"
+msgstr "這些設定僅適用於 SIP 舊版 [chan_sip]"
+
+#: chanpj.page.php:163
+msgid "These settings apply only to SIP [chan_pjsip]"
+msgstr "這些設定僅適用於 SIP [chan_pjsip]"
+
+#: general.page.php:42
+msgid ""
+"These settings apply to both 'SIP Settings [chan_pjsip]' and 'Sip Legacy "
+"Settings [chan_sip]'."
+msgstr "這些設定同時適用於「SIP 設定 [chan_pjsip]」和「Sip 舊版設定 [chan_sip]」。"
+
+#: general.page.php:183
+msgid "This address will be provided to clients if NAT is enabled and detected"
+msgstr "若已啟用並偵測到 NAT，將提供此地址給使用者端"
+
+#: general.page.php:508
+#: general.page.php:552
+msgid "This is most commonly used for WebRTC"
+msgstr "此最常用於 WebRTC"
+
+#: general.page.php:725
+msgid "This is the default Codec setting for new Trunks and Extensions."
+msgstr "這是新中繼與分機的預設 Codec 設定。"
+
+#: general.page.php:153
+msgid ""
+"This lets you explicitly control the SIP Protocol that listens on the "
+"default SIP TLS port (5061). If an option is not available, it is because "
+"that protocol is not enabled, or, that protocol does not have TLS enabled. "
+"If you change this, you will have to restart Asterisk"
+msgstr ""
+"這可讓您明確控制預設 SIP TLS 連接埠（5061）上接聽的 SIP 通訊協定。若某個選項無法使用，代表該通訊協定未啟用，或該通訊協定未啟用 TLS。若您變更此項目，將必須重新啟動 Asterisk"
+
+#: chanpj.page.php:281
+msgid ""
+"This option specifies the trigger the distributor will use for detecting "
+"taskprocessor overloads. When it detects an overload condition, the "
+"distrubutor will stop accepting new requests until the overload is cleared."
+"<br /> global - (default) Any taskprocessor overload will trigger.<br /> "
+"pjsip_only - Only pjsip taskprocessor overloads will trigger.<br /> none - "
+"No overload detection will be performed."
+msgstr ""
+"此選項指定發送者用來偵測 taskprocessor 過載的觸發條件。偵測到過載情況時，發送者將停止接受新要求，直到過載情況排除。<br /> global -（預設）任何 taskprocessor 過載都將觸發。<br /> pjsip_only - 僅 pjsip taskprocessor 過載會觸發。<br /> none - 不執行過載偵測。"
+
+#: general.page.php:316
+msgid ""
+"This will drop RTP packets that do not come from the source of the RTP "
+"stream. It is unusual to turn this off"
+msgstr "這將丟棄不是來自 RTP 串流來源的 RTP 封包。通常不會將此關閉"
+
+#: chanpj.page.php:476
+msgid "Transports"
+msgstr "傳輸"
+
+#: chanpj.page.php:96
+msgid ""
+"Typically used with SIP calling. Example user@domain, where domain is the "
+"value that would be entered here"
+msgstr "通常與 SIP 通話搭配使用。例如 user@domain，其中 domain 是會在此輸入的值"
+
+#: Natget.class.php:31
+msgid "Unknown Error"
+msgstr "未知的錯誤"
+
+#: Sipsettings.class.php:948
+msgid "Unknown Port Conflict"
+msgstr "不明的連接埠衝突"
+
+#: Sipsettings.class.php:505
+#: Sipsettings.class.php:591
+msgid "Unknown Type"
+msgstr "不明的類型"
+
+#: Api/Gql/SipSettings.php:44
+msgid "Updating External IP network and mask"
+msgstr "正在更新外部 IP 網路與遮罩"
+
+#: Api/Gql/SipSettings.php:51
+msgid "Updating Web Socket Settings"
+msgstr "正在更新 Web Socket 設定"
+
+#: Restore.php:46
+msgid "Updating bindport."
+msgstr "正在更新 bindport。"
+
+#: install.php:57
+msgid "Updating kvstore_Sipsettings"
+msgstr "正在更新 kvstore_Sipsettings"
+
+#: chanpj.page.php:76
+msgid "Use "
+msgstr "使用 "
+
+#: sipsettings.i18n.php:8
+msgid "Use to configure Various Asterisk SIP and PJSIP Settings"
+msgstr "用於設定各種 Asterisk SIP 和 PJSIP 設定"
+
+#: general.page.php:465
+#: general.page.php:650
+msgid ""
+"Username used to authenticate with TURN relay server. This option is "
+"disabled by default."
+msgstr "用於與 TURN 中繼伺服器進行驗證的使用者名稱。此選項預設為停用。"
+
+#: chanpj.page.php:435
+msgid "Verify Client"
+msgstr "驗證使用者端"
+
+#: chanpj.page.php:456
+msgid "Verify Server"
+msgstr "驗證伺服器"
+
+#: general.page.php:812
+#: general.page.php:850
+#: general.page.php:885
+msgid "Video Codecs"
+msgstr "視訊編解碼器"
+
+#: general.page.php:822
+msgid "Video Support"
+msgstr "視訊支援"
+
+#: Api/Gql/SipSettings.php:274
+msgid "Web Socket Settings"
+msgstr "Web Socket 設定"
+
+#: Api/Gql/SipSettings.php:383
+msgid "Web Socket settings updated successfully"
+msgstr "Web Socket 設定已成功更新"
+
+#: general.page.php:580
+msgid "WebRTC Settings"
+msgstr "WebRTC 設定"
+
+#: general.page.php:502
+msgid "What is ICE Blacklist?"
+msgstr "什麼是 ICE 黑名單？"
+
+#: general.page.php:545
+msgid "What is ICE Host Candidates?"
+msgstr "什麼是 ICE 主機候選？"
+
+#: general.page.php:549
+msgid ""
+"When Asterisk is behind a static one-to-one NAT and ICE is in use, ICE will "
+"expose the server's internal IP address as one of the host candidates. "
+"Although using STUN (see the 'stunaddr' configuration option) will provide a "
+"publicly accessible IP, the internal IP will still be sent to the remote "
+"peer. To help hide the topology of your internal network, you can override "
+"the host candidates that Asterisk will send to the remote peer."
+msgstr ""
+"當 Asterisk 位於靜態一對一 NAT 後方且正在使用 ICE 時，ICE 會將伺服器的內部 IP 地址暴露為主機候選之一。儘管使用 STUN（請參閱 'stunaddr' 設定選項）將提供可公開存取的 IP，內部 IP 仍會傳送給遠端對端。為協助隱藏內部網路的拓撲，您可以覆寫 Asterisk 將傳送給遠端對端的主機候選。"
+
+#: general.page.php:95
+msgid ""
+"When set Asterisk will allow Guest SIP calls and send them to the Default "
+"SIP context. Turning this off will keep anonymous SIP calls from entering "
+"the system. Doing such will also stop 'Allow Anonymous Inbound SIP Calls' "
+"from functioning. Allowing guest calls but rejecting the Anonymous SIP calls "
+"below will enable you to see the call attempts and debug incoming calls that "
+"may be mis-configured and appearing as guests."
+msgstr ""
+"設定後，Asterisk 將允許訪客 SIP 通話並將其發送至預設 SIP 情境。關閉此功能將防止匿名 SIP 通話進入系統。這樣做也會停止「允許匿名來電 SIP 通話」的運作。允許訪客通話但拒絕下面的匿名 SIP 通話，將讓您能夠看到通話嘗試並對可能設定錯誤且顯示為訪客的來電進行除錯。"
+
+#: general.page.php:293
+msgid "Whether to enable or disable UDP checksums on RTP traffic"
+msgstr "是否要在 RTP 流量上啟用或停用 UDP 校驗和"
+
+#: chanpj.page.php:67
+#: chanpj.page.php:178
+#: chanpj.page.php:201
+#: chanpj.page.php:245
+#: chanpj.page.php:297
+#: chanpj.page.php:440
+#: chanpj.page.php:461
+#: chansip.page.php:309
+#: chansip.page.php:377
+#: chansip.page.php:407
+#: chansip.page.php:494
+#: chansip.page.php:521
+#: chansip.page.php:678
+#: chansip.page.php:706
+#: chansip.page.php:760
+#: chansip.page.php:953
+#: chansip.page.php:979
+#: chansip.page.php:1005
+#: general.page.php:60
+#: general.page.php:85
+#: general.page.php:285
+#: general.page.php:308
+#: general.page.php:697
+msgid "Yes"
+msgstr "是"
+
+#: general.page.php:698
+msgid "Yes with FEC"
+msgstr "是，含 FEC"
+
+#: general.page.php:699
+msgid "Yes with Redundancy"
+msgstr "是，含冗餘"
+
+#: general.page.php:700
+msgid "Yes with no error correction"
+msgstr "是，無錯誤修正"
+
+#: Sipsettings.class.php:210
+msgid "You can change this on the Advanced Settings Page"
+msgstr "您可以在進階設定頁面中變更此項目"
+
+#: chanpj.page.php:483
+#, php-format
+msgid ""
+"You have Asterisk %s which no longer needs to be restarted for transport "
+"changes if 'Allow Transports Reload' is set to 'Yes' above. Note: If 'Allow "
+"Transports Reload' is set to 'Yes' reloading after changing transports does "
+"have the possibility to drop calls."
+msgstr ""
+"您的 Asterisk %s 在「允許傳輸重新載入」設定為「是」的情況下，不再需要因傳輸變更而重新啟動。請注意：若「允許傳輸重新載入」設定為「是」，在變更傳輸後重新載入確實有可能中斷通話。"
+
+#: chansip.page.php:1067
+msgid ""
+"You may set any other SIP settings not present here that are allowed to be "
+"configured in the General section of sip.conf. There will be no error "
+"checking against these settings so check them carefully. They should be "
+"entered as:<br /> [setting] = [value]<br /> in the boxes below. Click the "
+"Add Field box to add additional fields. Blank boxes will be deleted when "
+"submitted."
+msgstr ""
+"您可以設定此處未顯示但允許在 sip.conf 的一般區段中設定的任何其他 SIP 設定。這些設定將不會進行錯誤檢查，因此請仔細檢查。它們應該以下列格式輸入：<br /> [setting] = [value]<br /> 在下列方塊中。點擊「新增方塊」方塊以新增其他欄位。送出時空白方塊將被刪除。"
+
+#: chanpj.page.php:96
+msgid ""
+"You may use this to to define an additional local network per interface."
+msgstr "您可以使用此項目為每個介面定義額外的本地網路。"
+
+#: Api/Gql/SipSettings.php:36
+msgid "addSipNatLocalIp"
+msgstr "addSipNatLocalIp"
+
+#: install.php:49
+msgid "already exists"
+msgstr "已存在"
+
+#: Sipsettings.class.php:206
+msgid "chan_pjsip and chan_sip"
+msgstr "chan_pjsip 和 chan_sip"
+
+#: Api/Gql/SipSettings.php:93
+msgid "ertyuiop"
+msgstr "ertyuiop"
+
+#: install.php:35
+msgid "fatal error occurred populating defaults, check module"
+msgstr "填入預設值時發生致命錯誤，請檢查模組"
+
+#: chanpj.page.php:269
+msgid "global"
+msgstr "global"
+
+#: general.page.php:903
+msgid "kb/s"
+msgstr "kb/s"
+
+#: Api/Gql/SipSettings.php:158
+msgid "list of local IP saved"
+msgstr "已儲存的本機 IP 清單"
+
+#: Api/Gql/SipSettings.php:166
+msgid "list the route configured"
+msgstr "列出已設定的路由"
+
+#: chansip.page.php:165
+msgid "never"
+msgstr "never"
+
+#: chansip.page.php:163
+#: chansip.page.php:436
+msgid "no"
+msgstr "no"
+
+#: chanpj.page.php:271
+msgid "pjsip_only"
+msgstr "pjsip_only"
+
+#: install.php:28
+msgid "populating default codecs.."
+msgstr "正在填入預設編解碼器.."
+
+#: chansip.page.php:167
+msgid "route"
+msgstr "route"
+
+#: functions.inc.php:382
+msgid "rtpholdtimeout must be higher than rtptimeout"
+msgstr "rtpholdtimeout 必須高於 rtptimeout"
+
+#: install.php:72
+#: install.php:86
+#, php-format
+msgid "saving previous value of %s"
+msgstr "正在儲存 %s 的前一個值"
+
+#: install.php:37
+msgid "ulaw, alaw, gsm, g726 added"
+msgstr "已新增 ulaw, alaw, gsm, g726"
+
+#: Restore.php:157
+#, php-format
+msgid "update preserved data in kvstore_Sipsettings table : %s"
+msgstr "正在更新 kvstore_Sipsettings 表格中的保留資料：%s"
+
+#: Restore.php:165
+#, php-format
+msgid "update preserved data in sipsettings table : %s"
+msgstr "正在更新 sipsettings 表格中的保留資料：%s"
+
+#: Api/Gql/SipSettings.php:43
+msgid "updateSipNatExternalIp"
+msgstr "updateSipNatExternalIp"
+
+#: Api/Gql/SipSettings.php:50
+msgid "updateWSSettings"
+msgstr "updateWSSettings"
+
+#: Restore.php:190
+msgid "user passed option for skip NAT settings section"
+msgstr "使用者傳遞了跳過 NAT 設定區段的選項"
+
+#: Restore.php:186
+msgid "user passed option for skip bind address section"
+msgstr "使用者傳遞了跳過綁定地址區段的選項"
+
+#: Restore.php:178
+msgid "warmspare remotebind option enabled"
+msgstr "warmspare remotebind 選項已啟用"
+
+#: Restore.php:182
+msgid "warmspare remotenat option enabled"
+msgstr "warmspare remotenat 選項已啟用"
+
+#: chansip.page.php:161
+#: chansip.page.php:434
+msgid "yes"
+msgstr "yes"

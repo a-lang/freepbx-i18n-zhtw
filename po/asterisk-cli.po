@@ -1,0 +1,49 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asterisk-cli
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-13 12:36+0000\n"
+"PO-Revision-Date: 2026-09-15 17:06+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/asterisk-cli.js:68
+msgid "All Ready"
+msgstr "一切就緒"
+
+#: page.cli.php:15
+msgid "Asterisk CLI"
+msgstr "Asterisk 命令列"
+
+#: page.cli.php:25
+msgid "CLI Command"
+msgstr "命令列指令"
+
+#: assets/js/asterisk-cli.js:72
+msgid "Error getting list of commands!!"
+msgstr "取得指令清單時發生錯誤！！"
+
+#: assets/js/asterisk-cli.js:19
+#: assets/js/asterisk-cli.js:45
+msgid "Loading..."
+msgstr "載入中..."
+
+#: Asteriskdashcli.class.php:68
+msgid "No Output Returned"
+msgstr "未回傳任何輸出"
+
+#: page.cli.php:33
+msgid "Send Command"
+msgstr "傳送指令"

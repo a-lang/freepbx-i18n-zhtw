@@ -1,0 +1,860 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for soundlang
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 02:07-0400\n"
+"PO-Revision-Date: 2026-09-15 15:39+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Soundlang.class.php:1316
+#, php-format
+msgid "%s->%s - Error uninstalling package %s (%s)"
+msgstr "%s->%s - 解除安裝套件 %s (%s) 時發生錯誤"
+
+#: Soundlang.class.php:1233
+#, php-format
+msgid "%s->%s - Soundlang Response: %s"
+msgstr "%s->%s - Soundlang 回應：%s"
+
+#: Soundlang.class.php:903
+msgid "A PHP extension stopped the file upload"
+msgstr "PHP 擴充套件停止了檔案上傳"
+
+#: views/customlang.php:67
+msgid "A brief description for this Custom Language."
+msgstr "此自訂語言的簡短描述。"
+
+#: views/packages.licensemodal.php:27
+msgid "Accept License"
+msgstr "接受授權"
+
+#: assets/js/soundlang.js:28
+msgid "Accept License Agreement"
+msgstr "接受授權協議"
+
+#: Console/Soundlang.class.php:114
+msgid "Accept License Agreement?"
+msgstr "接受授權協議？"
+
+#: views/customlangs.php:23
+msgid "Action"
+msgstr "動作"
+
+#: views/packages.php:39
+msgid "Actions"
+msgstr "動作"
+
+#: views/customlang.php:6
+msgid "Add Custom Language"
+msgstr "新增自訂語言"
+
+#: views/customlangs.php:10
+msgid "Add New Custom Language"
+msgstr "新增自訂語言"
+
+#: soundlang.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: assets/js/soundlang.js:198
+msgid "Are you sure you want to delete this custom language?"
+msgstr "確定要刪除此自訂語言嗎？"
+
+#: assets/js/soundlang.js:49
+#, perl-format
+msgid "Are you sure you want to uninstall the \"%s\" language audio pack?"
+msgstr "確定要解除安裝「%s」語言音訊包嗎？"
+
+#: assets/js/soundlang.js:166
+#, perl-format
+msgid "Are you sure you wish to delete this %s?"
+msgstr "確定要刪除此 %s 嗎？"
+
+#: Soundlang.class.php:952
+msgid "Australia"
+msgstr "澳洲"
+
+#: Console/Soundlang.class.php:178
+#: views/packages.php:36
+msgid "Author"
+msgstr "作者"
+
+#: views/packages.language.php:23
+msgid "Available"
+msgstr "可用"
+
+#: views/oobe.php:5
+msgid "Based on your locale your language and timezone have been pre-selected."
+msgstr "根據您的地區設定，您的語言和時區已預先選取。"
+
+#: Soundlang.class.php:952
+msgid "Belgium"
+msgstr "比利時"
+
+#: Soundlang.class.php:952
+msgid "Brazil"
+msgstr "巴西"
+
+#: views/customlang.php:83
+msgid "Browse"
+msgstr "瀏覽"
+
+#: Soundlang.class.php:952
+msgid "Canada"
+msgstr "加拿大"
+
+#: views/packages.php:10
+msgid "Check Languages Online"
+msgstr "線上檢查語言"
+
+#: views/customlang.php:126
+msgid ""
+"Check all file formats you would like this system recording to be encoded "
+"into"
+msgstr "檢查您要將此系統錄音編碼為的所有檔案格式"
+
+#: Soundlang.class.php:952
+msgid "China"
+msgstr "中國"
+
+#: Soundlang.class.php:943
+msgid "Chinese"
+msgstr "中文"
+
+#: Soundlang.class.php:499
+#: views/packages.licensemodal.php:26
+msgid "Close"
+msgstr "關閉"
+
+#: Soundlang.class.php:952
+msgid "Colombia"
+msgstr "哥倫比亞"
+
+#: views/customlang.php:110
+msgid "Convert To"
+msgstr "轉換為"
+
+#: Soundlang.class.php:1384
+#, php-format
+msgid "Couldn't find %s - not in archive %s?"
+msgstr "找不到 %s - 不在壓縮檔 %s 中？"
+
+#: views/rnav.php:4
+msgid "Custom Languages"
+msgstr "自訂語言"
+
+#: Soundlang.class.php:943
+msgid "Czech"
+msgstr "捷克語"
+
+#: Soundlang.class.php:952
+msgid "Czech Republic"
+msgstr "捷克"
+
+#: Soundlang.class.php:526
+msgid "Data update completed successfully."
+msgstr "資料更新完成成功。"
+
+#: Console/Soundlang.class.php:86
+msgid "Default"
+msgstr "預設值"
+
+#: Soundlang.class.php:180
+#: assets/js/soundlang.js:171
+#: assets/js/soundlang.js:177
+msgid "Delete"
+msgstr "刪除"
+
+#: views/customlangs.php:13
+msgid "Delete Custom Language"
+msgstr "刪除自訂語言"
+
+#: assets/js/soundlang.js:390
+msgid "Deleting Temporary Files..."
+msgstr "刪除暫存檔案中…"
+
+#: assets/js/soundlang.js:167
+msgid "Deleting..."
+msgstr "刪除中…"
+
+#: views/customlang.php:55
+#: views/customlangs.php:22
+msgid "Description"
+msgstr "描述"
+
+#: Soundlang.class.php:808
+msgid "Direct file move not allowed"
+msgstr "不允許直接移動檔案"
+
+#: Console/Soundlang.class.php:100
+#: Console/Soundlang.class.php:122
+#: Console/Soundlang.class.php:141
+#: install.php:52
+#: install.php:77
+#: install.php:100
+msgid "Done"
+msgstr "完成"
+
+#: views/settings.php:42
+msgid "Download Formats"
+msgstr "下載格式"
+
+#: Console/Soundlang.class.php:27
+msgid ""
+"Download the information of the latest version available online of the "
+"language packs."
+msgstr "下載線上最新版本的語言包資訊。"
+
+#: Soundlang.class.php:382
+#, php-format
+msgid "Downloading [%s]..."
+msgstr "正在下載 [%s]…"
+
+#: views/customlang.php:91
+msgid "Drop Multiple Files or Archives Here"
+msgstr "在此拖放多個檔案或壓縮檔"
+
+#: Soundlang.class.php:943
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: views/customlang.php:3
+msgid "Edit Custom Language"
+msgstr "編輯自訂語言"
+
+#: Soundlang.class.php:943
+msgid "English"
+msgstr "英語"
+
+#: Soundlang.class.php:1552
+#, php-format
+msgid "Error %s returned from remote servers %s"
+msgstr "從遠端伺服器 %s 傳回錯誤 %s"
+
+#: Soundlang.class.php:225
+msgid "Error!"
+msgstr "錯誤！"
+
+#: Soundlang.class.php:402
+#: Soundlang.class.php:1370
+#, php-format
+msgid "Error: %s"
+msgstr "錯誤：%s"
+
+#: Soundlang.class.php:421
+#, php-format
+msgid "Error: Couldn't find [%s] - not in archive [%s]?"
+msgstr "錯誤：找不到 [%s] - 不在壓縮檔 [%s] 中？"
+
+#: Soundlang.class.php:532
+msgid "Error: No data fetched from server!"
+msgstr "錯誤：從伺服器未取得資料！"
+
+#: Soundlang.class.php:315
+msgid "Error: No language specified!"
+msgstr "錯誤：未指定語言！"
+
+#: Soundlang.class.php:323
+msgid "Error: No languages ​​detected to install!"
+msgstr "錯誤：未偵測到要安裝的語言！"
+
+#: Soundlang.class.php:909
+msgid "Error: You should never see this"
+msgstr "錯誤：您不應該看到這個"
+
+#: Soundlang.class.php:356
+msgid "Everything is installed and update."
+msgstr "所有項目已安裝並更新。"
+
+#: Soundlang.class.php:389
+#, php-format
+msgid "Extracting [%s]..."
+msgstr "正在解壓縮 [%s]…"
+
+#: Soundlang.class.php:650
+msgid "Failed installation process!"
+msgstr "安裝程序失敗！"
+
+#: Soundlang.class.php:900
+msgid "Failed to write file to disk"
+msgstr "寫入檔案至磁碟失敗"
+
+#: views/customlang.php:86
+msgid "Files to upload"
+msgstr "要上傳的檔案"
+
+#: Soundlang.class.php:943
+msgid "Finish"
+msgstr "完成"
+
+#: install.php:55
+msgid "Finished installing default sounds"
+msgstr "完成安裝預設音效"
+
+#: assets/js/soundlang.js:399
+#: assets/js/soundlang.js:410
+msgid "Finished!"
+msgstr "完成！"
+
+#: Soundlang.class.php:952
+msgid "Finland"
+msgstr "芬蘭"
+
+#: views/packages.language.php:22
+msgid "Format"
+msgstr "格式"
+
+#: views/settings.php:59
+msgid "Formats (codecs) to download when installing a language pack"
+msgstr "安裝語言包時要下載的格式（編解碼器）"
+
+#: views/packages.language.php:7
+msgid "Formats Installed"
+msgstr "已安裝格式"
+
+#: Soundlang.class.php:952
+msgid "France"
+msgstr "法國"
+
+#: Soundlang.class.php:943
+msgid "French"
+msgstr "法語"
+
+#: Soundlang.class.php:943
+msgid "German"
+msgstr "德語"
+
+#: Soundlang.class.php:952
+msgid "Germany"
+msgstr "德國"
+
+#: Restore.php:48
+msgid "Getting online packages..."
+msgstr "取得線上套件中…"
+
+#: views/settings.php:16
+msgid "Global Language"
+msgstr "全域語言"
+
+#: Soundlang.class.php:943
+msgid "Hebrew"
+msgstr "希伯來語"
+
+#: Soundlang.class.php:952
+msgid "Hong Kong"
+msgstr "香港"
+
+#: views/customlangs.php:20
+msgid "ID"
+msgstr "ID"
+
+#: Soundlang.class.php:952
+msgid "India"
+msgstr "印度"
+
+#: Soundlang.class.php:650
+msgid "Installation completed successfully."
+msgstr "安裝完成成功。"
+
+#: Soundlang.class.php:310
+msgid "Installation completed."
+msgstr "安裝完成。"
+
+#: Console/Soundlang.class.php:178
+#: views/packages.language.php:24
+msgid "Installed"
+msgstr "已安裝"
+
+#: views/packages.php:37
+msgid "Installed Version"
+msgstr "已安裝版本"
+
+#: Console/Soundlang.class.php:120
+#: install.php:49
+#, php-format
+msgid "Installing %s..."
+msgstr "正在安裝 %s…"
+
+#: install.php:75
+#, php-format
+msgid "Installing additional package %s..."
+msgstr "正在安裝其他套件 %s…"
+
+#: Soundlang.class.php:364
+#, php-format
+msgid "Installing module [%s]:"
+msgstr "正在安裝模組 [%s]："
+
+#: install.php:98
+#, php-format
+msgid "Installing/updating packages for %s..."
+msgstr "正在安裝/更新 %s 的套件…"
+
+#: Console/Soundlang.class.php:27
+msgid "Installs the language pack that we specify."
+msgstr "安裝我們指定的語言包。"
+
+#: Soundlang.class.php:781
+msgid "Invalid codec"
+msgstr "無效的編解碼器"
+
+#: Soundlang.class.php:778
+msgid "Invalid directory"
+msgstr "無效的目錄"
+
+#: Soundlang.class.php:806
+msgid "Invalid file type"
+msgstr "無效的檔案類型"
+
+#: Soundlang.class.php:775
+msgid "Invalid language"
+msgstr "無效的語言"
+
+#: Soundlang.class.php:952
+msgid "Iran"
+msgstr "伊朗"
+
+#: Soundlang.class.php:952
+msgid "Ireland"
+msgstr "愛爾蘭"
+
+#: Soundlang.class.php:952
+msgid "Israel"
+msgstr "以色列"
+
+#: Soundlang.class.php:943
+msgid "Italian"
+msgstr "義大利語"
+
+#: Soundlang.class.php:952
+msgid "Italy"
+msgstr "義大利"
+
+#: Soundlang.class.php:952
+msgid "Japan"
+msgstr "日本"
+
+#: Soundlang.class.php:943
+msgid "Japanese"
+msgstr "日語"
+
+#: Console/Soundlang.class.php:86
+#: Console/Soundlang.class.php:178
+#: views/customlangs.php:21
+#: views/packages.php:35
+msgid "Language"
+msgstr "語言"
+
+#: views/customlang.php:31
+msgid "Language Code"
+msgstr "語言代碼"
+
+#: views/customlang.php:43
+msgid "Language Code (e.g. 'en')."
+msgstr "語言代碼（如 'en'）。"
+
+#: views/packages.php:4
+#: views/rnav.php:3
+msgid "Language Packs"
+msgstr "語言包"
+
+#: views/settings.php:33
+msgid "Language to be used for sound prompts throughout the system"
+msgstr "用於全系統語音提示的語言"
+
+#: views/packages.licensemodal.php:7
+msgid "License Agreement"
+msgstr "授權協議"
+
+#: assets/js/soundlang.js:39
+msgid "License Could Not be Retrieved"
+msgstr "無法擷取授權"
+
+#: Console/Soundlang.class.php:27
+msgid "List of available packages."
+msgstr "可用套件清單。"
+
+#: Console/Soundlang.class.php:27
+msgid "List of installed packages and which is the default."
+msgstr "已安裝套件清單及其預設值。"
+
+#: views/packages.licensemodal.php:17
+msgid "Loading..."
+msgstr "載入中…"
+
+#: soundlang.i18n.php:8
+msgid "Management of sound prompt languages."
+msgstr "管理語音提示語言。"
+
+#: Soundlang.class.php:952
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: Soundlang.class.php:897
+msgid "Missing a temporary folder"
+msgstr "缺少暫存資料夾"
+
+#: views/packages.language.php:21
+msgid "Module"
+msgstr "模組"
+
+#: Soundlang.class.php:952
+msgid "Netherlands"
+msgstr "荷蘭"
+
+#: Soundlang.class.php:952
+msgid "New Zealand"
+msgstr "紐西蘭"
+
+#: install.php:42
+msgid "New install, downloading default english language set..."
+msgstr "全新安裝，正在下載預設英語語言集…"
+
+#: assets/js/soundlang.js:50
+msgid "No"
+msgstr "否"
+
+#: assets/js/soundlang.js:274
+msgid "No Suitable files were found in the archive!"
+msgstr "在壓縮檔中找不到合適的檔案！"
+
+#: Soundlang.class.php:894
+msgid "No file was uploaded"
+msgstr "未上傳檔案"
+
+#: Soundlang.class.php:824
+msgid "No files were sent to the server"
+msgstr "未傳送檔案到伺服器"
+
+#: Soundlang.class.php:704
+msgid "No formats specified!"
+msgstr "未指定格式！"
+
+#: Soundlang.class.php:645
+#: Soundlang.class.php:659
+#: Soundlang.class.php:673
+#: Soundlang.class.php:700
+msgid "No language specified!"
+msgstr "未指定語言！"
+
+#: Soundlang.class.php:952
+msgid "Norway"
+msgstr "挪威"
+
+#: Soundlang.class.php:943
+msgid "Norwegian"
+msgstr "挪威語"
+
+#: Soundlang.class.php:224
+msgid "Ok!"
+msgstr "確定！"
+
+#: views/packages.php:38
+msgid "Online Version"
+msgstr "線上版本"
+
+#: Soundlang.class.php:943
+msgid "Persian"
+msgstr "波斯語"
+
+#: views/oobe.php:4
+msgid "Please Select the default locales of the PBX"
+msgstr "請選取 PBX 的預設地區設定"
+
+#: Soundlang.class.php:952
+msgid "Poland"
+msgstr "波蘭"
+
+#: Soundlang.class.php:943
+msgid "Polish"
+msgstr "波蘭語"
+
+#: Soundlang.class.php:952
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: Soundlang.class.php:943
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+#: Restore.php:51
+#, php-format
+msgid "Redownloading %s-%s.%s"
+msgstr "正在重新下載 %s-%s.%s"
+
+#: Soundlang.class.php:282
+#, php-format
+msgid "Removed the [%s] format of the language [%s]..."
+msgstr "已移除語言 [%s] 的 [%s] 格式…"
+
+#: Soundlang.class.php:176
+#: Soundlang.class.php:181
+#: Soundlang.class.php:185
+msgid "Reset"
+msgstr "重設"
+
+#: Soundlang.class.php:943
+msgid "Russian"
+msgstr "俄語"
+
+#: views/rnav.php:5
+#: views/settings.php:4
+msgid "Settings"
+msgstr "設定"
+
+#: views/packages.php:14
+msgid "Show All Languages"
+msgstr "顯示所有語言"
+
+#: views/packages.php:17
+msgid "Show Installed Languages"
+msgstr "顯示已安裝語言"
+
+#: Console/Soundlang.class.php:26
+msgid "Sound Language Prompts"
+msgstr "語音語言提示"
+
+#: soundlang.i18n.php:4
+#: soundlang.i18n.php:10
+msgid "Sound Languages"
+msgstr "語音語言"
+
+#: views/oobe.php:15
+msgid "Sound Prompts Language"
+msgstr "語音提示語言"
+
+#: Soundlang.class.php:952
+msgid "South Africa"
+msgstr "南非"
+
+#: Soundlang.class.php:952
+msgid "Spain"
+msgstr "西班牙"
+
+#: Soundlang.class.php:943
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: Soundlang.class.php:177
+#: Soundlang.class.php:182
+#: Soundlang.class.php:186
+#: views/oobe.php:65
+msgid "Submit"
+msgstr "送出"
+
+#: Soundlang.class.php:741
+msgid "Successful Update."
+msgstr "更新成功。"
+
+#: Console/Soundlang.class.php:72
+#, php-format
+msgid "Successfully set default language to [%s], you will need to reload."
+msgstr "成功將預設語言設為 [%s]，您將需要重新載入。"
+
+#: Soundlang.class.php:952
+msgid "Sweden"
+msgstr "瑞典"
+
+#: Soundlang.class.php:943
+msgid "Swedish"
+msgstr "瑞典語"
+
+#: Soundlang.class.php:952
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: Console/Soundlang.class.php:139
+msgid "Sync info..."
+msgstr "同步資訊中…"
+
+#: views/oobe.php:41
+msgid "System Language"
+msgstr "系統語言"
+
+#: Soundlang.class.php:952
+msgid "Taiwan"
+msgstr "台灣"
+
+#: Console/Soundlang.class.php:68
+#: Console/Soundlang.class.php:95
+#: Console/Soundlang.class.php:107
+msgid "That is not a valid ID"
+msgstr "這不是有效的 ID"
+
+#: Soundlang.class.php:790
+msgid "The file is not formatted correctly. Please try again..."
+msgstr "檔案格式不正確。請重試…"
+
+#: Soundlang.class.php:1548
+msgid ""
+"The mirror server did not return the correct response and had been "
+"previously changed from the default server(s), it has now been reset back to "
+"the standard default. Please try again"
+msgstr "鏡像伺服器未傳回正確回應，且先前已從預設伺服器變更，現在已重設回標準預設值。請重試"
+
+#: Soundlang.class.php:888
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指示"
+
+#: Soundlang.class.php:885
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指示"
+
+#: Soundlang.class.php:891
+msgid "The uploaded file was only partially uploaded"
+msgstr "上傳的檔案僅部分上傳"
+
+#: assets/js/soundlang.js:385
+msgid "There was an error, See the console for more details"
+msgstr "發生錯誤，請檢視主控台了解詳情"
+
+#: views/oobe.php:57
+msgid ""
+"This language will be used for the GUI and CLI commands for your PBX. You "
+"can change it later by navigating to 'Advanced Settings'"
+msgstr "此語言將用於您 PBX 的 GUI 和 CLI 指令。稍後您可以透過瀏覽至「進階設定」來變更"
+
+#: views/oobe.php:31
+msgid ""
+"This language will be used for the prompts when you call in to your PBX. You "
+"can change it later by navigating to the 'Sound Languages' module"
+msgstr "此語言將用於您撥打 PBX 時的提示。稍後您可以透過瀏覽至「語音語言」模組來變更"
+
+#: Soundlang.class.php:952
+msgid "Turkey"
+msgstr "土耳其"
+
+#: Soundlang.class.php:943
+msgid "Turkish"
+msgstr "土耳其語"
+
+#: Restore.php:27
+msgid ""
+"Unable to download the some dependencies for restoring. Please enable "
+"internet access and try restoring again."
+msgstr "無法下載部分還原所需的相依項目。請啟用網際網路存取並重試還原。"
+
+#: Soundlang.class.php:1404
+#, php-format
+msgid "Unable to find any soundfiles in %s package"
+msgstr "在 %s 套件中找不到任何音效檔案"
+
+#: Soundlang.class.php:448
+#, php-format
+msgid "Unable to find any soundfiles in [%s] package!"
+msgstr "在 [%s] 套件中找不到任何音效檔案！"
+
+#: Soundlang.class.php:538
+#, php-format
+msgid "Unable to get online sound packages. Error was: [%s] %s"
+msgstr "無法取得線上音效套件。錯誤為：[%s] %s"
+
+#: install.php:31
+#, php-format
+msgid "Unable to get online sound packages. Error was: [%s] %s. Continuing..."
+msgstr "無法取得線上音效套件。錯誤為：[%s] %s。繼續…"
+
+#: Soundlang.class.php:664
+msgid "Uninstall completed successfully."
+msgstr "解除安裝完成成功。"
+
+#: Soundlang.class.php:664
+msgid "Uninstall process failed!"
+msgstr "解除安裝程序失敗！"
+
+#: Console/Soundlang.class.php:98
+#, php-format
+msgid "Uninstalling %s..."
+msgstr "正在解除安裝 %s…"
+
+#: assets/js/soundlang.js:52
+msgid "Uninstalling. Please wait for the table to refresh"
+msgstr "解除安裝中。請等待表格重新整理"
+
+#: Console/Soundlang.class.php:27
+msgid "Uninstalls the language pack that we specify."
+msgstr "解除安裝我們指定的語言包。"
+
+#: Soundlang.class.php:952
+msgid "United Kingdom"
+msgstr "英國"
+
+#: Soundlang.class.php:952
+msgid "United States"
+msgstr "美國"
+
+#: Soundlang.class.php:1567
+#: Soundlang.class.php:1570
+#, php-format
+msgid "Unknown Error. Response was empty from %s"
+msgstr "未知的錯誤。來自 %s 的回應為空白"
+
+#: Soundlang.class.php:880
+msgid "Unsupported file format"
+msgstr "不支援的檔案格式"
+
+#: assets/js/soundlang.js:255
+msgid "Unsupported file type"
+msgstr "不支援的檔案類型"
+
+#: Soundlang.class.php:268
+msgid "Update completed."
+msgstr "更新完成。"
+
+#: Soundlang.class.php:455
+#, php-format
+msgid "Updating data in database [%s]..."
+msgstr "正在更新資料庫 [%s] 中的資料…"
+
+#: Soundlang.class.php:296
+#, php-format
+msgid "Updating the language [%s]..."
+msgstr "正在更新語言 [%s]…"
+
+#: views/main.php:13
+msgid "Updating, Please Wait..."
+msgstr "更新中，請稍候…"
+
+#: views/customlang.php:78
+msgid "Upload Recording"
+msgstr "上傳錄音"
+
+#: views/customlang.php:98
+#, php-format
+msgid ""
+"Upload files from your local system. Supported upload formats are: %s. This "
+"includes archives (that include multiple files, such as %s) and multiple "
+"files"
+msgstr "從您的本機系統上傳檔案。支援的上傳格式為：%s。這包括壓縮檔（包含多個檔案，如 %s）和多個檔案"
+
+#: Soundlang.class.php:270
+msgid "Wait while languages ​​are updated"
+msgstr "語言更新時請稍候"
+
+#: Soundlang.class.php:352
+#, php-format
+msgid "Wait while the language [%s] is installed"
+msgstr "安裝語言 [%s] 時請稍候"
+
+#: Console/Soundlang.class.php:27
+msgid "We define the default language."
+msgstr "我們定義預設語言。"
+
+#: assets/js/soundlang.js:50
+msgid "Yes"
+msgstr "是"

@@ -1,0 +1,87 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for donotdisturb
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 09:52-0400\n"
+"PO-Revision-Date: 2026-09-15 16:32+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: donotdisturb.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: donotdisturb.i18n.php:12
+#: install.php:6
+msgid "DND Activate"
+msgstr "啟動 DND"
+
+#: donotdisturb.i18n.php:10
+#: install.php:7
+msgid "DND Deactivate"
+msgstr "停用 DND"
+
+#: donotdisturb.i18n.php:14
+#: install.php:8
+msgid "DND Toggle"
+msgstr "切換 DND"
+
+#: ucp/views/widget.php:2
+msgid "Disabled"
+msgstr "已停用"
+
+#: ucp/Donotdisturb.class.php:88
+msgid "Do Not Disturb"
+msgstr "請勿打擾"
+
+#: ucp/Donotdisturb.class.php:185
+msgid "Do Not Disturb Has Been Updated!"
+msgstr "請勿打擾已更新！"
+
+#: ucp/Donotdisturb.class.php:113
+#, php-format
+msgid "Do Not Disturb for %s"
+msgstr "%s 的請勿打擾"
+
+#: donotdisturb.i18n.php:8
+msgid ""
+"Do not disturb (DND) allows calls to be rejected at the user's request via a "
+"feature code, UCP setting, or REST App."
+msgstr "請勿打擾（DND）可依使用者的要求，透過功能碼、UCP 設定或 REST 應用程式拒絕來電。"
+
+#: donotdisturb.i18n.php:4
+#: install.php:5
+msgid "Do-Not-Disturb (DND)"
+msgstr "請勿打擾（DND）"
+
+#: ucp/views/widget.php:2
+msgid "Enabled"
+msgstr "已啟用"
+
+#: ucp/Donotdisturb.class.php:136
+msgid "Follow Me"
+msgstr "跟我走"
+
+#: ucp/Donotdisturb.class.php:74
+msgid "The given extension is empty."
+msgstr "指定的分機為空白。"
+
+#: ucp/Donotdisturb.class.php:69
+msgid "There are no assigned extensions."
+msgstr "沒有指派的分機。"
+
+#: ucp/Donotdisturb.class.php:78
+msgid "This extension is not assigned to this user."
+msgstr "此分機未指派給此使用者。"

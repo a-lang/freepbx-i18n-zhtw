@@ -1,0 +1,184 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for cxpanel
+# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-16 11:48+0000\n"
+"PO-Revision-Date: 2026-09-16 16:00+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Cxpanel.class.php:448
+#, php-format
+msgid "%s Login: %s"
+msgstr "%s 登入：%s"
+
+#: functions.inc.php:403
+#: functions.inc.php:538
+#, php-format
+msgid "%s Settings"
+msgstr "%s 設定"
+
+#: views/userman_hook.php:7
+#, php-format
+msgid "Add To %s"
+msgstr "新增至 %s"
+
+#: functions.inc.php:407
+#: functions.inc.php:545
+#, php-format
+msgid "Add to %s"
+msgstr "新增至 %s"
+
+#: cxpanel.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: functions.inc.php:573
+msgid "Alt. Phone Numbers"
+msgstr "替代電話號碼"
+
+#: functions.inc.php:546
+msgid "Auto Answer"
+msgstr "自動接聽"
+
+#: functions.inc.php:553
+msgid "Create User"
+msgstr "建立使用者"
+
+#: functions.inc.php:553
+#, php-format
+msgid "Creates an %s user login which is associated with this extension."
+msgstr "建立與這個分機相關聯的 %s 使用者登入。"
+
+#: functions.inc.php:587
+msgid "Email Inital Password"
+msgstr "以電子郵件寄送初始密碼"
+
+#: functions.inc.php:555
+msgid "Email Password"
+msgstr "以電子郵件寄送密碼"
+
+#: functions.inc.php:554
+msgid "Full User"
+msgstr "完整使用者"
+
+#: functions.inc.php:521
+msgid ""
+"If you do not know the password for this user you can change it in the User "
+"Password field above"
+msgstr "如果您不知道此使用者的密碼，可以在上面的「使用者密碼」欄位中變更"
+
+#: views/userman_hook.php:18
+msgid "Inherit"
+msgstr "繼承"
+
+#: functions.inc.php:554
+#, php-format
+msgid ""
+"Makes this extension a full user in %s. Full users have access to all the "
+"fuctionality in %s that the current license allows. The amount of full users "
+"allowed in %s is restricted via the license. If you mark this user as a full "
+"user and there are no more user licenes available the user will remain a "
+"lite user."
+msgstr ""
+"將此分機設為 %s 中的完整使用者。完整使用者可存取目前授權允許的 %s 所有功能。%s 中允許的完整使用者數量受授權限制。如果您將此使用者標記為完整使用者，但已無可用的使用者授權，該使用者將維持為輕量使用者。"
+
+#: functions.inc.php:546
+#, php-format
+msgid ""
+"Makes this extension automatically answer the initial call received from the "
+"system when performing an origination within %s. Only works with Aastra, "
+"Grandstream, Linksys, Polycom, and Snom phones."
+msgstr ""
+"讓此分機在 %s 中執行起撥時，自動接聽來自系統的首通來電。僅適用於 Aastra、Grandstream、Linksys、Polycom 和 Snom 話機。"
+
+#: functions.inc.php:545
+#, php-format
+msgid "Makes this extension available in %s"
+msgstr "讓此分機在 %s 中可用"
+
+#: functions.inc.php:407
+#, php-format
+msgid "Makes this user available in %s"
+msgstr "讓此使用者在 %s 中可用"
+
+#: functions.inc.php:573
+#, php-format
+msgid "Manages alternative phone numbers for this %s user."
+msgstr "管理此 %s 使用者的替代電話號碼。"
+
+#: views/userman_hook.php:15
+msgid "No"
+msgstr "否"
+
+#: functions.inc.php:594
+#, php-format
+msgid ""
+"Please specify a password for the %s user or uncheck \"Create User\" under "
+"\"%s User Settings\""
+msgstr "請為 %s 使用者指定密碼，或取消勾選「%s 使用者設定」下的「建立使用者」"
+
+#: functions.inc.php:556
+#, php-format
+msgid "Specifies the password to be used for the %s User"
+msgstr "指定要用於 %s 使用者的密碼"
+
+#: functions.inc.php:569
+msgid ""
+"Specifies which extensions will be bound to the $cxpanelBrandName user "
+"created for this extension. \"Self\" refers to this extension"
+msgstr "指定哪些分機將綁定為此分機建立的 $cxpanelBrandName 使用者。「Self」指此分機"
+
+#: functions.inc.php:519
+msgid "The inital password for this user is set to"
+msgstr "此使用者的初始密碼設定為"
+
+#: functions.inc.php:521
+msgid "The inital password for this user was never created or has been changed"
+msgstr "此使用者的初始密碼從未建立或已被變更"
+
+#: cxpanel.i18n.php:8
+msgid ""
+"This module automatically configures the operator panel to reflect the PBX "
+"configuration."
+msgstr "此模組會自動設定操作面板以反映 PBX 組態。"
+
+#: functions.inc.php:570
+msgid "User Extensions"
+msgstr "使用者分機"
+
+#: functions.inc.php:556
+msgid "User Password"
+msgstr "使用者密碼"
+
+#: functions.inc.php:555
+msgid ""
+"When checked the new specified password will be sent to the email cofigured "
+"in the voicemail settings. No email will be sent if no email address is "
+"specified or the password is not changing."
+msgstr "勾選後，新指定的密碼將傳送到語音信箱設定中設定的電子郵件。如果未指定電子郵件地址或密碼未變更，將不會傳送電子郵件。"
+
+#: views/userman_hook.php:13
+msgid "Yes"
+msgstr "是"
+
+#: cxpanel.i18n.php:4
+#: cxpanel.i18n.php:10
+msgid "iSymphonyV3"
+msgstr "iSymphonyV3"
+
+#: cxpanel.i18n.php:12
+msgid "iSymphonyV3 Panel"
+msgstr "iSymphonyV3 面板"

@@ -1,0 +1,407 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for directory
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-04 00:29-0500\n"
+"PO-Revision-Date: 2026-09-15 16:42+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: functions.inc.php:51
+#: views/form.php:150
+msgid ""
+"ALERT_INFO to be sent when called from this Directory. Can be used for "
+"distinctive ring for SIP devices."
+msgstr "從此目錄呼叫時要傳送的 ALERT_INFO。可用於 SIP 裝置的特殊鈴聲。"
+
+#: functions.inc.php:218
+#: views/grid.php:21
+msgid "Actions"
+msgstr "動作"
+
+#: functions.inc.php:12
+#: views/bootnav.php:2
+#: views/form.php:5
+#: views/grid.php:6
+msgid "Add Directory"
+msgstr "新增目錄"
+
+#: functions.inc.php:262
+msgid "Add new entry."
+msgstr "新增條目。"
+
+#: functions.inc.php:51
+#: views/form.php:136
+msgid "Alert Info"
+msgstr "Alert Info"
+
+#: functions.inc.php:254
+msgid "All Users"
+msgstr "所有使用者"
+
+#: assets/js/directory.js:90
+msgid "An Error occurred trying to contact the server adding a row, no reply."
+msgstr "嘗試連絡伺服器新增一列時發生錯誤，沒有回覆。"
+
+#: functions.inc.php:73
+#: views/form.php:379
+msgid "Announce Extension"
+msgstr "播報分機"
+
+#: functions.inc.php:67
+#: views/form.php:197
+msgid "Announcement"
+msgstr "播報"
+
+#: directory.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: functions.inc.php:50
+#: views/form.php:107
+msgid "CallerID Name Prefix"
+msgstr "來電顯示名稱前置詞"
+
+#: functions.inc.php:253
+msgid "Choose One"
+msgstr "選擇一個"
+
+#: functions.inc.php:313
+msgid "Click here to remove this entry"
+msgstr "按這裡移除這個條目"
+
+#: functions.inc.php:255
+msgid "Custom"
+msgstr "自訂"
+
+#: functions.inc.php:56
+#: views/form.php:13
+#: views/form.php:20
+#: views/form.php:27
+msgid "Default"
+msgstr "預設"
+
+#: functions.inc.php:457
+#: views/grid.php:20
+msgid "Default Directory"
+msgstr "預設目錄"
+
+#: functions.inc.php:444
+msgid "Default Group Inclusion"
+msgstr "預設群組包含"
+
+#: Directory.class.php:254
+msgid "Delete"
+msgstr "刪除"
+
+#: functions.inc.php:40
+#, php-format
+msgid "Delete Directory %s"
+msgstr "刪除目錄 %s"
+
+#: functions.inc.php:49
+#: views/form.php:93
+msgid "Description of this directory."
+msgstr "此目錄的描述。"
+
+#: functions.inc.php:71
+#: views/form.php:330
+msgid "Destination to send the call to after Invalid Recording is played."
+msgstr "播放無效語音後，要將通話送往的目的地。"
+
+#: functions.inc.php:218
+msgid "Dial"
+msgstr "撥號"
+
+#: directory.i18n.php:4
+#: directory.i18n.php:10
+#: page.directory.php:8
+#: views/bootnav.php:14
+#: views/grid.php:19
+msgid "Directory"
+msgstr "目錄"
+
+#: functions.inc.php:530
+#, php-format
+msgid "Directory %s: "
+msgstr "目錄 %s："
+
+#: functions.inc.php:49
+#: views/form.php:78
+msgid "Directory Description"
+msgstr "目錄描述"
+
+#: functions.inc.php:46
+msgid "Directory General Options"
+msgstr "目錄一般選項"
+
+#: functions.inc.php:48
+#: views/form.php:49
+msgid "Directory Name"
+msgstr "目錄名稱"
+
+#: assets/js/directory.js:23
+msgid "Directory Name Already Exist"
+msgstr "目錄名稱已存在"
+
+#: assets/js/directory.js:20
+msgid "Directory Name Can not be Blank"
+msgstr "目錄名稱不能空白"
+
+#: functions.inc.php:53
+msgid "Directory Options (DTMF)"
+msgstr "目錄選項（DTMF）"
+
+#: functions.inc.php:78
+msgid "Directory&nbsp;Entries"
+msgstr "目錄&nbsp;條目"
+
+#: functions.inc.php:559
+#, php-format
+msgid "Directory: %s"
+msgstr "目錄：%s"
+
+#: functions.inc.php:506
+#, php-format
+msgid "Directory: %s "
+msgstr "目錄：%s"
+
+#: Directory.class.php:272
+msgid "Disabled"
+msgstr "已停用"
+
+#: functions.inc.php:307
+#, php-format
+msgid "Edit %s: %s"
+msgstr "編輯 %s：%s"
+
+#: views/form.php:9
+msgid "Edit Directory"
+msgstr "編輯目錄"
+
+#: functions.inc.php:26
+#, php-format
+msgid "Edit Directory: %s"
+msgstr "編輯目錄：%s"
+
+#: Directory.class.php:273
+msgid "Enabled"
+msgstr "已啟用"
+
+#: functions.inc.php:427
+msgid "Exclude"
+msgstr "排除"
+
+#: functions.inc.php:67
+#: views/form.php:213
+msgid "Greeting to be played on entry to the directory."
+msgstr "進入目錄時要播放的問候語。"
+
+#: functions.inc.php:428
+msgid "Include"
+msgstr "包含"
+
+#: functions.inc.php:71
+#: views/form.php:316
+msgid "Invalid Destination"
+msgstr "無效目的地"
+
+#: functions.inc.php:70
+#: views/form.php:286
+msgid "Invalid Recording"
+msgstr "無效語音"
+
+#: functions.inc.php:68
+#: views/form.php:227
+msgid "Invalid Retries"
+msgstr "無效重試次數"
+
+#: functions.inc.php:69
+#: views/form.php:256
+msgid "Invalid Retry Recording"
+msgstr "無效重試語音"
+
+#: views/bootnav.php:3
+msgid "List Directories"
+msgstr "列出目錄"
+
+#: functions.inc.php:218
+#: functions.inc.php:221
+msgid "Name"
+msgstr "名稱"
+
+#: functions.inc.php:218
+msgid "Name Announcement"
+msgstr "名稱播報"
+
+#: views/form.php:64
+msgid "Name of this directory"
+msgstr "此目錄的名稱"
+
+#: functions.inc.php:48
+msgid "Name of this directory."
+msgstr "此目錄的名稱。"
+
+#: views/form.php:355
+#: views/form.php:390
+msgid "No"
+msgstr "否"
+
+#: views/form.php:170
+msgid "None"
+msgstr "無"
+
+#: functions.inc.php:68
+#: views/form.php:242
+msgid ""
+"Number of times to retry when receiving an invalid/unmatched response from "
+"the caller"
+msgstr "收到撥叫者的無效/不符回應時，要重試的次數。"
+
+#: views/form.php:184
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr "覆寫鈴聲音量。注意：目前僅適用於 %s 電話機"
+
+#: functions.inc.php:50
+#: views/form.php:122
+msgid "Prefix to be appended to current CallerID Name."
+msgstr "要附加到目前來電顯示名稱的前置詞。"
+
+#: functions.inc.php:70
+#: views/form.php:302
+msgid ""
+"Prompt to be played before sending the caller to an alternate destination "
+"due to the caller pressing 0 or receiving the maximum amount of invalid/"
+"unmatched responses (as determined by Invalid Retries)"
+msgstr "在因撥叫者按下 0 或收到最大量的無效/不符回應（由「無效重試次數」決定）而將撥叫者送往替代目的地之前，要播放的提示語音"
+
+#: functions.inc.php:69
+#: views/form.php:272
+msgid ""
+"Prompt to be played when an invalid/unmatched response is received, before "
+"prompting the caller to try again"
+msgstr "當收到無效/不符回應，在提示撥叫者重試之前要播放的提示語音"
+
+#: Directory.class.php:254
+msgid "Reset"
+msgstr "重置"
+
+#: functions.inc.php:72
+#: views/form.php:344
+msgid "Return to IVR"
+msgstr "返回 IVR"
+
+#: views/form.php:163
+msgid "Ringer Volume Override"
+msgstr "鈴聲音量覆寫"
+
+#: assets/js/directory.js:110
+msgid "Select"
+msgstr "選擇"
+
+#: functions.inc.php:297
+msgid "Spell Name"
+msgstr "拼出名稱"
+
+#: Directory.class.php:254
+msgid "Submit"
+msgstr "提交"
+
+#: functions.inc.php:298
+msgid "System Recordings:"
+msgstr "系統語音："
+
+#: functions.inc.php:296
+msgid "Text to Speech"
+msgstr "文字轉語音"
+
+#: directory.i18n.php:8
+msgid ""
+"The directory module allows you to create directories of users that can be "
+"accessed by callers through modules like the IVR."
+msgstr "目錄模組可讓您建立使用者目錄，撥叫者可透過 IVR 等模組存取。"
+
+#: assets/js/directory.js:31
+msgid "This entry has already been added"
+msgstr "此條目已新增"
+
+#: functions.inc.php:221
+msgid ""
+"This should auto-populate with the extension's descriptive name. This is "
+"what users will search by when asked to enter the first 3 letters of the "
+"person's name. For example, if the name is Bartholomew, the caller would "
+"enter 227 for BAR. This field should be a name as the search option is based "
+"on Name and not the number."
+msgstr ""
+"此欄位應自動填入分機的描述性名稱。當要求輸入人名前 3 個字母時，使用者會以此名稱搜尋。例如，若名字是 Bartholomew，撥叫者輸入 227 代表 BAR。此欄位應填名稱，因為搜尋選項是以名稱為依據，而非號碼。"
+
+#: functions.inc.php:95
+msgid ""
+"Tied to a Directory allowing all entries in that directory to be dialed "
+"directly, as they appear in the directory"
+msgstr "繫結到目錄，允許直接撥打該目錄中的所有條目，如同它們在目錄中顯示的一樣"
+
+#: functions.inc.php:295
+msgid "Voicemail Greeting"
+msgstr "語音信箱問候語"
+
+#: functions.inc.php:73
+#: views/form.php:400
+msgid ""
+"When checked, the extension number being transferred to will be announced "
+"prior to the transfer"
+msgstr "勾選時，轉接前會播報要轉接到的分機號碼"
+
+#: functions.inc.php:72
+#: views/form.php:365
+msgid ""
+"When selected, if the call passed through an IVR that had \"Return to IVR\" "
+"selected, the call will be returned there instead of the Invalid destination."
+msgstr "選取時，若通話通過已選取「返回 IVR」的 IVR，通話將返回該處，而非無效目的地。"
+
+#: views/form.php:351
+#: views/form.php:386
+msgid "Yes"
+msgstr "是"
+
+#: functions.inc.php:457
+msgid ""
+"You can include or exclude this extension/user from being part of the "
+"default directory when creating or editing."
+msgstr "建立或編輯時，您可以將此分機/使用者包含在預設目錄中，或排除在外。"
+
+#: functions.inc.php:29
+msgid "[SYSTEM DEFAULT]"
+msgstr "[系統預設]"
+
+#: uninstall.php:7
+msgid "deleting default_directory and migration tracking keys.."
+msgstr "正在刪除 default_directory 與遷移追蹤鍵.."
+
+#: uninstall.php:3
+msgid "dropping directory_details, directory_entries.."
+msgstr "正在捨棄 directory_details、directory_entries.."
+
+#: uninstall.php:5
+#: uninstall.php:10
+msgid "ok"
+msgstr "確定"
+
+#: functions.inc.php:313
+msgid "remove"
+msgstr "移除"

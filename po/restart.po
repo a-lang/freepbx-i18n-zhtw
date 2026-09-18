@@ -1,0 +1,89 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for restart
+# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-16 13:34+0000\n"
+"PO-Revision-Date: 2026-09-16 15:59+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: restart.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr "批次電話重啟"
+
+#: page.restart.php:31
+msgid ""
+"Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
+"supported."
+msgstr "目前僅支援 Aastra、Snom、Polycom、Grandstream 和 Cisco 裝置。"
+
+#: page.restart.php:49
+msgid "Device List"
+msgstr "裝置清單"
+
+#: install.php:13
+msgid "FAILED"
+msgstr "失敗"
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr "安裝失敗："
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
+msgstr "電話重啟"
+
+#: Restart.class.php:24
+#: page.restart.php:34
+msgid "Restart Phones"
+msgstr "重啟電話"
+
+#: page.restart.php:24
+msgid "Restart requests sent!"
+msgstr "重啟要求已發送！"
+
+#: page.restart.php:67
+msgid "SELECT ALL"
+msgstr "全選"
+
+#: page.restart.php:77
+msgid ""
+"Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
+"Grandstream and Cisco devices are supported.  All other devices will not "
+"show up in this list.  Click the \"Select All\" button to restart all "
+"supported devices."
+msgstr ""
+"選擇要重啟的裝置。目前僅支援 Aastra、Snom、Polycom、Grandstream 和 Cisco 裝置。所有其他裝置將不會出現在此清單中。按一下「全選」按鈕以重啟所有支援的裝置。"
+
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr "此模組允許使用者重啟一支或多支支援透過 Asterisk 的 sip_notify.conf 經由 SIP NOTIFY 命令重啟的電話"
+
+#: page.restart.php:26
+msgid ""
+"Warning: The restart mechanism behavior is vendor specific.  Some vendors "
+"only restart the phone if there is a change to the phone configuration or if "
+"an updated firmware is available via tftp/ftp/http"
+msgstr "警告：重啟機制的行為因廠商而異。有些廠商僅在電話組態有變更，或透過 tftp/ftp/http 有更新的韌體可用時才會重啟電話"
+
+#: install.php:11
+msgid "ok"
+msgstr "確定"

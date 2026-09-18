@@ -1,0 +1,543 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for fax
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-17 05:43-0500\n"
+"PO-Revision-Date: 2026-09-15 16:33+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/view.form_options.php:194
+msgid "A4"
+msgstr "A4"
+
+#: views/view.coreDIDHook.php:178
+msgid ""
+"Address to email faxes to on fax detection.<br />PLEASE NOTE: In this "
+"version of FreePBX, you can now set the fax destination from a list of "
+"destinations. Extensions/Users can be fax enabled in the user/extension "
+"screen and set an email address there. This will create a new destination "
+"type that can be selected. To upgrade this option to the full destination "
+"list, select YES to Detect Faxes and select a destination. After clicking "
+"submit, this route will be upgraded. This Legacy option will no longer be "
+"available after the change, it is provided to handle legacy migrations from "
+"previous versions of FreePBX only."
+msgstr ""
+"偵測到傳真時，要將傳真以電子郵件寄送到的位址。<br />請注意：在此版本的 FreePBX 中，您現在可以從目的地清單設定傳真目的地。分機／使用者可以在使用者／分機畫面啟用傳真，並在該處設定電子郵件位址。這會建立一個可選取的新目的地類型。若要將此選項升級為完整的目的地清單，請選擇「是」來偵測傳真並選取一個目的地。按下提交後，此路由將會升級。變更之後，這個舊版選項將不再提供，它僅用於處理從舊版 FreePBX 遷移的舊設定。"
+
+#: fax.i18n.php:8
+msgid "Adds configurations, options and GUI for inbound faxing"
+msgstr "為傳入傳真新增組態、選項與圖形介面"
+
+#: views/view.form_options.php:213
+msgid "Always Generate Detection Code"
+msgstr "一律產生偵測碼"
+
+#: bin/fax2mail.php:107
+#, php-format
+msgid "At: %s"
+msgstr "時間：%s"
+
+#: views/view.userman.showpage.php:52
+msgid "Attachment Format"
+msgstr "附件格式"
+
+#: views/view.coreDIDHook.php:54
+msgid "Attempt to detect faxes on this DID."
+msgstr "嘗試在此 DID 上偵測傳真。"
+
+#: Fax.class.php:376
+msgid "Author to pass to tiff2pdf's -a option"
+msgstr "傳遞給 tiff2pdf 的 -a 選項的作者"
+
+#: views/view.userman.showpage.php:63
+msgid "Both"
+msgstr "兩者"
+
+#: Fax.class.php:648
+#: views/view.coreDIDHook.php:83
+msgid "Dahdi"
+msgstr "Dahdi"
+
+#: views/view.form_options.php:36
+msgid "Default Fax header"
+msgstr "預設傳真標頭"
+
+#: views/view.form_options.php:56
+msgid "Default Local Station Identifier"
+msgstr "預設本地站台識別碼"
+
+#: views/view.form_options.php:187
+msgid "Default Paper Size"
+msgstr "預設紙張大小"
+
+#: views/view.coreDIDHook.php:22
+msgid "Detect Faxes"
+msgstr "偵測傳真"
+
+#: Fax.class.php:360 /usr/src/freepbx/fax/fax.i18n.php:12
+msgid "Dial System FAX"
+msgstr "撥打系統傳真"
+
+#: Fax.class.php:380
+msgid "Done!"
+msgstr "完成！"
+
+#: Fax.class.php:180
+msgid ""
+"ERROR: No FAX modules detected!<br>Fax-related dialplan will <b>NOT</b> be "
+"generated.<br>This module requires spandsp based app_fax (res_fax_spandsp."
+"so) to function."
+msgstr ""
+"錯誤：未偵測到任何傳真模組！<br>與傳真相關的撥號計畫將<b>不會</b>產生。<br>此模組需要以 spandsp 為基礎的 app_fax（res_fax_spandsp.so）才能運作。"
+
+#: Fax.class.php:185
+msgid ""
+"ERROR: No Fax license detected.<br>Fax-related dialplan will <b>NOT</b> be "
+"generated!<br>This module has detected that Fax for Asterisk is installed "
+"without a license.<br>At least one license is required (it is available for "
+"free) and must be installed."
+msgstr ""
+"錯誤：未偵測到傳真授權。<br>與傳真相關的撥號計畫將<b>不會</b>產生！<br>此模組偵測到 Fax for Asterisk 已安裝但沒有授權。<br>至少需要一個授權（可免費取得），且必須安裝。"
+
+#: views/view.form_options.php:99
+msgid "Email address"
+msgstr "電子郵件位址"
+
+#: views/view.form_options.php:87
+msgid ""
+"Email address that faxes appear to come from if 'system default' has been "
+"chosen as the default fax extension."
+msgstr "若已選擇「系統預設」作為預設傳真分機，傳真顯示的寄件電子郵件位址。"
+
+#: views/view.form_options.php:109
+msgid ""
+"Email address that faxes are sent to when using the \"Dial System Fax\" "
+"feature code. This is also the default email for fax detection in legacy "
+"mode, if there are routes still running in this mode that do not have email "
+"addresses specified."
+msgstr ""
+"使用「撥打系統傳真」功能代碼時，傳真要寄送到的電子郵件位址。在舊版模式下，這同時也是傳真偵測的預設電子郵件；若仍有路由在該模式下執行且未指定電子郵件位址時即適用。"
+
+#: bin/fax2mail.php:72
+#, php-format
+msgid "Email-fax dying, file %s not found!"
+msgstr "電子郵件傳真結束，找不到檔案 %s！"
+
+#: bin/fax2mail.php:40
+msgid ""
+"Email-fax dying, no destination found (User has no email!) and we arent "
+"keeping the file!"
+msgstr "電子郵件傳真結束，找不到目的地（使用者沒有電子郵件！），且我們不會保留該檔案！"
+
+#: views/quickCreate.php:5
+msgid "Enable Fax"
+msgstr "啟用傳真"
+
+#: views/view.userman.showpage.php:42
+msgid "Enable this user to receive faxes"
+msgstr "讓此使用者能接收傳真"
+
+#: views/view.userman.showpage.php:23
+msgid "Enabled"
+msgstr "已啟用"
+
+#: bin/fax2mail.php:125
+msgid "Enclosed, please find a new fax"
+msgstr "隨函附上新的傳真"
+
+#: bin/fax2mail.php:121
+#, php-format
+msgid "Enclosed, please find a new fax from: %s"
+msgstr "隨函附上來自 %s 的新傳真"
+
+#: views/view.form_options.php:119
+msgid "Error Correction Mode"
+msgstr "錯誤更正模式"
+
+#: views/view.form_options.php:132
+msgid ""
+"Error Correction Mode (ECM) option is used to specify whether\n"
+"\t\t\t to use ecm mode or not."
+msgstr ""
+"錯誤更正模式（ECM）選項用於指定是否\n"
+"\t\t\t使用 ECM 模式。"
+
+#: Fax.class.php:194
+#: Fax.class.php:208
+#: Fax.class.php:652
+msgid "Fax"
+msgstr "傳真"
+
+#: fax.i18n.php:4 /usr/src/freepbx/fax/fax.i18n.php:10
+msgid "Fax Configuration"
+msgstr "傳真組態"
+
+#: Fax.class.php:661
+#: views/view.coreDIDHook.php:191
+msgid "Fax Destination"
+msgstr "傳真目的地"
+
+#: Fax.class.php:661
+msgid "Fax Detection"
+msgstr "傳真偵測"
+
+#: views/view.coreDIDHook.php:140
+msgid "Fax Detection Time"
+msgstr "傳真偵測時間"
+
+#: Fax.class.php:661
+msgid "Fax Detection Wait"
+msgstr "傳真偵測等待"
+
+#: views/view.coreDIDHook.php:78
+msgid "Fax Detection type"
+msgstr "傳真偵測類型"
+
+#: views/view.coreDIDHook.php:166
+msgid "Fax Email Destination"
+msgstr "傳真電子郵件目的地"
+
+#: Fax.class.php:661
+msgid "Fax Enabled"
+msgstr "傳真已啟用"
+
+#: views/page.main.php:2
+msgid "Fax Options"
+msgstr "傳真選項"
+
+#: Fax.class.php:794
+#: bin/fax2mail.php:49
+msgid "Fax Recipient"
+msgstr "傳真收件者"
+
+#: views/view.coreDIDHook.php:113
+msgid "Fax Ring"
+msgstr "傳真響鈴"
+
+#: bin/fax2mail.php:12
+msgid "Fax Service"
+msgstr "傳真服務"
+
+#: Fax.class.php:846
+#, php-format
+msgid "Fax user %s"
+msgstr "傳真使用者 %s"
+
+#: bin/fax2mail.php:111
+#: bin/fax2mail.php:133
+#, php-format
+msgid "For: %s"
+msgstr "收件者：%s"
+
+#: views/view.userman.showpage.php:72
+msgid "Formats to convert incoming fax files to before emailing."
+msgstr "傳入的傳真檔案在寄送電子郵件前要轉換成的格式。"
+
+#: views/view.form_options.php:46
+msgid ""
+"Header information that is passed to remote side of the fax transmission and "
+"is printed on top of every page. This usually contains the name of the "
+"person or entity sending the fax."
+msgstr "傳遞至傳真傳輸遠端，並列印在每一頁上方的標頭資訊。這通常包含傳送傳真的人員或組織名稱。"
+
+#: Fax.class.php:661
+msgid "How long to wait and try to detect fax"
+msgstr "嘗試偵測傳真要等待多久"
+
+#: views/view.coreDIDHook.php:152
+msgid ""
+"How long to wait and try to detect fax. Please note that callers to a Dahdi "
+"channel will hear ringing for this amount of time (i.e. the system wont "
+"\"answer\" the call, it will just play ringing)."
+msgstr "嘗試偵測傳真要等待多久。請注意，撥入 Dahdi 通道的來電者會在這段時間內聽到鈴聲（亦即系統不會「接聽」來電，只會播放鈴聲）。"
+
+#: Fax.class.php:824
+#, php-format
+msgid "Inbound Fax Detection: %s (%s)"
+msgstr "傳入傳真偵測：%s（%s）"
+
+#: views/view.userman.showpage.php:32
+#: views/view.userman.showpage.php:58
+msgid "Inherit"
+msgstr "繼承"
+
+#: Fax.class.php:896
+msgid "Invalid Email for Inbound Fax"
+msgstr "傳入傳真的電子郵件無效"
+
+#: views/view.coreDIDHook.php:43
+msgid "Legacy"
+msgstr "舊版"
+
+#: views/view.coreDIDHook.php:57
+msgid ""
+"Legacy: Same as YES, only you can enter an email address as the destination. "
+"This option is ONLY for supporting migrated legacy fax routes. You should "
+"upgrade this route by choosing YES, and selecting a valid destination!"
+msgstr ""
+"舊版：與「是」相同，差別在於您可以輸入電子郵件位址作為目的地。此選項僅用於支援已遷移的舊版傳真路由。您應該選擇「是」並選取有效的目的地來升級此路由！"
+
+#: views/view.form_options.php:192
+msgid "Letter"
+msgstr "Letter"
+
+#: views/view.form_options.php:143
+msgid "Maximum transfer rate"
+msgstr "最大傳輸速率"
+
+#: assets/js/fax.js:19
+msgid "Maximum transfer rate can not be less than Minimum transfer rate"
+msgstr "最大傳輸速率不能小於最小傳輸速率"
+
+#: views/view.form_options.php:155
+msgid "Maximum transfer rate used during fax rate negotiation."
+msgstr "傳真速率協商期間使用的最大傳輸速率。"
+
+#: views/view.form_options.php:165
+msgid "Minimum transfer rate"
+msgstr "最小傳輸速率"
+
+#: views/view.form_options.php:177
+msgid "Minimum transfer rate used during fax rate negotiation."
+msgstr "傳真速率協商期間使用的最小傳輸速率。"
+
+#: bin/fax2mail.php:90
+#, php-format
+msgid "New fax from: %s"
+msgstr "來自 %s 的新傳真"
+
+#: bin/fax2mail.php:94
+msgid "New fax received"
+msgstr "已收到新傳真"
+
+#: views/quickCreate.php:12
+#: views/view.coreDIDHook.php:29
+#: views/view.coreDIDHook.php:41
+#: views/view.coreDIDHook.php:120
+#: views/view.form_options.php:126
+#: views/view.form_options.php:220
+#: views/view.userman.showpage.php:29
+msgid "No"
+msgstr "否"
+
+#: views/view.coreDIDHook.php:246
+msgid ""
+"No fax detection methods found or no valid license. Faxing cannot be enabled."
+msgstr "找不到傳真偵測方法，或沒有有效的授權。無法啟用傳真功能。"
+
+#: views/view.coreDIDHook.php:57
+msgid ""
+"No: No attempts are made to auto-determine the call type; all calls sent to "
+"destination set in the 'General' tab. Use this option if this DID is used "
+"exclusively for voice OR fax."
+msgstr "否：不會嘗試自動判斷來電類型；所有來電都會送到「一般」標籤中設定的目的地。若此 DID 僅用於語音或僅用於傳真，請使用此選項。"
+
+#: views/view.userman.showpage.php:60
+msgid "None"
+msgstr "無"
+
+#: bin/fax2mail.php:108
+#: bin/fax2mail.php:129
+#, php-format
+msgid "On: %s"
+msgstr "日期：%s"
+
+#: views/view.form_options.php:76
+msgid "Outgoing Email address"
+msgstr "外寄電子郵件位址"
+
+#: bin/fax2mail.php:83
+msgid "Outgoing fax results"
+msgstr "外撥傳真結果"
+
+#: views/view.userman.showpage.php:61
+msgid "PDF"
+msgstr "PDF"
+
+#: Fax.class.php:397
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: Api/Rest/Fax.php:9
+msgid "Read fax settings"
+msgstr "讀取傳真設定"
+
+#: Api/Rest/FaxUsers.php:9
+msgid "Read fax user settings"
+msgstr "讀取傳真使用者設定"
+
+#: bin/fax2mail.php:128
+#, php-format
+msgid "Received & processed: %s"
+msgstr "已接收並處理：%s"
+
+#: Fax.class.php:612
+msgid "Reset"
+msgstr "重置"
+
+#: views/view.coreDIDHook.php:85
+msgid "SIP"
+msgstr "SIP"
+
+#: views/view.form_options.php:200
+msgid ""
+"Select the default paper size.<br/>This specifies the size that should be "
+"used if the document does not specify a size.<br/> If the document does "
+"specify a size that size will be used."
+msgstr "選取預設紙張大小。<br/>這會指定文件未指定大小時應使用的大小。<br/> 若文件有指定大小，則會使用該大小。"
+
+#: bin/fax2mail.php:105
+#, php-format
+msgid "Sent to %s"
+msgstr "已寄送至 %s"
+
+#: fax.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: views/view.coreDIDHook.php:99
+msgid ""
+"Sip: use sip fax detection (t38). Requires asterisk 1.6.2 or greater and "
+"'faxdetect=yes' in the sip config files"
+msgstr ""
+"Sip：使用 SIP 傳真偵測（t38）。需要 Asterisk 1.6.2 以上版本，並在 SIP 組態檔案中含有「faxdetect=yes」"
+
+#: bin/fax2mail.php:106
+#, php-format
+msgid "Status: %s"
+msgstr "狀態：%s"
+
+#: Fax.class.php:612
+msgid "Submit"
+msgstr "提交"
+
+#: views/view.userman.showpage.php:62
+msgid "TIFF"
+msgstr "TIFF"
+
+#: views/view.form_options.php:66
+msgid "The outgoing Fax Machine Identifier. This is usually your fax number."
+msgstr "外撥傳真的傳真機識別碼。這通常是您的傳真號碼。"
+
+#: views/view.form_options.php:88
+msgid ""
+"This may be formatted as just 'user@example.com', or 'Fax User <user@example."
+"com>'. The second option will display 'Fax User' in the 'From' field in most "
+"email clients."
+msgstr ""
+"這可以只寫成「user@example.com」，或寫成「Fax User <user@example.com>」。第二種格式會在大多數電子郵件軟體的「寄件者」欄位顯示「Fax User」。"
+
+#: Fax.class.php:661
+msgid "Type of fax detection to use (e.g. SIP or DAHDI)"
+msgstr "要使用的傳真偵測類型（例如 SIP 或 DAHDI）"
+
+#: views/view.coreDIDHook.php:94
+msgid "Type of fax detection to use."
+msgstr "要使用的傳真偵測類型。"
+
+#: Fax.class.php:366
+msgid "Upgrading configs.."
+msgstr "正在升級組態……"
+
+#: Fax.class.php:896
+#, php-format
+msgid ""
+"User Manager users '%s' have the ability to receive faxes but have no email "
+"address defined so they will not be able to receive faxes over email,"
+msgstr "使用者管理員使用者「%s」有能力接收傳真，但未定義電子郵件位址，因此無法透過電子郵件接收傳真，"
+
+#: bin/fax2mail.php:130
+#, php-format
+msgid "Via: %s"
+msgstr "經由：%s"
+
+#: views/view.form_options.php:226
+msgid ""
+"When no fax modules are detected the module will not generate any detection "
+"dialplan by default. If the system is being used with phyical FAX devices, "
+"hylafax + iaxmodem, or other outside fax setups you can force the dialplan "
+"to be generated here."
+msgstr ""
+"未偵測到任何傳真模組時，此模組預設不會產生任何偵測撥號計畫。若系統搭配實體傳真裝置、hylafax + iaxmodem 或其他外部傳真裝置使用，您可以在此強制產生撥號計畫。"
+
+#: Fax.class.php:661
+#: views/view.coreDIDHook.php:203
+msgid "Where to send the faxes"
+msgstr "傳真要傳送到哪裡"
+
+#: views/view.coreDIDHook.php:128
+msgid ""
+"Whether to ring while attempting to detect fax. If set to no silence will be "
+"heard"
+msgstr "嘗試偵測傳真時是否響鈴。若設為否，將不會聽到任何聲音"
+
+#: Api/Rest/Fax.php:12
+msgid "Write fax settings"
+msgstr "寫入傳真設定"
+
+#: Api/Rest/FaxUsers.php:12
+msgid "Write fax user settings"
+msgstr "寫入傳真使用者設定"
+
+#: views/quickCreate.php:10
+#: views/view.coreDIDHook.php:28
+#: views/view.coreDIDHook.php:40
+#: views/view.coreDIDHook.php:118
+#: views/view.form_options.php:124
+#: views/view.form_options.php:218
+#: views/view.userman.showpage.php:28
+msgid "Yes"
+msgstr "是"
+
+#: views/view.coreDIDHook.php:57
+msgid ""
+"Yes: try to auto determine the type of call; route to the fax destination if "
+"call is a fax, otherwise send to regular destination. Use this option if you "
+"receive both voice and fax calls on this line"
+msgstr "是：嘗試自動判斷來電類型；若來電是傳真則路由到傳真目的地，否則送到一般目的地。若此線路同時接收語音與傳真來電，請使用此選項"
+
+#: views/view.coreDIDHook.php:236
+msgid ""
+"You have selected Fax Detection on this route. Please select a valid "
+"destination to route calls detected as faxes to."
+msgstr "您已在此路由上選取傳真偵測。請選取有效的目的地，以將偵測為傳真的來電路由至該處。"
+
+#: views/view.form_options.php:25
+msgid ""
+"Your maximum transfer rate is set to 2400 in certain circumstances this can "
+"break faxing"
+msgstr "您的最大傳輸速率設為 2400，在某些情況下這可能會導致傳真失敗"
+
+#: views/view.form_options.php:21
+msgid ""
+"Your minimum transfer rate is set to 2400 in certain circumstances this can "
+"break faxing"
+msgstr "您的最小傳輸速率設為 2400，在某些情況下這可能會導致傳真失敗"
+
+#: Fax.class.php:648
+msgid "Zaptel"
+msgstr "Zaptel"
+
+#: Fax.class.php:971
+#, php-format
+msgid "gs not found, not converting %s"
+msgstr "找不到 gs，不轉換 %s"
+
+#: Fax.class.php:983
+#, php-format
+msgid "tiff2pdf not found, not converting %s"
+msgstr "找不到 tiff2pdf，不轉換 %s"

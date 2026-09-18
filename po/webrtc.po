@@ -1,0 +1,231 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for webrtc
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 00:38-0400\n"
+"PO-Revision-Date: 2026-09-15 03:54+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ucp/views/phone.php:24
+msgid "ABC"
+msgstr "ABC"
+
+#: ucp/views/phone.php:78
+msgid "Call"
+msgstr "通話"
+
+#: Webrtc.class.php:268
+msgid "Certificate Manager"
+msgstr "憑證管理員"
+
+#: ucp/assets/js/global.js:267
+msgid "Click this window to answer or close this window to ignore"
+msgstr "按一下此視窗接聽，或關閉此視窗忽略"
+
+#: ucp/assets/js/global.js:542
+msgid "Connect Phone"
+msgstr "連線電話"
+
+#: ucp/assets/js/global.js:563
+msgid "Connecting to socket..."
+msgstr "正在連線至 socket..."
+
+#: webrtc.i18n.php:6
+msgid "Connectivity"
+msgstr "連線能力"
+
+#: ucp/views/phone.php:28
+msgid "DEF"
+msgstr "DEF"
+
+#: ucp/assets/js/global.js:69
+#: ucp/assets/js/global.js:77
+msgid "Disable"
+msgstr "停用"
+
+#: ucp/views/settings.php:7
+msgid "Disconnect Phone"
+msgstr "斷線電話"
+
+#: ucp/assets/js/global.js:554
+msgid "Disconnected"
+msgstr "已斷線"
+
+#: ucp/assets/js/global.js:68
+#: ucp/assets/js/global.js:76
+msgid "Enable"
+msgstr "啟用"
+
+#: views/ucp_config.php:19
+msgid "Enable Phone"
+msgstr "啟用電話"
+
+#: functions.inc/hook_core.php:62
+msgid "Enable WebRTC Old ARI Phone"
+msgstr "啟用舊版 WebRTC ARI 電話"
+
+#: views/ucp_config.php:38
+msgid "Enable the phone in UCP for this user"
+msgstr "在此使用者的 UCP 中啟用電話"
+
+#: functions.inc/hook_core.php:62
+#, php-format
+msgid ""
+"Enables WebRTC for this %s in the Asterisk Recording Interface (ARI). Note: "
+"ARI is depreciated in favor of UCP"
+msgstr "在 Asterisk 錄音介面 (ARI) 中為此 %s 啟用 WebRTC。注意：ARI 已棄用，改用 UCP"
+
+#: ucp/views/phone.php:34
+msgid "GHI"
+msgstr "GHI"
+
+#: Webrtc.class.php:374
+msgid "HTTPS is not enabled for Asterisk"
+msgstr "Asterisk 未啟用 HTTPS"
+
+#: ucp/views/phone.php:81
+msgid "Hold"
+msgstr "通話保留"
+
+#: ucp/assets/js/global.js:266
+#, perl-format
+msgid "Incoming call from %s"
+msgstr "來自 %s 的來電"
+
+#: views/ucp_config.php:29
+msgid "Inherit"
+msgstr "繼承"
+
+#: ucp/views/phone.php:38
+msgid "JKL"
+msgstr "JKL"
+
+#: ucp/views/phone.php:42
+msgid "MNO"
+msgstr "MNO"
+
+#: views/ucp_config.php:26
+msgid "No"
+msgstr "否"
+
+#: ucp/assets/js/global.js:633
+msgid "Not supported in this browser"
+msgstr "此瀏覽器不支援"
+
+#: ucp/views/phone.php:88
+msgid "Note: An Active call will not be dropped when this window is closed"
+msgstr "注意：關閉此視窗時，進行中的通話不會被中斷"
+
+#: ucp/assets/js/global.js:640
+msgid "Only supported over HTTPS"
+msgstr "僅支援透過 HTTPS"
+
+#: ucp/views/phone.php:48
+msgid "PQRS"
+msgstr "PQRS"
+
+#: Webrtc.class.php:264
+#: ucp/Webrtc.class.php:25
+#: ucp/Webrtc.class.php:66
+msgid "Phone"
+msgstr "電話"
+
+#: ucp/views/phone.php:86
+msgid "Phone Status"
+msgstr "電話狀態"
+
+#: ucp/assets/js/global.js:522
+msgid "Registered"
+msgstr "已註冊"
+
+#: ucp/assets/js/global.js:569
+msgid "Registering..."
+msgstr "註冊中..."
+
+#: ucp/assets/js/global.js:540
+msgid "Registration Failed"
+msgstr "註冊失敗"
+
+#: Webrtc.class.php:281
+#, php-format
+msgid ""
+"Running an unsupported version of Asterisk. %s Detected Asterisk version: %s "
+msgstr "執行不支援的 Asterisk 版本。%s 偵測到的 Asterisk 版本：%s "
+
+#: ucp/views/settings.php:3
+msgid "Silence Ringer"
+msgstr "靜音響鈴"
+
+#: ucp/views/phone.php:52
+msgid "TUV"
+msgstr "TUV"
+
+#: functions.inc/hook_core.php:74
+msgid "The Certificate to use from Certificate Manager"
+msgstr "從憑證管理員使用的憑證"
+
+#: webrtc.i18n.php:8
+msgid "The WebRTC Module allows an Administrator to enable a "
+msgstr "WebRTC 模組允許管理員啟用 "
+
+#: functions.inc/hook_core.php:58
+msgid ""
+"The WebSockets Interface is running through PJSIP, PJSIP is not supported at "
+"this time. Please enable the chan_sip driver (along with pjsip or by itself) "
+"or alert the FreePBX Developers"
+msgstr ""
+"WebSockets 介面透過 PJSIP 執行，目前不支援 PJSIP。請啟用 chan_sip 驅動程式（與 pjsip 一起或單獨使用），或通知 FreePBX 開發人員"
+
+#: functions.inc/hook_core.php:79
+#, php-format
+msgid ""
+"To utilize WebRTC in ARI you must add at least one certificate %s through "
+"Certificate Manager"
+msgstr "要在 ARI 中使用 WebRTC，必須透過憑證管理員新增至少一個憑證 %s"
+
+#: ucp/assets/js/global.js:532
+#: ucp/assets/js/global.js:549
+msgid "Unregistered"
+msgstr "取消註冊"
+
+#: functions.inc/hook_core.php:73
+msgid "Use Certificate"
+msgstr "使用憑證"
+
+#: ucp/views/phone.php:56
+msgid "WXYZ"
+msgstr "WXYZ"
+
+#: ucp/Webrtc.class.php:74
+msgid "WebRTC"
+msgstr "WebRTC"
+
+#: webrtc.i18n.php:4
+msgid "WebRTC Phone"
+msgstr "WebRTC 電話"
+
+#: ucp/Webrtc.class.php:54
+msgid "Webrtc is not enabled for this extension."
+msgstr "未為此分機啟用 WebRTC。"
+
+#: views/ucp_config.php:24
+msgid "Yes"
+msgstr "是"
+
+#: Webrtc.class.php:268
+#, php-format
+msgid "You have no default certificates setup in %s"
+msgstr "您沒有在 %s 中設定預設憑證"

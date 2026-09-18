@@ -1,0 +1,126 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for extensionsettings
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-22 06:12-0400\n"
+"PO-Revision-Date: 2026-09-15 16:38+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/view.grid.php:24
+msgid "Busy"
+msgstr "忙線"
+
+#: views/view.grid.php:34
+msgid "CF"
+msgstr "CF"
+
+#: views/view.grid.php:35
+msgid "CFB"
+msgstr "CFB"
+
+#: views/view.grid.php:36
+msgid "CFU"
+msgstr "CFU"
+
+#: views/view.grid.php:32
+msgid "CW"
+msgstr "CW"
+
+#: views/view.grid.php:20
+msgid "Call status"
+msgstr "通話狀態"
+
+#: Extensionsettings.class.php:64
+msgid "Command not found!"
+msgstr "找不到指令！"
+
+#: extensionsettings.i18n.php:8
+msgid ""
+"Creates a list of all extensions and their current settings for CW, CF, CFB, "
+"CFU, VMXB and VMXU"
+msgstr "建立所有分機及其 CW、CF、CFB、CFU、VMXB 與 VMXU 目前設定的清單"
+
+#: views/view.grid.php:33
+msgid "DND"
+msgstr "DND"
+
+#: assets/js/extensionsettings.js:18
+msgid "Edit"
+msgstr "編輯"
+
+#: views/view.grid.php:17
+msgid "Extension"
+msgstr "分機"
+
+#: extensionsettings.i18n.php:4
+#: extensionsettings.i18n.php:10
+#: views/page.main.php:4
+msgid "Extension Settings"
+msgstr "分機設定"
+
+#: Extensionsettings.class.php:131
+msgid "Extensions"
+msgstr "分機"
+
+#: views/view.grid.php:30
+msgid "FM"
+msgstr "FM"
+
+#: views/view.grid.php:31
+msgid "FM-list"
+msgstr "FM 清單"
+
+#: views/view.grid.php:19
+msgid "Follow-Me"
+msgstr "跟我走"
+
+#: Extensionsettings.class.php:174
+#: views/view.grid.php:26
+msgid "Operator"
+msgstr "總機"
+
+#: Extensionsettings.class.php:96
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: views/view.grid.php:27
+msgid "Press 0"
+msgstr "按 0"
+
+#: views/view.grid.php:28
+msgid "Press 1"
+msgstr "按 1"
+
+#: views/view.grid.php:29
+msgid "Press 2"
+msgstr "按 2"
+
+#: extensionsettings.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: views/view.grid.php:23
+msgid "Status"
+msgstr "狀態"
+
+#: views/view.grid.php:25
+msgid "Unavail"
+msgstr "不可用"
+
+#: views/view.grid.php:18
+msgid "VmX Locator"
+msgstr "VmX 定位器"

@@ -1,0 +1,2494 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dahdiconfig
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 02:54-0400\n"
+"PO-Revision-Date: 2026-09-15 16:42+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Restore.php:29
+msgid " Restoring Data from SQL file"
+msgstr " 正在從 SQL 檔案還原資料"
+
+#: views/dahdi_analog_hardware.php:16
+#: views/dahdi_analog_hardware.php:33
+#, php-format
+msgid "%s Ports"
+msgstr "%s 連接埠"
+
+#: views/dahdi_digital_settings.php:143
+msgid "-15db (CSU)"
+msgstr "-15db (CSU)"
+
+#: views/dahdi_digital_settings.php:144
+msgid "-22.5db (CSU)"
+msgstr "-22.5db (CSU)"
+
+#: views/dahdi_digital_settings.php:142
+msgid "-7.5db (CSU)"
+msgstr "-7.5db (CSU)"
+
+#: install.php:209
+msgid "..Done"
+msgstr "..完成"
+
+#: views/dahdi_digital_settings.php:137
+msgid "0 db (CSU)/0-133 feet (DSX-1)"
+msgstr "0 db (CSU)/0-133 英尺 (DSX-1)"
+
+#: views/dahdi_digital_settings.php:138
+msgid "133-266 feet (DSX-1)"
+msgstr "133-266 英尺 (DSX-1)"
+
+#: views/dahdi_digital_settings.php:139
+msgid "266-399 feet (DSX-1)"
+msgstr "266-399 英尺 (DSX-1)"
+
+#: views/dahdi_digital_settings.php:140
+msgid "399-533 feet (DSX-1)"
+msgstr "399-533 英尺 (DSX-1)"
+
+#: views/dahdi_digital_settings.php:141
+msgid "533-655 feet (DSX-1)"
+msgstr "533-655 英尺 (DSX-1)"
+
+#: views/dahdi_mfcr2_settings.php:301
+msgid ""
+"<strong>WARNING:</strong> advanced users only as it allows you custom define "
+"tone definitions used in the protocol! <br /> This parameter is commented by "
+"default because YOU DON'T NEED IT UNLESS YOU REALLY UNDERSTAND MFC/R2!"
+msgstr ""
+"<strong>警告：</strong>僅限進階使用者，因為此選項可讓您自訂協定所使用的音調定義！<br /> 此參數預設會被註解掉，因為除非您真正了解 MFC/R2，否則不需要它！"
+
+#: views/dahdi_analog_settings.php:35
+msgid ""
+"A group ID number to associate this analog device with when referencing it "
+"elswhere using g<num>"
+msgstr "用來將此類比裝置關聯至群組的群組 ID 編號，以便日後以 g<num> 參照"
+
+#: views/dahdi_advanced_settings.php:136
+#: views/dahdi_modprobe_settings.php:121
+msgid "A-law Override"
+msgstr "A-law 覆寫"
+
+#: views/dahdi_digital_settings.php:110
+msgid "AT&amp;T 4ESS"
+msgstr "AT&amp;T 4ESS"
+
+#: views/dahdi_mfcr2_settings.php:227
+msgid "Accept on Offer"
+msgstr "收到來電時即接受"
+
+#: views/dahdi_analog_hardware.php:7
+#: views/dahdi_digital_hardware.php:11
+msgid "Action"
+msgstr "動作"
+
+#: views/dahdi_mfcr2_settings.php:299
+msgid "Advanced Protocol Configuration File"
+msgstr "進階協定設定檔"
+
+#: views/dahdi_advanced_settings.php:1
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: views/dahdi_digital_hardware.php:6
+#: views/dahdi_digital_settings.php:15
+msgid "Alarms"
+msgstr "警報"
+
+#: views/dahdi_mfcr2_settings.php:173
+msgid "Allow Collect Calls"
+msgstr "允許對方付費通話"
+
+#: dahdiconfig.i18n.php:12
+msgid "Allow PRI Discrete Channels"
+msgstr "允許 PRI 離散通道"
+
+#: views/dahdi_global_settings.php:112
+msgid "Also enables call parking (overrides the \"canpark\" parameter)"
+msgstr "同時也會啟用通話駐留（會覆寫 \"canpark\" 參數）"
+
+#: views/dahdi_analog_settings.php:1
+#, php-format
+msgid "Analog %s"
+msgstr "類比 %s"
+
+#: views/dahdi_analog_signalling_form.php:1
+#, php-format
+msgid "Analog %s Ports"
+msgstr "類比 %s 連接埠"
+
+#: functions.inc.php:312
+#, php-format
+msgid "Analog Channel %s"
+msgstr "類比通道 %s"
+
+#: page.dahdi.php:57
+msgid "Analog Hardware"
+msgstr "類比硬體"
+
+#: views/dahdi_global_settings.php:184
+msgid "Answer Immediately"
+msgstr "立即應答"
+
+#: views/dahdi_modprobe_settings.php:28
+msgid "Any"
+msgstr "任一"
+
+#: views/dahdi_advanced_settings.php:147
+#: views/dahdi_modprobe_settings.php:138
+msgid "Apply Opermode to FXO Modules"
+msgstr "將 Opermode 套用至 FXO 模組"
+
+#: views/dahdi_advanced_settings.php:148
+#: views/dahdi_modprobe_settings.php:139
+msgid "Apply Opermode to FXS and FXO Modules"
+msgstr "將 Opermode 套用至 FXS 與 FXO 模組"
+
+#: assets/js/main.js:542
+msgid "Are you sure you want to Restart without hitting 'Apply Config'?"
+msgstr "您確定要在未點選「套用設定」的情況下重新啟動嗎？"
+
+#: views/dahdi_advanced_settings.php:47
+#: views/dahdi_advanced_settings.php:61
+#: views/dahdi_mfcr2_settings.php:16
+#: views/dahdi_modprobe_settings.php:44
+msgid "Argentina"
+msgstr "阿根廷"
+
+#: views/dahdi_global_settings.php:36
+msgid "Argentine Spanish"
+msgstr "阿根廷西班牙語"
+
+#: views/dahdi_advanced_settings.php:14
+#: views/dahdi_advanced_settings.php:62
+#: views/dahdi_modprobe_settings.php:45
+msgid "Australia"
+msgstr "澳洲"
+
+#: views/dahdi_global_settings.php:14
+msgid "Australian"
+msgstr "澳洲英語"
+
+#: views/dahdi_advanced_settings.php:22
+#: views/dahdi_advanced_settings.php:63
+#: views/dahdi_modprobe_settings.php:46
+msgid "Austria"
+msgstr "奧地利"
+
+#: views/dahdi_modprobe_settings.php:278
+msgid "Auto"
+msgstr "自動"
+
+#: functions.inc.php:487
+msgid ""
+"Available DAHDI Groups and Channels configued in the DAHDI Configuration "
+"Module"
+msgstr "在 DAHDI 設定模組中已設定的可用 DAHDI 群組與通道"
+
+#: views/dahdi_digital_settings.php:97
+msgid "BRI PTMP - CPE"
+msgstr "BRI PTMP - CPE"
+
+#: views/dahdi_digital_settings.php:96
+msgid "BRI PTMP - Net"
+msgstr "BRI PTMP - Net"
+
+#: views/dahdi_digital_settings.php:94
+msgid "BRI PTP - CPE"
+msgstr "BRI PTP - CPE"
+
+#: views/dahdi_digital_settings.php:95
+msgid "BRI PTP - Net"
+msgstr "BRI PTP - Net"
+
+#: views/dahdi_advanced_settings.php:64
+#: views/dahdi_modprobe_settings.php:47
+msgid "Bahrain"
+msgstr "巴林"
+
+#: page.dahdi.php:173
+msgid ""
+"Because of this the module's configuration file write ability is disabled by "
+"default. You can enable it in this window or you can later enable it under "
+"Advanced Settings"
+msgstr "因此，本模組的設定檔寫入功能預設為停用。您可以在此視窗中啟用，或稍後在「進階設定」下啟用"
+
+#: views/dahdi_advanced_settings.php:30
+#: views/dahdi_advanced_settings.php:65
+#: views/dahdi_modprobe_settings.php:48
+msgid "Belgium"
+msgstr "比利時"
+
+#: views/dahdi_advanced_settings.php:152
+#: views/dahdi_modprobe_settings.php:145
+msgid "Boostringer"
+msgstr "Boostringer"
+
+#: views/dahdi_global_settings.php:203
+msgid "Both"
+msgstr "兩者"
+
+#: views/dahdi_advanced_settings.php:33
+#: views/dahdi_advanced_settings.php:66
+#: views/dahdi_mfcr2_settings.php:17
+#: views/dahdi_modprobe_settings.php:49
+msgid "Brazil"
+msgstr "巴西"
+
+#: views/dahdi_mfcr2_settings.php:175
+msgid ""
+"Brazil uses a special calling party category for collect calls (llamadas por "
+"cobrar)<br />instead of using the operator (as in Mexico). The R2 spec in "
+"Brazil says a special GB tone should be used to reject collect calls. If you "
+"want to ALLOW collect calls specify 'yes', if you want to BLOCK collect "
+"calls then say 'no'. Default is to block collect calls. <br />(see also "
+"'mfcr2_double_answer')<br /> <strong>Default:</strong>no"
+msgstr ""
+"巴西使用特殊的發話方類別來處理對方付費通話（llamadas por cobrar）<br />而非採用接線生（如墨西哥的做法）。巴西的 R2 規範指出，應使用特殊的 GB 音來拒絕對方付費通話。如果您想允許對方付費通話，請指定「yes」；如果您想封鎖對方付費通話，請指定「no」。預設為封鎖對方付費通話。<br />（另請參閱「mfcr2_double_answer」）<br /> <strong>預設：</strong>否"
+
+#: views/dahdi_mfcr2_settings.php:265
+msgid ""
+"Brazil uses a special signal to force the release of the line (hangup) from "
+"the backward perspective. <br />When mfcr2_forced_release=no, the normal "
+"clear back signal will be sent on hangup, which is OK for most mfcr2 "
+"variants except for the Brazilian variant where the central will leave the "
+"line up for several seconds (30, 60). <br /> This is sometimes is not what "
+"people really want. When mfcr2_forced_release=yes, a different ; signal will "
+"be sent to hangup the call indicating that the line should be released "
+"immediately.<br /> <strong>Default:</strong>no"
+msgstr ""
+"巴西使用特殊訊號，從後向端強制釋放線路（掛斷）。<br />當 mfcr2_forced_release=no 時，掛斷時會送出一般的 clear back 訊號，這對大多數 mfcr2 變體都沒問題，但巴西變體除外——在該變體中，交換機會讓線路持續數秒（30、60）。<br /> 有時這並非人們真正想要的。當 mfcr2_forced_release=yes 時，會送出不同的 ; 訊號來掛斷通話，表示線路應立即釋放。<br /> <strong>預設：</strong>否"
+
+#: views/dahdi_global_settings.php:27
+msgid "Brazilian"
+msgstr "巴西葡萄牙語"
+
+#: views/dahdi_advanced_settings.php:50
+#: views/dahdi_advanced_settings.php:67
+#: views/dahdi_modprobe_settings.php:50
+msgid "Bulgaria"
+msgstr "保加利亞"
+
+#: views/dahdi_global_settings.php:54
+msgid "Busy Detect Count"
+msgstr "忙音偵測次數"
+
+#: dahdiconfig.i18n.php:28
+msgid ""
+"By default the DAHDi configuration module will NOT write out any data to "
+"protect any current configuration settings"
+msgstr "DAHDi 設定模組預設不會寫出任何資料，以保護目前的設定值"
+
+#: views/dahdi_digital_settings.php:39
+msgid "CAS/HDB3"
+msgstr "CAS/HDB3"
+
+#: views/dahdi_digital_settings.php:30
+msgid "CCS/AMI"
+msgstr "CCS/AMI"
+
+#: views/dahdi_digital_settings.php:37
+msgid "CCS/HDB3"
+msgstr "CCS/HDB3"
+
+#: views/dahdi_digital_settings.php:38
+msgid "CCS/HDB3/CRC4"
+msgstr "CCS/HDB3/CRC4"
+
+#: views/dahdi_mfcr2_settings.php:99
+msgid "Call Logging Directory"
+msgstr "通話記錄目錄"
+
+#: views/dahdi_mfcr2_settings.php:113
+msgid "Call Logging Enable"
+msgstr "啟用通話記錄"
+
+#: views/dahdi_mfcr2_settings.php:79
+msgid "Caller Category to Send"
+msgstr "要送出的發話類別"
+
+#: views/dahdi_advanced_settings.php:68
+#: views/dahdi_modprobe_settings.php:51
+msgid "Canada"
+msgstr "加拿大"
+
+#: page.dahdi.php:276
+#: page.dahdi.php:295
+#: page.dahdi.php:345
+#: page.dahdi.php:402
+#: page.dahdi.php:425
+#: page.dahdi.php:444
+#: page.dahdi.php:489
+#: views/dahdi_advanced_settings.php:233
+#: views/dahdi_analog_signalling_form.php:26
+msgid "Cancel"
+msgstr "取消"
+
+#: functions.inc.php:554
+msgid "Channel"
+msgstr "通道"
+
+#: views/dahdi_digital_hardware.php:8
+msgid "Channels Used/Total"
+msgstr "已使用/總計通道數"
+
+#: views/dahdi_mfcr2_settings.php:281
+msgid "Charge Calls"
+msgstr "通話計費"
+
+#: views/dahdi_advanced_settings.php:28
+#: views/dahdi_advanced_settings.php:69
+#: views/dahdi_modprobe_settings.php:52
+msgid "Chile"
+msgstr "智利"
+
+#: views/dahdi_advanced_settings.php:46
+#: views/dahdi_advanced_settings.php:70
+#: views/dahdi_mfcr2_settings.php:18
+#: views/dahdi_modprobe_settings.php:53
+msgid "China"
+msgstr "中國"
+
+#: views/dahdi_global_settings.php:35
+msgid "Chinese"
+msgstr "中文"
+
+#: functions.inc.php:391
+msgid "Choose"
+msgstr "選擇"
+
+#: functions.inc.php:555
+#, php-format
+msgid "Choose the FXS channel for this %s"
+msgstr "為此 %s 選擇 FXS 通道"
+
+#: views/dahdi_mfcr2_settings.php:20
+msgid "Colombia"
+msgstr "哥倫比亞"
+
+#: views/dahdi_advanced_settings.php:71
+#: views/dahdi_modprobe_settings.php:54
+msgid "Columbia"
+msgstr "哥倫比亞"
+
+#: dahdiconfig.i18n.php:6
+msgid "Connectivity"
+msgstr "連線能力"
+
+#: views/dahdi_analog_settings.php:46
+#: views/dahdi_analog_signalling_form.php:19
+msgid "Context"
+msgstr "Context"
+
+#: views/sangoma.php:41
+msgid "Control hardware DTMF"
+msgstr "控制硬體 DTMF"
+
+#: views/dahdi_advanced_settings.php:72
+#: views/dahdi_modprobe_settings.php:55
+msgid "Croatia"
+msgstr "克羅埃西亞"
+
+#: views/dahdi_advanced_settings.php:73
+#: views/dahdi_modprobe_settings.php:56
+msgid "Cyrpus"
+msgstr "賽普勒斯"
+
+#: views/dahdi_advanced_settings.php:74
+#: views/dahdi_modprobe_settings.php:57
+msgid "Czech"
+msgstr "捷克語"
+
+#: views/dahdi_advanced_settings.php:45
+#: views/dahdi_mfcr2_settings.php:19
+msgid "Czech Republic"
+msgstr "捷克"
+
+#: views/dahdi_digital_hardware.php:9
+msgid "D-Channel"
+msgstr "D 通道"
+
+#: views/dahdi_digital_settings.php:34
+msgid "D4/AMI"
+msgstr "D4/AMI"
+
+#: page.dahdi.php:49
+msgid "DAHDI Configuration"
+msgstr "DAHDI 設定"
+
+#: Dahdiconfig.class.php:87
+#: Dahdiconfig.class.php:144
+msgid "DAHDI NOT FOUND [Suggest Uninstalling the Dahdi Configuration Module]!"
+msgstr "找不到 DAHDI [建議解除安裝 Dahdi 設定模組]！"
+
+#: functions.inc.php:469
+#: functions.inc.php:502
+msgid "DAHDI Trunks"
+msgstr "DAHDI 中繼"
+
+#: dahdiconfig.i18n.php:4
+#: dahdiconfig.i18n.php:10
+msgid "DAHDi Config"
+msgstr "DAHDi 設定"
+
+#: dahdiconfig.i18n.php:14
+msgid "DAHDi Configuration Module"
+msgstr "DAHDi 設定模組"
+
+#: page.dahdi.php:11
+msgid ""
+"DAHDi Doesn't appear to be running. Click the 'Restart DAHDi & Asterisk' "
+"button below"
+msgstr "DAHDi 似乎未在執行。請點選下方的「重新啟動 DAHDi 與 Asterisk」按鈕"
+
+#: dahdiconfig.i18n.php:18
+msgid "DAHDi Executable Location"
+msgstr "DAHDi 執行檔位置"
+
+#: Dahdiconfig.class.php:126
+#: Dahdiconfig.class.php:175
+#, php-format
+msgid "DAHDi Failed: %s"
+msgstr "DAHDi 失敗：%s"
+
+#: dahdiconfig.i18n.php:32
+msgid "DAHDi ModProbe.d Configuration File Location (modprobe.d/dahdi.conf)"
+msgstr "DAHDi ModProbe.d 設定檔位置 (modprobe.d/dahdi.conf)"
+
+#: views/dahdi_modules_settings.php:3
+msgid "DAHDi Module Load/Order"
+msgstr "DAHDi 模組載入/順序"
+
+#: dahdiconfig.i18n.php:22
+msgid "DAHDi Modules Location"
+msgstr "DAHDi 模組位置"
+
+#: dahdiconfig.i18n.php:24
+msgid "DAHDi Modules Location (/etc/dahdi/modules)"
+msgstr "DAHDi 模組位置 (/etc/dahdi/modules)"
+
+#: Dahdiconfig.class.php:124
+msgid "DAHDi Started"
+msgstr "DAHDi 已啟動"
+
+#: Dahdiconfig.class.php:173
+msgid "DAHDi Stopped"
+msgstr "DAHDi 已停止"
+
+#: dahdiconfig.i18n.php:40
+msgid "DAHDi System Configuration File Location (dahdi/system.conf)"
+msgstr "DAHDi 系統設定檔位置 (dahdi/system.conf)"
+
+#: page.dahdi.php:155
+msgid "DAHDi Write Disabled Disclaimer"
+msgstr "DAHDi 寫入停用免責聲明"
+
+#: page.dahdi.php:156
+msgid "DAHDi is DISABLED for writing"
+msgstr "DAHDi 的寫入功能已停用"
+
+#: dahdiconfig.i18n.php:16
+msgid ""
+"DAHDi trunk configuration is normally done using groups for PRI "
+"configuration. If there is a need to configure trunks to specific channels, "
+"setting this to true will allow each channel to be configured. This can be "
+"useful when troubleshooting a PRI and trying to isolate a bad B Channel."
+msgstr ""
+"DAHDi 中繼設定通常使用群組來進行 PRI 設定。若需要將中繼設定到特定通道，將此設為 true 可讓每個通道個別設定。在對 PRI 進行疑難排解並試圖找出故障的 B 通道時，這會很有用。"
+
+#: views/dahdi_modprobe_settings.php:271
+msgid "Default Line Mode"
+msgstr "預設線路模式"
+
+#: views/dahdi_advanced_settings.php:44
+#: views/dahdi_advanced_settings.php:75
+#: views/dahdi_modprobe_settings.php:58
+msgid "Denmark"
+msgstr "丹麥"
+
+#: install.php:222
+#, php-format
+msgid "Detected new Dahdi Module: wcaxx, Appending to %s"
+msgstr "偵測到新的 Dahdi 模組：wcaxx，附加至 %s"
+
+#: install.php:217
+#, php-format
+msgid "Detected new Dahdi Module: wcte43x, Appending to %s"
+msgstr "偵測到新的 Dahdi 模組：wcte43x，附加至 %s"
+
+#: views/dahdi_mfcr2_settings.php:115
+msgid ""
+"Determine whether or not to drop call files into mfcr2_logdir. (see tooltip "
+"under Call Loggin Directory. <br /> Default: no"
+msgstr "決定是否將通話檔案放入 mfcr2_logdir。（請參閱「Call Loggin Directory」下的工具提示。<br /> 預設：否"
+
+#: views/dahdi_mfcr2_settings.php:63
+msgid ""
+"Determine whether or not to get the ANI before getting DNIS.  Some telcos "
+"require ANI first some others do not care.<br /> <strong>Default:</strong>no"
+msgstr ""
+"決定是否先取得 ANI 再取得 DNIS。有些電信業者要求先取得 ANI，有些則不在意。<br /> <strong>預設：</strong>否"
+
+#: functions.inc.php:543
+msgid "Device Options"
+msgstr "裝置選項"
+
+#: functions.inc.php:346
+#, php-format
+msgid "Digital Channel %s"
+msgstr "數位通道 %s"
+
+#: page.dahdi.php:56
+msgid "Digital Hardware"
+msgstr "數位硬體"
+
+#: page.dahdi.php:236
+msgid "Disable"
+msgstr "停用"
+
+#: dahdiconfig.i18n.php:26
+msgid "Disable DAHDi Configuration Writes"
+msgstr "停用 DAHDi 設定寫入"
+
+#: assets/js/main.js:536
+msgid "Don't forget to Restart Dahdi & Asterisk after this completes"
+msgstr "完成後別忘了重新啟動 Dahdi 與 Asterisk"
+
+#: views/dahdi_mfcr2_settings.php:191
+msgid "Double Answer"
+msgstr "雙重應答"
+
+#: views/dahdi_global_settings.php:16
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: views/dahdi_digital_settings.php:84
+msgid "E &amp; M"
+msgstr "E &amp; M"
+
+#: views/dahdi_digital_settings.php:85
+msgid "E &amp; M -- Wink"
+msgstr "E &amp; M -- Wink"
+
+#: views/dahdi_digital_settings.php:86
+msgid "E &amp; M -- fead(DTMF)"
+msgstr "E &amp; M -- fead(DTMF)"
+
+#: views/dahdi_modprobe_settings.php:277
+msgid "E1"
+msgstr "E1"
+
+#: views/dahdi_digital_settings.php:33
+msgid "ESF/B8ZS"
+msgstr "ESF/B8ZS"
+
+#: views/dahdi_modprobe_settings.php:258
+msgid "Echo Canc. NLP Max Suppression"
+msgstr "回音消除 NLP 最大抑制"
+
+#: views/dahdi_modprobe_settings.php:246
+msgid "Echo Canc. NLP Threshold"
+msgstr "回音消除 NLP 臨界值"
+
+#: views/dahdi_advanced_settings.php:206
+#: views/dahdi_modprobe_settings.php:224
+msgid "Echo Canc. NLP Type"
+msgstr "回音消除 NLP 類型"
+
+#: views/dahdi_advanced_settings.php:228
+msgid "Echo Cancel NLP Max Suppression"
+msgstr "回音消除 NLP 最大抑制"
+
+#: views/dahdi_advanced_settings.php:224
+msgid "Echo Cancel NLP Threshold"
+msgstr "回音消除 NLP 臨界值"
+
+#: views/dahdi_advanced_settings.php:76
+#: views/dahdi_mfcr2_settings.php:21
+#: views/dahdi_modprobe_settings.php:59
+msgid "Ecuador"
+msgstr "厄瓜多"
+
+#: views/dahdi_analog_hardware.php:30
+#: views/dahdi_analog_hardware.php:35
+msgid "Edit"
+msgstr "編輯"
+
+#: views/dahdi_advanced_settings.php:77
+#: views/dahdi_modprobe_settings.php:60
+msgid "Egypt"
+msgstr "埃及"
+
+#: views/dahdi_advanced_settings.php:78
+#: views/dahdi_modprobe_settings.php:61
+msgid "El Salvador"
+msgstr "薩爾瓦多"
+
+#: page.dahdi.php:231
+msgid "Enable"
+msgstr "啟用"
+
+#: views/dahdi_global_settings.php:43
+msgid "Enable Busy Detect"
+msgstr "啟用忙音偵測"
+
+#: views/dahdi_global_settings.php:127
+msgid "Enable Call Forwarding"
+msgstr "啟用來電轉接"
+
+#: views/dahdi_global_settings.php:138
+msgid "Enable Call Return"
+msgstr "啟用回撥"
+
+#: views/dahdi_global_settings.php:77
+msgid "Enable Call Waiting"
+msgstr "啟用插撥"
+
+#: views/sangoma.php:52
+msgid "Enable DTMF CID"
+msgstr "啟用 DTMF 來電顯示"
+
+#: views/dahdi_global_settings.php:161
+msgid "Enable EC when bridged"
+msgstr "橋接時啟用 EC"
+
+#: views/dahdi_global_settings.php:149
+msgid "Enable Echo Canceling"
+msgstr "啟用回音消除"
+
+#: views/dahdi_global_settings.php:172
+msgid "Enable Echo Training"
+msgstr "啟用回音訓練"
+
+#: views/sangoma.php:7
+msgid "Enable Sangoma Cards"
+msgstr "啟用 Sangoma 卡"
+
+#: views/dahdi_global_settings.php:99
+msgid "Enable Three Way Calling"
+msgstr "啟用三方通話"
+
+#: views/dahdi_global_settings.php:110
+msgid "Enable Transfer"
+msgstr "啟用轉接"
+
+#: views/dahdi_global_settings.php:149
+msgid "Enable echo cancellation"
+msgstr "啟用回音消除"
+
+#: views/dahdi_global_settings.php:13
+msgid "English"
+msgstr "英語"
+
+#: views/dahdi_advanced_settings.php:39
+msgid "Estonia"
+msgstr "愛沙尼亞"
+
+#: views/dahdi_global_settings.php:33
+msgid "Estonian"
+msgstr "愛沙尼亞語"
+
+#: views/dahdi_digital_settings.php:112
+msgid "EuroISDN"
+msgstr "EuroISDN"
+
+#: views/dahdi_advanced_settings.php:79
+msgid "FCC"
+msgstr "FCC"
+
+#: views/dahdi_modprobe_settings.php:205
+msgid "FSK"
+msgstr "FSK"
+
+#: views/dahdi_advanced_settings.php:187
+#: views/dahdi_modprobe_settings.php:196
+msgid "FSK - Performs Frequency Shift Key detection"
+msgstr "FSK - 執行頻移鍵控偵測"
+
+#: page.dahdi.php:149
+msgid "FXO Settings"
+msgstr "FXO 設定"
+
+#: views/dahdi_digital_settings.php:88
+msgid "FXOKS"
+msgstr "FXOKS"
+
+#: views/dahdi_digital_settings.php:89
+msgid "FXOLS"
+msgstr "FXOLS"
+
+#: views/dahdi_advanced_settings.php:144
+#: views/dahdi_modprobe_settings.php:133
+msgid "FXS Honor Mode"
+msgstr "FXS Honor 模式"
+
+#: page.dahdi.php:152
+msgid "FXS Settings"
+msgstr "FXS 設定"
+
+#: views/dahdi_digital_settings.php:91
+msgid "FXSKS"
+msgstr "FXSKS"
+
+#: views/dahdi_digital_settings.php:92
+msgid "FXSLS"
+msgstr "FXSLS"
+
+#: views/dahdi_advanced_settings.php:164
+#: views/dahdi_modprobe_settings.php:163
+msgid "Fast Ringer (25hz)"
+msgstr "快速振鈴 (25hz)"
+
+#: views/dahdi_advanced_settings.php:172
+#: views/dahdi_modprobe_settings.php:175
+msgid "Fast Ringer to 50v Peak"
+msgstr "快速振鈴至 50v 峰值"
+
+#: views/dahdi_advanced_settings.php:160
+msgid "Fastringer"
+msgstr "快速振鈴"
+
+#: views/dahdi_modprobe_settings.php:157
+msgid "Fastringer:"
+msgstr "快速振鈴："
+
+#: views/dahdi_global_settings.php:196
+msgid "Fax Detection"
+msgstr "傳真偵測"
+
+#: includes/dahdi_cards.class.php:141
+#, php-format
+msgid "File %s does not exist."
+msgstr "檔案 %s 不存在。"
+
+#: includes/dahdi_cards.class.php:133
+#, php-format
+msgid "File %s is not owned by %s"
+msgstr "檔案 %s 並非由 %s 所擁有"
+
+#: views/dahdi_advanced_settings.php:18
+#: views/dahdi_advanced_settings.php:80
+#: views/dahdi_modprobe_settings.php:63
+msgid "Finland"
+msgstr "芬蘭"
+
+#: views/dahdi_global_settings.php:18
+msgid "Finnish"
+msgstr "芬蘭語"
+
+#: views/dahdi_global_settings.php:110
+msgid "For FXS ports (either direct analog or over T1/E1)"
+msgstr "適用於 FXS 連接埠（直接類比或透過 T1/E1）"
+
+#: views/dahdi_global_settings.php:114
+msgid "For digital ports using ISDN PRI protocols"
+msgstr "適用於使用 ISDN PRI 協定的數位連接埠"
+
+#: views/dahdi_global_settings.php:196
+msgid "For fax detection"
+msgstr "用於傳真偵測"
+
+#: page.dahdi.php:43
+msgid ""
+"For your changes to take effect, click the 'Restart DAHDi & Asterisk' button "
+"below"
+msgstr "若要讓變更生效，請點選下方的「重新啟動 DAHDi 與 Asterisk」按鈕"
+
+#: page.dahdi.php:42
+msgid ""
+"For your hardware changes to take effect, you need to reboot your system"
+msgstr "若要讓硬體變更生效，您需要重新啟動系統"
+
+#: page.dahdi.php:41
+msgid ""
+"For your hardware changes to take effect, you need to reboot your system! "
+"<br/> or <br/>Press the 'Restart DAHDi & Asterisk' button below"
+msgstr "若要讓硬體變更生效，您需要重新啟動系統！<br/> 或 <br/>按下方的「重新啟動 DAHDi 與 Asterisk」按鈕"
+
+#: views/dahdi_mfcr2_settings.php:263
+msgid "Forced Release"
+msgstr "強制釋放"
+
+#: views/dahdi_digital_hardware.php:7
+#: views/dahdi_digital_settings.php:24
+msgid "Framing/Coding"
+msgstr "訊框/編碼"
+
+#: views/dahdi_advanced_settings.php:15
+#: views/dahdi_advanced_settings.php:81
+#: views/dahdi_modprobe_settings.php:64
+msgid "France"
+msgstr "法國"
+
+#: views/dahdi_global_settings.php:15
+msgid "French"
+msgstr "法語"
+
+#: views/dahdi_advanced_settings.php:180
+#: views/dahdi_modprobe_settings.php:187
+msgid "Full Wave"
+msgstr "全波"
+
+#: views/dahdi_modprobe_settings.php:29
+msgid "G723.1"
+msgstr "G723.1"
+
+#: views/dahdi_modprobe_settings.php:30
+msgid "G729"
+msgstr "G729"
+
+#: views/dahdi_digital_settings.php:10
+msgid "General Settings"
+msgstr "一般設定"
+
+#: views/dahdi_global_settings.php:161
+msgid ""
+"Generally, it is not necessary (and in fact undesirable) to echo cancel when "
+"the circuit path is entirely TDM.  You may, however, change this behavior by "
+"enabling the echo canceler during pure TDM bridging below"
+msgstr ""
+"一般而言，當電路路徑完全為 TDM 時，並不需要（事實上也不建議）進行回音消除。不過，您可以透過在下方啟用純 TDM 橋接期間的回音消除器來變更此行為"
+
+#: views/dahdi_global_settings.php:17
+msgid "German"
+msgstr "德語"
+
+#: views/dahdi_advanced_settings.php:42
+#: views/dahdi_advanced_settings.php:82
+#: views/dahdi_modprobe_settings.php:65
+msgid "Germany"
+msgstr "德國"
+
+#: views/dahdi_mfcr2_settings.php:61
+msgid "Get ANI Before DNIS"
+msgstr "先取得 ANI 再取得 DNIS"
+
+#: page.dahdi.php:82
+#: page.dahdi.php:102
+#: views/dahdi_global_settings.php:3
+msgid "Global Settings"
+msgstr "全域設定"
+
+#: views/dahdi_advanced_settings.php:26
+#: views/dahdi_advanced_settings.php:83
+#: views/dahdi_modprobe_settings.php:66
+msgid "Greece"
+msgstr "希臘"
+
+#: views/dahdi_global_settings.php:23
+msgid "Greek"
+msgstr "希臘語"
+
+#: views/dahdi_analog_settings.php:34
+#: views/dahdi_analog_signalling_form.php:16
+msgid "Group"
+msgstr "群組"
+
+#: functions.inc.php:308
+#: functions.inc.php:327
+#, php-format
+msgid "Group %s Ascending"
+msgstr "群組 %s 遞增"
+
+#: functions.inc.php:309
+#: functions.inc.php:328
+#, php-format
+msgid "Group %s Descending"
+msgstr "群組 %s 遞減"
+
+#: functions.inc.php:310
+#: functions.inc.php:329
+#, php-format
+msgid "Group %s Round Robin Ascending"
+msgstr "群組 %s 循環遞增"
+
+#: functions.inc.php:311
+#: functions.inc.php:330
+#, php-format
+msgid "Group %s Round Robin Descending"
+msgstr "群組 %s 循環遞減"
+
+#: views/dahdi_advanced_settings.php:84
+#: views/dahdi_modprobe_settings.php:67
+msgid "Guam"
+msgstr "關島"
+
+#: views/dahdi_global_settings.php:34
+msgid "Hindi"
+msgstr "印地語"
+
+#: views/dahdi_modprobe_settings.php:68
+msgid "Hong Kong"
+msgstr "香港"
+
+#: views/dahdi_advanced_settings.php:85
+msgid "Hongkong"
+msgstr "香港"
+
+#: views/dahdi_advanced_settings.php:219
+#: views/dahdi_modprobe_settings.php:239
+msgid "Hoth Noise"
+msgstr "Hoth 雜訊"
+
+#: views/dahdi_modprobe_settings.php:229
+msgid ""
+"Hoth Noise - This setting causes the NLP to inject a low-end Gaussian noise "
+"with a frequency spectrum similar to voice. For users in normal "
+"environments, Hoth Noise may be acceptable"
+msgstr "Hoth 雜訊 - 此設定會讓 NLP 注入低頻高斯雜訊，其頻譜與人聲相似。對於處於一般環境的使用者，Hoth 雜訊可能可以接受"
+
+#: views/dahdi_advanced_settings.php:211
+msgid ""
+"Hoth Noise - This setting causes the NLP to inject a low-end Gaussian noise "
+"with a frequency spectrum similar to voice. For users in normal "
+"environments, Hoth Noise may be acceptable."
+msgstr "Hoth 雜訊 - 此設定會讓 NLP 注入低頻高斯雜訊，其頻譜與人聲相似。對於處於一般環境的使用者，Hoth 雜訊可能可以接受。"
+
+#: views/dahdi_global_settings.php:28
+msgid "Hungarian"
+msgstr "匈牙利語"
+
+#: views/dahdi_advanced_settings.php:34
+#: views/dahdi_advanced_settings.php:86
+#: views/dahdi_modprobe_settings.php:69
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: views/dahdi_advanced_settings.php:87
+#: views/dahdi_modprobe_settings.php:70
+msgid "Iceland"
+msgstr "冰島"
+
+#: views/dahdi_global_settings.php:54
+msgid ""
+"If busydetect is enabled, it is also possible to specify how many busy tones "
+"to wait for before hanging up.  The default is 3, but it might be safer to "
+"set to 6 or even 8.  Mind that the higher the number, the more time that "
+"will be needed to hangup a channel, but lowers the probability that you will "
+"get random hangups"
+msgstr ""
+"若已啟用忙音偵測，也可以指定在掛斷前要等待多少個忙音。預設為 3，但設為 6 甚至 8 可能更安全。請注意，數值越高，掛斷通道所需的時間就越長，但可降低隨機掛斷的機率"
+
+#: views/dahdi_mfcr2_settings.php:209
+msgid "Immediate Accept"
+msgstr "立即接受"
+
+#: views/dahdi_modprobe_settings.php:23
+msgid "In Any mode it'll run 92 channels of either codec."
+msgstr "在 Any 模式下，可執行任一種編解碼器的 92 個通道。"
+
+#: views/dahdi_modprobe_settings.php:23
+msgid "In G.723.1 mode it'll run 92 channels"
+msgstr "在 G.723.1 模式下，可執行 92 個通道"
+
+#: views/dahdi_modprobe_settings.php:23
+msgid "In G.729 mode it'll run 120 channels"
+msgstr "在 G.729 模式下，可執行 120 個通道"
+
+#: views/dahdi_global_settings.php:174
+msgid ""
+"In some cases this option can make echo worse!  If you are trying to debug "
+"an echo problem, it is worth checking to see if your echo is better with the "
+"option set to yes or no.  Use whatever setting gives the best results"
+msgstr ""
+"在某些情況下，此選項可能會讓回音更嚴重！如果您正在對回音問題進行除錯，值得檢查將此選項設為 yes 或 no 時回音是否較好。請使用能獲得最佳結果的設定"
+
+#: views/dahdi_global_settings.php:172
+msgid ""
+"In some cases, the echo canceller doesn't train quickly enough and there is "
+"echo at the beginning of the call.  Enabling echo training will cause DAHDI "
+"to briefly mute the channel, send an impulse, and use the impulse response "
+"to pre-train the echo canceller so it can start out with a much closer idea "
+"of the actual echo.  Value may be \"yes\", \"no\", or a number of "
+"milliseconds to delay before training (default = 400)"
+msgstr ""
+"在某些情況下，回音消除器訓練得不夠快，通話一開始就會有回音。啟用回音訓練會讓 DAHDI 暫時將通道靜音、送出一段脈衝，並利用脈衝響應預先訓練回音消除器，讓它一開始就能更接近實際的回音。值可以是 \"yes\"、\"no\"，或是在訓練前延遲的毫秒數（預設 = 400）"
+
+#: views/dahdi_global_settings.php:201
+msgid "Incoming"
+msgstr "來電"
+
+#: views/dahdi_advanced_settings.php:41
+#: views/dahdi_advanced_settings.php:88
+#: views/dahdi_modprobe_settings.php:71
+msgid "India"
+msgstr "印度"
+
+#: views/dahdi_advanced_settings.php:89
+#: views/dahdi_mfcr2_settings.php:22
+#: views/dahdi_modprobe_settings.php:72
+msgid "Indonesia"
+msgstr "印尼"
+
+#: views/dahdi_mfcr2_settings.php:23
+msgid "International Telecommunication Union"
+msgstr "國際電信聯盟"
+
+#: views/dahdi_advanced_settings.php:90
+#: views/dahdi_modprobe_settings.php:73
+msgid "Ireland"
+msgstr "愛爾蘭"
+
+#: views/dahdi_advanced_settings.php:32
+#: views/dahdi_advanced_settings.php:91
+#: views/dahdi_modprobe_settings.php:74
+msgid "Israel"
+msgstr "以色列"
+
+#: views/dahdi_global_settings.php:26
+msgid "Israeli Hebrew"
+msgstr "以色列希伯來語"
+
+#: page.dahdi.php:166
+msgid "It is YOUR responsibility to backup all relevant files on your system!"
+msgstr "您有責任自行備份系統上所有相關檔案！"
+
+#: views/dahdi_global_settings.php:22
+msgid "Italian"
+msgstr "義大利語"
+
+#: views/dahdi_advanced_settings.php:24
+#: views/dahdi_advanced_settings.php:92
+#: views/dahdi_modprobe_settings.php:75
+msgid "Italy"
+msgstr "義大利"
+
+#: views/dahdi_advanced_settings.php:20
+#: views/dahdi_advanced_settings.php:93
+#: views/dahdi_modprobe_settings.php:76
+msgid "Japan"
+msgstr "日本"
+
+#: views/dahdi_global_settings.php:20
+msgid "Japanese"
+msgstr "日語"
+
+#: views/dahdi_advanced_settings.php:94
+#: views/dahdi_modprobe_settings.php:77
+msgid "Jordan"
+msgstr "約旦"
+
+#: views/dahdi_advanced_settings.php:95
+#: views/dahdi_modprobe_settings.php:78
+msgid "Kazakhstan"
+msgstr "哈薩克"
+
+#: views/dahdi_analog_settings.php:27
+#: views/dahdi_analog_signalling_form.php:13
+msgid "Kewl Start"
+msgstr "Kewl Start"
+
+#: views/dahdi_analog_settings.php:19
+msgid ""
+"Kewl Start - Coined term for an extension of loop start (FXO and FXS) "
+"signaling which adds disconnect supervision through the use of an open "
+"switching interval (OSI). In addition to the operation afforded by loop "
+"start, the CO (central office) signals the terminal (user) end that the "
+"distant party has hung up. The CO switch will remove battery voltage from "
+"the loop for about 250 ms, within 6 seconds after the far-end party "
+"disconnects."
+msgstr ""
+"Kewl Start - 這是延伸自迴路啟動（FXO 與 FXS）訊號的自創術語，透過使用開路切換間隔（OSI）加入斷線監督。除了迴路啟動原有的運作方式外，市話交換機（CO）會向終端（使用者）端發出訊號，表示遠端已掛斷。遠端掛斷後 6 秒內，CO 交換機會將迴路中的電池電壓移除約 250 ms。"
+
+#: views/dahdi_advanced_settings.php:96
+#: views/dahdi_modprobe_settings.php:79
+msgid "Kuwait"
+msgstr "科威特"
+
+#: views/dahdi_advanced_settings.php:97
+#: views/dahdi_modprobe_settings.php:80
+msgid "Latvia"
+msgstr "拉脫維亞"
+
+#: views/dahdi_advanced_settings.php:98
+#: views/dahdi_modprobe_settings.php:81
+msgid "Lebanon"
+msgstr "黎巴嫩"
+
+#: views/sangoma.php:19
+msgid "Line Mode"
+msgstr "線路模式"
+
+#: views/dahdi_advanced_settings.php:35
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: views/dahdi_global_settings.php:29
+msgid "Lithuanian"
+msgstr "立陶宛語"
+
+#: dahdiconfig.i18n.php:20
+msgid "Location of the DAHDi Executable"
+msgstr "DAHDi 執行檔的位置"
+
+#: views/dahdi_mfcr2_settings.php:131
+msgid "Log Levels"
+msgstr "記錄層級"
+
+#: views/dahdi_mfcr2_settings.php:101
+msgid ""
+"Logging is stored at the Asterisk logging directory specified in asterisk."
+"conf plus mfcr2/<whatever you put here>. If you specify 'span1' here and "
+"asterisk.conf has as logging directory /var/log/asterisk then the full path "
+"to your MFC/R2 call logs will be /var/log/asterisk/mfcr2/span1 (the "
+"directory will be automatically created if not present already)"
+msgstr ""
+"記錄會存放在 asterisk.conf 中指定的 Asterisk 記錄目錄加上 mfcr2/<您在此填入的內容>。若您在此指定「span1」，而 asterisk.conf 的記錄目錄為 /var/log/asterisk，則 MFC/R2 通話記錄的完整路徑會是 /var/log/asterisk/mfcr2/span1（若目錄不存在，會自動建立）"
+
+#: views/dahdi_analog_settings.php:28
+#: views/dahdi_analog_signalling_form.php:14
+msgid "Loop Start"
+msgstr "迴路啟動"
+
+#: views/dahdi_analog_settings.php:20
+msgid ""
+"Loop Start - When idle, or on-hook, the loop potential is held a nominal 48V "
+"DC, provided by the telephone exchange or a foreign exchange station (FXS) "
+"interface. When a terminal initiates use the line, it causes current to flow "
+"by closing the loop, and this signals the FXS end to provide dial tone on "
+"the line and to expect dial signals, in form of DTMF digits or dial pulses, "
+"or a hook flash. When the loop is opened and current stops flowing, the "
+"subscriber equipment signals that it has finished using the line; the "
+"telephone exchange resets the line to an idle state."
+msgstr ""
+"迴路啟動 - 閒置或掛機時，迴路電位維持在標稱 48V DC，由電話交換機或外線交換站（FXS）介面提供。當終端開始使用線路時，會閉合迴路使電流通過，這會通知 FXS 端在線路上提供撥號音，並預期收到撥號訊號（DTMF 數字、撥號脈衝或掛鉤閃斷）。當迴路斷開、電流停止流動時，使用者設備即表示已使用完線路；電話交換機會將線路重設為閒置狀態。"
+
+#: views/dahdi_advanced_settings.php:168
+#: views/dahdi_modprobe_settings.php:169
+msgid "Lowpower"
+msgstr "低功率"
+
+#: views/dahdi_digital_settings.php:111
+msgid "Lucent 5ESS"
+msgstr "Lucent 5ESS"
+
+#: views/dahdi_advanced_settings.php:99
+#: views/dahdi_modprobe_settings.php:82
+msgid "Luxembourg"
+msgstr "盧森堡"
+
+#: views/dahdi_mfcr2_settings.php:145
+msgid "MF Timeout"
+msgstr "MF 逾時"
+
+#: views/dahdi_digital_settings.php:82
+msgid "MFC/R2"
+msgstr "MFC/R2"
+
+#: page.dahdi.php:317
+#: views/dahdi_mfcr2_settings.php:1
+msgid "MFC/R2 Settings"
+msgstr "MFC/R2 設定"
+
+#: views/dahdi_mfcr2_settings.php:7
+msgid "MFC/R2 Variant"
+msgstr "MFC/R2 變體"
+
+#: views/dahdi_mfcr2_settings.php:133
+msgid ""
+"MFC/R2 valid logging values are: all, error, warning, debug, notice, cas, "
+"mf, stack, nothing<br />error,warning,debug and notice are self-descriptive. "
+"<br />'cas' is for logging ABCD CAS tx and rx<br />'mf' is for logging of "
+"the Multi Frequency tones<br /> 'stack' is for very verbose output of the "
+"channel and context call stack, only useful if you are debugging a crash or "
+"want to learn how the library works. The stack logging will be only enabled "
+"if the openr2 library was compiled with -DOR2_TRACE_STACKS. <br /> You can "
+"mix up values, like: <strong>`loglevel=error,debug,mf`</strong> to log just "
+"error, debug and multi frequency messages<br /> 'all' is a special value to "
+"log all the activity <br /> 'nothing' is a clean-up value, in case you want "
+"to not log any activity for a channel or group of channels <br /> BE AWARE "
+"that the level of output logged will ALSO depend on the value you have in "
+"logger.conf, if you disable output in logger.conf then it does not matter "
+"you specify 'all' here, nothing will be logged so logger.conf has the last "
+"word on what is going to be logged"
+msgstr ""
+"MFC/R2 可用的記錄值為：all、error、warning、debug、notice、cas、mf、stack、nothing<br />error、warning、debug 與 notice 顧名思義。<br />「cas」用於記錄 ABCD CAS 的傳送與接收<br />「mf」用於記錄多頻音<br /> 「stack」用於非常詳細地輸出通道與 context 呼叫堆疊，只有在對當機進行除錯或想了解此程式庫運作方式時才有用。只有在 openr2 程式庫以 -DOR2_TRACE_STACKS 編譯時，才會啟用堆疊記錄。<br /> 您可以混合多個值，例如：<strong>`loglevel=error,debug,mf`</strong>，只記錄 error、debug 與多頻訊息<br /> 「all」是記錄所有活動的特殊值<br /> 「nothing」是清理用的值，用於不想記錄某個通道或某群通道的任何活動時<br /> 請注意，記錄的輸出層級也會取決於您在 logger.conf 中的設定；若您在 logger.conf 中停用輸出，那麼在此指定「all」也沒有用，不會記錄任何內容，因此 logger.conf 對於要記錄什麼有最終決定權"
+
+#: views/dahdi_mfcr2_settings.php:147
+msgid ""
+"MFC/R2 value in milliseconds for the MF timeout. <br />Any negative value "
+"means 'default', smaller values than 500ms are not recommended and can cause "
+"malfunctioning. <br />If you experience protocol error due to MF timeout try "
+"incrementing this value in 500ms steps<br /> <strong>Default:</strong>-1"
+msgstr ""
+"MFC/R2 的 MF 逾時值，單位為毫秒。<br />任何負值都代表「預設」；不建議使用小於 500ms 的值，可能導致運作異常。<br />如果您因 MF 逾時而遇到協定錯誤，請嘗試以 500ms 為單位增加此值<br /> <strong>預設：</strong>-1"
+
+#: views/dahdi_mfcr2_settings.php:9
+msgid ""
+"MFC/R2 variant, this depends on the OpenR2 supported variants. A list of "
+"values can be found by executing the openr2 command `r2test -l`"
+msgstr "MFC/R2 變體，這取決於 OpenR2 所支援的變體。可執行 openr2 命令 `r2test -l` 取得可用值清單"
+
+#: views/dahdi_advanced_settings.php:184
+#: views/dahdi_modprobe_settings.php:193
+msgid "MWI Mode"
+msgstr "MWI 模式"
+
+#: views/dahdi_advanced_settings.php:100
+#: views/dahdi_modprobe_settings.php:83
+msgid "Macao"
+msgstr "澳門"
+
+#: page.dahdi.php:70
+msgid ""
+"Make sure to hit 'Apply Config' if you've made any changed before Restarting "
+"DAHDi & Asterisk"
+msgstr "若您在重新啟動 DAHDi 與 Asterisk 前做過任何變更，請務必點選「套用設定」"
+
+#: views/dahdi_advanced_settings.php:48
+#: views/dahdi_advanced_settings.php:101
+#: views/dahdi_modprobe_settings.php:84
+msgid "Malaysia"
+msgstr "馬來西亞"
+
+#: views/dahdi_advanced_settings.php:102
+#: views/dahdi_modprobe_settings.php:85
+msgid "Malta"
+msgstr "馬爾他"
+
+#: views/sangoma.php:35
+msgid "Master"
+msgstr "主時鐘"
+
+#: views/dahdi_mfcr2_settings.php:33
+msgid "Max ANI"
+msgstr "最大 ANI"
+
+#: views/dahdi_mfcr2_settings.php:47
+msgid "Max DNIS"
+msgstr "最大 DNIS"
+
+#: views/dahdi_mfcr2_settings.php:35
+msgid "Max amount of ANI to ask for<br /> <strong>Default:</strong>10"
+msgstr "要求 ANI 的最大值<br /> <strong>預設：</strong>10"
+
+#: views/dahdi_mfcr2_settings.php:49
+msgid "Max amount of DNIS to ask for<br /> <strong>Default:</strong>4"
+msgstr "要求 DNIS 的最大值<br /> <strong>預設：</strong>4"
+
+#: views/dahdi_mfcr2_settings.php:159
+msgid "Metering Pulse Time Out"
+msgstr "計量脈衝逾時"
+
+#: views/dahdi_mfcr2_settings.php:161
+msgid ""
+"Metering pulses are sent by some telcos for some R2 variants during a call "
+"presumably for billing purposes to indicate costs, however this pulses use "
+"the same signal that is used to indicate call hangup. <br />Therefore a "
+"timeout is sometimes required to distinguish between a <strong>real</strong> "
+"hangup and a billing pulse that should not last more than 500ms. <br />If "
+"you experience call drops some minutes after being established, try setting "
+"a value of some ms here. Values greater than 500ms are not recommended. <br /"
+"> BE AWARE that choosing the proper protocol mfcr2_variant parameter "
+"implicitly sets a good recommended value for this timer.<br />Use this "
+"parameter only when you *really* want to override the default, otherwise "
+"just comment out this value or put a -1. <br /> Any negative value means "
+"'default'.<br /> <strong>Default:</strong>-1"
+msgstr ""
+"部分電信業者會在通話期間為某些 R2 變體送出計量脈衝，推測是為了計費以表示費用，但這些脈衝所使用的訊號與表示通話掛斷的訊號相同。<br />因此有時需要一個逾時值，以區分<strong>真正的</strong>掛斷與不應持續超過 500ms 的計費脈衝。<br />如果您在通話建立幾分鐘後遇到通話中斷，請嘗試在此設定若干 ms 的值。不建議使用大於 500ms 的值。<br /> 請注意，選擇正確的協定 mfcr2_variant 參數，會隱含地為此計時器設定一個良好的建議值。<br />只有在您*真的*想覆寫預設值時才使用此參數，否則請將此值註解掉或填入 -1。<br /> 任何負值都代表「預設」。<br /> <strong>預設：</strong>-1"
+
+#: views/dahdi_advanced_settings.php:40
+#: views/dahdi_advanced_settings.php:103
+#: views/dahdi_mfcr2_settings.php:24
+#: views/dahdi_modprobe_settings.php:86
+msgid "Mexico"
+msgstr "墨西哥"
+
+#: dahdiconfig.i18n.php:30
+msgid "ModProbe.d Configuration File Location"
+msgstr "ModProbe.d 設定檔位置"
+
+#: views/dahdi_modprobe_settings.php:23
+msgid "Mode"
+msgstr "模式"
+
+#: page.dahdi.php:84
+#: page.dahdi.php:108
+#: views/dahdi_modprobe_settings.php:3
+msgid "Modprobe Settings"
+msgstr "Modprobe 設定"
+
+#: views/dahdi_advanced_settings.php:7
+#: views/dahdi_modprobe_settings.php:9
+msgid "Module Name"
+msgstr "模組名稱"
+
+#: page.dahdi.php:85
+#: page.dahdi.php:111
+msgid "Module Settings"
+msgstr "模組設定"
+
+#: views/dahdi_advanced_settings.php:104
+#: views/dahdi_modprobe_settings.php:87
+msgid "Morocco"
+msgstr "摩洛哥"
+
+#: views/dahdi_advanced_settings.php:217
+#: views/dahdi_modprobe_settings.php:237
+msgid "Mute"
+msgstr "靜音"
+
+#: views/dahdi_modprobe_settings.php:227
+msgid ""
+"Mute - This setting causes the NLP to mute inbound audio streams while a "
+"user connected to Asterisk is speaking. For users in quiet environments, "
+"Mute may be acceptable"
+msgstr "靜音 - 此設定會讓 NLP 在連線至 Asterisk 的使用者說話時，將來電音訊串流靜音。對於處於安靜環境的使用者，靜音可能可以接受"
+
+#: views/dahdi_advanced_settings.php:209
+msgid ""
+"Mute - This setting causes the NLP to mute inbound audio streams while a "
+"user connected to Asterisk is speaking. For users in quiet environments, "
+"Mute may be acceptable."
+msgstr "靜音 - 此設定會讓 NLP 在連線至 Asterisk 的使用者說話時，將來電音訊串流靜音。對於處於安靜環境的使用者，靜音可能可以接受。"
+
+#: views/dahdi_modprobe_settings.php:206
+msgid "NEON"
+msgstr "NEON"
+
+#: views/dahdi_modprobe_settings.php:197
+msgid "NEON - Performs Neon MWI detection"
+msgstr "NEON - 執行 Neon MWI 偵測"
+
+#: views/dahdi_advanced_settings.php:188
+msgid "NEON - Performs Neon MWI detection."
+msgstr "NEON - 執行 Neon MWI 偵測。"
+
+#: views/dahdi_digital_settings.php:108
+msgid "National ISDN 2 (<?php echo ('default')?>)"
+msgstr "National ISDN 2 (<?php echo ('default')?>)"
+
+#: views/dahdi_modprobe_settings.php:216
+msgid "Neon MWI Off Limit"
+msgstr "Neon MWI 關閉限制"
+
+#: views/dahdi_modprobe_settings.php:214
+msgid "Neon MWI Voltage Level"
+msgstr "Neon MWI 電壓準位"
+
+#: views/dahdi_advanced_settings.php:16
+#: views/dahdi_advanced_settings.php:105
+#: views/dahdi_modprobe_settings.php:88
+msgid "Netherlands"
+msgstr "荷蘭"
+
+#: views/dahdi_advanced_settings.php:23
+msgid "New Zealand"
+msgstr "紐西蘭"
+
+#: views/dahdi_advanced_settings.php:106
+#: views/dahdi_modprobe_settings.php:89
+msgid "Newzealand"
+msgstr "紐西蘭"
+
+#: views/dahdi_advanced_settings.php:107
+#: views/dahdi_modprobe_settings.php:90
+msgid "Nigeria"
+msgstr "奈及利亞"
+
+#: views/dahdi_global_settings.php:48
+#: views/dahdi_global_settings.php:71
+#: views/dahdi_global_settings.php:82
+#: views/dahdi_global_settings.php:93
+#: views/dahdi_global_settings.php:104
+#: views/dahdi_global_settings.php:121
+#: views/dahdi_global_settings.php:132
+#: views/dahdi_global_settings.php:143
+#: views/dahdi_global_settings.php:155
+#: views/dahdi_global_settings.php:166
+#: views/dahdi_global_settings.php:190
+#: views/dahdi_global_settings.php:200
+#: views/dahdi_mfcr2_settings.php:71
+#: views/dahdi_mfcr2_settings.php:123
+#: views/dahdi_mfcr2_settings.php:183
+#: views/dahdi_mfcr2_settings.php:201
+#: views/dahdi_mfcr2_settings.php:219
+#: views/dahdi_mfcr2_settings.php:237
+#: views/dahdi_mfcr2_settings.php:255
+#: views/dahdi_mfcr2_settings.php:273
+#: views/dahdi_mfcr2_settings.php:291
+#: views/sangoma.php:11
+#: views/sangoma.php:46
+#: views/sangoma.php:56
+msgid "No"
+msgstr "否"
+
+#: functions.inc.php:506
+msgid "No Available Groups or Channels"
+msgstr "沒有可用的群組或通道"
+
+#: functions.inc.php:575
+msgid "No Unused DAHDi Channels Available"
+msgstr "沒有未使用的 DAHDi 通道可用"
+
+#: views/dahdi_advanced_settings.php:193
+#: views/dahdi_advanced_settings.php:216
+#: views/dahdi_modprobe_settings.php:204
+#: views/dahdi_modprobe_settings.php:236
+msgid "None"
+msgstr "無"
+
+#: views/dahdi_modprobe_settings.php:226
+msgid ""
+"None - This setting disables NLP processing and is not a recommended "
+"setting. Under most circumstances, choos- ing None will cause some residual "
+"echo"
+msgstr "無 - 此設定會停用 NLP 處理，不是建議的設定。在大多數情況下，選擇「無」會造成一些殘留回音"
+
+#: views/dahdi_advanced_settings.php:208
+msgid ""
+"None - This setting disables NLP processing and is not a recommended "
+"setting. Under most circumstances, choos- ing None will cause some residual "
+"echo."
+msgstr "無 - 此設定會停用 NLP 處理，不是建議的設定。在大多數情況下，選擇「無」會造成一些殘留回音。"
+
+#: views/dahdi_advanced_settings.php:155
+#: views/dahdi_advanced_settings.php:163
+#: views/dahdi_advanced_settings.php:171
+#: views/dahdi_modprobe_settings.php:150
+#: views/dahdi_modprobe_settings.php:162
+#: views/dahdi_modprobe_settings.php:174
+#: views/sangoma.php:34
+msgid "Normal"
+msgstr "一般"
+
+#: views/dahdi_digital_settings.php:109
+msgid "Nortel DMS100"
+msgstr "Nortel DMS100"
+
+#: views/dahdi_advanced_settings.php:21
+#: views/dahdi_advanced_settings.php:108
+#: views/dahdi_modprobe_settings.php:91
+msgid "Norway"
+msgstr "挪威"
+
+#: views/dahdi_global_settings.php:21
+msgid "Norwegian"
+msgstr "挪威語"
+
+#: views/dahdi_global_settings.php:150
+msgid ""
+"Note that if any of your DAHDI cards have hardware echo cancelers, then this "
+"setting only turns them on and off. There are no special settings required "
+"for hardware echo cancelers; when present and enabled in their kernel "
+"modules, they take precedence over the software echo canceler compiled into "
+"DAHDI automatically"
+msgstr ""
+"請注意，若您的 DAHDI 卡具有硬體回音消除器，此設定只會將它們開啟或關閉。硬體回音消除器不需要特殊設定；當它們存在並在其核心模組中啟用時，會自動優先於編譯進 DAHDI 的軟體回音消除器"
+
+#: views/dahdi_global_settings.php:176
+msgid "Note that these parameters do not apply to hardware echo cancellers"
+msgstr "請注意，這些參數不適用於硬體回音消除器"
+
+#: views/dahdi_global_settings.php:185
+msgid ""
+"Note: If yes the dialplan execution will always start at extension 's' "
+"priority 1 regardless of the dialed number!"
+msgstr "注意：若為是，無論撥打什麼號碼，撥號計畫的執行一律會從分機「s」優先順序 1 開始！"
+
+#: views/dahdi_digital_settings.php:113
+msgid "Old National ISDN 1"
+msgstr "舊版 National ISDN 1"
+
+#: views/dahdi_advanced_settings.php:109
+#: views/dahdi_modprobe_settings.php:92
+msgid "Oman"
+msgstr "阿曼"
+
+#: views/dahdi_global_settings.php:43
+msgid ""
+"On trunk interfaces (FXS) and E&M interfaces (E&M, Wink, Feature Group D "
+"etc) it can be useful to perform busy detection either in an effort to "
+"detect hangup or for detecting busies"
+msgstr ""
+"在中繼介面（FXS）與 E&M 介面（E&M、Wink、Feature Group D 等）上，執行忙音偵測可能很有用，可用於偵測掛斷或偵測忙線"
+
+#: views/dahdi_advanced_settings.php:57
+#: views/dahdi_modprobe_settings.php:38
+msgid "Opermode"
+msgstr "Opermode"
+
+#: views/dahdi_global_settings.php:240
+msgid "Other Global Dahdi Settings"
+msgstr "其他全域 Dahdi 設定"
+
+#: views/dahdi_modprobe_settings.php:299
+msgid "Other Modprobe Settings"
+msgstr "其他 Modprobe 設定"
+
+#: views/dahdi_analog_settings.php:73
+msgid "Other Port Settings"
+msgstr "其他連接埠設定"
+
+#: views/dahdi_global_settings.php:202
+msgid "Outgoing"
+msgstr "外撥"
+
+#: views/dahdi_digital_settings.php:80
+msgid "PRI - CPE"
+msgstr "PRI - CPE"
+
+#: views/dahdi_digital_settings.php:81
+msgid "PRI - Net"
+msgstr "PRI - Net"
+
+#: views/dahdi_advanced_settings.php:110
+#: views/dahdi_modprobe_settings.php:93
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: views/dahdi_advanced_settings.php:156
+#: views/dahdi_modprobe_settings.php:151
+msgid "Peak (89v)"
+msgstr "峰值 (89v)"
+
+#: views/dahdi_advanced_settings.php:111
+#: views/dahdi_modprobe_settings.php:94
+msgid "Peru"
+msgstr "秘魯"
+
+#: views/dahdi_advanced_settings.php:52
+#: views/dahdi_advanced_settings.php:112
+#: views/dahdi_mfcr2_settings.php:25
+#: views/dahdi_modprobe_settings.php:95
+msgid "Philippines"
+msgstr "菲律賓"
+
+#: page.dahdi.php:20
+#, php-format
+msgid "Please Delete the System Generated %s"
+msgstr "請刪除系統產生的 %s"
+
+#: includes/dahdi_cards.class.php:1497
+#: includes/dahdi_cards.class.php:1819
+#, php-format
+msgid "Please change permissions on %s"
+msgstr "請變更 %s 的權限"
+
+#: views/dahdi_advanced_settings.php:11
+msgid ""
+"Please choose your country or your nearest neighboring country for default "
+"Tones (Ex: dialtone, busy tone, ring tone etc.)"
+msgstr "請選擇您的國家或最鄰近的國家，以使用預設音調（例如：撥號音、忙音、振鈴音等）。"
+
+#: includes/dahdi_cards.class.php:133
+#, php-format
+msgid "Please run '%s', then go back into the DAHDi Config Module"
+msgstr "請執行「%s」，然後回到 DAHDi 設定模組"
+
+#: includes/dahdi_cards.class.php:141
+#, php-format
+msgid "Please run 'touch %s' and then '%s' to create this file."
+msgstr "請執行「touch %s」，然後執行「%s」以建立此檔案。"
+
+#: views/dahdi_advanced_settings.php:36
+#: views/dahdi_advanced_settings.php:113
+#: views/dahdi_modprobe_settings.php:96
+msgid "Poland"
+msgstr "波蘭"
+
+#: views/sangoma.php:79
+msgid "Polarity CID Timeout"
+msgstr "極性來電顯示逾時"
+
+#: views/sangoma.php:71
+msgid "Polarity CID Timer"
+msgstr "極性來電顯示計時器"
+
+#: views/sangoma.php:63
+msgid "Polarity Threshold"
+msgstr "極性臨界值"
+
+#: views/dahdi_global_settings.php:30
+msgid "Polish"
+msgstr "波蘭語"
+
+#: views/dahdi_analog_signalling_form.php:11
+#, php-format
+msgid "Port %s"
+msgstr "連接埠 %s"
+
+#: views/dahdi_analog_settings.php:12
+#, php-format
+msgid "Port %s Settings"
+msgstr "連接埠 %s 設定"
+
+#: views/dahdi_analog_hardware.php:6
+msgid "Ports"
+msgstr "連接埠"
+
+#: views/dahdi_advanced_settings.php:38
+#: views/dahdi_advanced_settings.php:114
+#: views/dahdi_modprobe_settings.php:97
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: views/dahdi_global_settings.php:32
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+#: views/dahdi_digital_settings.php:114
+msgid "Q.SIG"
+msgstr "Q.SIG"
+
+#: views/dahdi_advanced_settings.php:218
+#: views/dahdi_modprobe_settings.php:238
+msgid "Random Noise"
+msgstr "隨機雜訊"
+
+#: views/dahdi_modprobe_settings.php:228
+msgid ""
+"Random Noise - This setting causes the NLP to inject random noise to mask "
+"the echo reflection. For users in normal environments, Random Noise may be "
+"acceptable"
+msgstr "隨機雜訊 - 此設定會讓 NLP 注入隨機雜訊以遮蔽回音反射。對於處於一般環境的使用者，隨機雜訊可能可以接受"
+
+#: views/dahdi_advanced_settings.php:210
+msgid ""
+"Random Noise - This setting causes the NLP to inject random noise to mask "
+"the echo reflection. For users in normal environments, Random Noise may be "
+"acceptable."
+msgstr "隨機雜訊 - 此設定會讓 NLP 注入隨機雜訊以遮蔽回音反射。對於處於一般環境的使用者，隨機雜訊可能可以接受。"
+
+#: views/dahdi_global_settings.php:209
+msgid "Receive Gain"
+msgstr "接收增益"
+
+#: page.dahdi.php:74
+msgid "Reload Asterisk DAHDi Module"
+msgstr "重新載入 Asterisk DAHDi 模組"
+
+#: assets/js/main.js:525
+msgid "Reloading..."
+msgstr "正在重新載入..."
+
+#: install.php:198
+msgid "Replacing.."
+msgstr "正在取代.."
+
+#: page.dahdi.php:479
+msgid "Reset File To Defaults"
+msgstr "將檔案重設為預設值"
+
+#: page.dahdi.php:72
+msgid "Restart DAHDi & Asterisk"
+msgstr "重新啟動 DAHDi 與 Asterisk"
+
+#: page.dahdi.php:558
+msgid "Restarting DAHDi and Asterisk. Please wait..."
+msgstr "正在重新啟動 DAHDi 與 Asterisk。請稍候..."
+
+#: assets/js/main.js:547
+msgid "Restarting..."
+msgstr "正在重新啟動..."
+
+#: views/dahdi_advanced_settings.php:176
+#: views/dahdi_modprobe_settings.php:181
+msgid "Ring Detect"
+msgstr "振鈴偵測"
+
+#: views/dahdi_advanced_settings.php:115
+#: views/dahdi_modprobe_settings.php:98
+msgid "Romania"
+msgstr "羅馬尼亞"
+
+#: views/dahdi_advanced_settings.php:116
+#: views/dahdi_modprobe_settings.php:99
+msgid "Russia"
+msgstr "俄羅斯"
+
+#: views/dahdi_global_settings.php:37
+msgid "Russian"
+msgstr "俄語"
+
+#: views/dahdi_advanced_settings.php:53
+msgid "Russian Federation"
+msgstr "俄羅斯聯邦"
+
+#: views/sangoma.php:1
+msgid "Sangoma Settings"
+msgstr "Sangoma 設定"
+
+#: views/dahdi_advanced_settings.php:117
+#: views/dahdi_modprobe_settings.php:100
+msgid "Saudi Arabia"
+msgstr "沙烏地阿拉伯"
+
+#: page.dahdi.php:270
+#: page.dahdi.php:289
+#: page.dahdi.php:333
+#: page.dahdi.php:395
+#: page.dahdi.php:419
+#: page.dahdi.php:438
+#: page.dahdi.php:457
+#: page.dahdi.php:502
+#: views/dahdi_advanced_settings.php:234
+#: views/dahdi_analog_signalling_form.php:27
+msgid "Save"
+msgstr "儲存"
+
+#: views/dahdi_global_settings.php:9
+msgid "Select Language"
+msgstr "選擇語言"
+
+#: page.dahdi.php:310
+msgid "Set Defaults"
+msgstr "設定預設值"
+
+#: views/sangoma.php:30
+msgid "Set port clocking"
+msgstr "設定連接埠時脈"
+
+#: views/dahdi_analog_settings.php:16
+#: views/dahdi_digital_hardware.php:10
+msgid "Signaling"
+msgstr "訊號方式"
+
+#: views/dahdi_advanced_settings.php:31
+#: views/dahdi_advanced_settings.php:118
+#: views/dahdi_modprobe_settings.php:101
+msgid "Singapore"
+msgstr "新加坡"
+
+#: views/dahdi_mfcr2_settings.php:245
+msgid "Skip Category"
+msgstr "略過類別"
+
+#: views/dahdi_mfcr2_settings.php:247
+msgid ""
+"Skips request of calling party category and ANI. <br />You need openr2 >= "
+"1.2.0 to use this feature<br /> <strong>Default:</strong>no"
+msgstr ""
+"略過要求發話方類別與 ANI。<br />您需要 openr2 >= 1.2.0 才能使用此功能<br /> <strong>預設：</strong>否"
+
+#: views/dahdi_advanced_settings.php:119
+#: views/dahdi_modprobe_settings.php:102
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: views/dahdi_advanced_settings.php:120
+#: views/dahdi_modprobe_settings.php:103
+msgid "Slovenia"
+msgstr "斯洛維尼亞"
+
+#: dahdiconfig.i18n.php:34
+msgid "Software EC"
+msgstr "軟體 EC"
+
+#: dahdiconfig.i18n.php:44
+msgid ""
+"Some development environments can not host DAHDI hardware so this mode uses "
+"mock files to acomplish the tasks."
+msgstr "某些開發環境無法搭載 DAHDI 硬體，因此此模式使用模擬檔案來完成這些工作。"
+
+#: views/dahdi_advanced_settings.php:37
+#: views/dahdi_advanced_settings.php:121
+#: views/dahdi_modprobe_settings.php:104
+msgid "South Africa"
+msgstr "南非"
+
+#: views/dahdi_global_settings.php:31
+msgid "South African"
+msgstr "南非英語"
+
+#: views/dahdi_advanced_settings.php:122
+#: views/dahdi_modprobe_settings.php:105
+msgid "South Korea"
+msgstr "韓國"
+
+#: views/dahdi_advanced_settings.php:19
+#: views/dahdi_advanced_settings.php:123
+#: views/dahdi_modprobe_settings.php:106
+msgid "Spain"
+msgstr "西班牙"
+
+#: views/dahdi_digital_hardware.php:5
+msgid "Span"
+msgstr "Span"
+
+#: views/dahdi_global_settings.php:19
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: views/dahdi_advanced_settings.php:57
+#: views/dahdi_modprobe_settings.php:38
+msgid ""
+"Specify the On Hook Speed, Ringer Impedance, Ringer Threshold, Current "
+"limiting, Tip/Ring voltage adjustment, Minimum Operational Loop current, and "
+"AC Impedance selection as predefined for each countries' analog line "
+"characteristics. Select the country in which your Asterisk server is "
+"operating. FCC is equivalent to United States. TBR21 is equivalent to "
+"Austria, Belgium, Denmark, Finland, France, Germany, Greece, Iceland, "
+"Ireland, Italy, Luxembourg, Netherlands, Norway, Portugal, Spain, Sweden, "
+"Switzerland, and the United Kingdom. If no choice is specified, the default "
+"is FCC"
+msgstr ""
+"依照各國類比線路特性所預先定義的值，指定掛鉤速度、振鈴器阻抗、振鈴臨界值、電流限制、Tip/Ring 電壓調整、最小工作迴路電流與 AC 阻抗選擇。請選擇您 Asterisk 伺服器運作所在的國家。FCC 等同於美國。TBR21 等同於奧地利、比利時、丹麥、芬蘭、法國、德國、希臘、冰島、愛爾蘭、義大利、盧森堡、荷蘭、挪威、葡萄牙、西班牙、瑞典、瑞士與英國。若未指定，預設為 FCC"
+
+#: views/dahdi_modprobe_settings.php:121
+msgid ""
+"Specify the audio compression scheme (codec) to be used for analog lines. "
+"North American users should choose ulaw. All other countries, unless "
+"otherwise known, should be assumed to be alaw. If no choice is specified, "
+"the default is ulaw. Confirm the scheme which will be best for operation"
+msgstr ""
+"指定要用於類比線路的音訊壓縮方式（編解碼器）。北美的使用者應選擇 ulaw。除非已知其他情況，否則其他所有國家都應假定為 alaw。若未指定，預設為 ulaw。請確認最適合運作的壓縮方式"
+
+#: views/dahdi_advanced_settings.php:136
+msgid ""
+"Specify the audio compression scheme (codec) to be used for analog lines. "
+"North American users should choose ulaw. All other countries, unless "
+"otherwise known, should be assumed to be alaw. If no choice is specified, "
+"the default is ulaw. Confirm the scheme which will be best for operation."
+msgstr ""
+"指定要用於類比線路的音訊壓縮方式（編解碼器）。北美的使用者應選擇 ulaw。除非已知其他情況，否則其他所有國家都應假定為 alaw。若未指定，預設為 ulaw。請確認最適合運作的壓縮方式。"
+
+#: views/dahdi_modprobe_settings.php:9
+msgid "Specify the kernel module used by the installed analog hardware"
+msgstr "指定已安裝的類比硬體所使用的核心模組"
+
+#: views/dahdi_advanced_settings.php:7
+msgid "Specify the kernel module used by the installed analog hardware."
+msgstr "指定已安裝的類比硬體所使用的核心模組。"
+
+#: views/dahdi_global_settings.php:9
+msgid "Specify the language"
+msgstr "指定語言"
+
+#: views/dahdi_advanced_settings.php:184
+#: views/dahdi_modprobe_settings.php:193
+msgid ""
+"Specify the type of Message Waiting Indicator detection to be done on FXO "
+"ports. If no choice is specified, the default is none. The following options "
+"are available"
+msgstr "指定要在 FXO 連接埠上執行哪種類型的訊息等待指示（MWI）偵測。若未指定，預設為 none。可使用下列選項"
+
+#: views/dahdi_modprobe_settings.php:145
+msgid ""
+"Specify the voltage used for ringing an analog phone. Normal will set the "
+"ring voltage to 40V, and Peak will set the voltage to 89V. If no choice is "
+"specified, the default is normal"
+msgstr "指定用於振鈴類比電話的電壓。Normal 會將振鈴電壓設為 40V，Peak 則設為 89V。若未指定，預設為 normal"
+
+#: views/dahdi_advanced_settings.php:152
+msgid ""
+"Specify the voltage used for ringing an analog phone. Normal will set the "
+"ring voltage to 40V, and Peak will set the voltage to 89V. If no choice is "
+"specified, the default is normal."
+msgstr "指定用於振鈴類比電話的電壓。Normal 會將振鈴電壓設為 40V，Peak 則設為 89V。若未指定，預設為 normal。"
+
+#: views/dahdi_global_settings.php:184
+msgid ""
+"Specify whether the channel should be answered immediately or if the simple "
+"switch should provide dialtone, read digits, etc"
+msgstr "指定通道應立即應答，或由簡易交換功能提供撥號音、讀取數字等"
+
+#: views/dahdi_modprobe_settings.php:157
+msgid ""
+"Specify whether to apply Fast Ringer operation. Setting Fast Ringer (25Hz) "
+"(commonly used in conjunction with the Low Power option) increases the "
+"ringing speed to 25Hz. If no choice is specified, the default is normal"
+msgstr "指定是否套用快速振鈴運作。設定快速振鈴 (25Hz)（通常與低功率選項搭配使用）會將振鈴速度提高至 25Hz。若未指定，預設為 normal"
+
+#: views/dahdi_advanced_settings.php:160
+msgid ""
+"Specify whether to apply Fast Ringer operation. Setting Fast Ringer (25Hz) "
+"(commonly used in conjunction with the Low Power option) increases the "
+"ringing speed to 25Hz. If no choice is specified, the default is normal."
+msgstr ""
+"指定是否套用快速振鈴運作。設定快速振鈴 (25Hz)（通常與低功率選項搭配使用）會將振鈴速度提高至 25Hz。若未指定，預設為 normal。"
+
+#: views/dahdi_modprobe_settings.php:169
+msgid ""
+"Specify whether to apply Low Power operation. Setting Fast Ringer to 50V "
+"peak in conjunction with the Fast Ringer option increases the peak voltage "
+"during Fast Ringer operation to 50V. If no choice is specified, the default "
+"is normal"
+msgstr ""
+"指定是否套用低功率運作。將快速振鈴設為 50V 峰值並搭配快速振鈴選項，會讓快速振鈴運作期間的峰值電壓提高至 50V。若未指定，預設為 normal"
+
+#: views/dahdi_advanced_settings.php:168
+msgid ""
+"Specify whether to apply Low Power operation. Setting Fast Ringer to 50V "
+"peak in conjunction with the Fast Ringer option increases the peak voltage "
+"during Fast Ringer operation to 50V. If no choice is specified, the default "
+"is normal."
+msgstr ""
+"指定是否套用低功率運作。將快速振鈴設為 50V 峰值並搭配快速振鈴選項，會讓快速振鈴運作期間的峰值電壓提高至 50V。若未指定，預設為 normal。"
+
+#: views/dahdi_modprobe_settings.php:181
+msgid ""
+"Specify whether to apply normal ring detection, or a full wave detection to "
+"prevent false ring detection for lines where CallerID is sent before the "
+"first ring and proceeded by a polarity reversal (as in the United Kingdom). "
+"If you are experiencing trouble with detecting CallerID from analog service "
+"providers, or have lines which exhibit a polarity reversal before CallerID "
+"is transmitted from the provider, then select Full Wave. If no choice is "
+"specified, the default is standard"
+msgstr ""
+"指定要套用一般振鈴偵測，或使用全波偵測，以避免在來電顯示於第一次振鈴前送出並先出現極性反轉的線路（如英國）上發生誤判振鈴。若您在偵測類比服務供應商的來電顯示時遇到問題，或線路在供應商送出來電顯示前會出現極性反轉，請選擇「全波」。若未指定，預設為 standard"
+
+#: views/dahdi_advanced_settings.php:176
+msgid ""
+"Specify whether to apply normal ring detection, or a full wave detection to "
+"prevent false ring detection for lines where CallerID is sent before the "
+"first ring and proceeded by a polarity reversal (as in the United Kingdom). "
+"If you are experiencing trouble with detecting CallerID from analog service "
+"providers, or have lines which exhibit a polarity reversal before CallerID "
+"is transmitted from the provider, then select Full Wave. If no choice is "
+"specified, the default is standard."
+msgstr ""
+"指定要套用一般振鈴偵測，或使用全波偵測，以避免在來電顯示於第一次振鈴前送出並先出現極性反轉的線路（如英國）上發生誤判振鈴。若您在偵測類比服務供應商的來電顯示時遇到問題，或線路在供應商送出來電顯示前會出現極性反轉，請選擇「全波」。若未指定，預設為 standard。"
+
+#: views/dahdi_modprobe_settings.php:133
+msgid ""
+"Specify whether to apply the opermode setting to your FXO modules only, or "
+"to both FXS and FXO modules. If no choice is specified, the default is apply "
+"opermode to fxo modules only"
+msgstr ""
+"指定要只將 opermode 設定套用至 FXO 模組，或同時套用至 FXS 與 FXO 模組。若未指定，預設為只將 opermode 套用至 FXO 模組"
+
+#: views/dahdi_advanced_settings.php:144
+msgid ""
+"Specify whether to apply the opermode setting to your FXO modules only, or "
+"to both FXS and FXO modules. If no choice is specified, the default is apply "
+"opermode to fxo modules only."
+msgstr ""
+"指定要只將 opermode 設定套用至 FXO 模組，或同時套用至 FXS 與 FXO 模組。若未指定，預設為只將 opermode 套用至 FXO 模組。"
+
+#: views/dahdi_advanced_settings.php:179
+#: views/dahdi_modprobe_settings.php:186
+msgid "Standard"
+msgstr "標準"
+
+#: Dahdiconfig.class.php:122
+msgid "Starting DAHDi for Digium Cards"
+msgstr "正在為 Digium 卡啟動 DAHDi"
+
+#: Dahdiconfig.class.php:104
+msgid "Starting Wanrouter for Sangoma Cards"
+msgstr "正在為 Sangoma 卡啟動 Wanrouter"
+
+#: Dahdiconfig.class.php:171
+msgid "Stopping DAHDi for Digium Cards"
+msgstr "正在為 Digium 卡停止 DAHDi"
+
+#: Dahdiconfig.class.php:158
+msgid "Stopping Wanrouter for Sangoma Cards"
+msgstr "正在為 Sangoma 卡停止 Wanrouter"
+
+#: views/dahdi_global_settings.php:127
+msgid "Support call forward variable"
+msgstr "支援來電轉接變數"
+
+#: views/dahdi_global_settings.php:111
+msgid "Support flash-hook call transfer (requires three way calling)"
+msgstr "支援掛鉤閃斷通話轉接（需要三方通話）"
+
+#: views/dahdi_global_settings.php:115
+msgid "Support switch-side transfer (called 2BCT, RLT or other names)"
+msgstr "支援交換機端轉接（又稱 2BCT、RLT 或其他名稱）"
+
+#: views/dahdi_global_settings.php:99
+msgid "Support three-way calling"
+msgstr "支援三方通話"
+
+#: views/dahdi_advanced_settings.php:220
+#: views/dahdi_modprobe_settings.php:240
+msgid "Suppression NLP (default)"
+msgstr "抑制 NLP（預設）"
+
+#: views/dahdi_modprobe_settings.php:230
+msgid ""
+"Suppression NLP - This setting causes the NLP to suppress echo reflections "
+"by reducing the amplitude of their volume. Suppression may be used in "
+"combination with the Echo cancellation NLP Max Suppression option. For users "
+"in loud environments, Suppression NLP may be the best option. This is the "
+"default setting for the Echo Cancellation NLP Type option"
+msgstr ""
+"抑制 NLP - 此設定會讓 NLP 藉由降低回音反射的音量振幅來抑制它們。抑制可與「回音消除 NLP 最大抑制」選項搭配使用。對於處於吵雜環境的使用者，抑制 NLP 可能是最佳選項。這是「回音消除 NLP 類型」選項的預設設定"
+
+#: views/dahdi_advanced_settings.php:212
+msgid ""
+"Suppression NLP - This setting causes the NLP to suppress echo reflections "
+"by reducing the amplitude of their volume. Suppression may be used in "
+"combination with the Echo cancellation NLP Max Suppression option. For users "
+"in loud environments, Suppression NLP may be the best option. This is the "
+"default setting for the Echo Cancellation NLP Type option."
+msgstr ""
+"抑制 NLP - 此設定會讓 NLP 藉由降低回音反射的音量振幅來抑制它們。抑制可與「回音消除 NLP 最大抑制」選項搭配使用。對於處於吵雜環境的使用者，抑制 NLP 可能是最佳選項。這是「回音消除 NLP 類型」選項的預設設定。"
+
+#: views/dahdi_advanced_settings.php:29
+#: views/dahdi_advanced_settings.php:124
+#: views/dahdi_modprobe_settings.php:107
+msgid "Sweden"
+msgstr "瑞典"
+
+#: views/dahdi_global_settings.php:25
+msgid "Swedish"
+msgstr "瑞典語"
+
+#: views/dahdi_advanced_settings.php:43
+#: views/dahdi_advanced_settings.php:125
+#: views/dahdi_modprobe_settings.php:108
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: views/dahdi_advanced_settings.php:126
+#: views/dahdi_modprobe_settings.php:109
+msgid "Syria"
+msgstr "敘利亞"
+
+#: dahdiconfig.i18n.php:38
+msgid "System Configuration File Location"
+msgstr "系統設定檔位置"
+
+#: page.dahdi.php:83
+#: page.dahdi.php:105
+msgid "System Settings"
+msgstr "系統設定"
+
+#: views/dahdi_modprobe_settings.php:276
+msgid "T1"
+msgstr "T1"
+
+#: views/dahdi_advanced_settings.php:128
+#: views/dahdi_modprobe_settings.php:111
+msgid "TBR21"
+msgstr "TBR21"
+
+#: views/dahdi_advanced_settings.php:27
+#: views/dahdi_advanced_settings.php:127
+#: views/dahdi_modprobe_settings.php:110
+msgid "Taiwan"
+msgstr "台灣"
+
+#: views/dahdi_global_settings.php:24
+msgid "Taiwanese"
+msgstr "台灣閩南語"
+
+#: views/dahdi_advanced_settings.php:49
+#: views/dahdi_advanced_settings.php:129
+#: views/dahdi_modprobe_settings.php:112
+msgid "Thailand"
+msgstr "泰國"
+
+#: page.dahdi.php:167
+#, php-format
+msgid ""
+"The %s team can NOT be held responsible if you enable this module and your "
+"trunks/cards suddenly stop working because your configurations have changed."
+msgstr "若您啟用此模組後，因為設定變更而導致您的中繼/卡突然停止運作，%s 團隊恕不負責。"
+
+#: dahdiconfig.i18n.php:8
+msgid ""
+"The DAHDI module is designed to let you manage and configure your PSTN cards."
+msgstr "DAHDI 模組的用途是讓您管理與設定您的 PSTN 卡。"
+
+#: views/dahdi_analog_settings.php:47
+msgid "The context to use for inbound calls to this analog device"
+msgstr "此類比裝置的來電所要使用的 context"
+
+#: views/dahdi_modprobe_settings.php:271
+msgid ""
+"The recommended way to set line mode on your Digium 1-, 2-, and 4-port "
+"(span) digital telephony cards is to set the jumper(s) on the card for "
+"either T1 or E1 mode for each span on the card. With the jumper off, the "
+"span is ready for T1 mode; with the jumper on, the span is ready for E1 "
+"mode. For more details about the jumpers, see the user manual for the "
+"single, dual, or quad span digital cards.<br/>However, sometimes a card will "
+"have been installed in a server without first setting the jumper(s) "
+"correctly, and it may be inconvenient to remove the card from the server to "
+"access its jumper(s).  In this case, the \"default_linemode\" option can be "
+"passed when the card's device driver is loaded"
+msgstr ""
+"在您的 Digium 1、2 與 4 埠（span）數位電話卡上設定線路模式的建議做法，是為卡上每個 span 設定跳線為 T1 或 E1 模式。跳線移除時，該 span 適用於 T1 模式；跳線裝上時，該 span 適用於 E1 模式。關於跳線的詳細資訊，請參閱單、雙或四 span 數位卡的使用手冊。<br/>然而，有時卡片安裝到伺服器時並未先正確設定跳線，而要將卡片從伺服器移除以存取跳線並不方便。在這種情況下，可以在載入卡片的裝置驅動程式時傳入 \"default_linemode\" 選項"
+
+#: views/dahdi_global_settings.php:209
+#: views/dahdi_global_settings.php:217
+msgid ""
+"The values are in db (decibels). A positive number increases the volume "
+"level on a channel, and a negative value decreases volume level"
+msgstr "這些值以 db（分貝）為單位。正數會提高通道的音量，負數則會降低音量"
+
+#: functions.inc.php:514
+msgid ""
+"There are no DAHDI Groups or Channels available to be configured. Check the "
+"DAHDI module to configure any un-used cards"
+msgstr "沒有可設定的 DAHDI 群組或通道。請檢查 DAHDI 模組以設定任何未使用的卡"
+
+#: views/dahdi_modprobe_settings.php:4
+#: views/sangoma.php:2
+#, php-format
+msgid "This edits all settings in %s"
+msgstr "這會編輯 %s 中的所有設定"
+
+#: views/dahdi_global_settings.php:4
+msgid "This edits all settings in chan_dahdi.conf"
+msgstr "這會編輯 chan_dahdi.conf 中的所有設定"
+
+#: views/dahdi_modules_settings.php:4
+#, php-format
+msgid "This edits order and loading of DAHDi modules in %s"
+msgstr "這會編輯 %s 中 DAHDi 模組的順序與載入方式"
+
+#: views/dahdi_global_settings.php:43
+msgid "This enables listening for the beep-beep busy pattern"
+msgstr "這會啟用對嗶嗶忙音模式的監聽"
+
+#: views/dahdi_mfcr2_settings.php:211
+msgid ""
+"This feature allows to skip the use of Group B/II signals and go directly to "
+"the accepted state for incoming calls.<br /> <strong>Default:</strong>no"
+msgstr "此功能允許略過 Group B/II 訊號的使用，讓來電直接進入已接受狀態。<br /> <strong>預設：</strong>否"
+
+#: views/dahdi_mfcr2_settings.php:193
+msgid ""
+"This feature is related but independent of mfcr2_allow_collect_calls. <br /"
+">Some PBX's require a double-answer process to block collect calls, if you "
+"ever have problems blocking collect calls using Group B signals "
+"(mfcr2_allow_collect_calls=no) then you may want to try with "
+"mfcr2_double_answer=yes, this will cause that every answer signal is changed "
+"by answer->clear back->answer (sort of a flash) (see also "
+"'mfcr2_allow_collect_calls')<br /> <strong>Default:</strong>no"
+msgstr ""
+"此功能與 mfcr2_allow_collect_calls 相關但彼此獨立。<br />某些 PBX 需要雙重應答流程才能封鎖對方付費通話；如果您使用 Group B 訊號封鎖對方付費通話時遇到問題（mfcr2_allow_collect_calls=no），可以嘗試設定 mfcr2_double_answer=yes，這會讓每個應答訊號變成 answer->clear back->answer（類似閃斷）（另請參閱「mfcr2_allow_collect_calls」）<br /> <strong>預設：</strong>否"
+
+#: Dahdiconfig.class.php:239
+msgid "This is not available on your system"
+msgstr "您的系統不支援這項功能"
+
+#: page.dahdi.php:176
+msgid ""
+"This message will re-appear everytime you load the module while it is in a "
+"disabled write state so as to not cause any confusion"
+msgstr "只要模組處於停用寫入的狀態，每次載入模組時都會再次顯示此訊息，以免造成混淆"
+
+#: page.dahdi.php:170
+msgid ""
+"This module should never be used alongside \"dahdi_genconfig\". Using "
+"\"dahdi_genconfig\" and this module at the same time can have unexpected "
+"consequences."
+msgstr "此模組不應與 \"dahdi_genconfig\" 同時使用。同時使用 \"dahdi_genconfig\" 與此模組可能會產生非預期的後果。"
+
+#: views/dahdi_modprobe_settings.php:246
+msgid ""
+"This option allows you to specify the threshold, in dB difference between "
+"the received audio (post echo cancellation) and the transmitted audio, for "
+"when the NLP will engage (VPMADT032 only). The default setting is 24 dB"
+msgstr ""
+"此選項可讓您指定接收音訊（回音消除後）與傳送音訊之間的 dB 差異臨界值，以決定 NLP 何時介入（僅限 VPMADT032）。預設設定為 24 dB"
+
+#: views/dahdi_advanced_settings.php:224
+msgid ""
+"This option allows you to specify the threshold, in dB difference between "
+"the received audio (post echo cancellation) and the transmitted audio, for "
+"when the NLP will engage (VPMADT032 only). The default setting is 24 dB."
+msgstr ""
+"此選項可讓您指定接收音訊（回音消除後）與傳送音訊之間的 dB 差異臨界值，以決定 NLP 何時介入（僅限 VPMADT032）。預設設定為 24 dB。"
+
+#: views/dahdi_advanced_settings.php:206
+#: views/dahdi_modprobe_settings.php:224
+msgid ""
+"This option allows you to specify the type of Non Linear Processor you want "
+"applied to the post echo-cancelled audio reflections received from analog "
+"connections (VPMADT032 only). There are several options"
+msgstr "此選項可讓您指定要套用至類比連線所收到、經回音消除後之音訊反射的非線性處理器類型（僅限 VPMADT032）。有多個選項"
+
+#: views/dahdi_analog_settings.php:17
+msgid ""
+"This option allows you to specify the type signaling for this analog device."
+msgstr "此選項可讓您指定此類比裝置的訊號類型。"
+
+#: views/dahdi_modprobe_settings.php:258
+msgid ""
+"This option, only functional when the Echo Cancellation NLP Type option is "
+"set to Suppression NLP, specifies the maximum amount of dB that the NLP "
+"should attenuate the residual echo (VPMADT032 only). Lower numbers mean that "
+"the NLP will provide less suppression (the residual echo will sound louder). "
+"Higher numbers, especially those approaching or equaling the Echo "
+"Cancellation NLP Threshold option, will nearly mute the residual echo. The "
+"default setting is 24 dB"
+msgstr ""
+"此選項只有在「回音消除 NLP 類型」選項設為「抑制 NLP」時才有作用，用來指定 NLP 應衰減殘留回音的最大 dB 量（僅限 VPMADT032）。數值越低，表示 NLP 提供的抑制越少（殘留回音聽起來會更大聲）。數值越高，尤其是接近或等於「回音消除 NLP 臨界值」選項時，幾乎會將殘留回音靜音。預設設定為 24 dB"
+
+#: views/dahdi_advanced_settings.php:228
+msgid ""
+"This option, only functional when the Echo Cancellation NLP Type option is "
+"set to Suppression NLP, specifies the maximum amount of dB that the NLP "
+"should attenuate the residual echo (VPMADT032 only). Lower numbers mean that "
+"the NLP will provide less suppression (the residual echo will sound louder). "
+"Higher numbers, especially those approaching or equaling the Echo "
+"Cancellation NLP Threshold option, will nearly mute the residual echo. The "
+"default setting is 24 dB."
+msgstr ""
+"此選項只有在「回音消除 NLP 類型」選項設為「抑制 NLP」時才有作用，用來指定 NLP 應衰減殘留回音的最大 dB 量（僅限 VPMADT032）。數值越低，表示 NLP 提供的抑制越少（殘留回音聽起來會更大聲）。數值越高，尤其是接近或等於「回音消除 NLP 臨界值」選項時，幾乎會將殘留回音靜音。預設設定為 24 dB。"
+
+#: views/dahdi_global_settings.php:116
+msgid ""
+"This setting must be enabled on both ports involved, and the "
+"\"facilityenable\" setting must also be enabled to allow sending the "
+"transfer to the ISDN switch, since it sent in a FACILITY message"
+msgstr ""
+"此設定必須在相關的兩個連接埠上都啟用，而且還必須啟用 \"facilityenable\" 設定，才能將轉接送至 ISDN 交換機，因為它是以 FACILITY 訊息送出"
+
+#: page.dahdi.php:480
+msgid "This will reload the page"
+msgstr "這會重新載入頁面"
+
+#: views/dahdi_mfcr2_settings.php:283
+msgid ""
+"Toggles 'report accept call with charge'; whether or not report to the other "
+"end 'accept call with charge'.  This setting has no effect with most telcos "
+"and is usually is safe.<br />Leave the default (yes), but once in a while "
+"when interconnecting with old PBXs this may be useful. <br />Concretely this "
+"affects the Group B signal used to accept calls. <br />The application "
+"DAHDIAcceptR2Call can also be used to decide this in the dial plan in a per-"
+"call basis instead of doing it here for all calls.<br /> <strong>Default:</"
+"strong>yes"
+msgstr ""
+"切換「回報接受通話並計費」；決定是否向另一端回報「接受通話並計費」。對大多數電信業者而言此設定沒有影響，通常是安全的。<br />保留預設值（yes），但偶爾在與舊式 PBX 互連時可能有用。<br />具體來說，這會影響用於接受通話的 Group B 訊號。<br />DAHDIAcceptR2Call 應用程式也可以在撥號計畫中依每通電話決定此事，而不必在此為所有通話設定。<br /> <strong>預設：</strong>yes"
+
+#: views/dahdi_advanced_settings.php:11
+msgid "Tone Region"
+msgstr "音調區域"
+
+#: views/dahdi_global_settings.php:217
+msgid "Transmit Gain"
+msgstr "傳送增益"
+
+#: views/dahdi_analog_hardware.php:5
+msgid "Type"
+msgstr "類型"
+
+#: views/dahdi_advanced_settings.php:130
+#: views/dahdi_modprobe_settings.php:113
+msgid "UAE"
+msgstr "阿聯"
+
+#: views/dahdi_advanced_settings.php:131
+#: views/dahdi_modprobe_settings.php:114
+msgid "UK"
+msgstr "英國"
+
+#: includes/dahdi_cards.class.php:1497
+#: includes/dahdi_cards.class.php:1819
+#, php-format
+msgid "Unable to write to %s"
+msgstr "無法寫入 %s"
+
+#: views/dahdi_advanced_settings.php:17
+msgid "United Kingdom"
+msgstr "英國"
+
+#: views/dahdi_advanced_settings.php:25
+msgid "United States Circa 1950 / North America"
+msgstr "美國 1950 年代 / 北美"
+
+#: views/dahdi_advanced_settings.php:13
+#: views/dahdi_advanced_settings.php:60
+#: views/dahdi_modprobe_settings.php:43
+msgid "United States/North America"
+msgstr "美國/北美"
+
+#: views/dahdi_global_settings.php:66
+msgid "Use Caller ID"
+msgstr "使用來電顯示"
+
+#: views/dahdi_global_settings.php:88
+msgid "Use Caller ID Presentation"
+msgstr "使用來電顯示呈現"
+
+#: dahdiconfig.i18n.php:42
+msgid "Use mock hardware instead of real hardware"
+msgstr "使用模擬硬體而非真實硬體"
+
+#: views/dahdi_mfcr2_settings.php:81
+msgid ""
+"Usually national_subscriber works just fine.  You can also change this "
+"setting from the dialplan by setting the variable MFCR2_CATEGORY (remember "
+"to set _MFCR2_CATEGORY from originating channels). <br />MFCR2_CATEGORY will "
+"also be a variable available in your context on incoming calls set to the "
+"value received from the far end.<br /> <strong>Default:</"
+"strong>national_subscriber"
+msgstr ""
+"通常 national_subscriber 就很夠用。您也可以在撥號計畫中設定 MFCR2_CATEGORY 變數來變更此設定（記得從發話通道設定 _MFCR2_CATEGORY）。<br />在來電時，您的 context 中也會有 MFCR2_CATEGORY 變數，其值為從遠端收到的值。<br /> <strong>預設：</strong>national_subscriber"
+
+#: views/dahdi_advanced_settings.php:51
+#: views/dahdi_mfcr2_settings.php:26
+msgid "Venezuela"
+msgstr "委內瑞拉"
+
+#: views/dahdi_global_settings.php:174
+msgid "WARNING"
+msgstr "警告"
+
+#: page.dahdi.php:158
+msgid ""
+"WARNING: When this module is \"enabled\" for writing it WILL overwrite the "
+"following files:"
+msgstr "警告：當此模組「啟用」寫入時，它將會覆寫下列檔案："
+
+#: Dahdiconfig.class.php:108
+#: Dahdiconfig.class.php:162
+#, php-format
+msgid "Wanrouter Failed: %s"
+msgstr "Wanrouter 失敗：%s"
+
+#: Dahdiconfig.class.php:106
+msgid "Wanrouter Started"
+msgstr "Wanrouter 已啟動"
+
+#: Dahdiconfig.class.php:160
+msgid "Wanrouter Stopped"
+msgstr "Wanrouter 已停止"
+
+#: views/dahdi_global_settings.php:77
+msgid ""
+"Whether or not to enable call waiting on internal extensions. With this set "
+"to \"yes\", busy extensions will hear the call-waiting tone, and can use "
+"hook-flash to switch between callers. The Dial() app will not return the "
+"\"BUSY\" result for extensions."
+msgstr ""
+"是否在內部分機上啟用插撥。設為 \"yes\" 時，忙線中的分機會聽到插撥音，並可使用掛鉤閃斷在通話者之間切換。Dial() 應用程式對這些分機將不會傳回 \"BUSY\" 結果。"
+
+#: views/dahdi_global_settings.php:138
+msgid ""
+"Whether or not to support Call Return (*69, if your dialplan doesn't catch "
+"this first)"
+msgstr "是否支援回撥（*69，若您的撥號計畫未先攔截此號碼）"
+
+#: views/dahdi_global_settings.php:66
+msgid "Whether or not to use caller ID"
+msgstr "是否使用來電顯示"
+
+#: views/dahdi_global_settings.php:88
+msgid ""
+"Whether or not to use the caller ID presentation for the outgoing call that "
+"the calling switch is sending"
+msgstr "是否使用發話交換機為外撥通話所送出的來電顯示呈現"
+
+#: Dahdiconfig.class.php:70
+msgid "Writing out default Sangoma conf"
+msgstr "正在寫出預設 Sangoma 設定"
+
+#: views/dahdi_advanced_settings.php:132
+#: views/dahdi_modprobe_settings.php:115
+msgid "Yemen"
+msgstr "葉門"
+
+#: views/dahdi_global_settings.php:47
+#: views/dahdi_global_settings.php:70
+#: views/dahdi_global_settings.php:81
+#: views/dahdi_global_settings.php:92
+#: views/dahdi_global_settings.php:103
+#: views/dahdi_global_settings.php:120
+#: views/dahdi_global_settings.php:131
+#: views/dahdi_global_settings.php:142
+#: views/dahdi_global_settings.php:154
+#: views/dahdi_global_settings.php:165
+#: views/dahdi_global_settings.php:189
+#: views/dahdi_mfcr2_settings.php:72
+#: views/dahdi_mfcr2_settings.php:124
+#: views/dahdi_mfcr2_settings.php:184
+#: views/dahdi_mfcr2_settings.php:202
+#: views/dahdi_mfcr2_settings.php:220
+#: views/dahdi_mfcr2_settings.php:238
+#: views/dahdi_mfcr2_settings.php:256
+#: views/dahdi_mfcr2_settings.php:274
+#: views/dahdi_mfcr2_settings.php:292
+#: views/sangoma.php:12
+#: views/sangoma.php:45
+#: views/sangoma.php:57
+msgid "Yes"
+msgstr "是"
+
+#: page.dahdi.php:29
+msgid ""
+"You have new hardware! Please configure your new hardware using the edit "
+"button(s)"
+msgstr "您有新的硬體！請使用編輯按鈕設定您的新硬體"
+
+#: views/dahdi_mfcr2_settings.php:229
+msgid ""
+"You most likely dont need this feature. Default is yes. <br />When this is "
+"set to yes, all calls that are offered (incoming calls) for which DNIS is "
+"valid (exists in extensions.conf) and also pass collect call validation will "
+"be accepted with a Group B tone (either call with charge or not, depending "
+"on mfcr2_charge_calls).<br />With this set to 'no' then the call will NOT be "
+"accepted on offered and the call will start its execution in extensions.conf "
+"without being accepted until the channel is answered (either with Answer() "
+"or any other application resulting in the channel being answered). <br /"
+">This can be set to 'no' if your telco or PBX needs the hangup cause to be "
+"set accurately. <br />When this option is set to 'no' you must explicitly "
+"accept the call with DAHDIAcceptR2Call or implicitly through the Answer() "
+"application.<br /> <strong>Default:</strong>yes"
+msgstr ""
+"您很可能不需要此功能。預設為 yes。<br />當此設為 yes 時，所有被提供（來電）且其 DNIS 有效（存在於 extensions.conf 中）並通過對方付費通話驗證的通話，都會以 Group B 音接受（無論是否計費，取決於 mfcr2_charge_calls）。<br />將此設為「no」時，通話不會在提供時被接受，而會開始在 extensions.conf 中執行，直到通道被應答（透過 Answer() 或任何其他會使通道被應答的應用程式）才會被接受。<br />如果您的電信業者或 PBX 需要準確設定掛斷原因，可以將此設為「no」。<br />當此選項設為「no」時，您必須以 DAHDIAcceptR2Call 明確接受通話，或透過 Answer() 應用程式隱含接受。<br /> <strong>預設：</strong>yes"
+
+#: views/dahdi_modprobe_settings.php:127
+msgid "alaw"
+msgstr "alaw"
+
+#: views/dahdi_mfcr2_settings.php:92
+msgid "collect_call"
+msgstr "collect_call"
+
+#: includes/dahdi_cards.class.php:956
+msgid "dahdi_scan exists but can not be run as this user!"
+msgstr "dahdi_scan 存在，但無法以目前的使用者身分執行！"
+
+#: views/dahdi_modprobe_settings.php:62
+msgid "fcc"
+msgstr "fcc"
+
+#: views/dahdi_digital_settings.php:197
+msgid "gsm"
+msgstr "gsm"
+
+#: views/dahdi_mfcr2_settings.php:91
+msgid "international_priority_subscriber"
+msgstr "international_priority_subscriber"
+
+#: views/dahdi_mfcr2_settings.php:90
+msgid "international_subscriber"
+msgstr "international_subscriber"
+
+#: views/dahdi_mfcr2_settings.php:89
+msgid "national_priority_subscriber"
+msgstr "national_priority_subscriber"
+
+#: views/dahdi_mfcr2_settings.php:88
+msgid "national_subscriber"
+msgstr "national_subscriber"
+
+#: views/dahdi_modprobe_settings.php:195
+msgid "none - Performs no detection"
+msgstr "none - 不執行任何偵測"
+
+#: views/dahdi_advanced_settings.php:186
+msgid "none - Performs no detection "
+msgstr "none - 不執行任何偵測 "
+
+#: dahdiconfig.i18n.php:36
+msgid "software EC to use in system.conf"
+msgstr "system.conf 中要使用的軟體 EC"
+
+#: views/dahdi_modprobe_settings.php:126
+msgid "ulaw"
+msgstr "ulaw"

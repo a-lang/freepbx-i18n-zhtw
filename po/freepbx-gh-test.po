@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-15 00:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Traditional Chinese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Test"
+msgstr "測試"
+
+msgid "More"
+msgstr "更多"
+
+msgid "Content"
+msgstr "內容"
+
+#. this is a test
+msgid "install"
+msgstr "安裝"
+
+msgid "install test also"
+msgstr "安裝測試也"
+
+#. test of the uninstall comments
+msgid "uninstall"
+msgstr "解除安裝"
+
+#. comment for chown
+msgid "ownership"
+msgstr "所有權"
+
+#. comment for configure page
+msgid "configure page"
+msgstr "設定頁面"
+
+msgid "configure page test more"
+msgstr "設定頁面測試更多"
+
+msgid "one two three"
+msgstr "一 二 三"
+
+msgid "show page"
+msgstr "顯示頁面"
+
+msgid "Testing FreePBX repo GitHub Actions and more"
+msgstr "測試 FreePBX 儲存庫 GitHub Actions 及更多"
+
+msgid "Hello"
+msgstr "哈囉"
+
+msgid "Help"
+msgstr "說明"
+
+msgid "World"
+msgstr "世界"
+
+msgid "Thank you for visiting."
+msgstr "感謝您的存取。"

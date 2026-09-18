@@ -1,0 +1,128 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for amd
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-27 04:55-0500\n"
+"PO-Revision-Date: 2026-09-15 17:07+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: amd.i18n.php:4
+msgid "AMD"
+msgstr "AMD"
+
+#: amd.i18n.php:10
+#: views/settings.php:5
+msgid "AMD Settings"
+msgstr "AMD 設定"
+
+#: views/settings.php:69
+msgid "After Greeting Silence"
+msgstr "問候語後的靜默"
+
+#: amd.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/settings.php:165
+msgid "Between Words Silence"
+msgstr "字詞之間的靜默"
+
+#: views/settings.php:45
+msgid "Greeting"
+msgstr "問候語"
+
+#: views/settings.php:21
+msgid "Initial Silence"
+msgstr "初始靜默"
+
+#: views/settings.php:189
+msgid "Maximum Number Of Words"
+msgstr "字詞數量上限"
+
+#: views/settings.php:141
+msgid "Maximum Word Length"
+msgstr "字詞最大長度"
+
+#: views/settings.php:153
+msgid "Maximum duration of a single Voice utterance allowed. Default is 5000."
+msgstr "允許的單一語音發話最大時間。預設為 5000。"
+
+#: views/settings.php:57
+msgid ""
+"Maximum length of a greeting. If exceeded then MACHINE. Default is 1500."
+msgstr "問候語的最大長度。若超過則判定為 MACHINE。預設為 1500。"
+
+#: views/settings.php:201
+msgid "Maximum number of words in the greeting. Default is 3."
+msgstr "問候語中的字詞數量上限。預設為 3。"
+
+#: views/settings.php:33
+msgid "Maximum silence duration before the greeting. Default is 2500."
+msgstr "問候語之前的最大靜默時間。預設為 2500。"
+
+#: views/settings.php:105
+msgid "Maximum time allowed for the algorithm to decide. Default is 5000."
+msgstr "演算法進行判斷所允許的最大時間。預設為 5000。"
+
+#: views/settings.php:117
+msgid "Minimum Word Length"
+msgstr "字詞最小長度"
+
+#: views/settings.php:129
+msgid "Minimum duration of Voice to considered as a word. Default is 100."
+msgstr "被視為一個字詞的語音最短時間。預設為 100。"
+
+#: views/settings.php:177
+msgid "Minimum duration of silence after a word to consider. Default is 50."
+msgstr "字詞之後要納入判斷的靜默最短時間。預設為 50。"
+
+#: Amd.class.php:42
+msgid "Reset"
+msgstr "重設"
+
+#: install.php:21
+msgid "Restoring the existing settings"
+msgstr "正在還原既有設定"
+
+#: views/settings.php:213
+msgid "Silence Threshold"
+msgstr "靜默門檻值"
+
+#: views/settings.php:225
+msgid "Silence Threshold. Default is 256."
+msgstr "靜默門檻值。預設為 256。"
+
+#: views/settings.php:81
+msgid "Silence after detecting a greeting. Default is 800."
+msgstr "偵測到問候語之後的靜默。預設為 800。"
+
+#: Amd.class.php:42
+msgid "Submit"
+msgstr "送出"
+
+#: amd.i18n.php:8
+msgid ""
+"This module is used to manage AMD. The AMD application attempts to detect "
+"answering machines at the beginning of outbound calls"
+msgstr "此模組用於管理 AMD。AMD 應用程式會嘗試在外撥電話開始時偵測答錄機。"
+
+#: views/settings.php:93
+msgid "Total Analysis Time"
+msgstr "總分析時間"
+
+#: install.php:10
+msgid "amd.conf Configuration file found"
+msgstr "找到 amd.conf 組態檔"

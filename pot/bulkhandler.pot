@@ -1,0 +1,304 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for bulkhandler
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-22 13:24-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Console/Bulkimport.class.php:36
+msgid ""
+"<error>The file provided did not process properly. Check the file "
+"formatting</error>"
+msgstr ""
+
+#: Console/Bulkimport.class.php:59
+msgid "<error>The import failed</error>"
+msgstr ""
+
+#: Console/Bulkimport.class.php:32
+msgid "<error>The specified file does not exist or we cannot read it</error>"
+msgstr ""
+
+#: Console/Bulkimport.class.php:54
+msgid ""
+"<error>You must specify the file type of --type=dids or --type=extensions</"
+"error>"
+msgstr ""
+
+#: views/direct_import.php:12
+#, php-format
+msgid "<strong>Success! </strong>%s Data Imported successfully."
+msgstr ""
+
+#: Bulkhandler.class.php:157
+msgid "A PHP extension stopped the file upload"
+msgstr ""
+
+#: views/validate.php:49
+msgid "Actions"
+msgstr ""
+
+#: bulkhandler.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: Bulkhandler.class.php:318
+msgid "Already exists"
+msgstr ""
+
+#: views/import.php:102
+msgid "Browse"
+msgstr ""
+
+#: bulkhandler.i18n.php:4
+#: bulkhandler.i18n.php:10
+#: views/export.php:4
+#: views/import.php:4
+msgid "Bulk Handler"
+msgstr ""
+
+#: bulkhandler.i18n.php:8
+msgid ""
+"Bulk Handler manages the bulk export or import of extensions, DIDs, user "
+"manager users, user manager groups, and contacts. You can export any of "
+"these as a CSV file. You can also upload a CSV file to save time versus "
+"having to enter each item individually. The module provides required/"
+"recommended headers for your CSV files."
+msgstr ""
+
+#: views/export.php:86
+#: views/import.php:98
+msgid "CSV File"
+msgstr ""
+
+#: Bulkhandler.class.php:160
+msgid "Can Not Find Uploaded Files"
+msgstr ""
+
+#: Bulkhandler.class.php:499
+msgid "Cancel"
+msgstr ""
+
+#: Bulkhandler.class.php:115
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr ""
+
+#: Bulkhandler.class.php:130
+msgid "Cant find uploaded file"
+msgstr ""
+
+#: views/validate.php:83
+msgid "Close"
+msgstr ""
+
+#: views/direct_import.php:6
+#: views/validate.php:16
+msgid "Complete"
+msgstr ""
+
+#: views/direct_import.php:3
+msgid "Data Importing"
+msgstr ""
+
+#: views/validate.php:13
+msgid "Data Validation"
+msgstr ""
+
+#: views/validate.php:75
+msgid "Edit"
+msgstr ""
+
+#: views/export.php:6
+#: views/export.php:89
+#: views/import.php:6
+msgid "Export"
+msgstr ""
+
+#: views/export.php:96
+msgid "Export to CSV"
+msgstr ""
+
+#: Bulkhandler.class.php:154
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: views/import.php:111
+msgid "File to Import"
+msgstr ""
+
+#: Console/Bulkimport.class.php:19
+msgid "Filename"
+msgstr ""
+
+#: views/direct_import.php:25
+msgid "Go Back"
+msgstr ""
+
+#: Bulkhandler.class.php:181
+msgid "Header row and data row count do not match"
+msgstr ""
+
+#: views/validate.php:42
+msgid "ID"
+msgstr ""
+
+#: Bulkhandler.class.php:499
+#: views/export.php:7
+#: views/import.php:7
+msgid "Import"
+msgstr ""
+
+#: Console/Bulkimport.class.php:12
+msgid ""
+"Import a file: fwconsole bulkimport --type=[extensions|dids] filename.csv --"
+"replace(Replace the existing values)"
+msgstr ""
+
+#: Console/Bulkimport.class.php:14
+msgid ""
+"Import a file: fwconsole bulkimport --type=[extensions|dids|callaccounting] "
+"filename.csv --replace(Replace the existing values)"
+msgstr ""
+
+#: assets/js/global.js:24
+msgid ""
+"Imported trunks will not be associated with any routes need to create/assign "
+"the routes manually after import"
+msgstr ""
+
+#: Console/Bulkimport.class.php:50
+msgid "Importing CallDECK Ratepatterns"
+msgstr ""
+
+#: Console/Bulkimport.class.php:42
+msgid "Importing bulk dids"
+msgstr ""
+
+#: Console/Bulkimport.class.php:46
+msgid "Importing bulk extensions"
+msgstr ""
+
+#: Bulkhandler.class.php:151
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: views/validate.php:26
+msgid "No"
+msgstr ""
+
+#: views/export.php:10
+msgid "No Bulk Exporters have been defined"
+msgstr ""
+
+#: views/import.php:10
+msgid "No Bulk Importers have been defined"
+msgstr ""
+
+#: Bulkhandler.class.php:148
+msgid "No file was uploaded"
+msgstr ""
+
+#: assets/js/global.js:37
+msgid "Not file specified"
+msgstr ""
+
+#: assets/js/global.js:42
+msgid "Only CSV files are supported"
+msgstr ""
+
+#: views/validate.php:21
+msgid "Replace/Update existing data"
+msgstr ""
+
+#: views/import.php:141
+msgid ""
+"Required headers(*) are the minimum headers you must supply to be able to "
+"import. For a full list of all supported headers export out a CSV file from "
+"the export display"
+msgstr ""
+
+#: views/import.php:121
+msgid "Required(*)/Recommended Headers"
+msgstr ""
+
+#: assets/js/global.js:31
+msgid ""
+"Route configuration is not exported need to create the routes manually while "
+"importing the trunks."
+msgstr ""
+
+#: views/validate.php:84
+msgid "Save changes"
+msgstr ""
+
+#: views/import.php:151
+msgid "Submit"
+msgstr ""
+
+#: Bulkhandler.class.php:142
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+#: Bulkhandler.class.php:139
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: Bulkhandler.class.php:145
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: assets/js/global.js:77
+msgid "There is nothing to import!"
+msgstr ""
+
+#: Console/Bulkimport.class.php:18
+msgid "This command is used to import extensions and dids"
+msgstr ""
+
+#: Console/Bulkimport.class.php:19
+msgid "To replace existing values"
+msgstr ""
+
+#: Bulkhandler.class.php:203
+#, php-format
+msgid "Too many extensions to import. The limit is: %d physical extensions."
+msgstr ""
+
+#: Console/Bulkimport.class.php:19
+msgid "Type of file"
+msgstr ""
+
+#: Bulkhandler.class.php:208
+msgid "Unable to parse file"
+msgstr ""
+
+#: Bulkhandler.class.php:134
+#: Bulkhandler.class.php:189
+msgid "Unsupported file format"
+msgstr ""
+
+#: views/export.php:23
+#: views/import.php:26
+#, php-format
+msgid "What are \"%s\"?"
+msgstr ""
+
+#: views/validate.php:24
+msgid "Yes"
+msgstr ""

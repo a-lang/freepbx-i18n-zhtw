@@ -1,0 +1,105 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for featurecodeadmin
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-13 05:18+0000\n"
+"PO-Revision-Date: 2026-09-15 17:06+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Featurecodeadmin.class.php:162
+msgid "(none)"
+msgstr "（無）"
+
+#: views/view.main.list.php:106
+msgid "Actions"
+msgstr "動作"
+
+#: Featurecodeadmin.class.php:342
+#: views/view.main.list.php:103
+#: views/view.main.list.php:149
+msgid "Code"
+msgstr "代碼"
+
+#: views/view.main.toolbar.php:9
+msgid "Collapse All"
+msgstr "全部收合"
+
+#: Featurecodeadmin.class.php:111
+#, php-format
+msgid "Command [%s] not valid!"
+msgstr "指令 [%s] 無效！"
+
+#: views/view.main.list.php:135
+msgid "Custom feature codes"
+msgstr "自訂功能碼"
+
+#: views/view.main.list.php:51
+msgid "Customize"
+msgstr "自訂"
+
+#: Featurecodeadmin.class.php:341
+#: views/view.main.list.php:100
+#: views/view.main.list.php:146
+msgid "Description"
+msgstr "描述"
+
+#: views/view.main.list.php:53
+msgid "Enabled"
+msgstr "已啟用"
+
+#: views/view.main.toolbar.php:10
+msgid "Expand All"
+msgstr "全部展開"
+
+#: views/view.main.toolbar.php:5
+msgid "Feature Code Admin"
+msgstr "功能碼管理"
+
+#: views/view.main.list.php:84
+msgid "Feature Code Conflicts with other Extensions"
+msgstr "功能碼與其他分機衝突"
+
+#: Featurecodeadmin.class.php:340
+msgid "Feature Codes"
+msgstr "功能碼"
+
+#: Featurecodeadmin.class.php:477
+#, php-format
+msgid "Featurecode: %s (%s:%s)"
+msgstr "功能碼：%s（%s：%s）"
+
+#: Featurecodeadmin.class.php:67
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: assets/js/featurecodeadmin.js:36
+msgid "Please enter a Feature Code or uncheck Customize"
+msgstr "請輸入功能碼，或取消勾選「自訂」"
+
+#: Featurecodeadmin.class.php:80
+msgid "Reset"
+msgstr "重設"
+
+#: Featurecodeadmin.class.php:85
+msgid "Submit"
+msgstr "送出"
+
+#: views/view.main.list.php:83
+msgid ""
+"You have feature code conflicts with extension numbers in other modules. "
+"This will result in unexpected and broken behavior."
+msgstr "您的功能碼與其他模組中的分機號碼衝突。這將導致非預期且故障的行為。"

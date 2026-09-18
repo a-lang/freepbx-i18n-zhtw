@@ -1,0 +1,362 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for blacklist
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-12 04:51-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: views/blgrid.php:33
+msgid "Actions"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:18
+#: Api/Gql/Blacklist.php:43
+msgid "Add a new number to the blacklist"
+msgstr ""
+
+#: views/modal_addnumber.php:7
+msgid "Add or replace entry"
+msgstr ""
+
+#: assets/js/blacklist.js:85
+#, perl-format
+msgid "Added %s to the blacklist"
+msgstr ""
+
+#: assets/js/blacklist.js:66
+msgid "Adding..."
+msgstr ""
+
+#: Blacklist.class.php:31
+msgid ""
+"Adds a number to the Blacklist Module.  All calls from that number to the "
+"system will receive a disconnect recording.  Manage these in the Blacklist "
+"module."
+msgstr ""
+
+#: Blacklist.class.php:140
+msgid ""
+"Adds a number to the Blacklist Module. All calls from that number to the "
+"system will receive a disconnect recording. Manage these in the Blacklist "
+"module."
+msgstr ""
+
+#: Blacklist.class.php:33
+msgid ""
+"Adds the last caller to the Blacklist Module.  All calls from that number to "
+"the system will receive a disconnect recording."
+msgstr ""
+
+#: Blacklist.class.php:155
+msgid ""
+"Adds the last caller to the Blacklist Module. All calls from that number to "
+"the system will receive a disconnect recording."
+msgstr ""
+
+#: blacklist.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: assets/js/blacklist.js:161
+msgid "Are you sure to delete the selected records?"
+msgstr ""
+
+#: assets/js/blacklist.js:99
+#, perl-format
+msgid "Are you sure you want to delete the number %s?"
+msgstr ""
+
+#: Blacklist.class.php:30
+#: Blacklist.class.php:633
+#: blacklist.i18n.php:4
+#: blacklist.i18n.php:10
+#: views/general.php:16
+msgid "Blacklist"
+msgstr ""
+
+#: views/general.php:3
+msgid "Blacklist Module"
+msgstr ""
+
+#: views/blgrid.php:3
+msgid "Blacklist Number"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:121
+#: Api/Gql/Blacklist.php:133
+msgid "Blacklist Settings"
+msgstr ""
+
+#: Blacklist.class.php:27
+#: Blacklist.class.php:139
+msgid "Blacklist a number"
+msgstr ""
+
+#: Blacklist.class.php:29
+#: Blacklist.class.php:154
+msgid "Blacklist the last caller"
+msgstr ""
+
+#: Blacklist.class.php:597
+msgid "Blacklist: Destination for BlackListed Calls"
+msgstr ""
+
+#: views/general.php:51
+msgid "Block Unknown/Blocked Caller ID"
+msgstr ""
+
+#: views/general.php:39
+msgid "Bulk Handler"
+msgstr ""
+
+#: views/modal_calllog.php:24
+msgid "Call Date/Time"
+msgstr ""
+
+#: views/modal_calllog.php:7
+msgid "Call Log"
+msgstr ""
+
+#: Blacklist.class.php:515
+#: Blacklist.class.php:539
+#: Blacklist.class.php:554
+#: Blacklist.class.php:574
+#: Blacklist.class.php:587
+#: Blacklist.class.php:615
+#: Blacklist.class.php:628
+msgid "Cannot connect to Asterisk Manager, is Asterisk running?"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:137
+msgid "Catch Unknown/Blocked Caller ID"
+msgstr ""
+
+#: views/general.php:75
+msgid "Check here to catch Unknown/Blocked Caller ID"
+msgstr ""
+
+#: views/general.php:104
+msgid "Choose where blacklisted calls go"
+msgstr ""
+
+#: views/modal_addnumber.php:63
+msgid "Close"
+msgstr ""
+
+#: Blacklist.class.php:229
+msgid "Could not find file after upload"
+msgstr ""
+
+#: views/blgrid.php:2
+msgid "Delete Selected"
+msgstr ""
+
+#: Blacklist.class.php:640
+#: views/blgrid.php:24
+#: views/modal_addnumber.php:40
+msgid "Description"
+msgstr ""
+
+#: assets/js/blacklist.js:61
+msgid "Description not allowed, reserved character!"
+msgstr ""
+
+#: Blacklist.class.php:640
+msgid "Description of number blacklisted"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:176
+msgid "Description of the blocked number"
+msgstr ""
+
+#: views/general.php:89
+msgid "Destination for BlackListed Calls"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:142
+msgid "Destination for blacklisted calls"
+msgstr ""
+
+#: blacklist.i18n.php:12
+msgid "Disable call count in to main grid"
+msgstr ""
+
+#: Blacklist.class.php:703
+msgid "Disabled"
+msgstr ""
+
+#: assets/js/blacklist.js:83
+msgid "Entry Updated"
+msgstr ""
+
+#: views/general.php:21
+msgid "Import/Export"
+msgstr ""
+
+#: Blacklist.class.php:633
+msgid "Import/Export Caller Blacklist"
+msgstr ""
+
+#: views/blgrid.php:32
+msgid "Incoming Calls"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:214
+msgid ""
+"Input variable destination does not exists in this system, Please provide "
+"the valid `destination`"
+msgstr ""
+
+#: views/blgrid.php:31
+msgid "Last Call"
+msgstr ""
+
+#: blacklist.i18n.php:16
+msgid ""
+"Loading call counts on machines with large call logs can be slow. This "
+"setting will disable the call count in the main grid."
+msgstr ""
+
+#: blacklist.i18n.php:14
+msgid "Log Display"
+msgstr ""
+
+#: Blacklist.class.php:118
+msgid "N/A"
+msgstr ""
+
+#: Blacklist.class.php:121
+msgid "Never"
+msgstr ""
+
+#: views/general.php:65
+#: assets/js/blacklist.js:100
+#: assets/js/blacklist.js:162
+msgid "No"
+msgstr ""
+
+#: Blacklist.class.php:253
+msgid "No Entries to export"
+msgstr ""
+
+#: views/blgrid.php:23
+msgid "Number"
+msgstr ""
+
+#: assets/js/blacklist.js:112
+#, perl-format
+msgid "Number %s removed from the blacklist"
+msgstr ""
+
+#: views/modal_addnumber.php:18
+msgid "Number/CallerID"
+msgstr ""
+
+#: assets/js/blacklist.js:57
+msgid "Number/CallerID cannot be blank"
+msgstr ""
+
+#: Blacklist.class.php:66
+msgid "Numbers Deleted"
+msgstr ""
+
+#: Blacklist.class.php:639
+msgid "Phone Number"
+msgstr ""
+
+#: Blacklist.class.php:657
+msgid "Phone Number Required"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:201
+msgid ""
+"Please provide the valid `destination` value, for example extension (100) :"
+"`from-did-direct,100,1`"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:73
+#: Blacklist.class.php:28
+#: Blacklist.class.php:147
+msgid "Remove a number from the blacklist"
+msgstr ""
+
+#: Blacklist.class.php:32
+#: Blacklist.class.php:148
+msgid "Removes a number from the Blacklist Module"
+msgstr ""
+
+#: Blacklist.class.php:481
+msgid "Reset"
+msgstr ""
+
+#: assets/js/blacklist.js:80
+msgid "Save Changes"
+msgstr ""
+
+#: views/modal_addnumber.php:64
+msgid "Save changes"
+msgstr ""
+
+#: views/general.php:26
+msgid "Settings"
+msgstr ""
+
+#: Blacklist.class.php:481
+msgid "Submit"
+msgstr ""
+
+#: Blacklist.class.php:226
+msgid "Sucessfully imported all entries"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:109
+msgid "The ID"
+msgstr ""
+
+#: Blacklist.class.php:233
+msgid "The file must be in CSV format!"
+msgstr ""
+
+#: Blacklist.class.php:639
+msgid "The number as it appears in the callerid display"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:172
+msgid "The number to block"
+msgstr ""
+
+#: Blacklist.class.php:209
+msgid "There was an error uploading the file"
+msgstr ""
+
+#: views/general.php:36
+msgid "This functionality is now part of the Bulk Handler Module"
+msgstr ""
+
+#: blacklist.i18n.php:8
+msgid "This module is used to manage a system wide list of blocked callers"
+msgstr ""
+
+#: Api/Gql/Blacklist.php:100
+#: Api/Gql/Blacklist.php:157
+msgid "Used to manage a system wide list of blocked callers"
+msgstr ""
+
+#: views/general.php:60
+#: assets/js/blacklist.js:100
+#: assets/js/blacklist.js:162
+msgid "Yes"
+msgstr ""

@@ -1,0 +1,159 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for printextensions
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-05 02:29-0400\n"
+"PO-Revision-Date: 2026-09-15 14:29+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: PDF.php:147
+#, php-format
+msgid "%s - Page %s/%s"
+msgstr "%s - 第 %s/%s 頁"
+
+#: Printextensions.class.php:50
+#: Printextensions.class.php:157
+#, php-format
+msgid "%s Extensions"
+msgstr "%s 分機"
+
+#: views/view.extensions.header.php:54
+msgid "All"
+msgstr "全部"
+
+#: assets/js/printextensions.js:11
+msgid "All Selected"
+msgstr "已全部選取"
+
+#: Printextensions.class.php:148
+msgid "Command not found!"
+msgstr "找不到命令！"
+
+#: printextensions.i18n.php:8
+msgid ""
+"Creates a printable list of extension numbers used throughout the system "
+"from all modules that provide an internal callable number"
+msgstr "從所有提供內部可撥號碼的模組，建立系統中使用的分機號碼的可列印清單"
+
+#: views/view.extensions.header.php:66
+msgid "Date Format"
+msgstr "日期格式"
+
+#: views/view.extensions.header.php:73
+msgid "Date Print Alignment"
+msgstr "日期列印對齊"
+
+#: views/view.extensions.header.php:2
+#: views/view.extensions.header.php:28
+msgid "Download PDF"
+msgstr "下載 PDF"
+
+#: Printextensions.class.php:380
+#: views/view.extensions.list.php:21
+msgid "Empty"
+msgstr "空"
+
+#: Printextensions.class.php:285
+msgid "Extension"
+msgstr "分機"
+
+#: views/view.extensions.header.php:62
+msgid "Footer"
+msgstr "頁尾"
+
+#: views/view.extensions.header.php:37
+msgid "Header"
+msgstr "頁首"
+
+#: Printextensions.class.php:121
+msgid "Missing data!"
+msgstr "缺少資料！"
+
+#: views/view.extensions.header.php:31
+msgid "More Options"
+msgstr "更多選項"
+
+#: views/view.extensions.header.php:52
+msgid "Only First"
+msgstr "僅第一頁"
+
+#: PDF.php:156
+#, php-format
+msgid "Page %s/%s"
+msgstr "第 %s/%s 頁"
+
+#: Printextensions.class.php:55
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: views/view.extensions.header.php:90
+msgid "Pagination Print Alignment"
+msgstr "頁碼列印對齊"
+
+#: printextensions.i18n.php:4
+#: printextensions.i18n.php:10
+#: views/page.extensions.list.php:2
+msgid "Print Extensions"
+msgstr "列印分機"
+
+#: views/view.extensions.header.php:48
+msgid "Print Header in Page"
+msgstr "在頁面中列印頁首"
+
+#: printextensions.i18n.php:6
+msgid "Reports"
+msgstr "報告"
+
+#: views/view.extensions.header.php:107
+#: views/view.extensions.header.php:109
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: views/view.extensions.header.php:11
+msgid "Select Groups to Print"
+msgstr "選取要列印的群組"
+
+#: views/view.extensions.header.php:111
+#: views/view.extensions.header.php:113
+msgid "Set Default Settings"
+msgstr "設定為預設值"
+
+#: assets/js/printextensions.js:46
+msgid "Skip, not selected data!"
+msgstr "跳過，未選取資料！"
+
+#: Printextensions.class.php:127
+#: Printextensions.class.php:139
+msgid "Successful Update"
+msgstr "更新成功"
+
+#: views/view.extensions.header.php:41
+msgid "Title"
+msgstr "標題"
+
+#: Printextensions.class.php:131
+#: Printextensions.class.php:143
+msgid "Update process failed!"
+msgstr "更新程序失敗！"
+
+#: Printextensions.class.php:284
+msgid "User"
+msgstr "使用者"
+
+#: Printextensions.class.php:283
+msgid "Users"
+msgstr "使用者"

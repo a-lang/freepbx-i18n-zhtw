@@ -1,0 +1,193 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for pm2
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-27 05:01-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pm2.i18n.php:6
+msgid "Admin"
+msgstr ""
+
+#: Pm2.class.php:371
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "CPU"
+msgstr ""
+
+#: Console/Pm2.class.php:25
+msgid "Delete Process"
+msgstr ""
+
+#: Pm2.class.php:138
+msgid "Finished updating libraries!"
+msgstr ""
+
+#: Pm2.class.php:54 /usr/src/freepbx/pm2/Pm2.class.php:64
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr ""
+
+#: Console/Pm2.class.php:29
+msgid "How many lines to stream"
+msgstr ""
+
+#: Pm2.class.php:123
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr ""
+
+#: Api/Gql/Pm2.php:30
+msgid "Kindly follow the pm2 apps and their status"
+msgstr ""
+
+#: Console/Pm2.class.php:22
+msgid "List Process"
+msgstr ""
+
+#: Console/Pm2.class.php:20
+msgid "Manage long running processes"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "Mem"
+msgstr ""
+
+#: Api/Gql/Pm2.php:95
+msgid "Memory used by the app"
+msgstr ""
+
+#: Api/Gql/Pm2.php:65
+#: Api/Gql/Pm2.php:132
+msgid "Message for the request"
+msgstr ""
+
+#: Pm2.class.php:46
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+#: Api/Gql/Pm2.php:69
+msgid "Name od the app"
+msgstr ""
+
+#: Pm2.class.php:42
+msgid "Node Package Manager is not installed"
+msgstr ""
+
+#: Pm2.class.php:30
+msgid "Node is not installed"
+msgstr ""
+
+#: Pm2.class.php:134
+msgid ""
+"Node packages are not installed properly. Re-running the installation "
+"without using the existing cache."
+msgstr ""
+
+#: Pm2.class.php:34
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr ""
+
+#: pm2.i18n.php:4
+msgid "Process Management"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "Process Name"
+msgstr ""
+
+#: Api/Gql/Pm2.php:73
+msgid "Process id for the app"
+msgstr ""
+
+#: Api/Gql/Pm2.php:48
+msgid "Process management"
+msgstr ""
+
+#: Console/Pm2.class.php:27
+msgid "Reload all log file pointers"
+msgstr ""
+
+#: Console/Pm2.class.php:24
+msgid "Restart Process"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "Restarts"
+msgstr ""
+
+#: Console/Pm2.class.php:26
+msgid "Save processes, kill PM2 and restore processes"
+msgstr ""
+
+#: Api/Gql/Pm2.php:32
+msgid "Sorry unable to find the pm2apps status"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "Status"
+msgstr ""
+
+#: Api/Gql/Pm2.php:136
+msgid "Status for the request"
+msgstr ""
+
+#: Api/Gql/Pm2.php:84
+msgid "Status of the app"
+msgstr ""
+
+#: Api/Gql/Pm2.php:61
+msgid "Status of the request"
+msgstr ""
+
+#: Console/Pm2.class.php:23
+msgid "Stop Process"
+msgstr ""
+
+#: Console/Pm2.class.php:28
+msgid "Stream Logs from Process"
+msgstr ""
+
+#: Pm2.class.php:142
+msgid "There was an error installing and PM2 Logging is disabled"
+msgstr ""
+
+#: Pm2.class.php:144
+#, php-format
+msgid "There was an error installing. Please review the install log. (%s)"
+msgstr ""
+
+#: pm2.i18n.php:8
+msgid "This module manages background processes for your PBX"
+msgstr ""
+
+#: Console/Pm2.class.php:36
+msgid "Uptime"
+msgstr ""
+
+#: Api/Gql/Pm2.php:106
+msgid "Uptime of the app"
+msgstr ""

@@ -1,0 +1,2985 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for firewall
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-26 08:03-0400\n"
+"PO-Revision-Date: 2026-09-15 13:50+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: vendor/npm-asset/codemirror/mode/tiddlywiki/tiddlywiki.js:246
+msgid ""
+" && maybeEnd) {\n"
+"        state.tokenize = tokenBase;\n"
+"        break;\n"
+"      }\n"
+"      maybeEnd = (ch == "
+msgstr ""
+
+#: vendor/npm-asset/codemirror/mode/sql/sql.js:63
+msgid ""
+" && stream.match(/[a-z][a-z0-9]*/i)))\n"
+"        && (stream.peek() == "
+msgstr ""
+
+#: assets/js/views/advanced.js:509
+#, perl-format
+msgid "# %s (%s)"
+msgstr "# %s（%s）"
+
+#: assets/js/views/advanced.js:508
+#, perl-format
+msgid "# %s: %s\\n"
+msgstr "# %s：%s\\n"
+
+#: Restore.php:54
+#, php-format
+msgid "%s Files Not Restored by Error!!"
+msgstr "%s 個檔案因錯誤而未還原！！"
+
+#: Restore.php:52
+#, php-format
+msgid "%s Files Restored OK"
+msgstr "%s 個檔案已成功還原"
+
+#: Services.class.php:744
+#, php-format
+msgid "%s is a web-based call management solution."
+msgstr "%s 是基於網頁的通話管理解決方案。"
+
+#: Services.class.php:740
+#, php-format
+msgid "%s is not configured correctly."
+msgstr "%s 未正確設定。"
+
+#: Console/Firewall.class.php:503
+#, php-format
+msgid "%s is not currently in the blacklist."
+msgstr "%s 目前不在黑名單中。"
+
+#: vendor/npm-asset/codemirror/mode/tiddlywiki/tiddlywiki.js:250
+msgid ""
+");\n"
+"    }\n"
+"    return "
+msgstr ""
+
+#: Restore.php:43
+#, php-format
+msgid ""
+"** Error!!!\n"
+" Type: %s\n"
+" Message: %s\n"
+" File: %s\n"
+msgstr ""
+"**錯誤！！\n"
+" 類型：%s\n"
+" 訊息：%s\n"
+" 檔案：%s\n"
+""
+
+#: Restore.php:41
+msgid ""
+"**FIX** Manual action needed:\n"
+" # fwconsole firewall fix_custom_rules\n"
+msgstr ""
+"**修復** 需要手動操作：\n"
+" # fwconsole firewall fix_custom_rules\n"
+""
+
+#: vendor/npm-asset/codemirror/mode/swift/swift.js:22
+msgid ","
+msgstr ""
+
+#: Firewall.class.php:387
+msgid "- Adjusting owner and permissions... OK!"
+msgstr "- 正在調整擁有者與權限……成功！"
+
+#: Firewall.class.php:397
+#, php-format
+msgid ""
+"- Adjusting owner... ERROR!\n"
+" >> Error Message: %s"
+msgstr ""
+"- 正在調整擁有者……錯誤！\n"
+" >> 錯誤訊息：%s"
+
+#: Firewall.class.php:392
+#, php-format
+msgid ""
+"- Adjusting permissions... ERROR!\n"
+" >> Error Message: %s"
+msgstr ""
+"- 正在調整權限……錯誤！\n"
+" >> 錯誤訊息：%s"
+
+#: Firewall.class.php:366
+#, php-format
+msgid ""
+"- Does not exist, creating file... ERROR!!\n"
+" >> Error Message: %s"
+msgstr ""
+"- 不存在，正在建立檔案……錯誤！！\n"
+" >> 錯誤訊息：%s"
+
+#: Firewall.class.php:370
+msgid "- Does not exist, creating file... OK!"
+msgstr "- 不存在，正在建立檔案……成功！"
+
+#: views/view.settings.php:56
+msgid ""
+"<strong>Disabled</strong>: Hosts defined in /etc/hosts are not added to "
+"Trusted Zone except localhost."
+msgstr "<strong>停用</strong>：除了 localhost 之外，/etc/hosts 中定義的主機不會被加入信任區域。"
+
+#: views/view.settings.php:45
+msgid ""
+"<strong>Disabled</strong>: This service will be stopped and Intrusion "
+"Detection will not run on boot. Intrusion Detection will be stopped as well."
+msgstr "<strong>停用</strong>：此服務將被停止，且入侵偵測不會在開機時執行。入侵偵測也會被停止。"
+
+#: views/view.settings.php:55
+msgid ""
+"<strong>Enabled</strong>: All hosts defined are added to the Trusted Zone "
+"(default)"
+msgstr "<strong>啟用</strong>：所有已定義的主機都會被加入信任區域（預設）"
+
+#: views/view.settings.php:49
+msgid ""
+"<strong>Enabled</strong>: Automatically synchronize IPs from specific "
+"firewall zones to the whitelist. E.g: When you add to a trusted zone, local "
+"or otherwise, they will be added to the Intrusion Detection whitelist."
+msgstr ""
+"<strong>啟用</strong>：自動將特定防火牆區域的 IP 同步至白名單。例如：當您新增至信任區域（本機或其他）時，它們會被加入入侵偵測白名單。"
+
+#: views/view.settings.php:44
+msgid "<strong>Enabled</strong>: This service will be started on boot."
+msgstr "<strong>啟用</strong>：此服務將在開機時啟動。"
+
+#: views/view.shortcuts.php:6
+msgid ""
+"<strong>Important Warning!</strong> If you are in a hosted environment (for "
+"example, AWS) and you enable this, you may be inadvertently allowing other "
+"hosted clients unrestricted access to your machine! Please use common sense "
+"to make sure that you are only allowing known trusted networks."
+msgstr ""
+"<strong>重要警告！</strong> 如果您處於託管環境（例如 AWS）並啟用此功能，可能會無意中允許其他託管使用者端不受限制地存取您的機器！請運用常識，確保只允許已知的信任網路。"
+
+#: views/view.settings.php:50
+msgid ""
+"<strong>Legacy</strong>: Intrusion Detection whitelist will work like in the "
+"past with no automated synchronization to the whitelist."
+msgstr "<strong>舊版</strong>：入侵偵測白名單將如以往般運作，不會自動同步至白名單。"
+
+#: views/view.interfaces.php:11
+msgid ""
+"A 'Trusted' interface means that <strong>no filtering</strong> will be "
+"applied to any traffic arriving at that interface. Newly discovered "
+"interfaces are set to this zone so they can be configured correctly without "
+"interfering with existing traffic."
+msgstr ""
+"「信任」介面表示到達該介面的任何流量將<strong>不會被過濾</strong>。新發現的介面會設定為此區域，以便在不干擾現有流量的情況下正確設定。"
+
+#: Firewall.class.php:580
+#, php-format
+msgid ""
+"A network interface that is assigned to the 'Trusted' zone has been "
+"detected. This is a misconfiguration. To ensure your system is protected "
+"from attacks, please change the default zone of interface '%s'."
+msgstr "偵測到一個被指派至「信任」區域的網路介面。這是錯誤設定。為確保您的系統免受攻擊，請變更介面「%s」的預設區域。"
+
+#: Firewall.class.php:570
+#, php-format
+msgid ""
+"A new, unconfigured, network interface has been detected. Please assign "
+"interface '%s' to a zone."
+msgstr "偵測到一個新的、未設定的網路介面。請將介面「%s」指派至一個區域。"
+
+#: Services.class.php:92
+msgid "API (HTTP)"
+msgstr "API（HTTP）"
+
+#: Services.class.php:112
+msgid "API (HTTPS)"
+msgstr "API（HTTPS）"
+
+#: Services.class.php:114
+msgid "API HTTPS port management for restapi and GrahpQL."
+msgstr "REST API 和 GraphQL 的 API HTTPS 連接埠管理。"
+
+#: Services.class.php:94
+msgid "API port management for restapi and GrahpQL."
+msgstr "REST API 和 GraphQL 的 API 連接埠管理。"
+
+#: views/view.zoneinfo.php:2
+msgid "About Zones"
+msgstr "關於區域"
+
+#: views/intrusion_detection.php:433
+#: views/intrusion_detection.php:471
+msgid "Action"
+msgstr "操作"
+
+#: views/view.shortcuts.php:15
+msgid "Add Host"
+msgstr "新增主機"
+
+#: views/view.shortcuts.php:14
+msgid "Add Network"
+msgstr "新增網路"
+
+#: views/view.blacklist.php:40
+#: views/view.networks.php:84
+msgid "Add New"
+msgstr "新增"
+
+#: Api/Gql/Firewall.php:113
+msgid "Add a whiltelisted IP"
+msgstr "新增白名單 IP"
+
+#: Api/Gql/Firewall.php:393
+#: views/view.settings.php:53
+msgid "Add etc/hosts as Trusted"
+msgstr "將 etc/hosts 新增為信任"
+
+#: Console/Firewall.class.php:108
+msgid "Add the hostname or IP specified to the Trusted Zone"
+msgstr "將指定的主機名稱或 IP 新增至信任區域"
+
+#: Console/Firewall.class.php:111
+msgid "Add to 'zone' the IDs provided."
+msgstr "將提供的 ID 新增至「區域」。"
+
+#: views/view.shortcuts.php:7
+msgid "Add to Trusted"
+msgstr "新增至信任"
+
+#: Api/Gql/Firewall.php:77
+msgid "Add to blacklist"
+msgstr "新增至黑名單"
+
+#: Api/Gql/Firewall.php:97
+msgid "Add/update firewall configuration"
+msgstr "新增/更新防火牆設定"
+
+#: assets/js/views/advanced.js:588
+msgid "Added"
+msgstr "已新增"
+
+#: views/bootnav.php:7
+msgid "Advanced"
+msgstr "進階"
+
+#: views/page.advanced.php:43
+msgid "Advanced Custom Rules"
+msgstr "進階自訂規則"
+
+#: views/intrusion_detection.php:59
+#: views/page.advanced.php:40
+#: views/view.settings.php:68
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: views/view.about.php:28
+#, php-format
+msgid ""
+"After an endpoint is registered, the source of that endpoint is %s "
+"permission to use UCP, if UCP is enabled."
+msgstr "端點註冊後，該端點的來源會%s使用 UCP 的權限（若 UCP 已啟用）。"
+
+#: views/view.interfaces.php:46
+msgid "All Tunnel Interfaces are automatically set to Local"
+msgstr "所有通道介面會自動設定為本機"
+
+#: Console/Firewall.class.php:576
+msgid "All blacklisted entries."
+msgstr "所有黑名單條目。"
+
+#: Console/Firewall.class.php:567
+#, php-format
+msgid "All entries in zone '%s':"
+msgstr "區域「%s」中的所有條目："
+
+#: views/view.interfaces.php:9
+msgid ""
+"All interfaces must be assigned to a default zone. Any traffic received by "
+"this interface, unless overridden in Networks, will have access to the "
+"services available to this zone."
+msgstr "所有介面都必須指派至一個預設區域。此介面收到的任何流量（除非在網路中覆寫）將可存取該區域可用的服務。"
+
+#: Zones.class.php:13
+msgid ""
+"All network connections are accepted. No firewalling is done on this "
+"interface."
+msgstr "接受所有網路連線。此介面不進行任何防火牆過濾。"
+
+#: Services.class.php:56
+msgid ""
+"Allow any incoming NTP requests. The port is enabled by default on the Local "
+"zone."
+msgstr "允許任何傳入的 NTP 請求。該連接埠在本機區域上預設為啟用。"
+
+#: views/view.settings.php:15
+msgid ""
+"Allows <strong>temporary</strong> Internet zone access to the LetsEncrypt "
+"acme-challenge folder during an active certificate update request."
+msgstr ""
+"在主動憑證更新請求期間，允許<strong>暫時</strong>從 Internet 區域存取 LetsEncrypt acme-challenge 資料夾。"
+
+#: Console/Firewall.class.php:338
+#: Console/Firewall.class.php:354
+msgid "An error has occurred!"
+msgstr "發生錯誤！"
+
+#: views/warning.notready.php:5
+msgid ""
+"Any changes you make will be saved, but will not take effect until the "
+"firewall is started."
+msgstr "您所做的任何變更都會被儲存，但直到防火牆啟動後才會生效。"
+
+#: views/view.blocked.php:33
+msgid ""
+"Any hosts in this section have been classified as an attacker by Fail2Ban's "
+"SIP jail. All traffic from them will be ignored for 30 minutes after they "
+"were classified as malicious."
+msgstr "此區段中的任何主機已被 Fail2Ban 的 SIP 監獄分類為攻擊者。在它們被分類為惡意之後，來自它們的所有流量將被忽略 30 分鐘。"
+
+#: views/view.blocked.php:19
+msgid ""
+"Any hosts in this section have been classified as an attacker. All traffic "
+"from them will be ignored until they cease attempting to contact the server "
+"for more than 24 hours."
+msgstr "此區段中的任何主機已被分類為攻擊者。來自它們的所有流量將被忽略，直到它們停止嘗試連絡伺服器超過 24 小時。"
+
+#: views/view.blocked.php:7
+msgid ""
+"Any hosts in this section have been rate limited, because they have sent too "
+"much data to this machine without successfully registering."
+msgstr "此區段中的任何主機已受到速率限制，因為它們在未經成功登錄的情況下傳送了過多資料到此機器。"
+
+#: Zones.class.php:12
+msgid ""
+"Any incoming network packets are rejected. Note that this zone still accepts "
+"RTP traffic, but no other ports are listening by default. You rarely want to "
+"use this."
+msgstr "任何傳入的網路封包都會被拒絕。請注意，此區域仍接受 RTP 流量，但預設沒有其他連接埠在監聽。您很少會想使用這個。"
+
+#: views/modal.customsvc.php:13
+msgid "Any name"
+msgstr "任何名稱"
+
+#: views/view.networks.php:7
+msgid ""
+"Any traffic arriving at eth0 from 203.55.66.88 (or any other undefined host "
+"or network) will only have access to services available to the 'Internet' "
+"zone, as that has been set to be the default zone for traffic arriving at "
+"that interface."
+msgstr ""
+"從 203.55.66.88（或任何其他未定義的主機或網路）到達 eth0 的任何流量將只能存取「Internet」區域可用的服務，因為該區域已設定為到達該介面的流量的預設區域。"
+
+#: assets/js/views/advanced.js:472
+msgid "Are you sure to reload the rules? changes will be lost."
+msgstr "您確定要重新載入規則嗎？變更將會遺失。"
+
+#: assets/js/views/advanced.js:533
+msgid "Are you sure to save the data?"
+msgstr "您確定要儲存資料嗎？"
+
+#: views/intrusion_detection.php:411
+msgid "Are you sure?"
+msgstr "您確定嗎？"
+
+#: views/warning.notready.php:3
+msgid ""
+"As this machine has recently been rebooted, the firewall is "
+"<strong>temporarily</strong> running in Safe Mode, with no rules applied."
+msgstr "由於此機器近期已重新啟動，防火牆<strong>暫時</strong>以安全模式執行，未套用任何規則。"
+
+#: OOBE.class.php:173
+#, php-format
+msgid ""
+"As you are connecting from an IPv6 network, it is %s highly recommended %s "
+"to add this network, as IPv6 security extensions may unexpectedly change "
+"your IP address."
+msgstr "由於您是從 IPv6 網路連線，%s強烈建議%s您新增此網路，因為 IPv6 安全性延伸可能會意外變更您的 IP 位址。"
+
+#: views/view.networks.php:15
+msgid "Assigned Zone"
+msgstr "已指派的區域"
+
+#: views/oobe.welcome.php:17
+msgid ""
+"At the completion of this wizard, the firewall will be automatically enabled."
+msgstr "完成此精靈後，防火牆將自動啟用。"
+
+#: Console/Firewall.class.php:411
+#, php-format
+msgid "Attempting to add '%s' to Blacklist ... "
+msgstr "正在嘗試將「%s」新增至黑名單……"
+
+#: Console/Firewall.class.php:420
+#, php-format
+msgid "Attempting to add '%s' to Zone '%s' ... "
+msgstr "正在嘗試將「%s」新增至區域「%s」……"
+
+#: Console/Firewall.class.php:512
+#, php-format
+msgid "Attempting to remove %s from '%s' Zone ... "
+msgstr "正在嘗試從「%s」區域移除 %s……"
+
+#: views/view.settings.php:54
+msgid "Automatically add hosts from file /etc/hosts to Trusted Zone"
+msgstr "自動將 /etc/hosts 檔案中的主機新增至信任區域"
+
+#: OOBE.class.php:244
+msgid "Automatically configure Asterisk IP Settings?"
+msgstr "自動設定 Asterisk IP 設定？"
+
+#: views/intrusion_detection.php:143
+msgid ""
+"Automatically synchronize IPs from specific firewall zones to the whitelist. "
+"E.g: When you add to a trusted zone, local or otherwise, they will be added "
+"to the Intrusion Detection whitelist"
+msgstr "自動將特定防火牆區域的 IP 同步至白名單。例如：當您新增至信任區域（本機或其他）時，它們會被加入入侵偵測白名單"
+
+#: views/intrusion_detection.php:226
+msgid "Ban Time"
+msgstr "封鎖時間"
+
+#: views/view.registered.php:6
+msgid ""
+"Below is a list of clients that have successfully registered and been "
+"validated by Responsive Firewall."
+msgstr "以下是已成功登錄並通過響防火牆驗證的使用者端清單。"
+
+#: views/page.services.php:41
+msgid "Blacklist"
+msgstr "黑名單"
+
+#: Api/Gql/Firewall.php:501
+msgid "Blacklist port"
+msgstr "黑名單連接埠"
+
+#: views/view.blocked.php:18
+msgid "Blocked Attackers"
+msgstr "已封鎖的攻擊者"
+
+#: views/page.status.php:36
+msgid "Blocked Hosts"
+msgstr "已封鎖的主機"
+
+#: views/view.blocked.php:32
+msgid "Blocked by Fail2Ban"
+msgstr "已被 Fail2Ban 封鎖"
+
+#: views/modal.customsvc.php:20
+msgid "Both (TCP and UDP)"
+msgstr "兩者（TCP 和 UDP）"
+
+#: views/view.smart.php:164
+msgid ""
+"By default, Fail2Ban remains active even when responsive firewall is "
+"enabled.  This provides additional protection against attackers with access "
+"to an IP with a registered device or comprimised SIP credentials."
+msgstr "預設情況下，即使響防火牆已啟用，Fail2Ban 仍保持運作。這為擁有已登記裝置或遭入侵 SIP 認證的 IP 的攻擊者提供額外的防護。"
+
+#: views/view.smart.php:166
+msgid ""
+"By enabling the bypass below, an exemption will be added to Fail2Ban for any "
+"IP that has successfully registered through the Responsive Firewall."
+msgstr "透過啟用下方的略過選項，任何透過響防火牆成功註冊的 IP 將被加入 Fail2Ban 的例外清單。"
+
+#: views/view.settings.php:38
+msgid ""
+"By sending a Reject packet, the attacker knows that they have discovered a "
+"machine. By dropping the packet silently, no response is sent to the "
+"attacker, and they may move on to a different target."
+msgstr "透過傳送拒絕封包，攻擊者會知道他們已發現一台機器。透過靜默丟棄封包，不會向攻擊者傳送任何回應，他們可能會轉向其他目標。"
+
+#: Services.class.php:422
+msgid "CHANSIP is not available on this machine"
+msgstr "CHANSIP 在此機器上無法使用"
+
+#: Services.class.php:381
+msgid "CHAN_SIP Protocol"
+msgstr "CHAN_SIP 通訊協定"
+
+#: views/view.about.php:53
+msgid "Can not Disable Firewall"
+msgstr "無法停用防火牆"
+
+#: views/modal.customsvc.php:36
+msgid "Cancel"
+msgstr "取消"
+
+#: Restore.php:67
+msgid "Check Custrom Rules..."
+msgstr "檢查自訂規則……"
+
+#: Firewall.class.php:360
+#, php-format
+msgid "Check file '%s'"
+msgstr "檢查檔案「%s」"
+
+#: views/intrusion_detection.php:327
+msgid "Clear All"
+msgstr "全部清除"
+
+#: Console/Firewall.class.php:36
+msgid "Command to run (see --help)"
+msgstr "要執行的命令（請參閱 --help）"
+
+#: firewall.i18n.php:6
+msgid "Connectivity"
+msgstr "連線能力"
+
+#: views/intrusion_detection.php:212
+msgid "Control intrusion detection."
+msgstr "控制入侵偵測。"
+
+#: views/view.portmaps.php:11
+#: views/view.services.php:2
+msgid "Core Services"
+msgstr "核心服務"
+
+#: views/view.smart.php:109
+#: views/view.smart.php:137
+msgid "Count"
+msgstr "次數"
+
+#: views/view.customsvc.php:2
+msgid "Create new Service"
+msgstr "建立新服務"
+
+#: Console/Firewall.class.php:115
+msgid ""
+"Create the files for the custom rules if they don't exist and set the "
+"permissions and owners correctly."
+msgstr "如果自訂規則的檔案不存在，請建立它們並正確設定權限和擁有者。"
+
+#: views/view.status.php:22
+msgid "Cumulative Total of remote clients:"
+msgstr "遠端使用者端的累計總數："
+
+#: Api/Gql/Firewall.php:377
+#: views/view.settings.php:29
+msgid "Custom Firewall Rules"
+msgstr "自訂防火牆規則"
+
+#: views/intrusion_detection.php:394
+msgid "Custom IP's that can never be banned."
+msgstr "永不被封鎖的自訂 IP。"
+
+#: views/view.advanced_customrules.php:5
+msgid "Custom IPTables rules for IPv4 protocol."
+msgstr "IPv4 通訊協定的自訂 IPTables 規則。"
+
+#: views/view.advanced_customrules.php:9
+msgid "Custom IPTables rules for IPv6 protocol."
+msgstr "IPv6 通訊協定的自訂 IPTables 規則。"
+
+#: views/view.advanced_customrules.php:37
+msgid "Custom Rules"
+msgstr "自訂規則"
+
+#: views/page.services.php:38
+#: views/view.customsvc.php:4
+#: views/view.portmaps.php:28
+msgid "Custom Services"
+msgstr "自訂服務"
+
+#: views/intrusion_detection.php:383
+msgid "Custom Whitelist"
+msgstr "自訂白名單"
+
+#: views/view.customsvc.php:1
+msgid ""
+"Custom services can be defined on this page. Please check to make sure you "
+"don't accidentally expose an automatically configured service by using the "
+"same port and protocol."
+msgstr "您可以在此頁面上定義自訂服務。請檢查以確保您不會因使用相同的連接埠和通訊協定而意外暴露自動設定的服務。"
+
+#: Services.class.php:228
+msgid "Dedicated UCP SSL access is disabled in Sysadmin Port Management"
+msgstr "專用的 UCP SSL 存取在 Sysadmin 連接埠管理中已停用"
+
+#: Services.class.php:190
+msgid "Dedicated UCP access is disabled in Sysadmin Port Management"
+msgstr "專用的 UCP 存取在 Sysadmin 連接埠管理中已停用"
+
+#: Zones.class.php:9
+msgid "Default Firewall"
+msgstr "預設防火牆"
+
+#: views/view.interfaces.php:8
+msgid "Default Traffic Zones"
+msgstr "預設流量區域"
+
+#: views/view.interfaces.php:4
+msgid "Default Zone"
+msgstr "預設區域"
+
+#: Api/Gql/Firewall.php:361
+msgid "Default zone for the interface"
+msgstr "介面的預設區域"
+
+#: views/view.blacklist.php:9
+#: views/view.customsvc.php:45
+msgid "Delete"
+msgstr "刪除"
+
+#: views/intrusion_detection.php:410
+msgid "Delete Custom Whitelist"
+msgstr "刪除自訂白名單"
+
+#: Firewall.class.php:1836
+msgid "Delete Selected"
+msgstr "刪除所選"
+
+#: views/intrusion_detection.php:410
+msgid "Delete entire custom whitelist"
+msgstr "刪除整個自訂白名單"
+
+#: Console/Firewall.class.php:112
+msgid "Delete from 'zone' the IDs provided."
+msgstr "從「區域」中刪除提供的 ID。"
+
+#: Api/Gql/Firewall.php:365
+#: views/modal.customsvc.php:11
+msgid "Description"
+msgstr "說明"
+
+#: views/view.smart.php:42
+msgid "Disable"
+msgstr "停用"
+
+#: views/view.about.php:51
+msgid "Disable Firewall"
+msgstr "停用防火牆"
+
+#: Api/Gql/Firewall.php:59
+msgid "Disable firewall"
+msgstr "停用防火牆"
+
+#: Console/Firewall.class.php:103
+msgid "Disable the System Firewall. This will shut it down cleanly."
+msgstr "停用系統防火牆。這將會乾淨地關閉它。"
+
+#: views/intrusion_detection.php:93
+#: views/intrusion_detection.php:104
+#: views/view.settings.php:5
+#: views/view.smart.php:6
+msgid "Disabled"
+msgstr "已停用"
+
+#: Console/Firewall.class.php:117
+msgid "Display ignored and banned IPs. (Only root user)."
+msgstr "顯示已忽略和已封鎖的 IP。（僅限 root 使用者）。"
+
+#: views/intrusion_detection.php:411
+msgid "Do you want to delete ALL custom whitelist entries?"
+msgstr "您要刪除所有自訂白名單條目嗎？"
+
+#: views/view.smart.php:106
+#: views/view.smart.php:134
+msgid "Duration(s)"
+msgstr "持續時間（秒）"
+
+#: views/intrusion_detection.php:286
+msgid "E-mail:"
+msgstr "電子郵件："
+
+#: Restore.php:88
+msgid "ERROR: Custom rule recovery process aborted, timeout exceeded!!!"
+msgstr "錯誤：自訂規則還原程序已中止，超過逾時時間！！！"
+
+#: Restore.php:98
+msgid ""
+"ERROR: Files required for custom rules are missing, run the following "
+"command for manual repair !!!"
+msgstr "錯誤：缺少自訂規則所需的檔案，請執行以下命令進行手動修復！！！"
+
+#: Restore.php:89
+msgid "ERROR: Requires manual execution of the following command:"
+msgstr "錯誤：需要手動執行以下命令："
+
+#: views/view.zoneinfo.php:4
+msgid ""
+"Each network interface on your machine must be mapped to a Zone. Note that, "
+"by default, all interfaces are mapped to trusted (Trusted networks are not "
+"filtered at all, so this disables the firewall for any traffic arriving at "
+"that interface). The zones you can use are:"
+msgstr ""
+"您機器上的每個網路介面都必須對應到一個區域。請注意，預設情況下，所有介面都對應至信任區域（信任網路完全不會被過濾，因此這會停用到達該介面的任何流量的防火牆）。您可以使用的區域有："
+
+#: views/view.customsvc.php:44
+msgid "Edit"
+msgstr "編輯"
+
+#: views/intrusion_detection.php:296
+msgid "Email Address to send Notifications to."
+msgstr "要傳送通知的電子郵件地址。"
+
+#: views/view.smart.php:44
+msgid "Enable"
+msgstr "啟用"
+
+#: views/intrusion_detection.php:102
+msgid "Enable / Disable"
+msgstr "啟用 / 停用"
+
+#: views/view.settings.php:43
+msgid "Enable / Disable Intrusion Detection service on boot."
+msgstr "在開機時啟用 / 停用入侵偵測服務。"
+
+#: OOBE.class.php:206
+msgid "Enable Responsive Firewall?"
+msgstr "啟用響防火牆？"
+
+#: Api/Gql/Firewall.php:45
+msgid "Enable firewall"
+msgstr "啟用防火牆"
+
+#: Console/Firewall.class.php:107
+msgid "Enable or disable Lets Encrypt rules."
+msgstr "啟用或停用 Lets Encrypt 規則。"
+
+#: views/intrusion_detection.php:87
+#: views/intrusion_detection.php:103
+#: views/intrusion_detection.php:130
+#: views/intrusion_detection.php:143
+#: views/view.settings.php:3
+#: views/view.smart.php:5
+msgid "Enabled"
+msgstr "已啟用"
+
+#: views/view.settings.php:37
+msgid ""
+"Enabling 'Reject Packets' sends an explicit response to the other machine, "
+"telling them that their traffic has been administratively blocked. Leaving "
+"this disabled silently discards the packet, giving no indication to the "
+"attacker that their traffic has been intercepted."
+msgstr "啟用「拒絕封包」會向另一台機器傳送明確回應，告知它們的流量已被管理性封鎖。保持停用會靜默丟棄封包，不向攻擊者透露其流量已被攔截。"
+
+#: Console/Firewall.class.php:308
+msgid "Enabling Firewall."
+msgstr "正在啟用防火牆。"
+
+#: OOBE.class.php:208
+msgid ""
+"Enabling Responsive Firewall allows remote clients to securely register to "
+"this server without explicitly whitelisting them."
+msgstr "啟用響防火牆可讓遠端使用者端安全地登錄此伺服器，而無需明確將其加入白名單。"
+
+#: views/view.networks.php:66
+msgid "Enter new IP or Hostname here"
+msgstr "在此輸入新的 IP 或主機名稱"
+
+#: views/intrusion_detection.php:394
+msgid ""
+"Enter one IP or one Host per line. No comma allowed for multiple entries."
+msgstr "每行輸入一個 IP 或一個主機。不允許使用逗號輸入多個條目。"
+
+#: Console/Firewall.class.php:139
+msgid "Equal"
+msgstr "相等"
+
+#: assets/js/views/advanced.js:490
+#, perl-format
+msgid "Error (%s): %s"
+msgstr "錯誤（%s）：%s"
+
+#: assets/js/views/advanced.js:403
+msgid "Error Checking Status!"
+msgstr "檢查狀態時發生錯誤！"
+
+#: assets/js/views/advanced.js:441
+#, perl-format
+msgid "Error checking protocol file (%s)!"
+msgstr "檢查通訊協定檔案時發生錯誤（%s）！"
+
+#: Firewall.class.php:449
+msgid "Error saving data!"
+msgstr "儲存資料時發生錯誤！"
+
+#: Console/Firewall.class.php:68
+#: Console/Firewall.class.php:78
+msgid "Error!"
+msgstr "錯誤！"
+
+#: Restore.php:40
+#, php-format
+msgid "Error!! Permission denied copy rules: %s"
+msgstr "錯誤！！權限被拒絕，無法複製規則：%s"
+
+#: Console/Firewall.class.php:503
+msgid "Error:"
+msgstr "錯誤："
+
+#: Console/Firewall.class.php:416
+#, php-format
+msgid "Error: Can't add '%s' to unknown zone '%s'"
+msgstr "錯誤：無法將「%s」新增至未知的區域「%s」"
+
+#: Console/Firewall.class.php:324
+msgid "Error: Missing argument. Expected 'enable' or 'disable'."
+msgstr "錯誤：缺少引數。預期為「enable」或「disable」。"
+
+#: Console/Firewall.class.php:362
+#, php-format
+msgid "Error: Unknown option '%s'. Expected 'enable or 'disable'."
+msgstr "錯誤：未知的選項「%s」。預期為「enable」或「disable」。"
+
+#: views/view.networks.php:6
+msgid ""
+"Example: Interface eth0 is assigned to the 'Internet' zone, and you then add "
+"'203.55.66.77' to the 'Local' zone on this page. Any traffic arriving from "
+"203.55.66.77 will be granted access to services usable by 'Local' zone."
+msgstr ""
+"範例：介面 eth0 被指派至「Internet」區域，然後您在此頁面將「203.55.66.77」新增至「Local」區域。任何來自 203.55.66.77 的流量將被授予存取「Local」區域可用服務的權限。"
+
+#: Zones.class.php:13
+msgid "Excluded from Firewall"
+msgstr "已從防火牆排除"
+
+#: views/view.smart.php:86
+msgid ""
+"Exercise extreme caution when editing Responsive Threshold Parameters. "
+"Improper config can block legitimate registrations or expand access from "
+"untrusted sources"
+msgstr "編輯響防火牆閾值參數時請格外小心。設定不當可能會封鎖合法的登錄或擴大來自不信任來源的存取"
+
+#: OOBE.class.php:259
+#, php-format
+msgid "External Address: %s"
+msgstr "外部位址：%s"
+
+#: views/page.services.php:35
+#: views/view.portmaps.php:22
+msgid "Extra Services"
+msgstr "額外服務"
+
+#: Services.class.php:619
+msgid "FTP"
+msgstr "FTP"
+
+#: Services.class.php:621
+msgid ""
+"FTP is used by Endpoint Manager to send firmware images to phones, as well "
+"as additional data."
+msgstr "FTP 由 Endpoint Manager 用來傳送韌體映像檔到電話，以及其他資料。"
+
+#: Console/Firewall.class.php:229
+msgid "Fail2ban is not started. Syncing Process canceled."
+msgstr "Fail2ban 未啟動。同步程序已取消。"
+
+#: assets/js/views/advanced.js:603
+msgid "Failed State Change!"
+msgstr "狀態變更失敗！"
+
+#: Api/Gql/Firewall.php:622
+msgid "Failed to update Firewall Interface"
+msgstr "更新防火牆介面失敗"
+
+#: Console/Firewall.class.php:432
+msgid "Failed! Could not validate entry. Please try again."
+msgstr "失敗！無法驗證條目。請重試。"
+
+#: Api/Gql/Firewall.php:217
+msgid "Fetch all Whitelisted IPs"
+msgstr "擷取所有白名單 IP"
+
+#: Api/Gql/Firewall.php:201
+msgid "Fetch custom service zone"
+msgstr "擷取自訂服務區域"
+
+#: Api/Gql/Firewall.php:253
+msgid "Fetch firewall advance settings"
+msgstr "擷取防火牆進階設定"
+
+#: Api/Gql/Firewall.php:229
+msgid "Fetch firewall configuration"
+msgstr "擷取防火牆設定"
+
+#: Api/Gql/Firewall.php:241
+msgid "Fetch firewall interfaces"
+msgstr "擷取防火牆介面"
+
+#: views/intrusion_detection.php:266
+msgid "Find Time"
+msgstr "尋找時間"
+
+#: firewall.i18n.php:10
+#: page.firewall.php:12
+msgid "Firewall"
+msgstr "防火牆"
+
+#: Firewall.class.php:501
+msgid "Firewall Active"
+msgstr "防火牆運作中"
+
+#: Firewall.class.php:521
+msgid "Firewall Configuration"
+msgstr "防火牆設定"
+
+#: Firewall.class.php:503
+msgid "Firewall Disabled"
+msgstr "防火牆已停用"
+
+#: Firewall.class.php:555
+#: Firewall.class.php:556
+msgid "Firewall Integrity Failed"
+msgstr "防火牆完整性失敗"
+
+#: Api/Gql/Firewall.php:620
+msgid "Firewall Interface updated successfully"
+msgstr "防火牆介面已成功更新"
+
+#: Firewall.class.php:515
+msgid "Firewall Service not running!"
+msgstr "防火牆服務未執行！"
+
+#: views/view.about.php:62
+msgid "Firewall Wizard"
+msgstr "防火牆精靈"
+
+#: Api/Gql/Firewall.php:180
+msgid "Firewall advance settings updated succefully"
+msgstr "防火牆進階設定已成功更新"
+
+#: Api/Gql/Firewall.php:69
+#: Firewall.class.php:1793
+msgid "Firewall can not be disabled"
+msgstr "防火牆無法停用"
+
+#: Api/Gql/Firewall.php:104
+msgid "Firewall configurations have been saved successfully"
+msgstr "防火牆設定已成功儲存"
+
+#: Api/Gql/Firewall.php:52
+msgid "Firewall enable process has been completed."
+msgstr "防火牆啟用程序已完成。"
+
+#: Console/Firewall.class.php:33
+msgid "Firewall functions"
+msgstr "防火牆功能"
+
+#: Api/Gql/Firewall.php:67
+msgid "Firewall has been disabled"
+msgstr "防火牆已停用"
+
+#: views/warning.notready.php:2
+msgid "Firewall has not started yet!"
+msgstr "防火牆尚未啟動！"
+
+#: Console/Firewall.class.php:300
+msgid "Firewall is not enabled, can't disable it"
+msgstr "防火牆未啟用，無法停用"
+
+#: Restore.php:47
+#, php-format
+msgid "Firewall recovery rules: %s"
+msgstr "防火牆還原規則：%s"
+
+#: OOBE.class.php:246
+msgid ""
+"Firewall should now auto-detect and configure External IP settings. This "
+"will assist with NAT or Translation issues."
+msgstr "防火牆現在應該會自動偵測並設定外部 IP 設定。這將有助於解決 NAT 或轉譯問題。"
+
+#: Api/Gql/Firewall.php:72
+msgid "Firewall.lock doest not exists"
+msgstr "Firewall.lock 不存在"
+
+#: Console/Firewall.class.php:126
+msgid "For example:"
+msgstr "例如："
+
+#: Zones.class.php:10
+msgid ""
+"For use on internal networks. You mostly trust the other computers on the "
+"networks to not harm your computer."
+msgstr "用於內部網路。您大致上信任網路上的其他電腦不會傷害您的電腦。"
+
+#: Zones.class.php:11
+msgid ""
+"For use on trusted external networks, or other well known networks (such as "
+"a DMZ, or OpenVPN network). You mostly trust the other computers on the "
+"networks to not harm your computer."
+msgstr "用於信任的外部網路，或其他熟知的網路（例如 DMZ 或 OpenVPN 網路）。您大致上信任網路上的其他電腦不會傷害您的電腦。"
+
+#: Console/Firewall.class.php:34
+msgid "Force Add/Removal of entry"
+msgstr "強制新增/移除條目"
+
+#: OOBE.class.php:210
+msgid "Further information is available at the PBX Wiki."
+msgstr "更多資訊請參閱 PBX Wiki。"
+
+#: Services.class.php:444
+msgid "HTTP Provisioning"
+msgstr "HTTP 佈建"
+
+#: Services.class.php:459
+msgid "HTTP Provisioning is disabled in Sysadmin Port Management"
+msgstr "HTTP 佈建在 Sysadmin 連接埠管理中已停用"
+
+#: Services.class.php:525
+msgid "HTTP REST Apps are disabled in Sysadmin Port Management"
+msgstr "HTTP REST 應用程式在 Sysadmin 連接埠管理中已停用"
+
+#: Services.class.php:470
+msgid "HTTPS Provisioning"
+msgstr "HTTPS 佈建"
+
+#: Services.class.php:485
+msgid "HTTPS Provisioning is disabled in Sysadmin Port Management"
+msgstr "HTTPS 佈建在 Sysadmin 連接埠管理中已停用"
+
+#: Services.class.php:553
+msgid "HTTPS REST Apps are disabled in Sysadmin Port Management"
+msgstr "HTTPS REST 應用程式在 Sysadmin 連接埠管理中已停用"
+
+#: views/intrusion_detection.php:256
+msgid "How many times a remote IP can try to connect during the find time."
+msgstr "在尋找時間內，遠端 IP 可以嘗試連線的次數。"
+
+#: views/oobe.welcome.php:24
+msgid ""
+"However, if you continue, your machine and firewall will be automatically "
+"updated with the latest settings!"
+msgstr "但是，如果您繼續，您的機器和防火牆將自動更新為最新設定！"
+
+#: Services.class.php:430
+#: Smart.class.php:52
+msgid "IAX Protocol"
+msgstr "IAX 通訊協定"
+
+#: Services.class.php:432
+msgid ""
+"IAX stands for Inter Asterisk eXchange. It is more bandwidth efficient than "
+"SIP, but few providers support it."
+msgstr "IAX 代表 Inter Asterisk eXchange。它比 SIP 更節省頻寬，但很少供應商支援它。"
+
+#: Console/Firewall.class.php:38
+msgid "IDs to add or remove from a zone"
+msgstr "要從區域新增或移除的 ID"
+
+#: Restore.php:95
+msgid "INFO: Not detected module Sysadmin."
+msgstr "資訊：未偵測到 Sysadmin 模組。"
+
+#: views/view.interfaces.php:89
+msgid "IP Address: "
+msgstr "IP 位址："
+
+#: views/view.interfaces.php:87
+msgid "IP Addresses: "
+msgstr "IP 位址："
+
+#: views/intrusion_detection.php:472
+msgid "IP Banned"
+msgstr "IP 已封鎖"
+
+#: Api/Gql/Firewall.php:575
+msgid "IP address of the source"
+msgstr "來源的 IP 位址"
+
+#: Api/Gql/Firewall.php:124
+msgid "IP has been Whitelisted"
+msgstr "IP 已被加入白名單"
+
+#: Api/Gql/Firewall.php:82
+msgid "IP has been added to blacklist"
+msgstr "IP 已被新增至黑名單"
+
+#: Api/Gql/Firewall.php:92
+msgid "IP removed from blacklist"
+msgstr "IP 已從黑名單移除"
+
+#: views/intrusion_detection.php:447
+msgid "IP's that are currently banned."
+msgstr "目前被封鎖的 IP。"
+
+#: views/intrusion_detection.php:406
+msgid "IP's that are currently trusted."
+msgstr "目前受信任的 IP。"
+
+#: Api/Gql/Firewall.php:410
+msgid "IPs black listed"
+msgstr "IP 已列入黑名單"
+
+#: views/intrusion_detection.php:367
+msgid "IPs that are currently banned."
+msgstr "目前被封鎖的 IP。"
+
+#: views/view.advanced_customrules.php:4
+msgid "IPv4"
+msgstr "IPv4"
+
+#: views/view.advanced_customrules.php:8
+msgid "IPv6"
+msgstr "IPv6"
+
+#: views/view.smart.php:27
+msgid ""
+"If fail2ban is enabled and configured on this machine, fail2ban will send "
+"you email alerts when this happens."
+msgstr "如果 fail2ban 在此機器上已啟用並設定，fail2ban 將會在發生此情況時傳送電子郵件警示給您。"
+
+#: views/view.smart.php:26
+msgid ""
+"If the incoming connection attempts are invalid, traffic from that machine "
+"will be dropped for a short period of time. If attempts to authenticate "
+"continue without success, the attacking host will be blocked for 24 hours."
+msgstr "如果傳入的連線嘗試無效，來自該機器的流量將在短時間內被丟棄。如果驗證嘗試持續不成功，攻擊主機將被封鎖 24 小時。"
+
+#: views/view.smart.php:25
+msgid ""
+"If the registration attempt is successful, the remote host is then added to "
+"a 'Known Good' zone, that has permission to use that protocol, and is "
+"additionally granted access to UCP, if UCP is enabled."
+msgstr "如果登錄嘗試成功，遠端主機將被新增至「已知良好」區域，該區域有權使用該通訊協定，並且如果 UCP 已啟用，還會被授予 UCP 存取權。"
+
+#: OOBE.class.php:168
+msgid ""
+"If this is a known secure network, you should add it to the Trusted zone"
+msgstr "如果這是已知的信任網路，您應該將其新增至信任區域"
+
+#: views/view.shortcuts.php:13
+msgid ""
+"If you are coming from an IPv6 Network, it <strong>not recommended</strong> "
+"to only add your 'Host', as MAC address changes, or IPv6 Security "
+"Extensions, will randomly and unexpectedly change your IP address. Ensure "
+"you add the complete network."
+msgstr ""
+"如果您來自 IPv6 網路，<strong>不建議</strong>只新增您的「主機」，因為 MAC 位址變更或 IPv6 安全性延伸會隨機且意外地變更您的 IP 位址。請確保新增整個網路。"
+
+#: views/view.status.php:7
+msgid ""
+"If you are not using the Responsive Firewall, there will be no useful "
+"information available here."
+msgstr "如果您沒有使用響防火牆，這裡將不會有有用的資訊。"
+
+#: views/view.blocked.php:20
+#: views/view.blocked.php:34
+msgid ""
+"If you believe one of the hosts has been added in error, you can click the "
+"red 'X' to remove the block. If the host continues to send invalid data, it "
+"will be automatically re-added."
+msgstr "如果您認為其中一個主機是誤新增的，可以點擊紅色「X」來移除封鎖。如果主機繼續傳送無效資料，它將被自動重新新增。"
+
+#: views/oobe.welcome.php:16
+msgid ""
+"If you do not wish to use Sangoma Smart Firewall, simply click 'Abort'. You "
+"may return to this setup wizard via the 'Firewall' option in the "
+"Connectivity menu."
+msgstr "如果您不想使用 Sangoma 智慧防火牆，只需點擊「中止」。您可以透過連線能力選單中的「防火牆」選項返回此設定精靈。"
+
+#: views/intrusion_detection.php:335
+msgid "Import all IP addresses from all source types."
+msgstr "從所有來源類型匯入所有 IP 位址。"
+
+#: views/intrusion_detection.php:306
+msgid "Import:"
+msgstr "匯入："
+
+#: views/view.smart.php:165
+msgid ""
+"In some situations, it may be desirable to have Responsive Firewall "
+"whitelist known registrations from Fail2Ban, so that an incorrectly "
+"configured device doesn't trip the firewall and cause legitimate devices "
+"behind the same public IP to be blocked."
+msgstr ""
+"在某些情況下，可能會希望響防火牆將 Fail2Ban 的已知登錄加入白名單，這樣設定錯誤的裝置就不會觸發防火牆，並導致位於相同公共 IP 後面的合法裝置被封鎖。"
+
+#: Restore.php:102
+msgid ""
+"Info: If custom firewall rules are not retrieved correctly, run the "
+"following command to force manual repair of the necessary files."
+msgstr "資訊：如果自訂防火牆規則未正確擷取，請執行以下命令強制手動修復必要的檔案。"
+
+#: firewall.i18n.php:8
+msgid ""
+"Integrated PBX Firewall. Currently works with RHEL 6 and RHEL 7 compatible "
+"distributions. Note: This requires the Sysadmin RPM. Please see wiki for "
+"further information."
+msgstr ""
+"整合式 PBX 防火牆。目前適用於 RHEL 6 和 RHEL 7 相容的發行版。注意：這需要 Sysadmin RPM。請參閱 wiki 以取得更多資訊。"
+
+#: Firewall.class.php:2580
+msgid "Interface"
+msgstr "介面"
+
+#: Firewall.class.php:557
+#, php-format
+msgid ""
+"Interface %s is not in the correct zone. This can be caused by manual "
+"alterations of iptables, or, an unexpected error. Please restart the "
+"firewall service."
+msgstr "介面 %s 不在正確的區域中。這可能是由 iptables 的手動修改或意外錯誤所造成。請重新啟動防火牆服務。"
+
+#: views/view.interfaces.php:3
+msgid "Interface Name"
+msgstr "介面名稱"
+
+#: Api/Gql/Firewall.php:357
+msgid "Interface name"
+msgstr "介面名稱"
+
+#: views/page.about.php:57
+msgid "Interfaces"
+msgstr "介面"
+
+#: Zones.class.php:9
+msgid "Internet"
+msgstr "網際網路"
+
+#: Firewall.class.php:2577
+#: views/intrusion_detection.php:45
+#: views/intrusion_detection.php:188
+#: views/page.about.php:64
+msgid "Intrusion Detection"
+msgstr "入侵偵測"
+
+#: Api/Gql/Firewall.php:385
+#: views/intrusion_detection.php:72
+#: views/view.settings.php:42
+msgid "Intrusion Detection Service"
+msgstr "入侵偵測服務"
+
+#: Firewall.class.php:1645
+msgid "Intrusion Detection Service Disabled"
+msgstr "入侵偵測服務已停用"
+
+#: Firewall.class.php:1645
+msgid ""
+"Intrusion Detection Service will not be run on boot. Please, enable this "
+"service using the link below."
+msgstr "入侵偵測服務將不會在開機時執行。請使用以下連結啟用此服務。"
+
+#: Api/Gql/Firewall.php:389
+#: views/intrusion_detection.php:118
+#: views/view.settings.php:48
+msgid "Intrusion Detection Sync Firewall"
+msgstr "入侵偵測同步防火牆"
+
+#: Console/Firewall.class.php:293
+msgid "Intrusion Detection is available for all activated systems only."
+msgstr "入侵偵測僅適用於所有已啟用的系統。"
+
+#: views/intrusion_detection.php:102
+msgid "Intrusion Detection service on boot."
+msgstr "開機時的入侵偵測服務。"
+
+#: views/intrusion_detection.php:144
+msgid ""
+"Intrusion Detection whitelist will work like in the past with no automated "
+"synchronization to the whitelist)."
+msgstr "入侵偵測白名單將如以往般運作，不會自動同步至白名單）。"
+
+#: Api/Gql/Firewall.php:600
+#, php-format
+msgid "Invalid zone '%s' provided"
+msgstr "提供了無效的區域「%s」"
+
+#: Api/Gql/Firewall.php:350
+msgid "Ip address listed is trusted or not"
+msgstr "列出的 IP 位址是否受信任"
+
+#: Api/Gql/Firewall.php:346
+msgid "Ip address of the source"
+msgstr "來源的 IP 位址"
+
+#: views/disabled.php:11
+msgid ""
+"It continously monitors the configuration of your machine, automatically "
+"opening and closing ports to known trunks (eg, VoIP providers), and allows "
+"you to limit the services this machine provides to clients."
+msgstr "它持續監控您機器的設定，自動開啟和關閉已知中繼（例如 VoIP 供應商）的連接埠，並允許您限制此機器提供給使用者端的服務。"
+
+#: OOBE.class.php:135
+#, php-format
+msgid ""
+"It is highly recommended that the client you're currently using (%s) should "
+"be marked as Trusted. This will ensure that you can not accidentally be "
+"locked out of this server."
+msgstr "強烈建議您將目前使用的使用者端（%s）標記為信任。這將確保您不會意外地被鎖定在此伺服器之外。"
+
+#: OOBE.class.php:209
+msgid "It is recommended to turn this on if you have remote clients."
+msgstr "如果您有遠端使用者端，建議開啟此功能。"
+
+#: views/intrusion_detection.php:36
+msgid ""
+"It seems that you are missing the necessary files to start Intrusion "
+"Detection."
+msgstr "您似乎缺少啟動入侵偵測所需的檔案。"
+
+#: views/view.networks.php:3
+msgid "Known Network Definitions"
+msgstr "已知的網路定義"
+
+#: OOBE.class.php:260
+msgid "Known Networks:"
+msgstr "已知的網路："
+
+#: assets/js/views/status.js:149
+msgid "Last 5 packets"
+msgstr "最近 5 個封包"
+
+#: install.php:5
+msgid ""
+"Latest firewall module is depends on 'ipset' utility which is missing so "
+"please install this by either 'yum install ipset -y' for distro(centos) or "
+"equivalent package install command as per your OS and try again."
+msgstr ""
+"最新的防火牆模組依賴於 'ipset' 工具，但該工具已遺失，因此請透過 'yum install ipset -y'（適用於 centos 發行版）或根據您的作業系統使用等效的套件安裝命令來安裝，然後重試。"
+
+#: views/intrusion_detection.php:135
+#: views/intrusion_detection.php:144
+#: views/view.settings.php:4
+msgid "Legacy"
+msgstr "舊版"
+
+#: Smart.class.php:46
+msgid "Legacy SIP (chan_sip)"
+msgstr "舊版 SIP（chan_sip）"
+
+#: views/intrusion_detection.php:236
+msgid "Length of time in seconds a remote IP is banned before being reset."
+msgstr "遠端 IP 在被重設前被封鎖的時間長度（以秒為單位）。"
+
+#: Console/Firewall.class.php:358
+msgid "Lets Encrypt rules already disabled. Nothing to do."
+msgstr "Lets Encrypt 規則已停用。無需執行任何動作。"
+
+#: Console/Firewall.class.php:342
+msgid "Lets Encrypt rules already enabled. Nothing to do"
+msgstr "Lets Encrypt 規則已啟用。無需執行任何動作。"
+
+#: Console/Firewall.class.php:351
+msgid "Lets Encrypt rules disabled successfully."
+msgstr "Lets Encrypt 規則已成功停用。"
+
+#: Console/Firewall.class.php:335
+msgid "Lets Encrypt rules enabled successfully."
+msgstr "Lets Encrypt 規則已成功啟用。"
+
+#: Services.class.php:272
+msgid "LetsEncrypt"
+msgstr "LetsEncrypt"
+
+#: views/view.interfaces.php:69
+#, php-format
+msgid "Linked to Interface %s"
+msgstr "已連結至介面 %s"
+
+#: Console/Firewall.class.php:110
+msgid "List all entries in zone 'zone'"
+msgstr "列出區域「zone」中的所有條目"
+
+#: views/intrusion_detection.php:360
+msgid ""
+"List of IPv4/6 addresses that will never be banned by Intrusion Detection. "
+"One address per line with no separators."
+msgstr "永不被封鎖的 IPv4/6 位址清單。每行一個位址，不加分隔符號。"
+
+#: Api/Gql/Firewall.php:209
+msgid "List of all blacklistedIPs"
+msgstr "所有黑名單 IP 的清單"
+
+#: Api/Gql/Firewall.php:221
+msgid "List of all whiltelistedIPs"
+msgstr "所有白名單 IP 的清單"
+
+#: Api/Gql/Firewall.php:257
+msgid "List of firewall advance settings"
+msgstr "防火牆進階設定的清單"
+
+#: Api/Gql/Firewall.php:233
+msgid "List of firewall configurations"
+msgstr "防火牆設定的清單"
+
+#: Api/Gql/Firewall.php:245
+msgid "List of firewall interface and default zones"
+msgstr "防火牆介面和預設區域的清單"
+
+#: views/view.blocked.php:2
+#: views/view.registered.php:15
+#: views/view.status.php:15
+msgid "Loading..."
+msgstr "載入中……"
+
+#: Zones.class.php:10
+msgid "Local"
+msgstr "本機"
+
+#: views/intrusion_detection.php:321
+msgid "Local Zone"
+msgstr "本機區域"
+
+#: Zones.class.php:10
+msgid "Local trusted traffic"
+msgstr "受信任的本機流量"
+
+#: views/bootnav.php:4
+msgid "Main"
+msgstr "主要"
+
+#: views/intrusion_detection.php:246
+msgid "Max Retry"
+msgstr "最大重試次數"
+
+#: Api/Gql/Firewall.php:406
+#: Api/Gql/Firewall.php:479
+msgid "Message for the request"
+msgstr "請求的訊息"
+
+#: Firewall.class.php:386
+#, php-format
+msgid ""
+"Module Firewall - Check Rules - Adjusting owner and permissions in file "
+"'%s'... OK!"
+msgstr "模組防火牆 - 檢查規則 - 正在調整檔案「%s」中的擁有者與權限……成功！"
+
+#: Firewall.class.php:396
+#, php-format
+msgid ""
+"Module Firewall - Check Rules - Error adjusting owner in file '%s'. Error "
+"Message: %s"
+msgstr "模組防火牆 - 檢查規則 - 調整檔案「%s」中的擁有者時發生錯誤。錯誤訊息：%s"
+
+#: Firewall.class.php:391
+#, php-format
+msgid ""
+"Module Firewall - Check Rules - Error adjusting permissions in file '%s'. "
+"Error Message: %s"
+msgstr "模組防火牆 - 檢查規則 - 調整檔案「%s」中的權限時發生錯誤。錯誤訊息：%s"
+
+#: Firewall.class.php:374
+#, php-format
+msgid "Module Firewall - Check Rules - File '%s' exist... OK!"
+msgstr "模組防火牆 - 檢查規則 - 檔案「%s」存在……成功！"
+
+#: Firewall.class.php:369
+#, php-format
+msgid "Module Firewall - Check Rules - File '%s' not exist, created OK!"
+msgstr "模組防火牆 - 檢查規則 - 檔案「%s」不存在，已建立成功！"
+
+#: Firewall.class.php:365
+#, php-format
+msgid ""
+"Module Firewall - Check Rules - File '%s' not exist, error creating. Error "
+"Message: %s"
+msgstr "模組防火牆 - 檢查規則 - 檔案「%s」不存在，建立時發生錯誤。錯誤訊息：%s"
+
+#: Firewall.class.php:474
+#, php-format
+msgid ""
+"Module Firewall - Remove File Rules - Error detected by deleting the file "
+"'%s'!. Error Message: %s"
+msgstr "模組防火牆 - 移除檔案規則 - 刪除檔案「%s」時偵測到錯誤！錯誤訊息：%s"
+
+#: Firewall.class.php:477
+#, php-format
+msgid "Module Firewall - Remove File Rules - File '%s' deleted successfully."
+msgstr "模組防火牆 - 移除檔案規則 - 檔案「%s」已成功刪除。"
+
+#: views/view.interfaces.php:10
+msgid "Most interfaces should be set to <strong>Internet</strong>."
+msgstr "大多數介面應設定為<strong>網際網路</strong>。"
+
+#: views/view.customsvc.php:62
+#, php-format
+msgid "Multiple Ports: %s"
+msgstr "多個連接埠：%s"
+
+#: Services.class.php:642
+msgid "NFS"
+msgstr "NFS"
+
+#: Services.class.php:649
+msgid "NFS Services are not available on this machine"
+msgstr "NFS 服務在此機器上無法使用"
+
+#: Services.class.php:54
+msgid "NTP"
+msgstr "NTP"
+
+#: Firewall.class.php:2578
+msgid "Network"
+msgstr "網路"
+
+#: views/view.networks.php:14
+msgid "Network/Host"
+msgstr "網路/主機"
+
+#: views/page.about.php:60
+msgid "Networks"
+msgstr "網路"
+
+#: Firewall.class.php:567
+#: Firewall.class.php:569
+msgid "New Interface Detected"
+msgstr "偵測到新介面"
+
+#: Firewall.class.php:454
+msgid "New rules unsent!"
+msgstr "新規則未傳送！"
+
+#: assets/js/views/advanced.js:473
+#: assets/js/views/advanced.js:534
+msgid "No"
+msgstr "否"
+
+#: views/intrusion_detection.php:370
+msgid "No Banned IP's"
+msgstr "沒有被封鎖的 IP"
+
+#: views/view.portmaps.php:31
+msgid "No Custom services defined."
+msgstr "沒有定義的自訂服務。"
+
+#: views/view.registered.php:16
+msgid "No Endpoints have been allowed through the Responsive Firewall"
+msgstr "沒有端點被允許透過響防火牆"
+
+#: views/view.interfaces.php:84
+msgid "No IP Addresses assigned to this interface."
+msgstr "沒有 IP 位址被指派至此介面。"
+
+#: Firewall.class.php:610
+msgid "No Trusted Management Network"
+msgstr "沒有受信任的管理網路"
+
+#: Firewall.class.php:612
+msgid "No Trusted Network or Host defined"
+msgstr "沒有定義的信任網路或主機"
+
+#: Firewall.class.php:613
+msgid ""
+"No Trusted Network or Host has been defined. Every server should have a "
+"'Trusted' host or network to ensure that in case of configuration error, the "
+"machine is still accessible."
+msgstr "沒有定義的信任網路或主機。每部伺服器都應該有一個「信任」主機或網路，以確保在發生設定錯誤時，機器仍然可以存取。"
+
+#: views/view.customsvc.php:11
+msgid "No custom services currently defined."
+msgstr "目前沒有定義的自訂服務。"
+
+#: views/view.blocked.php:12
+#: views/view.blocked.php:23
+#: views/view.blocked.php:36
+msgid "No hosts!"
+msgstr "沒有主機！"
+
+#: Console/Firewall.class.php:68
+#: Console/Firewall.class.php:78
+msgid "No network identifiers supplied"
+msgstr "未提供網路識別碼"
+
+#: views/view.settings.php:39
+msgid ""
+"Normally this should be set to <strong>Disabled</strong> unless you are "
+"debugging network connectivity."
+msgstr "通常這應設定為<strong>停用</strong>，除非您在除錯網路連線能力。"
+
+#: views/view.blacklist.php:3
+msgid "Note that changes to the firewall are effective immediately."
+msgstr "請注意，防火牆的變更會立即生效。"
+
+#: views/view.smart.php:28
+msgid ""
+"Note that if you have explicitly granted 'External' connections access to a "
+"protocol, this filtering and rate limiting will not be used.  This is only "
+"used when an incoming connection <strong>would normally be blocked</strong>."
+msgstr ""
+"請注意，如果您已明確授予「外部」連線存取某個通訊協定，則不會使用此過濾和速率限制。這僅在傳入的連線<strong>通常會被封鎖</strong>時使用。"
+
+#: views/view.services.php:4
+msgid ""
+"Note that the 'Reject' setting explicitly blocks that service totally, and "
+"can only be overridden by access from a Trusted Zone. This is functionally "
+"equivalent to turning off access from all zones, unless you are running an "
+"extra Firewall plugin."
+msgstr ""
+"請注意，「拒絕」設定會明確地完全封鎖該服務，且只能由信任區域的存取來覆寫。這在功能上等同於關閉來自所有區域的存取，除非您正在執行額外的防火牆外掛程式。"
+
+#: views/view.blocked.php:9
+#: views/view.blocked.php:21
+msgid "Note that timestamps may not be accurate, and are indicative only."
+msgstr "請注意，時間戳記可能不準確，僅供參考。"
+
+#: views/view.settings.php:17
+msgid ""
+"Note: LetsEncrypt will always send challenge queries to port 80.  If this "
+"server is not listening on port 80, certificate requests will fail unless an "
+"upstream firewall or proxy redirects requests to the server port."
+msgstr ""
+"注意：LetsEncrypt 一律會將挑戰查詢傳送到連接埠 80。如果此伺服器未在連接埠 80 上監聽，憑證請求將會失敗，除非上游防火牆或代理將請求重新導向至伺服器連接埠。"
+
+#: views/intrusion_detection.php:14
+#: views/page.about.php:41
+msgid ""
+"Note: The Intrusion Detection handling method has been updated recently. "
+"Please clear your browser cache and refresh if you are having issues seeing "
+"the Intrusion Detection Start/Restart/Stop button."
+msgstr "注意：入侵偵測的處理方法最近已更新。如果您在查看入侵偵測啟動/重新啟動/停止按鈕時遇到問題，請清除瀏覽器快取並重新整理。"
+
+#: assets/js/views/advanced.js:529
+#, perl-format
+msgid "Nothing to save here. No change for rules in (%s)."
+msgstr "這裡沒有需要儲存的內容。規則沒有變更（%s）。"
+
+#: views/view.status.php:19
+msgid "Number of Currently Rate-Limited Clients:"
+msgstr "目前受速率限制的使用者端數量："
+
+#: views/view.status.php:21
+msgid "Number of currently blocked Attackers:"
+msgstr "目前被封鎖的攻擊者數量："
+
+#: views/intrusion_detection.php:276
+msgid "Number of seconds before attempts are reset."
+msgstr "重設嘗試之前的秒數。"
+
+#: Services.class.php:497
+msgid "OpenVPN Server"
+msgstr "OpenVPN 伺服器"
+
+#: Console/Firewall.class.php:37
+msgid "Optional parameter"
+msgstr "選用參數"
+
+#: Zones.class.php:11
+msgid "Other"
+msgstr "其他"
+
+#: Zones.class.php:11
+msgid "Other Traffic"
+msgstr "其他流量"
+
+#: views/intrusion_detection.php:324
+msgid "Other Zone"
+msgstr "其他區域"
+
+#: Services.class.php:373
+msgid "PJSIP is not available on this machine"
+msgstr "PJSIP 在此機器上無法使用"
+
+#: Services.class.php:446
+msgid ""
+"Phones that are configured via Endpoint Manager to use HTTP provisioning "
+"will use this port to download its configuration. It is NOT ADVISED to "
+"expose this port to the public internet, as SIP Secrets will be available to "
+"a knowledgable attacker."
+msgstr ""
+"透過 Endpoint Manager 設定使用 HTTP 佈建的電話將使用此連接埠下載其設定。不建議將此連接埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
+
+#: Services.class.php:472
+msgid ""
+"Phones that are configured via Endpoint Manager to use HTTPS provisioning "
+"will use this port to download its configuration. It is NOT ADVISED to "
+"expose this port to the public internet, as SIP Secrets will be available to "
+"a knowledgable attacker."
+msgstr ""
+"透過 Endpoint Manager 設定使用 HTTPS 佈建的電話將使用此連接埠下載其設定。不建議將此連接埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
+
+#: OOBE.class.php:178
+msgid ""
+"Please ensure that you are not inadvertently allowing unauthorized hosts "
+"access to your machine. You should only select 'Yes' if you are sure the "
+"network (above) is not accessible by any unknown third parties."
+msgstr "請確保您不會意外地允許未經授權的主機存取您的機器。只有在您確定（上述）網路無法被任何未知的第三方存取時，才應選取「是」。"
+
+#: views/disabled.php:13
+msgid "Please visit the PBX Wiki for more information on the firewall."
+msgstr "請瀏覽 PBX Wiki 以取得更多關於防火牆的資訊。"
+
+#: views/modal.customsvc.php:27
+msgid "Port Range"
+msgstr "連接埠範圍"
+
+#: views/view.customsvc.php:60
+#, php-format
+msgid "Port Range: %s"
+msgstr "連接埠範圍：%s"
+
+#: views/modal.customsvc.php:32
+msgid ""
+"Port ranges may be either a single number (9898), a selection of numbers "
+"(9898,9777,862), or a range delimited by a colon (9000:9500)"
+msgstr "連接埠範圍可以是單一數字（9898）、數字選取項目（9898,9777,862），或是由冒號分隔的範圍（9000:9500）"
+
+#: views/page.advanced.php:34
+msgid "Port/Service Maps"
+msgstr "連接埠/服務對應"
+
+#: views/page.advanced.php:37
+msgid "Preconfigured"
+msgstr "預先設定"
+
+#: Firewall.class.php:1178
+msgid "Preparing settings. Please wait a while."
+msgstr "正在準備設定。請稍候。"
+
+#: views/view.shortcuts.php:32
+msgid "Present"
+msgstr "目前"
+
+#: views/view.advanced_customrules.php:64
+msgid ""
+"Press F11 when cursor is in the editor to toggle full screen editing. ESC "
+"can also be used to exit full screen editing."
+msgstr "當游標在編輯器中時，按下 F11 可切換全螢幕編輯。ESC 也可用於結束全螢幕編輯。"
+
+#: views/modal.customsvc.php:17
+msgid "Protocol"
+msgstr "通訊協定"
+
+#: assets/js/views/advanced.js:495
+#, perl-format
+msgid "Protocol data (%s) loaded successfully."
+msgstr "通訊協定資料（%s）已成功載入。"
+
+#: assets/js/views/advanced.js:543
+#, perl-format
+msgid "Protocol data (%s) saved successfully."
+msgstr "通訊協定資料（%s）已成功儲存。"
+
+#: Firewall.class.php:432
+#: Firewall.class.php:462
+msgid "Protocol not selected!"
+msgstr "未選取通訊協定！"
+
+#: Firewall.class.php:428
+#: Firewall.class.php:458
+msgid "Protocol not valid!"
+msgstr "通訊協定無效！"
+
+#: views/view.customsvc.php:53
+msgid "Protocol: TCP"
+msgstr "通訊協定：TCP"
+
+#: views/view.customsvc.php:51
+msgid "Protocol: TCP and UDP"
+msgstr "通訊協定：TCP 和 UDP"
+
+#: views/view.customsvc.php:55
+msgid "Protocol: UDP"
+msgstr "通訊協定：UDP"
+
+#: Services.class.php:509
+msgid "REST Apps (HTTP)"
+msgstr "REST 應用程式（HTTP）"
+
+#: Services.class.php:537
+msgid "REST Apps (HTTPS)"
+msgstr "REST 應用程式（HTTPS）"
+
+#: Services.class.php:529
+#: Services.class.php:557
+msgid "REST Apps are only available with System Admin"
+msgstr "REST 應用程式僅適用於系統管理員"
+
+#: Services.class.php:511
+#: Services.class.php:539
+msgid ""
+"REST Apps are used with intelligent phones to provide an interactive "
+"interface from the phone itself. Note that any devices that are allowed "
+"access via Responsive Firewall are automatically granted access to this "
+"service."
+msgstr "REST 應用程式與智慧型電話搭配使用，以從電話本身提供互動介面。請注意，任何允許透過響防火牆存取的裝置都會自動被授予此服務的存取權。"
+
+#: views/view.shortcuts.php:5
+msgid ""
+"RFC1918 and RFC4193 are the RFCs that define the reserved, internal, network "
+"address space to be used when you're not directly connected to the internet, "
+"or do not want your address space routable. This adds the IPv4 networks "
+"192.168.0.0/16, 172.16.0.0/12, and 10.0.0.0/8 and IPv6 networks fc00::/8 and "
+"fd00::/8 to the 'Trusted' zone, and excludes it from all firewalls."
+msgstr ""
+"RFC1918 和 RFC4193 是定義保留的內部網路位址空間的 RFC，當您未直接連線到網際網路，或不想讓您的位址空間可路由時使用。這會將 IPv4 網路 192.168.0.0/16、172.16.0.0/12 和 10.0.0.0/8 以及 IPv6 網路 fc00::/8 和 fd00::/8 新增至「信任」區域，並將其從所有防火牆中排除。"
+
+#: views/view.shortcuts.php:4
+msgid "RFC1918/RFC4193"
+msgstr "RFC1918/RFC4193"
+
+#: views/view.blocked.php:6
+msgid "Rate Limited Hosts"
+msgstr "受速率限制的主機"
+
+#: views/view.about.php:65
+msgid "Re-Run Wizard"
+msgstr "重新執行精靈"
+
+#: Api/Gql/Firewall.php:26
+msgid "Read from firewall"
+msgstr "從防火牆讀取"
+
+#: views/page.status.php:33
+msgid "Registered Endpoints"
+msgstr "已登錄的端點"
+
+#: views/intrusion_detection.php:315
+msgid "Registered Ext. IPs"
+msgstr "已登錄的分機 IP"
+
+#: Zones.class.php:12
+msgid "Reject"
+msgstr "拒絕"
+
+#: Api/Gql/Firewall.php:381
+#: views/view.settings.php:35
+msgid "Reject Packets"
+msgstr "拒絕封包"
+
+#: Zones.class.php:12
+msgid "Reject incoming traffic"
+msgstr "拒絕傳入流量"
+
+#: views/view.advanced_customrules.php:71
+msgid "Reload"
+msgstr "重新載入"
+
+#: Api/Gql/Firewall.php:87
+msgid "Remove from blacklist"
+msgstr "從黑名單移除"
+
+#: Console/Firewall.class.php:109
+msgid "Remove the hostname or IP specified from the Trusted Zone"
+msgstr "從信任區域移除指定的主機名稱或 IP"
+
+#: Console/Firewall.class.php:507
+#, php-format
+msgid "Removed %s from Blacklist."
+msgstr "已從黑名單移除 %s。"
+
+#: Firewall.class.php:1843
+msgid "Reset"
+msgstr "重設"
+
+#: Firewall.class.php:2581
+#: views/page.about.php:54
+#: views/view.smart.php:3
+msgid "Responsive Firewall"
+msgstr "響防火牆"
+
+#: views/view.about.php:20
+msgid ""
+"Responsive Firewall allows your machine to automatically block attacks to "
+"your machine, while learning and automatically granting permission to "
+"authorized devices, without the need to manually configure them."
+msgstr "響防火牆讓您的機器可以自動封鎖對您機器的攻擊，同時學習並自動授予授權裝置的權限，無需手動設定。"
+
+#: OOBE.class.php:215
+msgid "Responsive Firewall is <strong>currently enabled</strong>."
+msgstr "響防火牆<strong>目前已啟用</strong>。"
+
+#: views/view.about.php:26
+msgid "Responsive Firewall is <strong>enabled</strong>."
+msgstr "響防火牆<strong>已啟用</strong>。"
+
+#: views/view.about.php:19
+msgid "Responsive Firewall is not enabled."
+msgstr "響防火牆未啟用。"
+
+#: Api/Gql/Firewall.php:373
+#: views/view.settings.php:14
+msgid "Responsive LetsEncrypt Rules"
+msgstr "響 LetsEncrypt 規則"
+
+#: views/view.smart.php:82
+msgid "Responsive firewall threshold parameters"
+msgstr "響防火牆閾值參數"
+
+#: Console/Firewall.class.php:106
+msgid "Restart the System Firewall"
+msgstr "重新啟動系統防火牆"
+
+#: Services.class.php:565
+msgid "SCIM Provisioning (HTTPS)"
+msgstr "SCIM 佈建（HTTPS）"
+
+#: Services.class.php:596
+msgid "SCIM provisioning is disabled in Sysadmin Port Management"
+msgstr "SCIM 佈建在 Sysadmin 連接埠管理中已停用"
+
+#: Services.class.php:581
+msgid "SCIM provisioning is not licensed."
+msgstr "SCIM 佈建未取得授權。"
+
+#: Services.class.php:600
+msgid "SCIM provisioning is only available with System Admin"
+msgstr "SCIM 佈建僅適用於系統管理員"
+
+#: Services.class.php:567
+msgid ""
+"SCIM provisioning is used by external identity providers to create and "
+"manage users."
+msgstr "SCIM 佈建由外部身分識別提供者用來建立和管理使用者。"
+
+#: Services.class.php:573
+msgid "SCIM provisioning requires the PBX SAML module."
+msgstr "SCIM 佈建需要 PBX SAML 模組。"
+
+#: Services.class.php:324
+msgid "SIP Protocol"
+msgstr "SIP 通訊協定"
+
+#: Smart.class.php:49
+msgid "SIP Protocol (pjsip)"
+msgstr "SIP 通訊協定（pjsip）"
+
+#: Services.class.php:704
+msgid "SMB/CIFS"
+msgstr "SMB/CIFS"
+
+#: Services.class.php:710
+msgid "SMB/CIFS (Samba) is not installed on this machine"
+msgstr "SMB/CIFS（Samba）未安裝在此機器上"
+
+#: Services.class.php:713
+msgid ""
+"SMB/CIFS is used to access files on this machine from Windows or Mac systems."
+msgstr "SMB/CIFS 用於從 Windows 或 Mac 系統存取此機器上的檔案。"
+
+#: Services.class.php:64
+msgid "SSH"
+msgstr "SSH"
+
+#: Services.class.php:66
+msgid ""
+"SSH is the most commonly used system administration tool. It is also a "
+"common target for hackers. We <strong>strongly recommend</strong> using a "
+"strong password and SSH keys. "
+msgstr "SSH 是最常用的系統管理工具。它也是駭客的常見目標。我們<strong>強烈建議</strong>使用強密碼和 SSH 金鑰。"
+
+#: Api/Gql/Firewall.php:369
+#: views/view.settings.php:9
+msgid "Safe Mode"
+msgstr "安全模式"
+
+#: views/view.settings.php:10
+msgid ""
+"Safe mode gives you the ability to recover from an accidental "
+"misconfiguration by temporarily disabling the firewall if the machine is "
+"rebooted two times in succession."
+msgstr "安全模式讓您在機器連續重新啟動兩次時，透過暫時停用防火牆來從意外設定錯誤中恢復的能力。"
+
+#: Services.class.php:312
+msgid "Sangoma Phone Desktop Client Service"
+msgstr "Sangoma Phone 桌面使用者端服務"
+
+#: Services.class.php:314
+msgid ""
+"Sangoma Phone Desktop Client Service is not available or licensed to use. "
+"Please make sure the sangomaconnect module is installed and enabled."
+msgstr "Sangoma Phone 桌面使用者端服務無法使用或未取得授權。請確認已安裝並啟用 sangomaconnect 模組。"
+
+#: OOBE.class.php:43
+msgid "Sangoma Smart Firewall"
+msgstr "Sangoma 智慧防火牆"
+
+#: views/oobe.welcome.php:14
+msgid ""
+"Sangoma Smart Firewall is a revolutionary Open Source Firewall solution, "
+"designed from the ground up to completely secure your VoIP system."
+msgstr "Sangoma 智慧防火牆是革命性的開放原始碼防火牆解決方案，從頭開始設計以完全保護您的 VoIP 系統。"
+
+#: views/oobe.welcome.php:2
+msgid "Sangoma Smart Firewall is now enabled!"
+msgstr "Sangoma 智慧防火牆現已啟用！"
+
+#: Firewall.class.php:1835
+#: Firewall.class.php:1844
+#: views/modal.customsvc.php:37
+#: views/view.advanced_customrules.php:69
+#: views/view.customsvc.php:43
+msgid "Save"
+msgstr "儲存"
+
+#: Firewall.class.php:1838
+msgid "Save Intrusion Detection"
+msgstr "儲存入侵偵測"
+
+#: views/view.advanced_customrules.php:70
+msgid "Save and Apply"
+msgstr "儲存並套用"
+
+#: views/view.portmaps.php:41
+msgid "See Custom Service page"
+msgstr "查看自訂服務頁面"
+
+#: OOBE.class.php:258
+msgid ""
+"Selecting 'Yes' will update your current configuration. Selecting 'No' will "
+"not change your current settings."
+msgstr "選取「是」將更新您目前的設定。選取「否」將不會變更您目前的設定。"
+
+#: views/view.portmaps.php:44
+msgid "Service unavailable"
+msgstr "服務無法使用"
+
+#: views/bootnav.php:6
+#: views/page.services.php:32
+msgid "Services"
+msgstr "服務"
+
+#: views/view.services.php:3
+msgid ""
+"Services that are assigned to zones <strong>are accessible</strong> to "
+"connections matching the zones."
+msgstr "指派給區域的服務<strong>可供</strong>符合區域的連線存取。"
+
+#: Api/Gql/Firewall.php:555
+msgid "Set OOBE answered enabled/disabled, default is true"
+msgstr "設定 OOBE 已回答啟用/停用，預設為 true"
+
+#: Api/Gql/Firewall.php:560
+msgid "Set external setup oprion, default is true"
+msgstr "設定外部設定選項，預設為 true"
+
+#: Api/Gql/Firewall.php:530
+msgid "Set the PjSIP Configuration"
+msgstr "設定 PjSIP 設定"
+
+#: Api/Gql/Firewall.php:525
+msgid "Set the chainSIP configuration"
+msgstr "設定 chainSIP 設定"
+
+#: Api/Gql/Firewall.php:540
+msgid "Set the current Jiffer value, default is 1000"
+msgstr "設定目前的 Jiffer 值，預設為 1000"
+
+#: Api/Gql/Firewall.php:545
+msgid "Set the service zone options"
+msgstr "設定服務區域選項"
+
+#: Api/Gql/Firewall.php:550
+msgid "Set the trusted host, default is true"
+msgstr "設定信任主機，預設為 true"
+
+#: Firewall.class.php:2579
+#: views/page.about.php:51
+msgid "Settings"
+msgstr "設定"
+
+#: OOBE.class.php:133
+msgid "Should the client you're using be trusted?"
+msgstr "您使用的使用者端應該受信任嗎？"
+
+#: OOBE.class.php:162
+msgid "Should your current network be trusted?"
+msgstr "您目前的網路應該受信任嗎？"
+
+#: Console/Firewall.class.php:35
+msgid "Show help"
+msgstr "顯示說明"
+
+#: Console/Firewall.class.php:113
+msgid "Show zones that can be used to add and del."
+msgstr "顯示可用於新增和刪除的區域。"
+
+#: views/view.customsvc.php:65
+#, php-format
+msgid "Single Port: %s"
+msgstr "單一連接埠：%s"
+
+#: Api/Gql/Firewall.php:54
+msgid "Sorry unable to process enable firewall"
+msgstr "抱歉，無法處理啟用防火牆"
+
+#: Api/Gql/Firewall.php:211
+msgid "Sorry, No Blacklisted IPs found"
+msgstr "抱歉，找不到任何黑名單 IP"
+
+#: Api/Gql/Firewall.php:126
+msgid "Sorry, failed to added IP to Whitelist"
+msgstr "抱歉，無法將 IP 新增至白名單"
+
+#: Api/Gql/Firewall.php:247
+msgid "Sorry, failed to list firewall  interface and default zones"
+msgstr "抱歉，無法列出防火牆介面和預設區域"
+
+#: Api/Gql/Firewall.php:259
+msgid "Sorry, failed to list firewall advace settings"
+msgstr "抱歉，無法列出防火牆進階設定"
+
+#: Api/Gql/Firewall.php:235
+msgid "Sorry, failed to list firewall configuration"
+msgstr "抱歉，無法列出防火牆設定"
+
+#: Api/Gql/Firewall.php:182
+msgid "Sorry, failed to update firewall advance settings"
+msgstr "抱歉，無法更新防火牆進階設定"
+
+#: Api/Gql/Firewall.php:223
+msgid "Sorry, no whitelisted IPs found"
+msgstr "抱歉，找不到任何白名單 IP"
+
+#: Api/Gql/Firewall.php:106
+msgid "Sorry,Firewall configurations has failed"
+msgstr "抱歉，防火牆設定失敗"
+
+#: views/intrusion_detection.php:434
+msgid "Source"
+msgstr "來源"
+
+#: Console/Firewall.class.php:105
+msgid "Start (and enable, if disabled) the System Firewall"
+msgstr "啟動（並在已停用的情況下啟用）系統防火牆"
+
+#: Firewall.class.php:508
+msgid "Starting up"
+msgstr "正在啟動"
+
+#: assets/js/views/advanced.js:600
+msgid "State Change Successful"
+msgstr "狀態變更成功"
+
+#: views/bootnav.php:5
+#: views/intrusion_detection.php:172
+msgid "Status"
+msgstr "狀態"
+
+#: views/page.status.php:30
+msgid "Status Overview"
+msgstr "狀態概觀"
+
+#: Api/Gql/Firewall.php:332
+msgid "Status for the ecternal Setup"
+msgstr "外部設定的狀態"
+
+#: Api/Gql/Firewall.php:288
+msgid "Status for the firewall enabled/disabled"
+msgstr "防火牆啟用/停用的狀態"
+
+#: Api/Gql/Firewall.php:303
+msgid "Status for the pjSIP"
+msgstr "pjSIP 的狀態"
+
+#: Api/Gql/Firewall.php:339
+msgid "Status for the provision"
+msgstr "佈建的狀態"
+
+#: Api/Gql/Firewall.php:414
+#: Api/Gql/Firewall.php:483
+msgid "Status for the request"
+msgstr "請求的狀態"
+
+#: Api/Gql/Firewall.php:295
+msgid "Status for the responsive firewall"
+msgstr "響防火牆的狀態"
+
+#: Api/Gql/Firewall.php:307
+msgid "Status of safe mode enabled/disabled"
+msgstr "安全模式啟用/停用的狀態"
+
+#: Api/Gql/Firewall.php:299
+msgid "Status of the chainSIP"
+msgstr "chainSIP 的狀態"
+
+#: Api/Gql/Firewall.php:318
+msgid "Status of the trusted host"
+msgstr "信任主機的狀態"
+
+#: Api/Gql/Firewall.php:325
+msgid "Status responsive enabled"
+msgstr "響防火牆啟用狀態"
+
+#: Console/Firewall.class.php:104
+msgid "Stop the System Firewall"
+msgstr "停止系統防火牆"
+
+#: Console/Firewall.class.php:413
+#: Console/Firewall.class.php:457
+#: Console/Firewall.class.php:556
+msgid "Success!"
+msgstr "成功！"
+
+#: views/view.registered.php:3
+msgid "Successfully Registered Endpoints"
+msgstr "已成功登錄的端點"
+
+#: views/view.status.php:3
+msgid "Summary"
+msgstr "摘要"
+
+#: Console/Firewall.class.php:116
+msgid ""
+"Synchronizes all selected zones of the firewall module with the intrusion "
+"detection whitelist."
+msgstr "將防火牆模組的所有選取區域與入侵偵測白名單同步。"
+
+#: Console/Firewall.class.php:270
+msgid ""
+"Syncing cannot be performed because another synchronization is still in "
+"progress."
+msgstr "無法執行同步，因為另一個同步仍在進行中。"
+
+#: Console/Firewall.class.php:289
+msgid ""
+"Syncing cannot be performed because the Intrusion Detection Sync Firewall "
+"setting is set to Legacy mode."
+msgstr "無法執行同步，因為入侵偵測同步防火牆設定設為舊版模式。"
+
+#: Console/Firewall.class.php:281
+#, php-format
+msgid ""
+"Syncing takes a long time. No news for %d seconds. Unlocking syncing. Please "
+"check logs."
+msgstr "同步需要很長時間。%d 秒內沒有訊息。正在解除同步鎖定。請檢查記錄。"
+
+#: Console/Firewall.class.php:262
+msgid "Syncing...."
+msgstr "正在同步……"
+
+#: Firewall.class.php:496
+#: firewall.i18n.php:4
+#: views/view.about.php:3
+msgid "System Firewall"
+msgstr "系統防火牆"
+
+#: views/modal.customsvc.php:21
+msgid "TCP"
+msgstr "TCP"
+
+#: views/view.portmaps.php:70
+msgid "TCP Port:"
+msgstr "TCP 連接埠："
+
+#: views/view.portmaps.php:73
+msgid "TCP Ports:"
+msgstr "TCP 連接埠："
+
+#: Services.class.php:629
+msgid "TFTP"
+msgstr "TFTP"
+
+#: Services.class.php:631
+msgid "TFTP is used normally for provisioning and upgrading of devices."
+msgstr "TFTP 通常用於裝置的佈建和升級。"
+
+#: views/oobe.welcome.php:22
+msgid "Thanks for using Sangoma Smart Firewall!"
+msgstr "感謝使用 Sangoma 智慧防火牆！"
+
+#: views/intrusion_detection.php:296
+msgid ""
+"The 'From' address that emails appear to come from is configured in "
+"'Notification Settings'"
+msgstr "電子郵件顯示的「寄件者」地址是在「通知設定」中設定"
+
+#: Console/Firewall.class.php:224
+msgid "The Firewall is not started. Syncing Process canceled."
+msgstr "防火牆未啟動。同步程序已取消。"
+
+#: views/view.advanced_customrules.php:17
+msgid ""
+"The application of custom rules is <b>DISABLED</b>. You can edit them, but "
+"they will not be applied."
+msgstr "自訂規則的套用已<b>停用</b>。您可以編輯它們，但不會被套用。"
+
+#: views/intrusion_detection.php:401
+msgid ""
+"The changes are not yet applied. They will be applied during the next "
+"synchronization. However, you can apply them immediately by clicking the "
+"Save button."
+msgstr "變更尚未套用。它們將在下一次同步期間套用。但是，您可以透過點擊儲存按鈕立即套用它們。"
+
+#: Firewall.class.php:804
+#, php-format
+msgid ""
+"The client machine you are using to manage this server (<tt>%s</tt>) is "
+"<strong>not</strong> a member of the Trusted zone. It is highly recommended "
+"to add this client to your Trusted Zone to avoid accidental lockouts."
+msgstr ""
+"您用來管理此伺服器的使用者端機器（<tt>%s</tt>）<strong>不是</strong>信任區域的成員。強烈建議您將此使用者端新增至您的信任區域以避免意外鎖定。"
+
+#: phar/build.php:18
+#, php-format
+msgid "The file (%s) could not be found!"
+msgstr "找不到檔案（%s）！"
+
+#: Restore.php:34
+#, php-format
+msgid "The file exists, a backup copy is saved in: %s"
+msgstr "檔案已存在，備份副本已儲存於：%s"
+
+#: views/view.advanced_customrules.php:24
+msgid ""
+"The file where the custom rules are stored does not exist or does not have "
+"the proper permissions. Run the following command on a console with enough "
+"permissions to fix the problem:"
+msgstr "儲存自訂規則的檔案不存在或沒有足夠的權限。請在具有足夠權限的主控台上執行以下命令來修正問題："
+
+#: views/view.settings.php:31
+msgid ""
+"The files /etc/firewall-4.rules and /etc/firewall-6.rules (for IPv4 and IPv6 "
+"rules) must be owned by the 'root' user and not writable by any other user. "
+"Each line in the file will be given as a parameter to 'iptables' or "
+"'ip6tables, respectively."
+msgstr ""
+"檔案 /etc/firewall-4.rules 和 /etc/firewall-6.rules（分別用於 IPv4 和 IPv6 規則）必須由「root」使用者擁有，且不可由其他使用者寫入。檔案中的每一行將作為參數傳遞給「iptables」或「ip6tables」。"
+
+#: views/disabled.php:7
+msgid "The firewall module is not enabled!"
+msgstr "防火牆模組未啟用！"
+
+#: OOBE.class.php:167
+#, php-format
+msgid ""
+"The network you are currently using (%s) to manage this server isn't marked "
+"as Trusted."
+msgstr "您目前用來管理此伺服器的網路（%s）未標記為信任。"
+
+#: views/view.blocked.php:13
+msgid "There are no hosts that are currently being rate limited."
+msgstr "目前沒有主機受到速率限制。"
+
+#: views/view.blocked.php:24
+#: views/view.blocked.php:37
+msgid "There are no hosts that have been detected as attacking this server."
+msgstr "沒有偵測到任何主機正在攻擊此伺服器。"
+
+#: views/view.about.php:27
+msgid ""
+"There is no need to explicitly add definitions for peers, as they are "
+"automatically allowed through the firewall after successfully registering."
+msgstr "不需要明確新增對等體的定義，因為它們在成功登錄後會自動被允許通過防火牆。"
+
+#: views/view.blocked.php:8
+msgid ""
+"There is no need to manually remove entries from this section, as their rate "
+"limiting will be completely removed in 60 seconds. If they continue to send "
+"invalid data, they will be classified as an Attacker."
+msgstr "不需要手動移除此區段中的條目，因為它們的速率限制將在 60 秒內完全移除。如果它們繼續傳送無效資料，將被分類為攻擊者。"
+
+#: Console/Firewall.class.php:125
+msgid "These may be IP addresses, hostnames, or networks."
+msgstr "這些可能是 IP 位址、主機名稱或網路。"
+
+#: views/disabled.php:10
+msgid ""
+"This Firewall module is a tightly integrated, system level firewall that "
+"continually monitors and blocks attacks on your system, while allowing valid "
+"traffic through."
+msgstr "此防火牆模組是緊密整合的系統層級防火牆，持續監控並封鎖對您系統的攻擊，同時允許有效流量通過。"
+
+#: Services.class.php:499
+msgid ""
+"This allows clients to connect to an OpenVPN server running on this machine. "
+"This is an inherently secure protocol."
+msgstr "這允許使用者端連線到此機器上執行的 OpenVPN 伺服器。這是本質上安全的通訊協定。"
+
+#: views/view.settings.php:32
+msgid ""
+"This allows expert users to customize the firewall to their specifications. "
+"This should be <strong>Disabled</strong> unless you explicitly know why it "
+"is enabled."
+msgstr "這允許進階使用者根據其規格自訂防火牆。除非您明確知道為何啟用，否則應設為<strong>停用</strong>。"
+
+#: Services.class.php:652
+msgid ""
+"This allows this machine to be used as a NFS server. This can be useful when "
+"you want to easily access files on this machine (for example, to access call "
+"recordings). Note that this is <strong>not required</strong> to be enabled "
+"to act as a NFS client, and view the filesystem of other machines."
+msgstr ""
+"這允許此機器用作 NFS 伺服器。當您想要輕鬆存取此機器上的檔案（例如，存取通話錄音）時，這會很有注意。請注意，作為 NFS 使用者端並查看其他機器的檔案系統時，<strong>不需要</strong>啟用此功能。"
+
+#: views/warning.notready.php:4
+msgid ""
+"This allows you to perform emergency repairs to the firewall, in case you're "
+"accidentally locked out. The firewall will start automatically after this "
+"machine has been running for more than 5 minutes."
+msgstr "這允許您對防火牆進行緊急修復，以防您意外被鎖定。防火牆將在此機器執行超過 5 分鐘後自動啟動。"
+
+#: views/view.shortcuts.php:23
+#, php-format
+msgid ""
+"This allows you to simply add a pre-configured set of networks to your "
+"trusted zone. Once you have added your selections, you can fine-tune them, "
+"if required, %s on the Networks tab. %s"
+msgstr "這讓您輕鬆將一組預先設定的網路新增至您的信任區域。新增您的選取項目後，您可以視需要%s在網路分頁上%s進行微調。"
+
+#: views/view.settings.php:30
+msgid ""
+"This authorizes the system to import custom iptables rules after the "
+"firewall has started."
+msgstr "這授權系統在防火牆啟動後匯入自訂 iptables 規則。"
+
+#: views/view.settings.php:36
+msgid ""
+"This configures what happens when a packet is received by the Firewall that "
+"<strong>will not be allowed</strong> through to the system."
+msgstr "這設定當防火牆收到<strong>將不被允許</strong>通過系統的封包時會發生什麼情況。"
+
+#: views/view.registered.php:7
+msgid ""
+"This does <strong>not</strong> include Endpoints that are already assigned "
+"to a Zone, or, Endpoints that were <strong>already registered</strong> when "
+"the firewall restarted, as they are automatically granted access. This is "
+"only for previously unknown hosts who have been authorized by Asterisk and "
+"granted access by the firewall."
+msgstr ""
+"這<strong>不包括</strong>已指派至區域的端點，或防火牆重新啟動時<strong>已登錄</strong>的端點，因為它們會自動獲得存取權。這僅適用於先前未知的主機，這些主機已被 Asterisk 授權並獲得防火牆的存取權。"
+
+#: views/view.shortcuts.php:12
+#, php-format
+msgid ""
+"This explicitly grants permission to the machine that is managing the "
+"firewall service now. If you select 'Add Network', it will add the entire "
+"network that the server sees you coming from (%s), or if you select 'Add "
+"Host' it will only add the individual IP address (%s). When starting to "
+"configure your firewall, it is wise to enable this to ensure you don't lock "
+"yourself out of your machine."
+msgstr ""
+"這明確授予目前管理防火牆服務的機器權限。如果您選取「新增網路」，它將新增伺服器看到您來自的整個網路（%s），或者如果您選取「新增主機」，它將只新增個別的 IP 位址（%s）。開始設定您的防火牆時，啟用此功能是明智的，以確保您不會將自己鎖定在您的機器之外。"
+
+#: views/view.blacklist.php:1
+msgid ""
+"This firewall runs in a Deny-By-Default configuration. However, if you "
+"enable 'Responsive Firewall', your Signalling ports are exposed to the "
+"internet, and may be attackable."
+msgstr "此防火牆以預設拒絕設定執行。但是，如果您啟用「響防火牆」，您的訊號連接埠會暴露到網際網路，可能會被攻擊。"
+
+#: Zones.class.php:9
+msgid ""
+"This interface receives traffic from the Internet. Only selected incoming "
+"connections are accepted."
+msgstr "此介面接收來自網際網路的流量。僅接受選取的傳入連線。"
+
+#: views/view.about.php:10
+msgid ""
+"This is done by a small process that runs on your PBX server that "
+"automatically updates firewall rules based on the current trunk and "
+"extension configuration of your PBX."
+msgstr "這是由在您的 PBX 伺服器上執行的小程序完成的，它會根據您 PBX 的目前分機和中繼設定自動更新防火牆規則。"
+
+#: Services.class.php:326
+msgid "This is the SIP driver (pjsip). Most devices use SIP."
+msgstr "這是 SIP 驅動程式（pjsip）。大多數裝置使用 SIP。"
+
+#: Services.class.php:611
+msgid ""
+"This is the XMPP server. If you wish to connect to it using an external "
+"Jabber client, you need to open this port."
+msgstr "這是 XMPP 伺服器。如果您想要使用外部 Jabber 使用者端連線到此伺服器，您需要開啟此連接埠。"
+
+#: Services.class.php:383
+msgid "This is the legacy chan_sip driver."
+msgstr "這是舊版的 chan_sip 驅動程式。"
+
+#: Services.class.php:290
+#, php-format
+msgid ""
+"This must be allowed access from the 'Internet' zone unless %s Responsive "
+"LetsEncrypt Rules %s are enabled. Enabling %s Responsive LetsEncrypt Rules "
+"%s is recommended"
+msgstr "必須允許從「Internet」區域存取，除非已啟用%s響 LetsEncrypt 規則%s。建議啟用%s響 LetsEncrypt 規則%s"
+
+#: views/view.registered.php:8
+#: views/view.status.php:8
+msgid "This page (and all tabs) automatically update every 15 seconds."
+msgstr "此頁面（和所有分頁）每 15 秒自動更新。"
+
+#: views/view.portmaps.php:10
+msgid ""
+"This page displays the detected ports and port ranges for all known services."
+msgstr "此頁面顯示所有已知服務的已偵測連接埠和連接埠範圍。"
+
+#: views/view.status.php:6
+msgid "This page gives you a summary of the status of the Responsive Firewall."
+msgstr "此頁面提供響防火牆狀態的摘要。"
+
+#: Services.class.php:294
+#, php-format
+msgid ""
+"This protocol is being managed by %s Responsive LetsEncrypt Rules. %s "
+"Disable %s Responsive LetsEncrypt Rules %s to manage access here."
+msgstr "此通訊協定由%s響 LetsEncrypt 規則%s管理。停用%s響 LetsEncrypt 規則%s以在此管理存取權。"
+
+#: Services.class.php:331
+#: Services.class.php:388
+#: Services.class.php:437
+msgid ""
+"This protocol is being managed by the Responsive Firewall. You "
+"<strong>should not</strong> enable access from the 'Internet' zone, or "
+"Responsive Firewall will be bypassed."
+msgstr "此通訊協定由響防火牆管理。您<strong>不應</strong>啟用從「Internet」區域的存取，否則響防火牆將被略過。"
+
+#: views/intrusion_detection.php:103
+msgid "This service will be started on boot."
+msgstr "此服務將在開機時啟動。"
+
+#: views/intrusion_detection.php:104
+msgid ""
+"This service will be stopped and Intrusion Detection will not run on boot. "
+"Intrusion Detection will be stopped as well."
+msgstr "此服務將被停止，且入侵偵測不會在開機時執行。入侵偵測也會被停止。"
+
+#: views/view.settings.php:16
+msgid ""
+"This should be <strong>Enabled</strong> unless you wish to manage "
+"LetsEncrypt access manually."
+msgstr "這應設為<strong>啟用</strong>，除非您想要手動管理 LetsEncrypt 存取。"
+
+#: views/view.settings.php:11
+msgid ""
+"This should be disabled if there is the possibility of malicious individuals "
+"rebooting your machine without your knowledge. Otherwise it should be left "
+"<strong>Enabled</strong>"
+msgstr "如果有可能在您不知情的情況下被惡意人士重新啟動您的機器，則應停用此功能。否則應保持<strong>啟用</strong>"
+
+#: Services.class.php:273
+msgid "This will allow access to the LetsEncrypt service when it is enabled."
+msgstr "這將在啟用時允許存取 LetsEncrypt 服務。"
+
+#: Restore.php:81
+#, php-format
+msgid "Timeout in %s seconds!"
+msgstr "在 %s 秒內逾時！"
+
+#: views/view.advanced_customrules.php:18
+msgid ""
+"To <b>ACTIVATE</b> go to the <b>Advanced Settings</b> tab and activate the "
+"<b>Custom Firewall Rules</b> option."
+msgstr "若要<b>啟用</b>，請前往<b>進階設定</b>分頁並啟用<b>自訂防火牆規則</b>選項。"
+
+#: views/view.blacklist.php:2
+msgid ""
+"To alleviate any potential attacks, you can add any number of hosts or "
+"networks here and any traffic from these entries will be sent a response "
+"that their traffic has been administratively blocked. They will NOT be "
+"permitted to access the Responsive Firewall service."
+msgstr ""
+"為了減輕任何潛在的攻擊，您可以在此新增任意數量的主機或網路，而來自這些條目的任何流量將會收到其流量已被管理性封鎖的回應。它們將<strong>不允許</strong>存取響防火牆服務。"
+
+#: Api/Gql/Firewall.php:643
+msgid "To enable/disable Custom Firewall Rules"
+msgstr "啟用/停用自訂防火牆規則"
+
+#: Api/Gql/Firewall.php:651
+msgid "To enable/disable Intrusion Detection Service"
+msgstr "啟用/停用入侵偵測服務"
+
+#: Api/Gql/Firewall.php:647
+msgid "To enable/disable Reject Packets"
+msgstr "啟用/停用拒絕封包"
+
+#: Api/Gql/Firewall.php:639
+msgid "To enable/disable Responsive LetsEncrypt Rules"
+msgstr "啟用/停用響 LetsEncrypt 規則"
+
+#: Api/Gql/Firewall.php:515
+msgid "To enable/disable a firewall"
+msgstr "啟用/停用防火牆"
+
+#: Api/Gql/Firewall.php:520
+msgid "To enable/disable a responsive firewall"
+msgstr "啟用/停用響防火牆"
+
+#: Api/Gql/Firewall.php:535
+#: Api/Gql/Firewall.php:635
+msgid "To enable/disable safe mode"
+msgstr "啟用/停用安全模式"
+
+#: Api/Gql/Firewall.php:659
+msgid "To enable/legacy Add etc/disable as Trusted"
+msgstr "啟用/舊版 新增 etc/停用為信任"
+
+#: Api/Gql/Firewall.php:655
+msgid "To enable/legacy Intrusion Detection Sync Firewall"
+msgstr "啟用/舊版 入侵偵測同步防火牆"
+
+#: views/oobe.welcome.php:15
+msgid ""
+"To start using Sangoma Smart Firewall you simply need to answer a couple of "
+"questions, and your Firewall will be configured and activated immediately."
+msgstr "若要開始使用 Sangoma 智慧防火牆，您只需要回答幾個問題，您的防火牆就會立即設定並啟用。"
+
+#: views/view.status.php:20
+msgid "Total number of Attackers detected:"
+msgstr "偵測到的攻擊者總數："
+
+#: views/view.status.php:18
+msgid "Total number of Rate-Limited Clients:"
+msgstr "受速率限制的使用者端總數："
+
+#: views/view.status.php:17
+msgid "Total number of Registered Clients:"
+msgstr "已登錄的使用者端總數："
+
+#: Api/Gql/Firewall.php:487
+msgid "Transaction for the request"
+msgstr "請求的交易"
+
+#: Api/Gql/Firewall.php:583
+msgid "True/false value for hidden"
+msgstr "隱藏的 true/false 值"
+
+#: Zones.class.php:13
+msgid "Trusted"
+msgstr "信任"
+
+#: Firewall.class.php:576
+#: Firewall.class.php:579
+msgid "Trusted Interface Detected"
+msgstr "偵測到信任介面"
+
+#: Firewall.class.php:608
+msgid "Trusted Management Network defined"
+msgstr "已定義的信任管理網路"
+
+#: views/intrusion_detection.php:318
+msgid "Trusted Zone"
+msgstr "信任區域"
+
+#: views/intrusion_detection.php:435
+#: views/intrusion_detection.php:473
+msgid "Type"
+msgstr "類型"
+
+#: Services.class.php:172
+msgid "UCP"
+msgstr "UCP"
+
+#: Services.class.php:210
+msgid "UCP (Secure)"
+msgstr "UCP（安全）"
+
+#: Services.class.php:212
+msgid ""
+"UCP (Secure) - User Control Panel - is the main user interface to the PBX, "
+"and allows people to control their phone. Note that if you want to allow "
+"users to use their web browsers to make calls through UCP (HTTPS) you also "
+"need to add WebRTC to the same zone(s)."
+msgstr ""
+"UCP（安全）- 使用者控制平台 - 是 PBX 的主要使用者介面，並允許人們控制他們的電話。請注意，如果您想要允許使用者透過 UCP（HTTPS）使用他們的網頁瀏覽器進行通話，您也需要將 WebRTC 新增至相同的區域。"
+
+#: Services.class.php:174
+msgid ""
+"UCP - User Control Panel - is the main user interface to the PBX, and allows "
+"people to control their phone."
+msgstr "UCP - 使用者控制平台 - 是 PBX 的主要使用者介面，並允許人們控制他們的電話。"
+
+#: views/modal.customsvc.php:22
+msgid "UDP"
+msgstr "UDP"
+
+#: views/view.portmaps.php:59
+msgid "UDP Port:"
+msgstr "UDP 連接埠："
+
+#: views/view.portmaps.php:62
+msgid "UDP Ports:"
+msgstr "UDP 連接埠："
+
+#: Backup.php:12
+#, php-format
+msgid "Unable to read file: %s"
+msgstr "無法讀取檔案：%s"
+
+#: views/intrusion_detection.php:451
+msgid "Unban All"
+msgstr "全部解除封鎖"
+
+#: Console/Firewall.class.php:194
+#: Firewall.class.php:1358
+msgid "Unknown"
+msgstr "未知"
+
+#: Console/Firewall.class.php:535
+msgid "Unknown entry!"
+msgstr "未知的條目！"
+
+#: Api/Gql/Firewall.php:603
+#, php-format
+msgid "Unknown interface '%s' provided"
+msgstr "提供了未知的介面「%s」"
+
+#: Firewall.class.php:1837
+msgid "Update Interfaces"
+msgstr "更新介面"
+
+#: Api/Gql/Firewall.php:134
+msgid "Update interface default zone."
+msgstr "更新介面預設區域。"
+
+#: views/intrusion_detection.php:312
+msgid "Updates the whitelist according to the options chosen."
+msgstr "根據選取的選項更新白名單。"
+
+#: assets/js/views/advanced.js:583
+msgid "Updating..."
+msgstr "正在更新……"
+
+#: Api/Gql/Firewall.php:314
+msgid "Value of the current jiffies"
+msgstr "目前 jiffies 的值"
+
+#: Restore.php:79
+msgid "Waiting..."
+msgstr "正在等候……"
+
+#: views/view.advanced_customrules.php:15
+#: views/view.advanced_customrules.php:22
+msgid "Warnging:"
+msgstr "警告："
+
+#: OOBE.class.php:215
+#: OOBE.class.php:258
+#: views/disabled.php:6
+msgid "Warning"
+msgstr "警告"
+
+#: views/intrusion_detection.php:12
+#: views/page.about.php:40
+msgid "Warning!"
+msgstr "警告！"
+
+#: Services.class.php:69
+msgid ""
+"Warning: Unable to read /etc/ssh/sshd_config - this port may be incorrect. "
+"This is <strong>expected</strong> when viewing through the Web Interface. "
+"The correct port, as configured, will be used in the firewall service."
+msgstr ""
+"警告：無法讀取 /etc/ssh/sshd_config - 此連接埠可能不正確。透過網頁介面查看時，這是<strong>預期的情況</strong>。在防火牆服務中將使用已設定的正確連接埠。"
+
+#: views/view.blacklist.php:19
+msgid "Warning: Unable to resolve this entry!"
+msgstr "警告：無法解析此條目！"
+
+#: views/oobe.welcome.php:23
+msgid ""
+"We hope you're enjoying it! There's some additional questions you should "
+"answer. If you don't want to answer them at this time, just click Abort, and "
+"no changes will be made to your existing Firewall setup."
+msgstr "我們希望您喜歡它！還有一些額外的問題您應該回答。如果您目前不想回答它們，只需點擊中止，就不會對您現有的防火牆設定進行任何變更。"
+
+#: Services.class.php:132
+msgid "Web Management"
+msgstr "網頁管理"
+
+#: Services.class.php:153
+msgid "Web Management (Secure)"
+msgstr "網頁管理（安全）"
+
+#: Services.class.php:134
+msgid ""
+"Web management interface for your PBX. This is the http, not https (secure) "
+"interface."
+msgstr "您的 PBX 的網頁管理介面。這是 http，而非 https（安全）介面。"
+
+#: Services.class.php:155
+msgid "Web management interface for your PBX. This is the https interface."
+msgstr "您的 PBX 的網頁管理介面。這是 https 介面。"
+
+#: Services.class.php:258
+msgid "WebRTC"
+msgstr "WebRTC"
+
+#: Services.class.php:260
+msgid ""
+"WebRTC is used by UCP (and other services) to enable calls to be made via a "
+"web browser."
+msgstr "WebRTC 由 UCP（和其他服務）使用，以透過網頁瀏覽器進行通話。"
+
+#: Console/Firewall.class.php:124
+msgid "When adding or deleting from a zone, one or many IDs may be provided."
+msgstr "從區域新增或刪除時，可以提供一或多個 ID。"
+
+#: views/intrusion_detection.php:18
+msgid ""
+"When the service is running, attempts to compromise your system are logged. "
+"If the attempts exceed the\n"
+"Max Retry limit, the remote IP is blocked from accessing the system for the "
+"length of Ban Time.  The number\n"
+"of attempts are reset after the Find Time is exceeded.<br />\n"
+"We recommend this service always run."
+msgstr ""
+"當服務執行時，入侵您系統的嘗試會被記錄。如果嘗試次數超過\n"
+"最大重試限制，遠端 IP 將在封鎖時間內被封鎖存取系統。嘗試次數\n"
+"會在超過尋找時間後重設。<br />\n"
+"我們建議此服務一律執行。"
+
+#: views/view.smart.php:24
+msgid ""
+"When this is enabled, any incoming VoIP connection attempts that would be "
+"otherwise rejected are <strong>not blocked</strong>, and instead allowed a "
+"<strong>very limited</strong> amount of registration attempts."
+msgstr ""
+"啟用此功能時，任何原本會被拒絕的傳入 VoIP 連線嘗試<strong>不會被封鎖</strong>，而是允許<strong>非常有限</strong>的登錄嘗試次數。"
+
+#: views/intrusion_detection.php:349
+msgid "Whitelist"
+msgstr "白名單"
+
+#: Api/Gql/Firewall.php:29
+msgid "Write to firewall"
+msgstr "寫入防火牆"
+
+#: Services.class.php:609
+msgid "XMPP"
+msgstr "XMPP"
+
+#: assets/js/views/advanced.js:473
+#: assets/js/views/advanced.js:534
+msgid "Yes"
+msgstr "是"
+
+#: views/view.networks.php:5
+msgid ""
+"You can add individual hosts and networks to override the default permission "
+"for an interface."
+msgstr "您可以新增個別主機和網路以覆寫介面的預設權限。"
+
+#: Firewall.class.php:805
+msgid "You can add the host automatically here."
+msgstr "您可以在此自動新增主機。"
+
+#: views/view.about.php:21
+msgid "You can enable Responsive Firewall in the 'Responsive Firewall' tab."
+msgstr "您可以在「響防火牆」分頁中啟用響防火牆。"
+
+#: views/view.interfaces.php:109
+msgid "You can enter a short description for this interface here."
+msgstr "您可以在此為此介面輸入簡短說明。"
+
+#: views/view.networks.php:90
+msgid "You can enter a short description for this network here."
+msgstr "您可以在此為此網路輸入簡短說明。"
+
+#: views/intrusion_detection.php:335
+msgid ""
+"You can select Registered Extension IPs, and various zones at once. Also, "
+"you can select Clear All to remove all entries from the whitelist.'"
+msgstr "您可以一次選取已登錄的分機 IP 和各種區域。此外，您可以選取全部清除以移除白名單中的所有條目。"
+
+#: OOBE.class.php:248
+msgid ""
+"You can verify these settings in Sip Settings after this wizard is complete. "
+"If you have a non-static IP address, you may need to use a DDNS provider "
+"which will require manual configuration."
+msgstr "完成此精靈後，您可以在 Sip 設定中驗證這些設定。如果您有非靜態 IP 位址，可能需要使用需要手動設定的 DDNS 供應商。"
+
+#: views/view.networks.php:8
+msgid ""
+"You may also enter hostnames here (including Dynamic DNS hosts), which will "
+"be automatically monitored and updated."
+msgstr "您也可以在此輸入主機名稱（包括動態 DNS 主機），它們將被自動監控和更新。"
+
+#: OOBE.class.php:247
+msgid ""
+"You should say 'Yes' to this, unless you have an extremely complex network "
+"with multiple external default gateways."
+msgstr "您應該對此回答「是」，除非您有一個具有多個外部預設閘道的極其複雜的網路。"
+
+#: OOBE.class.php:136
+msgid ""
+"You would normally select <strong>Yes</strong> to this question. The only "
+"time you would pick No is if you are not using the client machine you will "
+"be using in the future to manage this system."
+msgstr "您通常應該對此問題選取<strong>是</strong>。唯一會選取否的情況是，如果您未來不會使用目前使用的使用者端機器來管理此系統。"
+
+#: views/view.shortcuts.php:11
+msgid "Your Client"
+msgstr "您的使用者端"
+
+#: Console/Firewall.class.php:139
+msgid "Zone"
+msgstr "區域"
+
+#: Console/Firewall.class.php:399
+#: Console/Firewall.class.php:490
+#, php-format
+msgid "Zone %s = %s "
+msgstr "區域 %s = %s "
+
+#: views/page.advanced.php:31
+msgid "Zone Information"
+msgstr "區域資訊"
+
+#: Api/Gql/Firewall.php:119
+#: Api/Gql/Firewall.php:579
+msgid "Zone can be either internal,external,trusted,other"
+msgstr "區域可以是 internal、external、trusted、other"
+
+#: vendor/npm-asset/codemirror/mode/swift/swift.js:30
+msgid ""
+"])\n"
+"  var types = wordSet(["
+msgstr ""
+
+#: views/view.about.php:28
+msgid "automatically granted"
+msgstr "自動授予"
+
+#: utests/Api/Gql/FirewallGqlApiTest.php:505
+msgid "description for firewall interface"
+msgstr "防火牆介面的說明"
+
+#: Api/Gql/Firewall.php:275
+msgid "firewall call back description"
+msgstr "防火牆回呼說明"
+
+#: vendor/npm-asset/codemirror/addon/hint/javascript-hint.js:140
+msgid "function"
+msgstr ""
+
+#: Services.class.php:758
+msgid "iSymphony is not installed on this server."
+msgstr "iSymphony 未安裝在此伺服器上。"
+
+#: Api/Gql/Firewall.php:173
+#: Api/Gql/Firewall.php:175
+#, php-format
+msgid "invalid value for %s"
+msgstr "%s 的值無效"
+
+#: views/view.about.php:9
+msgid ""
+"is a fully integrated and tightly coupled firewall that constantly monitors "
+"the remote clients allowed to connect to this machine, and automatically "
+"allows access from valid hosts."
+msgstr "是完全整合且緊密耦合的防火牆，持續監控允許連線到此機器的遠端使用者端，並自動允許來自主機的有效存取。"
+
+#: Api/Gql/Firewall.php:458
+msgid "list of advance settings"
+msgstr "進階設定清單"
+
+#: Api/Gql/Firewall.php:448
+msgid "list of interfaces"
+msgstr "介面清單"
+
+#: Api/Gql/Firewall.php:428
+#: Api/Gql/Firewall.php:438
+msgid "list of whitelistIps"
+msgstr "白名單 IP 清單"
+
+#: Api/Gql/Firewall.php:418
+msgid "list the configurations details"
+msgstr "列出設定詳細資料"
+
+#: Console/Firewall.class.php:273
+msgid "synchronization overlap. Canceling this action for now."
+msgstr "同步重疊。目前取消此動作。"
+
+#: Api/Gql/Firewall.php:167
+msgid "update firewall advance settings"
+msgstr "更新防火牆進階設定"

@@ -1,0 +1,141 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for setcid
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-14 05:19-0400\n"
+"PO-Revision-Date: 2026-09-15 17:51+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: assets/js/setcid.js:9
+msgid " already used, please use a different Description."
+msgstr " 已被使用，請使用不同的描述。"
+
+#: views/grid.php:18
+msgid "Actions"
+msgstr "動作"
+
+#: views/grid.php:12
+#: views/rnav.php:2
+msgid "Add"
+msgstr "新增"
+
+#: views/form.php:21
+msgid "Add CID"
+msgstr "新增 CID"
+
+#: setcid.i18n.php:8
+#: views/grid.php:8
+msgid "Adds the ability to change the CallerID within a call flow."
+msgstr "新增在通話流程中更改 CallerID 的能力。"
+
+#: setcid.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/form.php:83
+msgid ""
+"Caller ID Number: The caller ID number will be changed to this. If you are "
+"appending to the current caller ID number, don't forget to include the "
+"appropriate variables. If you leave this box blank, the caller ID number "
+"will be blank. Default caller ID number variable: ${CALLERID(num)}"
+msgstr ""
+"Caller ID 號碼：Caller ID 號碼將更改為此值。如果您要附加到目前的 Caller ID 號碼，請不要忘記包含適當的變數。如果您將此欄位留空，Caller ID 號碼將為空白。預設 Caller ID 號碼變數：${CALLERID(num)}"
+
+#: views/form.php:53
+msgid "CallerID Name"
+msgstr "CallerID 名稱"
+
+#: views/form.php:73
+msgid "CallerID Number"
+msgstr "CallerID 號碼"
+
+#: Setcid.class.php:109
+msgid "Delete"
+msgstr "刪除"
+
+#: views/form.php:33
+#: views/grid.php:17
+msgid "Description"
+msgstr "描述"
+
+#: views/form.php:93
+msgid "Destination"
+msgstr "目的地"
+
+#: views/form.php:103
+msgid "Destination to send the call to after CID has been processed"
+msgstr "CID 處理完成後的通話目的地"
+
+#: views/form.php:21
+#, php-format
+msgid "Edit CID: %s"
+msgstr "編輯 CID：%s"
+
+#: views/rnav.php:3
+msgid "List SetCID"
+msgstr "列出 SetCID"
+
+#: assets/js/setcid.js:6
+msgid "Please enter a valid Description."
+msgstr "請輸入有效的描述。"
+
+#: assets/js/setcid.js:13
+msgid "Please select an item."
+msgstr "請選擇一個項目。"
+
+#: Setcid.class.php:114
+msgid "Reset"
+msgstr "重置"
+
+#: views/main.php:4
+msgid "Set CID"
+msgstr "設定 CID"
+
+#: setcid.i18n.php:4
+#: setcid.i18n.php:10
+msgid "Set CallerID"
+msgstr "設定 CallerID"
+
+#: functions.inc.php:103
+#, php-format
+msgid "Set CallerID %s: "
+msgstr "設定 CallerID %s："
+
+#: views/rnav.php:14
+msgid "SetCID"
+msgstr "SetCID"
+
+#: Setcid.class.php:119
+msgid "Submit"
+msgstr "送出"
+
+#: views/form.php:63
+msgid ""
+"The caller ID name will be changed to this. If you are appending to the "
+"current caller ID name, don't forget to include the appropriate variables. "
+"If you leave this box blank, the caller ID name will be blank. Default "
+"caller ID name variable: ${CALLERID(name)}"
+msgstr ""
+"Caller ID 名稱將更改為此值。如果您要附加到目前的 Caller ID 名稱，請不要忘記包含適當的變數。如果您將此欄位留空，Caller ID 名稱將為空白。預設 Caller ID 名稱變數：${CALLERID(name)}"
+
+#: views/form.php:43
+msgid ""
+"The descriptive name of this CallerID instance. For example \"new name here\""
+msgstr "此 CallerID 執行個體的描述名稱。例如「new name here」"
+
+#: views/grid.php:4
+msgid "What is Set CID?"
+msgstr "Set CID 是什麼？"

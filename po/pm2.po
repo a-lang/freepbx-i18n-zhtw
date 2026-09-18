@@ -1,0 +1,194 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for pm2
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-27 05:01-0500\n"
+"PO-Revision-Date: 2026-09-15 12:52+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: pm2.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: Pm2.class.php:371
+#, php-format
+msgid ""
+"Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
+"Aborting"
+msgstr "Asterisk 家目錄 (%s) 不存在，且 ASTSPOOLDIR 不存在。正在中止"
+
+#: Console/Pm2.class.php:36
+msgid "CPU"
+msgstr "CPU"
+
+#: Console/Pm2.class.php:25
+msgid "Delete Process"
+msgstr "刪除處理程序"
+
+#: Pm2.class.php:138
+msgid "Finished updating libraries!"
+msgstr "已完成更新程式庫！"
+
+#: Pm2.class.php:54 /usr/src/freepbx/pm2/Pm2.class.php:64
+#, php-format
+msgid "Home directory [%s] is not writable"
+msgstr "家目錄 [%s] 無法寫入"
+
+#: Console/Pm2.class.php:29
+msgid "How many lines to stream"
+msgstr "要串流多少行"
+
+#: Pm2.class.php:123
+msgid "Installing/Updating Required Libraries. This may take a while..."
+msgstr "正在安裝／更新所需的程式庫。這可能需要一段時間..."
+
+#: Api/Gql/Pm2.php:30
+msgid "Kindly follow the pm2 apps and their status"
+msgstr "請遵循 pm2 應用程式及其狀態"
+
+#: Console/Pm2.class.php:22
+msgid "List Process"
+msgstr "列出處理程序"
+
+#: Console/Pm2.class.php:20
+msgid "Manage long running processes"
+msgstr "管理長時間執行的處理程序"
+
+#: Console/Pm2.class.php:36
+msgid "Mem"
+msgstr "記憶體"
+
+#: Api/Gql/Pm2.php:95
+msgid "Memory used by the app"
+msgstr "應用程式使用的記憶體"
+
+#: Api/Gql/Pm2.php:65
+#: Api/Gql/Pm2.php:132
+msgid "Message for the request"
+msgstr "要求的訊息"
+
+#: Pm2.class.php:46
+#, php-format
+msgid ""
+"NPM version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr "NPM 版本為：%s，需求為 %s。請以 root 身分從 CLI 執行 'yum upgrade nodejs'"
+
+#: Api/Gql/Pm2.php:69
+msgid "Name od the app"
+msgstr "應用程式的名稱"
+
+#: Pm2.class.php:42
+msgid "Node Package Manager is not installed"
+msgstr "Node 套件管理程式未安裝"
+
+#: Pm2.class.php:30
+msgid "Node is not installed"
+msgstr "Node 未安裝"
+
+#: Pm2.class.php:134
+msgid ""
+"Node packages are not installed properly. Re-running the installation "
+"without using the existing cache."
+msgstr "Node 套件未安裝正確。正在不使用現有快取重新執行安裝。"
+
+#: Pm2.class.php:34
+#, php-format
+msgid ""
+"Node version is: %s requirement is %s. Run 'yum upgrade nodejs' from the CLI "
+"as root"
+msgstr "Node 版本為：%s，需求為 %s。請以 root 身分從 CLI 執行 'yum upgrade nodejs'"
+
+#: pm2.i18n.php:4
+msgid "Process Management"
+msgstr "處理程序管理"
+
+#: Console/Pm2.class.php:36
+msgid "Process Name"
+msgstr "處理程序名稱"
+
+#: Api/Gql/Pm2.php:73
+msgid "Process id for the app"
+msgstr "應用程式的處理程序 ID"
+
+#: Api/Gql/Pm2.php:48
+msgid "Process management"
+msgstr "處理程序管理"
+
+#: Console/Pm2.class.php:27
+msgid "Reload all log file pointers"
+msgstr "重新載入所有日誌檔案指標"
+
+#: Console/Pm2.class.php:24
+msgid "Restart Process"
+msgstr "重新啟動處理程序"
+
+#: Console/Pm2.class.php:36
+msgid "Restarts"
+msgstr "重新啟動次數"
+
+#: Console/Pm2.class.php:26
+msgid "Save processes, kill PM2 and restore processes"
+msgstr "儲存處理程序、終止 PM2 並還原處理程序"
+
+#: Api/Gql/Pm2.php:32
+msgid "Sorry unable to find the pm2apps status"
+msgstr "抱歉，找不到 pm2apps 狀態"
+
+#: Console/Pm2.class.php:36
+msgid "Status"
+msgstr "狀態"
+
+#: Api/Gql/Pm2.php:136
+msgid "Status for the request"
+msgstr "要求的狀態"
+
+#: Api/Gql/Pm2.php:84
+msgid "Status of the app"
+msgstr "應用程式的狀態"
+
+#: Api/Gql/Pm2.php:61
+msgid "Status of the request"
+msgstr "要求的狀態"
+
+#: Console/Pm2.class.php:23
+msgid "Stop Process"
+msgstr "停止處理程序"
+
+#: Console/Pm2.class.php:28
+msgid "Stream Logs from Process"
+msgstr "從處理程序串流記錄"
+
+#: Pm2.class.php:142
+msgid "There was an error installing and PM2 Logging is disabled"
+msgstr "安裝時發生錯誤，且 PM2 記錄已停用"
+
+#: Pm2.class.php:144
+#, php-format
+msgid "There was an error installing. Please review the install log. (%s)"
+msgstr "安裝時發生錯誤。請檢閱安裝日誌。（%s）"
+
+#: pm2.i18n.php:8
+msgid "This module manages background processes for your PBX"
+msgstr "此模組管理 PBX 的背景處理程序"
+
+#: Console/Pm2.class.php:36
+msgid "Uptime"
+msgstr "運作時間"
+
+#: Api/Gql/Pm2.php:106
+msgid "Uptime of the app"
+msgstr "應用程式的運作時間"

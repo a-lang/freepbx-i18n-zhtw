@@ -1,0 +1,909 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ringgroups
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-22 00:53-0400\n"
+"PO-Revision-Date: 2026-09-15 18:03+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/form.php:64
+msgid "*-prim"
+msgstr "*-prim"
+
+#: views/simple_form.php:79
+msgid ""
+"<strong>Simultaneous:</strong> Rings all extensions at once.</"
+"br><strong>Sequential:</strong> Rings each extension separately in the order "
+"defined in the list"
+msgstr ""
+"<strong>同時：</strong> 一次響鈴所有分機。</br><strong>順序：</strong> 按照清單中定義的順序分別響鈴每個分機"
+
+#: Api/Gql/Ringgroups.php:134
+msgid "A Ringgroup number"
+msgstr "響鈴群組號碼"
+
+#: Api/Gql/Ringgroups.php:139
+msgid "A descriptive title for this Ringgroup"
+msgstr "此響鈴群組的描述性標題"
+
+#: views/advanced_form.php:178
+msgid ""
+"ALERT_INFO can be used for distinctive ring with SIP devices.<br>If you are "
+"having issues, see the \"Enforce RFC7462\" option found in Settings-"
+">Advanced Settings."
+msgstr "ALERT_INFO 可用於 SIP 電話的區別響鈴。<br>若您遇到問題，請參閱設定 -> 進階設定中的「強制 RFC7462」選項。"
+
+#: views/rggrid.php:18
+msgid "Actions"
+msgstr "動作"
+
+#: views/bootnav.php:2
+#: views/rggrid.php:2
+msgid "Add Ring Group"
+msgstr "新增響鈴群組"
+
+#: Api/Gql/Ringgroups.php:18
+msgid "Add a new Ringgroup"
+msgstr "新增響鈴群組"
+
+#: views/advanced_form.php:166
+msgid "Alert Info"
+msgstr "警示資訊"
+
+#: Api/Gql/Ringgroups.php:392
+#: Api/Gql/Ringgroups.php:500
+msgid "Alert info can be used for distinctive ring with SIP devices."
+msgstr "警示資訊可用於 SIP 電話的區別響鈴。"
+
+#: views/advanced_form.php:249
+msgid "Always"
+msgstr "永遠"
+
+#: views/form.php:252
+msgid "Always transmit the Fixed CID Value below."
+msgstr "永遠傳輸下面的固定來電顯示值。"
+
+#: views/form.php:105
+msgid "Announcement"
+msgstr "播報"
+
+#: ringgroups.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/advanced_form.php:142
+msgid "CID Name Prefix"
+msgstr "來電顯示名稱字首"
+
+#: views/advanced_form.php:433
+msgid "Call Recording"
+msgstr "通話錄音"
+
+#: views/advanced_form.php:383
+msgid "Change External CID Configuration"
+msgstr "變更外部來電顯示設定"
+
+#: Api/Gql/Ringgroups.php:450
+#: Api/Gql/Ringgroups.php:558
+msgid "Change External CID Configuration."
+msgstr "變更外部來電顯示設定。"
+
+#: views/advanced_form.php:354
+msgid "Confirm Calls"
+msgstr "確認通話"
+
+#: ringgroups.i18n.php:8
+msgid ""
+"Creates a group of extensions that all ring together. Extensions can be rung "
+"all at once, or in various 'hunt' configurations. Additionally, external "
+"numbers are supported, and there is a call confirmation option where the "
+"callee has to confirm if they actually want to take the call before the "
+"caller is transferred."
+msgstr ""
+"建立一組一起響鈴的分機群組。分機可以一次全部響鈴，或以各種「搜尋」設定響鈴。此外，也支援外部號碼，且有一個通話確認選項，被叫方必須在來電者轉接之前確認是否真的要接聽。"
+
+#: Api/Gql/Ringgroups.php:406
+#: Api/Gql/Ringgroups.php:514
+msgid ""
+"DEPRECATED: Use receiverMessage instead. Message to be played to the person "
+"RECEIVING the call, if the call has already been accepted before they push 1."
+msgstr "已棄用：改用 receiverMessage。若通話在按下 1 之前已被接受，則播放給接聽通話者的訊息。"
+
+#: Api/Gql/Ringgroups.php:401
+#: Api/Gql/Ringgroups.php:509
+msgid ""
+"DEPRECATED: Use receiverMessageConfirmCall instead. Message to be played to "
+"the person RECEIVING the call, if 'Confirm Calls' is enabled."
+msgstr "已棄用：改用 receiverMessageConfirmCall。若啟用「確認通話」，則播放給接聽通話者的訊息。"
+
+#: views/form.php:147
+#: views/form.php:182
+#: views/form.php:250
+#: views/form.php:262
+msgid "Default"
+msgstr "預設"
+
+#: Ringgroups.class.php:173
+msgid "Delete"
+msgstr "刪除"
+
+#: Api/Gql/Ringgroups.php:55
+msgid "Delete a ringgroup"
+msgstr "刪除響鈴群組"
+
+#: Api/Gql/Ringgroups.php:251
+#: Api/Gql/Ringgroups.php:405
+#: Api/Gql/Ringgroups.php:513
+msgid "Deprecated due to misspelling. Use receiverMessage instead."
+msgstr "因拼寫錯誤而棄用。改用 receiverMessage。"
+
+#: Api/Gql/Ringgroups.php:245
+#: Api/Gql/Ringgroups.php:400
+#: Api/Gql/Ringgroups.php:508
+msgid "Deprecated due to misspelling. Use receiverMessageConfirmCall instead."
+msgstr "因拼寫錯誤而棄用。改用 receiverMessageConfirmCall。"
+
+#: views/bootnav.php:14
+#: views/rggrid.php:17
+msgid "Description"
+msgstr "描述"
+
+#: views/advanced_form.php:467
+#: views/simple_form.php:141
+msgid "Destination if no answer"
+msgstr "無應答時的目的地"
+
+#: ringgroups.i18n.php:12
+msgid "Display Extension Ring Group Members"
+msgstr "顯示分機響鈴群組成員"
+
+#: views/advanced_form.php:440
+msgid "Dont Care"
+msgstr "不理會"
+
+#: views/advanced_form.php:327
+msgid "Enable Call Pickup"
+msgstr "啟用通話代接"
+
+#: Api/Gql/Ringgroups.php:396
+#: Api/Gql/Ringgroups.php:504
+#: views/advanced_form.php:369
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through. This feature only works with the ringall ring strategy"
+msgstr ""
+"若您撥打需要確認的外部號碼（例如，手機可能會轉到語音信箱來接聽來電），請啟用此功能。啟用此功能需要遠方在電話上按下 1 才能接通。此功能僅適用於 ringall 響鈴策略"
+
+#: Api/Gql/Ringgroups.php:364
+#: Api/Gql/Ringgroups.php:472
+msgid "Enter a description for this ringgroup."
+msgstr "輸入此響鈴群組的描述。"
+
+#: views/advanced_form.php:58
+#: views/simple_form.php:32
+msgid "Extension List"
+msgstr "分機清單"
+
+#: Api/Gql/Ringgroups.php:143
+msgid "Extensions to ring, one per line"
+msgstr "要響鈴的分機，每列一個"
+
+#: Api/Gql/Ringgroups.php:372
+#: Api/Gql/Ringgroups.php:480
+msgid "Extensions to ring, seperated by -"
+msgstr "要響鈴的分機，以 - 分隔"
+
+#: views/advanced_form.php:409
+#: views/form.php:252
+#: views/form.php:263
+msgid "Fixed CID Value"
+msgstr "固定來電顯示值"
+
+#: Api/Gql/Ringgroups.php:454
+#: Api/Gql/Ringgroups.php:562
+#: views/advanced_form.php:421
+msgid ""
+"Fixed value to replace the CID with used with some of the modes above. "
+"Should be in a format of digits only with an option of E164 format using a "
+"leading '+'."
+msgstr "用於取代上述某些模式的上來電顯示的固定值。格式應僅為數字，可選擇使用開頭加號 '+' 的 E164 格式。"
+
+#: views/advanced_form.php:438
+msgid "Force"
+msgstr "強制"
+
+#: views/form.php:258
+#: views/form.php:266
+msgid "Force Dialed Number"
+msgstr "強制撥號號碼"
+
+#: views/advanced_form.php:34
+msgid "Group Description"
+msgstr "群組描述"
+
+#: functions.inc.php:335
+msgid "INUSE"
+msgstr "使用中"
+
+#: views/form.php:241
+msgid ""
+"If you select a Music on Hold class to play, instead of 'Ring', they will "
+"hear that instead of Ringing while they are waiting for someone to pick up."
+msgstr "若您選取等候中的音樂類別來播放，而非「響鈴」，他們在等待接聽時將聽到該音樂，而非響鈴。"
+
+#: Api/Gql/Ringgroups.php:418
+#: Api/Gql/Ringgroups.php:526
+msgid ""
+"If you select a music to play on hold, instead of 'Ring', they will hear "
+"that instead of Ringing while they are waiting for someone to pick up."
+msgstr "若您選取等候中的音樂來播放，而非「響鈴」，他們在等待接聽時將聽到該音樂，而非響鈴。"
+
+#: views/advanced_form.php:273
+msgid "Ignore CF Settings"
+msgstr "忽略 CF 設定"
+
+#: views/form.php:224
+msgid "Inherit"
+msgstr "繼承"
+
+#: assets/js/ringgroups.js:60
+msgid "Invalid CID"
+msgstr "無效的來電顯示"
+
+#: assets/js/ringgroups.js:54
+msgid "Invalid Group Number specified"
+msgstr "指定的群組號碼無效"
+
+#: assets/js/ringgroups.js:56
+msgid "Invalid time specified"
+msgstr "指定的時間無效"
+
+#: views/bootnav.php:3
+msgid "List Ring Groups"
+msgstr "列出響鈴群組"
+
+#: views/advanced_form.php:78
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089 on the appropriate trunk (see Outbound "
+"Routing)<br><br>Extensions without a '#' will not ring a user's Follow-Me. "
+"To dial Follow-Me, Queues and other numbers that are not extensions, put a "
+"'#' at the end."
+msgstr ""
+"列出要響鈴的分機，每列一個，或使用分機快速選取插入至此處。<br><br>您可以加入遠端系統的分機，或透過在數字後面加上 '#' 來加入外部號碼。例如：2448089# 將在中繼線上撥打 2448089（請參閱外撥路由）<br><br>沒有 '#' 的分機將不會響鈴使用者的「跟上我」。若要撥打「跟上我」、佇列及其他非分機的號碼，請在結尾加上 '#'。"
+
+#: views/simple_form.php:52
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select to "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089"
+msgstr ""
+"列出要響鈴的分機，每列一個，或使用分機快速選取插入至此處。<br><br>您可以加入遠端系統的分機，或透過在數字後面加上 '#' 來加入外部號碼。例如：2448089# 將撥打 2448089"
+
+#: views/form.php:70
+msgid ""
+"Makes a call could hop between the included extensions without a predefined "
+"priority to ensure that calls in the groups are (almost) evenly spread. "
+"Simulates a Queue when a Queue can not otherwise be used."
+msgstr "讓來電可以在包含的分機之間跳轉，而無需預定義的優先順序，以確保群組中的通話（幾乎）平均分配。當無法使用佇列時，可模擬佇列。"
+
+#: views/advanced_form.php:244
+msgid "Mark Answered Elsewhere"
+msgstr "標記為已在其他位置接聽"
+
+#: Api/Gql/Ringgroups.php:323
+#: Api/Gql/Ringgroups.php:347
+msgid "Message for the request"
+msgstr "要求的訊息"
+
+#: Api/Gql/Ringgroups.php:384
+#: Api/Gql/Ringgroups.php:492
+msgid "Message to be played to the caller before dialing this group."
+msgstr "在撥打此群組之前播放給來電者的訊息。"
+
+#: views/form.php:126
+msgid ""
+"Message to be played to the caller before dialing this group.<br><br>To add "
+"additional recordings please use the \"System Recordings\" MENU above"
+msgstr "在撥打此群組之前播放給來電者的訊息。<br><br>若要新增其他錄音，請使用上方的「系統錄音」選單"
+
+#: Api/Gql/Ringgroups.php:410
+#: Api/Gql/Ringgroups.php:518
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled."
+msgstr "若啟用「確認通話」，則播放給接聽通話者的訊息。"
+
+#: views/form.php:161
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled.<br><br>To add additional recordings use the \"System Recordings\" "
+"MENU above"
+msgstr "若啟用「確認通話」，則播放給接聽通話者的訊息。<br><br>若要新增其他錄音，請使用上方的「系統錄音」選單"
+
+#: Api/Gql/Ringgroups.php:414
+#: Api/Gql/Ringgroups.php:522
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1."
+msgstr "若通話在按下 1 之前已被接受，則播放給接聽通話者的訊息。"
+
+#: views/form.php:196
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1.<br><br>To add additional "
+"recordings use the \"System Recordings\" MENU above"
+msgstr "若通話在按下 1 之前已被接受，則播放給接聽通話者的訊息。<br><br>若要新增其他錄音，請使用上方的「系統錄音」選單"
+
+#: views/form.php:248
+msgid "Mode"
+msgstr "模式"
+
+#: views/advanced_form.php:442
+msgid "Never"
+msgstr "永不"
+
+#: views/advanced_form.php:224
+#: views/advanced_form.php:253
+#: views/advanced_form.php:280
+#: views/advanced_form.php:307
+#: views/advanced_form.php:334
+#: views/advanced_form.php:361
+msgid "No"
+msgstr "否"
+
+#: views/advanced_form.php:194
+#: views/form.php:112
+msgid "None"
+msgstr "無"
+
+#: assets/js/ringgroups.js:59
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr "勾選確認時，僅支援 ringall、ringallv2、hunt 及其對應的 -prim 版本"
+
+#: views/form.php:254
+#: views/form.php:264
+msgid "Outside Calls Fixed CID Value"
+msgstr "外部來電固定來電顯示值"
+
+#: views/advanced_form.php:206
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr "覆寫響鈴音量。注意：目前僅適用於 %s 電話"
+
+#: Api/Gql/Ringgroups.php:446
+#: Api/Gql/Ringgroups.php:554
+msgid ""
+"Override the ringer volume. Note: This is only valid for Sangoma phones at "
+"this time"
+msgstr "覆寫響鈴音量。注意：目前僅適用於 Sangoma 電話"
+
+#: views/form.php:216
+msgid "Play Music On Hold"
+msgstr "播放等候音樂"
+
+#: assets/js/ringgroups.js:58
+msgid "Please enter a valid Group Description"
+msgstr "請輸入有效的群組描述"
+
+#: assets/js/ringgroups.js:55
+msgid "Please enter an extension list."
+msgstr "請輸入分機清單。"
+
+#: views/advanced_form.php:46
+msgid "Provide a descriptive title for this Ring Group."
+msgstr "提供此響鈴群組的描述性標題。"
+
+#: views/simple_form.php:20
+msgid "Provide a name for this Ring Group."
+msgstr "提供此響鈴群組的名稱。"
+
+#: Api/Gql/Ringgroups.php:105
+msgid "Record found successfully"
+msgstr "成功找到記錄"
+
+#: views/form.php:140
+msgid "Remote Announce"
+msgstr "遠端播報"
+
+#: Ringgroups.class.php:173
+msgid "Reset"
+msgstr "重設"
+
+#: views/form.php:223
+msgid "Ring"
+msgstr "響鈴"
+
+#: views/bootnav.php:13
+#: views/rggrid.php:16
+msgid "Ring Group"
+msgstr "響鈴群組"
+
+#: functions.inc.php:40
+#, php-format
+msgid "Ring Group %s: "
+msgstr "響鈴群組 %s："
+
+#: functions.inc.php:433
+msgid "Ring Group Membership"
+msgstr "响鈴群組成員"
+
+#: ringgroups.i18n.php:14
+msgid "Ring Group Module"
+msgstr "响鈴群組模組"
+
+#: views/simple_form.php:8
+msgid "Ring Group Name"
+msgstr "响鈴群組名稱"
+
+#: functions.inc.php:59
+#: functions.inc.php:334
+#, php-format
+msgid "Ring Group: %s"
+msgstr "响鈴群組：%s"
+
+#: functions.inc.php:359
+#, php-format
+msgid "Ring Group: %s (%s)"
+msgstr "响鈴群組：%s (%s)"
+
+#: page.ringgroups.php:10
+#: ringgroups.i18n.php:4
+#: ringgroups.i18n.php:10
+msgid "Ring Groups"
+msgstr "響鈴群組"
+
+#: Api/Gql/Ringgroups.php:283
+msgid "Ring Strategies"
+msgstr "响鈴策略"
+
+#: Api/Gql/Ringgroups.php:319
+#: views/advanced_form.php:90
+#: views/simple_form.php:64
+msgid "Ring Strategy"
+msgstr "响鈴策略"
+
+#: views/simple_form.php:91
+msgid "Ring Time"
+msgstr "響鈴時間"
+
+#: views/advanced_form.php:116
+msgid "Ring Time (max 300 sec)"
+msgstr "響鈴時間（最多 300 秒）"
+
+#: views/simple_form.php:118
+msgid "Ring Tone"
+msgstr "響鈴聲"
+
+#: Api/Gql/Ringgroups.php:287
+#: views/form.php:58
+msgid "Ring all available channels until one answers (default)"
+msgstr "響鈴所有可用通道直到有人接聽（預設）"
+
+#: Api/Gql/Ringgroups.php:291
+msgid ""
+"Ring all available channels until one answers. If the primary extension "
+"(first in list) is occupied, the other extensions will not be rung. If the "
+"primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+"響鈴所有可用通道直到有人接聽。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+
+#: Api/Gql/Ringgroups.php:303
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc"
+msgstr "先響鈴清單中的第一個分機，然後響鈴第 1 和第 2 個分機，再響鈴清單中的第 1、第 2 和第 3 個分機.... 以此類推"
+
+#: Api/Gql/Ringgroups.php:307
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. If the primary extension "
+"(first in list) is occupied, the other extensions will not be rung. If the "
+"primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+"先響鈴清單中的第一個分機，然後響鈴第 1 和第 2 個分機，再響鈴清單中的第 1、第 2 和第 3 個分機.... 以此類推。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+
+#: views/form.php:62
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
+"only when Confirm Calls is disabled."
+msgstr ""
+"先響鈴清單中的第一個分機，然後響鈴第 1 和第 2 個分機，再響鈴清單中的第 1、第 2 和第 3 個分機.... 以此類推。此策略僅在停用「確認通話」時有效。"
+
+#: Api/Gql/Ringgroups.php:311
+msgid "Ring only the first available channel"
+msgstr "僅響鈴第一個可用通道"
+
+#: Api/Gql/Ringgroups.php:315
+msgid "Ring only the first channel which is not offhook - ignore CW"
+msgstr "僅響鈴第一個未掛斷的通道 - 忽略 CW"
+
+#: views/advanced_form.php:9
+msgid "Ring-Group Number"
+msgstr "响鈴群組號碼"
+
+#: Ringgroups.class.php:155
+msgid "RingGroup"
+msgstr "响鈴群組"
+
+#: Api/Gql/Ringgroups.php:360
+#: Api/Gql/Ringgroups.php:468
+msgid "RingGroup number"
+msgstr "响鈴群組號碼"
+
+#: Api/Gql/Ringgroups.php:47
+msgid "RingGroup updated Successfully"
+msgstr "响鈴群組已成功更新"
+
+#: views/advanced_form.php:189
+msgid "Ringer Volume Override"
+msgstr "響鈴音量覆寫"
+
+#: Api/Gql/Ringgroups.php:368
+#: Api/Gql/Ringgroups.php:476
+msgid "Ringing Strategy"
+msgstr "响鈴策略"
+
+#: views/simple_form.php:130
+msgid ""
+"Select a Ring Tone from the list of options above. This will determine how "
+"your phone sounds when it is rung from this group."
+msgstr "從上方選項清單中選取響鈴聲。這將決定電話從此群組響鈴時的鈴聲。"
+
+#: views/advanced_form.php:217
+msgid "Send Progress"
+msgstr "傳送進展"
+
+#: views/simple_form.php:70
+msgid "Sequential"
+msgstr "順序"
+
+#: Api/Gql/Ringgroups.php:442
+#: Api/Gql/Ringgroups.php:550
+msgid ""
+"Should calls indicate answered elsewhere when a user answers.(true/false)"
+msgstr "使用者接聽時，是否應在其他地方顯示已接聽。(true/false)"
+
+#: views/advanced_form.php:232
+msgid ""
+"Should this ringgroup indicate call progress to digital channels where "
+"supported."
+msgstr "此響鈴群組是否應在支援的情況下向數位通道指示通話進展。"
+
+#: Api/Gql/Ringgroups.php:438
+#: Api/Gql/Ringgroups.php:546
+msgid ""
+"Should this ringgroup indicate call progress to digital channels where "
+"supported.(true/false)"
+msgstr "此響鈴群組是否應在支援的情況下向數位通道指示通話進展。(true/false)"
+
+#: views/simple_form.php:69
+msgid "Simultaneous"
+msgstr "同時"
+
+#: views/advanced_form.php:300
+msgid "Skip Busy Agent"
+msgstr "跳過忙碌的客服人員"
+
+#: Api/Gql/Ringgroups.php:88
+#: Api/Gql/Ringgroups.php:109
+msgid "Sorry, unable to find any ringgroup"
+msgstr "抱歉，找不到任何響鈴群組"
+
+#: Api/Gql/Ringgroups.php:39
+msgid "Sorry, unable to find the Ringgroup"
+msgstr "抱歉，找不到響鈴群組"
+
+#: Api/Gql/Ringgroups.php:68
+msgid "Sorry, unable to process your delete request"
+msgstr "抱歉，無法處理您的刪除要求"
+
+#: Api/Gql/Ringgroups.php:49
+msgid "Sorry, unable to process your update request"
+msgstr "抱歉，無法處理您的更新要求"
+
+#: Api/Gql/Ringgroups.php:27
+msgid "Sorry,Ringgroup already exists"
+msgstr "抱歉，響鈴群組已存在"
+
+#: Api/Gql/Ringgroups.php:327
+#: Api/Gql/Ringgroups.php:351
+msgid "Status for the request"
+msgstr "要求的狀態"
+
+#: Ringgroups.class.php:173
+msgid "Submit"
+msgstr "送出"
+
+#: Api/Gql/Ringgroups.php:25
+msgid "Successfully added ringgroup"
+msgstr "成功新增響鈴群組"
+
+#: Api/Gql/Ringgroups.php:66
+msgid "Successfully deleted ringgroup"
+msgstr "成功刪除響鈴群組"
+
+#: Api/Gql/Ringgroups.php:295
+#: views/form.php:60
+msgid "Take turns ringing each available extension"
+msgstr "輪流響鈴每個可用分機"
+
+#: Api/Gql/Ringgroups.php:299
+msgid ""
+"Take turns ringing each available extension. If the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+"輪流響鈴每個可用分機。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+
+#: Api/Gql/Ringgroups.php:97
+msgid "The Ringgroup number to search for"
+msgstr "要搜尋的響鈴群組號碼"
+
+#: assets/js/ringgroups.js:80
+msgid "The group list can only contain a maximum of 255 characters."
+msgstr "群組清單最多只能包含 255 個字元。"
+
+#: views/advanced_form.php:21
+msgid "The number users will dial to ring extensions in this ring group"
+msgstr "使用者要撥打此響鈴群組中分機的號碼"
+
+#: views/form.php:64
+msgid ""
+"These modes act as described above. However, if the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+"這些模式如上述說明運作。然而，若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+
+#: Ringgroups.class.php:261
+msgid "This ringgroup"
+msgstr "此響鈴群組"
+
+#: Api/Gql/Ringgroups.php:148
+#: Api/Gql/Ringgroups.php:376
+#: Api/Gql/Ringgroups.php:484
+#: views/advanced_form.php:128
+msgid ""
+"Time in seconds that the phones will ring. For all hunt style ring "
+"strategies, this is the time for each iteration of phone(s) that are rung"
+msgstr "電話響鈴的秒數。對於所有搜尋式響鈴策略，這是每次疊代響鈴電話的時間"
+
+#: views/simple_form.php:108
+msgid ""
+"Time in seconds that the phones will ring. For sequential ring strategies, "
+"this is the time for each iteration of phone(s) that are rung"
+msgstr "電話響鈴的秒數。對於順序響鈴策略，這是每次疊代響鈴電話的時間"
+
+#: assets/js/ringgroups.js:57
+msgid "Time must be between 1 and 300 seconds"
+msgstr "時間必須介於 1 到 300 秒之間"
+
+#: views/form.php:175
+msgid "Too-Late Announce"
+msgstr "遲接播報"
+
+#: views/form.php:254
+msgid ""
+"Transmit the Fixed CID Value below on calls that come in from outside only. "
+"Internal extension to extension calls will continue to operate in default "
+"mode."
+msgstr "僅對外部來電傳輸下面的固定來電顯示值。內部分機對分機來電將繼續以預設模式運作。"
+
+#: views/form.php:258
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This WILL "
+"be transmitted on trunks that block foreign CallerID"
+msgstr ""
+"將撥打的號碼作為外部來電的來電顯示。內部分機對分機來電將繼續以預設模式運作。這在來電路由上必須有 DID。這將在中繼線封鎖外來來電顯示的情況下被傳輸"
+
+#: views/form.php:256
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This will "
+"be BLOCKED on trunks that block foreign CallerID"
+msgstr ""
+"將撥打的號碼作為外部來電的來電顯示。內部分機對分機來電將繼續以預設模式運作。這在來電路由上必須有 DID。這將在中繼線封鎖外來來電顯示的情況下被封鎖"
+
+#: views/form.php:250
+msgid "Transmits the Callers CID if allowed by the trunk."
+msgstr "若中繼線允許，則傳輸來電者的來電顯示。"
+
+#: Api/Gql/Ringgroups.php:33
+msgid "Update a ringgroup"
+msgstr "更新響鈴群組"
+
+#: views/form.php:256
+#: views/form.php:265
+msgid "Use Dialed Number"
+msgstr "使用撥號號碼"
+
+#: Api/Gql/Ringgroups.php:81
+msgid "Use to get all the ringgroups"
+msgstr "用於取得所有響鈴群組"
+
+#: Api/Gql/Ringgroups.php:120
+msgid "Used to set ringgroup values"
+msgstr "用於設定響鈴群組值"
+
+#: Ringgroups.class.php:103
+msgid "Warning! Extension"
+msgstr "警告！分機"
+
+#: Api/Gql/Ringgroups.php:426
+#: Api/Gql/Ringgroups.php:534
+#: views/advanced_form.php:315
+msgid ""
+"When enabled, agents who are on an occupied phone will be skipped as if the "
+"line were returning busy. This means that Call Waiting or multi-line phones "
+"will not be presented with the call and in the various hunt style ring "
+"strategies, the next agent will be attempted."
+msgstr "啟用時，正在使用電話的客服人員將被視為忙碌而跳過。這表示來電等候或多功能電話不會收到來電，而在各種搜尋式響鈴策略中，將嘗試下一位客服人員。"
+
+#: Api/Gql/Ringgroups.php:430
+#: Api/Gql/Ringgroups.php:538
+#: views/advanced_form.php:342
+msgid ""
+"When enabled, this will allow calls to the Ring Group to be picked up with "
+"the directed call pickup feature using the group number from any extension. "
+"When not checked, individual extensions that are part of the group can still "
+"be picked up by doing a directed call pickup by dialing the group number. "
+"Any extensions can still be picked up by doing a directed call pickup to the "
+"ringing extension , which works whether or not this is checked."
+msgstr ""
+"啟用時，這將允許使用指向通話代接功能，從任何分機使用群組號碼來接聽響鈴群組的來電。未勾選時，屬於群組一部分的個別分機仍可透過撥打群組號碼進行指向通話代接來接聽。任何分機仍可透過對響鈴分機進行指向通話代接來接聽，無論此選項是否勾選。"
+
+#: views/advanced_form.php:288
+msgid ""
+"When set to Yes, agents who attempt to Call Forward will be ignored, this "
+"applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
+"example to access the extension's Follow-Me, might not honor this setting ."
+msgstr ""
+"當設為是時，嘗試轉接的客服人員將被忽略，這適用於 CF、CFU 和 CFB。結尾使用 '#' 輸入的分機，例如要存取分機的「跟上可能」，可能不會遵循此設定。"
+
+#: ringgroups.i18n.php:16
+msgid ""
+"When set to true extensions that belong to one or more Ring Groups will have "
+"a Ring Group section and link back to each group they are a member of."
+msgstr "當設為 true 時，屬於一或多個響鈴群組的分機將會有響鈴群組區段以及連回其所屬的每個群組的連結。"
+
+#: Api/Gql/Ringgroups.php:422
+#: Api/Gql/Ringgroups.php:530
+msgid ""
+"When set to true, agents who attempt to Call Forward will be ignored, this "
+"applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
+"example to access the extension's Follow-Me, might not honor this setting ."
+msgstr ""
+"當設為 true 時，嘗試轉接的客服人員將被忽略，這適用於 CF、CFU 和 CFB。結尾使用 '#' 輸入的分機，例如要存取分機的「跟上我」，可能不會遵循此設定。"
+
+#: Api/Gql/Ringgroups.php:388
+#: Api/Gql/Ringgroups.php:496
+#: views/advanced_form.php:479
+#: views/simple_form.php:153
+msgid "Where to send callers if there is no answer."
+msgstr "若無人接聽時，將來電者送往何處。"
+
+#: views/advanced_form.php:222
+#: views/advanced_form.php:251
+#: views/advanced_form.php:278
+#: views/advanced_form.php:305
+#: views/advanced_form.php:332
+#: views/advanced_form.php:359
+msgid "Yes"
+msgstr "是"
+
+#: views/advanced_form.php:450
+msgid ""
+"You can always record calls that come into this ring group (Force), never "
+"record them (Never), or allow the extension that answers to do on-demand "
+"recording (Dont Care). If recording is denied then one-touch on demand "
+"recording will be blocked, unless they have the \"Override\" call recording "
+"setting."
+msgstr ""
+"您可以永遠記錄進入此響鈴群組的來電（強制）、永不記錄（永不），或允許接聽的分機進行隨選錄音（不理會）。若錄音則將被拒絕，除非他們有「覆寫」通話錄音設定，否則一鍵隨選錄音將被封鎖。"
+
+#: Api/Gql/Ringgroups.php:434
+#: Api/Gql/Ringgroups.php:542
+msgid ""
+"You can always record calls that come into this ringgroup (Force), never "
+"record them (Never), or allow the extension that answers to do on-demand "
+"recording (Dont Care). "
+msgstr "您可以永遠記錄進入此響鈴群組的來電（強制）、永不記錄（永不），或允許接聽的分機進行隨選錄音（不理會）。"
+
+#: views/advanced_form.php:261
+msgid ""
+"You can mark calls answered elsewhere [always] or when a user actually "
+"answers a call."
+msgstr "您可以標記在其他位置接聽的通話 [永遠] 或當使用者實際接聽來電時。"
+
+#: Api/Gql/Ringgroups.php:380
+#: Api/Gql/Ringgroups.php:488
+#: views/advanced_form.php:154
+msgid ""
+"You can optionally prefix the CallerID name when ringing extensions in this "
+"group. ie: If you prefix with \"Sales:\", a call from John Doe would display "
+"as \"Sales:John Doe\" on the extensions that ring."
+msgstr ""
+"您可以選擇在響鈴此群組中的分機時，為來電顯示名稱加上字首。例如：若您加上 \"業務:\" 字首，John Doe 的來電將在響鈴的分機上顯示為 \"業務:John Doe\"。"
+
+#: views/form.php:228
+msgid "default"
+msgstr "預設"
+
+#: views/form.php:66
+msgid "firstavailable"
+msgstr "firstavailable"
+
+#: views/form.php:68
+msgid "firstnotonphone"
+msgstr "firstnotonphone"
+
+#: views/form.php:60
+msgid "hunt"
+msgstr "hunt"
+
+#: Ringgroups.class.php:261
+msgid "is already in use"
+msgstr "已在使用中"
+
+#: Ringgroups.class.php:103
+msgid "is not allowed for your account"
+msgstr "不允許用於您的帳號"
+
+#: views/form.php:62
+msgid "memoryhunt"
+msgstr "memoryhunt"
+
+#: views/form.php:227
+msgid "none"
+msgstr "無"
+
+#: views/form.php:70
+msgid "random"
+msgstr "random"
+
+#: views/form.php:66
+msgid ""
+"ring only the first available channel. This strategy will work only when "
+"Confirm Calls is disabled."
+msgstr "僅響鈴第一個可用通道。此策略僅在停用「確認通話」時有效。"
+
+#: views/form.php:68
+msgid ""
+"ring only the first channel which is not offhook - ignore CW. This strategy "
+"will work only when Confirm Calls is disabled."
+msgstr "僅響鈴第一個未掛斷的通道 - 忽略 CW。此策略僅在停用「確認通話」時有效。"
+
+#: views/form.php:58
+msgid "ringall"
+msgstr "ringall"

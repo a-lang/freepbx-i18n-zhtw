@@ -1,0 +1,891 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ringgroups
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-22 00:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: views/form.php:64
+msgid "*-prim"
+msgstr ""
+
+#: views/simple_form.php:79
+msgid ""
+"<strong>Simultaneous:</strong> Rings all extensions at once.</"
+"br><strong>Sequential:</strong> Rings each extension separately in the order "
+"defined in the list"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:134
+msgid "A Ringgroup number"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:139
+msgid "A descriptive title for this Ringgroup"
+msgstr ""
+
+#: views/advanced_form.php:178
+msgid ""
+"ALERT_INFO can be used for distinctive ring with SIP devices.<br>If you are "
+"having issues, see the \"Enforce RFC7462\" option found in Settings-"
+">Advanced Settings."
+msgstr ""
+
+#: views/rggrid.php:18
+msgid "Actions"
+msgstr ""
+
+#: views/bootnav.php:2
+#: views/rggrid.php:2
+msgid "Add Ring Group"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:18
+msgid "Add a new Ringgroup"
+msgstr ""
+
+#: views/advanced_form.php:166
+msgid "Alert Info"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:392
+#: Api/Gql/Ringgroups.php:500
+msgid "Alert info can be used for distinctive ring with SIP devices."
+msgstr ""
+
+#: views/advanced_form.php:249
+msgid "Always"
+msgstr ""
+
+#: views/form.php:252
+msgid "Always transmit the Fixed CID Value below."
+msgstr ""
+
+#: views/form.php:105
+msgid "Announcement"
+msgstr ""
+
+#: ringgroups.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: views/advanced_form.php:142
+msgid "CID Name Prefix"
+msgstr ""
+
+#: views/advanced_form.php:433
+msgid "Call Recording"
+msgstr ""
+
+#: views/advanced_form.php:383
+msgid "Change External CID Configuration"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:450
+#: Api/Gql/Ringgroups.php:558
+msgid "Change External CID Configuration."
+msgstr ""
+
+#: views/advanced_form.php:354
+msgid "Confirm Calls"
+msgstr ""
+
+#: ringgroups.i18n.php:8
+msgid ""
+"Creates a group of extensions that all ring together. Extensions can be rung "
+"all at once, or in various 'hunt' configurations. Additionally, external "
+"numbers are supported, and there is a call confirmation option where the "
+"callee has to confirm if they actually want to take the call before the "
+"caller is transferred."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:406
+#: Api/Gql/Ringgroups.php:514
+msgid ""
+"DEPRECATED: Use receiverMessage instead. Message to be played to the person "
+"RECEIVING the call, if the call has already been accepted before they push 1."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:401
+#: Api/Gql/Ringgroups.php:509
+msgid ""
+"DEPRECATED: Use receiverMessageConfirmCall instead. Message to be played to "
+"the person RECEIVING the call, if 'Confirm Calls' is enabled."
+msgstr ""
+
+#: views/form.php:147
+#: views/form.php:182
+#: views/form.php:250
+#: views/form.php:262
+msgid "Default"
+msgstr ""
+
+#: Ringgroups.class.php:173
+msgid "Delete"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:55
+msgid "Delete a ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:251
+#: Api/Gql/Ringgroups.php:405
+#: Api/Gql/Ringgroups.php:513
+msgid "Deprecated due to misspelling. Use receiverMessage instead."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:245
+#: Api/Gql/Ringgroups.php:400
+#: Api/Gql/Ringgroups.php:508
+msgid "Deprecated due to misspelling. Use receiverMessageConfirmCall instead."
+msgstr ""
+
+#: views/bootnav.php:14
+#: views/rggrid.php:17
+msgid "Description"
+msgstr ""
+
+#: views/advanced_form.php:467
+#: views/simple_form.php:141
+msgid "Destination if no answer"
+msgstr ""
+
+#: ringgroups.i18n.php:12
+msgid "Display Extension Ring Group Members"
+msgstr ""
+
+#: views/advanced_form.php:440
+msgid "Dont Care"
+msgstr ""
+
+#: views/advanced_form.php:327
+msgid "Enable Call Pickup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:396
+#: Api/Gql/Ringgroups.php:504
+#: views/advanced_form.php:369
+msgid ""
+"Enable this if you're calling external numbers that need confirmation - eg, "
+"a mobile phone may go to voicemail which will pick up the call. Enabling "
+"this requires the remote side push 1 on their phone before the call is put "
+"through. This feature only works with the ringall ring strategy"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:364
+#: Api/Gql/Ringgroups.php:472
+msgid "Enter a description for this ringgroup."
+msgstr ""
+
+#: views/advanced_form.php:58
+#: views/simple_form.php:32
+msgid "Extension List"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:143
+msgid "Extensions to ring, one per line"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:372
+#: Api/Gql/Ringgroups.php:480
+msgid "Extensions to ring, seperated by -"
+msgstr ""
+
+#: views/advanced_form.php:409
+#: views/form.php:252
+#: views/form.php:263
+msgid "Fixed CID Value"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:454
+#: Api/Gql/Ringgroups.php:562
+#: views/advanced_form.php:421
+msgid ""
+"Fixed value to replace the CID with used with some of the modes above. "
+"Should be in a format of digits only with an option of E164 format using a "
+"leading '+'."
+msgstr ""
+
+#: views/advanced_form.php:438
+msgid "Force"
+msgstr ""
+
+#: views/form.php:258
+#: views/form.php:266
+msgid "Force Dialed Number"
+msgstr ""
+
+#: views/advanced_form.php:34
+msgid "Group Description"
+msgstr ""
+
+#: functions.inc.php:335
+msgid "INUSE"
+msgstr ""
+
+#: views/form.php:241
+msgid ""
+"If you select a Music on Hold class to play, instead of 'Ring', they will "
+"hear that instead of Ringing while they are waiting for someone to pick up."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:418
+#: Api/Gql/Ringgroups.php:526
+msgid ""
+"If you select a music to play on hold, instead of 'Ring', they will hear "
+"that instead of Ringing while they are waiting for someone to pick up."
+msgstr ""
+
+#: views/advanced_form.php:273
+msgid "Ignore CF Settings"
+msgstr ""
+
+#: views/form.php:224
+msgid "Inherit"
+msgstr ""
+
+#: assets/js/ringgroups.js:60
+msgid "Invalid CID"
+msgstr ""
+
+#: assets/js/ringgroups.js:54
+msgid "Invalid Group Number specified"
+msgstr ""
+
+#: assets/js/ringgroups.js:56
+msgid "Invalid time specified"
+msgstr ""
+
+#: views/bootnav.php:3
+msgid "List Ring Groups"
+msgstr ""
+
+#: views/advanced_form.php:78
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089 on the appropriate trunk (see Outbound "
+"Routing)<br><br>Extensions without a '#' will not ring a user's Follow-Me. "
+"To dial Follow-Me, Queues and other numbers that are not extensions, put a "
+"'#' at the end."
+msgstr ""
+
+#: views/simple_form.php:52
+msgid ""
+"List extensions to ring, one per line, or use the Extension Quick Select to "
+"insert them here.<br><br>You can include an extension on a remote system, or "
+"an external number by suffixing a number with a '#'.  ex:  2448089# would "
+"dial 2448089"
+msgstr ""
+
+#: views/form.php:70
+msgid ""
+"Makes a call could hop between the included extensions without a predefined "
+"priority to ensure that calls in the groups are (almost) evenly spread. "
+"Simulates a Queue when a Queue can not otherwise be used."
+msgstr ""
+
+#: views/advanced_form.php:244
+msgid "Mark Answered Elsewhere"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:323
+#: Api/Gql/Ringgroups.php:347
+msgid "Message for the request"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:384
+#: Api/Gql/Ringgroups.php:492
+msgid "Message to be played to the caller before dialing this group."
+msgstr ""
+
+#: views/form.php:126
+msgid ""
+"Message to be played to the caller before dialing this group.<br><br>To add "
+"additional recordings please use the \"System Recordings\" MENU above"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:410
+#: Api/Gql/Ringgroups.php:518
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled."
+msgstr ""
+
+#: views/form.php:161
+msgid ""
+"Message to be played to the person RECEIVING the call, if 'Confirm Calls' is "
+"enabled.<br><br>To add additional recordings use the \"System Recordings\" "
+"MENU above"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:414
+#: Api/Gql/Ringgroups.php:522
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1."
+msgstr ""
+
+#: views/form.php:196
+msgid ""
+"Message to be played to the person RECEIVING the call, if the call has "
+"already been accepted before they push 1.<br><br>To add additional "
+"recordings use the \"System Recordings\" MENU above"
+msgstr ""
+
+#: views/form.php:248
+msgid "Mode"
+msgstr ""
+
+#: views/advanced_form.php:442
+msgid "Never"
+msgstr ""
+
+#: views/advanced_form.php:224
+#: views/advanced_form.php:253
+#: views/advanced_form.php:280
+#: views/advanced_form.php:307
+#: views/advanced_form.php:334
+#: views/advanced_form.php:361
+msgid "No"
+msgstr ""
+
+#: views/advanced_form.php:194
+#: views/form.php:112
+msgid "None"
+msgstr ""
+
+#: assets/js/ringgroups.js:59
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr ""
+
+#: views/form.php:254
+#: views/form.php:264
+msgid "Outside Calls Fixed CID Value"
+msgstr ""
+
+#: views/advanced_form.php:206
+#, php-format
+msgid ""
+"Override the ringer volume. Note: This is only valid for %s phones at this "
+"time"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:446
+#: Api/Gql/Ringgroups.php:554
+msgid ""
+"Override the ringer volume. Note: This is only valid for Sangoma phones at "
+"this time"
+msgstr ""
+
+#: views/form.php:216
+msgid "Play Music On Hold"
+msgstr ""
+
+#: assets/js/ringgroups.js:58
+msgid "Please enter a valid Group Description"
+msgstr ""
+
+#: assets/js/ringgroups.js:55
+msgid "Please enter an extension list."
+msgstr ""
+
+#: views/advanced_form.php:46
+msgid "Provide a descriptive title for this Ring Group."
+msgstr ""
+
+#: views/simple_form.php:20
+msgid "Provide a name for this Ring Group."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:105
+msgid "Record found successfully"
+msgstr ""
+
+#: views/form.php:140
+msgid "Remote Announce"
+msgstr ""
+
+#: Ringgroups.class.php:173
+msgid "Reset"
+msgstr ""
+
+#: views/form.php:223
+msgid "Ring"
+msgstr ""
+
+#: views/bootnav.php:13
+#: views/rggrid.php:16
+msgid "Ring Group"
+msgstr ""
+
+#: functions.inc.php:40
+#, php-format
+msgid "Ring Group %s: "
+msgstr ""
+
+#: functions.inc.php:433
+msgid "Ring Group Membership"
+msgstr ""
+
+#: ringgroups.i18n.php:14
+msgid "Ring Group Module"
+msgstr ""
+
+#: views/simple_form.php:8
+msgid "Ring Group Name"
+msgstr ""
+
+#: functions.inc.php:59
+#: functions.inc.php:334
+#, php-format
+msgid "Ring Group: %s"
+msgstr ""
+
+#: functions.inc.php:359
+#, php-format
+msgid "Ring Group: %s (%s)"
+msgstr ""
+
+#: page.ringgroups.php:10
+#: ringgroups.i18n.php:4
+#: ringgroups.i18n.php:10
+msgid "Ring Groups"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:283
+msgid "Ring Strategies"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:319
+#: views/advanced_form.php:90
+#: views/simple_form.php:64
+msgid "Ring Strategy"
+msgstr ""
+
+#: views/simple_form.php:91
+msgid "Ring Time"
+msgstr ""
+
+#: views/advanced_form.php:116
+msgid "Ring Time (max 300 sec)"
+msgstr ""
+
+#: views/simple_form.php:118
+msgid "Ring Tone"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:287
+#: views/form.php:58
+msgid "Ring all available channels until one answers (default)"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:291
+msgid ""
+"Ring all available channels until one answers. If the primary extension "
+"(first in list) is occupied, the other extensions will not be rung. If the "
+"primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:303
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:307
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. If the primary extension "
+"(first in list) is occupied, the other extensions will not be rung. If the "
+"primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+
+#: views/form.php:62
+msgid ""
+"Ring first extension in the list, then ring the 1st and 2nd extension, then "
+"ring 1st 2nd and 3rd extension in the list.... etc. This strategy will work "
+"only when Confirm Calls is disabled."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:311
+msgid "Ring only the first available channel"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:315
+msgid "Ring only the first channel which is not offhook - ignore CW"
+msgstr ""
+
+#: views/advanced_form.php:9
+msgid "Ring-Group Number"
+msgstr ""
+
+#: Ringgroups.class.php:155
+msgid "RingGroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:360
+#: Api/Gql/Ringgroups.php:468
+msgid "RingGroup number"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:47
+msgid "RingGroup updated Successfully"
+msgstr ""
+
+#: views/advanced_form.php:189
+msgid "Ringer Volume Override"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:368
+#: Api/Gql/Ringgroups.php:476
+msgid "Ringing Strategy"
+msgstr ""
+
+#: views/simple_form.php:130
+msgid ""
+"Select a Ring Tone from the list of options above. This will determine how "
+"your phone sounds when it is rung from this group."
+msgstr ""
+
+#: views/advanced_form.php:217
+msgid "Send Progress"
+msgstr ""
+
+#: views/simple_form.php:70
+msgid "Sequential"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:442
+#: Api/Gql/Ringgroups.php:550
+msgid ""
+"Should calls indicate answered elsewhere when a user answers.(true/false)"
+msgstr ""
+
+#: views/advanced_form.php:232
+msgid ""
+"Should this ringgroup indicate call progress to digital channels where "
+"supported."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:438
+#: Api/Gql/Ringgroups.php:546
+msgid ""
+"Should this ringgroup indicate call progress to digital channels where "
+"supported.(true/false)"
+msgstr ""
+
+#: views/simple_form.php:69
+msgid "Simultaneous"
+msgstr ""
+
+#: views/advanced_form.php:300
+msgid "Skip Busy Agent"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:88
+#: Api/Gql/Ringgroups.php:109
+msgid "Sorry, unable to find any ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:39
+msgid "Sorry, unable to find the Ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:68
+msgid "Sorry, unable to process your delete request"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:49
+msgid "Sorry, unable to process your update request"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:27
+msgid "Sorry,Ringgroup already exists"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:327
+#: Api/Gql/Ringgroups.php:351
+msgid "Status for the request"
+msgstr ""
+
+#: Ringgroups.class.php:173
+msgid "Submit"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:25
+msgid "Successfully added ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:66
+msgid "Successfully deleted ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:295
+#: views/form.php:60
+msgid "Take turns ringing each available extension"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:299
+msgid ""
+"Take turns ringing each available extension. If the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:97
+msgid "The Ringgroup number to search for"
+msgstr ""
+
+#: assets/js/ringgroups.js:80
+msgid "The group list can only contain a maximum of 255 characters."
+msgstr ""
+
+#: views/advanced_form.php:21
+msgid "The number users will dial to ring extensions in this ring group"
+msgstr ""
+
+#: views/form.php:64
+msgid ""
+"These modes act as described above. However, if the primary extension (first "
+"in list) is occupied, the other extensions will not be rung. If the primary "
+"is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
+"unconditional, then all will be rung"
+msgstr ""
+
+#: Ringgroups.class.php:261
+msgid "This ringgroup"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:148
+#: Api/Gql/Ringgroups.php:376
+#: Api/Gql/Ringgroups.php:484
+#: views/advanced_form.php:128
+msgid ""
+"Time in seconds that the phones will ring. For all hunt style ring "
+"strategies, this is the time for each iteration of phone(s) that are rung"
+msgstr ""
+
+#: views/simple_form.php:108
+msgid ""
+"Time in seconds that the phones will ring. For sequential ring strategies, "
+"this is the time for each iteration of phone(s) that are rung"
+msgstr ""
+
+#: assets/js/ringgroups.js:57
+msgid "Time must be between 1 and 300 seconds"
+msgstr ""
+
+#: views/form.php:175
+msgid "Too-Late Announce"
+msgstr ""
+
+#: views/form.php:254
+msgid ""
+"Transmit the Fixed CID Value below on calls that come in from outside only. "
+"Internal extension to extension calls will continue to operate in default "
+"mode."
+msgstr ""
+
+#: views/form.php:258
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This WILL "
+"be transmitted on trunks that block foreign CallerID"
+msgstr ""
+
+#: views/form.php:256
+msgid ""
+"Transmit the number that was dialed as the CID for calls coming from "
+"outside. Internal extension to extension calls will continue to operate in "
+"default mode. There must be a DID on the inbound route for this. This will "
+"be BLOCKED on trunks that block foreign CallerID"
+msgstr ""
+
+#: views/form.php:250
+msgid "Transmits the Callers CID if allowed by the trunk."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:33
+msgid "Update a ringgroup"
+msgstr ""
+
+#: views/form.php:256
+#: views/form.php:265
+msgid "Use Dialed Number"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:81
+msgid "Use to get all the ringgroups"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:120
+msgid "Used to set ringgroup values"
+msgstr ""
+
+#: Ringgroups.class.php:103
+msgid "Warning! Extension"
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:426
+#: Api/Gql/Ringgroups.php:534
+#: views/advanced_form.php:315
+msgid ""
+"When enabled, agents who are on an occupied phone will be skipped as if the "
+"line were returning busy. This means that Call Waiting or multi-line phones "
+"will not be presented with the call and in the various hunt style ring "
+"strategies, the next agent will be attempted."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:430
+#: Api/Gql/Ringgroups.php:538
+#: views/advanced_form.php:342
+msgid ""
+"When enabled, this will allow calls to the Ring Group to be picked up with "
+"the directed call pickup feature using the group number from any extension. "
+"When not checked, individual extensions that are part of the group can still "
+"be picked up by doing a directed call pickup by dialing the group number. "
+"Any extensions can still be picked up by doing a directed call pickup to the "
+"ringing extension , which works whether or not this is checked."
+msgstr ""
+
+#: views/advanced_form.php:288
+msgid ""
+"When set to Yes, agents who attempt to Call Forward will be ignored, this "
+"applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
+"example to access the extension's Follow-Me, might not honor this setting ."
+msgstr ""
+
+#: ringgroups.i18n.php:16
+msgid ""
+"When set to true extensions that belong to one or more Ring Groups will have "
+"a Ring Group section and link back to each group they are a member of."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:422
+#: Api/Gql/Ringgroups.php:530
+msgid ""
+"When set to true, agents who attempt to Call Forward will be ignored, this "
+"applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
+"example to access the extension's Follow-Me, might not honor this setting ."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:388
+#: Api/Gql/Ringgroups.php:496
+#: views/advanced_form.php:479
+#: views/simple_form.php:153
+msgid "Where to send callers if there is no answer."
+msgstr ""
+
+#: views/advanced_form.php:222
+#: views/advanced_form.php:251
+#: views/advanced_form.php:278
+#: views/advanced_form.php:305
+#: views/advanced_form.php:332
+#: views/advanced_form.php:359
+msgid "Yes"
+msgstr ""
+
+#: views/advanced_form.php:450
+msgid ""
+"You can always record calls that come into this ring group (Force), never "
+"record them (Never), or allow the extension that answers to do on-demand "
+"recording (Dont Care). If recording is denied then one-touch on demand "
+"recording will be blocked, unless they have the \"Override\" call recording "
+"setting."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:434
+#: Api/Gql/Ringgroups.php:542
+msgid ""
+"You can always record calls that come into this ringgroup (Force), never "
+"record them (Never), or allow the extension that answers to do on-demand "
+"recording (Dont Care). "
+msgstr ""
+
+#: views/advanced_form.php:261
+msgid ""
+"You can mark calls answered elsewhere [always] or when a user actually "
+"answers a call."
+msgstr ""
+
+#: Api/Gql/Ringgroups.php:380
+#: Api/Gql/Ringgroups.php:488
+#: views/advanced_form.php:154
+msgid ""
+"You can optionally prefix the CallerID name when ringing extensions in this "
+"group. ie: If you prefix with \"Sales:\", a call from John Doe would display "
+"as \"Sales:John Doe\" on the extensions that ring."
+msgstr ""
+
+#: views/form.php:228
+msgid "default"
+msgstr ""
+
+#: views/form.php:66
+msgid "firstavailable"
+msgstr ""
+
+#: views/form.php:68
+msgid "firstnotonphone"
+msgstr ""
+
+#: views/form.php:60
+msgid "hunt"
+msgstr ""
+
+#: Ringgroups.class.php:261
+msgid "is already in use"
+msgstr ""
+
+#: Ringgroups.class.php:103
+msgid "is not allowed for your account"
+msgstr ""
+
+#: views/form.php:62
+msgid "memoryhunt"
+msgstr ""
+
+#: views/form.php:227
+msgid "none"
+msgstr ""
+
+#: views/form.php:70
+msgid "random"
+msgstr ""
+
+#: views/form.php:66
+msgid ""
+"ring only the first available channel. This strategy will work only when "
+"Confirm Calls is disabled."
+msgstr ""
+
+#: views/form.php:68
+msgid ""
+"ring only the first channel which is not offhook - ignore CW. This strategy "
+"will work only when Confirm Calls is disabled."
+msgstr ""
+
+#: views/form.php:58
+msgid "ringall"
+msgstr ""

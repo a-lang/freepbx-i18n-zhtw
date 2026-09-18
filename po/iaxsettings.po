@@ -1,0 +1,315 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for iaxsettings
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-07 05:26-0500\n"
+"PO-Revision-Date: 2026-09-15 17:08+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: views/view.form_options.php:439
+msgid ""
+" If you clear each codec and then add them one at a time, submitting with "
+"each addition, they will be added in order which will effect the codec "
+"priority."
+msgstr " 若您清除各編解碼器，然後一次新增一個，並在每次新增後送出，系統將依新增順序加入，這會影響編解碼器的優先順序。"
+
+#: Iaxsettings.class.php:139
+#, php-format
+msgid "%s must be a non-negative integer"
+msgstr "%s 必須為非負整數"
+
+#: views/view.form_options.php:309
+msgid "Add New Setting"
+msgstr "新增設定"
+
+#: views/view.form_options.php:68
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: iaxsettings.i18n.php:4
+#: iaxsettings.i18n.php:10
+msgid "Asterisk IAX Settings"
+msgstr "Asterisk IAX 設定"
+
+#: views/view.form_options.php:391
+msgid ""
+"Asterisk: bandwidth. Specify bandwidth of low, medium, or high to control "
+"which codecs are used in general."
+msgstr "Asterisk：bandwidth。指定「低」、「中」或「高」頻寬，以控制一般使用的編解碼器。"
+
+#: views/view.form_options.php:236
+msgid ""
+"Asterisk: bindaddr. The IP address to bind to and listen for calls on the "
+"Bind Port. If set to 0.0.0.0 Asterisk will listen on all addresses. To bind "
+"to multiple IP addresses or ports, use the Other 'IAX Settings' fields where "
+"you can put settings such as:<br /> bindaddr=192.168.10.100:4555.<br />  It "
+"is recommended to leave this blank."
+msgstr ""
+"Asterisk：bindaddr。要繫結並在「繫結連接埠」上監聽來電的 IP 位址。若設為 0.0.0.0，Asterisk 將監聽所有位址。若要繫結多個 IP 位址或連接埠，請使用「其他 IAX 設定」欄位，可在此輸入例如：<br /> bindaddr=192.168.10.100:4555。<br />  建議保留空白。"
+
+#: views/view.form_options.php:260
+msgid ""
+"Asterisk: bindport. Local incoming UDP Port that Asterisk will bind to and "
+"listen for IAX messages. The IAX standard is 4569 and in most cases this is "
+"what you want. It is recommended to leave this blank."
+msgstr ""
+"Asterisk：bindport。Asterisk 將繫結並監聽 IAX 訊息的本機傳入 UDP 連接埠。IAX 標準為 4569，在大多數情況下這正是您要的。建議保留空白。"
+
+#: views/view.form_options.php:360
+msgid ""
+"Asterisk: codecpriority. Controls the codec negotiation of an inbound IAX "
+"call. This option is inherited to all user entities.  It can also be defined "
+"in each user entity separately which will override the setting here. The "
+"valid values are:<br />host - Consider the host's preferred order ahead of "
+"the caller's.<br />caller - Consider the callers preferred order ahead of "
+"the host's.<br /> disabled - Disable the consideration of codec preference "
+"altogether. (this is the original behavior before preferences were "
+"added)<br />reqonly  - Same as disabled, only do not consider capabilities "
+"if the requested format is not available the call will only be accepted if "
+"the requested format is available."
+msgstr ""
+"Asterisk：codecpriority。控制來電 IAX 通話的編解碼器協商。此選項會繼承至所有使用者實體，也可在各使用者實體中另行定義，以覆寫此處的設定。有效值為：<br />host - 優先考量主機的偏好順序，其次才是來電者的。<br />caller - 優先考量來電者的偏好順序，其次才是主機的。<br /> disabled - 完全不考量編解碼器偏好（這是加入偏好功能前的原始行為）。<br />reqonly  - 與 disabled 相同，僅在要求的格式無法取得時不考量能力；通話只有在要求的格式可取得時才會被接受。"
+
+#: views/view.form_options.php:287
+msgid ""
+"Asterisk: delayreject. For increased security against brute force password "
+"attacks enable this which will delay the sending of authentication reject "
+"for REGREQ or AUTHREP if there is a password."
+msgstr ""
+"Asterisk：delayreject。為加強對暴力破解密碼攻擊的防護，請啟用此選項；若設有密碼，這會延遲對 REGREQ 或 AUTHREP 送出驗證拒絕。"
+
+#: views/view.form_options.php:157
+msgid ""
+"Asterisk: forcejitterbuffer. Forces the use of a jitterbuffer on the receive "
+"side of an IAX channel. Normally the jitter buffer will not be used if "
+"receiving a jittery channel but sending it off to another channel such as a "
+"SIP channel to an endpoint, since there is typically a jitter buffer at the "
+"far end. This will force the use of the jitter buffer before sending the "
+"stream on. This is not typically desired as it adds additional latency into "
+"the stream."
+msgstr ""
+"Asterisk：forcejitterbuffer。強制在 IAX 通道的接收端使用抖動緩衝區。一般情況下，若接收的是抖動通道，但把資料轉送到另一個通道（例如送往終端的 SIP 通道）時，由於遠端通常已有抖動緩衝區，因此不會使用。此選項會強制在繼續轉送串流之前使用抖動緩衝區。這通常不是理想做法，因為會為串流增加額外延遲。"
+
+#: views/view.form_options.php:129
+msgid ""
+"Asterisk: jitterbuffer. You can adjust several parameters relating to the "
+"jitter buffer. The jitter buffer's function is to compensate for varying "
+"network delay. The jitter buffer works for INCOMING audio - the outbound "
+"audio will be dejittered by the jitter buffer at the other end."
+msgstr ""
+"Asterisk：jitterbuffer。您可以調整與抖動緩衝區相關的多個參數。抖動緩衝區的功能是補償變動的網路延遲。抖動緩衝區適用於傳入音訊；外送音訊將由另一端的抖動緩衝區進行去抖動。"
+
+#: views/view.form_options.php:184
+msgid ""
+"Asterisk: maxjitterbuffer. Max length of the jitterbuffer in milliseconds."
+"<br /> Asterisk: resyncthreshold. When the jitterbuffer notices a "
+"significant change in delay that continues over a few frames, it will "
+"resync, assuming that the change in delay was caused by a timestamping mix-"
+"up. The threshold for noticing a change in delay is measured as twice the "
+"measured jitter plus this resync threshold. Resyncing can be disabled by "
+"setting this parameter to -1."
+msgstr ""
+"Asterisk：maxjitterbuffer。抖動緩衝區的最大長度（毫秒）。<br /> Asterisk：resyncthreshold。當抖動緩衝區偵測到延遲出現持續數個影格的顯著變化時，它會重新同步，並假定此延遲變化是由時間戳記錯亂所造成。偵測延遲變化的門檻值，是以量測到的抖動值兩倍加上此 resync 門檻值來計算。將此參數設為 -1 即可停用重新同步。"
+
+#: views/view.form_options.php:208
+msgid ""
+"Asterisk: maxjitterinterps. The maximum number of interpolation frames the "
+"jitterbuffer should return in a row. Since some clients do not send CNG/DTX "
+"frames to indicate silence, the jitterbuffer will assume silence has begun "
+"after returning this many interpolations. This prevents interpolating "
+"throughout a long silence."
+msgstr ""
+"Asterisk：maxjitterinterps。抖動緩衝區應連續傳回的最大內插影格數。由於某些使用者端不會送出 CNG/DTX 影格來表示靜音，抖動緩衝區在連續傳回這個數量的內插影格後，會假定靜音已經開始。這樣可避免在長時間靜音期間持續內插。"
+
+#: views/view.form_options.php:102
+msgid ""
+"Asterisk: minregexpire, maxregexpire. Minimum and maximum length of time "
+"that IAX peers can request as a registration expiration interval (in "
+"seconds)."
+msgstr "Asterisk：minregexpire、maxregexpire。IAX 對端可要求作為註冊到期間隔的最短與最長時間（以秒為單位）。"
+
+#: views/view.form_options.php:408
+msgid "Audio Codecs"
+msgstr "音訊編解碼器"
+
+#: views/view.form_options.php:372
+msgid "Bandwidth"
+msgstr "頻寬"
+
+#: views/view.form_options.php:224
+msgid "Bind Address"
+msgstr "繫結位址"
+
+#: Iaxsettings.class.php:156
+msgid "Bind Address (bindaddr) must be an IP address."
+msgstr "繫結位址（bindaddr）必須為 IP 位址。"
+
+#: views/view.form_options.php:248
+msgid "Bind Port"
+msgstr "繫結連接埠"
+
+#: Iaxsettings.class.php:170
+msgid "Bind Port (bindport) must be between 1024..65535, default 4569"
+msgstr "繫結連接埠（bindport）必須介於 1024..65535 之間，預設為 4569"
+
+#: views/view.form_options.php:439
+msgid "Check to enable and then choose allowed codecs."
+msgstr "勾選以啟用，然後選擇允許的編解碼器。"
+
+#: views/view.form_options.php:341
+msgid "Codec Priority"
+msgstr "編解碼器優先順序"
+
+#: views/view.form_options.php:73
+msgid "Codec Settings"
+msgstr "編解碼器設定"
+
+#: Iaxsettings.class.php:409
+msgid "Command not found!"
+msgstr "找不到命令！"
+
+#: views/view.form_options.php:272
+msgid "Delay Auth Rejects"
+msgstr "延遲驗證拒絕"
+
+#: views/view.form_options.php:424
+msgid "Enable Video Support"
+msgstr "啟用視訊支援"
+
+#: views/view.form_options.php:142
+msgid "Force Jitter Buffer"
+msgstr "強制使用抖動緩衝區"
+
+#: views/view.form_options.php:63
+msgid "General Settings"
+msgstr "一般設定"
+
+#: views/page.main.php:13
+msgid "IAX Settings"
+msgstr "IAX 設定"
+
+#: views/view.form_options.php:114
+msgid "Jitter Buffer Enable"
+msgstr "啟用抖動緩衝區"
+
+#: views/view.form_options.php:169
+msgid "Jitter Buffer Size"
+msgstr "抖動緩衝區大小"
+
+#: views/view.form_options.php:196
+msgid "Max Interpolations"
+msgstr "最大內插數"
+
+#: assets/js/iaxsettings.js:13
+msgid "Minregexpire is Greater than Maxregexpire"
+msgstr "Minregexpire 大於 Maxregexpire"
+
+#: views/view.form_options.php:121
+#: views/view.form_options.php:149
+#: views/view.form_options.php:279
+#: views/view.form_options.php:431
+msgid "No"
+msgstr "否"
+
+#: views/view.form_options.php:299
+msgid "Other IAX Settings"
+msgstr "其他 IAX 設定"
+
+#: Iaxsettings.class.php:128
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: views/view.form_options.php:87
+msgid "Registration Times"
+msgstr "註冊時間"
+
+#: assets/js/iaxsettings.js:88
+msgid "Remove Setting"
+msgstr "移除設定"
+
+#: Iaxsettings.class.php:97
+msgid "Reset"
+msgstr "重設"
+
+#: views/view.form_options.php:306
+msgid "Setting"
+msgstr "設定"
+
+#: iaxsettings.i18n.php:6
+msgid "Settings"
+msgstr "設定"
+
+#: Iaxsettings.class.php:478
+#, php-format
+msgid "Settings in %s may override these. Those settings should be removed."
+msgstr "「%s」中的設定可能會覆寫這些設定，應移除那些設定。"
+
+#: Iaxsettings.class.php:92
+msgid "Submit"
+msgstr "送出"
+
+#: iaxsettings.i18n.php:8
+msgid ""
+"Use to configure Various Asterisk IAX Settings in the General section of iax."
+"conf."
+msgstr "用於在 iax.conf 的「一般」區段中設定各種 Asterisk IAX 設定。"
+
+#: views/view.form_options.php:307
+msgid "Value"
+msgstr "值"
+
+#: views/view.form_options.php:119
+#: views/view.form_options.php:147
+#: views/view.form_options.php:277
+#: views/view.form_options.php:429
+msgid "Yes"
+msgstr "是"
+
+#: views/view.form_options.php:326
+msgid ""
+"You may set any other IAX settings not present here that are allowed to be "
+"configured in the General section of iax.conf. There will be no error "
+"checking against these settings so check them carefully. They should be "
+"entered as:<br /> [setting] = [value]<br /> in the boxes below. Click the "
+"Add Field box to add additional fields. Blank boxes will be deleted when "
+"submitted."
+msgstr ""
+"您可以在此設定未列出的其他 IAX 設定，只要它們允許在 iax.conf 的「一般」區段中設定即可。系統不會對這些設定進行錯誤檢查，因此請仔細檢查。輸入格式應為：<br /> [setting] = [value]<br /> 請在下方方塊中輸入。按一下「新增欄位」方塊即可新增更多欄位。送出時會刪除空白方塊。"
+
+#: views/view.form_options.php:381
+msgid "high"
+msgstr "高"
+
+#: views/view.form_options.php:377
+msgid "low"
+msgstr "低"
+
+#: views/view.form_options.php:379
+msgid "medium"
+msgstr "中"
+
+#: Iaxsettings.class.php:42
+msgid "populating default settings.."
+msgstr "正在填入預設設定.."
+
+#: Iaxsettings.class.php:219
+msgid "resyncthreshold must be a non-negative integer or -1 to disable"
+msgstr "resyncthreshold 必須為非負整數，或設為 -1 以停用"
+
+#: views/view.form_options.php:383
+msgid "unset"
+msgstr "未設定"

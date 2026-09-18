@@ -1,0 +1,303 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for asteriskinfo
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-07 11:35-0400\n"
+"PO-Revision-Date: 2026-09-15 17:07+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Modules/Fax.php:59
+msgid "AJAX shows up as disabled!"
+msgstr "AJAX 顯示為已停用！"
+
+#: Asteriskinfo.class.php:98
+msgid "All"
+msgstr "全部"
+
+#: asteriskinfo.i18n.php:4
+#: asteriskinfo.i18n.php:10
+#: views/page.asteriskinfo.php:5
+msgid "Asterisk Info"
+msgstr "Asterisk 資訊"
+
+#: views/page.asteriskinfo.php:8
+msgid "Asterisk doesn't appear to be running!"
+msgstr "Asterisk 似乎未在執行！"
+
+#: Modules/Conferences.php:21
+msgid ""
+"Can't connect to Asterisk. Is Asterisk running and started by the correct "
+"user?"
+msgstr "無法連線至 Asterisk。Asterisk 是否正在執行，並由正確的使用者啟動？"
+
+#: Modules/Channels.php:36
+msgid "Channel Count"
+msgstr "通道數"
+
+#: Modules/Channels.php:11
+msgid "Channels"
+msgstr "通道"
+
+#: Modules/Modules.php:36
+msgid "Clean All Filters"
+msgstr "清除所有篩選器"
+
+#: Modules/Channels.php:36
+#: Modules/Fax.php:44
+msgid "Clean Filter"
+msgstr "清除篩選器"
+
+#: Asteriskinfo.class.php:257
+msgid "Command not found!"
+msgstr "找不到命令！"
+
+#: Modules/Conferences.php:26
+msgid "Conference Bridge Info"
+msgstr "會議橋接資訊"
+
+#: Modules/Conferences.php:12
+msgid "Conferences"
+msgstr "會議"
+
+#: Modules/Modules.php:36
+msgid "Core"
+msgstr "核心"
+
+#: views/page.asteriskinfo.php:13
+msgid "Current Asterisk Version:"
+msgstr "目前的 Asterisk 版本："
+
+#: Modules/Dahdi.php:12
+msgid "Dahdi"
+msgstr "Dahdi"
+
+#: Modules/Dahdi.php:22
+msgid "Dahdi Channels"
+msgstr "Dahdi 通道"
+
+#: Modules/Dahdi.php:22
+msgid "Dahdi PRI Spans"
+msgstr "Dahdi PRI 鏈路"
+
+#: Modules/Dahdi.php:31
+msgid ""
+"Dahdi is not loaded into asterisk, hence no channels / spans information to "
+"display."
+msgstr "Dahdi 未載入 Asterisk，因此沒有通道／鏈路資訊可顯示。"
+
+#: Modules/Fax.php:44
+msgid "Data"
+msgstr "資料"
+
+#: Modules/Modules.php:36
+msgid "Deprecated"
+msgstr "已淘汰"
+
+#: Modules/Modules.php:36
+msgid "Description"
+msgstr "說明"
+
+#: Modules/Peers.php:39
+msgid ""
+"Drivers (ChanSIP or PJSIP or IAX or SCCP) are not loaded into asterisk, "
+"hence no Peers information to display."
+msgstr "驅動程式（ChanSIP、PJSIP、IAX 或 SCCP）未載入 Asterisk，因此沒有對等端資訊可顯示。"
+
+#: Modules/Registries.php:39
+msgid ""
+"Drivers (ChanSIP or PJSIP or IAX) are not loaded into asterisk, hence no "
+"registration information to display."
+msgstr "驅動程式（ChanSIP、PJSIP 或 IAX）未載入 Asterisk，因此沒有註冊資訊可顯示。"
+
+#: Asteriskinfo.class.php:156
+#: Asteriskinfo.class.php:250
+#, php-format
+msgid "Error: Module '%s' not found!"
+msgstr "錯誤：找不到模組「%s」！"
+
+#: Modules/Modules.php:36
+msgid "Extended"
+msgstr "延伸"
+
+#: Modules/Fax.php:13
+msgid "Fax"
+msgstr "傳真"
+
+#: Modules/Fax.php:14
+msgid "Fax Statistics"
+msgstr "傳真統計"
+
+#: Modules/Fax.php:44
+msgid "Global"
+msgstr "全域"
+
+#: Modules/Conferences.php:26
+msgid "MeetMe Conference Info"
+msgstr "MeetMe 會議資訊"
+
+#: Modules/Fax.php:44
+msgid "Module"
+msgstr "模組"
+
+#: Asteriskinfo.class.php:194
+msgid "Module Not Valid!"
+msgstr "模組無效！"
+
+#: Modules/Fax.php:44
+#: Modules/Modules.php:11
+msgid "Modules"
+msgstr "模組"
+
+#: Modules/Modules.php:36
+msgid "Name"
+msgstr "名稱"
+
+#: Modules/Fax.php:101
+msgid "No command detected!"
+msgstr "偵測不到命令！"
+
+#: Modules/Modules.php:36
+#: assets/js/asteriskinfo.js:138
+msgid "Not Running"
+msgstr "未執行"
+
+#: Modules/Channels.php:36
+#: assets/js/asteriskinfo.js:89
+msgid "Offline"
+msgstr "離線"
+
+#: Modules/Channels.php:36
+#: assets/js/asteriskinfo.js:84
+msgid "Online"
+msgstr "線上"
+
+#: Asteriskinfo.class.php:67
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
+
+#: Modules/Peers.php:12
+msgid "Peers"
+msgstr "對等端"
+
+#: asteriskinfo.i18n.php:8
+msgid "Provides a snapshot of the current Asterisk configuration"
+msgstr "提供目前 Asterisk 組態的快照"
+
+#: Modules/Queues.php:11
+msgid "Queues"
+msgstr "佇列"
+
+#: Modules/Queues.php:15
+msgid "Queues Info"
+msgstr "佇列資訊"
+
+#: Modules/Registries.php:12
+msgid "Registries"
+msgstr "註冊"
+
+#: Modules/Modules.php:36
+msgid "Remove Filter"
+msgstr "移除篩選器"
+
+#: asteriskinfo.i18n.php:6
+msgid "Reports"
+msgstr "報表"
+
+#: Modules/Channels.php:36
+msgid "Resource"
+msgstr "資源"
+
+#: Modules/Modules.php:36
+#: assets/js/asteriskinfo.js:133
+msgid "Running"
+msgstr "執行中"
+
+#: Modules/Fax.php:18
+msgid "Statistics"
+msgstr "統計"
+
+#: Modules/Channels.php:36
+#: Modules/Modules.php:36
+msgid "Status"
+msgstr "狀態"
+
+#: assets/js/asteriskinfo.js:102
+#: assets/js/asteriskinfo.js:147
+#, perl-format
+msgid "Status: %s"
+msgstr "狀態：%s"
+
+#: Modules/Subscriptions.php:15
+msgid "Subscribe/Notify"
+msgstr "訂閱／通知"
+
+#: Modules/Subscriptions.php:11
+msgid "Subscriptions"
+msgstr "訂閱"
+
+#: Modules/Modules.php:36
+msgid "Support Level"
+msgstr "支援層級"
+
+#: Modules/Channels.php:36
+msgid "Tech"
+msgstr "技術"
+
+#: Modules/ModuleBase.php:124
+msgid "The Asterisk REST Interface Module is not loaded in asterisk"
+msgstr "Asterisk REST 介面模組未載入 Asterisk"
+
+#: Modules/ModuleBase.php:132
+msgid "The Asterisk REST Interface is Currently Disabled."
+msgstr "Asterisk REST 介面目前已停用。"
+
+#: Modules/ModuleBase.php:144
+msgid ""
+"The Asterisk REST Interface is not able to connect please check "
+"configuration in advanced settings."
+msgstr "Asterisk REST 介面無法連線，請檢查進階設定中的組態。"
+
+#: views/page.asteriskinfo.php:12
+msgid "This page supplies various information about Asterisk"
+msgstr "此頁面提供關於 Asterisk 的各種資訊"
+
+#: assets/js/asteriskinfo.js:99
+msgid "Undefined"
+msgstr "未定義"
+
+#: Modules/Channels.php:36
+#: Modules/Modules.php:36
+#: assets/js/asteriskinfo.js:94
+#: assets/js/asteriskinfo.js:143
+msgid "Unknown"
+msgstr "未知"
+
+#: Modules/Modules.php:36
+msgid "Use Count"
+msgstr "使用次數"
+
+#: Modules/Fax.php:44
+msgid "Value"
+msgstr "值"
+
+#: Modules/Voicemail.php:11
+msgid "Voicemail"
+msgstr "語音信箱"
+
+#: Modules/Voicemail.php:15
+msgid "Voicemail Users"
+msgstr "語音信箱使用者"

@@ -1,0 +1,535 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for missedcall
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-18 07:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: page.missedcall.php:51
+#, php-format
+msgid ""
+"A missed call notification feature that alerts the user when a call has been "
+"made to their device / extension but was not answered. This feature "
+"typically sends an alert to the user via email, indicating that a call was "
+"missed and providing the caller's phone number or contact information. This "
+"feature is designed to help users quickly and easily return calls they may "
+"have missed."
+msgstr ""
+
+#: views/ucp_config.php:28
+msgid "Allow user to configure Missed Call Notifications in UCP"
+msgstr ""
+
+#: missedcall.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: assets/js/missedcall.js:158
+#, perl-format
+msgid "Are you sure you wish to %s missed call notification for this users?"
+msgstr ""
+
+#: assets/js/missedcall.js:66
+#, perl-format
+msgid "Are you sure you wish to disable missed call notification for %s users?"
+msgstr ""
+
+#: assets/js/missedcall.js:43
+#, perl-format
+msgid "Are you sure you wish to enable missed call notification for %s users?"
+msgstr ""
+
+#: views/form.php:162
+msgid "Back"
+msgstr ""
+
+#: ucp/Missedcall.class.php:255
+#, php-format
+msgid "Bad extension: '%s'!"
+msgstr ""
+
+#: views/missedcall.php:130
+msgid "Call from External"
+msgstr ""
+
+#: views/missedcall.php:101
+msgid "Call from Internal"
+msgstr ""
+
+#: views/missedcall.php:72
+msgid "Call from Queue"
+msgstr ""
+
+#: views/missedcall.php:42
+msgid "Call from Ring Group"
+msgstr ""
+
+#: ucp/views/widget.php:20
+msgid "Calls from Queues"
+msgstr ""
+
+#: ucp/views/widget.php:16
+msgid "Calls from Ring Groups"
+msgstr ""
+
+#: Missedcall.class.php:195
+msgid "Delete"
+msgstr ""
+
+#: views/grid.php:15
+msgid "Disable"
+msgstr ""
+
+#: ucp/views/widget.php:9
+#: ucp/views/widget.php:13
+#: ucp/views/widget.php:17
+#: ucp/views/widget.php:21
+msgid "Disabled"
+msgstr ""
+
+#: views/grid.php:33
+msgid "Email"
+msgstr ""
+
+#: page.missedcall.php:71
+msgid "Email Settings"
+msgstr ""
+
+#: Missedcall.class.php:1226
+msgid "Email body is required"
+msgstr ""
+
+#: Missedcall.class.php:1238
+msgid "Email settings saved successfully"
+msgstr ""
+
+#: Missedcall.class.php:1222
+msgid "Email subject is required"
+msgstr ""
+
+#: Missedcall.class.php:1216
+msgid "Email type is required"
+msgstr ""
+
+#: ucp/views/widget.php:4
+#: views/grid.php:12
+msgid "Enable"
+msgstr ""
+
+#: views/ucp_config.php:7
+msgid "Enable Missed Call"
+msgstr ""
+
+#: views/form.php:131
+msgid "Enable missed call notifications for missed calls from queues"
+msgstr ""
+
+#: views/form.php:156
+msgid "Enable missed call notifications for missed calls from ring groups"
+msgstr ""
+
+#: views/form.php:106
+msgid "Enable missed call notifications for missed external calls"
+msgstr ""
+
+#: views/form.php:81
+msgid "Enable missed call notifications for missed internal calls"
+msgstr ""
+
+#: views/missedcall.php:31
+msgid "Enable the Missed Call Notifications."
+msgstr ""
+
+#: ucp/views/widget.php:9
+#: ucp/views/widget.php:13
+#: ucp/views/widget.php:17
+#: ucp/views/widget.php:21
+#: views/grid.php:34
+#: views/missedcall.php:12
+#: views/rnav.php:25
+msgid "Enabled"
+msgstr ""
+
+#: assets/js/missedcall.js:50
+#: assets/js/missedcall.js:73
+#: assets/js/missedcall.js:267
+#: assets/js/missedcall.js:271
+msgid "Error"
+msgstr ""
+
+#: views/grid.php:32
+#: views/rnav.php:24
+msgid "Extension"
+msgstr ""
+
+#: page.missedcall.php:65
+msgid "Extensions"
+msgstr ""
+
+#: views/grid.php:38
+msgid "External"
+msgstr ""
+
+#: ucp/views/widget.php:12
+#: views/form.php:94
+msgid "External Calls"
+msgstr ""
+
+#: views/missedcall.php:149
+msgid "External call notification"
+msgstr ""
+
+#: page.missedcall.php:52
+msgid "For more information see: "
+msgstr ""
+
+#: Missedcall.class.php:1289
+msgid "Import/Export missedcall"
+msgstr ""
+
+#: views/missedcall.php:21
+#: views/missedcall.php:51
+#: views/missedcall.php:81
+#: views/missedcall.php:110
+#: views/missedcall.php:139
+#: views/ucp_config.php:18
+msgid "Inherit"
+msgstr ""
+
+#: views/grid.php:37
+msgid "Internal"
+msgstr ""
+
+#: ucp/views/widget.php:8
+#: views/form.php:69
+msgid "Internal Calls"
+msgstr ""
+
+#: views/missedcall.php:120
+msgid "Internal call notification"
+msgstr ""
+
+#: assets/js/missedcall.js:176
+msgid ""
+"Invalid CID Number. Must be in a format of digits only with an option of "
+"E164 format using a leading \"+\""
+msgstr ""
+
+#: assets/js/missedcall.js:173
+msgid "Invalid time specified"
+msgstr ""
+
+#: views/rnav.php:18
+msgid "List Notifications"
+msgstr ""
+
+#: Missedcall.class.php:1278
+msgid "Mail Body"
+msgstr ""
+
+#: Missedcall.class.php:1264
+msgid "Mail Subject"
+msgstr ""
+
+#: Missedcall.class.php:1253
+#: Missedcall.class.php:1254
+msgid "Mail Type"
+msgstr ""
+
+#: Missedcall.class.php:322
+#: Missedcall.class.php:334
+#: Missedcall.class.php:652
+#: ucp/Missedcall.class.php:56
+#: ucp/Missedcall.class.php:143
+msgid "Missed Call"
+msgstr ""
+
+#: Missedcall.class.php:136
+#: Missedcall.class.php:138
+#: missedcall.i18n.php:4
+#: missedcall.i18n.php:10
+#: page.missedcall.php:18
+#: views/default.php:2
+msgid "Missed Call Notification"
+msgstr ""
+
+#: missedcall.i18n.php:14
+msgid "Missed Call Notification Activate"
+msgstr ""
+
+#: missedcall.i18n.php:12
+msgid "Missed Call Notification Deactivate"
+msgstr ""
+
+#: missedcall.i18n.php:16
+msgid "Missed Call Notification Toggle"
+msgstr ""
+
+#: ucp/Missedcall.class.php:107
+msgid "Missed Call is not enabled for this user."
+msgstr ""
+
+#: ucp/Missedcall.class.php:69
+msgid "Missed call"
+msgstr ""
+
+#: assets/js/missedcall.js:73
+msgid "Missed call notification is already disabled"
+msgstr ""
+
+#: assets/js/missedcall.js:50
+msgid "Missed call notification is already enabled"
+msgstr ""
+
+#: views/form.php:32
+#: views/form.php:39
+#: views/form.php:46
+#: views/form.php:53
+#: views/missedcall.php:18
+#: views/missedcall.php:48
+#: views/missedcall.php:78
+#: views/missedcall.php:107
+#: views/missedcall.php:136
+#: views/rnav.php:13
+#: views/ucp_config.php:15
+#: assets/js/missedcall.js:44
+#: assets/js/missedcall.js:67
+#: assets/js/missedcall.js:159
+#: assets/js/missedcall.js:232
+msgid "No"
+msgstr ""
+
+#: page.missedcall.php:80
+#, php-format
+msgid ""
+"Note : Email address is mandatory to enable the missed call notification. If "
+"extension is not listed here then please edit extension settings in %s and "
+"update the email address"
+msgstr ""
+
+#: Missedcall.class.php:1303
+msgid "Notify external missedcall"
+msgstr ""
+
+#: Missedcall.class.php:1302
+msgid "Notify internal  missedcall"
+msgstr ""
+
+#: Missedcall.class.php:1300
+msgid "Notify queue missedcall"
+msgstr ""
+
+#: Missedcall.class.php:1301
+msgid "Notify ringgroup missedcall"
+msgstr ""
+
+#: ucp/views/widget.php:5
+msgid "Off"
+msgstr ""
+
+#: ucp/views/widget.php:5
+msgid "On"
+msgstr ""
+
+#: assets/js/missedcall.js:175
+msgid ""
+"Only ringall, ringallv2, hunt and the respective -prim versions are "
+"supported when confirmation is checked"
+msgstr ""
+
+#: assets/js/missedcall.js:172
+msgid "Please enter an extension list."
+msgstr ""
+
+#: views/grid.php:36
+msgid "Queue"
+msgstr ""
+
+#: views/form.php:119
+msgid "Queue Calls"
+msgstr ""
+
+#: views/missedcall.php:91
+msgid "Queue call notification"
+msgstr ""
+
+#: ucp/Missedcall.class.php:71
+msgid "Receive an email for any missed call."
+msgstr ""
+
+#: Missedcall.class.php:86
+msgid "Removing missedcall keys from the asterisk database"
+msgstr ""
+
+#: Missedcall.class.php:77
+msgid "Removing the database table"
+msgstr ""
+
+#: Missedcall.class.php:195
+msgid "Reset"
+msgstr ""
+
+#: views/grid.php:35
+msgid "Ring Group"
+msgstr ""
+
+#: views/form.php:144
+msgid "Ring Group Calls"
+msgstr ""
+
+#: views/missedcall.php:61
+msgid "Ringgroup call notification"
+msgstr ""
+
+#: page.missedcall.php:92
+msgid "Save Email Settings"
+msgstr ""
+
+#: ucp/Missedcall.class.php:253
+msgid "Saved"
+msgstr ""
+
+#: missedcall.i18n.php:8
+msgid "Send email notifications to users when a call is missed"
+msgstr ""
+
+#: Missedcall.class.php:82
+msgid "Something went wrong"
+msgstr ""
+
+#: Missedcall.class.php:195
+msgid "Submit"
+msgstr ""
+
+#: Missedcall.class.php:246
+#: Missedcall.class.php:251
+msgid "Success."
+msgstr ""
+
+#: Missedcall.class.php:80
+msgid "Table Deleted"
+msgstr ""
+
+#: Missedcall.class.php:1269
+msgid ""
+"Text to be used for the body of the Missed call notification email. Pre-"
+"defined variables are:"
+msgstr ""
+
+#: Missedcall.class.php:1259
+msgid ""
+"Text to be used for the subject of the Missed call notification email. Pre-"
+"defined variables are:"
+msgstr ""
+
+#: Missedcall.class.php:1297
+msgid "The user name of missedcall"
+msgstr ""
+
+#: Missedcall.class.php:217
+msgid ""
+"The user's email address is required. Because missed call notification is "
+"enabled. Please disable it and try again."
+msgstr ""
+
+#: views/grid.php:4
+msgid ""
+"There is no default email address is set. Please, go to: Advanced Settings - "
+"User Management Module section and enter an email address."
+msgstr ""
+
+#: assets/js/missedcall.js:271
+msgid "There was an error updating setting"
+msgstr ""
+
+#: ucp/Missedcall.class.php:114
+msgid "This user doesn't have a valid email address."
+msgstr ""
+
+#: assets/js/missedcall.js:174
+msgid "Time must be between 1 and 60 seconds"
+msgstr ""
+
+#: Missedcall.class.php:253
+msgid "Unknown Status."
+msgstr ""
+
+#: views/grid.php:31
+msgid "Username"
+msgstr ""
+
+#: page.missedcall.php:53
+#, php-format
+msgid "What is Missed Call Notification ?"
+msgstr ""
+
+#: views/form.php:30
+#: views/form.php:37
+#: views/form.php:44
+#: views/form.php:51
+#: views/missedcall.php:17
+#: views/missedcall.php:47
+#: views/missedcall.php:77
+#: views/missedcall.php:106
+#: views/missedcall.php:135
+#: views/rnav.php:11
+#: views/ucp_config.php:13
+#: assets/js/missedcall.js:44
+#: assets/js/missedcall.js:67
+#: assets/js/missedcall.js:159
+#: assets/js/missedcall.js:230
+msgid "Yes"
+msgstr ""
+
+#: Missedcall.class.php:1299
+msgid "enabled"
+msgstr ""
+
+#: Missedcall.class.php:1298
+msgid "extension"
+msgstr ""
+
+#: Missedcall.class.php:1298
+msgid "extension of user ,user will be identified using this extension"
+msgstr ""
+
+#: Missedcall.class.php:1303
+msgid "external"
+msgstr ""
+
+#: Missedcall.class.php:1302
+msgid "internal"
+msgstr ""
+
+#: Missedcall.class.php:1289
+msgid "missedcall"
+msgstr ""
+
+#: Missedcall.class.php:1299
+msgid "notification of missedcall"
+msgstr ""
+
+#: Missedcall.class.php:1300
+msgid "queue"
+msgstr ""
+
+#: Missedcall.class.php:1301
+msgid "ringgroup"
+msgstr ""
+
+#: Missedcall.class.php:1297
+msgid "username"
+msgstr ""

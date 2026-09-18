@@ -1,0 +1,308 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for bulkhandler
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-22 13:24-0400\n"
+"PO-Revision-Date: 2026-09-15 17:08+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Console/Bulkimport.class.php:36
+msgid ""
+"<error>The file provided did not process properly. Check the file "
+"formatting</error>"
+msgstr "<error>提供的檔案無法正確處理。請檢查檔案格式</error>"
+
+#: Console/Bulkimport.class.php:59
+msgid "<error>The import failed</error>"
+msgstr "<error>匯入失敗</error>"
+
+#: Console/Bulkimport.class.php:32
+msgid "<error>The specified file does not exist or we cannot read it</error>"
+msgstr "<error>指定的檔案不存在，或我們無法讀取它</error>"
+
+#: Console/Bulkimport.class.php:54
+msgid ""
+"<error>You must specify the file type of --type=dids or --type=extensions</"
+"error>"
+msgstr "<error>您必須指定檔案類型：--type=dids 或 --type=extensions</error>"
+
+#: views/direct_import.php:12
+#, php-format
+msgid "<strong>Success! </strong>%s Data Imported successfully."
+msgstr "<strong>成功！</strong> %s 資料已成功匯入。"
+
+#: Bulkhandler.class.php:157
+msgid "A PHP extension stopped the file upload"
+msgstr "PHP 擴充套件中止了檔案上傳"
+
+#: views/validate.php:49
+msgid "Actions"
+msgstr "動作"
+
+#: bulkhandler.i18n.php:6
+msgid "Admin"
+msgstr "管理員"
+
+#: Bulkhandler.class.php:318
+msgid "Already exists"
+msgstr "已存在"
+
+#: views/import.php:102
+msgid "Browse"
+msgstr "瀏覽"
+
+#: bulkhandler.i18n.php:4
+#: bulkhandler.i18n.php:10
+#: views/export.php:4
+#: views/import.php:4
+msgid "Bulk Handler"
+msgstr "大量處理器"
+
+#: bulkhandler.i18n.php:8
+msgid ""
+"Bulk Handler manages the bulk export or import of extensions, DIDs, user "
+"manager users, user manager groups, and contacts. You can export any of "
+"these as a CSV file. You can also upload a CSV file to save time versus "
+"having to enter each item individually. The module provides required/"
+"recommended headers for your CSV files."
+msgstr ""
+"大量處理器可管理分機、DID、使用者管理員的使用者、使用者管理員的群組與聯絡人的大量匯出或匯入。您可以將其中任何項目匯出為 CSV 檔案。您也可以上傳 CSV 檔案，省去逐一輸入每個項目的時間。此模組提供您 CSV 檔案所需的必要/建議標頭。"
+
+#: views/export.php:86
+#: views/import.php:98
+msgid "CSV File"
+msgstr "CSV 檔案"
+
+#: Bulkhandler.class.php:160
+msgid "Can Not Find Uploaded Files"
+msgstr "找不到上傳的檔案"
+
+#: Bulkhandler.class.php:499
+msgid "Cancel"
+msgstr "取消"
+
+#: Bulkhandler.class.php:115
+#, php-format
+msgid "Cant Create Temp Directory: %s"
+msgstr "無法建立暫存目錄：%s"
+
+#: Bulkhandler.class.php:130
+msgid "Cant find uploaded file"
+msgstr "找不到上傳的檔案"
+
+#: views/validate.php:83
+msgid "Close"
+msgstr "關閉"
+
+#: views/direct_import.php:6
+#: views/validate.php:16
+msgid "Complete"
+msgstr "完成"
+
+#: views/direct_import.php:3
+msgid "Data Importing"
+msgstr "資料匯入中"
+
+#: views/validate.php:13
+msgid "Data Validation"
+msgstr "資料驗證"
+
+#: views/validate.php:75
+msgid "Edit"
+msgstr "編輯"
+
+#: views/export.php:6
+#: views/export.php:89
+#: views/import.php:6
+msgid "Export"
+msgstr "匯出"
+
+#: views/export.php:96
+msgid "Export to CSV"
+msgstr "匯出為 CSV"
+
+#: Bulkhandler.class.php:154
+msgid "Failed to write file to disk"
+msgstr "無法將檔案寫入磁碟"
+
+#: views/import.php:111
+msgid "File to Import"
+msgstr "要匯入的檔案"
+
+#: Console/Bulkimport.class.php:19
+msgid "Filename"
+msgstr "檔名"
+
+#: views/direct_import.php:25
+msgid "Go Back"
+msgstr "返回"
+
+#: Bulkhandler.class.php:181
+msgid "Header row and data row count do not match"
+msgstr "標題列與資料列數量不符"
+
+#: views/validate.php:42
+msgid "ID"
+msgstr "ID"
+
+#: Bulkhandler.class.php:499
+#: views/export.php:7
+#: views/import.php:7
+msgid "Import"
+msgstr "匯入"
+
+#: Console/Bulkimport.class.php:12
+msgid ""
+"Import a file: fwconsole bulkimport --type=[extensions|dids] filename.csv --"
+"replace(Replace the existing values)"
+msgstr ""
+"匯入檔案：fwconsole bulkimport --type=[extensions|dids] filename.csv --replace（取代現有值）"
+
+#: Console/Bulkimport.class.php:14
+msgid ""
+"Import a file: fwconsole bulkimport --type=[extensions|dids|callaccounting] "
+"filename.csv --replace(Replace the existing values)"
+msgstr ""
+"匯入檔案：fwconsole bulkimport --type=[extensions|dids|callaccounting] filename.csv --replace（取代現有值）"
+
+#: assets/js/global.js:24
+msgid ""
+"Imported trunks will not be associated with any routes need to create/assign "
+"the routes manually after import"
+msgstr "匯入的中繼不會與任何路由建立關聯，匯入後需手動建立/指派路由。"
+
+#: Console/Bulkimport.class.php:50
+msgid "Importing CallDECK Ratepatterns"
+msgstr "正在匯入 CallDECK 費率樣式"
+
+#: Console/Bulkimport.class.php:42
+msgid "Importing bulk dids"
+msgstr "正在匯入大量 DID"
+
+#: Console/Bulkimport.class.php:46
+msgid "Importing bulk extensions"
+msgstr "正在匯入大量分機"
+
+#: Bulkhandler.class.php:151
+msgid "Missing a temporary folder"
+msgstr "缺少暫存資料夾"
+
+#: views/validate.php:26
+msgid "No"
+msgstr "否"
+
+#: views/export.php:10
+msgid "No Bulk Exporters have been defined"
+msgstr "尚未定義大量匯出器"
+
+#: views/import.php:10
+msgid "No Bulk Importers have been defined"
+msgstr "尚未定義大量匯入器"
+
+#: Bulkhandler.class.php:148
+msgid "No file was uploaded"
+msgstr "未上傳任何檔案"
+
+#: assets/js/global.js:37
+msgid "Not file specified"
+msgstr "未指定檔案"
+
+#: assets/js/global.js:42
+msgid "Only CSV files are supported"
+msgstr "僅支援 CSV 檔案"
+
+#: views/validate.php:21
+msgid "Replace/Update existing data"
+msgstr "取代/更新現有資料"
+
+#: views/import.php:141
+msgid ""
+"Required headers(*) are the minimum headers you must supply to be able to "
+"import. For a full list of all supported headers export out a CSV file from "
+"the export display"
+msgstr "必要標頭(*)是您要匯入時必須提供的最低標頭。若要查看所有支援標頭的完整清單，請從匯出畫面匯出 CSV 檔案"
+
+#: views/import.php:121
+msgid "Required(*)/Recommended Headers"
+msgstr "必要(*)/建議標頭"
+
+#: assets/js/global.js:31
+msgid ""
+"Route configuration is not exported need to create the routes manually while "
+"importing the trunks."
+msgstr "路由組態不會匯出，匯入中繼時需手動建立路由。"
+
+#: views/validate.php:84
+msgid "Save changes"
+msgstr "儲存變更"
+
+#: views/import.php:151
+msgid "Submit"
+msgstr "送出"
+
+#: Bulkhandler.class.php:142
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令"
+
+#: Bulkhandler.class.php:139
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令"
+
+#: Bulkhandler.class.php:145
+msgid "The uploaded file was only partially uploaded"
+msgstr "上傳的檔案僅部分上傳"
+
+#: assets/js/global.js:77
+msgid "There is nothing to import!"
+msgstr "沒有可匯入的資料！"
+
+#: Console/Bulkimport.class.php:18
+msgid "This command is used to import extensions and dids"
+msgstr "此命令用於匯入分機與 DID"
+
+#: Console/Bulkimport.class.php:19
+msgid "To replace existing values"
+msgstr "取代現有值"
+
+#: Bulkhandler.class.php:203
+#, php-format
+msgid "Too many extensions to import. The limit is: %d physical extensions."
+msgstr "要匯入的分機過多。限制為：%d 個實體分機。"
+
+#: Console/Bulkimport.class.php:19
+msgid "Type of file"
+msgstr "檔案類型"
+
+#: Bulkhandler.class.php:208
+msgid "Unable to parse file"
+msgstr "無法解析檔案"
+
+#: Bulkhandler.class.php:134
+#: Bulkhandler.class.php:189
+msgid "Unsupported file format"
+msgstr "不支援的檔案格式"
+
+#: views/export.php:23
+#: views/import.php:26
+#, php-format
+msgid "What are \"%s\"?"
+msgstr "「%s」是什麼？"
+
+#: views/validate.php:24
+msgid "Yes"
+msgstr "是"

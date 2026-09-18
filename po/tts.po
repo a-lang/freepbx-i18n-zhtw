@@ -1,0 +1,138 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for tts
+# Copyright (C) 2008-2026 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-24 07:14-0400\n"
+"PO-Revision-Date: 2026-09-15 17:51+0800\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: functions.inc.php:18
+#: page.tts.php:36
+msgid "AGI script not found"
+msgstr "找不到 AGI 指令"
+
+#: views/grid.php:10
+msgid "Actions"
+msgstr "動作"
+
+#: views/grid.php:2 /usr/src/freepbx/tts/views/rnav.php:2
+msgid "Add TTS"
+msgstr "新增 TTS"
+
+#: views/tts.php:134
+msgid "After the Text to Speech was played go to"
+msgstr "文字轉語音播放後前往"
+
+#: tts.i18n.php:8
+msgid ""
+"Allows you to configure text to speech, and is derived from texttospeech "
+"provided in contributed modules."
+msgstr "讓您可以設定文字轉語音，衍生自提供的 texttospeech 模組。"
+
+#: tts.i18n.php:6
+msgid "Applications"
+msgstr "應用程式"
+
+#: views/tts.php:79
+msgid "Choose an Engine"
+msgstr "選擇引擎"
+
+#: Tts.class.php:160
+msgid "Delete"
+msgstr "刪除"
+
+#: views/tts.php:116
+msgid "Destintation"
+msgstr "目的地"
+
+#: views/grid.php:9
+msgid "Engine"
+msgstr "引擎"
+
+#: views/tts.php:64
+msgid "Enter the text you want to synthetize."
+msgstr "輸入您想要合成語音的文字。"
+
+#: views/tts.php:42
+msgid "Give this TTS Destination a brief name to help you identify it"
+msgstr "為這個 TTS 目的地取一個簡短名稱以協助您識別"
+
+#: views/rnav.php:3
+msgid "List TTS"
+msgstr "列出 TTS"
+
+#: views/tts.php:106
+msgid ""
+"List of TTS engine detected on the server. Choose the one you want to use "
+"for the current sentence."
+msgstr "伺服器上偵測到的 TTS 引擎列表。選擇您目前句子要使用的引擎。"
+
+#: views/tts.php:24
+msgid "Main settings"
+msgstr "主要設定"
+
+#: views/grid.php:7 /usr/src/freepbx/tts/views/tts.php:32
+msgid "Name"
+msgstr "名稱"
+
+#: views/no-ttsengines.php:3
+#, php-format
+msgid ""
+"Please install the TTS Engines module via %s or run `fwconsole ma install "
+"ttsengines` from the CLI`"
+msgstr "請透過 %s 安裝 TTS Engines 模組，或從 CLI 執行 `fwconsole ma install ttsengines`"
+
+#: Tts.class.php:165
+msgid "Reset"
+msgstr "重置"
+
+#: Tts.class.php:170
+msgid "Submit"
+msgstr "送出"
+
+#: views/rnav.php:8
+msgid "TTS"
+msgstr "TTS"
+
+#: uninstall.php:14
+msgid "TTS AGI script cannot be removed."
+msgstr "TTS AGI 指令無法移除。"
+
+#: views/tts.php:71
+msgid "TTS Engines"
+msgstr "TTS 引擎"
+
+#: views/no-ttsengines.php:5
+msgid "TTS Engines Not Installed"
+msgstr "TTS 引擎未安裝"
+
+#: views/grid.php:8 /usr/src/freepbx/tts/views/tts.php:52
+msgid "Text"
+msgstr "文字"
+
+#: tts.i18n.php:4 /usr/src/freepbx/tts/tts.i18n.php:10
+#: views/tts.php:8
+msgid "Text To Speech"
+msgstr "文字轉語音"
+
+#: functions.inc.php:46
+#, php-format
+msgid "Text to Speech: %s"
+msgstr "文字轉語音：%s"
+
+#: Tts.class.php:73
+msgid "This name already exists"
+msgstr "此名稱已存在"

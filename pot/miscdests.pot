@@ -1,0 +1,134 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for miscdests
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 04:28-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: views/grid.php:13
+msgid "Actions"
+msgstr ""
+
+#: page.miscdests.php:19
+#: views/bootnav.php:3
+#: views/grid.php:8
+msgid "Add Misc Destination"
+msgstr ""
+
+#: miscdests.i18n.php:8
+msgid ""
+"Allows creating destinations that dial any local number (extensions, feature "
+"codes, outside phone numbers) that can be used by other modules (eg, IVR, "
+"time conditions) as a call destination."
+msgstr ""
+
+#: miscdests.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: Miscdests.class.php:74
+msgid "Delete"
+msgstr ""
+
+#: views/form.php:23
+msgid "Description:"
+msgstr ""
+
+#: views/grid.php:12
+msgid "Destination"
+msgstr ""
+
+#: views/form.php:45
+msgid "Dial:"
+msgstr ""
+
+#: page.miscdests.php:16
+msgid "Edit Misc Destination"
+msgstr ""
+
+#: views/form.php:57
+msgid ""
+"Enter the number this destination will simulate dialing, exactly as you "
+"would dial it from an internal phone. When you route a call to this "
+"destination, it will be as if the caller dialed this number from an internal "
+"phone."
+msgstr ""
+
+#: views/bootnav.php:8
+msgid "Extension"
+msgstr ""
+
+#: views/form.php:35
+msgid "Give this Misc Destination a brief name to help you identify it."
+msgstr ""
+
+#: page.miscdests.php:9
+msgid ""
+"If you need access to a Feature Code, such as *98 to dial voicemail or a "
+"Time Condition toggle, these destinations are now provided as Feature Code "
+"Admin destinations. For upgrade compatibility, if you previously had "
+"configured such a destination, it will still work but the Feature Code short "
+"cuts select list is not longer provided.<br/><br/>"
+msgstr ""
+
+#: views/bootnav.php:2
+msgid "List Misc Destinations"
+msgstr ""
+
+#: assets/js/miscdests.js:13
+msgid "Misc Destination already exists"
+msgstr ""
+
+#: Miscdests.class.php:127
+#: functions.inc.php:38
+#, php-format
+msgid "Misc Destination: %s"
+msgstr ""
+
+#: miscdests.i18n.php:4
+#: miscdests.i18n.php:10
+#: page.miscdests.php:8
+msgid "Misc Destinations"
+msgstr ""
+
+#: page.miscdests.php:9
+msgid ""
+"Misc Destinations are for adding destinations that can be used by other "
+"FreePBX modules, generally used to route incoming calls. If you want to "
+"create feature codes that can be dialed by internal users and go to various "
+"destinations, please see the <strong>Misc Applications</strong> module."
+msgstr ""
+
+#: assets/js/miscdests.js:11
+msgid "Please enter a valid Description"
+msgstr ""
+
+#: assets/js/miscdests.js:12
+msgid "Please enter a valid Dial string"
+msgstr ""
+
+#: Miscdests.class.php:79
+msgid "Reset"
+msgstr ""
+
+#: Miscdests.class.php:84
+msgid "Submit"
+msgstr ""
+
+#: assets/js/miscdests.js:59
+msgid ""
+"This destination is in use. Deleting it may cause things to not work properly"
+msgstr ""
