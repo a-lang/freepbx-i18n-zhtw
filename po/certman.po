@@ -50,7 +50,7 @@ msgstr ""
 msgid ""
 "%sResponsive LetsEncrypt Rules%s are not enabled. Enabling %sResponsive "
 "LetsEncrypt Rules%s is recommended."
-msgstr "未啟用 %s回應式 LetsEncrypt 規則%s。建議啟用 %s回應式 LetsEncrypt 規則%s。"
+msgstr "未啟用 %sResponsive LetsEncrypt 規則%s。建議啟用 %sResponsive LetsEncrypt 規則%s。"
 
 #: Console/Certman.class.php:205
 #: Console/Certman.class.php:225
@@ -81,7 +81,7 @@ msgid ""
 "web interface at <info>Connectivity->Firewall->Advanced->Advanced Settings</"
 ">."
 msgstr ""
-"<options=bold>回應式 LetsEncrypt 規則</>未啟用。建議啟用 <options=bold>回應式 LetsEncrypt 規則</>。使用命令列 '<info>fwconsole firewall lerules enable</>' 或在網頁介面的 <info>連線能力->防火牆->進階->進階設定</info> 中啟用。"
+"<options=bold>Responsive LetsEncrypt 規則</>未啟用。建議啟用 <options=bold>Responsive LetsEncrypt 規則</>。使用命令列 '<info>fwconsole firewall lerules enable</>' 或在網頁介面的 <info>連線能力->防火牆->進階->進階設定</> 中啟用。"
 
 #: views/ca.php:5
 msgid ""
@@ -589,7 +589,7 @@ msgstr "主機名稱"
 msgid ""
 "Hover over the 'Default' column and click to make a certificate the system "
 "default"
-msgstr "將滑鼠游標暫留在「預設」行上並點擊，將憑證設為系統預設值"
+msgstr "將滑鼠游標暫留在「預設」行上並點選，將憑證設為系統預設值"
 
 #: views/ss.php:74
 #: views/up.php:64
@@ -605,7 +605,7 @@ msgid ""
 "If security is managed by the PBX Firewall module, this process should be "
 "automatic. Alternate security methods and external firewalls will require "
 "manual configuration."
-msgstr "若安全性由 PBX 防火牆模組管理，此程序應為自動的。替代的安全性方法與外部防火牆將需要手動設定。"
+msgstr "若安全性由 PBX 防火牆模組管理，此流程應為自動的。替代的安全性方法與外部防火牆將需要手動設定。"
 
 #: Api/Gql/Certman.php:198
 #: views/up.php:196
@@ -641,7 +641,7 @@ msgid ""
 msgstr ""
 "未啟用 LetsEncrypt 服務的網際網路區域存取，請確定可透過通訊埠 80 公用存取該服務。\n"
 "\n"
-"使用 <options=bold>回應式 LetsEncrypt 規則</>（建議）或在網頁介面的 <info>連線能力->防火牆->服務</info> 中啟用 LetsEncrypt 服務的網際網路區域存取。"
+"使用 <options=bold>Responsive LetsEncrypt 規則</>（建議）或在網頁介面的 <info>連線能力->防火牆->服務</info> 中啟用 LetsEncrypt 服務的網際網路區域存取。"
 
 #: FirewallAPI.class.php:121
 #, php-format
@@ -651,7 +651,7 @@ msgid ""
 "LetsEncrypt Rules%s (recommended) or manually enable LetsEncrypt Service "
 "Internet Zone access at %sConnectivity->Firewall->Services%s."
 msgstr ""
-"未啟用 LetsEncrypt 服務的網際網路區域存取，請確定可透過通訊埠 80 公用存取該服務。啟用 %s回應式 LetsEncrypt 規則%s（建議）或在 %s連線能力->防火牆->服務%s 中手動啟用 LetsEncrypt 服務的網際網路區域存取。"
+"未啟用 LetsEncrypt 服務的網際網路區域存取，請確定可透過通訊埠 80 公用存取該服務。啟用 %sResponsive LetsEncrypt 規則%s（建議）或在 %s連線能力->防火牆->服務%s 中手動啟用 LetsEncrypt 服務的網際網路區域存取。"
 
 #: functions.inc/hook_core.php:162
 msgid ""

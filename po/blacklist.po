@@ -286,7 +286,7 @@ msgstr "必須填寫電話號碼"
 msgid ""
 "Please provide the valid `destination` value, for example extension (100) :"
 "`from-did-direct,100,1`"
-msgstr "請提供有效的 `destination` 值，例如分機 (100)：`from-did-direct,100,1`"
+msgstr "請提供有效的 `destination` 值，例如分機（100）：`from-did-direct,100,1`"
 
 #: Api/Gql/Blacklist.php:73
 #: Blacklist.class.php:28

@@ -135,7 +135,7 @@ msgstr "刪除"
 #: views/customextens/grid.php:8
 #: views/customextens/rnav.php:9
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: views/customdests/form.php:199
 msgid "Destination"
@@ -224,7 +224,7 @@ msgstr "重設"
 
 #: views/customdests/form.php:172
 msgid "Return"
-msgstr "Return"
+msgstr "返回"
 
 #: views/customdests/form.php:211
 msgid "Set the Destination after return"
@@ -232,7 +232,7 @@ msgstr "設定 Return 後的目的地"
 
 #: Customappsreg.class.php:303
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/customdests/form.php:66
 msgid "Target"

@@ -51,7 +51,7 @@ msgstr "新增一筆條目至 Asterisk REST 介面使用者"
 
 #: assets/js/arimanager.js:213
 msgid "Adding..."
-msgstr "正在新增..."
+msgstr "新增中…"
 
 #: Arimanager.class.php:490
 msgid "Alert about ARI Username/Password"
@@ -140,7 +140,7 @@ msgstr "無法更新，因為它不存在！"
 
 #: views/page.apps.php:25
 msgid "Channel Count"
-msgstr "通道計數"
+msgstr "通道數"
 
 #: assets/js/arimanager.js:260
 msgid "Channels:"
@@ -216,7 +216,7 @@ msgstr "端點："
 #: Arimanager.class.php:571
 #, php-format
 msgid "Error (%s): %s"
-msgstr "錯誤 (%s)：%s"
+msgstr "錯誤（%s）：%s"
 
 #: Arimanager.class.php:565
 msgid "Error 404!"
@@ -257,7 +257,7 @@ msgstr "未偵測到 ID！"
 
 #: views/view.grid.form.php:11
 msgid "Loading..."
-msgstr "正在載入..."
+msgstr "載入中…"
 
 #: views/view.grid.form.php:107
 #: assets/js/arimanager.js:40
@@ -291,7 +291,7 @@ msgstr "ARI 管理員/密碼中有不支援的字元"
 #: Arimanager.class.php:96
 #, php-format
 msgid "Page Not Found (%s)!!!!"
-msgstr "找不到頁面 (%s)!!!!"
+msgstr "找不到頁面（%s）！！！！"
 
 #: views/view.grid.form.php:72
 msgid "Password Type"
@@ -349,7 +349,7 @@ msgstr "設定"
 
 #: Arimanager.class.php:545
 msgid "The Asterisk REST Interface Module is not loaded in asterisk"
-msgstr "Asterisk 未載入 Asterisk REST 介面模組"
+msgstr "Asterisk REST 介面模組未載入於 Asterisk"
 
 #: views/page.main.php:15
 msgid "The Asterisk REST Interface is Currently Disabled in Advanced Settings"
@@ -366,7 +366,7 @@ msgstr "Asterisk mini-HTTP 伺服器目前在進階設定中已停用"
 
 #: Api/Gql/AriManagerUser.php:147
 msgid "The ID"
-msgstr "該 ID"
+msgstr "ID"
 
 #: Arimanager.class.php:445
 msgid "The User does not exist!"
@@ -399,7 +399,7 @@ msgstr "更新成功"
 
 #: assets/js/arimanager.js:213
 msgid "Updating..."
-msgstr "正在更新..."
+msgstr "正在更新…"
 
 #: Arimanager.class.php:320
 msgid "User Already Exists!"

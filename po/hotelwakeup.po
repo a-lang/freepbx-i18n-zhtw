@@ -565,7 +565,7 @@ msgstr "貪睡叫醒電話"
 
 #: views/view.settings.message.list.php:3
 msgid "Sound Languages"
-msgstr "語音語言"
+msgstr "音效語言"
 
 #: views/view.wakeup.grid.create.php:98
 msgid "Specific Weekdays"
@@ -759,4 +759,4 @@ msgstr "是"
 msgid ""
 "You have no sound packages installed in the %s module. Please install at "
 "least one language to use System Recordings"
-msgstr "您在 %s 模組中未安裝任何語音套件。請至少安裝一個語言，才能使用系統語音"
+msgstr "您未在 %s 模組中安裝任何音效套件。請至少安裝一種語言才能使用系統錄音"

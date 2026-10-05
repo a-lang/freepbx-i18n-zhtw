@@ -60,12 +60,12 @@ msgstr "電子郵件地址"
 #: page.digium_phones.php:723
 #, php-format
 msgid "Error opening %s for reading"
-msgstr "開啟 %s 供讀取時發生錯誤"
+msgstr "開啟 %s 以供讀取時發生錯誤"
 
 #: page.digium_phones.php:727
 #, php-format
 msgid "Error opening %s for writing"
-msgstr "開啟 %s 供寫入時發生錯誤"
+msgstr "開啟 %s 以供寫入時發生錯誤"
 
 #: views/rnav.php:40
 msgid "External Lines"

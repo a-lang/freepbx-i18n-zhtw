@@ -97,7 +97,7 @@ msgstr "號碼或位址不完整"
 
 #: Outroutemsg.class.php:19
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: functions.inc.php:106
 #: outroutemsg.i18n.php:4
@@ -116,7 +116,7 @@ msgstr "標準路由"
 
 #: Outroutemsg.class.php:24
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: page.outroutemsg.php:58
 msgid "Trunk Failures"

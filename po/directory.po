@@ -275,7 +275,7 @@ msgstr "收到撥叫者的無效/不符回應時，要重試的次數。"
 msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
-msgstr "覆寫鈴聲音量。注意：目前僅適用於 %s 電話機"
+msgstr "覆寫響鈴音量。注意：目前僅適用於 %s 電話"
 
 #: functions.inc.php:50
 #: views/form.php:122
@@ -299,7 +299,7 @@ msgstr "當收到無效/不符回應，在提示撥叫者重試之前要播放�
 
 #: Directory.class.php:254
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: functions.inc.php:72
 #: views/form.php:344
@@ -308,7 +308,7 @@ msgstr "返回 IVR"
 
 #: views/form.php:163
 msgid "Ringer Volume Override"
-msgstr "鈴聲音量覆寫"
+msgstr "響鈴音量覆寫"
 
 #: assets/js/directory.js:110
 msgid "Select"
@@ -320,7 +320,7 @@ msgstr "拼出名稱"
 
 #: Directory.class.php:254
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: functions.inc.php:298
 msgid "System Recordings:"

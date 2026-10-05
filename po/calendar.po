@@ -503,7 +503,7 @@ msgstr "事件的易記名稱"
 
 #: assets/js/calendar/calendar.js:14
 msgid "Generating..."
-msgstr "正在產生…"
+msgstr "產生中…"
 
 #: views/outlook_config_form.php:177
 msgid "Get OAUTH2 Token for the Outlook API"
@@ -862,7 +862,7 @@ msgstr "正在開始同步…"
 #: Calendar.class.php:937
 #: views/calendar.php:545
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: Console/Calendar.class.php:247
 msgid "Successfully imported calendar"

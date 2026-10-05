@@ -21,7 +21,7 @@ msgstr ""
 
 #: Recordings.class.php:568
 msgid "A PHP extension stopped the file upload"
-msgstr "一個 PHP 擴充套件停止了檔案上傳"
+msgstr "PHP 擴充套件停止了檔案上傳"
 
 #: assets/js/recordings.js:6
 msgid ""
@@ -223,7 +223,7 @@ msgstr "驅動程式 %s 不存在！"
 
 #: views/form.php:139
 msgid "Drop Multiple Files or Archives Here"
-msgstr "拖曳多個檔案或壓縮檔至此處"
+msgstr "在此拖放多個檔案或壓縮檔"
 
 #: views/form-Elevenlabs.php:128
 #: views/form-OpenAI.php:83
@@ -312,7 +312,7 @@ msgstr "無法轉換檔案"
 
 #: Recordings.class.php:565
 msgid "Failed to write file to disk"
-msgstr "無法寫入檔案到磁碟"
+msgstr "寫入檔案至磁碟失敗"
 
 #: views/form.php:350
 msgid "Feature Code Password"
@@ -359,7 +359,7 @@ msgstr "檔案名稱"
 #: assets/js/recordings.js:574
 #, perl-format
 msgid "File size is too large. Max size is %s bytes"
-msgstr "檔案過大。最大大小為 %s 位元組"
+msgstr "檔案大小過大。最大大小為 %s 位元組"
 
 #: Api/Gql/Recordings.php:63
 #, php-format
@@ -382,11 +382,11 @@ msgstr "產生您的音訊檔案。"
 
 #: assets/js/ttsai.js:63
 msgid "Generating..."
-msgstr "產生中..."
+msgstr "產生中…"
 
 #: views/form.php:188
 msgid "Hit the red record button to start recording from your browser"
-msgstr "點擊紅色錄音按鈕，從您的瀏覽器開始錄音"
+msgstr "點選紅色錄音按鈕，從您的瀏覽器開始錄音"
 
 #: views/form-Elevenlabs.php:29
 #: views/form-OpenAI.php:29
@@ -470,7 +470,7 @@ msgstr "系統錄音的清單"
 
 #: Api/Gql/Recordings.php:179
 msgid "Message for the request"
-msgstr "要求的訊息"
+msgstr "請求的訊息"
 
 #: views/form-Elevenlabs.php:67
 msgid "Min: 0, max: 1, step: 0.1. Influences speed. Default value: 0.5."
@@ -657,7 +657,7 @@ msgstr "已存在相同檔案 %s"
 #: views/form.php:206
 #: views/form.php:245
 msgid "Save"
-msgstr "存檔"
+msgstr "儲存"
 
 #: views/form-apikey.php:30
 msgid "Save API Key"
@@ -736,7 +736,7 @@ msgid ""
 "then you need to install Spanish language in Sound languages module and "
 "select Spanish language from the drop-down above."
 msgstr ""
-"可排序的檔案清單/播放順序。播放將從上到下列出。您可以點擊播放圖示來預覽檔案。若檔案為紅色，表示缺少該選取語言的檔案。您可以點擊檔案一次（將變為綠色）來進入取代模式。您上傳的任何內容都會在存檔時取代該檔案。英文是預設語言。若您使用 Scribe TTS 功能搭配西班牙文，則需要在音效語言模組中安裝西班牙文，並從上方的下拉式選單中選取西班牙文。"
+"可排序的檔案清單/播放順序。播放將從上到下列出。您可以點選播放圖示來預覽檔案。若檔案為紅色，表示缺少該選取語言的檔案。您可以點選檔案一次（將變為綠色）來進入取代模式。您上傳的任何內容都會在存檔時取代該檔案。英文是預設語言。若您使用 Scribe TTS 功能搭配西班牙文，則需要在音效語言模組中安裝西班牙文，並從上方的下拉式選單中選取西班牙文。"
 
 #: views/form.php:5
 #: views/grid.php:2
@@ -749,7 +749,7 @@ msgstr "穩定性"
 
 #: Api/Gql/Recordings.php:183
 msgid "Status for the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: Recordings.class.php:167
 msgid "Submit"
@@ -812,11 +812,11 @@ msgstr "文字不能為空。"
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指示"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
 
 #: Recordings.class.php:550
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指示"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: Recordings.class.php:556
 msgid "The uploaded file was only partially uploaded"
@@ -842,7 +842,7 @@ msgstr "這將起始 WebRTC 請求，讓您可以從瀏覽器中的電腦進行�
 msgid ""
 "To play the media you will need to either update your browser to a recent "
 "version or update your %s"
-msgstr "若要播放媒體，您需要將瀏覽器更新為最新版本，或更新您的 %s"
+msgstr "若要播放媒體，您需要將瀏覽器更新至最新版本，或更新您的 %s"
 
 #: Recordings.class.php:330
 msgid ""
@@ -907,14 +907,14 @@ msgstr "您正在進入取代模式。您新增的下一個檔案將在此錄音
 msgid ""
 "You can click any file above to replace it with a recording option below. "
 "Clicking a file will turn it green putting it into replace mode"
-msgstr "您可以點擊上述任何檔案，以下方的錄音選項取代。點擊檔案會將其變為綠色，進入取代模式"
+msgstr "您可以點選上述任何檔案，以下方的錄音選項取代。點選檔案會將其變為綠色，進入取代模式"
 
 #: views/form.php:108
 msgid ""
 "You have a missing file for this language. Click any red recording above to "
 "replace it with a recording/upload below. It will then turn green. Once you "
 "have finished uploading/recording the recording will turn grey"
-msgstr "您缺少此語言的檔案。點擊上述任何紅色錄音，以下方的錄音/上傳取代。它將變為綠色。一旦您完成上傳/錄音，錄音將變為灰色"
+msgstr "您缺少此語言的檔案。點選上述任何紅色錄音，以下方的錄音/上傳取代。它將變為綠色。一旦您完成上傳/錄音，錄音將變為灰色"
 
 #: views/grid.php:2
 #, php-format

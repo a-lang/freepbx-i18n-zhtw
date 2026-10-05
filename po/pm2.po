@@ -28,7 +28,7 @@ msgstr "管理員"
 msgid ""
 "Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
 "Aborting"
-msgstr "Asterisk 家目錄 (%s) 不存在，且 ASTSPOOLDIR 不存在。正在中止"
+msgstr "Asterisk 家目錄（%s）不存在，且 ASTSPOOLDIR 也不存在。中止執行"
 
 #: Console/Pm2.class.php:36
 msgid "CPU"
@@ -40,7 +40,7 @@ msgstr "刪除處理程序"
 
 #: Pm2.class.php:138
 msgid "Finished updating libraries!"
-msgstr "已完成更新程式庫！"
+msgstr "完成更新程式庫！"
 
 #: Pm2.class.php:54 /usr/src/freepbx/pm2/Pm2.class.php:64
 #, php-format
@@ -53,7 +53,7 @@ msgstr "要串流多少行"
 
 #: Pm2.class.php:123
 msgid "Installing/Updating Required Libraries. This may take a while..."
-msgstr "正在安裝／更新所需的程式庫。這可能需要一段時間..."
+msgstr "正在安裝/更新所需的程式庫。這可能需要一些時間..."
 
 #: Api/Gql/Pm2.php:30
 msgid "Kindly follow the pm2 apps and their status"
@@ -78,7 +78,7 @@ msgstr "應用程式使用的記憶體"
 #: Api/Gql/Pm2.php:65
 #: Api/Gql/Pm2.php:132
 msgid "Message for the request"
-msgstr "要求的訊息"
+msgstr "請求的訊息"
 
 #: Pm2.class.php:46
 #, php-format
@@ -154,7 +154,7 @@ msgstr "狀態"
 
 #: Api/Gql/Pm2.php:136
 msgid "Status for the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: Api/Gql/Pm2.php:84
 msgid "Status of the app"
@@ -162,7 +162,7 @@ msgstr "應用程式的狀態"
 
 #: Api/Gql/Pm2.php:61
 msgid "Status of the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: Console/Pm2.class.php:23
 msgid "Stop Process"

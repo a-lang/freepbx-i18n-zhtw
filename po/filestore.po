@@ -66,7 +66,7 @@ msgstr "動作"
 
 #: drivers/FTP/views/form.php:237
 msgid "Active"
-msgstr "啟用"
+msgstr "啟用中"
 
 #: drivers/Dropbox/views/grid.php:2
 msgid "Add Dropbox Account"
@@ -161,7 +161,7 @@ msgstr "刪除現有的 FTP 執行個體"
 #: drivers/SSH/views/form.php:79
 #: drivers/SSH/views/grid.php:21
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: Api/Gql/Filestore.php:468
 msgid "Description for this conncetion."
@@ -417,7 +417,7 @@ msgstr "最大電子郵件大小"
 #: Api/Gql/Filestore.php:384
 #: Api/Gql/Filestore.php:405
 msgid "Message for the request"
-msgstr "要求的訊息"
+msgstr "請求的訊息"
 
 #: drivers/Email/views/grid.php:20
 #: drivers/FTP/views/grid.php:20
@@ -506,7 +506,7 @@ msgstr "路徑支援參數替代，例如下列範例"
 #: drivers/FTP/views/form.php:95
 #: drivers/SSH/views/form.php:133
 msgid "Port"
-msgstr "通訊埠"
+msgstr "連接埠"
 
 #: drivers/Local/views/form.php:72
 msgid "Provide the name for this File Store"
@@ -612,11 +612,11 @@ msgstr "很抱歉，無法處理您的刪除要求"
 
 #: Api/Gql/Filestore.php:409
 msgid "Status for the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: Api/Gql/Filestore.php:380
 msgid "Status of the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: drivers/S3/views/form.php:158
 msgid "Storage Class"
@@ -624,7 +624,7 @@ msgstr "儲存空間類別"
 
 #: drivers/DriverBase.php:99
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: Api/Gql/Filestore.php:65
 msgid "Successfully deleted FTP instance"

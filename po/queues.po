@@ -101,7 +101,7 @@ msgstr "客服人員逾時重新啟動"
 
 #: views/form.php:873
 msgid "Alert Info"
-msgstr "警示資訊"
+msgstr "Alert Info"
 
 #: install.php:15
 msgid ""
@@ -230,7 +230,7 @@ msgstr "中斷類型"
 
 #: views/form.php:821
 msgid "CID Name Prefix"
-msgstr "來電顯示名稱字首"
+msgstr "CID 名稱前置碼"
 
 #: views/form.php:793
 msgid "Call Confirm"
@@ -338,7 +338,7 @@ msgstr "判斷是否允許新來電者進入佇列，若不行，將立即執行
 #: views/form.php:19
 #: views/form.php:1126
 msgid "Don't Care"
-msgstr "不理會"
+msgstr "不在意"
 
 #: views/form.php:1236
 msgid "Dynamic Agents"
@@ -1231,7 +1231,7 @@ msgid ""
 "Whether this queue uses an IVR Break Out Menu or a Queue Callback.  Queue "
 "Callbacks can also be achieved through an IVR, but requires extra "
 "configuration."
-msgstr "此佇列是使用 IVR 中斷選單還是佇列回撥。佇列回撥也可以透過 IVR 實現，但需要額外的設定。"
+msgstr "此佇列是使用 IVR 中斷選單還是佇列回撥。佇列回撥也可以透過 IVR 實作，但需要額外的設定。"
 
 #: views/form.php:937
 #, php-format

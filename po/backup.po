@@ -28,7 +28,7 @@ msgid ""
 "directory path. Or move the backup file to the '/home/asterisk' path."
 msgstr ""
 "\n"
-" 無法讀取檔案 %s。FreePBX 還原程序以 asterisk 使用者執行，請確保「asterisk」使用者有權限讀取檔案/目錄路徑。或將備份檔移到「/home/asterisk」路徑。"
+" 無法讀取檔案 %s。FreePBX 還原流程以 asterisk 使用者執行，請確保「asterisk」使用者有權限讀取檔案/目錄路徑。或將備份檔移到「/home/asterisk」路徑。"
 
 #: RestoreBase.php:264
 #, php-format
@@ -44,7 +44,7 @@ msgid ""
 "Alternatively, you can cancel the restore process and downgrade the Asterisk "
 "version first, then attempt to restore your backup."
 msgstr ""
-" 此備份檔包含舊版 chan_sip 分機或中繼，這些與 Asterisk 21 不相容。您可以選擇繼續，此時這些舊版分機或中繼將轉換為 PJSIP。或者，您可以取消還原程序並先降級 Asterisk 版本，然後再嘗試還原備份。"
+" 此備份檔包含舊版 chan_sip 分機或中繼，這些與 Asterisk 21 不相容。您可以選擇繼續，此時這些舊版分機或中繼將轉換為 PJSIP。或者，您可以取消還原流程並先降級 Asterisk 版本，然後再嘗試還原備份。"
 
 #: views/backup/form.php:25
 #, php-format
@@ -245,7 +245,7 @@ msgstr "您確定要還原此備份嗎？"
 msgid ""
 "Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
 "Aborting"
-msgstr "Asterisk 家目錄（%s）不存在，而且 ASTSPOOLDIR 也不存在。正在中止"
+msgstr "Asterisk 家目錄（%s）不存在，且 ASTSPOOLDIR 也不存在。中止執行"
 
 #: views/restore/landing.php:110
 #: views/restore/processRestore.php:89
@@ -261,7 +261,7 @@ msgid ""
 "Alternatively, you can cancel the restore process and downgrade the Asterisk "
 "version first, then attempt to restore your backup."
 msgstr ""
-"注意：此備份檔包含舊版 chan_sip 分機或中繼，這些與 Asterisk 21 不相容。您可以選擇繼續，此時這些舊版分機或中繼將轉換為 PJSIP。或者，您可以取消還原程序並先降級 Asterisk 版本，然後再嘗試還原備份。"
+"注意：此備份檔包含舊版 chan_sip 分機或中繼，這些與 Asterisk 21 不相容。您可以選擇繼續，此時這些舊版分機或中繼將轉換為 PJSIP。或者，您可以取消還原流程並先降級 Asterisk 版本，然後再嘗試還原備份。"
 
 #: functions.inc/class.backup.php:399
 #: functions.inc/class.backup.php:402
@@ -425,7 +425,7 @@ msgstr "備份已更新"
 msgid ""
 "Backup process has been initiated. Kindly check the fetchApiStatus api with "
 "the transaction id."
-msgstr "備份程序已啟動。請使用交易 ID 檢查 fetchApiStatus API。"
+msgstr "備份流程已啟動。請使用交易 ID 檢查 fetchApiStatus API。"
 
 #: Backup.class.php:582
 msgid "Backup running"
@@ -637,7 +637,7 @@ msgstr "%s 的相依欄位為空白。因為不確定該怎麼做而略過"
 #: views/restore/processRestore.php:15
 #: views/rnav.php:17
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: Handlers/Restore/Legacy.php:95
 #, php-format
@@ -743,7 +743,7 @@ msgstr "刪除 %s 時發生錯誤"
 #: Handlers/Restore/Legacy.php:180
 #, php-format
 msgid "Error in processing legacy cdr sql restore process....  %s %s %s  "
-msgstr "處理舊版 cdr sql 還原程序時發生錯誤.... %s %s %s"
+msgstr "處理舊版 cdr sql 還原流程時發生錯誤.... %s %s %s"
 
 #: Handlers/FreePBXModule.php:30
 #, php-format
@@ -932,12 +932,12 @@ msgstr "必須填寫來源（IP、主機名稱或逗號分隔清單）"
 #: Handlers/Backup/Email.php:95
 #, php-format
 msgid "Generated Backup process result email to %s. Status: Failure"
-msgstr "已向 %s 產生備份程序結果電子郵件。狀態：失敗"
+msgstr "已向 %s 產生備份流程結果電子郵件。狀態：失敗"
 
 #: Handlers/Backup/Email.php:99
 #, php-format
 msgid "Generated Backup process result email to %s. Status: Success"
-msgstr "已向 %s 產生備份程序結果電子郵件。狀態：成功"
+msgstr "已向 %s 產生備份流程結果電子郵件。狀態：成功"
 
 #: views/backup/rsa.php:1
 msgid "Generating Key Pair please standby"
@@ -995,7 +995,7 @@ msgstr "我不知道應該以哪個身分執行備份。"
 #, php-format
 msgid ""
 "I tried to find out about %s, but the system doesn't think that user exists"
-msgstr "我嘗試查詢 %s，但系統認為該使用者不存在"
+msgstr "我嘗試查明 %s 的資訊，但系統認為該使用者不存在"
 
 #: views/backup/transfer.php:16
 msgid "ID From the donor machine"
@@ -1201,7 +1201,7 @@ msgstr "維護"
 #: Api/Gql/Backup.php:242
 #: Api/Gql/Backup.php:284
 msgid "Message for the request"
-msgstr "要求的訊息"
+msgstr "請求的訊息"
 
 #: Backup.class.php:168
 msgid "Migrating legacy backupjobs"
@@ -1417,7 +1417,7 @@ msgstr "正在執行遠端維護"
 msgid ""
 "Please note that, legacy cdr sql restoration process may take a long time "
 "depends on cdr sql file size "
-msgstr "請注意，舊版 cdr sql 還原程序可能需要很長時間，取決於 cdr sql 檔案大小"
+msgstr "請注意，舊版 cdr sql 還原流程可能需要很長時間，取決於 cdr sql 檔案大小"
 
 #: views/backup/form.php:507
 msgid "Post-Backup Hook"
@@ -1448,7 +1448,7 @@ msgstr "正在處理 %s"
 
 #: assets/js/backup.js:26
 msgid "Processing..."
-msgstr "正在處理..."
+msgstr "處理中…"
 
 #: Handlers/Restore/Multiple.php:36
 msgid ""
@@ -1579,20 +1579,20 @@ msgstr "從雲端還原"
 #: Handlers/Restore/Legacy.php:178
 #, php-format
 msgid "Restore of legacy cdr sql process done....  %s  "
-msgstr "舊版 cdr sql 還原程序完成.... %s"
+msgstr "舊版 cdr sql 還原流程完成.... %s"
 
 #: Handlers/Restore/Legacy.php:40
 msgid ""
 "Restore process failed due to corrupted manifest file present in provided "
 "backup file. Please ensure your backup file is proper or regenerate the new "
 "backup file to proceed further."
-msgstr "還原程序失敗，因為所提供的備份檔中存在毀損的清單檔。請確定您的備份檔正確無誤，或重新產生新的備份檔後再繼續。"
+msgstr "還原流程失敗，因為所提供的備份檔中存在毀損的清單檔。請確定您的備份檔正確無誤，或重新產生新的備份檔後再繼續。"
 
 #: Api/Gql/Backup.php:644
 msgid ""
 "Restore process has been initiated. Kindly check the fetchApiStatus api with "
 "the transaction id."
-msgstr "還原程序已啟動。請使用交易 ID 檢查 fetchApiStatus API。"
+msgstr "還原流程已啟動。請使用交易 ID 檢查 fetchApiStatus API。"
 
 #: Handlers/Restore/Legacy.php:301
 #: Handlers/Restore/Multiple.php:81
@@ -1988,7 +1988,7 @@ msgstr "正在開始備份 %s"
 
 #: Handlers/Restore/Legacy.php:171
 msgid "Starting legacy cdr sql restore process"
-msgstr "正在開始舊版 cdr sql 還原程序"
+msgstr "正在開始舊版 cdr sql 還原流程"
 
 #: BackupBase.php:252
 #, php-format
@@ -2001,11 +2001,11 @@ msgstr "狀態"
 
 #: Api/Gql/Backup.php:288
 msgid "Status for the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: Api/Gql/Backup.php:238
 msgid "Status of the request"
-msgstr "要求的狀態"
+msgstr "請求的狀態"
 
 #: views/backup/form.php:257
 msgid "Storage"
@@ -2069,14 +2069,14 @@ msgstr "備份 %s 未設定狀態，可能發生錯誤"
 msgid ""
 "The backup contains ChanSIP Trunks! These ChanSIP Trunks can either be "
 "converted to pjsip  or can be skipped during the restore process."
-msgstr "此備份包含 ChanSIP 中繼！這些 ChanSIP 中繼可以在還原程序期間轉換為 pjsip 或略過。"
+msgstr "此備份包含 ChanSIP 中繼！這些 ChanSIP 中繼可以在還原流程期間轉換為 pjsip 或略過。"
 
 #: views/restore/processRestore.php:33
 msgid ""
 "The backup contains ChanSIP extensions! These ChanSIP extensions can either "
 "be converted to pjsip extensions or can be skipped during the restore "
 "process."
-msgstr "此備份包含 ChanSIP 分機！這些 ChanSIP 分機可以在還原程序期間轉換為 pjsip 分機或略過。"
+msgstr "此備份包含 ChanSIP 分機！這些 ChanSIP 分機可以在還原流程期間轉換為 pjsip 分機或略過。"
 
 #: functions.inc/class.backup.php:399
 msgid ""
@@ -2128,7 +2128,7 @@ msgstr "模組 %s 未傳回任何資料，未建立備份"
 msgid ""
 "The restore process may require some time, with the current default timeout "
 "set to 10 hours"
-msgstr "還原程序可能需要一些時間，目前的預設逾時設為 10 小時"
+msgstr "還原流程可能需要一些時間，目前的預設逾時設為 10 小時"
 
 #: assets/js/backup.js:604
 #, perl-format
@@ -2142,22 +2142,22 @@ msgstr "沒有需要清理的項目"
 #: Console/Backup.class.php:157
 #: Console/Backup.class.php:254
 msgid "There were errors during the backup process"
-msgstr "備份程序期間發生錯誤"
+msgstr "備份流程期間發生錯誤"
 
 #: Console/Backup.class.php:183
 #: Console/Backup.class.php:401
 msgid "There were errors during the restore process"
-msgstr "還原程序期間發生錯誤"
+msgstr "還原流程期間發生錯誤"
 
 #: Console/Backup.class.php:163
 #: Console/Backup.class.php:260
 msgid "There were warnings during the backup process"
-msgstr "備份程序期間發生警告"
+msgstr "備份流程期間發生警告"
 
 #: Console/Backup.class.php:189
 #: Console/Backup.class.php:407
 msgid "There were warnings during the restore process"
-msgstr "還原程序期間發生警告"
+msgstr "還原流程期間發生警告"
 
 #: Handlers/Backup/Multiple.php:64
 msgid ""

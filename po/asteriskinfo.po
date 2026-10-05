@@ -62,7 +62,7 @@ msgstr "清除篩選器"
 
 #: Asteriskinfo.class.php:257
 msgid "Command not found!"
-msgstr "找不到命令！"
+msgstr "找不到指令！"
 
 #: Modules/Conferences.php:26
 msgid "Conference Bridge Info"
@@ -74,7 +74,7 @@ msgstr "會議"
 
 #: Modules/Modules.php:36
 msgid "Core"
-msgstr "核心"
+msgstr "Core"
 
 #: views/page.asteriskinfo.php:13
 msgid "Current Asterisk Version:"
@@ -108,7 +108,7 @@ msgstr "已淘汰"
 
 #: Modules/Modules.php:36
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: Modules/Peers.php:39
 msgid ""
@@ -215,7 +215,7 @@ msgstr "移除篩選器"
 
 #: asteriskinfo.i18n.php:6
 msgid "Reports"
-msgstr "報表"
+msgstr "報告"
 
 #: Modules/Channels.php:36
 msgid "Resource"
@@ -259,7 +259,7 @@ msgstr "技術"
 
 #: Modules/ModuleBase.php:124
 msgid "The Asterisk REST Interface Module is not loaded in asterisk"
-msgstr "Asterisk REST 介面模組未載入 Asterisk"
+msgstr "Asterisk REST 介面模組未載入於 Asterisk"
 
 #: Modules/ModuleBase.php:132
 msgid "The Asterisk REST Interface is Currently Disabled."

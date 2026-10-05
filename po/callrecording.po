@@ -147,7 +147,7 @@ msgstr "提供大部分的通話錄音功能。"
 
 #: Callrecording.class.php:144
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/bootnav.php:19
 msgid "Rule"
@@ -155,7 +155,7 @@ msgstr "規則"
 
 #: Callrecording.class.php:144
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/form.php:85
 msgid ""

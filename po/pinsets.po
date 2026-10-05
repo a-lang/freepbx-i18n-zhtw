@@ -101,7 +101,7 @@ msgstr "PIN 集合用於管理可用來存取受限功能（如外撥路由）�
 #: views/bootnav.php:8
 #: views/grid.php:25
 msgid "Pin Sets"
-msgstr "Pin 集合"
+msgstr "PIN 碼集合"
 
 #: views/form.php:58
 msgid "Please enter a description for this pinset"

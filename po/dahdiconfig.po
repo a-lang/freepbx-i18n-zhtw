@@ -693,7 +693,7 @@ msgstr "啟用回音消除"
 
 #: views/dahdi_global_settings.php:13
 msgid "English"
-msgstr "英語"
+msgstr "英文"
 
 #: views/dahdi_advanced_settings.php:39
 msgid "Estonia"
@@ -1148,7 +1148,7 @@ msgid ""
 "to your MFC/R2 call logs will be /var/log/asterisk/mfcr2/span1 (the "
 "directory will be automatically created if not present already)"
 msgstr ""
-"記錄會存放在 asterisk.conf 中指定的 Asterisk 記錄目錄加上 mfcr2/<您在此填入的內容>。若您在此指定「span1」，而 asterisk.conf 的記錄目錄為 /var/log/asterisk，則 MFC/R2 通話記錄的完整路徑會是 /var/log/asterisk/mfcr2/span1（若目錄不存在，會自動建立）"
+"記錄會存放在 asterisk.conf 中指定的 Asterisk 記錄目錄加上 mfcr2/<whatever you put here>。若您在此指定「span1」，而 asterisk.conf 的記錄目錄為 /var/log/asterisk，則 MFC/R2 通話記錄的完整路徑會是 /var/log/asterisk/mfcr2/span1（若目錄不存在，會自動建立）"
 
 #: views/dahdi_analog_settings.php:28
 #: views/dahdi_analog_signalling_form.php:14

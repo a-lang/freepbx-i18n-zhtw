@@ -501,7 +501,7 @@ msgstr "電子郵件地址"
 
 #: views/general.php:129
 msgid "Email Body"
-msgstr "郵件內文"
+msgstr "電子郵件內文"
 
 #: Userman.class.php:1304
 #, php-format
@@ -511,11 +511,11 @@ msgstr "郵件已傳送給使用者：%s"
 #: views/general.php:9
 #: views/general.php:17
 msgid "Email Settings"
-msgstr "郵件設定"
+msgstr "電子郵件設定"
 
 #: views/general.php:105
 msgid "Email Subject"
-msgstr "郵件主旨"
+msgstr "電子郵件主旨"
 
 #: Userman.class.php:3680
 msgid "Empty data array."
@@ -553,7 +553,7 @@ msgstr "啟用 / 停用以下設定將套用到所有使用者。您可以從以
 msgid ""
 "Enter a password complexity threshold from 0 to 4, 0 being 'Really weak', "
 "and 4 being 'Strong'."
-msgstr "輸入 0 到 4 的密碼複雜度閾值，0 為「非常弱」，4 為「非常強」。"
+msgstr "輸入 0 到 4 的密碼複雜度門檻值，0 為「非常弱」，4 為「非常強」。"
 
 #: views/general.php:462
 msgid "Enter a password to test."
@@ -984,7 +984,7 @@ msgstr "無效的密碼"
 
 #: PasswordExpReminder.php:613
 msgid "Invalid Token"
-msgstr "無效的 Token"
+msgstr "無效的權杖"
 
 #: Userman.class.php:1306
 msgid "Invalid User"
@@ -1809,11 +1809,11 @@ msgstr "載入使用者時要使用的 Active Directory 使用者物件類別類
 
 #: assets/js/userman.js:684
 msgid "The Browser Language could not be determined"
-msgstr "無法判斷瀏覽器語言"
+msgstr "無法判定瀏覽器語言"
 
 #: assets/js/userman.js:704
 msgid "The Browser Timezone could not be determined"
-msgstr "無法判斷瀏覽器時區"
+msgstr "無法判定瀏覽器時區"
 
 #: views/call_activity_group.php:40
 msgid "The Call Activity group name"
@@ -2260,7 +2260,7 @@ msgstr "這將會建立一個空的樣板，送出此頁面後您需要點選「
 
 #: views/general.php:406
 msgid "Threshold Weak Password"
-msgstr "弱密碼閾值"
+msgstr "弱密碼門檻值"
 
 #: views/groups.php:227
 #: views/users.php:601

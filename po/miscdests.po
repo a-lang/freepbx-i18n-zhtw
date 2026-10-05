@@ -21,7 +21,7 @@ msgstr ""
 
 #: views/grid.php:13
 msgid "Actions"
-msgstr "操作"
+msgstr "動作"
 
 #: page.miscdests.php:19
 #: views/bootnav.php:3
@@ -125,11 +125,11 @@ msgstr "請輸入有效的撥號字串"
 
 #: Miscdests.class.php:79
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: Miscdests.class.php:84
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: assets/js/miscdests.js:59
 msgid ""

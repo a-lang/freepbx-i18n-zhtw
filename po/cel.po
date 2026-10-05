@@ -85,7 +85,7 @@ msgstr "呼叫事件記錄"
 #: ucp/Cel.class.php:128
 #: ucp/assets/js/global.js:29
 msgid "Call Events"
-msgstr "呼叫事件"
+msgstr "通話事件"
 
 #: ucp/Cel.class.php:58
 #, php-format
@@ -131,7 +131,7 @@ msgstr "會議"
 #: ucp/views/eventModal.php:20
 #: views/page.cel_view.php:55
 msgid "Context"
-msgstr "上下文"
+msgstr "Context"
 
 #: ucp/views/widget.php:31
 msgid "Controls"
@@ -190,7 +190,7 @@ msgstr "持續時間"
 
 #: install.php:112
 msgid "ERROR failed to update database"
-msgstr "錯誤：更新資料庫失敗"
+msgstr "錯誤：無法更新資料庫"
 
 #: views/ucp_config.php:28
 msgid "Enable CEL (Call Event Logging) in UCP for this user"
@@ -340,21 +340,21 @@ msgstr "呼叫事件記錄模組可讓您查看使用者的所有來電與外撥
 
 #: ucp/Cel.class.php:91
 msgid "The given extension is empty."
-msgstr "提供的分機為空白。"
+msgstr "指定的分機為空白。"
 
 #: ucp/Cel.class.php:86
 msgid "There are no assigned extensions."
-msgstr "沒有指派的任何分機。"
+msgstr "沒有指派的分機。"
 
 #: views/ucp_config.php:54
 msgid ""
 "These are the assigned and active extensions which will show up for this "
 "user to control and edit in UCP"
-msgstr "這些是已指派且作用中的分機，將顯示給此使用者在 UCP 中控制與編輯"
+msgstr "這些是為此使用者指派且啟用的分機，將顯示於 UCP 中供其控制與編輯"
 
 #: ucp/Cel.class.php:95
 msgid "This extension is not assigned to this user."
-msgstr "此分機並未指派給此使用者。"
+msgstr "此分機未指派給此使用者。"
 
 #: ucp/views/eventModal.php:14
 #: views/page.cel_view.php:49
@@ -399,7 +399,7 @@ msgid ""
 "distributed with the PBX. If you'd like to install the binaries needed for "
 "these conversions click <a href='%s'>here</a>"
 msgstr ""
-"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法隨 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點擊 <a href='%s'>此處</a>"
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點選<a href='%s'>此處</a>"
 
 #: page.cel.php:12
 msgid ""

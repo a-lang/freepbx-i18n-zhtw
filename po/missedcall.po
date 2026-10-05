@@ -228,7 +228,7 @@ msgstr "內部來電通知"
 msgid ""
 "Invalid CID Number. Must be in a format of digits only with an option of "
 "E164 format using a leading \"+\""
-msgstr "無效的 CID 號碼。格式必須僅為數字，可選擇使用 E164 格式，並以前導「+」開頭"
+msgstr "無效的 CID 號碼。必須僅使用數字格式，可選擇使用以「+」開頭的 E164 格式。"
 
 #: assets/js/missedcall.js:173
 msgid "Invalid time specified"
@@ -382,7 +382,7 @@ msgstr "移除資料庫表格"
 
 #: Missedcall.class.php:195
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/grid.php:35
 msgid "Ring Group"
@@ -414,7 +414,7 @@ msgstr "發生錯誤"
 
 #: Missedcall.class.php:195
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: Missedcall.class.php:246
 #: Missedcall.class.php:251

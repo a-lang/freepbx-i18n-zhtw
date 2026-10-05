@@ -115,7 +115,7 @@ msgstr ""
 
 #: assets/js/announcement.js:6
 msgid "Invalid description specified"
-msgstr "指定的說明無效"
+msgstr "指定的描述無效"
 
 #: views/form.php:130
 msgid ""

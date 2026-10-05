@@ -199,7 +199,7 @@ msgstr "在提示輸入密碼之前需要確認。當您的 PSTN 連線似乎會
 
 #: Disa.class.php:62
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/form.php:104
 msgid "Response Timeout"
@@ -212,7 +212,7 @@ msgstr "秒"
 
 #: Disa.class.php:62
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/form.php:331
 msgid "The DISA Name provided is too long."

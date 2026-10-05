@@ -79,7 +79,7 @@ msgstr "取消"
 
 #: views/view.log.header.php:90
 msgid "Clean Filter"
-msgstr "清除篩選"
+msgstr "清除篩選器"
 
 #: views/view.log.header.php:108
 msgid "Clean Highlight"
@@ -131,11 +131,11 @@ msgstr "刪除檔案"
 #: views/view.log.header.php:47
 #: views/view.log.header.php:52
 msgid "Disabled"
-msgstr "停用"
+msgstr "已停用"
 
 #: Logfiles.class.php:387
 msgid "Enabled"
-msgstr "啟用"
+msgstr "已啟用"
 
 #: views/view.settings.logfiles.php:34
 msgid "Error"
@@ -147,7 +147,7 @@ msgstr "匯出檔案"
 
 #: Logfiles.class.php:354
 msgid "Failure Removal Process!"
-msgstr "移除程序失敗！"
+msgstr "移除流程失敗！"
 
 #: views/view.settings.logfiles.php:41
 msgid "Fax"
@@ -189,7 +189,7 @@ msgstr "醒目顯示"
 msgid ""
 "If the file status is disabled it will be skipped during the asterisk "
 "configuration files creation process."
-msgstr "若檔案狀態為停用，將在 asterisk 設定檔建立程序中跳過。"
+msgstr "若檔案狀態為停用，將在 asterisk 設定檔建立流程中跳過。"
 
 #: Logfiles.class.php:849
 msgid "Invalid pattern to filter!"
@@ -524,7 +524,7 @@ msgstr "未知的錯誤！"
 
 #: Logfiles.class.php:277
 msgid "Update process failed!"
-msgstr "更新程序失敗！"
+msgstr "更新流程失敗！"
 
 #: views/view.settings.logfiles.php:55
 msgid "Verbose"

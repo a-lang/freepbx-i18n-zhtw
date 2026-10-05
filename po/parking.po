@@ -219,7 +219,7 @@ msgstr "在通話傳回給原始發話者或替代目的地之前，要播放給
 msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
-msgstr "覆寫鈴聲音量。注意：目前僅適用於 %s 電話"
+msgstr "覆寫響鈴音量。注意：目前僅適用於 %s 電話"
 
 #: views/bootnav.php:2
 msgid "Overview"
@@ -389,7 +389,7 @@ msgstr "返回通話行為"
 
 #: views/lot.php:395
 msgid "Ringer Volume Override"
-msgstr "鈴聲音量覆寫"
+msgstr "響鈴音量覆寫"
 
 #: views/lot.php:454
 msgid "Slot"

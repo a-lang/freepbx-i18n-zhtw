@@ -41,7 +41,7 @@ msgstr ""
 
 #: views/grid.php:35
 msgid "Actions"
-msgstr "操作"
+msgstr "動作"
 
 #: views/entries.php:70
 msgid "Add Another Entry"
@@ -109,7 +109,7 @@ msgid ""
 "which could lead to strange results if there was an IVR called in the call "
 "path but not immediately before this"
 msgstr ""
-"勾選此核取方塊後，若此選項是從上層 IVR 呼叫，則將返回上層 IVR。否則將前往所選擇的目的地。<br><br>返回路徑將會是此 IVR 之前通話路徑中的任何 IVR，若通話路徑中有 IVR 但並非緊接在此 IVR 之前，可能會導致異常結果"
+"勾選此勾選方塊後，若此選項是從上層 IVR 呼叫，則將返回上層 IVR。否則將前往所選擇的目的地。<br><br>返回路徑將會是此 IVR 之前通話路徑中的任何 IVR，若通話路徑中有 IVR 但並非緊接在此 IVR 之前，可能會導致異常結果"
 
 #: functions.inc.php:392
 msgid "Choose a destination to route the call to"
@@ -146,11 +146,11 @@ msgstr "刪除"
 
 #: assets/js/ivr.js:498
 msgid "Delete Recording"
-msgstr "刪除語音檔"
+msgstr "刪除錄音"
 
 #: views/entries.php:49
 msgid "Delete this entry. Dont forget to click Submit to save changes!"
-msgstr "刪除此項目。別忘了點擊「提交」以儲存變更！"
+msgstr "刪除此項目。別忘了點選「提交」以儲存變更！"
 
 #: views/advanced_form.php:53
 msgid "Description of this IVR"
@@ -188,7 +188,7 @@ msgstr "將播報語音檔拖曳至此"
 
 #: Ivr.class.php:286
 msgid "Duplicate"
-msgstr "複製"
+msgstr "重複"
 
 #: views/form.php:48
 msgid "Edit IVR: "
@@ -216,7 +216,7 @@ msgstr "進入 IVR 時要播放的歡迎詞。"
 
 #: views/simple_form.php:110
 msgid "Hit the red record button to start recording from your browser"
-msgstr "點擊紅色錄音按鈕以從瀏覽器開始錄音"
+msgstr "點選紅色錄音按鈕，從您的瀏覽器開始錄音"
 
 #: Ivr.class.php:98 /usr/src/freepbx/ivr/ivr.i18n.php:4
 #: ivr.i18n.php:10 /usr/src/freepbx/ivr/views/grid.php:3
@@ -350,7 +350,7 @@ msgstr "沒有可載入的檔案！"
 
 #: Ivr.class.php:365
 msgid "No file was uploaded"
-msgstr "沒有上傳任何檔案"
+msgstr "未上傳任何檔案"
 
 #: views/advanced_form.php:231
 #: views/advanced_form.php:392
@@ -373,7 +373,7 @@ msgstr "在沒有收到 DTMF 且 IVR 選擇逾時時的次數。"
 msgid ""
 "Number of times to retry when receiving an invalid/unmatched response from "
 "the caller"
-msgstr "從撥叫者收到無效/不符回應時的次數。"
+msgstr "收到撥叫者的無效/不符回應時，要重試的次數。"
 
 #: views/advanced_form.php:243
 #: views/simple_form.php:183
@@ -381,7 +381,7 @@ msgstr "從撥叫者收到無效/不符回應時的次數。"
 msgid ""
 "Override the ringer volume. Note: This is only valid for %s phones at this "
 "time"
-msgstr "覆寫鈴聲音量。注意：目前僅適用於 %s 電話機"
+msgstr "覆寫響鈴音量。注意：目前僅適用於 %s 電話"
 
 #: views/simple_form.php:62
 msgid "Play Previous Recording"
@@ -417,11 +417,11 @@ msgstr "提供撥叫者直接撥打分機的選項。"
 
 #: assets/js/ivr.js:576
 msgid "Recording..."
-msgstr "錄音中……"
+msgstr "錄音中…"
 
 #: Ivr.class.php:281
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: functions.inc.php:392
 msgid "Return"
@@ -445,16 +445,16 @@ msgstr "完成時返回此 IVR"
 
 #: views/simple_form.php:143
 msgid "Ring Tone"
-msgstr "鈴聲"
+msgstr "響鈴聲"
 
 #: views/advanced_form.php:226
 #: views/simple_form.php:166
 msgid "Ringer Volume Override"
-msgstr "鈴聲音量覆寫"
+msgstr "響鈴音量覆寫"
 
 #: assets/js/ivr.js:498
 msgid "Save Recording"
-msgstr "儲存語音檔"
+msgstr "儲存錄音"
 
 #: views/advanced_form.php:84
 msgid ""
@@ -465,21 +465,21 @@ msgstr "在此選擇進入 IVR 時要播放的「系統語音」。"
 msgid ""
 "Select a Ring Tone from the list of options above. This will determine how "
 "your phone sounds when it is rung from this group."
-msgstr "從上述選項清單中選擇鈴聲。這將決定電話機從該群組響鈴時的聲音。"
+msgstr "從上方選項清單中選擇鈴聲，這將決定您的電話被此群組呼叫時所發出的鈴聲。"
 
 #: Ivr.class.php:291
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: Ivr.class.php:359
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案超出 HTML 表單中指定的 MAX_FILE_SIZE 指示"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
 
 #: Ivr.class.php:356
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案超出 php.ini 中的 upload_max_filesize 指示"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: Ivr.class.php:362
 msgid "The uploaded file was only partially uploaded"
@@ -523,7 +523,7 @@ msgstr "無法刪除最後一個項目"
 
 #: Ivr.class.php:331
 msgid "Unknown Error"
-msgstr "未知錯誤"
+msgstr "未知的錯誤"
 
 #: Ivr.class.php:351
 msgid "Unsupported file format"
@@ -543,7 +543,7 @@ msgstr "需要更新"
 msgid ""
 "Upload files from your local system. Supported upload formats are: %s. This "
 "includes archives (that include multiple files) and multiple files"
-msgstr "從您的本機系統上傳檔案。支援的上傳格式為：%s。這包括包含多個檔案的壓縮檔以及多個檔案"
+msgstr "從您的本機系統上傳檔案。支援的上傳格式為：%s。這包括壓縮檔（包含多個檔案）和多個檔案"
 
 #: views/advanced_form.php:138
 msgid ""

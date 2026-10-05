@@ -789,7 +789,7 @@ msgid ""
 "having issues, see the \"Enforce RFC7462\" option found in Settings-"
 ">Advanced Settings."
 msgstr ""
-"ALERT_INFO 可用於 SIP 裝置的區別鈴聲。<br>若您遇到問題，請參閱「設定 → 進階設定」中的「Enforce RFC7462」選項。"
+"ALERT_INFO 可用於 SIP 裝置的區別響鈴。<br>若您遇到問題，請參閱「設定 → 進階設定」中的「Enforce RFC7462」選項。"
 
 #: ../core/page.ampusers.php:179
 msgid "ALL SECTIONS"
@@ -868,7 +868,7 @@ msgstr "存取限制"
 #: ../core/functions.inc/drivers/PJSip.class.php:262
 #: ../core/functions.inc/drivers/Sip.class.php:482
 msgid "Account Code"
-msgstr "帳戶代碼"
+msgstr "帳號代碼"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:261
 msgid "Account Code for this extension"
@@ -1802,7 +1802,7 @@ msgstr ""
 msgid ""
 "Backup & Restore process is in progress. Please wait till the process is "
 "completed."
-msgstr "備份與還原程序進行中。請等候程序完成。"
+msgstr "備份與還原流程進行中。請等候流程完成。"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:22
 msgid "Beta"
@@ -2629,7 +2629,7 @@ msgstr "正在將金鑰與 crt 合併為 %s.pem"
 
 #: amp_conf/htdocs/admin/libraries/Console/Job.class.php:88
 msgid "Command"
-msgstr "命令"
+msgstr "指令"
 
 #: amp_conf/htdocs/admin/libraries/Api/Gql/Modules.php:125
 msgid ""
@@ -3606,7 +3606,7 @@ msgstr "說明 GUI 模式"
 #: ../core/views/did/didgrid.php:19
 #: ../core/views/rnav.php:82
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: ../core/views/trunks/trunk_header.php:250
 msgid "Descriptive Name for this Trunk"
@@ -4075,7 +4075,7 @@ msgstr "顯示唯讀設定"
 
 #: amp.i18n.php:176
 msgid "Display debug output for script used if POST_RELOAD is used."
-msgstr "若使用 POST_RELOAD，則顯示所用腳本的除錯輸出。"
+msgstr "若使用 POST_RELOAD，則顯示所用指令碼的除錯輸出。"
 
 #: amp.i18n.php:322
 msgid "Ditech VQA Inbound Setting"
@@ -5322,7 +5322,7 @@ msgstr "執行 yum Upgrade 失敗"
 #: ../core/Core.class.php:4338
 #, php-format
 msgid "Failed to run: '%s'"
-msgstr "執行「%s」失敗"
+msgstr "執行失敗：'%s'"
 
 #: amp_conf/htdocs/admin/libraries/Builtin/UpdateManager.php:405
 msgid "Failed to send security notification email"
@@ -5359,7 +5359,7 @@ msgstr "寫入已下載的 GPG 金鑰失敗。"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1784
 msgid "Failed to write file to disk"
-msgstr "將檔案寫入磁碟失敗"
+msgstr "寫入檔案至磁碟失敗"
 
 #: ../core/functions.inc.php:4702
 msgid "Failed to write indications.conf"
@@ -5859,7 +5859,7 @@ msgid ""
 "installs may have some early logging sent to /tmp/freepbx_pre_install.log "
 "when it is first bootstrapping the installer."
 msgstr ""
-"FreePBX 記錄檔的完整路徑與檔名，配合 Syslog 層級（AMPSYSLOGLEVEL）設為 FILE 時使用，否則不採用。初次安裝時，安裝程式首次啟動引導程序期間，可能會有部分早期記錄傳送至 /tmp/freepbx_pre_install.log。"
+"FreePBX 記錄檔的完整路徑與檔名，配合 Syslog 層級（AMPSYSLOGLEVEL）設為 FILE 時使用，否則不採用。初次安裝時，安裝程式首次啟動引導流程期間，可能會有部分早期記錄傳送至 /tmp/freepbx_pre_install.log。"
 
 #: amp_conf/htdocs/admin/libraries/Console/Util.class.php:173
 msgid "GPG key is up to date."
@@ -6141,7 +6141,7 @@ msgstr "按下播放符號以聆聽"
 
 #: amp_conf/htdocs/admin/libraries/BMO/View.class.php:525
 msgid "Hit the red record button to start recording from your browser"
-msgstr "按下紅色錄製按鈕以從您的瀏覽器開始錄製"
+msgstr "點選紅色錄音按鈕，從您的瀏覽器開始錄音"
 
 #: amp_conf/htdocs/admin/libraries/BMO/GPG.class.php:814
 #, php-format
@@ -6744,7 +6744,7 @@ msgstr "正在初始化「freepbx_conf」設定.."
 msgid ""
 "Input variable destination does not exists in this system, Please provide "
 "the valid `destination`"
-msgstr "輸入變數 destination 在此系統中不存在，請提供有效的 `destination`"
+msgstr "輸入的變數 destination 在此系統中不存在，請提供有效的 `destination`"
 
 #: amp.i18n.php:590
 msgid "Insert the date information into the CDR database using GMT time"
@@ -7173,7 +7173,7 @@ msgstr "從您的系統本機選擇的 FreePBX 模組"
 
 #: amp.i18n.php:454
 msgid "Location of the FreePBX command line scripts."
-msgstr "FreePBX 命令列腳本的位置。"
+msgstr "FreePBX 命令列指令碼的位置。"
 
 #: amp.i18n.php:686
 msgid "Log Verbose Messages"
@@ -7391,7 +7391,7 @@ msgstr "訊息內文"
 #: ../core/Api/Gql/Dids.php:226
 #: ../core/Api/Gql/Dids.php:274
 msgid "Message for the request"
-msgstr "用於請求的訊息"
+msgstr "請求的訊息"
 
 #: ../core/Api/Gql/AdvanceSettings.php:194
 #: ../core/Api/Gql/AdvanceSettings.php:223
@@ -8064,7 +8064,7 @@ msgstr "無動作"
 
 #: ../core/functions.inc.php:5053
 msgid "No Answer"
-msgstr "無應答"
+msgstr "無人接聽"
 
 #: amp_conf/htdocs/admin/libraries/BMO/PKCS.class.php:377
 #, php-format
@@ -8120,7 +8120,7 @@ msgstr "沒有可用的說明。"
 #: install.php:384
 #, php-format
 msgid "No directory %s, install script not needed"
-msgstr "沒有 %s 目錄，不需要安裝腳本"
+msgstr "沒有 %s 目錄，不需要安裝指令碼"
 
 #: amp_conf/htdocs/admin/libraries/Console/Moduleadmin.class.php:1329
 msgid "No enabled modules depend on this module."
@@ -8252,7 +8252,7 @@ msgid ""
 "continue to the next configured trunk or destination even when the channel "
 "reports BUSY or INVALID NUMBER."
 msgstr ""
-"一般情況下，只有在前一個中繼以某種形式呈現「壅塞」或無法使用時，才會嘗試下一個中繼。勾選此核取方塊後，即使通道回報 BUSY 或 INVALID NUMBER，失敗的通話也一定會繼續轉往下一個已設定的中繼或目的地。"
+"一般情況下，只有在前一個中繼以某種形式呈現「壅塞」或無法使用時，才會嘗試下一個中繼。勾選此勾選方塊後，即使通道回報 BUSY 或 INVALID NUMBER，失敗的通話也一定會繼續轉往下一個已設定的中繼或目的地。"
 
 #: amp_conf/htdocs/admin/libraries/Api/Gql/System.php:454
 #: amp_conf/htdocs/admin/libraries/Api/Gql/System.php:469
@@ -8597,7 +8597,7 @@ msgid ""
 "Optional script to run just prior to doing an extension reload to Asterisk "
 "through the manager after pressing Apply Configuration Changes in the GUI."
 msgstr ""
-"在 GUI 中按下「Apply Configuration Changes」後，透過 manager 將分機重新載入至 Asterisk 之前，可選擇執行此腳本"
+"在 GUI 中按下「Apply Configuration Changes」後，透過 manager 將分機重新載入至 Asterisk 之前，可選擇執行此指令碼"
 
 #: ../core/views/routing/form.php:356
 msgid ""
@@ -9741,7 +9741,7 @@ msgstr "將未知目的地回報為錯誤"
 
 #: amp_conf/htdocs/admin/views/menu_items.php:50
 msgid "Reports"
-msgstr "報表"
+msgstr "報告"
 
 #: amp_conf/htdocs/admin/views/module_admin/reposelect.php:8
 msgid "Repositories"
@@ -9867,13 +9867,13 @@ msgstr "響鈴時間"
 
 #: ../core/views/did/basic_form.php:92
 msgid "Ring Tone"
-msgstr "響鈴音"
+msgstr "響鈴聲"
 
 #: ../core/functions.inc.php:4962
 #: ../core/views/did/advanced_form.php:211
 #: ../core/views/did/basic_form.php:115
 msgid "Ringer Volume Override"
-msgstr "鈴聲音量覆寫"
+msgstr "響鈴音量覆寫"
 
 #: amp.i18n.php:382
 #: ../core/install.php:510
@@ -11013,7 +11013,7 @@ msgstr "樣式與標誌"
 #: ../core/Core.class.php:538
 #: ../core/Core.class.php:568
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: amp_conf/htdocs/admin/libraries/Console/Reload.class.php:481
 msgid ""
@@ -11993,7 +11993,7 @@ msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:1775
 msgid "The uploaded file was only partially uploaded"
-msgstr "上傳的檔案僅部分上傳完成"
+msgstr "上傳的檔案僅部分上傳"
 
 #: amp.i18n.php:800
 msgid ""
@@ -12542,7 +12542,7 @@ msgstr "若要支援 HTML5 與轉換功能並執行最少量檔案轉換，您�
 msgid ""
 "To play the media you will need to either update your browser to a recent "
 "version or update your %s"
-msgstr "若要播放媒體，您需要將瀏覽器更新至較新版本，或更新您的 %s"
+msgstr "若要播放媒體，您需要將瀏覽器更新至最新版本，或更新您的 %s"
 
 #: amp_conf/htdocs/admin/views/module_admin/unable-to-sysupdate.php:38
 msgid ""
@@ -12668,7 +12668,7 @@ msgstr "通常為模組 tarball 的直接位址，FreePBX 將嘗試從遠端下�
 
 #: amp_conf/htdocs/admin/libraries/Console/Start.class.php:87
 msgid "UCP Node Disabled in Advanced Settings."
-msgstr "已在進階設定中停用 UCP 節點。"
+msgstr "已在進階設定中停用 UCP Node。"
 
 #: ../core/functions.inc/drivers/Sip.class.php:413
 msgid "UDP Only"
@@ -14771,7 +14771,7 @@ msgstr "已停用"
 
 #: ../core/functions.inc.php:5084
 msgid "is not allowed for your account"
-msgstr "不允許您的帳號執行"
+msgstr "不允許用於您的帳號"
 
 #: amp_conf/htdocs/admin/page.modules.php:952
 msgid "is not installed"
@@ -14788,11 +14788,11 @@ msgstr "設定的關鍵字"
 #: amp.i18n.php:610
 msgid ""
 "link to follow when clicking on logo, defaults to http://www.freepbx.org"
-msgstr "點擊標誌時前往的連結，預設為 http://www.freepbx.org"
+msgstr "點選標誌時前往的連結，預設為 http://www.freepbx.org"
 
 #: amp.i18n.php:616
 msgid "link to follow when clicking on sponsor logo"
-msgstr "點擊贊助商標誌時前往的連結"
+msgstr "點選贊助商標誌時前往的連結"
 
 #: amp_conf/htdocs/admin/libraries/Console/Notifications.class.php:21
 msgid "list notifications"

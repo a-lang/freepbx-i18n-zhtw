@@ -21,7 +21,7 @@ msgstr ""
 
 #: views/grid.php:17
 msgid "Actions"
-msgstr "操作"
+msgstr "動作"
 
 #: views/bootnav.php:2
 #: views/grid.php:2
@@ -46,7 +46,7 @@ msgstr "可聊天"
 
 #: functions.inc.php:6
 msgid "DND"
-msgstr "勿擾"
+msgstr "DND"
 
 #: ucp/views/settings.php:23
 msgid "Define Actions on A Status Change"
@@ -148,7 +148,7 @@ msgstr "狀態顯示"
 
 #: Presencestate.class.php:205
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/form.php:38
 msgid "State type"
@@ -156,7 +156,7 @@ msgstr "狀態類型"
 
 #: Presencestate.class.php:205
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: ucp/Presencestate.class.php:215
 msgid "This user doesn't have a default extension."
@@ -170,7 +170,7 @@ msgstr "類型"
 
 #: functions.inc.php:6
 msgid "Unavailable"
-msgstr "無空"
+msgstr "不可用"
 
 #: views/ucp_config.php:28
 msgid ""

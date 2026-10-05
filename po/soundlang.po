@@ -124,7 +124,7 @@ msgstr "線上檢查語言"
 msgid ""
 "Check all file formats you would like this system recording to be encoded "
 "into"
-msgstr "檢查您要將此系統錄音編碼為的所有檔案格式"
+msgstr "勾選您要將此系統錄音編碼為的所有檔案格式"
 
 #: Soundlang.class.php:952
 msgid "China"
@@ -170,7 +170,7 @@ msgstr "資料更新完成成功。"
 
 #: Console/Soundlang.class.php:86
 msgid "Default"
-msgstr "預設值"
+msgstr "預設"
 
 #: Soundlang.class.php:180
 #: assets/js/soundlang.js:171
@@ -237,7 +237,7 @@ msgstr "編輯自訂語言"
 
 #: Soundlang.class.php:943
 msgid "English"
-msgstr "英語"
+msgstr "英文"
 
 #: Soundlang.class.php:1552
 #, php-format
@@ -286,7 +286,7 @@ msgstr "正在解壓縮 [%s]…"
 
 #: Soundlang.class.php:650
 msgid "Failed installation process!"
-msgstr "安裝程序失敗！"
+msgstr "安裝流程失敗！"
 
 #: Soundlang.class.php:900
 msgid "Failed to write file to disk"
@@ -533,7 +533,7 @@ msgstr "在壓縮檔中找不到合適的檔案！"
 
 #: Soundlang.class.php:894
 msgid "No file was uploaded"
-msgstr "未上傳檔案"
+msgstr "未上傳任何檔案"
 
 #: Soundlang.class.php:824
 msgid "No files were sent to the server"
@@ -630,7 +630,7 @@ msgstr "語音語言提示"
 #: soundlang.i18n.php:4
 #: soundlang.i18n.php:10
 msgid "Sound Languages"
-msgstr "語音語言"
+msgstr "音效語言"
 
 #: views/oobe.php:15
 msgid "Sound Prompts Language"
@@ -709,11 +709,11 @@ msgstr "鏡像伺服器未傳回正確回應，且先前已從預設伺服器變
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指示"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
 
 #: Soundlang.class.php:885
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指示"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: Soundlang.class.php:891
 msgid "The uploaded file was only partially uploaded"
@@ -775,7 +775,7 @@ msgstr "解除安裝完成成功。"
 
 #: Soundlang.class.php:664
 msgid "Uninstall process failed!"
-msgstr "解除安裝程序失敗！"
+msgstr "解除安裝流程失敗！"
 
 #: Console/Soundlang.class.php:98
 #, php-format

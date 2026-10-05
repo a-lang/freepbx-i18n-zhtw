@@ -157,7 +157,7 @@ msgstr "刪除"
 
 #: views/timegroups/form.php:50
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: Timeconditions.class.php:268
 msgid "Description is required."
@@ -185,7 +185,7 @@ msgstr "不符的目的地"
 
 #: Timeconditions.class.php:170
 msgid "Duplicate"
-msgstr "複製"
+msgstr "重複"
 
 #: assets/js/timeconditions/timeconditions.js:29
 msgid "Duplicate Time Conditions Name"
@@ -446,7 +446,7 @@ msgid ""
 "list. <br/><strong>Important</strong>: Your selection here <strong>MUST</"
 "strong> appear in the pick-list or in the /usr/share/zoneinfo/ directory."
 msgstr ""
-"如果目的地與伺服器所在時區不同，請以名稱指定時區。輸入兩個字元即可開始自動完成的挑選清單。<br/><strong>重要</strong>：您在此處的選取<strong>必須</strong>出現在挑選清單或 /usr/share/zoneinfo/ 目錄中。"
+"若目的地位於與伺服器不同的時區，請依名稱指定時區。輸入兩個字元以啟動自動完成的選擇清單。<br/><strong>重要</strong>：您在此處的選擇<strong>必須</strong>出現在選擇清單或 /usr/share/zoneinfo/ 目錄中。"
 
 #: Timeconditions.class.php:175
 msgid "Submit"

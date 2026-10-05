@@ -92,7 +92,7 @@ msgstr "設定"
 
 #: Ttsengines.class.php:40
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: ttsengines.i18n.php:4
 #: ttsengines.i18n.php:10

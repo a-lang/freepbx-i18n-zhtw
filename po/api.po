@@ -190,7 +190,7 @@ msgstr "複製到剪貼簿"
 #: views/system/scopeVisualizer.php:42
 #: views/user/modals.php:26
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: Console/Api.class.php:25
 msgid "Execute Gql command"
@@ -406,7 +406,7 @@ msgid ""
 "The API private key has been regenerated due to a detected security risk "
 "involving encryption keys. Please ensure your API integration operates as "
 "expected and regenerate your tokens if necessary."
-msgstr "由於偵測到涉及加密金鑰的安全性風險， API 私密金鑰已重新產生。請確認您的 API 整合運作如常，並在必要時重新產生您的權杖。"
+msgstr "由於偵測到涉及加密金鑰的安全性風險，API 私密金鑰已重新產生。請確認您的 API 整合運作如常，並在必要時重新產生您的權杖。"
 
 #: views/system/modals.php:37
 #: views/user/modals.php:37

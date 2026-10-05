@@ -108,7 +108,7 @@ msgstr "會議"
 
 #: views/form.php:122
 msgid "Conflicting Extensions"
-msgstr "分機衝突"
+msgstr "衝突的分機"
 
 #: Conferences.class.php:425
 msgid "Delete"
@@ -471,7 +471,7 @@ msgstr "選取領導人等候選項時，您必須為會議領導人設定管理
 
 #: views/form.php:86
 msgid "default"
-msgstr "預設值"
+msgstr "預設"
 
 #: Conferences.class.php:127
 msgid "description is blank."
@@ -483,7 +483,7 @@ msgstr "繼承"
 
 #: Conferences.class.php:36
 msgid "is not allowed for your account."
-msgstr "不允許用於您的帳戶。"
+msgstr "不允許用於您的帳號。"
 
 #: Conferences.class.php:98
 msgid "join message id"

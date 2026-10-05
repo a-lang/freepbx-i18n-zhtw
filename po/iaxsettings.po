@@ -151,15 +151,15 @@ msgstr "頻寬"
 
 #: views/view.form_options.php:224
 msgid "Bind Address"
-msgstr "繫結位址"
+msgstr "綁定位址"
 
 #: Iaxsettings.class.php:156
 msgid "Bind Address (bindaddr) must be an IP address."
-msgstr "繫結位址（bindaddr）必須為 IP 位址。"
+msgstr "綁定位址（bindaddr）必須為 IP 位址。"
 
 #: views/view.form_options.php:248
 msgid "Bind Port"
-msgstr "繫結連接埠"
+msgstr "綁定通訊埠"
 
 #: Iaxsettings.class.php:170
 msgid "Bind Port (bindport) must be between 1024..65535, default 4569"
@@ -179,7 +179,7 @@ msgstr "編解碼器設定"
 
 #: Iaxsettings.class.php:409
 msgid "Command not found!"
-msgstr "找不到命令！"
+msgstr "找不到指令！"
 
 #: views/view.form_options.php:272
 msgid "Delay Auth Rejects"

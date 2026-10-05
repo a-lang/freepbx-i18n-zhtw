@@ -325,7 +325,7 @@ msgstr "位元組"
 
 #: ucp/views/widget.php:61
 msgid "CID"
-msgstr "來電顯示"
+msgstr "CID"
 
 #: Voicemail.class.php:2714
 msgid "CID Internal Context"
@@ -379,7 +379,7 @@ msgid ""
 "acceptable.  If the password is considered too weak, the script should print "
 "INVALID to stdout. "
 msgstr ""
-"指定的命令會在使用者變更其密碼之前執行，可用於對語音信箱密碼施加安全限制。傳遞給應用程式的參數為：[mailbox] [context] [oldpassword] [newpassword]。腳本應將 VALID 輸出至 stdout 以表示新密碼可接受。若密碼被視為太弱，腳本應將 INVALID 輸出至 stdout。"
+"指定的命令會在使用者變更其密碼之前執行，可用於對語音信箱密碼施加安全限制。傳遞給應用程式的參數為：[mailbox] [context] [oldpassword] [newpassword]。指令碼應將 VALID 輸出至 stdout 以表示新密碼可接受。若密碼被視為太弱，指令碼應將 INVALID 輸出至 stdout。"
 
 #: Voicemail.class.php:2700
 msgid "Context Config"
@@ -706,7 +706,7 @@ msgstr "不允許拖曳給自己"
 
 #: ucp/views/widget.php:65
 msgid "Duration"
-msgstr "長度"
+msgstr "持續時間"
 
 #: Voicemail.class.php:2032
 #: functions.inc.php:547
@@ -723,7 +723,7 @@ msgstr "電子郵件附件"
 
 #: Voicemail.class.php:2329
 msgid "Email Body"
-msgstr "電子郵件內容"
+msgstr "電子郵件內文"
 
 #: Voicemail.class.php:2314
 msgid "Email Config"
@@ -1507,7 +1507,7 @@ msgstr "每個資料夾的訊息最大數。若未指定，將使用預設值 (1
 #: Api/Gql/Voicemail.php:166
 #: Api/Gql/Voicemail.php:190
 msgid "Message for the request"
-msgstr "請求訊息"
+msgstr "請求的訊息"
 
 #: views/usage.php:30
 msgid "Messages in inbox"
@@ -1993,7 +1993,7 @@ msgstr "錄製的名稱"
 
 #: ucp/assets/js/global.js:751
 msgid "Recording..."
-msgstr "正在錄製..."
+msgstr "錄音中…"
 
 #: Voicemail.class.php:2248
 #: page.voicemail.php:317
@@ -2062,7 +2062,7 @@ msgstr "SMDI 連接埠"
 
 #: ucp/views/greetings.php:51
 msgid "Save Recording"
-msgstr "儲存錄製"
+msgstr "儲存錄音"
 
 #: Voicemail.class.php:2215
 msgid "Say CID"
@@ -2224,7 +2224,7 @@ msgstr "指定要為外撥電子郵件呼叫的命令"
 #: Api/Gql/Voicemail.php:162
 #: Api/Gql/Voicemail.php:186
 msgid "Status of the request"
-msgstr "請求狀態"
+msgstr "請求的狀態"
 
 #: Voicemail.class.php:2116
 msgid "Stop Keys"
@@ -2250,7 +2250,7 @@ msgstr "傳送至呼叫器的主旨。"
 #: Voicemail.class.php:1787
 #: page.voicemail.php:672
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: ucp/assets/js/global.js:184
 #: ucp/assets/js/global.js:194
@@ -2415,7 +2415,7 @@ msgstr "IMAP 伺服器上儲存語音信箱訊息的資料夾。預設會儲存�
 
 #: ucp/Voicemail.class.php:120
 msgid "The given extension is empty."
-msgstr "提供的分機為空。"
+msgstr "指定的分機為空白。"
 
 #: views/tz.php:97
 msgid "The name of a sound file (the file name must be single-quoted)"
@@ -2477,7 +2477,7 @@ msgstr "語音信箱的密碼/PIN"
 
 #: ucp/Voicemail.class.php:115
 msgid "There are no assigned extensions."
-msgstr "沒有指定的分機。"
+msgstr "沒有指派的分機。"
 
 #: ucp/assets/js/global.js:829
 msgid "There is nothing to delete"
@@ -2487,7 +2487,7 @@ msgstr "沒有可刪除的項目"
 msgid ""
 "These are the assigned and active extensions which will show up for this "
 "user to control and edit in UCP"
-msgstr "這些是指定且作用中的分機，將顯示給此使用者在 UCP 中控制與編輯"
+msgstr "這些是為此使用者指派且啟用的分機，將顯示於 UCP 中供其控制與編輯"
 
 #: Voicemail.class.php:2315
 msgid "These settings apply to Voicemail Email Configuration"
@@ -2506,7 +2506,7 @@ msgstr "這些設定僅在 Asterisk 以支援 IMAP 的方式編譯時才適用"
 
 #: ucp/Voicemail.class.php:124
 msgid "This extension is not assigned to this user."
-msgstr "此分機未指定給此使用者。"
+msgstr "此分機未指派給此使用者。"
 
 #: functions.inc.php:570
 #, php-format
@@ -2612,7 +2612,7 @@ msgstr "向撥叫者播放信封"
 msgid ""
 "To play the media you will need to either update your browser to a recent "
 "version or update your %s"
-msgstr "要播放媒體，您需要將瀏覽器更新至最新版本或更新您的 %s"
+msgstr "若要播放媒體，您需要將瀏覽器更新至最新版本，或更新您的 %s"
 
 #: Vmx.class.php:35
 msgid "To send to followme use \"FMextension\""
@@ -3080,7 +3080,7 @@ msgid ""
 "distributed with the PBX. If you'd like to install the binaries needed for "
 "these conversions click <a href='%s'>here</a>"
 msgstr ""
-"您遺漏了此瀏覽器的播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 一起散佈的程式。若要安裝這些轉換所需的二進位檔，請按一下<a href='%s'>這裡</a>"
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點選<a href='%s'>此處</a>"
 
 #: ucp/assets/js/global.js:75
 msgid "You have a new voicemail"
@@ -3088,7 +3088,7 @@ msgstr "您有一則新的語音信箱"
 
 #: ucp/assets/js/global.js:757
 msgid "Your Browser Blocked The Recording, Please check your settings"
-msgstr "您的瀏覽器已封鎖錄製，請檢查您的設定"
+msgstr "您的瀏覽器已封鎖錄音，請檢查您的設定"
 
 #: ucp/assets/js/global.js:695
 msgid "Your settings have been saved"

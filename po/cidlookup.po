@@ -329,7 +329,7 @@ msgstr ""
 
 #: Cidlookup.class.php:52
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/form.php:29
 msgid "Searches a contact manager group"
@@ -361,7 +361,7 @@ msgstr "可以在「呼叫者名稱查詢來源」區段中新增來源"
 
 #: Cidlookup.class.php:47
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/form.php:53
 #, php-format

@@ -387,7 +387,7 @@ msgstr "已接收並處理：%s"
 
 #: Fax.class.php:612
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/view.coreDIDHook.php:85
 msgid "SIP"
@@ -423,7 +423,7 @@ msgstr "狀態：%s"
 
 #: Fax.class.php:612
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/view.userman.showpage.php:62
 msgid "TIFF"

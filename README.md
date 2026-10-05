@@ -2,15 +2,15 @@
 
 FreePBX 各模組管理介面的正體中文 gettext 語系檔。將對應模組的 `.po` 編譯為 `.mo` 放入 FreePBX 主機，即可讓 Web UI 以正體中文顯示。
 
-本專案涵蓋 **74 個模組** 的翻譯（`amp` 核心 + 73 個擴充模組），每模組各自獨立一份 `.po`。套用機制與流程對所有模組通用；亦提供 `deploy.sh` 一鍵自動化部署。
+本專案涵蓋 **78 個模組** 的翻譯（`amp` 核心 + 77 個擴充模組），每模組各自獨立一份 `.po`。套用機制與流程對所有模組通用；亦提供 `deploy.sh` 一鍵自動化部署。
 
 ## 語系檔說明
 
 | 項目 | 內容 |
 |---|---|
-| 交付物 | `po/<模組>.po`（每模組一份，共 74 模組） |
+| 交付物 | `po/<模組>.po`（每模組一份，共 78 模組） |
 | 語系 | `zh_TW`（正體中文，UTF-8） |
-| 覆蓋範圍 | `amp`（framework 核心，2911 條 msgid）+ 73 個擴充模組 |
+| 覆蓋範圍 | `amp`（framework 核心，2911 條 msgid）+ 77 個擴充模組 |
 | 對齊版本 | `amp` 對齊 [`FreePBX/framework`](https://github.com/FreePBX/framework) `release/17.0`；各模組 pot 依其上游版本 |
 | 來源 POT | `pot/<模組>.pot`（純英文模板，無既有譯文） |
 | 翻譯者 | Alang Hsu `<alang.hsu@gmail.com>` |
@@ -128,6 +128,31 @@ php -r 'setlocale(LC_ALL,"zh_TW.utf8"); bindtextdomain("amp","/var/www/html/admi
 
 # 預期輸出「分機」；接著重新登入 Web UI 確認整體繁中生效
 ```
+
+## 更新已部署的系統
+
+上游或本專案更新後，照下列步驟重新部署即可覆寫伺服器上的既有語系檔：
+
+```bash
+# 1. 取得專案：目錄仍存在則更新，已不存在則重新複製
+cd freepbx-i18n-zhtw 2>/dev/null || git clone https://github.com/a-lang/freepbx-i18n-zhtw
+cd freepbx-i18n-zhtw && git pull origin main
+
+# 2. 確認 deploy.sh 的 web_root 與本機 FreePBX 的 Web root 相符
+#    （可查 /etc/amportal.conf 的 AMPWEBROOT，通常為 /var/www/html）
+grep '^web_root=' deploy.sh
+
+# 3. 重新編譯並部署，覆寫 admin/… 與 admin/modules/<模組>/… 下的既有語系檔
+sudo ./deploy.sh
+
+# 4. 重啟 Web server，讓新的 catalog 生效
+sudo systemctl restart apache2
+```
+
+- `deploy.sh` 會自動刪除 `po/` 下產生的 `.mo`，工作目錄不會殘留編譯產物。
+- 步驟 3、4 需 root 權限（要寫入 Web root 與操作系統服務）。
+- PHP 程序會快取已載入的 catalog，**未執行步驟 4 不會生效**；重啟後請重新登入或以無痕視窗確認。
+- 若某模組更新後仍顯示英文，見下方常見問題。
 
 ## 常見問題
 

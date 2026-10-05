@@ -268,7 +268,7 @@ msgstr "覆寫模式的錄音"
 
 #: Daynight.class.php:63
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/grid.php:23
 msgid "State"
@@ -276,7 +276,7 @@ msgstr "狀態"
 
 #: Daynight.class.php:68
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/form.php:146
 #, php-format

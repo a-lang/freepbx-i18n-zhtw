@@ -49,7 +49,7 @@ msgstr "管理員"
 msgid ""
 "Asterisk home dir (%s) doesn't exist, and, ASTSPOOLDIR doesn't exist. "
 "Aborting"
-msgstr "Asterisk 家目錄 (%s) 不存在，且 ASTSPOOLDIR 不存在。正在中止"
+msgstr "Asterisk 家目錄（%s）不存在，且 ASTSPOOLDIR 也不存在。中止執行"
 
 #: install.php:14
 msgid "Cannot create xmpp tables"
@@ -171,7 +171,7 @@ msgstr "正在安裝/更新 NodeJS..."
 
 #: Xmpp.class.php:123
 msgid "Installing/Updating Required Libraries. This may take a while..."
-msgstr "正在安裝/更新必要的程式庫。這可能需要一些時間..."
+msgstr "正在安裝/更新所需的程式庫。這可能需要一些時間..."
 
 #: ucp/assets/js/global.js:244
 msgid "Login"
@@ -222,12 +222,12 @@ msgstr "否"
 
 #: Xmpp.class.php:98
 msgid "Node Package Manager is not installed"
-msgstr "Node Package Manager 尚未安裝"
+msgstr "Node 套件管理程式未安裝"
 
 #: Xmpp.class.php:77
 #: Xmpp.class.php:89
 msgid "Node is not installed"
-msgstr "Node 尚未安裝"
+msgstr "Node 未安裝"
 
 #: Xmpp.class.php:80
 #, php-format
@@ -278,7 +278,7 @@ msgstr "已啟動聊天伺服器。PID 為 %s"
 #: Xmpp.class.php:148
 #, php-format
 msgid "Started with PID %s!"
-msgstr "以 PID %s 啟動！"
+msgstr "已以 PID %s 啟動！"
 
 #: Xmpp.class.php:637
 msgid "Starting Chat Server..."

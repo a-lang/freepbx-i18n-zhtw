@@ -143,7 +143,7 @@ msgstr "列出優先順序"
 
 #: views/view.grid.add.php:168
 msgid "Loading..."
-msgstr "載入中..."
+msgstr "載入中…"
 
 #: Queueprio.class.php:169
 msgid "Missing ID!"
@@ -168,7 +168,7 @@ msgstr "新優先順序"
 #: Queueprio.class.php:125
 #, php-format
 msgid "Page Not Found (%s)!!!!"
-msgstr "找不到頁面 (%s)！"
+msgstr "找不到頁面（%s）！！！！"
 
 #: Queueprio.class.php:776
 #: views/view.form.php:83

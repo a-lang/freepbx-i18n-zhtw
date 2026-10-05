@@ -46,7 +46,7 @@ msgstr "<strong>成功！</strong> %s 資料已成功匯入。"
 
 #: Bulkhandler.class.php:157
 msgid "A PHP extension stopped the file upload"
-msgstr "PHP 擴充套件中止了檔案上傳"
+msgstr "PHP 擴充套件停止了檔案上傳"
 
 #: views/validate.php:49
 msgid "Actions"
@@ -136,7 +136,7 @@ msgstr "匯出為 CSV"
 
 #: Bulkhandler.class.php:154
 msgid "Failed to write file to disk"
-msgstr "無法將檔案寫入磁碟"
+msgstr "寫入檔案至磁碟失敗"
 
 #: views/import.php:111
 msgid "File to Import"
@@ -257,11 +257,11 @@ msgstr "送出"
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
 
 #: Bulkhandler.class.php:139
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: Bulkhandler.class.php:145
 msgid "The uploaded file was only partially uploaded"

@@ -53,7 +53,7 @@ msgstr "Asterisk API"
 
 #: views/page.main.php:5
 msgid "Asterisk Manager"
-msgstr "Asterisk 管理員"
+msgstr "Asterisk Manager"
 
 #: manager.i18n.php:10
 msgid "Asterisk Manager Users"
@@ -77,7 +77,7 @@ msgstr "無法刪除，與 FreePBX Asterisk 管理員使用者衝突！"
 
 #: Manager.class.php:430
 msgid "Cannot be deleted as it does not exist!"
-msgstr "無法刪除，因為不存在！"
+msgstr "無法刪除，因為它不存在！"
 
 #: functions.inc.php:24
 msgid "Choose Manager:"
@@ -197,7 +197,7 @@ msgstr "發起"
 #: Manager.class.php:328
 #, php-format
 msgid "Page Not Found (%s)!!!!"
-msgstr "找不到頁面 (%s)！！！！"
+msgstr "找不到頁面（%s）！！！！"
 
 #: views/view.grid.form.php:68
 msgid "Password for the manager."

@@ -866,7 +866,7 @@ msgstr "私人"
 #: Contactmanager.class.php:1128
 #: Contactmanager.class.php:1141
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: ucp/views/contact.php:86
 #: ucp/views/contact.php:141
@@ -916,7 +916,7 @@ msgstr "快速撥號"
 #: Contactmanager.class.php:1133
 #: Contactmanager.class.php:1146
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/favorite_view.php:6
 msgid "Swap items"

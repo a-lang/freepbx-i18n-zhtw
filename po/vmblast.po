@@ -21,7 +21,7 @@ msgstr ""
 
 #: views/view.grid.php:18
 msgid "Actions"
-msgstr "操作"
+msgstr "動作"
 
 #: views/rnav.php:3
 msgid "Add New"
@@ -61,7 +61,7 @@ msgstr "變更成功"
 
 #: Vmblast.class.php:283
 msgid "Command not found!"
-msgstr "找不到命令！"
+msgstr "找不到指令！"
 
 #: views/page.main.php:17
 msgid "Conflicting Extensions"
@@ -183,7 +183,7 @@ msgstr "讀出群組號碼"
 
 #: Vmblast.class.php:164
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/view.form.php:207
 msgid ""
@@ -193,7 +193,7 @@ msgstr "選取要加入此群組的語音信箱。使用 Ctrl 鍵可選取多個
 
 #: Vmblast.class.php:159
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: Vmblast.class.php:263
 msgid "Successfully Removed"

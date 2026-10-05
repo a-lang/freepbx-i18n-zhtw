@@ -202,7 +202,7 @@ msgid ""
 "If you choose to make a Page Group the \"default\" page group, a checkbox "
 "will appear in the Extensions Module that will allow you to include or "
 "exclude that Extension in the default Page Group when editing said extension"
-msgstr "如果您選擇將頁面群組設為「預設」頁面群組，分機模組中將會出現一個核取方塊，讓您在編輯該分機時，可將該分機包含或排除在預設頁面群組之外"
+msgstr "如果您選擇將頁面群組設為「預設」頁面群組，分機模組中將會出現一個勾選方塊，讓您在編輯該分機時，可將該分機包含或排除在預設頁面群組之外"
 
 #: functions.inc.php:1042
 msgid "Include"

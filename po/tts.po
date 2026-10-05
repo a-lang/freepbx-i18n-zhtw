@@ -97,7 +97,7 @@ msgstr "請透過 %s 安裝 TTS Engines 模組，或從 CLI 執行 `fwconsole ma
 
 #: Tts.class.php:165
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: Tts.class.php:170
 msgid "Submit"

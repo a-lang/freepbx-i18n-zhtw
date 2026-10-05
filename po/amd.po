@@ -99,7 +99,7 @@ msgstr "正在還原既有設定"
 
 #: views/settings.php:213
 msgid "Silence Threshold"
-msgstr "靜默門檻值"
+msgstr "靜音門檻值"
 
 #: views/settings.php:225
 msgid "Silence Threshold. Default is 256."

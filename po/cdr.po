@@ -98,7 +98,7 @@ msgid ""
 "particular CDR. Asterisk provides no additional semantics regarding these "
 "flags - they are present simply to help external systems classify CDRs"
 msgstr ""
-"在 A 方通道上指定的旗標。AMA 旗標設定於通道上並記錄於通話詳單中，用以告知計費系統如何處理該通話詳單。Asterisk 並未為這些旗標提供其他語義——它們僅為協助外部系統分類通話詳單而存在。"
+"在 A 方通道上指定的旗標。AMA 旗標設定於通道上並記錄於 CDR 中，用以告知計費系統如何處理該 CDR。Asterisk 並未為這些旗標提供其他語義——它們僅為協助外部系統分類 CDR 而存在。"
 
 #: Api/Gql/Cdr.php:495
 msgid ""
@@ -110,13 +110,13 @@ msgid ""
 "cannot be used, and the full \"{ edges { node } }\" version should be used "
 "instead."
 msgstr ""
-"此連線中所有傳回物件的清單。此為便於快速探索 API 所提供的便利欄位；當不需要邊緣資料時，可使用此欄位取代查詢 \"{ edges { node } }\"。請注意，當 Relay 等使用者端需要取得邊緣上的 \"cursor\" 欄位以實現有效分頁時，無法使用此簡寫，而應使用完整的 \"{ edges { node } }\" 版本。"
+"此連線中所有傳回物件的清單。此為便於快速探索 API 所提供的便利欄位；當不需要邊緣資料時，可使用此欄位取代查詢 \"{ edges { node } }\"。請注意，當 Relay 等使用者端需要取得邊緣上的 \"cursor\" 欄位以實作有效分頁時，無法使用此簡寫，而應使用完整的 \"{ edges { node } }\" 版本。"
 
 #: Api/Gql/Cdr.php:465
 msgid ""
 "A numeric value that, combined with uniqueid and linkedid, can be used to "
 "uniquely identify a single CDR record"
-msgstr "一個數值，與 uniqueid 和 linkedid 結合使用時，可用於唯一識別單筆通話詳單記錄"
+msgstr "一個數值，與 uniqueid 和 linkedid 結合使用時，可用於唯一識別單筆 CDR 記錄"
 
 #: Api/Gql/Cdr.php:149
 msgid "A unique identifier for the Party A channel"
@@ -196,15 +196,15 @@ msgstr "所有接通狀態"
 
 #: views/ucp_config.php:7
 msgid "Allow CDR"
-msgstr "允許通話詳單"
+msgstr "允許 CDR"
 
 #: views/ucp_config.php:64
 msgid "Allow CDR Downloads"
-msgstr "允許下載通話詳單"
+msgstr "允許下載 CDR"
 
 #: views/ucp_config.php:95
 msgid "Allow CDR Playback"
-msgstr "允許播放通話詳單"
+msgstr "允許播放 CDR"
 
 #: views/ucp_config.php:116
 msgid "Allow this user to playback recordings in UCP"
@@ -267,49 +267,49 @@ msgstr "忙線"
 
 #: ucp/Cdr.class.php:92
 msgid "CDR (Call History) is not enabled for this user."
-msgstr "此使用者未啟用通話詳單（通話記錄）。"
+msgstr "此使用者未啟用 CDR（通話記錄）。"
 
 #: views/ucp_config.php:38
 msgid "CDR Access"
-msgstr "通話詳單存取"
+msgstr "CDR 存取"
 
 #: cdr.i18n.php:18
 msgid "CDR Batch"
-msgstr "通話詳單批次"
+msgstr "CDR 批次"
 
 #: cdr.i18n.php:34
 msgid "CDR Batch Safe ShutDown"
-msgstr "通話詳單批次安全關機"
+msgstr "CDR 批次安全關機"
 
 #: cdr.i18n.php:22
 msgid "CDR Batch Size"
-msgstr "通話詳單批次大小"
+msgstr "CDR 批次大小"
 
 #: cdr.i18n.php:26
 msgid "CDR Batch Time"
-msgstr "通話詳單批次時間"
+msgstr "CDR 批次時間"
 
 #: Api/Gql/Cdr.php:18 /usr/src/freepbx/cdr/cdr.i18n.php:4
 #: cdr.i18n.php:10 /usr/src/freepbx/cdr/page.cdr.php:99
 msgid "CDR Reports"
-msgstr "通話詳單報告"
+msgstr "CDR 報告"
 
 #: cdr.i18n.php:30
 msgid "CDR Schedule Only"
-msgstr "僅通話詳單排程"
+msgstr "僅 CDR 排程"
 
 #: Api/Gql/Cdr.php:119
 msgid "CDR data does not exists"
-msgstr "通話詳單資料不存在"
+msgstr "CDR 資料不存在"
 
 #: Api/Gql/Cdr.php:98
 #: Api/Gql/Cdr.php:117
 msgid "CDR data found successfully"
-msgstr "成功找到通話詳單資料"
+msgstr "成功找到 CDR 資料"
 
 #: page.cdr.php:175
 msgid "CDR search"
-msgstr "通話詳單搜尋"
+msgstr "CDR 搜尋"
 
 #: page.cdr.php:430
 msgid "CNAM"
@@ -333,19 +333,19 @@ msgstr "通話日期"
 
 #: page.cdr.php:971
 msgid "Call Detail Record - Call Graph by"
-msgstr "通話詳單 - 通話圖表依"
+msgstr "Call Detail Record - 通話圖表依"
 
 #: page.cdr.php:1084
 msgid "Call Detail Record - Concurrent Calls by"
-msgstr "通話詳單 - 並行通話依"
+msgstr "Call Detail Record - 並行通話依"
 
 #: page.cdr.php:727
 msgid "Call Detail Record - Search Returned"
-msgstr "通話詳單 - 搜尋傳回"
+msgstr "Call Detail Record - 搜尋傳回"
 
 #: page.cdr.php:105
 msgid "Call Detail Record Search"
-msgstr "通話詳單搜尋"
+msgstr "Call Detail Record 搜尋"
 
 #: page.cdr.php:413
 msgid "Call Event Log - Search Returned"
@@ -359,12 +359,12 @@ msgstr "通話圖表"
 #: ucp/Cdr.class.php:49
 #: ucp/Cdr.class.php:143
 msgid "Call History"
-msgstr "通話記錄"
+msgstr "通話歷史"
 
 #: ucp/Cdr.class.php:72
 #, php-format
 msgid "Call History for %s"
-msgstr "%s 的通話記錄"
+msgstr "%s 的通話歷史"
 
 #: page.cdr.php:371 /usr/src/freepbx/cdr/page.cdr.php:890
 #: page.cdr.php:1247
@@ -466,7 +466,7 @@ msgstr "十二月"
 msgid ""
 "Define the maximum number of CDRs to accumulate in the buffer before posting "
 "them to the backend engines.  'batch' must be set to 'yes'.  Default is 200."
-msgstr "定義在傳送至背景引擎之前，要在緩衝區中累積的最大通話詳單數量。'batch' 必須設為 'yes'。預設值為 200。"
+msgstr "定義在傳送至背景引擎之前，要在緩衝區中累積的最大 CDR 數量。'batch' 必須設為 'yes'。預設值為 200。"
 
 #: cdr.i18n.php:28
 msgid ""
@@ -475,11 +475,11 @@ msgid ""
 "records, regardless of the value defined for 'size'. 'batch' must be set to "
 "'yes'.  Note that time is in seconds. Default is 300 (5 minutes)."
 msgstr ""
-"定義在傳送至背景引擎之前，要在緩衝區中累積通話詳單的最長時間。若達此時間限制，則無論 'size' 設定值為何，都會傳送記錄。'batch' 必須設為 'yes'。請注意時間單位為秒。預設值為 300（5 分鐘）。"
+"定義在傳送至背景引擎之前，要在緩衝區中累積 CDR 的最長時間。若達此時間限制，則無論 'size' 設定值為何，都會傳送記錄。'batch' 必須設為 'yes'。請注意時間單位為秒。預設值為 300（5 分鐘）。"
 
 #: cdr.i18n.php:16
 msgid "Define whether or not to use CDR logging.  Setting this to "
-msgstr "定義是否使用通話詳單記錄。將此設為 "
+msgstr "定義是否使用 CDR 記錄。將此設為 "
 
 #: ucp/views/widget.php:28
 msgid "Description"
@@ -487,7 +487,7 @@ msgstr "描述"
 
 #: Api/Gql/Cdr.php:441
 msgid "Description of the blocked number"
-msgstr "被封鎖號碼的描述"
+msgstr "已封鎖號碼的描述"
 
 #: page.cdr.php:271 /usr/src/freepbx/cdr/page.cdr.php:748
 msgid "Destination"
@@ -539,7 +539,7 @@ msgstr "下載"
 #: page.cdr.php:319 /usr/src/freepbx/cdr/page.cdr.php:750
 #: ucp/views/widget.php:29
 msgid "Duration"
-msgstr "時間長度"
+msgstr "持續時間"
 
 #: install.php:163
 msgid "ERROR failed to update database"
@@ -547,11 +547,11 @@ msgstr "錯誤：無法更新資料庫"
 
 #: views/ucp_config.php:28
 msgid "Enable CDR (Call History) in UCP for this user"
-msgstr "為此使用者在 UCP 中啟用通話詳單（通話記錄）"
+msgstr "為此使用者在 UCP 中啟用 CDR （通話歷史）"
 
 #: cdr.i18n.php:12
 msgid "Enable CDR Logging"
-msgstr "啟用通話詳單記錄"
+msgstr "啟用 CDR 記錄"
 
 #: Api/Gql/Cdr.php:54
 msgid "End Date"
@@ -621,11 +621,11 @@ msgstr "從"
 
 #: page.cdr.php:976
 msgid "Go to the CDR Graph"
-msgstr "前往通話詳單圖表"
+msgstr "前往 CDR 圖表"
 
 #: page.cdr.php:975
 msgid "Go to the top of the CDR table"
-msgstr "前往通話詳單表格頂端"
+msgstr "前往 CDR 表格頂端"
 
 #: page.cdr.php:351
 msgid "Group By"
@@ -645,7 +645,7 @@ msgstr "小時"
 
 #: install.php:331
 msgid "How many days cdr need to keep in transient cdr "
-msgstr "通話詳單需在暫存通話詳單中保留多少天"
+msgstr "CDR 需在暫存 CDR 中保留多少天"
 
 #: install.php:316
 msgid ""
@@ -720,7 +720,7 @@ msgstr "否"
 
 #: page.cdr.php:337
 msgid "No Answer"
-msgstr "未接通"
+msgstr "無人接聽"
 
 #: Api/Gql/Cdr.php:100
 msgid "No Data Found"
@@ -789,7 +789,7 @@ msgstr "錄音"
 
 #: page.cdr.php:729
 msgid "Related Call Detail Records"
-msgstr "相關通話詳單記錄"
+msgstr "相關 CDR 記錄"
 
 #: Console/Cdr.class.php:18
 msgid "Remove Data older than retention days"
@@ -912,7 +912,7 @@ msgid ""
 "have the disposition \"CANCEL\" instead of the default \"NO ANSWER\". This "
 "option is supported on Asterisk version 20 and above."
 msgstr ""
-"Asterisk 中的 \"canceldispositionenabled\" 選項可讓通話詳單（CDR）區分已取消（撥叫者在接聽前掛斷）與其他未接通的通話。啟用此選項後，因撥叫者在響鈴期間掛斷而結束的通話，其接通狀態將為 \"CANCEL\" 而非預設的 \"NO ANSWER\"。此選項支援 Asterisk 20 及以上版本。"
+"Asterisk 中的 \"canceldispositionenabled\" 選項可讓 CDR 區分已取消（撥叫者在接聽前掛斷）與其他未接通的通話。啟用此選項後，因撥叫者在響鈴期間掛斷而結束的通話，其接通狀態將為 \"CANCEL\" 而非預設的 \"NO ANSWER\"。此選項支援 Asterisk 20 及以上版本。"
 
 #: cdr.i18n.php:32
 msgid ""
@@ -921,7 +921,7 @@ msgid ""
 "thread can be spawned for the submission of every batch. For small batches, "
 "it might be acceptable to just use the scheduler thread, so set this to "
 msgstr ""
-"通話詳單引擎使用內部 Asterisk 排程器來決定何時傳送記錄。傳送可在排程器執行緒內完成，或可為每次批次提交產生新執行緒。對於小型批次，使用排程器執行緒可能已可接受，因此請將此設為 "
+"CDR 引擎使用內部 Asterisk 排程器來決定何時傳送記錄。傳送可在排程器執行緒內完成，或可為每次批次提交產生新執行緒。對於小型批次，使用排程器執行緒可能已可接受，因此請將此設為 "
 
 #: Api/Gql/Cdr.php:197
 #: Api/Gql/Cdr.php:393
@@ -987,11 +987,11 @@ msgstr "該分機未與使用者帳號關聯"
 #: Api/Gql/Cdr.php:45
 #: Api/Gql/Cdr.php:305
 msgid "The final known disposition of the CDR record"
-msgstr "通話詳單記錄的最終已知接通狀態"
+msgstr "CDR 記錄的最終已知接通狀態"
 
 #: ucp/Cdr.class.php:102
 msgid "The given extension is empty."
-msgstr "指定的分機為空。"
+msgstr "指定的分機為空白。"
 
 #: Api/Gql/Cdr.php:257
 msgid "The last application the Party A channel executed"
@@ -1020,11 +1020,11 @@ msgstr "從開始至結束的時間（秒）"
 #: Api/Gql/Cdr.php:161
 #: Api/Gql/Cdr.php:173
 msgid "The time the CDR was created"
-msgstr "建立通話詳單的時間"
+msgstr "建立 CDR 的時間"
 
 #: ucp/Cdr.class.php:97
 msgid "There are no assigned extensions."
-msgstr "沒有指定的分機。"
+msgstr "沒有指派的分機。"
 
 #: views/ucp_config.php:54
 msgid ""
@@ -1054,11 +1054,11 @@ msgstr "總計時間"
 
 #: install.php:315
 msgid "Transient CDR"
-msgstr "暫存通話詳單"
+msgstr "暫存 CDR"
 
 #: install.php:330
 msgid "Transient CDR data retention"
-msgstr "暫存通話詳單資料保留"
+msgstr "暫存 CDR 資料保留"
 
 #: install.php:49
 msgid "Unable to add index to did field in the cdr table"
@@ -1126,7 +1126,7 @@ msgid ""
 "submission of CDR data during asterisk shutdown, set this to 'yes'. Default "
 "is 'no'."
 msgstr ""
-"關閉 Asterisk 時，您可以等待直到通話詳單提交完成。若不等待，資料很可能會遺失。您隨時可透過 CLI 的 'cdr status 命令' 檢查通話詳單批次緩衝區的大小。若要在 Asterisk 關機期間啟用通話詳單資料提交的阻擋功能，請將此設為 'yes'。預設值為 'no'。"
+"關閉 Asterisk 時，您可以等待直到 CDR 送出完成。若不等待，資料很可能會遺失。您隨時可透過 CLI 的 'cdr status 命令' 檢查 CDR 批次緩衝區的大小。若要在 Asterisk 關機期間啟用 CDR 資料提交的阻擋功能，請將此設為 'yes'。預設值為 'no'。"
 
 #: views/ucp_config.php:13
 #: views/ucp_config.php:70
@@ -1143,7 +1143,7 @@ msgid ""
 "distributed with the PBX. If you'd like to install the binaries needed for "
 "these conversions click <a href='%s'>here</a>"
 msgstr ""
-"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。如果您想安裝這些轉換所需的二進位檔，請點擊<a href='%s'>此處</a>"
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點選<a href='%s'>此處</a>"
 
 #: cdr.i18n.php:14
 msgid "cdr"

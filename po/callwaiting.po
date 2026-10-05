@@ -28,7 +28,7 @@ msgstr "應用程式"
 #: ucp/Callwaiting.class.php:88
 #: ucp/Callwaiting.class.php:127
 msgid "Call Waiting"
-msgstr "電話等候"
+msgstr "來電待接"
 
 #: callwaiting.i18n.php:12
 #: install.php:10
@@ -67,11 +67,11 @@ msgstr "電話等候：開啟"
 
 #: ucp/views/widget.php:2
 msgid "Disabled"
-msgstr "停用"
+msgstr "已停用"
 
 #: ucp/views/widget.php:2
 msgid "Enabled"
-msgstr "啟用"
+msgstr "已啟用"
 
 #: callwaiting.i18n.php:8
 msgid "Provides an option to turn on/off call waiting"

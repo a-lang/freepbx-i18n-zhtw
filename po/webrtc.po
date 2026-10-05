@@ -163,7 +163,7 @@ msgstr "註冊失敗"
 #, php-format
 msgid ""
 "Running an unsupported version of Asterisk. %s Detected Asterisk version: %s "
-msgstr "執行不支援的 Asterisk 版本。%s 偵測到的 Asterisk 版本：%s "
+msgstr "正在執行不受支援的 Asterisk 版本。%s 偵測到的 Asterisk 版本：%s "
 
 #: ucp/views/settings.php:3
 msgid "Silence Ringer"

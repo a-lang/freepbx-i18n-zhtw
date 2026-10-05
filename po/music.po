@@ -220,7 +220,7 @@ msgstr "否"
 
 #: Music.class.php:525
 msgid "No file was uploaded"
-msgstr "未上傳檔案"
+msgstr "未上傳任何檔案"
 
 #: Music.class.php:101
 msgid "On Hold Music"
@@ -277,11 +277,11 @@ msgstr "系統設定"
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
-msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指示"
+msgstr "上傳的檔案超過 HTML 表單中指定的 MAX_FILE_SIZE 指令限制"
 
 #: Music.class.php:516
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
-msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指示"
+msgstr "上傳的檔案超過 php.ini 中的 upload_max_filesize 指令限制"
 
 #: Music.class.php:522
 msgid "The uploaded file was only partially uploaded"
@@ -360,4 +360,4 @@ msgid ""
 "distributed with the PBX. If you'd like to install the binaries needed for "
 "these conversions click <a href='%s'>here</a>"
 msgstr ""
-"您缺少此瀏覽器的播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 一起發佈的程式。若要安裝這些轉換所需的二進位檔案，請按一下 <a href='%s'>這裡</a>"
+"您的瀏覽器缺少播放支援。若要完整支援 HTML5 瀏覽器播放，您需要安裝無法與 PBX 散發的程式。若您需要安裝這些轉換所需的二進位檔案，請點選<a href='%s'>此處</a>"

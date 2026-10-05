@@ -230,7 +230,7 @@ msgstr "關於區域"
 #: views/intrusion_detection.php:433
 #: views/intrusion_detection.php:471
 msgid "Action"
-msgstr "操作"
+msgstr "動作"
 
 #: views/view.shortcuts.php:15
 msgid "Add Host"
@@ -462,7 +462,7 @@ msgstr "封鎖時間"
 msgid ""
 "Below is a list of clients that have successfully registered and been "
 "validated by Responsive Firewall."
-msgstr "以下是已成功登錄並通過響防火牆驗證的使用者端清單。"
+msgstr "以下是已成功登錄並通過 Responsive Firewall 驗證的使用者端清單。"
 
 #: views/page.services.php:41
 msgid "Blacklist"
@@ -493,13 +493,14 @@ msgid ""
 "By default, Fail2Ban remains active even when responsive firewall is "
 "enabled.  This provides additional protection against attackers with access "
 "to an IP with a registered device or comprimised SIP credentials."
-msgstr "預設情況下，即使響防火牆已啟用，Fail2Ban 仍保持運作。這為擁有已登記裝置或遭入侵 SIP 認證的 IP 的攻擊者提供額外的防護。"
+msgstr ""
+"預設情況下，即使 Responsive Firewall 已啟用，Fail2Ban 仍保持運作。這為擁有已登記裝置或遭入侵 SIP 認證的 IP 的攻擊者提供額外的防護。"
 
 #: views/view.smart.php:166
 msgid ""
 "By enabling the bypass below, an exemption will be added to Fail2Ban for any "
 "IP that has successfully registered through the Responsive Firewall."
-msgstr "透過啟用下方的略過選項，任何透過響防火牆成功註冊的 IP 將被加入 Fail2Ban 的例外清單。"
+msgstr "透過啟用下方的略過選項，任何透過 Responsive Firewall 成功註冊的 IP 將被加入 Fail2Ban 的例外清單。"
 
 #: views/view.settings.php:38
 msgid ""
@@ -659,7 +660,7 @@ msgstr "從「區域」中刪除提供的 ID。"
 #: Api/Gql/Firewall.php:365
 #: views/modal.customsvc.php:11
 msgid "Description"
-msgstr "說明"
+msgstr "描述"
 
 #: views/view.smart.php:42
 msgid "Disable"
@@ -703,7 +704,7 @@ msgstr "電子郵件："
 
 #: Restore.php:88
 msgid "ERROR: Custom rule recovery process aborted, timeout exceeded!!!"
-msgstr "錯誤：自訂規則還原程序已中止，超過逾時時間！！！"
+msgstr "錯誤：自訂規則還原流程已中止，超過逾時時間！！！"
 
 #: Restore.php:98
 msgid ""
@@ -746,7 +747,7 @@ msgstr "在開機時啟用 / 停用入侵偵測服務。"
 
 #: OOBE.class.php:206
 msgid "Enable Responsive Firewall?"
-msgstr "啟用響防火牆？"
+msgstr "啟用 Responsive Firewall？"
 
 #: Api/Gql/Firewall.php:45
 msgid "Enable firewall"
@@ -781,7 +782,7 @@ msgstr "正在啟用防火牆。"
 msgid ""
 "Enabling Responsive Firewall allows remote clients to securely register to "
 "this server without explicitly whitelisting them."
-msgstr "啟用響防火牆可讓遠端使用者端安全地登錄此伺服器，而無需明確將其加入白名單。"
+msgstr "啟用 Responsive Firewall 可讓遠端使用者端安全地登錄此伺服器，而無需明確將其加入白名單。"
 
 #: views/view.networks.php:66
 msgid "Enter new IP or Hostname here"
@@ -859,7 +860,7 @@ msgid ""
 "Exercise extreme caution when editing Responsive Threshold Parameters. "
 "Improper config can block legitimate registrations or expand access from "
 "untrusted sources"
-msgstr "編輯響防火牆閾值參數時請格外小心。設定不當可能會封鎖合法的登錄或擴大來自不信任來源的存取"
+msgstr "編輯 Responsive Threshold 參數時請格外小心。設定不當可能會封鎖合法的登錄或擴大來自不信任來源的存取"
 
 #: OOBE.class.php:259
 #, php-format
@@ -883,7 +884,7 @@ msgstr "FTP 由 Endpoint Manager 用來傳送韌體映像檔到電話，以及�
 
 #: Console/Firewall.class.php:229
 msgid "Fail2ban is not started. Syncing Process canceled."
-msgstr "Fail2ban 未啟動。同步程序已取消。"
+msgstr "Fail2ban 未啟動。同步流程已取消。"
 
 #: assets/js/views/advanced.js:603
 msgid "Failed State Change!"
@@ -970,7 +971,7 @@ msgstr "防火牆設定已成功儲存"
 
 #: Api/Gql/Firewall.php:52
 msgid "Firewall enable process has been completed."
-msgstr "防火牆啟用程序已完成。"
+msgstr "防火牆啟用流程已完成。"
 
 #: Console/Firewall.class.php:33
 msgid "Firewall functions"
@@ -1171,7 +1172,7 @@ msgstr ""
 msgid ""
 "If you are not using the Responsive Firewall, there will be no useful "
 "information available here."
-msgstr "如果您沒有使用響防火牆，這裡將不會有有用的資訊。"
+msgstr "如果您沒有使用 Responsive Firewall，這裡將不會有有用的資訊。"
 
 #: views/view.blocked.php:20
 #: views/view.blocked.php:34
@@ -1179,14 +1180,14 @@ msgid ""
 "If you believe one of the hosts has been added in error, you can click the "
 "red 'X' to remove the block. If the host continues to send invalid data, it "
 "will be automatically re-added."
-msgstr "如果您認為其中一個主機是誤新增的，可以點擊紅色「X」來移除封鎖。如果主機繼續傳送無效資料，它將被自動重新新增。"
+msgstr "如果您認為其中一個主機是誤新增的，可以點選紅色「X」來移除封鎖。如果主機繼續傳送無效資料，它將被自動重新新增。"
 
 #: views/oobe.welcome.php:16
 msgid ""
 "If you do not wish to use Sangoma Smart Firewall, simply click 'Abort'. You "
 "may return to this setup wizard via the 'Firewall' option in the "
 "Connectivity menu."
-msgstr "如果您不想使用 Sangoma 智慧防火牆，只需點擊「中止」。您可以透過連線能力選單中的「防火牆」選項返回此設定精靈。"
+msgstr "如果您不想使用 Sangoma Smart Firewall，只需點選「中止」。您可以透過連線能力選單中的「防火牆」選項返回此設定精靈。"
 
 #: views/intrusion_detection.php:335
 msgid "Import all IP addresses from all source types."
@@ -1203,7 +1204,7 @@ msgid ""
 "configured device doesn't trip the firewall and cause legitimate devices "
 "behind the same public IP to be blocked."
 msgstr ""
-"在某些情況下，可能會希望響防火牆將 Fail2Ban 的已知登錄加入白名單，這樣設定錯誤的裝置就不會觸發防火牆，並導致位於相同公共 IP 後面的合法裝置被封鎖。"
+"在某些情況下，可能會希望 Responsive Firewall 將 Fail2Ban 的已知登錄加入白名單，這樣設定錯誤的裝置就不會觸發防火牆，並導致位於相同公共 IP 後面的合法裝置被封鎖。"
 
 #: Restore.php:102
 msgid ""
@@ -1421,7 +1422,7 @@ msgstr "防火牆介面和預設區域的清單"
 #: views/view.registered.php:15
 #: views/view.status.php:15
 msgid "Loading..."
-msgstr "載入中……"
+msgstr "載入中…"
 
 #: Zones.class.php:10
 msgid "Local"
@@ -1555,7 +1556,7 @@ msgstr "沒有定義的自訂服務。"
 
 #: views/view.registered.php:16
 msgid "No Endpoints have been allowed through the Responsive Firewall"
-msgstr "沒有端點被允許透過響防火牆"
+msgstr "沒有端點被允許透過 Responsive Firewall"
 
 #: views/view.interfaces.php:84
 msgid "No IP Addresses assigned to this interface."
@@ -1802,7 +1803,8 @@ msgid ""
 "interface from the phone itself. Note that any devices that are allowed "
 "access via Responsive Firewall are automatically granted access to this "
 "service."
-msgstr "REST 應用程式與智慧型電話搭配使用，以從電話本身提供互動介面。請注意，任何允許透過響防火牆存取的裝置都會自動被授予此服務的存取權。"
+msgstr ""
+"REST 應用程式與智慧型電話搭配使用，以從電話本身提供互動介面。請注意，任何允許透過 Responsive Firewall 存取的裝置都會自動被授予此服務的存取權。"
 
 #: views/view.shortcuts.php:5
 msgid ""
@@ -1876,26 +1878,26 @@ msgstr "重設"
 #: views/page.about.php:54
 #: views/view.smart.php:3
 msgid "Responsive Firewall"
-msgstr "響防火牆"
+msgstr "Responsive Firewall"
 
 #: views/view.about.php:20
 msgid ""
 "Responsive Firewall allows your machine to automatically block attacks to "
 "your machine, while learning and automatically granting permission to "
 "authorized devices, without the need to manually configure them."
-msgstr "響防火牆讓您的機器可以自動封鎖對您機器的攻擊，同時學習並自動授予授權裝置的權限，無需手動設定。"
+msgstr "Responsive Firewall 讓您的機器可以自動封鎖對您機器的攻擊，同時學習並自動授予授權裝置的權限，無需手動設定。"
 
 #: OOBE.class.php:215
 msgid "Responsive Firewall is <strong>currently enabled</strong>."
-msgstr "響防火牆<strong>目前已啟用</strong>。"
+msgstr "Responsive Firewall<strong>目前已啟用</strong>。"
 
 #: views/view.about.php:26
 msgid "Responsive Firewall is <strong>enabled</strong>."
-msgstr "響防火牆<strong>已啟用</strong>。"
+msgstr "Responsive Firewall<strong>已啟用</strong>。"
 
 #: views/view.about.php:19
 msgid "Responsive Firewall is not enabled."
-msgstr "響防火牆未啟用。"
+msgstr "Responsive Firewall 未啟用。"
 
 #: Api/Gql/Firewall.php:373
 #: views/view.settings.php:14
@@ -1904,7 +1906,7 @@ msgstr "響 LetsEncrypt 規則"
 
 #: views/view.smart.php:82
 msgid "Responsive firewall threshold parameters"
-msgstr "響防火牆閾值參數"
+msgstr "Responsive Firewall 門檻值參數"
 
 #: Console/Firewall.class.php:106
 msgid "Restart the System Firewall"
@@ -1992,17 +1994,17 @@ msgstr "Sangoma Phone 桌面使用者端服務無法使用或未取得授權。�
 
 #: OOBE.class.php:43
 msgid "Sangoma Smart Firewall"
-msgstr "Sangoma 智慧防火牆"
+msgstr "Sangoma Smart Firewall"
 
 #: views/oobe.welcome.php:14
 msgid ""
 "Sangoma Smart Firewall is a revolutionary Open Source Firewall solution, "
 "designed from the ground up to completely secure your VoIP system."
-msgstr "Sangoma 智慧防火牆是革命性的開放原始碼防火牆解決方案，從頭開始設計以完全保護您的 VoIP 系統。"
+msgstr "Sangoma Smart Firewall 是革命性的開放原始碼防火牆解決方案，從頭開始設計以完全保護您的 VoIP 系統。"
 
 #: views/oobe.welcome.php:2
 msgid "Sangoma Smart Firewall is now enabled!"
-msgstr "Sangoma 智慧防火牆現已啟用！"
+msgstr "Sangoma Smart Firewall 現已啟用！"
 
 #: Firewall.class.php:1835
 #: Firewall.class.php:1844
@@ -2183,7 +2185,7 @@ msgstr "請求的狀態"
 
 #: Api/Gql/Firewall.php:295
 msgid "Status for the responsive firewall"
-msgstr "響防火牆的狀態"
+msgstr "Responsive Firewall 的狀態"
 
 #: Api/Gql/Firewall.php:307
 msgid "Status of safe mode enabled/disabled"
@@ -2199,7 +2201,7 @@ msgstr "信任主機的狀態"
 
 #: Api/Gql/Firewall.php:325
 msgid "Status responsive enabled"
-msgstr "響防火牆啟用狀態"
+msgstr "Responsive Firewall 啟用狀態"
 
 #: Console/Firewall.class.php:104
 msgid "Stop the System Firewall"
@@ -2276,7 +2278,7 @@ msgstr "TFTP 通常用於裝置的佈建和升級。"
 
 #: views/oobe.welcome.php:22
 msgid "Thanks for using Sangoma Smart Firewall!"
-msgstr "感謝使用 Sangoma 智慧防火牆！"
+msgstr "感謝使用 Sangoma Smart Firewall！"
 
 #: views/intrusion_detection.php:296
 msgid ""
@@ -2286,7 +2288,7 @@ msgstr "電子郵件顯示的「寄件者」地址是在「通知設定」中設
 
 #: Console/Firewall.class.php:224
 msgid "The Firewall is not started. Syncing Process canceled."
-msgstr "防火牆未啟動。同步程序已取消。"
+msgstr "防火牆未啟動。同步流程已取消。"
 
 #: views/view.advanced_customrules.php:17
 msgid ""
@@ -2299,7 +2301,7 @@ msgid ""
 "The changes are not yet applied. They will be applied during the next "
 "synchronization. However, you can apply them immediately by clicking the "
 "Save button."
-msgstr "變更尚未套用。它們將在下一次同步期間套用。但是，您可以透過點擊儲存按鈕立即套用它們。"
+msgstr "變更尚未套用。它們將在下一次同步期間套用。但是，您可以透過點選儲存按鈕立即套用它們。"
 
 #: Firewall.class.php:804
 #, php-format
@@ -2456,7 +2458,7 @@ msgid ""
 "This firewall runs in a Deny-By-Default configuration. However, if you "
 "enable 'Responsive Firewall', your Signalling ports are exposed to the "
 "internet, and may be attackable."
-msgstr "此防火牆以預設拒絕設定執行。但是，如果您啟用「響防火牆」，您的訊號連接埠會暴露到網際網路，可能會被攻擊。"
+msgstr "此防火牆以預設拒絕設定執行。但是，如果您啟用「Responsive Firewall」，您的訊號連接埠會暴露到網際網路，可能會被攻擊。"
 
 #: Zones.class.php:9
 msgid ""
@@ -2469,7 +2471,7 @@ msgid ""
 "This is done by a small process that runs on your PBX server that "
 "automatically updates firewall rules based on the current trunk and "
 "extension configuration of your PBX."
-msgstr "這是由在您的 PBX 伺服器上執行的小程序完成的，它會根據您 PBX 的目前分機和中繼設定自動更新防火牆規則。"
+msgstr "這是由在您的 PBX 伺服器上執行的小型處理程序完成的，它會根據您 PBX 的目前分機和中繼設定自動更新防火牆規則。"
 
 #: Services.class.php:326
 msgid "This is the SIP driver (pjsip). Most devices use SIP."
@@ -2505,7 +2507,7 @@ msgstr "此頁面顯示所有已知服務的已偵測連接埠和連接埠範圍
 
 #: views/view.status.php:6
 msgid "This page gives you a summary of the status of the Responsive Firewall."
-msgstr "此頁面提供響防火牆狀態的摘要。"
+msgstr "此頁面提供 Responsive Firewall 狀態的摘要。"
 
 #: Services.class.php:294
 #, php-format
@@ -2521,7 +2523,8 @@ msgid ""
 "This protocol is being managed by the Responsive Firewall. You "
 "<strong>should not</strong> enable access from the 'Internet' zone, or "
 "Responsive Firewall will be bypassed."
-msgstr "此通訊協定由響防火牆管理。您<strong>不應</strong>啟用從「Internet」區域的存取，否則響防火牆將被略過。"
+msgstr ""
+"此通訊協定由 Responsive Firewall 管理。您<strong>不應</strong>啟用從「Internet」區域的存取，否則 Responsive Firewall 將被略過。"
 
 #: views/intrusion_detection.php:103
 msgid "This service will be started on boot."
@@ -2568,7 +2571,7 @@ msgid ""
 "that their traffic has been administratively blocked. They will NOT be "
 "permitted to access the Responsive Firewall service."
 msgstr ""
-"為了減輕任何潛在的攻擊，您可以在此新增任意數量的主機或網路，而來自這些條目的任何流量將會收到其流量已被管理性封鎖的回應。它們將<strong>不允許</strong>存取響防火牆服務。"
+"為了減輕任何潛在的攻擊，您可以在此新增任意數量的主機或網路，而來自這些條目的任何流量將會收到其流量已被管理性封鎖的回應。它們將不被允許存取 Responsive Firewall 服務。"
 
 #: Api/Gql/Firewall.php:643
 msgid "To enable/disable Custom Firewall Rules"
@@ -2592,7 +2595,7 @@ msgstr "啟用/停用防火牆"
 
 #: Api/Gql/Firewall.php:520
 msgid "To enable/disable a responsive firewall"
-msgstr "啟用/停用響防火牆"
+msgstr "啟用/停用 Responsive Firewall"
 
 #: Api/Gql/Firewall.php:535
 #: Api/Gql/Firewall.php:635
@@ -2611,7 +2614,7 @@ msgstr "啟用/舊版 入侵偵測同步防火牆"
 msgid ""
 "To start using Sangoma Smart Firewall you simply need to answer a couple of "
 "questions, and your Firewall will be configured and activated immediately."
-msgstr "若要開始使用 Sangoma 智慧防火牆，您只需要回答幾個問題，您的防火牆就會立即設定並啟用。"
+msgstr "若要開始使用 Sangoma Smart Firewall，您只需要回答幾個問題，您的防火牆就會立即設定並啟用。"
 
 #: views/view.status.php:20
 msgid "Total number of Attackers detected:"
@@ -2727,7 +2730,7 @@ msgstr "根據選取的選項更新白名單。"
 
 #: assets/js/views/advanced.js:583
 msgid "Updating..."
-msgstr "正在更新……"
+msgstr "正在更新…"
 
 #: Api/Gql/Firewall.php:314
 msgid "Value of the current jiffies"
@@ -2770,7 +2773,7 @@ msgid ""
 "We hope you're enjoying it! There's some additional questions you should "
 "answer. If you don't want to answer them at this time, just click Abort, and "
 "no changes will be made to your existing Firewall setup."
-msgstr "我們希望您喜歡它！還有一些額外的問題您應該回答。如果您目前不想回答它們，只需點擊中止，就不會對您現有的防火牆設定進行任何變更。"
+msgstr "我們希望您喜歡它！還有一些額外的問題您應該回答。如果您目前不想回答它們，只需點選中止，就不會對您現有的防火牆設定進行任何變更。"
 
 #: Services.class.php:132
 msgid "Web Management"
@@ -2855,7 +2858,7 @@ msgstr "您可以在此自動新增主機。"
 
 #: views/view.about.php:21
 msgid "You can enable Responsive Firewall in the 'Responsive Firewall' tab."
-msgstr "您可以在「響防火牆」分頁中啟用響防火牆。"
+msgstr "您可以在「Responsive Firewall」分頁中啟用 Responsive Firewall。"
 
 #: views/view.interfaces.php:109
 msgid "You can enter a short description for this interface here."

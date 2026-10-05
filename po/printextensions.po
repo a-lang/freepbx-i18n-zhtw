@@ -40,7 +40,7 @@ msgstr "已全部選取"
 
 #: Printextensions.class.php:148
 msgid "Command not found!"
-msgstr "找不到命令！"
+msgstr "找不到指令！"
 
 #: printextensions.i18n.php:8
 msgid ""
@@ -148,7 +148,7 @@ msgstr "標題"
 #: Printextensions.class.php:131
 #: Printextensions.class.php:143
 msgid "Update process failed!"
-msgstr "更新程序失敗！"
+msgstr "更新流程失敗！"
 
 #: Printextensions.class.php:284
 msgid "User"

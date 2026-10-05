@@ -56,11 +56,11 @@ msgstr ""
 
 #: views/form.php:53
 msgid "CallerID Name"
-msgstr "CallerID 名稱"
+msgstr "來電顯示名稱"
 
 #: views/form.php:73
 msgid "CallerID Number"
-msgstr "CallerID 號碼"
+msgstr "來電顯示號碼"
 
 #: Setcid.class.php:109
 msgid "Delete"
@@ -98,7 +98,7 @@ msgstr "請選擇一個項目。"
 
 #: Setcid.class.php:114
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: views/main.php:4
 msgid "Set CID"

@@ -135,11 +135,11 @@ msgstr "請輸入有效的語言代碼"
 
 #: Languages.class.php:64
 msgid "Reset"
-msgstr "重置"
+msgstr "重設"
 
 #: Languages.class.php:59
 msgid "Submit"
-msgstr "提交"
+msgstr "送出"
 
 #: views/form.php:124
 msgid ""

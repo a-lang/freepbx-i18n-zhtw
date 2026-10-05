@@ -38,7 +38,7 @@ msgstr "取得指令清單時發生錯誤！！"
 #: assets/js/asterisk-cli.js:19
 #: assets/js/asterisk-cli.js:45
 msgid "Loading..."
-msgstr "載入中..."
+msgstr "載入中…"
 
 #: Asteriskdashcli.class.php:68
 msgid "No Output Returned"
