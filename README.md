@@ -20,7 +20,7 @@ FreePBX 各模組管理介面的正體中文 gettext 語系檔。將對應模組
 - **amp**＝framework 核心（管理介面共用字串），上游為 `FreePBX/framework` 的 `amp_conf/htdocs/admin/i18n/amp.pot`。
 - 其他模組各自成檔，上游 pot 位於各模組 repo 的 `i18n/<模組>.pot`。
 
-## 套用機制（上游如何載入）
+## 套用機制
 
 FreePBX 管理介面使用 PHP gettext：
 
@@ -59,6 +59,14 @@ locale -a | grep zh_TW     # 需看到 zh_TW.utf8
 
 ### 自動化部署（建議）
 
+Clone 專案
+
+```bash
+git clone https://github.com/a-lang/freepbx-i18n-zhtw
+cd freepbx-i18n-zhtw
+```
+
+
 `deploy.sh` 會自動完成所有模組的編譯、部署與清理：
 
 1. 修改 `deploy.sh` 中的 `web_root` 為 FreePBX 的 Web root（可查 `/etc/amportal.conf` 的 `AMPWEBROOT`，通常為 `/var/www/html`）
@@ -74,6 +82,13 @@ locale -a | grep zh_TW     # 需看到 zh_TW.utf8
 - 部署完成後自動清理 `po/` 下的 `.mo` 檔案
 
 ### 手動部署（備援）
+
+Clone 專案
+
+```bash
+git clone https://github.com/a-lang/freepbx-i18n-zhtw
+cd freepbx-i18n-zhtw
+```
 
 若需手動部署單一模組：
 
