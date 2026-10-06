@@ -91,7 +91,7 @@ cd freepbx-i18n-zhtw
 2. 執行腳本：
 
 ```bash
-./deploy.sh
+sudo bash deploy.sh
 ```
 
 腳本自動處理：
@@ -135,7 +135,7 @@ msgfmt -v /var/www/html/admin/modules/<模組>/i18n/zh_TW/LC_MESSAGES/<模組>.p
 
 ### 重啟 Web server（PHP 程序會快取已載入的 catalog）
 ```bash
-systemctl restart apache2   # 或對應的 php-fpm；勿用 fwconsole restart（會連 Asterisk 一起重啟）
+sudo systemctl restart apache2   # 或對應的 php-fpm；勿用 fwconsole restart（會連 Asterisk 一起重啟）
 ```
 
 ### 驗證 — amp 範例（其他模組換 domain 與路徑即可）
@@ -161,7 +161,7 @@ cd freepbx-i18n-zhtw && git pull origin main
 grep '^web_root=' deploy.sh
 
 # 3. 重新編譯並部署，覆寫 admin/… 與 admin/modules/<模組>/… 下的既有語系檔
-sudo ./deploy.sh
+sudo bash deploy.sh
 
 # 4. 重啟 Web server，讓新的 catalog 生效
 sudo systemctl restart apache2

@@ -62,7 +62,7 @@ msgstr "備份天數"
 
 #: ucp/Cel.class.php:81
 msgid "CEL (Call Event Logging) is not enabled for this user."
-msgstr "此使用者未啟用 CEL（呼叫事件記錄）。"
+msgstr "此使用者未啟用 CEL（通話事件記錄）。"
 
 #: cel.i18n.php:14
 msgid "CEL Report Module"
@@ -79,7 +79,7 @@ msgstr "通話詳細資料"
 #: Cel.class.php:343 /usr/src/freepbx/cel/cel.i18n.php:4
 #: cel.i18n.php:10 /usr/src/freepbx/cel/page.cel.php:10
 msgid "Call Event Logging"
-msgstr "呼叫事件記錄"
+msgstr "通話事件記錄"
 
 #: ucp/Cel.class.php:33
 #: ucp/Cel.class.php:128
@@ -90,7 +90,7 @@ msgstr "通話事件"
 #: ucp/Cel.class.php:58
 #, php-format
 msgid "Call Events for %s"
-msgstr "%s 的呼叫事件"
+msgstr "%s 的通話事件"
 
 #: ucp/views/widget.php:25
 #: views/page.cel_view.php:202
@@ -194,7 +194,7 @@ msgstr "錯誤：無法更新資料庫"
 
 #: views/ucp_config.php:28
 msgid "Enable CEL (Call Event Logging) in UCP for this user"
-msgstr "在此使用者的 UCP 中啟用 CEL（呼叫事件記錄）"
+msgstr "在此使用者的 UCP 中啟用 CEL（通話事件記錄）"
 
 #: cel.i18n.php:12
 msgid "Enable CEL Reporting"
@@ -336,7 +336,7 @@ msgid ""
 "The Call Event Logging module allows you to see all inbound and outbound "
 "calls for your user and listen to any call recordings that are associated "
 "with that call."
-msgstr "呼叫事件記錄模組可讓您查看使用者的所有來電與外撥通話，以及聆聽與該通話相關的任何錄音。"
+msgstr "通話事件記錄模組可讓您查看使用者的所有來電與外撥通話，以及聆聽與該通話相關的任何錄音。"
 
 #: ucp/Cel.class.php:91
 msgid "The given extension is empty."

@@ -30,6 +30,7 @@
 |Bind Address|綁定位址|
 |Bind Port|綁定通訊埠|
 |Call Detail Record|維持原文（CDR 全稱，見 CDR 條）|
+|Call Event |通話事件 |
 |Call Log|通話記錄（正確用法，見文末註）|
 |Caller ID|來電顯示|
 |Call Waiting|話中插接|

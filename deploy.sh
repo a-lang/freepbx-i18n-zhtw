@@ -27,9 +27,10 @@ for pofile in "$WORKDIR"/po/*.po; do
   if [ "$FNAME" = "amp" ]; then
     DEST="$web_root/admin/i18n/zh_TW/LC_MESSAGES"
   else
-    # 用 find 定位模組目錄；取第一個匹配（避免多匹配造成 cp 行為不確定）
-    REALPATH="$(find "$web_root" -maxdepth 3 -type d -name "$FNAME" | head -1)"
-    [ -z "$REALPATH" ] && continue # 找不到目標目錄則跳過
+    # 模組目錄固定為 admin/modules/<模組名>；
+    # 不可用 find 全 web root 撈，否則會誤中 framework 的 admin/api（與 api 模組撞名）
+    REALPATH="$web_root/admin/modules/$FNAME"
+    [ -d "$REALPATH" ] || continue # 找不到目標目錄則跳過
     DEST="$REALPATH/i18n/zh_TW/LC_MESSAGES"
   fi
 
