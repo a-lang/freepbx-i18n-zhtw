@@ -217,11 +217,11 @@ msgstr "API（HTTPS）"
 
 #: Services.class.php:114
 msgid "API HTTPS port management for restapi and GrahpQL."
-msgstr "REST API 和 GraphQL 的 API HTTPS 連接埠管理。"
+msgstr "REST API 和 GraphQL 的 API HTTPS 通訊埠管理。"
 
 #: Services.class.php:94
 msgid "API port management for restapi and GrahpQL."
-msgstr "REST API 和 GraphQL 的 API 連接埠管理。"
+msgstr "REST API 和 GraphQL 的 API 通訊埠管理。"
 
 #: views/view.zoneinfo.php:2
 msgid "About Zones"
@@ -329,7 +329,7 @@ msgstr "接受所有網路連線。此介面不進行任何防火牆過濾。"
 msgid ""
 "Allow any incoming NTP requests. The port is enabled by default on the Local "
 "zone."
-msgstr "允許任何傳入的 NTP 請求。該連接埠在本機區域上預設為啟用。"
+msgstr "允許任何傳入的 NTP 請求。該通訊埠在本機區域上預設為啟用。"
 
 #: views/view.settings.php:15
 msgid ""
@@ -374,7 +374,7 @@ msgid ""
 "Any incoming network packets are rejected. Note that this zone still accepts "
 "RTP traffic, but no other ports are listening by default. You rarely want to "
 "use this."
-msgstr "任何傳入的網路封包都會被拒絕。請注意，此區域仍接受 RTP 流量，但預設沒有其他連接埠在監聽。您很少會想使用這個。"
+msgstr "任何傳入的網路封包都會被拒絕。請注意，此區域仍接受 RTP 流量，但預設沒有其他通訊埠在監聽。您很少會想使用這個。"
 
 #: views/modal.customsvc.php:13
 msgid "Any name"
@@ -470,7 +470,7 @@ msgstr "黑名單"
 
 #: Api/Gql/Firewall.php:501
 msgid "Blacklist port"
-msgstr "黑名單連接埠"
+msgstr "黑名單通訊埠"
 
 #: views/view.blocked.php:18
 msgid "Blocked Attackers"
@@ -610,15 +610,15 @@ msgid ""
 "Custom services can be defined on this page. Please check to make sure you "
 "don't accidentally expose an automatically configured service by using the "
 "same port and protocol."
-msgstr "您可以在此頁面上定義自訂服務。請檢查以確保您不會因使用相同的連接埠和通訊協定而意外暴露自動設定的服務。"
+msgstr "您可以在此頁面上定義自訂服務。請檢查以確保您不會因使用相同的通訊埠和通訊協定而意外暴露自動設定的服務。"
 
 #: Services.class.php:228
 msgid "Dedicated UCP SSL access is disabled in Sysadmin Port Management"
-msgstr "專用的 UCP SSL 存取在 Sysadmin 連接埠管理中已停用"
+msgstr "專用的 UCP SSL 存取在 Sysadmin 通訊埠管理中已停用"
 
 #: Services.class.php:190
 msgid "Dedicated UCP access is disabled in Sysadmin Port Management"
-msgstr "專用的 UCP 存取在 Sysadmin 連接埠管理中已停用"
+msgstr "專用的 UCP 存取在 Sysadmin 通訊埠管理中已停用"
 
 #: Zones.class.php:9
 msgid "Default Firewall"
@@ -1035,11 +1035,11 @@ msgstr "HTTP 佈建"
 
 #: Services.class.php:459
 msgid "HTTP Provisioning is disabled in Sysadmin Port Management"
-msgstr "HTTP 佈建在 Sysadmin 連接埠管理中已停用"
+msgstr "HTTP 佈建在 Sysadmin 通訊埠管理中已停用"
 
 #: Services.class.php:525
 msgid "HTTP REST Apps are disabled in Sysadmin Port Management"
-msgstr "HTTP REST 應用程式在 Sysadmin 連接埠管理中已停用"
+msgstr "HTTP REST 應用程式在 Sysadmin 通訊埠管理中已停用"
 
 #: Services.class.php:470
 msgid "HTTPS Provisioning"
@@ -1047,11 +1047,11 @@ msgstr "HTTPS 佈建"
 
 #: Services.class.php:485
 msgid "HTTPS Provisioning is disabled in Sysadmin Port Management"
-msgstr "HTTPS 佈建在 Sysadmin 連接埠管理中已停用"
+msgstr "HTTPS 佈建在 Sysadmin 通訊埠管理中已停用"
 
 #: Services.class.php:553
 msgid "HTTPS REST Apps are disabled in Sysadmin Port Management"
-msgstr "HTTPS REST 應用程式在 Sysadmin 連接埠管理中已停用"
+msgstr "HTTPS REST 應用程式在 Sysadmin 通訊埠管理中已停用"
 
 #: views/intrusion_detection.php:256
 msgid "How many times a remote IP can try to connect during the find time."
@@ -1309,7 +1309,7 @@ msgid ""
 "It continously monitors the configuration of your machine, automatically "
 "opening and closing ports to known trunks (eg, VoIP providers), and allows "
 "you to limit the services this machine provides to clients."
-msgstr "它持續監控您機器的設定，自動開啟和關閉已知中繼（例如 VoIP 供應商）的連接埠，並允許您限制此機器提供給使用者端的服務。"
+msgstr "它持續監控您機器的設定，自動開啟和關閉已知中繼（例如 VoIP 供應商）的通訊埠，並允許您限制此機器提供給使用者端的服務。"
 
 #: OOBE.class.php:135
 #, php-format
@@ -1506,7 +1506,7 @@ msgstr "大多數介面應設定為<strong>網際網路</strong>。"
 #: views/view.customsvc.php:62
 #, php-format
 msgid "Multiple Ports: %s"
-msgstr "多個連接埠：%s"
+msgstr "多個通訊埠：%s"
 
 #: Services.class.php:642
 msgid "NFS"
@@ -1630,7 +1630,7 @@ msgid ""
 "server is not listening on port 80, certificate requests will fail unless an "
 "upstream firewall or proxy redirects requests to the server port."
 msgstr ""
-"注意：LetsEncrypt 一律會將挑戰查詢傳送到連接埠 80。如果此伺服器未在連接埠 80 上監聽，憑證請求將會失敗，除非上游防火牆或代理將請求重新導向至伺服器連接埠。"
+"注意：LetsEncrypt 一律會將挑戰查詢傳送到通訊埠 80。如果此伺服器未在通訊埠 80 上監聽，憑證請求將會失敗，除非上游防火牆或代理將請求重新導向至伺服器通訊埠。"
 
 #: views/intrusion_detection.php:14
 #: views/page.about.php:41
@@ -1688,7 +1688,7 @@ msgid ""
 "expose this port to the public internet, as SIP Secrets will be available to "
 "a knowledgable attacker."
 msgstr ""
-"透過 Endpoint Manager 設定使用 HTTP 佈建的電話將使用此連接埠下載其設定。不建議將此連接埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
+"透過 Endpoint Manager 設定使用 HTTP 佈建的電話將使用此通訊埠下載其設定。不建議將此通訊埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
 
 #: Services.class.php:472
 msgid ""
@@ -1697,7 +1697,7 @@ msgid ""
 "expose this port to the public internet, as SIP Secrets will be available to "
 "a knowledgable attacker."
 msgstr ""
-"透過 Endpoint Manager 設定使用 HTTPS 佈建的電話將使用此連接埠下載其設定。不建議將此連接埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
+"透過 Endpoint Manager 設定使用 HTTPS 佈建的電話將使用此通訊埠下載其設定。不建議將此通訊埠公開到網際網路，因為 SIP 機密可能會被有知識的攻擊者取得。"
 
 #: OOBE.class.php:178
 msgid ""
@@ -1712,22 +1712,22 @@ msgstr "請瀏覽 PBX Wiki 以取得更多關於防火牆的資訊。"
 
 #: views/modal.customsvc.php:27
 msgid "Port Range"
-msgstr "連接埠範圍"
+msgstr "通訊埠範圍"
 
 #: views/view.customsvc.php:60
 #, php-format
 msgid "Port Range: %s"
-msgstr "連接埠範圍：%s"
+msgstr "通訊埠範圍：%s"
 
 #: views/modal.customsvc.php:32
 msgid ""
 "Port ranges may be either a single number (9898), a selection of numbers "
 "(9898,9777,862), or a range delimited by a colon (9000:9500)"
-msgstr "連接埠範圍可以是單一數字（9898）、數字選取項目（9898,9777,862），或是由冒號分隔的範圍（9000:9500）"
+msgstr "通訊埠範圍可以是單一數字（9898）、數字選取項目（9898,9777,862），或是由冒號分隔的範圍（9000:9500）"
 
 #: views/page.advanced.php:34
 msgid "Port/Service Maps"
-msgstr "連接埠/服務對應"
+msgstr "通訊埠/服務對應"
 
 #: views/page.advanced.php:37
 msgid "Preconfigured"
@@ -1918,7 +1918,7 @@ msgstr "SCIM 佈建（HTTPS）"
 
 #: Services.class.php:596
 msgid "SCIM provisioning is disabled in Sysadmin Port Management"
-msgstr "SCIM 佈建在 Sysadmin 連接埠管理中已停用"
+msgstr "SCIM 佈建在 Sysadmin 通訊埠管理中已停用"
 
 #: Services.class.php:581
 msgid "SCIM provisioning is not licensed."
@@ -2099,7 +2099,7 @@ msgstr "顯示可用於新增和刪除的區域。"
 #: views/view.customsvc.php:65
 #, php-format
 msgid "Single Port: %s"
-msgstr "單一連接埠：%s"
+msgstr "單一通訊埠：%s"
 
 #: Api/Gql/Firewall.php:54
 msgid "Sorry unable to process enable firewall"
@@ -2262,11 +2262,11 @@ msgstr "TCP"
 
 #: views/view.portmaps.php:70
 msgid "TCP Port:"
-msgstr "TCP 連接埠："
+msgstr "TCP 通訊埠："
 
 #: views/view.portmaps.php:73
 msgid "TCP Ports:"
-msgstr "TCP 連接埠："
+msgstr "TCP 通訊埠："
 
 #: Services.class.php:629
 msgid "TFTP"
@@ -2458,7 +2458,7 @@ msgid ""
 "This firewall runs in a Deny-By-Default configuration. However, if you "
 "enable 'Responsive Firewall', your Signalling ports are exposed to the "
 "internet, and may be attackable."
-msgstr "此防火牆以預設拒絕設定執行。但是，如果您啟用「Responsive Firewall」，您的訊號連接埠會暴露到網際網路，可能會被攻擊。"
+msgstr "此防火牆以預設拒絕設定執行。但是，如果您啟用「Responsive Firewall」，您的訊號通訊埠會暴露到網際網路，可能會被攻擊。"
 
 #: Zones.class.php:9
 msgid ""
@@ -2481,7 +2481,7 @@ msgstr "這是 SIP 驅動程式（pjsip）。大多數裝置使用 SIP。"
 msgid ""
 "This is the XMPP server. If you wish to connect to it using an external "
 "Jabber client, you need to open this port."
-msgstr "這是 XMPP 伺服器。如果您想要使用外部 Jabber 使用者端連線到此伺服器，您需要開啟此連接埠。"
+msgstr "這是 XMPP 伺服器。如果您想要使用外部 Jabber 使用者端連線到此伺服器，您需要開啟此通訊埠。"
 
 #: Services.class.php:383
 msgid "This is the legacy chan_sip driver."
@@ -2503,7 +2503,7 @@ msgstr "此頁面（和所有分頁）每 15 秒自動更新。"
 #: views/view.portmaps.php:10
 msgid ""
 "This page displays the detected ports and port ranges for all known services."
-msgstr "此頁面顯示所有已知服務的已偵測連接埠和連接埠範圍。"
+msgstr "此頁面顯示所有已知服務的已偵測通訊埠和通訊埠範圍。"
 
 #: views/view.status.php:6
 msgid "This page gives you a summary of the status of the Responsive Firewall."
@@ -2687,11 +2687,11 @@ msgstr "UDP"
 
 #: views/view.portmaps.php:59
 msgid "UDP Port:"
-msgstr "UDP 連接埠："
+msgstr "UDP 通訊埠："
 
 #: views/view.portmaps.php:62
 msgid "UDP Ports:"
-msgstr "UDP 連接埠："
+msgstr "UDP 通訊埠："
 
 #: Backup.php:12
 #, php-format
@@ -2762,7 +2762,7 @@ msgid ""
 "This is <strong>expected</strong> when viewing through the Web Interface. "
 "The correct port, as configured, will be used in the firewall service."
 msgstr ""
-"警告：無法讀取 /etc/ssh/sshd_config - 此連接埠可能不正確。透過網頁介面查看時，這是<strong>預期的情況</strong>。在防火牆服務中將使用已設定的正確連接埠。"
+"警告：無法讀取 /etc/ssh/sshd_config - 此通訊埠可能不正確。透過網頁介面查看時，這是<strong>預期的情況</strong>。在防火牆服務中將使用已設定的正確通訊埠。"
 
 #: views/view.blacklist.php:19
 msgid "Warning: Unable to resolve this entry!"

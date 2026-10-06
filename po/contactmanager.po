@@ -902,11 +902,11 @@ msgstr "快速撥號"
 
 #: views/speeddial-grid.php:11
 msgid "Speed Dial Feature Code"
-msgstr "快速撥號功能碼"
+msgstr "快速撥號功能簡碼"
 
 #: views/speeddial-grid.php:3
 msgid "Speed Dial Feature code has been disabled in Feature Code Admin"
-msgstr "快速撥號功能碼已在功能碼管理中停用"
+msgstr "快速撥號功能簡碼已在功能簡碼管理中停用"
 
 #: views/speeddial-grid.php:1
 msgid "Speed Dials"

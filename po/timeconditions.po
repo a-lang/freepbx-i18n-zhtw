@@ -219,7 +219,7 @@ msgstr "為此時間條件取一個簡短名稱，以協助您識別。"
 msgid ""
 "If set dialing the feature code will require a pin to change the override "
 "state"
-msgstr "若設定此選項，撥打功能碼時將需要 PIN 才能變更覆寫狀態"
+msgstr "若設定此選項，撥打功能簡碼時將需要 PIN 才能變更覆寫狀態"
 
 #: views/timeconditions/advanced_form.php:119
 #: views/timeconditions/basic_form.php:228
@@ -238,7 +238,7 @@ msgid ""
 "temporarily if debugging a system to avoid the periodic dialplan running "
 "through the CLI that the maintenance task launches and can be distracting."
 msgstr ""
-"若設為 false，將覆寫由 call files 啟動之「時間條件」維護工作的執行。若時間條件的所有功能碼都已停用，維護工作無論如何都不會啟動。將此設為 false 相當少見。若您在偵錯系統，可能會想要暫時設定此選項，以避免維護工作啟動、透過 CLI 定期執行的撥號規則造成干擾。"
+"若設為 false，將覆寫由 call files 啟動之「時間條件」維護工作的執行。若時間條件的所有功能簡碼都已停用，維護工作無論如何都不會啟動。將此設為 false 相當少見。若您在偵錯系統，可能會想要暫時設定此選項，以避免維護工作啟動、透過 CLI 定期執行的撥號規則造成干擾。"
 
 #: views/timeconditions/advanced_form.php:102
 #: views/timeconditions/basic_form.php:211
@@ -503,7 +503,7 @@ msgid ""
 "Permanent Override which must be done here or with other applications such "
 "as an XML based phone options."
 msgstr ""
-"此時間條件可以設定為暫時前往「相符」或「不符」的目的地，此時覆寫會在目前時間區段結束後自動重設。若設為「永久」，則會維持覆寫狀態，直到手動重設。所有覆寫都可以使用「重設覆寫」選項移除。暫時覆寫也可以使用 %s 功能碼切換，此功能碼也會移除已設定的永久覆寫，但無法設定永久覆寫——這必須在此處或透過其他應用程式（例如 XML 型電話選項）進行。"
+"此時間條件可以設定為暫時前往「相符」或「不符」的目的地，此時覆寫會在目前時間區段結束後自動重設。若設為「永久」，則會維持覆寫狀態，直到手動重設。所有覆寫都可以使用「重設覆寫」選項移除。暫時覆寫也可以使用 %s 功能簡碼切換，此功能簡碼也會移除已設定的永久覆寫，但無法設定永久覆寫——這必須在此處或透過其他應用程式（例如 XML 型電話選項）進行。"
 
 #: assets/js/timegroups/timegroups.js:22
 msgid ""

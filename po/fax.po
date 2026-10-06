@@ -35,7 +35,7 @@ msgid ""
 "available after the change, it is provided to handle legacy migrations from "
 "previous versions of FreePBX only."
 msgstr ""
-"偵測到傳真時，要將傳真以電子郵件寄送到的位址。<br />請注意：在此版本的 FreePBX 中，您現在可以從目的地清單設定傳真目的地。分機／使用者可以在使用者／分機畫面啟用傳真，並在該處設定電子郵件位址。這會建立一個可選取的新目的地類型。若要將此選項升級為完整的目的地清單，請選擇「是」來偵測傳真並選取一個目的地。按下提交後，此路由將會升級。變更之後，這個舊版選項將不再提供，它僅用於處理從舊版 FreePBX 遷移的舊設定。"
+"偵測到傳真時，要將傳真以電子郵件寄送到的位址。<br />請注意：在此版本的 FreePBX 中，您現在可以從目的地清單設定傳真目的地。分機／使用者可以在使用者／分機畫面啟用傳真，並在該處設定電子郵件位址。這會建立一個可選取的新目的地類型。若要將此選項升級為完整的目的地清單，請選擇「是」來偵測傳真並選取一個目的地。按下送出後，此路由將會升級。變更之後，這個舊版選項將不再提供，它僅用於處理從舊版 FreePBX 遷移的舊設定。"
 
 #: fax.i18n.php:8
 msgid "Adds configurations, options and GUI for inbound faxing"

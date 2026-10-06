@@ -254,7 +254,7 @@ msgstr ""
 msgid ""
 "This is the Extension or Feature Code you are using in your dialplan that "
 "you want the FreePBX Extension Registry to be aware of."
-msgstr "這是您在撥號計畫中使用的分機或功能碼，您希望 FreePBX 分機登錄知道其存在。"
+msgstr "這是您在撥號計畫中使用的分機或功能簡碼，您希望 FreePBX 分機登錄知道其存在。"
 
 #: views/customdests/form.php:11
 msgid ""

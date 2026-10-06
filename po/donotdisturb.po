@@ -44,27 +44,27 @@ msgstr "已停用"
 
 #: ucp/Donotdisturb.class.php:88
 msgid "Do Not Disturb"
-msgstr "請勿打擾"
+msgstr "勿打擾"
 
 #: ucp/Donotdisturb.class.php:185
 msgid "Do Not Disturb Has Been Updated!"
-msgstr "請勿打擾已更新！"
+msgstr "勿打擾已更新！"
 
 #: ucp/Donotdisturb.class.php:113
 #, php-format
 msgid "Do Not Disturb for %s"
-msgstr "%s 的請勿打擾"
+msgstr "%s 的勿打擾"
 
 #: donotdisturb.i18n.php:8
 msgid ""
 "Do not disturb (DND) allows calls to be rejected at the user's request via a "
 "feature code, UCP setting, or REST App."
-msgstr "請勿打擾（DND）可依使用者的要求，透過功能碼、UCP 設定或 REST 應用程式拒絕來電。"
+msgstr "勿打擾（DND）可依使用者的要求，透過功能簡碼、UCP 設定或 REST 應用程式拒絕來電。"
 
 #: donotdisturb.i18n.php:4
 #: install.php:5
 msgid "Do-Not-Disturb (DND)"
-msgstr "請勿打擾（DND）"
+msgstr "勿打擾（DND）"
 
 #: ucp/views/widget.php:2
 msgid "Enabled"
@@ -72,7 +72,7 @@ msgstr "已啟用"
 
 #: ucp/Donotdisturb.class.php:136
 msgid "Follow Me"
-msgstr "跟我走"
+msgstr "跟隨"
 
 #: ucp/Donotdisturb.class.php:74
 msgid "The given extension is empty."

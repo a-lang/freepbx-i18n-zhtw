@@ -58,7 +58,7 @@ msgid ""
 "you can put settings such as:<br /> bindaddr=192.168.10.100:4555.<br />  It "
 "is recommended to leave this blank."
 msgstr ""
-"Asterisk：bindaddr。要繫結並在「繫結連接埠」上監聽來電的 IP 位址。若設為 0.0.0.0，Asterisk 將監聽所有位址。若要繫結多個 IP 位址或連接埠，請使用「其他 IAX 設定」欄位，可在此輸入例如：<br /> bindaddr=192.168.10.100:4555。<br />  建議保留空白。"
+"Asterisk：bindaddr。要綁定並在「綁定通訊埠」上監聽來電的 IP 位址。若設為 0.0.0.0，Asterisk 將監聽所有位址。若要綁定多個 IP 位址或通訊埠，請使用「其他 IAX 設定」欄位，可在此輸入例如：<br /> bindaddr=192.168.10.100:4555。<br />  建議保留空白。"
 
 #: views/view.form_options.php:260
 msgid ""
@@ -66,7 +66,7 @@ msgid ""
 "listen for IAX messages. The IAX standard is 4569 and in most cases this is "
 "what you want. It is recommended to leave this blank."
 msgstr ""
-"Asterisk：bindport。Asterisk 將繫結並監聽 IAX 訊息的本機傳入 UDP 連接埠。IAX 標準為 4569，在大多數情況下這正是您要的。建議保留空白。"
+"Asterisk：bindport。Asterisk 將綁定並監聽 IAX 訊息的本機傳入 UDP 通訊埠。IAX 標準為 4569，在大多數情況下這正是您要的。建議保留空白。"
 
 #: views/view.form_options.php:360
 msgid ""
@@ -163,7 +163,7 @@ msgstr "綁定通訊埠"
 
 #: Iaxsettings.class.php:170
 msgid "Bind Port (bindport) must be between 1024..65535, default 4569"
-msgstr "繫結連接埠（bindport）必須介於 1024..65535 之間，預設為 4569"
+msgstr "綁定通訊埠（bindport）必須介於 1024..65535 之間，預設為 4569"
 
 #: views/view.form_options.php:439
 msgid "Check to enable and then choose allowed codecs."

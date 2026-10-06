@@ -27,7 +27,7 @@ msgstr " 正在從 SQL 檔案還原資料"
 #: views/dahdi_analog_hardware.php:33
 #, php-format
 msgid "%s Ports"
-msgstr "%s 連接埠"
+msgstr "%s 通訊埠"
 
 #: views/dahdi_digital_settings.php:143
 msgid "-15db (CSU)"
@@ -130,7 +130,7 @@ msgstr "類比 %s"
 #: views/dahdi_analog_signalling_form.php:1
 #, php-format
 msgid "Analog %s Ports"
-msgstr "類比 %s 連接埠"
+msgstr "類比 %s 通訊埠"
 
 #: functions.inc.php:312
 #, php-format
@@ -312,11 +312,11 @@ msgstr "CCS/HDB3/CRC4"
 
 #: views/dahdi_mfcr2_settings.php:99
 msgid "Call Logging Directory"
-msgstr "通話記錄目錄"
+msgstr "記錄檔目錄"
 
 #: views/dahdi_mfcr2_settings.php:113
 msgid "Call Logging Enable"
-msgstr "啟用通話記錄"
+msgstr "啟用記錄"
 
 #: views/dahdi_mfcr2_settings.php:79
 msgid "Caller Category to Send"
@@ -657,7 +657,7 @@ msgstr "啟用回撥"
 
 #: views/dahdi_global_settings.php:77
 msgid "Enable Call Waiting"
-msgstr "啟用插撥"
+msgstr "啟用話中插接"
 
 #: views/sangoma.php:52
 msgid "Enable DTMF CID"
@@ -793,11 +793,11 @@ msgstr "芬蘭語"
 
 #: views/dahdi_global_settings.php:110
 msgid "For FXS ports (either direct analog or over T1/E1)"
-msgstr "適用於 FXS 連接埠（直接類比或透過 T1/E1）"
+msgstr "適用於 FXS 通訊埠（直接類比或透過 T1/E1）"
 
 #: views/dahdi_global_settings.php:114
 msgid "For digital ports using ISDN PRI protocols"
-msgstr "適用於使用 ISDN PRI 協定的數位連接埠"
+msgstr "適用於使用 ISDN PRI 協定的數位通訊埠"
 
 #: views/dahdi_global_settings.php:196
 msgid "For fax detection"
@@ -1148,7 +1148,7 @@ msgid ""
 "to your MFC/R2 call logs will be /var/log/asterisk/mfcr2/span1 (the "
 "directory will be automatically created if not present already)"
 msgstr ""
-"記錄會存放在 asterisk.conf 中指定的 Asterisk 記錄目錄加上 mfcr2/<whatever you put here>。若您在此指定「span1」，而 asterisk.conf 的記錄目錄為 /var/log/asterisk，則 MFC/R2 通話記錄的完整路徑會是 /var/log/asterisk/mfcr2/span1（若目錄不存在，會自動建立）"
+"記錄會存放在 asterisk.conf 中指定的 Asterisk 記錄目錄加上 mfcr2/<whatever you put here>。若您在此指定「span1」，而 asterisk.conf 的記錄目錄為 /var/log/asterisk，則 MFC/R2 記錄的完整路徑會是 /var/log/asterisk/mfcr2/span1（若目錄不存在，會自動建立）"
 
 #: views/dahdi_analog_settings.php:28
 #: views/dahdi_analog_signalling_form.php:14
@@ -1166,7 +1166,7 @@ msgid ""
 "subscriber equipment signals that it has finished using the line; the "
 "telephone exchange resets the line to an idle state."
 msgstr ""
-"迴路啟動 - 閒置或掛機時，迴路電位維持在標稱 48V DC，由電話交換機或外線交換站（FXS）介面提供。當終端開始使用線路時，會閉合迴路使電流通過，這會通知 FXS 端在線路上提供撥號音，並預期收到撥號訊號（DTMF 數字、撥號脈衝或掛鉤閃斷）。當迴路斷開、電流停止流動時，使用者設備即表示已使用完線路；電話交換機會將線路重設為閒置狀態。"
+"迴路啟動 - 閒置或掛機時，迴路電位維持在標稱 48V DC，由電話交換機或外線交換站（FXS）介面提供。當終端開始使用線路時，會閉合迴路使電流通過，這會通知 FXS 端在線路上提供撥號音，並預期收到撥號訊號（DTMF 數字、撥號脈衝或掛鉤閃斷）。當迴路斷開、電流停止流動時，使用者裝置即表示已使用完線路；電話交換機會將線路重設為閒置狀態。"
 
 #: views/dahdi_advanced_settings.php:168
 #: views/dahdi_modprobe_settings.php:169
@@ -1533,7 +1533,7 @@ msgstr "其他 Modprobe 設定"
 
 #: views/dahdi_analog_settings.php:73
 msgid "Other Port Settings"
-msgstr "其他連接埠設定"
+msgstr "其他通訊埠設定"
 
 #: views/dahdi_global_settings.php:202
 msgid "Outgoing"
@@ -1621,16 +1621,16 @@ msgstr "波蘭語"
 #: views/dahdi_analog_signalling_form.php:11
 #, php-format
 msgid "Port %s"
-msgstr "連接埠 %s"
+msgstr "通訊埠 %s"
 
 #: views/dahdi_analog_settings.php:12
 #, php-format
 msgid "Port %s Settings"
-msgstr "連接埠 %s 設定"
+msgstr "通訊埠 %s 設定"
 
 #: views/dahdi_analog_hardware.php:6
 msgid "Ports"
-msgstr "連接埠"
+msgstr "通訊埠"
 
 #: views/dahdi_advanced_settings.php:38
 #: views/dahdi_advanced_settings.php:114
@@ -1752,7 +1752,7 @@ msgstr "設定預設值"
 
 #: views/sangoma.php:30
 msgid "Set port clocking"
-msgstr "設定連接埠時脈"
+msgstr "設定通訊埠時脈"
 
 #: views/dahdi_analog_settings.php:16
 #: views/dahdi_digital_hardware.php:10
@@ -1876,7 +1876,7 @@ msgid ""
 "Specify the type of Message Waiting Indicator detection to be done on FXO "
 "ports. If no choice is specified, the default is none. The following options "
 "are available"
-msgstr "指定要在 FXO 連接埠上執行哪種類型的訊息等待指示（MWI）偵測。若未指定，預設為 none。可使用下列選項"
+msgstr "指定要在 FXO 通訊埠上執行哪種類型的訊息等待指示（MWI）偵測。若未指定，預設為 none。可使用下列選項"
 
 #: views/dahdi_modprobe_settings.php:145
 msgid ""
@@ -2245,7 +2245,7 @@ msgid ""
 "\"facilityenable\" setting must also be enabled to allow sending the "
 "transfer to the ISDN switch, since it sent in a FACILITY message"
 msgstr ""
-"此設定必須在相關的兩個連接埠上都啟用，而且還必須啟用 \"facilityenable\" 設定，才能將轉接送至 ISDN 交換機，因為它是以 FACILITY 訊息送出"
+"此設定必須在相關的兩個通訊埠上都啟用，而且還必須啟用 \"facilityenable\" 設定，才能將轉接送至 ISDN 交換機，因為它是以 FACILITY 訊息送出"
 
 #: page.dahdi.php:480
 msgid "This will reload the page"
@@ -2365,7 +2365,7 @@ msgid ""
 "hook-flash to switch between callers. The Dial() app will not return the "
 "\"BUSY\" result for extensions."
 msgstr ""
-"是否在內部分機上啟用插撥。設為 \"yes\" 時，忙線中的分機會聽到插撥音，並可使用掛鉤閃斷在通話者之間切換。Dial() 應用程式對這些分機將不會傳回 \"BUSY\" 結果。"
+"是否在內部分機上啟用話中插接。設為 \"yes\" 時，忙線中的分機會聽到話中插接音，並可使用掛鉤閃斷在通話者之間切換。Dial() 應用程式對這些分機將不會傳回 \"BUSY\" 結果。"
 
 #: views/dahdi_global_settings.php:138
 msgid ""

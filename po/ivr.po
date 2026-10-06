@@ -150,7 +150,7 @@ msgstr "刪除錄音"
 
 #: views/entries.php:49
 msgid "Delete this entry. Dont forget to click Submit to save changes!"
-msgstr "刪除此項目。別忘了點選「提交」以儲存變更！"
+msgstr "刪除此項目。別忘了點選「送出」以儲存變更！"
 
 #: views/advanced_form.php:53
 msgid "Description of this IVR"

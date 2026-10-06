@@ -288,7 +288,7 @@ msgid ""
 "To dial Follow-Me, Queues and other numbers that are not extensions, put a "
 "'#' at the end."
 msgstr ""
-"列出要響鈴的分機，每列一個，或使用分機快速選取插入至此處。<br><br>您可以加入遠端系統的分機，或透過在數字後面加上 '#' 來加入外部號碼。例如：2448089# 將在中繼線上撥打 2448089（請參閱外撥路由）<br><br>沒有 '#' 的分機將不會響鈴使用者的「跟上我」。若要撥打「跟上我」、佇列及其他非分機的號碼，請在結尾加上 '#'。"
+"列出要響鈴的分機，每列一個，或使用分機快速選取插入至此處。<br><br>您可以加入遠端系統的分機，或透過在數字後面加上 '#' 來加入外部號碼。例如：2448089# 將在中繼線上撥打 2448089（請參閱外撥路由）<br><br>沒有 '#' 的分機將不會響鈴使用者的「跟隨」。若要撥打「跟隨」、佇列及其他非分機的號碼，請在結尾加上 '#'。"
 
 #: views/simple_form.php:52
 msgid ""
@@ -510,7 +510,7 @@ msgid ""
 "primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
 "unconditional, then all will be rung"
 msgstr ""
-"響鈴所有可用通道直到有人接聽。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+"響鈴所有可用通道直到有人接聽。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
 
 #: Api/Gql/Ringgroups.php:303
 msgid ""
@@ -526,7 +526,7 @@ msgid ""
 "primary is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
 "unconditional, then all will be rung"
 msgstr ""
-"先響鈴清單中的第一個分機，然後響鈴第 1 和第 2 個分機，再響鈴清單中的第 1、第 2 和第 3 個分機.... 以此類推。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+"先響鈴清單中的第一個分機，然後響鈴第 1 和第 2 個分機，再響鈴清單中的第 1、第 2 和第 3 個分機.... 以此類推。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
 
 #: views/form.php:62
 msgid ""
@@ -661,7 +661,7 @@ msgid ""
 "is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
 "unconditional, then all will be rung"
 msgstr ""
-"輪流響鈴每個可用分機。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+"輪流響鈴每個可用分機。若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
 
 #: Api/Gql/Ringgroups.php:97
 msgid "The Ringgroup number to search for"
@@ -682,7 +682,7 @@ msgid ""
 "is FreePBX DND, it won't be rung. If the primary is FreePBX CF "
 "unconditional, then all will be rung"
 msgstr ""
-"這些模式如上述說明運作。然而，若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 請勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
+"這些模式如上述說明運作。然而，若主要分機（清單中的第一個）正在忙線，則其他分機會被跳過。若主要分機為 FreePBX 勿打擾，則不會響鈴。若主要分機為 FreePBX 無條件轉接，則全部都會響鈴"
 
 #: Ringgroups.class.php:261
 msgid "This ringgroup"
@@ -805,7 +805,7 @@ msgid ""
 "applies to CF, CFU and CFB. Extensions entered with '#' at the end, for "
 "example to access the extension's Follow-Me, might not honor this setting ."
 msgstr ""
-"當設為 true 時，嘗試轉接的客服人員將被忽略，這適用於 CF、CFU 和 CFB。結尾使用 '#' 輸入的分機，例如要存取分機的「跟上我」，可能不會遵循此設定。"
+"當設為 true 時，嘗試轉接的客服人員將被忽略，這適用於 CF、CFU 和 CFB。結尾使用 '#' 輸入的分機，例如要存取分機的「跟隨」，可能不會遵循此設定。"
 
 #: Api/Gql/Ringgroups.php:388
 #: Api/Gql/Ringgroups.php:496

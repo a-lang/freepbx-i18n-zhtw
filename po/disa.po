@@ -50,7 +50,7 @@ msgstr "允許掛斷"
 msgid ""
 "Allow the current call to be disconnected and dial tone presented for a new "
 "call by pressing the Hangup feature code: %s while in a call"
-msgstr "通話中按下掛斷功能碼 %s，即可中斷目前通話並呈現撥號音以供撥打新通話"
+msgstr "通話中按下掛斷功能簡碼 %s，即可中斷目前通話並呈現撥號音以供撥打新通話"
 
 #: disa.i18n.php:6
 msgid "Applications"

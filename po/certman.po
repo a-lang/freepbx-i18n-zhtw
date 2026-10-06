@@ -149,7 +149,7 @@ msgid ""
 "After you have submitted a CSR to a CA, they will sign it, after validation, "
 "and return a Signed Certificate. That certificate should be pasted in the "
 "box below. If you leave this box blank, the certificate will not be updated."
-msgstr "在您向 CA 提交 CSR 後，他們將在驗證後簽署並傳回已簽署的憑證。該憑證應貼入下方的方塊中。若您將此方塊留白，憑證將不會更新。"
+msgstr "在您向 CA 送出 CSR 後，他們將在驗證後簽署並傳回已簽署的憑證。該憑證應貼入下方的方塊中。若您將此方塊留白，憑證將不會更新。"
 
 #: views/le.php:107
 msgid "Alternative Names"

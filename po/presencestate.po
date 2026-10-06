@@ -63,7 +63,7 @@ msgstr "不變更"
 
 #: ucp/Presencestate.class.php:256
 msgid "Do Not Disturb"
-msgstr "請勿打擾"
+msgstr "勿打擾"
 
 #: ucp/Presencestate.class.php:255
 msgid "Do Nothing"
@@ -79,7 +79,7 @@ msgstr "長時間離開"
 
 #: ucp/Presencestate.class.php:257
 msgid "Findme/Follow Me"
-msgstr "尋找我 / 跟隨我"
+msgstr "跟隨"
 
 #: views/ucp_config.php:18
 msgid "Inherit"

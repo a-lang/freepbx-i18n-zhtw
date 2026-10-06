@@ -20,6 +20,24 @@ FreePBX 各模組管理介面的正體中文 gettext 語系檔。將對應模組
 - **amp**＝framework 核心（管理介面共用字串），上游為 `FreePBX/framework` 的 `amp_conf/htdocs/admin/i18n/amp.pot`。
 - 其他模組各自成檔，上游 pot 位於各模組 repo 的 `i18n/<模組>.pot`。
 
+## 介面畫面
+
+### 分機
+
+![分機列表](assets/extensions.png)
+
+### CDR 報告
+
+![CDR 報告搜尋](assets/cdr.png)
+
+### 儀表板
+
+![儀表板](assets/dashboard.png)
+
+### 進階設定
+
+![進階設定](assets/advanced_settings.png)
+
 ## 套用機制
 
 FreePBX 管理介面使用 PHP gettext：

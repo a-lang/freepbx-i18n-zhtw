@@ -354,7 +354,7 @@ msgstr ""
 msgid ""
 "Tied to a Directory allowing all entries in that directory to be dialed "
 "directly, as they appear in the directory"
-msgstr "繫結到目錄，允許直接撥打該目錄中的所有條目，如同它們在目錄中顯示的一樣"
+msgstr "綁定到目錄，允許直接撥打該目錄中的所有條目，如同它們在目錄中顯示的一樣"
 
 #: functions.inc.php:295
 msgid "Voicemail Greeting"

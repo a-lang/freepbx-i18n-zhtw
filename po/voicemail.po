@@ -829,7 +829,7 @@ msgid ""
 "callers more control. In essence, the VMX locater is a mini-IVR (interactive "
 "voice response) for voicemail"
 msgstr ""
-"對此使用者啟用/停用 VmX (Virtual Machine eXtension) Locater 功能。VMX Locator 可進階控制使用者的語音信箱系統。類似「跟我走」功能，但給予撥叫者更多控制權。本質上，VMX Locator 是語音信箱的迷你 IVR（互動式語音應答）"
+"對此使用者啟用/停用 VmX (Virtual Machine eXtension) Locater 功能。VMX Locator 可進階控制使用者的語音信箱系統。類似「跟隨」功能，但給予撥叫者更多控制權。本質上，VMX Locator 是語音信箱的迷你 IVR（互動式語音應答）"
 
 #: ucp/views/vmx.php:7
 msgid ""
@@ -839,7 +839,7 @@ msgid ""
 "essence, the VMX locater is a mini-IVR (interactive voice response) for "
 "voicemail"
 msgstr ""
-"啟用/停用 VmX (Virtual Machine eXtension) Locater 功能。VMX Locater 可進階控制您的語音信箱系統。類似「跟我走」功能，但給予撥叫者更多控制權。本質上，VMX Locater 是語音信箱的迷你 IVR（互動式語音應答）"
+"啟用/停用 VmX (Virtual Machine eXtension) Locater 功能。VMX Locater 可進階控制您的語音信箱系統。類似「跟隨」功能，但給予撥叫者更多控制權。本質上，VMX Locater 是語音信箱的迷你 IVR（互動式語音應答）"
 
 #: functions.inc.php:510
 #: functions.inc.php:643
@@ -858,7 +858,7 @@ msgid ""
 "to use your Follow Me List, check \"Send to Follow Me\" and disable Follow "
 "Me otherwise the call will go to Follow Me first and skip VmX Locater."
 msgstr ""
-"在此輸入替代號碼，然後變更您的個人語音信箱問候語，讓撥叫者知道按 1 即可撥打該號碼。<br/><br/>若您想使用「跟我走」清單，請勾選「傳送至跟我走」並停用「跟我走」，否則來電將先轉至「跟我走」而略過 VmX Locater。"
+"在此輸入替代號碼，然後變更您的個人語音信箱問候語，讓撥叫者知道按 1 即可撥打該號碼。<br/><br/>若您想使用「跟隨」清單，請勾選「傳送至跟隨」並停用「跟隨」，否則來電將先轉至「跟隨」而略過 VmX Locater。"
 
 #: ucp/views/vmx.php:37
 msgid ""
@@ -867,7 +867,7 @@ msgid ""
 "your Follow Me List, uncheck the box to disable, otherwise the call will go "
 "to Follow Me first and skip VmX Locater"
 msgstr ""
-"在此輸入替代號碼，然後變更您的個人語音信箱問候語，讓撥叫者知道按 1 即可撥打該號碼。若您想使用「跟我走」清單，請取消勾選以停用，否則來電將先轉至「跟我走」而略過 VmX Locater"
+"在此輸入替代號碼，然後變更您的個人語音信箱問候語，讓撥叫者知道按 1 即可撥打該號碼。若您想使用「跟隨」清單，請取消勾選以停用，否則來電將先轉至「跟隨」而略過 VmX Locater"
 
 #: views/tz.php:4
 msgid "Entries below will be written to Voicemail configuration as-is."
@@ -986,7 +986,7 @@ msgid ""
 "Find me Follow me is enabled when VmX locator option 1 is disabled. This "
 "means VmX Locator will be skipped, instead going directly to Find Me/Follow "
 "Me"
-msgstr "當 VmX Locator 選項 1 停用時，找我/跟我走會啟用。這表示 VmX Locator 將被略過，直接前往找我/跟我走"
+msgstr "當 VmX Locator 選項 1 停用時，跟隨會啟用。這表示 VmX Locator 將被略過，直接前往跟隨"
 
 #: page.voicemail.php:234
 msgid "For IMAP storage"
@@ -1232,7 +1232,7 @@ msgstr "IMAP 伺服器主使用者名稱。"
 #: Voicemail.class.php:2534
 #: page.voicemail.php:241
 msgid "IMAP server port."
-msgstr "IMAP 伺服器連接埠。"
+msgstr "IMAP 伺服器通訊埠。"
 
 #: page.voicemail.php:304
 msgid "IMAP user."
@@ -2058,7 +2058,7 @@ msgstr "審聽訊息"
 
 #: Voicemail.class.php:2294
 msgid "SMDI Port"
-msgstr "SMDI 連接埠"
+msgstr "SMDI 通訊埠"
 
 #: ucp/views/greetings.php:51
 msgid "Save Recording"
@@ -2098,7 +2098,7 @@ msgstr "傳送語音信箱訊息。若未列出，則不允許從語音信箱內
 #: functions.inc.php:659
 #: ucp/views/vmx.php:35
 msgid "Send to Follow-Me"
-msgstr "傳送至跟我走"
+msgstr "傳送至跟隨"
 
 #: functions.inc.php:574
 #, php-format
@@ -2127,7 +2127,7 @@ msgstr "設定父資料夾（預設為不設定父資料夾）。"
 
 #: Voicemail.class.php:2295
 msgid "Set to a valid port as specified in smdi.conf"
-msgstr "設定為 smdi.conf 中指定的有效連接埠"
+msgstr "設定為 smdi.conf 中指定的有效通訊埠"
 
 #: voicemail.i18n.php:16
 msgid ""
@@ -2319,14 +2319,14 @@ msgstr "ADSI 安全鎖碼"
 #: install.php:14
 #: voicemail.i18n.php:28
 msgid "The Feature Code used to dial any voicemail"
-msgstr "用於撥打任何語音信箱的功能碼"
+msgstr "用於撥打任何語音信箱的功能簡碼"
 
 #: install.php:13
 #: voicemail.i18n.php:34
 msgid ""
 "The Feature Code used to direct dial a users voicemail from their own "
 "extension"
-msgstr "用於從自己的分機直接撥打使用者語音信箱的功能碼"
+msgstr "用於從自己的分機直接撥打使用者語音信箱的功能簡碼"
 
 #: Voicemail.class.php:2562
 msgid "The IMAP password of the user"
@@ -2616,7 +2616,7 @@ msgstr "若要播放媒體，您需要將瀏覽器更新至最新版本，或更
 
 #: Vmx.class.php:35
 msgid "To send to followme use \"FMextension\""
-msgstr "若要傳送至跟我走，請使用「FMextension」"
+msgstr "若要傳送至跟隨，請使用「FMextension」"
 
 #: views/usage.php:9
 #: views/usage.php:32
@@ -2810,7 +2810,7 @@ msgstr "VMX play_instructions，使用 yes：no"
 msgid ""
 "Valid port as specified in smdi.conf for using smdi for external "
 "notification."
-msgstr "在 smdi.conf 中指定用於使用 smdi 進行外部通知的有效連接埠。"
+msgstr "在 smdi.conf 中指定用於使用 smdi 進行外部通知的有效通訊埠。"
 
 #: functions.inc.php:597
 msgid "VmX Locater&trade;"

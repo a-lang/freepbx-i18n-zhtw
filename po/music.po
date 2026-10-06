@@ -46,7 +46,7 @@ msgstr "允許您設定不同的等候音樂類別。如果您想要指定不同
 
 #: assets/js/music.js:60
 msgid "An Error occurred trying to submit this document"
-msgstr "提交此文件時發生錯誤"
+msgstr "送出此文件時發生錯誤"
 
 #: views/advanced_form.php:37
 msgid "Application"

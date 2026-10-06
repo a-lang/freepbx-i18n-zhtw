@@ -77,7 +77,7 @@ msgid ""
 "conditions thus creating a <b>master switch</b> that can be used to override "
 "several possible call flows through different time conditions."
 msgstr ""
-"依預設，通話流程控制模組不會掛接時間條件，讓您可以將通話流程切換功能碼與時間條件建立關聯，因為自 2.9 版起時間條件已有自己的功能碼。若（在升級後的系統上）已設定關聯，這對於受影響的時間條件將不會有任何作用。將此設為 true 會還原 2.8 及更早版本的行為，允許將通話流程切換與時間條件建立關聯。這在兩種情況下很有用。第一，覆寫時間條件時不會發生內建時間條件覆寫的自動重設。第二種用途是能夠將單一通話流程切換與多個時間條件建立關聯，因而建立一個 <b>主控開關</b>，可用來透過不同的時間條件覆寫數個可能的通話流程。"
+"依預設，通話流程控制模組不會掛接時間條件，讓您可以將通話流程切換功能簡碼與時間條件建立關聯，因為自 2.9 版起時間條件已有自己的功能簡碼。若（在升級後的系統上）已設定關聯，這對於受影響的時間條件將不會有任何作用。將此設為 true 會還原 2.8 及更早版本的行為，允許將通話流程切換與時間條件建立關聯。這在兩種情況下很有用。第一，覆寫時間條件時不會發生內建時間條件覆寫的自動重設。第二種用途是能夠將單一通話流程切換與多個時間條件建立關聯，因而建立一個 <b>主控開關</b>，可用來透過不同的時間條件覆寫數個可能的通話流程。"
 
 #: views/bootnav.php:19
 msgid "Call Flow"
@@ -107,7 +107,7 @@ msgstr "通話流程切換控制"
 
 #: views/form.php:132
 msgid "Call Flow Toggle Feature Code Index"
-msgstr "通話流程切換功能碼索引"
+msgstr "通話流程切換功能簡碼索引"
 
 #: functions.inc.php:418
 #, php-format
@@ -118,7 +118,7 @@ msgstr "通話流程切換：%s（%s）"
 msgid ""
 "Call Flow manual toggle control - allows for two destinations to be chosen "
 "and provides a feature code that toggles between the two destinations."
-msgstr "通話流程手動切換控制：可選擇兩個目的地，並提供在兩個目的地之間切換的功能碼。"
+msgstr "通話流程手動切換控制：可選擇兩個目的地，並提供在兩個目的地之間切換的功能簡碼。"
 
 #: views/form.php:189
 msgid "Current Mode"
@@ -152,7 +152,7 @@ msgstr "設為覆寫流程（紅燈／BLF 開啟）模式時要使用的目的�
 
 #: views/grid.php:17
 msgid "Feature Code"
-msgstr "功能碼"
+msgstr "功能簡碼"
 
 #: views/form.php:105
 msgid "Forces to Normal Mode (Green/BLF off)"
@@ -184,7 +184,7 @@ msgid ""
 "destinations when that associated Call Flow Toggle is in its override (Red/"
 "BLF on) state."
 msgstr ""
-"若做出選擇，此時間條件將與指定的通話流程切換功能碼建立關聯。這表示若通話流程功能碼設為覆寫（紅燈／BLF 開啟），則當所選關聯是「強制時間條件為真的目的地」時，此時間條件將一律前往其為真的目的地；若關聯是「強制時間條件為假的目的地」，則一律前往其為假的目的地。當關聯的通話流程控制功能碼處於正常模式（綠燈／BLF 關閉）時，此時間條件將依目前時間正常運作。任何關聯的通話流程控制功能碼所包含的目的地，都不會影響通過此時間條件的電話會前往何處。建立關聯時唯一會做的事，是允許通話流程切換的覆寫狀態在該關聯的通話流程切換處於覆寫（紅燈／BLF 開啟）狀態時，強制此時間條件一律遵循其兩個目的地之一。"
+"若做出選擇，此時間條件將與指定的通話流程切換功能簡碼建立關聯。這表示若通話流程功能簡碼設為覆寫（紅燈／BLF 開啟），則當所選關聯是「強制時間條件為真的目的地」時，此時間條件將一律前往其為真的目的地；若關聯是「強制時間條件為假的目的地」，則一律前往其為假的目的地。當關聯的通話流程控制功能簡碼處於正常模式（綠燈／BLF 關閉）時，此時間條件將依目前時間正常運作。任何關聯的通話流程控制功能簡碼所包含的目的地，都不會影響通過此時間條件的電話會前往何處。建立關聯時唯一會做的事，是允許通話流程切換的覆寫狀態在該關聯的通話流程切換處於覆寫（紅燈／BLF 開啟）狀態時，強制此時間條件一律遵循其兩個目的地之一。"
 
 #: Daynight.class.php:205
 #: Daynight.class.php:219
@@ -283,7 +283,7 @@ msgstr "送出"
 msgid ""
 "There are a total of %s Feature code objects, %s, each can control a call "
 "flow and be toggled using the call flow toggle feature code plus the index."
-msgstr "共有 %s 個功能碼物件，%s，每個物件都可控制一個通話流程，並可使用通話流程切換功能碼加上索引來切換。"
+msgstr "共有 %s 個功能簡碼物件，%s，每個物件都可控制一個通話流程，並可使用通話流程切換功能簡碼加上索引來切換。"
 
 #: views/form.php:210
 msgid ""
@@ -300,7 +300,7 @@ msgid ""
 "You can optionally include a password to authenticate before toggling the "
 "call flow. If left blank anyone can use the feature code and it will be un-"
 "protected"
-msgstr "您可以選擇加入密碼，以便在切換通話流程前進行驗證。若留空白，任何人都可以使用此功能碼，且不受保護"
+msgstr "您可以選擇加入密碼，以便在切換通話流程前進行驗證。若留空白，任何人都可以使用此功能簡碼，且不受保護"
 
 #: views/form.php:14
 msgid ""

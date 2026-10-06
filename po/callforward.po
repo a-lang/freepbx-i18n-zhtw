@@ -152,7 +152,7 @@ msgid ""
 "The Call Forwarding module provides feature codes for call forwarding. Call "
 "Forwarding is used to forward calls from one user to another based on "
 "conditions such as busy, unavailable, and no answer."
-msgstr "來電轉接模組提供來電轉接的功能碼。來電轉接用於根據忙線、不可用及無人接聽等條件，將來電從一位使用者轉接給另一位使用者。"
+msgstr "來電轉接模組提供來電轉接的功能簡碼。來電轉接用於根據忙線、不可用及無人接聽等條件，將來電從一位使用者轉接給另一位使用者。"
 
 #: ucp/Callforward.class.php:61
 msgid "The given extension is empty."

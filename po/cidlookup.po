@@ -235,7 +235,7 @@ msgstr "MySQL 密碼"
 
 #: views/form.php:478
 msgid "MySQL Port"
-msgstr "MySQL 連接埠"
+msgstr "MySQL 通訊埠"
 
 #: views/form.php:526
 msgid "MySQL Username"
@@ -300,11 +300,11 @@ msgstr ""
 #: views/form.php:294
 #: views/form.php:466
 msgid "Port"
-msgstr "連接埠"
+msgstr "通訊埠"
 
 #: views/form.php:306
 msgid "Port HTTP(s) server is listening at (default http 80, https 443)"
-msgstr "HTTP(S) 伺服器接聽的連接埠（預設 http 80、https 443）"
+msgstr "HTTP(S) 伺服器接聽的通訊埠（預設 http 80、https 443）"
 
 #: views/form.php:390
 #: views/form.php:490

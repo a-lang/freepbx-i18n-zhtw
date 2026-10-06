@@ -85,7 +85,7 @@ msgstr "FM 清單"
 
 #: views/view.grid.php:19
 msgid "Follow-Me"
-msgstr "跟我走"
+msgstr "跟隨"
 
 #: Extensionsettings.class.php:174
 #: views/view.grid.php:26

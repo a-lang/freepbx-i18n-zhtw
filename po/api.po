@@ -39,7 +39,7 @@ msgstr "API"
 #: views/system/modals.php:73
 #: views/system/modals.php:181
 msgid "API Ports"
-msgstr "API 連接埠"
+msgstr "API 通訊埠"
 
 #: views/system/scopeVisualizer.php:40
 msgid "API Type"
@@ -74,7 +74,7 @@ msgstr "新增應用程式"
 #: views/system/modals.php:72
 #: views/system/modals.php:180
 msgid "Admin Ports"
-msgstr "管理員連接埠"
+msgstr "管理員通訊埠"
 
 #: Api.class.php:301
 #: Api.class.php:316

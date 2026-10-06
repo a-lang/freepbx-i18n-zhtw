@@ -1381,7 +1381,7 @@ msgstr "請在 User Manager 中設定預設目錄"
 #: functions.inc/auth/modules/Openldap.php:161
 #: functions.inc/auth/modules/Openldap2.php:207
 msgid "Port"
-msgstr "連接埠"
+msgstr "通訊埠"
 
 #: Userman.class.php:2516
 msgid "Previous Groupname can not be blank"
@@ -1924,7 +1924,7 @@ msgstr "Active Directory 密碼。只有在想要修改時才寫入密碼。如�
 #: functions.inc/auth/modules/Msad2.php:128
 #, php-format
 msgid "The active directory port, default %s"
-msgstr "Active Directory 連接埠，預設為 %s"
+msgstr "Active Directory 通訊埠，預設為 %s"
 
 #: functions.inc/auth/modules/Msad.php:148
 #: functions.inc/auth/modules/Msad2.php:129

@@ -134,7 +134,7 @@ msgstr "修復 bindport 時發生錯誤。請檢查進階 SIP 設定模組。"
 msgid ""
 "An unknown port conflict has been detected in PJSIP. Please check and "
 "validate your PJSIP Ports to ensure they're not overlapping"
-msgstr "PJSIP 中偵測到不明的連接埠衝突。請檢查並驗證您的 PJSIP 連接埠，確保它們沒有重疊"
+msgstr "PJSIP 中偵測到不明的通訊埠衝突。請檢查並驗證您的 PJSIP 通訊埠，確保它們沒有重疊"
 
 #: chansip.page.php:175
 msgid ""
@@ -235,7 +235,7 @@ msgstr "CA 連鎖檔案"
 
 #: Sipsettings.class.php:962
 msgid "CHANSIP Port Moved"
-msgstr "CHANSIP 連接埠已移動"
+msgstr "CHANSIP 通訊埠已移動"
 
 #: Sipsettings.class.php:972
 msgid "CHANSIP TCP Disabled"
@@ -243,7 +243,7 @@ msgstr "CHANSIP TCP 已停用"
 
 #: Sipsettings.class.php:983
 msgid "CHANSIP TLS Port Moved"
-msgstr "CHANSIP TLS 連接埠已移動"
+msgstr "CHANSIP TLS 通訊埠已移動"
 
 #: chansip.page.php:1000
 msgid "Call Events"
@@ -279,7 +279,7 @@ msgstr "只能選擇 chan_sip。不更新。"
 msgid ""
 "Chansip was assigned a port that was already in use for TLS traffic. The "
 "Chansip TLS port has been changed to %s"
-msgstr "Chansip 被指派了已用於 TLS 流量的連接埠。Chansip TLS 連接埠已變更為 %s"
+msgstr "Chansip 被指派了已用於 TLS 流量的通訊埠。Chansip TLS 通訊埠已變更為 %s"
 
 #: Sipsettings.class.php:972
 msgid ""
@@ -287,14 +287,14 @@ msgid ""
 "the tcpenable setting removed, and is no longer listening for TCP "
 "connections."
 msgstr ""
-"Chansip 被指派了與 pjsip 相同的 TCP 流量連接埠。Chansip 已移除 tcpenable 設定，不再接聽 TCP 連線。"
+"Chansip 被指派了與 pjsip 相同的 TCP 流量通訊埠。Chansip 已移除 tcpenable 設定，不再接聽 TCP 連線。"
 
 #: Sipsettings.class.php:962
 #, php-format
 msgid ""
 "Chansip was assigned the same port as pjsip for UDP traffic. The Chansip "
 "port has been changed to %s"
-msgstr "Chansip 被指派了與 pjsip 相同的 UDP 流量連接埠。Chansip 連接埠已變更為 %s"
+msgstr "Chansip 被指派了與 pjsip 相同的 UDP 流量通訊埠。Chansip 通訊埠已變更為 %s"
 
 #: general.page.php:837
 msgid "Check to enable and then choose allowed codecs."
@@ -326,7 +326,7 @@ msgstr "預設情境"
 
 #: general.page.php:109
 msgid "Default TLS Port Assignment"
-msgstr "預設 TLS 連接埠指派"
+msgstr "預設 TLS 通訊埠指派"
 
 #: chansip.page.php:848
 msgid ""
@@ -492,7 +492,7 @@ msgstr "外部 IP 已成功更新"
 
 #: chanpj.page.php:96
 msgid "External Signaling Port"
-msgstr "外部訊號連接埠"
+msgstr "外部訊號通訊埠"
 
 #: chansip.page.php:235
 msgid ""
@@ -545,7 +545,7 @@ msgid ""
 "blank by default. (A list of STUN servers: https://sangomakb.atlassian.net/"
 "wiki/spaces/PG/pages/25824149/PBX+GUI+-+STUN+Servers)"
 msgstr ""
-"用於判定外部 IP 地址與 RTP 連接埠位址的 STUN 伺服器主機名稱或地址。連接埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。（STUN 伺服器清單：https://sangomakb.atlassian.net/wiki/spaces/PG/pages/25824149/PBX+GUI+-+STUN+Servers）"
+"用於判定外部 IP 地址與 RTP 通訊埠位址的 STUN 伺服器主機名稱或地址。通訊埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。（STUN 伺服器清單：https://sangomakb.atlassian.net/wiki/spaces/PG/pages/25824149/PBX+GUI+-+STUN+Servers）"
 
 #: general.page.php:441
 #: general.page.php:626
@@ -553,7 +553,7 @@ msgid ""
 "Hostname or address for the TURN server to be used as a relay. The port "
 "number is optional. If omitted the default value of 3478 will be used. This "
 "option is blank by default."
-msgstr "用作中繼的 TURN 伺服器主機名稱或地址。連接埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。"
+msgstr "用作中繼的 TURN 伺服器主機名稱或地址。通訊埠號為選用。若省略，將使用預設值 3478。此選項預設為空白。"
 
 #: general.page.php:496
 msgid "ICE Blacklist"
@@ -691,7 +691,7 @@ msgstr "本地網路"
 msgid ""
 "Local incoming TCP Port that Asterisk will bind to and listen for TLS SIP "
 "messages."
-msgstr "Asterisk 將綁定並接聽 TLS SIP 訊息的本機傳入 TCP 連接埠。"
+msgstr "Asterisk 將綁定並接聽 TLS SIP 訊息的本機傳入 TCP 通訊埠。"
 
 #: chansip.page.php:896
 msgid ""
@@ -700,7 +700,7 @@ msgid ""
 "installs (when only a single SIP driver was present) would set the chan_sip "
 "bind port to 5060, but new installs set it to 5160."
 msgstr ""
-"Asterisk 將綁定並接聽 chan_SIP 訊息的本機傳入 UDP（若啟用則含 TCP）連接埠。若留空，將預設為 5060。舊版安裝（僅存在單一 SIP 驅動程式時）會將 chan_sip 綁定連接埠設為 5060，但新安裝將其設為 5160。"
+"Asterisk 將綁定並接聽 chan_SIP 訊息的本機傳入 UDP（若啟用則含 TCP）通訊埠。若留空，將預設為 5060。舊版安裝（僅存在單一 SIP 驅動程式時）會將 chan_sip 綁定通訊埠設為 5060，但新安裝將其設為 5160。"
 
 #: chanpj.page.php:96
 msgid "Local network"
@@ -899,7 +899,7 @@ msgstr "PJSIP「允許傳輸重新載入」選項已設定為「是」。"
 
 #: assets/js/sipsettings.js:242
 msgid "PJSIP transport port conflicts with SIP port"
-msgstr "PJSIP 傳輸連接埠與 SIP 連接埠衝突"
+msgstr "PJSIP 傳輸通訊埠與 SIP 通訊埠衝突"
 
 #: general.page.php:114
 msgid "PJSip"
@@ -918,13 +918,13 @@ msgstr "將 caller-id 資訊放入 Contact 標頭。預設值：否。"
 
 #: chanpj.page.php:96
 msgid "Port to Listen On"
-msgstr "接聽連接埠"
+msgstr "接聽通訊埠"
 
 #: assets/js/sipsettings.js:18
 msgid ""
 "Port/Bind Address has changed. This requires an Asterisk restart after Apply "
 "Config"
-msgstr "連接埠/Bind Address 已變更。這需要在套用設定後重新啟動 Asterisk"
+msgstr "通訊埠/Bind Address 已變更。這需要在套用設定後重新啟動 Asterisk"
 
 #: chanpj.page.php:372
 msgid "Private Key File"
@@ -948,7 +948,7 @@ msgstr "RTP Keep Alive"
 
 #: general.page.php:243
 msgid "RTP Port Ranges"
-msgstr "RTP 連接埠範圍"
+msgstr "RTP 通訊埠範圍"
 
 #: general.page.php:233
 msgid "RTP Settings"
@@ -1144,7 +1144,7 @@ msgid ""
 "which listens on all interfaces for both IPv4 and IPv6 connections. Note "
 "that PJSip is preferable for all IPv6 communications."
 msgstr ""
-"用於接聽 TLS（加密）連線的 TCP 連接埠。預設為 '::'，這會接聽所有介面的 IPv4 和 IPv6 連線。請注意，PJSip 更適合所有 IPv6 通訊。"
+"用於接聽 TLS（加密）連線的 TCP 通訊埠。預設為 '::'，這會接聽所有介面的 IPv4 和 IPv6 連線。請注意，PJSip 更適合所有 IPv6 通訊。"
 
 #: chansip.page.php:906
 msgid "TLS Bind Address"
@@ -1219,11 +1219,11 @@ msgstr "網路遮罩"
 
 #: chanpj.page.php:96
 msgid "The port that this transport should listen on"
-msgstr "此傳輸應該接聽的連接埠"
+msgstr "此傳輸應該接聽的通訊埠"
 
 #: general.page.php:270
 msgid "The starting and ending RTP port range"
-msgstr "起始與結束 RTP 連接埠範圍"
+msgstr "起始與結束 RTP 通訊埠範圍"
 
 #: chansip.page.php:116
 msgid "These settings apply only to SIP Legacy [chan_sip]"
@@ -1259,7 +1259,7 @@ msgid ""
 "that protocol is not enabled, or, that protocol does not have TLS enabled. "
 "If you change this, you will have to restart Asterisk"
 msgstr ""
-"這可讓您明確控制預設 SIP TLS 連接埠（5061）上接聽的 SIP 通訊協定。若某個選項無法使用，代表該通訊協定未啟用，或該通訊協定未啟用 TLS。若您變更此項目，將必須重新啟動 Asterisk"
+"這可讓您明確控制預設 SIP TLS 通訊埠（5061）上接聽的 SIP 通訊協定。若某個選項無法使用，代表該通訊協定未啟用，或該通訊協定未啟用 TLS。若您變更此項目，將必須重新啟動 Asterisk"
 
 #: chanpj.page.php:281
 msgid ""
@@ -1294,7 +1294,7 @@ msgstr "未知的錯誤"
 
 #: Sipsettings.class.php:948
 msgid "Unknown Port Conflict"
-msgstr "不明的連接埠衝突"
+msgstr "不明的通訊埠衝突"
 
 #: Sipsettings.class.php:505
 #: Sipsettings.class.php:591

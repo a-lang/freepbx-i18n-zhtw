@@ -211,20 +211,20 @@ msgstr "啟用行事曆比對"
 
 #: views/quickCreate.php:5
 msgid "Enable Find Me/Follow Me"
-msgstr "啟用找我/跟我走"
+msgstr "啟用跟隨"
 
 #: views/ucp_config.php:7
 msgid "Enable Findme Follow"
-msgstr "啟用找我/跟我走"
+msgstr "啟用跟隨"
 
 #: views/form.php:267
 msgid "Enable Followme"
-msgstr "啟用跟我走"
+msgstr "啟用跟隨"
 
 #: Api/Gql/Findmefollow.php:263
 #: Api/Gql/Findmefollow.php:437
 msgid "Enable calendar for follow me (either group or single calendar)"
-msgstr "為跟我走啟用行事曆（群組或單一行事曆）"
+msgstr "為跟隨啟用行事曆（群組或單一行事曆）"
 
 #: views/ucp_config.php:28
 msgid "Enable the Findmefollow access in UCP for this user"
@@ -281,24 +281,24 @@ msgstr "分機"
 
 #: functions.inc.php:458
 msgid "Find Me/Follow Me"
-msgstr "找我/跟我走"
+msgstr "跟隨"
 
 #: ucp/Findmefollow.class.php:68
 msgid "Find Me/Follow Me Has Been Updated!"
-msgstr "找我/跟我走已更新！"
+msgstr "跟隨已更新！"
 
 #: ucp/Findmefollow.class.php:147
 #, php-format
 msgid "Find Me/Follow Me for %s"
-msgstr "%s 的找我/跟我走"
+msgstr "%s 的跟隨"
 
 #: ucp/Findmefollow.class.php:100
 msgid "Find Me/Follow Me is not enabled for this user."
-msgstr "此使用者未啟用找我/跟我走。"
+msgstr "此使用者未啟用跟隨。"
 
 #: install.php:5
 msgid "Findme Follow Toggle"
-msgstr "找我/跟我走切換"
+msgstr "跟隨切換"
 
 #: Findmefollow.class.php:1373
 msgid "FindmeFollow"
@@ -350,90 +350,90 @@ msgstr "與上述部分模式搭配使用時，用來取代 CID 的固定值。�
 #: ucp/Findmefollow.class.php:165
 #: ucp/Findmefollow.class.php:191
 msgid "Follow Me"
-msgstr "跟我走"
+msgstr "跟隨"
 
 #: Findmefollow.class.php:897
 msgid ""
 "Follow Me Calendar Group Id [Mapped only if group exists; cannot set with "
 "calendar id]"
-msgstr "跟我走行事曆群組 ID [僅在群組存在時對應；無法與行事曆 ID 一起設定]"
+msgstr "跟隨行事曆群組 ID [僅在群組存在時對應；無法與行事曆 ID 一起設定]"
 
 #: Findmefollow.class.php:894
 msgid "Follow Me Calendar Id [Mapped only if calendar exists]"
-msgstr "跟我走行事曆 ID [僅在行事曆存在時對應]"
+msgstr "跟隨行事曆 ID [僅在行事曆存在時對應]"
 
 #: Findmefollow.class.php:900
 msgid "Follow Me Calendar Match Inverse [yes/no]"
-msgstr "跟我走行事曆比對反向 [是/否]"
+msgstr "跟隨行事曆比對反向 [是/否]"
 
 #: Findmefollow.class.php:891
 msgid "Follow Me Enable Calendar Matching [0/1]"
-msgstr "跟我走啟用行事曆比對 [0/1]"
+msgstr "跟隨啟用行事曆比對 [0/1]"
 
 #: Findmefollow.class.php:880
 msgid "Follow Me Enabled [Blank to disable]"
-msgstr "跟我走已啟用 [留空以停用]"
+msgstr "跟隨已啟用 [留空以停用]"
 
 #: Api/Gql/Findmefollow.php:194
 #: Api/Gql/Findmefollow.php:380
 msgid "Follow Me Extension Number"
-msgstr "跟我走分機號碼"
+msgstr "跟隨分機號碼"
 
 #: Findmefollow.class.php:883
 #: ucp/views/settings.php:27
 msgid "Follow Me List"
-msgstr "跟我走清單"
+msgstr "跟隨清單"
 
 #: Findmefollow.class.php:886
 msgid "Follow Me No Answer Destination"
-msgstr "跟我走無人接聽目的地"
+msgstr "跟隨無人接聽目的地"
 
 #: functions.inc.php:840
 #, php-format
 msgid "Follow Me: %s"
-msgstr "跟我走：%s"
+msgstr "跟隨：%s"
 
 #: Api/Gql/Findmefollow.php:531
 #, php-format
 msgid ""
 "Follow me allows only Same extension Behavior, Example: please provide this "
 "format `ext-local,%s,dest`"
-msgstr "跟我走僅允許相同的分機行為，範例：請提供此格式 `ext-local,%s,dest`"
+msgstr "跟隨僅允許相同的分機行為，範例：請提供此格式 `ext-local,%s,dest`"
 
 #: views/form.php:454
 msgid "Follow-Me"
-msgstr "跟我走"
+msgstr "跟隨"
 
 #: functions.inc.php:564
 #: views/form.php:478
 msgid "Follow-Me List"
-msgstr "跟我走清單"
+msgstr "跟隨清單"
 
 #: functions.inc.php:564
 msgid "Follow-Me List can not be empty if Follow-Me is enabled"
-msgstr "啟用跟我走時，跟我走清單不能為空白"
+msgstr "啟用跟隨時，跟隨清單不能為空白"
 
 #: functions.inc.php:885
 #, php-format
 msgid "Follow-Me User: %s"
-msgstr "跟我走使用者：%s"
+msgstr "跟隨使用者：%s"
 
 #: functions.inc.php:865
 #, php-format
 msgid "Follow-Me: %s (%s)"
-msgstr "跟我走：%s（%s）"
+msgstr "跟隨：%s（%s）"
 
 #: views/fmgrid.php:26
 msgid "Followme Extension"
-msgstr "跟我走分機"
+msgstr "跟隨分機"
 
 #: views/nogo.php:2
 msgid "Followme List"
-msgstr "跟我走清單"
+msgstr "跟隨清單"
 
 #: views/ucp_config.php:67
 msgid "Followme Ring Strategy Settings"
-msgstr "跟我走響鈴策略設定"
+msgstr "跟隨響鈴策略設定"
 
 #: functions.inc.php:660
 #: functions.inc.php:661
@@ -444,7 +444,7 @@ msgstr "強制撥打的號碼"
 
 #: functions.inc.php:42
 msgid "Force Follow Me"
-msgstr "強制跟我走"
+msgstr "強制跟隨"
 
 #: functions.inc.php:492
 msgid "General Settings"
@@ -464,18 +464,18 @@ msgid ""
 "want a call to ring the extension, and then only if the caller chooses to "
 "find you do you want it to come here."
 msgstr ""
-"若啟用，所有撥到此分機的來電都會改走此跟我走，包括從 IVR 依姓名查詢目錄的來電。若停用，來電只會撥到分機。不過，指定 FollowMe 的目的地會到此。此設定常與 VmX Locater 搭配使用；當您希望來電先響分機，只有在來電者選擇尋找您時，才希望來電轉到這裡。"
+"若啟用，所有撥到此分機的來電都會改走此跟隨，包括從 IVR 依姓名查詢目錄的來電。若停用，來電只會撥到分機。不過，指定 FollowMe 的目的地會到此。此設定常與 VmX Locater 搭配使用；當您希望來電先響分機，只有在來電者選擇尋找您時，才希望來電轉到這裡。"
 
 #: functions.inc.php:515
 #: views/form.php:365
 msgid ""
 "If set the followme will only be active when the calendar group has an event."
-msgstr "若設定，只有在行事曆群組有事件時，跟我走才會啟用。"
+msgstr "若設定，只有在行事曆群組有事件時，跟隨才會啟用。"
 
 #: functions.inc.php:507
 #: views/form.php:336
 msgid "If set the followme will only be active when the calendar has an event."
-msgstr "若設定，只有在行事曆有事件時，跟我走才會啟用。"
+msgstr "若設定，只有在行事曆有事件時，跟隨才會啟用。"
 
 #: functions.inc.php:580
 #: views/form.php:212
@@ -518,11 +518,11 @@ msgstr "指定的時間無效"
 msgid ""
 "Link this Follow Me to a Calendar or Calendar group to automatically Enable/"
 "Disable based on a schedule"
-msgstr "將此跟我走連結到行事曆或行事曆群組，即可依排程自動啟用/停用"
+msgstr "將此跟隨連結到行事曆或行事曆群組，即可依排程自動啟用/停用"
 
 #: views/bootnav.php:12
 msgid "List Followme Groups"
-msgstr "列出跟我走群組"
+msgstr "列出跟隨群組"
 
 #: functions.inc.php:564
 #: views/form.php:498
@@ -535,7 +535,7 @@ msgid ""
 "you wish the system to use another extension's FindMe/FollowMe append a # "
 "onto that extension, eg 105#"
 msgstr ""
-"列出要響鈴的分機，每行一個，或使用下方的分機快速挑選。<br><br>您可以包含遠端系統上的分機，或在號碼後加上井號（#）來包含外部號碼。範例：2448089# 會在適當的中繼上撥打 2448089（請參閱外撥路由）。<br><br>注意：新增的任何本機分機都會略過該本機分機的找我/跟我走；若您希望系統使用另一個分機的找我/跟我走，請在該分機後面加上 #，例如 105#"
+"列出要響鈴的分機，每行一個，或使用下方的分機快速挑選。<br><br>您可以包含遠端系統上的分機，或在號碼後加上井號（#）來包含外部號碼。範例：2448089# 會在適當的中繼上撥打 2448089（請參閱外撥路由）。<br><br>注意：新增的任何本機分機都會略過該本機分機的跟隨；若您希望系統使用另一個分機的跟隨，請在該分機後面加上 #，例如 105#"
 
 #: ucp/views/settings.php:29
 msgid ""
@@ -644,7 +644,7 @@ msgid ""
 "Note: Any local extension added will skip that local extension's FindMe/"
 "FollowMe, if you wish the system to use another extension's FindMe/FollowMe "
 "append a # onto that extension, eg 105#"
-msgstr "注意：新增的任何本機分機都會略過該本機分機的找我/跟我走；若您希望系統使用另一個分機的找我/跟我走，請在該分機後面加上 #，例如 105#"
+msgstr "注意：新增的任何本機分機都會略過該本機分機的跟隨；若您希望系統使用另一個分機的跟隨，請在該分機後面加上 #，例如 105#"
 
 #: assets/js/findmefollow.js:113
 msgid ""
@@ -724,7 +724,7 @@ msgstr "先響鈴 %s"
 
 #: ucp/views/settings.php:51
 msgid "Ring Followme List For"
-msgstr "響鈴跟我走清單"
+msgstr "響鈴跟隨清單"
 
 #: functions.inc.php:558
 #: ucp/views/settings.php:34
@@ -793,7 +793,7 @@ msgstr "系統錄音 ID。若來電在對方按 1 之前已被接聽，將播放
 #: Api/Gql/Findmefollow.php:474
 #: Api/Gql/Findmefollow.php:486
 msgid "The Follow Me Extension Number"
-msgstr "跟我走分機號碼"
+msgstr "跟隨分機號碼"
 
 #: Api/Gql/Findmefollow.php:130
 msgid "The extension number"
@@ -805,7 +805,7 @@ msgstr "指定的分機為空白。"
 
 #: views/form.php:255
 msgid "The number users will dial to ring extensions in this Followme group"
-msgstr "使用者撥打以響鈴此跟我走群組內分機的號碼"
+msgstr "使用者撥打以響鈴此跟隨群組內分機的號碼"
 
 #: Api/Gql/Findmefollow.php:213
 #: Api/Gql/Findmefollow.php:401
@@ -831,7 +831,7 @@ msgid ""
 "true to activate). If true, then follow me will match whenever there is an "
 "event. If false, follow me will match whenever no event is present"
 msgstr ""
-"這決定事件比對的處理方式（必須將 `enableCalendar` 設為 true 才會啟用）。若為 true，只要有事件發生，跟我走就會比對。若為 false，沒有事件時跟我走才會比對"
+"這決定事件比對的處理方式（必須將 `enableCalendar` 設為 true 才會啟用）。若為 true，只要有事件發生，跟隨就會比對。若為 false，沒有事件時跟隨才會比對"
 
 #: Api/Gql/Findmefollow.php:522
 msgid "This extension does not exist"
@@ -852,7 +852,7 @@ msgid ""
 "This is the number of seconds to ring the primary extension prior to "
 "proceeding to the follow-me list. The extension can also be included in the "
 "follow-me list. A 0 setting will bypass this."
-msgstr "這是在進入跟我走清單之前響鈴主要分機的秒數。分機也可以包含在跟我走清單中。設為 0 將略過此設定。"
+msgstr "這是在進入跟隨清單之前響鈴主要分機的秒數。分機也可以包含在跟隨清單中。設為 0 將略過此設定。"
 
 #: ucp/views/settings.php:57
 msgid "Time in seconds that the phones will ring"
@@ -925,7 +925,7 @@ msgstr "使用撥打的號碼"
 
 #: Api/Gql/Findmefollow.php:173
 msgid "Used to manage Follow Me"
-msgstr "用於管理跟我走"
+msgstr "用於管理跟隨"
 
 #: views/bootnav.php:4
 msgid "User"
@@ -937,7 +937,7 @@ msgstr "使用者主要分機"
 
 #: views/ucp_config.php:87
 msgid "User will have the Option to select followme ring Strategy in UCP"
-msgstr "使用者將可在 UCP 中選擇跟我走響鈴策略"
+msgstr "使用者將可在 UCP 中選擇跟隨響鈴策略"
 
 #: Findmefollow.class.php:76
 msgid "Warning! Extension"
@@ -953,7 +953,7 @@ msgid ""
 "When set to yes follow me will match (be enabled) whenever there is an "
 "event. When set to no followme will match (be enabled) whenever no event is "
 "present"
-msgstr "設為是時，只要有事件發生，跟我走就會比對（啟用）。設為否時，沒有事件時跟我走才會比對（啟用）"
+msgstr "設為是時，只要有事件發生，跟隨就會比對（啟用）。設為否時，沒有事件時跟隨才會比對（啟用）"
 
 #: views/form.php:692
 msgid "Where to send callers if there is no answer."
@@ -999,11 +999,11 @@ msgstr "您不能同時設定群組和行事曆"
 
 #: functions.inc.php:157
 msgid "Your followme is linked to a non-existant calendar"
-msgstr "您的跟我走連結到不存在的行事曆"
+msgstr "您的跟隨連結到不存在的行事曆"
 
 #: functions.inc.php:146
 msgid "Your followme is linked to a non-existant calendar group"
-msgstr "您的跟我走連結到不存在的行事曆群組"
+msgstr "您的跟隨連結到不存在的行事曆群組"
 
 #: views/form.php:199
 msgid "default"
@@ -1055,7 +1055,7 @@ msgstr "無"
 msgid ""
 "ring Extension for duration set in Initial Ring Time, and then terminate "
 "call to Extension and ring Follow-Me List for duration set in Ring Time."
-msgstr "先依初始響鈴時間響鈴分機，然後結束撥往分機的來電，再依響鈴時間響鈴跟我走清單。"
+msgstr "先依初始響鈴時間響鈴分機，然後結束撥往分機的來電，再依響鈴時間響鈴跟隨清單。"
 
 #: ucp/views/settings.php:2
 #: views/form.php:40
@@ -1063,14 +1063,14 @@ msgid ""
 "ring Extension for duration set in Initial Ring Time, and then, while "
 "continuing call to extension (only if extension is in the Group List), ring "
 "Follow-Me List for duration set in Ring Time."
-msgstr "先依初始響鈴時間響鈴分機，然後在持續響鈴分機的同時（僅當分機在群組清單中時），依響鈴時間響鈴跟我走清單。"
+msgstr "先依初始響鈴時間響鈴分機，然後在持續響鈴分機的同時（僅當分機在群組清單中時），依響鈴時間響鈴跟隨清單。"
 
 #: functions.inc.php:546
 msgid ""
 "ring Extension for duration set in Initial Ring Time, and then, while "
 "continuing call to extension, ring Follow-Me List for duration set in Ring "
 "Time."
-msgstr "先依初始響鈴時間響鈴分機，然後在持續響鈴分機的同時，依響鈴時間響鈴跟我走清單。"
+msgstr "先依初始響鈴時間響鈴分機，然後在持續響鈴分機的同時，依響鈴時間響鈴跟隨清單。"
 
 #: functions.inc.php:549
 #: ucp/views/settings.php:8

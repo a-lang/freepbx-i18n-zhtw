@@ -220,7 +220,7 @@ msgstr "還原後您可以使用套用設定按鈕重新載入"
 #: Handlers/Restore/Common.php:183
 msgid ""
 "Apache will Restart now... And your GUI may die if the ports are changed !!!!"
-msgstr "Apache 現在將重新啟動... 如果連接埠已變更，您的 GUI 可能失效 !!!!"
+msgstr "Apache 現在將重新啟動... 如果通訊埠已變更，您的 GUI 可能失效 !!!!"
 
 #: views/backup/form.php:292
 msgid "Append Backup Name as a directory to the Storage path"
@@ -581,7 +581,7 @@ msgstr "找不到此檔案的清單"
 #: Backup.class.php:1048
 #: Backup.class.php:1116
 msgid "Couldn't find your file, please try submitting your file again."
-msgstr "找不到您的檔案，請重新提交您的檔案。"
+msgstr "找不到您的檔案，請重新送出您的檔案。"
 
 #: functions.inc/class.backup.php:386
 msgid "Created"
@@ -626,7 +626,7 @@ msgstr "於多少次執行後刪除"
 
 #: Backup.class.php:1841
 msgid "Delete this entry. Don't forget to click Submit to save changes!"
-msgstr "刪除此項目。別忘了按一下提交來儲存變更！"
+msgstr "刪除此項目。別忘了按一下送出來儲存變更！"
 
 #: Handlers/Backup/Multiple.php:120
 #, php-format
@@ -765,7 +765,7 @@ msgstr "排除"
 
 #: views/backup/warmspare.php:144
 msgid "Exclude Bind Address"
-msgstr "排除繫結位址"
+msgstr "排除綁定位址"
 
 #: views/backup/warmspare.php:81
 msgid "Exclude CERTIFICATE settings"
@@ -787,7 +787,7 @@ msgstr "排除中繼"
 msgid ""
 "Explicitly exclude any machine-specific Bindaddres. This allows you to have "
 "a warm-spare machine with a different IP address."
-msgstr "明確排除任何特定機器的繫結位址（Bindaddress）。這可讓您的備援機器使用不同的 IP 位址。"
+msgstr "明確排除任何特定機器的綁定位址（Bindaddress）。這可讓您的備援機器使用不同的 IP 位址。"
 
 #: views/backup/warmspare.php:196
 msgid ""
@@ -814,7 +814,7 @@ msgstr "正在從 %s 匯出資料庫"
 #: BackupBase.php:71
 #, php-format
 msgid "Exporting Feature Codes from %s"
-msgstr "正在從 %s 匯出功能碼"
+msgstr "正在從 %s 匯出功能簡碼"
 
 #: BackupBase.php:173
 #, php-format
@@ -1031,7 +1031,7 @@ msgstr "正在從 %s 匯入資料庫"
 #: RestoreBase.php:108
 #, php-format
 msgid "Importing Feature Codes from %s"
-msgstr "正在從 %s 匯入功能碼"
+msgstr "正在從 %s 匯入功能簡碼"
 
 #: RestoreBase.php:198
 #, php-format
@@ -1311,7 +1311,7 @@ msgstr "未提供檔案"
 
 #: Backup.class.php:1037
 msgid "No id was specified to process. Please try submitting your file again."
-msgstr "未指定要處理的 id。請重新提交您的檔案。"
+msgstr "未指定要處理的 id。請重新送出您的檔案。"
 
 #: assets/js/backup.js:100
 #: assets/js/backup.js:415
@@ -1746,7 +1746,7 @@ msgstr "執行還原後掛鉤 完成"
 msgid ""
 "Running Post Restore Hooks.. Please note that hook will restart httpd "
 "service so please refresh your page (using new ports) "
-msgstr "正在執行還原後掛鉤.. 請注意，掛鉤會重新啟動 httpd 服務，因此請重新整理您的頁面（使用新的連接埠）"
+msgstr "正在執行還原後掛鉤.. 請注意，掛鉤會重新啟動 httpd 服務，因此請重新整理您的頁面（使用新的通訊埠）"
 
 #: views/restore/processRestore.php:43
 msgid "Running a restore will overwrite current data. This cannot be undone!"

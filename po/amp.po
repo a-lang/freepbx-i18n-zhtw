@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-24 03:15-0400\n"
-"PO-Revision-Date: 2026-09-14 13:38+0800\n"
+"PO-Revision-Date: 2026-10-06 12:41+0800\n"
 "Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -1270,7 +1270,7 @@ msgstr "允許任何 CID"
 #: ../core/functions.inc/drivers/PJSip.class.php:288
 #: ../core/views/trunks/pjsip.php:1174
 msgid "Allow Contact header to be rewritten with the source IP address-port"
-msgstr "允許使用來源 IP 位址-連接埠改寫 Contact 標頭"
+msgstr "允許使用來源 IP 位址-通訊埠改寫 Contact 標頭"
 
 #: amp.i18n.php:536
 #: ../core/install.php:1246
@@ -1410,7 +1410,7 @@ msgid ""
 "Are you Sure you want to Change the SIP Channel Driver? (The Page will "
 "Refresh, then you MUST hit submit to resave the device when you are done to "
 "propagate the new settings)"
-msgstr "您確定要變更 SIP 通道驅動程式嗎？（頁面將重新整理，完成後您必須按下提交以重新儲存裝置，才能套用新設定）"
+msgstr "您確定要變更 SIP 通道驅動程式嗎？（頁面將重新整理，完成後您必須按下送出以重新儲存裝置，才能套用新設定）"
 
 #: amp_conf/htdocs/admin/views/footer.php:118
 msgid ""
@@ -1501,11 +1501,11 @@ msgstr "Asterisk Manager 密碼"
 
 #: amp.i18n.php:98
 msgid "Asterisk Manager Port"
-msgstr "Asterisk Manager 連接埠"
+msgstr "Asterisk Manager 通訊埠"
 
 #: amp.i18n.php:102
 msgid "Asterisk Manager Proxy Port"
-msgstr "Asterisk Manager 代理連接埠"
+msgstr "Asterisk Manager 代理通訊埠"
 
 #: amp.i18n.php:106
 msgid "Asterisk Manager User"
@@ -3243,7 +3243,7 @@ msgstr ""
 msgid ""
 "DO NOT set this unless you know what you are doing. Only used if you do not "
 "use the default values provided by FreePBX.<br>Port number for db host."
-msgstr "除非您清楚自己在做什麼，否則請勿設定此項。僅在您不使用 FreePBX 提供的預設值時才需要設定。<br>資料庫主機的連接埠號碼。"
+msgstr "除非您清楚自己在做什麼，否則請勿設定此項。僅在您不使用 FreePBX 提供的預設值時才需要設定。<br>資料庫主機的通訊埠號碼。"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:335
 msgid "DTLS-SRTP (not recommended)"
@@ -3401,7 +3401,7 @@ msgid ""
 "RFC3581, 'route' ignores the rport information. See Asterisk documentation "
 "for details."
 msgstr ""
-"（新分機）SIP nat 的預設設定。「yes」會嘗試處理 NAT，也適用於本機（使用網路連接埠與位址，而非回報的連接埠）；「no」遵循協定；「never」會嘗試封鎖 NAT，且不使用 RFC3581；「route」會忽略 rport 資訊。詳細資訊請參閱 Asterisk 文件。"
+"（新分機）SIP nat 的預設設定。「yes」會嘗試處理 NAT，也適用於本機（使用網路通訊埠與位址，而非回報的通訊埠）；「no」遵循協定；「never」會嘗試封鎖 NAT，且不使用 RFC3581；「route」會忽略 rport 資訊。詳細資訊請參閱 Asterisk 文件。"
 
 #: amp.i18n.php:230
 msgid ""
@@ -4574,7 +4574,7 @@ msgid ""
 "leave this alone. It allows multi-line phones to receive multiple calls on "
 "their line appearances."
 msgstr ""
-"建立分機時依預設啟用插撥（預設為 yes）。若您不希望電話在插撥已啟用的狀態下交機，請設為 <b>no</b>。之後使用者將須撥打插撥功能碼（預設為 *70）才能啟用其電話。大多數安裝環境應維持此設定不變。此設定可讓多線路電話在其線路外觀上接收多通來電。"
+"建立分機時依預設啟用話中插接（預設為 yes）。若您不希望電話在話中插接已啟用的狀態下交機，請設為 <b>no</b>。之後使用者將須撥打話中插接功能簡碼（預設為 *70）才能啟用其電話。大多數安裝環境應維持此設定不變。此設定可讓多線路電話在其線路外觀上接收多通來電。"
 
 #: amp.i18n.php:120
 msgid "Enable fwconsloe cron jobs execution logs"
@@ -4723,13 +4723,13 @@ msgstr "端點"
 
 #: ../core/functions.inc/drivers/Iax2.class.php:137
 msgid "Endpoint port number to use, usually 4569."
-msgstr "要使用的端點連接埠號碼，通常為 4569。"
+msgstr "要使用的端點通訊埠號碼，通常為 4569。"
 
 #: ../core/functions.inc/drivers/Sip.class.php:396
 msgid ""
 "Endpoint port number to use, usually 5060. Some 2 ports devices such as ATA "
 "may used 5061 for the second port."
-msgstr "要使用的端點連接埠號碼，通常為 5060。某些雙連接埠裝置（如 ATA）可能將 5061 用於第二個連接埠。"
+msgstr "要使用的端點通訊埠號碼，通常為 5060。某些雙通訊埠裝置（如 ATA）可能將 5061 用於第二個通訊埠。"
 
 #: amp.i18n.php:334
 msgid "Enforce RFC7462"
@@ -5047,13 +5047,13 @@ msgstr "將設定匯出至檔案"
 
 #: amp.i18n.php:742
 msgid "Expose All Feature Codes"
-msgstr "顯示所有功能碼"
+msgstr "顯示所有功能簡碼"
 
 #: amp.i18n.php:744
 msgid ""
 "Expose All Feature Codes settings in Feature Code Admin page. By default *11/"
 "*12 feature code setting will be hidden in Extension mode."
-msgstr "在「功能碼管理」頁面顯示所有功能碼設定。依預設，*11/*12 功能碼設定在分機模式下會隱藏。"
+msgstr "在「功能簡碼管理」頁面顯示所有功能簡碼設定。依預設，*11/*12 功能簡碼設定在分機模式下會隱藏。"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:16
 msgid "Extended"
@@ -5389,7 +5389,7 @@ msgstr "傳真偵測"
 
 #: amp.i18n.php:342
 msgid "Feature Codes Beep Only"
-msgstr "功能碼僅嗶聲"
+msgstr "功能簡碼僅嗶聲"
 
 #: amp_conf/htdocs/admin/libraries/Api/Gql/System.php:88
 msgid "Fetch asterisk details"
@@ -5519,7 +5519,7 @@ msgid ""
 "b> (resulting in busy voicemail greeting). If set to no, unanswered CW calls "
 "simply report as <b>no-answer</b>."
 msgstr ""
-"對於已啟用來電插撥（CW）的分機，將未接聽的插撥來電回報為<b>佔線</b>（會播放語音信箱的佔線問候語）。若設為否，未接聽的插撥來電則僅回報為<b>未應答</b>。"
+"對於已啟用話中插接（CW）的分機，將未接聽的話中插接來電回報為<b>佔線</b>（會播放語音信箱的佔線問候語）。若設為否，未接聽的話中插接來電則僅回報為<b>未應答</b>。"
 
 #: amp_conf/htdocs/admin/config.php:831
 msgid "For further help, please contact"
@@ -5590,7 +5590,7 @@ msgid ""
 "Force RFC3581 compliant behavior even when no rport parameter exists. "
 "Basically always send SIP responses back to the same port we received SIP "
 "requests from."
-msgstr "即使沒有 rport 參數，也強制採用符合 RFC3581 的行為。基本上，一律將 SIP 回應傳送回我們收到 SIP 要求的那個連接埠。"
+msgstr "即使沒有 rport 參數，也強制採用符合 RFC3581 的行為。基本上，一律將 SIP 回應傳送回我們收到 SIP 要求的那個通訊埠。"
 
 #: ../core/views/trunks/trunk_header.php:327
 msgid "Force Trunk CID"
@@ -5654,7 +5654,7 @@ msgstr "強制執行 asterisk 停止前的掛鉤"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:290
 msgid "Force use of return port."
-msgstr "強制使用回傳連接埠。"
+msgstr "強制使用回傳通訊埠。"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:344
 msgid "Forced"
@@ -5927,7 +5927,7 @@ msgid ""
 "and plays a message to the effect. If you use the Early Dial feature on some "
 "Grandstream phones, you will want to set this to false."
 msgstr ""
-"產生 bad-number context（情境），用以攔截任何無效號碼或功能碼並播放相應訊息。若您在部分 Grandstream 話機上使用 Early Dial 功能，您會想要將此選項設為 false。"
+"產生 bad-number context（情境），用以攔截任何無效號碼或功能簡碼並播放相應訊息。若您在部分 Grandstream 話機上使用 Early Dial 功能，您會想要將此選項設為 false。"
 
 #: amp_conf/htdocs/admin/libraries/modulefunctions.class.php:2128
 msgid "Generating CSS..."
@@ -6059,7 +6059,7 @@ msgstr "HTTP 綁定位址"
 
 #: amp.i18n.php:46
 msgid "HTTP Bind Port"
-msgstr "HTTP 綁定連接埠"
+msgstr "HTTP 綁定通訊埠"
 
 #: amp.i18n.php:50
 msgid "HTTP Prefix"
@@ -6077,7 +6077,7 @@ msgstr "HTTPS 綁定位址"
 
 #: amp.i18n.php:56
 msgid "HTTPS Bind Port"
-msgstr "HTTPS 綁定連接埠"
+msgstr "HTTPS 綁定通訊埠"
 
 #: amp.i18n.php:60
 msgid "HTTPS Disable TLS1"
@@ -6836,7 +6836,7 @@ msgstr "介面"
 #: ../core/functions.inc/drivers/Sip.class.php:210
 #, php-format
 msgid "Interface %s with Port %s (%s)"
-msgstr "介面 %s，使用連接埠 %s（%s）"
+msgstr "介面 %s，使用通訊埠 %s（%s）"
 
 #: amp.i18n.php:354
 msgid "Internal Alert Info"
@@ -7204,7 +7204,7 @@ msgstr "MAC 位址"
 #: amp_conf/htdocs/admin/libraries/featurecodes.functions.php:74
 #, php-format
 msgid "MISSING FEATURE CODE %s:%s"
-msgstr "缺少功能碼 %s：%s"
+msgstr "缺少功能簡碼 %s：%s"
 
 #: ../core/functions.inc/drivers/PJSip.class.php:304
 msgid "MWI Subscription Type"
@@ -8590,7 +8590,7 @@ msgstr "電話離線時（例如軟體電話目前未開啟，或電話未插上
 
 #: amp.i18n.php:104
 msgid "Optional port for an Asterisk Manager Proxy"
-msgstr "Asterisk Manager Proxy 的選用連接埠"
+msgstr "Asterisk Manager Proxy 的選用通訊埠"
 
 #: amp.i18n.php:184
 msgid ""
@@ -8637,7 +8637,7 @@ msgid ""
 "in silence to the caller. The H and h options allow the in-Call disconnect "
 "feature code to function"
 msgstr ""
-"撥打內部通話或響鈴至內部電話時，要傳遞給 Asterisk Dial 指令的選項。這些選項記載於 Asterisk 文件中，此處僅描述其中一部分。預設選項 T 與 t 允許主叫與被叫使用者使用 ## 轉接通話。若「Disallow transfer features for inbound callers」設為「Yes」，則會對來電者移除 T 選項。r 選項可讓 Asterisk 對主叫電話產生回鈴音，某些電話需要此選項，有時在複雜的撥號計畫功能中也需要，否則主叫方可能會聽到靜音。H 與 h 選項可讓通話中斷線功能碼正常運作"
+"撥打內部通話或響鈴至內部電話時，要傳遞給 Asterisk Dial 指令的選項。這些選項記載於 Asterisk 文件中，此處僅描述其中一部分。預設選項 T 與 t 允許主叫與被叫使用者使用 ## 轉接通話。若「Disallow transfer features for inbound callers」設為「Yes」，則會對來電者移除 T 選項。r 選項可讓 Asterisk 對主叫電話產生回鈴音，某些電話需要此選項，有時在複雜的撥號計畫功能中也需要，否則主叫方可能會聽到靜音。H 與 h 選項可讓通話中斷線功能簡碼正常運作"
 
 #: amp.i18n.php:260
 #: ../core/install.php:477
@@ -9236,24 +9236,24 @@ msgstr "停止 Asterisk 的輪詢間隔"
 
 #: ../core/functions.inc/drivers/Sip.class.php:397
 msgid "Port"
-msgstr "連接埠"
+msgstr "通訊埠"
 
 #: ../core/functions.inc/drivers/Sip.class.php:208
 #, php-format
 msgid "Port %s (%s)"
-msgstr "連接埠 %s（%s）"
+msgstr "通訊埠 %s（%s）"
 
 #: amp.i18n.php:100
 msgid "Port for the Asterisk Manager"
-msgstr "Asterisk 管理介面的連接埠"
+msgstr "Asterisk 管理介面的通訊埠"
 
 #: amp.i18n.php:48
 msgid "Port to bind to. Default is 8088"
-msgstr "要綁定的連接埠。預設為 8088"
+msgstr "要綁定的通訊埠。預設為 8088"
 
 #: amp.i18n.php:58
 msgid "Port to bind to. Default is 8089"
-msgstr "要綁定的連接埠。預設為 8089"
+msgstr "要綁定的通訊埠。預設為 8089"
 
 #: amp.i18n.php:170
 #: ../core/install.php:428
@@ -9653,7 +9653,7 @@ msgstr "遠端 CDR 資料庫密碼"
 
 #: amp.i18n.php:572
 msgid "Remote CDR DB Port"
-msgstr "遠端 CDR 資料庫連接埠"
+msgstr "遠端 CDR 資料庫通訊埠"
 
 #: amp.i18n.php:576
 msgid "Remote CDR DB Table"
@@ -10015,11 +10015,11 @@ msgstr "SIP 伺服器位址。當「Registration」設定為「Receive」時，�
 
 #: ../core/views/trunks/pjsip.php:184
 msgid "SIP Server Port"
-msgstr "SIP 伺服器連接埠"
+msgstr "SIP 伺服器通訊埠"
 
 #: ../core/views/trunks/pjsip.php:192
 msgid "SIP Server Port. This is ignored when Registration is set to 'Receive'."
-msgstr "SIP 伺服器連接埠。當「Registration」設定為「Receive」時，此欄位將被忽略。"
+msgstr "SIP 伺服器通訊埠。當「Registration」設定為「Receive」時，此欄位將被忽略。"
 
 #: ../core/views/trunks/pjsip.php:718
 msgid ""
@@ -10411,7 +10411,7 @@ msgstr "設定儲存庫。-R Commercial -R Contributed"
 
 #: ../core/functions.inc.php:4985
 msgid "Set the initial/current Call Waiting state for this user's extension"
-msgstr "設定此使用者分機的初始／目前通話等待狀態"
+msgstr "設定此使用者分機的初始／目前話中插接狀態"
 
 #: amp.i18n.php:620
 msgid ""
@@ -11353,7 +11353,7 @@ msgstr "此分機的 DAHDI 通道號碼。"
 
 #: ../core/functions.inc/drivers/Dahdi.class.php:102
 msgid "The DAHDi channel number for this port."
-msgstr "此連接埠的 DAHDi 通道號碼。"
+msgstr "此通訊埠的 DAHDi 通道號碼。"
 
 #: ../core/views/dahdichandids/didForm.php:95
 msgid ""
@@ -13709,7 +13709,7 @@ msgstr ""
 msgid ""
 "When Enabled send back a call waiting tone when this user is called and is "
 "busy"
-msgstr "啟用後，當此使用者被呼叫且忙線時，會回傳來電等待提示音"
+msgstr "啟用後，當此使用者被呼叫且忙線時，會回傳話中插接提示音"
 
 #: amp.i18n.php:752
 msgid ""
@@ -13817,7 +13817,7 @@ msgid ""
 "When set to true, a beep is played instead of confirmation message when "
 "activating/de-activating: CallForward, CallWaiting, DayNight, DoNotDisturb "
 "and FindMeFollow."
-msgstr "設為 true 時，在啟用或停用「來電轉接、來電等待、日夜模式、勿打擾與追蹤我」時，將播放嗶聲而非確認訊息。"
+msgstr "設為 true 時，在啟用或停用「來電轉接、話中插接、日夜模式、勿打擾與跟隨」時，將播放嗶聲而非確認訊息。"
 
 #: amp.i18n.php:520
 msgid ""
@@ -14838,13 +14838,13 @@ msgstr "登出裝置。"
 #: ../core/views/trunks/misdn.php:20
 #: ../core/views/trunks/misdn.php:34
 msgid "mISDN Group/Port"
-msgstr "mISDN 群組／連接埠"
+msgstr "mISDN 群組／通訊埠"
 
 #: ../core/views/trunks/misdn.php:34
 msgid ""
 "mISDN channels are referenced either by a group name or channel number (use "
 "<i>mISDN Port Groups</i> to configure)."
-msgstr "mISDN 通道以群組名稱或通道編號參照（請使用 <i>mISDN 連接埠群組</i> 設定）。"
+msgstr "mISDN 通道以群組名稱或通道編號參照（請使用 <i>mISDN 通訊埠群組</i> 設定）。"
 
 #: ../core/views/routing/form.php:77
 #: ../core/views/trunks/trunk_footer.php:12

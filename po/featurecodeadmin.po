@@ -44,7 +44,7 @@ msgstr "指令 [%s] 無效！"
 
 #: views/view.main.list.php:135
 msgid "Custom feature codes"
-msgstr "自訂功能碼"
+msgstr "自訂功能簡碼"
 
 #: views/view.main.list.php:51
 msgid "Customize"
@@ -66,20 +66,20 @@ msgstr "全部展開"
 
 #: views/view.main.toolbar.php:5
 msgid "Feature Code Admin"
-msgstr "功能碼管理"
+msgstr "功能簡碼管理"
 
 #: views/view.main.list.php:84
 msgid "Feature Code Conflicts with other Extensions"
-msgstr "功能碼與其他分機衝突"
+msgstr "功能簡碼與其他分機衝突"
 
 #: Featurecodeadmin.class.php:340
 msgid "Feature Codes"
-msgstr "功能碼"
+msgstr "功能簡碼"
 
 #: Featurecodeadmin.class.php:477
 #, php-format
 msgid "Featurecode: %s (%s:%s)"
-msgstr "功能碼：%s（%s：%s）"
+msgstr "功能簡碼：%s（%s：%s）"
 
 #: Featurecodeadmin.class.php:67
 #, php-format
@@ -88,7 +88,7 @@ msgstr "找不到頁面（%s）！！！！"
 
 #: assets/js/featurecodeadmin.js:36
 msgid "Please enter a Feature Code or uncheck Customize"
-msgstr "請輸入功能碼，或取消勾選「自訂」"
+msgstr "請輸入功能簡碼，或取消勾選「自訂」"
 
 #: Featurecodeadmin.class.php:80
 msgid "Reset"
@@ -102,4 +102,4 @@ msgstr "送出"
 msgid ""
 "You have feature code conflicts with extension numbers in other modules. "
 "This will result in unexpected and broken behavior."
-msgstr "您的功能碼與其他模組中的分機號碼衝突。這將導致非預期且故障的行為。"
+msgstr "您的功能簡碼與其他模組中的分機號碼衝突。這將導致非預期且故障的行為。"

@@ -921,7 +921,7 @@ msgid ""
 "thread can be spawned for the submission of every batch. For small batches, "
 "it might be acceptable to just use the scheduler thread, so set this to "
 msgstr ""
-"CDR 引擎使用內部 Asterisk 排程器來決定何時傳送記錄。傳送可在排程器執行緒內完成，或可為每次批次提交產生新執行緒。對於小型批次，使用排程器執行緒可能已可接受，因此請將此設為 "
+"CDR 引擎使用內部 Asterisk 排程器來決定何時傳送記錄。傳送可在排程器執行緒內完成，或可為每次批次送出產生新執行緒。對於小型批次，使用排程器執行緒可能已可接受，因此請將此設為 "
 
 #: Api/Gql/Cdr.php:197
 #: Api/Gql/Cdr.php:393
@@ -1126,7 +1126,7 @@ msgid ""
 "submission of CDR data during asterisk shutdown, set this to 'yes'. Default "
 "is 'no'."
 msgstr ""
-"關閉 Asterisk 時，您可以等待直到 CDR 送出完成。若不等待，資料很可能會遺失。您隨時可透過 CLI 的 'cdr status 命令' 檢查 CDR 批次緩衝區的大小。若要在 Asterisk 關機期間啟用 CDR 資料提交的阻擋功能，請將此設為 'yes'。預設值為 'no'。"
+"關閉 Asterisk 時，您可以等待直到 CDR 送出完成。若不等待，資料很可能會遺失。您隨時可透過 CLI 的 'cdr status 命令' 檢查 CDR 批次緩衝區的大小。若要在 Asterisk 關機期間啟用 CDR 資料送出的阻擋功能，請將此設為 'yes'。預設值為 'no'。"
 
 #: views/ucp_config.php:13
 #: views/ucp_config.php:70

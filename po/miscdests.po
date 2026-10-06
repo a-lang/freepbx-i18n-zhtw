@@ -34,7 +34,7 @@ msgid ""
 "Allows creating destinations that dial any local number (extensions, feature "
 "codes, outside phone numbers) that can be used by other modules (eg, IVR, "
 "time conditions) as a call destination."
-msgstr "允許建立可撥叫任何本地號碼（分機、功能碼、外部電話號碼）的目的地，供其他模組（如 IVR、時間條件）作為撥號目的地使用。"
+msgstr "允許建立可撥叫任何本地號碼（分機、功能簡碼、外部電話號碼）的目的地，供其他模組（如 IVR、時間條件）作為撥號目的地使用。"
 
 #: miscdests.i18n.php:6
 msgid "Applications"
@@ -84,7 +84,7 @@ msgid ""
 "configured such a destination, it will still work but the Feature Code short "
 "cuts select list is not longer provided.<br/><br/>"
 msgstr ""
-"如果您需要存取功能碼，例如 *98 來撥打語音信箱或切換時間條件，這些目的地現在會作為功能碼管理員目的地提供。為了升級相容性，若您之前已設定此類目的地，它們仍可繼續使用，但不再提供功能碼捷徑選取清單。<br/><br/>"
+"如果您需要存取功能簡碼，例如 *98 來撥打語音信箱或切換時間條件，這些目的地現在會作為功能簡碼管理員目的地提供。為了升級相容性，若您之前已設定此類目的地，它們仍可繼續使用，但不再提供功能簡碼捷徑選取清單。<br/><br/>"
 
 #: views/bootnav.php:2
 msgid "List Misc Destinations"
@@ -113,7 +113,7 @@ msgid ""
 "create feature codes that can be dialed by internal users and go to various "
 "destinations, please see the <strong>Misc Applications</strong> module."
 msgstr ""
-"雜項目的地用於新增可供其他 FreePBX 模組使用的目的地，通常用來路由來電。如果您想建立可由內部使用者撥打並前往各個目的地的功能碼，請參閱 <strong>雜項應用程式</strong> 模組。"
+"雜項目的地用於新增可供其他 FreePBX 模組使用的目的地，通常用來路由來電。如果您想建立可由內部使用者撥打並前往各個目的地的功能簡碼，請參閱 <strong>雜項應用程式</strong> 模組。"
 
 #: assets/js/miscdests.js:11
 msgid "Please enter a valid Description"

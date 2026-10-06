@@ -60,7 +60,7 @@ msgstr "新增"
 
 #: views/view.wakeup.grid.php:38
 msgid "Add new Wakeup Call"
-msgstr "新增叫醒電話"
+msgstr "新增電話叫醒"
 
 #: hotelwakeup.i18n.php:6
 msgid "Applications"
@@ -88,7 +88,7 @@ msgid ""
 "also use the format: \"hidden\" <b>&lt;#######&gt;</b> to hide the CallerID "
 "sent out over Digital lines if supported (E1/T1/J1/BRI/SIP/IAX)"
 msgstr ""
-"叫醒電話的來電顯示<br><br>格式：<b>&lt;#######&gt;</b>。您也可以使用 \"hidden\" <b>&lt;#######&gt;</b> 格式，在支援的數位線路（E1/T1/J1/BRI/SIP/IAX）上隱藏送出的來電顯示"
+"電話叫醒的來電顯示<br><br>格式：<b>&lt;#######&gt;</b>。您也可以使用 \"hidden\" <b>&lt;#######&gt;</b> 格式，在支援的數位線路（E1/T1/J1/BRI/SIP/IAX）上隱藏送出的來電顯示"
 
 #: views/view.wakeup.grid.create.php:236
 msgid "Calling language"
@@ -134,7 +134,7 @@ msgstr "檢查中..."
 
 #: views/view.wakeup.grid.create.php:108
 msgid "Choose how you want to repeat the wakeup call"
-msgstr "選擇您要如何重複叫醒電話"
+msgstr "選擇您要如何重複電話叫醒"
 
 #: Hotelwakeup.class.php:633
 msgid "Command not found!"
@@ -146,7 +146,7 @@ msgstr "確認通話"
 
 #: views/view.settings.message.edit.php:119
 msgid "Confirmation of Wake-Up Call Delay"
-msgstr "叫醒電話延遲確認"
+msgstr "電話叫醒延遲確認"
 
 #: views/view.wakeup.grid.create.php:97
 msgid "Consecutive Days"
@@ -195,7 +195,7 @@ msgstr "要呼叫的目的地"
 
 #: views/view.settings.message.edit.php:94
 msgid "Empty Wake Up Call List"
-msgstr "叫醒電話清單為空"
+msgstr "電話叫醒清單為空"
 
 #: views/view.wakeup.grid.create.php:54
 msgid "Enable repeat options"
@@ -203,7 +203,7 @@ msgstr "啟用重複選項"
 
 #: views/view.wakeup.grid.create.php:62
 msgid "Enable to repeat the wakeup call on multiple days"
-msgstr "啟用以在多天重複叫醒電話"
+msgstr "啟用以在多天重複電話叫醒"
 
 #: views/view.wakeup.grid.create.php:204
 msgid "End Date"
@@ -228,11 +228,11 @@ msgid ""
 "allowed to create wakeup calls for any valid destination. Numbers can be "
 "extension numbers, full caller ID numbers or Asterisk dialing patterns"
 msgstr ""
-"輸入您希望被辨識為「總機」的每支電話來電顯示（以逗號 ###,### 分隔）。總機分機可為任何有效目的地建立叫醒電話。號碼可以是分機號碼、完整來電顯示號碼或 Asterisk 撥號模式"
+"輸入您希望被辨識為「總機」的每支電話來電顯示（以逗號 ###,### 分隔）。總機分機可為任何有效目的地建立電話叫醒。號碼可以是分機號碼、完整來電顯示號碼或 Asterisk 撥號模式"
 
 #: Hotelwakeup.class.php:719
 msgid "Error creating repeat wakeup calls: "
-msgstr "建立重複叫醒電話時發生錯誤："
+msgstr "建立重複電話叫醒時發生錯誤："
 
 #: Hotelwakeup.class.php:521
 msgid "File not found!"
@@ -240,11 +240,11 @@ msgstr "找不到檔案！"
 
 #: views/view.wakeup.grid.create.php:128
 msgid "First day to start the wakeup calls"
-msgstr "開始叫醒電話的第一天"
+msgstr "開始電話叫醒的第一天"
 
 #: hotelwakeup.i18n.php:8
 msgid "FreePBX module for generating reminder and wakeup calls"
-msgstr "用於產生提醒與叫醒電話的 FreePBX 模組"
+msgstr "用於產生提醒與電話叫醒的 FreePBX 模組"
 
 #: views/view.wakeup.grid.create.php:178
 msgid "Friday"
@@ -257,14 +257,14 @@ msgstr "全域"
 #: views/page.settings.php:64
 #: views/page.wakeup.php:1
 msgid "Hotel Style Wakeup Calls"
-msgstr "飯店式叫醒電話"
+msgstr "飯店式電話叫醒"
 
 #: views/view.settings.settings.php:195
 msgid ""
 "Interval, in minutes, between the times offered in the Time dropdown of the "
 "Add/Edit Wakeup Call form. Typing an exact time is always possible "
 "regardless of this setting."
-msgstr "新增/編輯叫醒電話表單的「時間」下拉選單中，所提供時間之間的分鐘間隔。無論此設定為何，一律可以直接輸入確切時間。"
+msgstr "新增/編輯電話叫醒表單的「時間」下拉選單中，所提供時間之間的分鐘間隔。無論此設定為何，一律可以直接輸入確切時間。"
 
 #: views/view.settings.message.edit.php:54
 msgid "Invalid Dialing"
@@ -286,7 +286,7 @@ msgstr "語言"
 
 #: views/view.wakeup.grid.create.php:214
 msgid "Last day to repeat the wakeup call"
-msgstr "重複叫醒電話的最後一天"
+msgstr "重複電話叫醒的最後一天"
 
 #: Hotelwakeup.class.php:510
 #: views/view.settings.settings.php:42
@@ -309,25 +309,25 @@ msgstr "詢問總機分機號碼的訊息。"
 #: views/view.settings.message.edit.php:120
 msgid ""
 "Message confirming that the wake-up call will be repeated in {delay} minutes."
-msgstr "確認叫醒電話將在 {delay} 分鐘後重複的訊息。"
+msgstr "確認電話叫醒將在 {delay} 分鐘後重複的訊息。"
 
 #: views/view.settings.message.edit.php:110
 msgid "Message informing that the wake-up call has been canceled."
-msgstr "通知叫醒電話已取消的訊息。"
+msgstr "通知電話叫醒已取消的訊息。"
 
 #: views/view.settings.message.edit.php:85
 msgid ""
 "Message informing that the wake-up call has been created successfully "
 "({time})."
-msgstr "通知叫醒電話已成功建立（{time}）的訊息。"
+msgstr "通知電話叫醒已成功建立（{time}）的訊息。"
 
 #: views/view.settings.message.edit.php:95
 msgid "Message informing you that you have no wake-up call created."
-msgstr "通知您尚未建立任何叫醒電話的訊息。"
+msgstr "通知您尚未建立任何電話叫醒的訊息。"
 
 #: views/view.settings.message.edit.php:75
 msgid "Message requesting the data to create the wake-up call."
-msgstr "要求建立叫醒電話所需資料的訊息。"
+msgstr "要求建立電話叫醒所需資料的訊息。"
 
 #: Hotelwakeup.class.php:948
 msgid "Message setting cleared successfully"
@@ -368,7 +368,7 @@ msgstr "通知所選操作無效的訊息。"
 msgid ""
 "Message that informs the number of wake-up calls ({count}) that it has "
 "created."
-msgstr "通知已建立的叫醒電話數（{count}）的訊息。"
+msgstr "通知已建立的電話叫醒數（{count}）的訊息。"
 
 #: views/view.settings.message.edit.php:65
 msgid ""
@@ -383,7 +383,7 @@ msgid ""
 "number occupied by the call in the list and {time} for the date and time of "
 "the call."
 msgstr ""
-"當我們按一下清單選項時，通知我們每個已建立叫醒電話詳細資料的訊息。<br> 可用值：{number} 為通話在清單中佔用的號碼，{time} 為通話的日期與時間。"
+"當我們按一下清單選項時，通知我們每個已建立電話叫醒詳細資料的訊息。<br> 可用值：{number} 為通話在清單中佔用的號碼，{time} 為通話的日期與時間。"
 
 #: views/view.settings.message.edit.php:45
 msgid "Message to inform that you retry the operation."
@@ -431,11 +431,11 @@ msgstr "天數"
 
 #: views/view.settings.message.edit.php:89
 msgid "Number of Wake Up Calls in List"
-msgstr "清單中的叫醒電話數"
+msgstr "清單中的電話叫醒數"
 
 #: views/view.wakeup.grid.create.php:150
 msgid "Number of consecutive days to repeat the wakeup call (max 365)"
-msgstr "重複叫醒電話的連續天數（最多 365 天）"
+msgstr "重複電話叫醒的連續天數（最多 365 天）"
 
 #: assets/js/views/wakeup.js:142
 msgid "Number of days must be between 1 and 365"
@@ -464,7 +464,7 @@ msgstr "選項選單"
 
 #: views/view.settings.message.edit.php:104
 msgid "Options Menu in List of Created Wake-Up Calls"
-msgstr "已建立叫醒電話清單中的選項選單"
+msgstr "已建立電話叫醒清單中的選項選單"
 
 #: Hotelwakeup.class.php:1097
 #, php-format
@@ -478,7 +478,7 @@ msgstr "不支援路徑名稱（%s）！"
 
 #: Api/Rest/Hotelwakeup.php:12
 msgid "Read Wake Up Call settings"
-msgstr "讀取叫醒電話設定"
+msgstr "讀取電話叫醒設定"
 
 #: Hotelwakeup.class.php:271
 msgid "Reload"
@@ -537,7 +537,7 @@ msgstr "選擇語言"
 
 #: views/view.wakeup.grid.create.php:194
 msgid "Select which days of the week to repeat the wakeup call"
-msgstr "選擇要重複叫醒電話的每週星期幾"
+msgstr "選擇要重複電話叫醒的每週星期幾"
 
 #: views/view.wakeup.grid.php:8
 msgid "Server time"
@@ -561,7 +561,7 @@ msgstr "設定已成功儲存"
 
 #: views/view.settings.message.edit.php:114
 msgid "Snooze Wake-Up Call"
-msgstr "貪睡叫醒電話"
+msgstr "貪睡電話叫醒"
 
 #: views/view.settings.message.list.php:3
 msgid "Sound Languages"
@@ -590,7 +590,7 @@ msgstr "已成功建立"
 #: Hotelwakeup.class.php:717
 #, php-format
 msgid "Successfully scheduled %d wakeup calls"
-msgstr "已成功排定 %d 個叫醒電話"
+msgstr "已成功排定 %d 個電話叫醒"
 
 #: views/view.wakeup.grid.create.php:184
 msgid "Sunday"
@@ -604,19 +604,19 @@ msgstr "下列檔案不存在："
 msgid ""
 "The maximum number of times the system should attempt to deliver the wakeup "
 "call when there is no answer. Zero retries means only one call will be placed"
-msgstr "無人接聽時，系統嘗試送出叫醒電話的最多次數。零次重試表示只會撥打一通電話"
+msgstr "無人接聽時，系統嘗試送出電話叫醒的最多次數。零次重試表示只會撥打一通電話"
 
 #: views/view.settings.settings.php:109
 msgid ""
 "The number of seconds for the phone to ring. Consider setting lower than the "
 "voicemail threshold or the wakeup call can end up going to voicemail"
-msgstr "電話響鈴的秒數。建議設為低於語音信箱門檻，否則叫醒電話最後可能會轉入語音信箱"
+msgstr "電話響鈴的秒數。建議設為低於語音信箱門檻，否則電話叫醒最後可能會轉入語音信箱"
 
 #: views/view.settings.settings.php:136
 msgid ""
 "The number of seconds to wait between retrys.  A \"retry\" happens if the "
 "wakeup call is not answered"
-msgstr "重試之間等待的秒數。若叫醒電話未被接聽，就會發生「重試」"
+msgstr "重試之間等待的秒數。若電話叫醒未被接聽，就會發生「重試」"
 
 #: Hotelwakeup.class.php:647
 msgid "The specified language is not available!"
@@ -630,7 +630,7 @@ msgstr "指定的訊息不存在！"
 msgid ""
 "This controls the maximum number of digits an operator can send a wakeup "
 "call to. Set to 10 or 11 to allow wake up calls to outside numbers"
-msgstr "這控制總機可將叫醒電話送往的號碼最大位數。設為 10 或 11 可允許叫醒電話撥打至外線號碼"
+msgstr "這控制總機可將電話叫醒送往的號碼最大位數。設為 10 或 11 可允許電話叫醒撥打至外線號碼"
 
 #: views/view.wakeup.grid.create.php:175
 msgid "Thursday"
@@ -669,46 +669,46 @@ msgstr "等待目前播放結束。"
 
 #: views/view.settings.message.edit.php:109
 msgid "Wake Up Call Canceled"
-msgstr "叫醒電話已取消"
+msgstr "電話叫醒已取消"
 
 #: views/view.settings.message.edit.php:14
 msgid "Wake Up Call Creation"
-msgstr "建立叫醒電話"
+msgstr "建立電話叫醒"
 
 #: views/view.settings.message.edit.php:99
 msgid "Wake Up Call Information"
-msgstr "叫醒電話資訊"
+msgstr "電話叫醒資訊"
 
 #: Hotelwakeup.class.php:514
 #: views/view.settings.settings.php:209
 msgid "Wake Up Caller ID"
-msgstr "叫醒電話來電顯示"
+msgstr "電話叫醒來電顯示"
 
 #: hotelwakeup.i18n.php:4
 #: hotelwakeup.i18n.php:10
 msgid "Wake Up Calls"
-msgstr "叫醒電話"
+msgstr "電話叫醒"
 
 #: hotelwakeup.i18n.php:12
 msgid "Wake Up Calls Settings"
-msgstr "叫醒電話設定"
+msgstr "電話叫醒設定"
 
 #: views/page.wakeup.php:6
 #, php-format
 msgid ""
 "Wake Up calls can be used to schedule a reminder or wakeup call to any valid "
 "destination. To schedule a call, dial %s or use the form below"
-msgstr "叫醒電話可用來對任何有效目的地排定提醒或叫醒電話。若要排定通話，請撥打 %s 或使用下方表單"
+msgstr "電話叫醒可用來對任何有效目的地排定提醒或電話叫醒。若要排定通話，請撥打 %s 或使用下方表單"
 
 #: Hotelwakeup.class.php:774
 msgid "Wake up call does not exist!"
-msgstr "叫醒電話不存在！"
+msgstr "電話叫醒不存在！"
 
 #: views/view.settings.message.edit.php:70
 msgid ""
 "Wake up call service menu options message. Key 1 to create call and key 2 "
 "for list of created calls."
-msgstr "叫醒電話服務選單選項訊息。按鍵 1 建立通話，按鍵 2 顯示已建立的通話清單。"
+msgstr "電話叫醒服務選單選項訊息。按鍵 1 建立通話，按鍵 2 顯示已建立的通話清單。"
 
 #: views/view.settings.settings.php:177
 msgid "Wakeup Time Step"
@@ -733,14 +733,14 @@ msgstr "星期幾"
 
 #: views/page.wakeup.php:6
 msgid "What is Hotel Style Wakeup Calls?"
-msgstr "什麼是飯店式叫醒電話？"
+msgstr "什麼是飯店式電話叫醒？"
 
 #: views/view.settings.settings.php:28
 msgid ""
 "When Operator Mode is enabled it will allow designated extentions to create "
 "wake up calls for any valid destination. If disabled calls can only be "
 "placed back to the caller ID of the user scheduling the wakeup call"
-msgstr "啟用總機模式時，指定的分機可為任何有效目的地建立叫醒電話。停用時，通話只能撥回排定叫醒電話之使用者的來電顯示"
+msgstr "啟用總機模式時，指定的分機可為任何有效目的地建立電話叫醒。停用時，通話只能撥回排定電話叫醒之使用者的來電顯示"
 
 #: views/view.settings.message.edit.php:133
 msgid "Wildcards"
@@ -748,7 +748,7 @@ msgstr "萬用字元"
 
 #: Api/Rest/Hotelwakeup.php:15
 msgid "Write Wake Up Call settings"
-msgstr "寫入叫醒電話設定"
+msgstr "寫入電話叫醒設定"
 
 #: views/view.settings.settings.php:16
 msgid "Yes"

@@ -138,7 +138,7 @@ msgstr "勾選您要將此系統錄音編碼為的所有檔案格式"
 msgid ""
 "Check this box to create an options feature code that will allow this "
 "recording to be changed directly."
-msgstr "勾選此方塊以建立選項功能碼，讓此錄音可以直接變更。"
+msgstr "勾選此方塊以建立選項功能簡碼，讓此錄音可以直接變更。"
 
 #: views/form-Scribe.php:58
 msgid "Choose a human voice from the available options."
@@ -316,17 +316,17 @@ msgstr "寫入檔案至磁碟失敗"
 
 #: views/form.php:350
 msgid "Feature Code Password"
-msgstr "功能碼密碼"
+msgstr "功能簡碼密碼"
 
 #: Api/Gql/Recordings.php:146
 #: Api/Gql/Recordings.php:228
 msgid "Feature code"
-msgstr "功能碼"
+msgstr "功能簡碼"
 
 #: Api/Gql/Recordings.php:150
 #: Api/Gql/Recordings.php:232
 msgid "Feature code password"
-msgstr "功能碼密碼"
+msgstr "功能簡碼密碼"
 
 #: Api/Gql/Recordings.php:68
 msgid "File Converted succefully"
@@ -444,7 +444,7 @@ msgstr "錄音檔案的語言"
 
 #: views/form.php:322
 msgid "Link to Feature Code"
-msgstr "連結至功能碼"
+msgstr "連結至功能簡碼"
 
 #: views/bnav.php:6
 msgid "List Recordings"
@@ -549,13 +549,13 @@ msgstr "OpenAI"
 #: views/form.php:332
 #, php-format
 msgid "Optional Feature Code %s"
-msgstr "選用功能碼 %s"
+msgstr "選用功能簡碼 %s"
 
 #: views/form.php:358
 msgid ""
 "Optional password to protect access to this feature code which allows a user "
 "to re-record it."
-msgstr "選用的密碼，用於保護對此功能碼的存取，讓使用者可以重新錄音。"
+msgstr "選用的密碼，用於保護對此功能簡碼的存取，讓使用者可以重新錄音。"
 
 #: functions.inc.php:248
 #, php-format

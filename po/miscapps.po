@@ -36,7 +36,7 @@ msgstr "新增雜項應用程式"
 msgid ""
 "Adds the ability to create feature codes that can go to any FreePBX "
 "destination (such as an IVR or queue)"
-msgstr "新增建立可通往任何 FreePBX 目的地（如 IVR 或佇列）的功能碼的能力"
+msgstr "新增建立可通往任何 FreePBX 目的地（如 IVR 或佇列）的功能簡碼的能力"
 
 #: miscapps.i18n.php:6
 msgid "Applications"
@@ -44,7 +44,7 @@ msgstr "應用程式"
 
 #: views/form.php:107
 msgid "Choose the destination for this app when people dial the feature code"
-msgstr "當使用者撥打功能碼時，選擇此應用程式的目的地"
+msgstr "當使用者撥打功能簡碼時，選擇此應用程式的目的地"
 
 #: Miscapps.class.php:95
 msgid "Delete"
@@ -78,7 +78,7 @@ msgstr "分機"
 
 #: views/form.php:71
 msgid "Feature Code"
-msgstr "功能碼"
+msgstr "功能簡碼"
 
 #: assets/js/miscapps.js:6
 msgid "Invalid description specified"
@@ -110,7 +110,7 @@ msgstr "否"
 
 #: assets/js/miscapps.js:36
 msgid "Please enter a valid Feature Code."
-msgstr "請輸入有效的功能碼。"
+msgstr "請輸入有效的功能簡碼。"
 
 #: Miscapps.class.php:100
 msgid "Reset"
@@ -124,7 +124,7 @@ msgstr "送出"
 msgid ""
 "The feature code/extension users can dial to access this application. This "
 "can also be modified on the Feature Codes page."
-msgstr "使用者可以撥打功能碼/分機來存取此應用程式。也可以在功能碼頁面修改。"
+msgstr "使用者可以撥打功能簡碼/分機來存取此應用程式。也可以在功能簡碼頁面修改。"
 
 #: views/form.php:59
 msgid "The name of this application"
@@ -132,7 +132,7 @@ msgstr "此應用程式的名稱"
 
 #: assets/js/miscapps.js:44
 msgid "The number provided for the feature code is already in use by "
-msgstr "功能碼提供的號碼已被使用中，由"
+msgstr "功能簡碼提供的號碼已被使用中，由"
 
 #: views/form.php:75
 msgid "This field is required."

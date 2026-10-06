@@ -506,7 +506,7 @@ msgstr "路徑支援參數替代，例如下列範例"
 #: drivers/FTP/views/form.php:95
 #: drivers/SSH/views/form.php:133
 msgid "Port"
-msgstr "連接埠"
+msgstr "通訊埠"
 
 #: drivers/Local/views/form.php:72
 msgid "Provide the name for this File Store"

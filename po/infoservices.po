@@ -53,7 +53,7 @@ msgid ""
 "Provides a number of applications accessible by feature codes: company "
 "directory, call trace (last call information), echo test, speaking clock, "
 "and speak current extension number."
-msgstr "提供多項可透過功能碼存取的應用程式：公司目錄、來電追蹤（上一通來電資訊）、回音測試、報時服務，以及播報目前分機號碼。"
+msgstr "提供多項可透過功能簡碼存取的應用程式：公司目錄、來電追蹤（上一通來電資訊）、回音測試、報時服務，以及播報目前分機號碼。"
 
 #: functions.inc.php:285
 msgid "Speak Extension"
